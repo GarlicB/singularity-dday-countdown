@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T12:31:27.545Z",
-  "generatedAtKst": "2026. 07. 05. 21:31",
+  "generatedAt": "2026-07-05T12:37:44.328Z",
+  "generatedAtKst": "2026. 07. 05. 21:37",
   "nextUpdateAt": "2026-07-05T15:00:00.000Z",
   "nextUpdateAtKst": "2026. 07. 06. 00:00",
   "timezone": "Asia/Seoul",
@@ -25,9 +25,9 @@
     "score": 75,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 42,
+    "hotCount": 41,
     "coldCount": 5,
-    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 41건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -366,29 +366,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.2,
       "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "what were your “oh shit” moments in AI?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1unavps/what_were_your_oh_shit_moments_in_ai/",
-          "publishedAt": "2026-07-04T14:45:27.000Z",
-          "publishedAtKst": "2026. 07. 04. 23:45",
-          "summary": "Mine: GPT-4: proving pretraining and scaling worked Claude 3.5 Sonnet: proved agentic coding is the future o1: proved test time compute worked o3: one of my biggest oh shit moments along with GPT-4, proved test time comp",
-          "impact": 26,
-          "confidence": 57,
+          "title": "Question regarding Xournal++ and software 4 taking university notes during class [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1unzaxg/question_regarding_xournal_and_software_4_taking/",
+          "publishedAt": "2026-07-05T11:00:12.000Z",
+          "publishedAtKst": "2026. 07. 05. 20:00",
+          "summary": "Hi. I have a question, could this plan and pipeline work?. I will be attending university master's classes on AI (thankfully got accepted a few days ago) and computers in a few months. There will be university lectures o",
+          "impact": 25,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
+            "ChatGPT",
             "GPT",
-            "Claude",
-            "모델"
+            "로보틱스",
+            "컴퓨트"
           ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How to benchmark persistent repo memory for coding agents",
@@ -424,22 +424,6 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "T3MP3ST autonomous red team platform multi-agent offensive-security meta-harness",
-          "source": "Hacker News",
-          "url": "https://github.com/elder-plinius/T3MP3ST",
-          "publishedAt": "2026-07-05T11:46:13.000Z",
-          "publishedAtKst": "2026. 07. 05. 20:46",
-          "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
           "source": "Hacker News",
           "url": "https://senior-swe-bench.snorkel.ai/",
@@ -447,7 +431,7 @@
           "publishedAtKst": "2026. 07. 02. 11:55",
           "summary": "182 points, 115 comments",
           "impact": 17,
-          "confidence": 52,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -455,17 +439,33 @@
             "코딩 성능"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Routing24 – free route optimization agent for Claude Cowork/WebMCP",
+          "source": "Hacker News",
+          "url": "https://github.com/routing24/skill",
+          "publishedAt": "2026-07-04T16:43:39.000Z",
+          "publishedAtKst": "2026. 07. 05. 01:43",
+          "summary": "4 points, 0 comments",
+          "impact": 15,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "what were your “oh shit” moments in AI?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1unavps/what_were_your_oh_shit_moments_in_ai/",
-      "impact": 26,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Question regarding Xournal++ and software 4 taking university notes during class [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unzaxg/question_regarding_xournal_and_software_4_taking/",
+      "impact": 25,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Pragmatic FDT, and predictors as game theory",
