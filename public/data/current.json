@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-05T16:00:47.621Z",
-  "generatedAtKst": "2026. 07. 06. 01:00",
-  "nextUpdateAt": "2026-07-05T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 06. 06:00",
+  "generatedAt": "2026-07-05T21:52:28.727Z",
+  "generatedAtKst": "2026. 07. 06. 06:52",
+  "nextUpdateAt": "2026-07-06T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 06. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 73,
     "temperature": 51,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 38,
+    "hotCount": 36,
     "coldCount": 5,
-    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -175,8 +175,8 @@
           "publishedAt": "2026-07-03T13:22:38.000Z",
           "publishedAtKst": "2026. 07. 03. 22:22",
           "summary": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with ",
-          "impact": 23,
-          "confidence": 80,
+          "impact": 22,
+          "confidence": 79,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -264,10 +264,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 89,
+      "confidence": 87,
       "trend": "hot",
       "items": [
         {
@@ -277,8 +277,8 @@
           "publishedAt": "2026-07-02T17:58:52.000Z",
           "publishedAtKst": "2026. 07. 03. 02:58",
           "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken u",
-          "impact": 23,
-          "confidence": 88,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -295,7 +295,7 @@
           "publishedAt": "2026-07-02T17:59:56.000Z",
           "publishedAtKst": "2026. 07. 03. 02:59",
           "summary": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can ",
-          "impact": 22,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -313,8 +313,8 @@
           "publishedAt": "2026-07-02T17:01:47.000Z",
           "publishedAtKst": "2026. 07. 03. 02:01",
           "summary": "Scalable and reliable grading of command-line examinations remains a challenge in computing education, where rising enrolments make manual marking difficult and rule-based autograders cannot handle partial credit, equiva",
-          "impact": 21,
-          "confidence": 89,
+          "impact": 20,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -325,32 +325,14 @@
           "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02469v1",
-          "publishedAt": "2026-07-02T17:35:20.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:35",
-          "summary": "Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior. Yet existing test generation and update benchmarks often isolate the test from the ",
-          "impact": 20,
-          "confidence": 88,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini",
-            "Claude",
-            "모델"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.02502v1",
           "publishedAt": "2026-07-02T17:58:29.000Z",
           "publishedAtKst": "2026. 07. 03. 02:58",
           "summary": "On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different levels of information",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -359,6 +341,24 @@
             "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.02469v1",
+          "publishedAt": "2026-07-02T17:35:20.000Z",
+          "publishedAtKst": "2026. 07. 03. 02:35",
+          "summary": "Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior. Yet existing test generation and update benchmarks often isolate the test from the ",
+          "impact": 18,
+          "confidence": 86,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini",
+            "Claude",
+            "모델"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,10 +366,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 71,
+      "score": 70,
       "delta": 5,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
@@ -379,8 +379,8 @@
           "publishedAt": "2026-07-04T14:03:59.000Z",
           "publishedAtKst": "2026. 07. 04. 23:03",
           "summary": "2 points, 1 comments",
-          "impact": 20,
-          "confidence": 60,
+          "impact": 19,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -395,9 +395,9 @@
           "url": "https://senior-swe-bench.snorkel.ai/",
           "publishedAt": "2026-07-02T02:55:16.000Z",
           "publishedAtKst": "2026. 07. 02. 11:55",
-          "summary": "182 points, 115 comments",
-          "impact": 16,
-          "confidence": 50,
+          "summary": "183 points, 116 comments",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -414,7 +414,7 @@
           "publishedAtKst": "2026. 07. 05. 01:43",
           "summary": "4 points, 0 comments",
           "impact": 14,
-          "confidence": 56,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -428,9 +428,9 @@
           "url": "https://news.ycombinator.com/item?id=48771515",
           "publishedAt": "2026-07-03T06:21:44.000Z",
           "publishedAtKst": "2026. 07. 03. 15:21",
-          "summary": "190 points, 192 comments",
-          "impact": 14,
-          "confidence": 50,
+          "summary": "194 points, 194 comments",
+          "impact": 13,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "LLM"
@@ -438,17 +438,17 @@
           "why": "LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Autonomous flying umbrella follows and shields users from rain and sunlight",
+          "title": "OpenAI is fast-tracking its own \"AI Agent Phone\" for 2027 to challenge iPhone",
           "source": "Hacker News",
-          "url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026/",
-          "publishedAt": "2026-07-05T15:49:18.000Z",
-          "publishedAtKst": "2026. 07. 06. 00:49",
-          "summary": "2 points, 0 comments",
+          "url": "https://old.reddit.com/r/OpenAI/comments/1unbqyd/openai_is_fasttracking_its_own_ai_agent_phone_for/",
+          "publishedAt": "2026-07-05T20:41:35.000Z",
+          "publishedAtKst": "2026. 07. 06. 05:41",
+          "summary": "5 points, 2 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "자율성"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -460,21 +460,21 @@
       "title": "Pragmatic FDT, and predictors as game theory",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
-      "impact": 23,
+      "impact": 22,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.02504v1",
-      "impact": 23,
+      "impact": 21,
       "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Distributed Attacks in Persistent-State AI Control",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.02514v1",
-      "impact": 22,
+      "impact": 20,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -487,18 +487,18 @@
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Towards Robustness against Typographic Attack with Training-free Concept Localization",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.02494v1",
-      "impact": 2,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "The distillation panic",
       "source": "Interconnects",
       "url": "https://www.interconnects.ai/p/the-distillation-panic",
       "impact": 3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Towards Robustness against Typographic Attack with Training-free Concept Localization",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.02494v1",
+      "impact": 3,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
