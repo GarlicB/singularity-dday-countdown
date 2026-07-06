@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T17:35:06.356Z",
-  "generatedAtKst": "2026. 07. 07. 02:35",
-  "nextUpdateAt": "2026-07-06T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 07. 06:00",
+  "generatedAt": "2026-07-06T22:06:03.220Z",
+  "generatedAtKst": "2026. 07. 07. 07:06",
+  "nextUpdateAt": "2026-07-07T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 07. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -13,8 +13,8 @@
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
     "medianDate": "2033-03-02",
-    "rangeStart": "2027-01-03",
-    "rangeEnd": "2039-04-30",
+    "rangeStart": "2027-03-14",
+    "rangeEnd": "2039-02-19",
     "dday": 2431,
     "confidence": 76,
     "deltaDays": -34,
@@ -25,9 +25,9 @@
     "score": 73,
     "temperature": 51,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 26,
-    "coldCount": 5,
-    "summary": "가속 신호 26건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 25,
+    "coldCount": 6,
+    "summary": "가속 신호 25건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -162,30 +162,12 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.18,
       "confidence": 78,
       "trend": "hot",
       "items": [
-        {
-          "title": "Pragmatic FDT, and predictors as game theory",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
-          "publishedAt": "2026-07-03T13:22:38.000Z",
-          "publishedAtKst": "2026. 07. 03. 22:22",
-          "summary": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with ",
-          "impact": 17,
-          "confidence": 72,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "The Case for Model Forensics",
           "source": "Alignment Forum",
@@ -203,6 +185,24 @@
             "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Pragmatic FDT, and predictors as game theory",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
+          "publishedAt": "2026-07-03T13:22:38.000Z",
+          "publishedAtKst": "2026. 07. 03. 22:22",
+          "summary": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with ",
+          "impact": 16,
+          "confidence": 72,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
@@ -271,24 +271,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02504v1",
-          "publishedAt": "2026-07-02T17:58:52.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:58",
-          "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken u",
-          "impact": 15,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Distributed Attacks in Persistent-State AI Control",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.02514v1",
@@ -305,6 +287,24 @@
             "Gemini"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.02504v1",
+          "publishedAt": "2026-07-02T17:58:52.000Z",
+          "publishedAtKst": "2026. 07. 03. 02:58",
+          "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken u",
+          "impact": 14,
+          "confidence": 83,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Automated grading of Linux/bash examinations using large language models: a four-level cognitive taxonomy approach",
@@ -366,10 +366,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
+      "score": 79,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -391,13 +391,47 @@
           "why": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "What’s at the center of Claude’s mind?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1up59ul/whats_at_the_center_of_claudes_mind/",
+          "publishedAt": "2026-07-06T18:09:24.000Z",
+          "publishedAtKst": "2026. 07. 07. 03:09",
+          "summary": "As you read this sentence, circuits in your brain are adjusting your posture, controlling your breathing, and transforming lines and curves on the screen into recognizable words. Most of this processing is invisible to y",
+          "impact": 19,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "Claude",
+            "모델"
+          ],
+          "why": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "'Moon' the movie as a model for agentic LLMs [MOVIE SPOILERS]",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1up8t0f/moon_the_movie_as_a_model_for_agentic_llms_movie/",
+          "publishedAt": "2026-07-06T20:13:42.000Z",
+          "publishedAtKst": "2026. 07. 07. 05:13",
+          "summary": "&#32; submitted by &#32; /u/FinsAssociate [link] &#32; [comments]",
+          "impact": 17,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
           "source": "Hacker News",
           "url": "https://github.com/Latand/live-log-viewer-next",
           "publishedAt": "2026-07-06T14:06:25.000Z",
           "publishedAtKst": "2026. 07. 06. 23:06",
           "summary": "2 points, 0 comments",
-          "impact": 17,
+          "impact": 16,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -414,46 +448,13 @@
           "publishedAtKst": "2026. 07. 06. 20:55",
           "summary": "5 points, 1 comments",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How to benchmark persistent repo memory for coding agents",
-          "source": "Hacker News",
-          "url": "https://autoloops.ai/greplica/blog/benchmarking-greplica/",
-          "publishedAt": "2026-07-04T14:03:59.000Z",
-          "publishedAtKst": "2026. 07. 04. 23:03",
-          "summary": "2 points, 1 comments",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How I think we will get to post scarcity",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1up22fe/how_i_think_we_will_get_to_post_scarcity/",
-          "publishedAt": "2026-07-06T16:18:32.000Z",
-          "publishedAtKst": "2026. 07. 07. 01:18",
-          "summary": "Made with ChatGPT free tier I read a comment on the last post asking how anyone thinks AI replacing us is a good thing for non-rich people. I genuinely would like to see a future where I don't have to work and can spend ",
-          "impact": 15,
-          "confidence": 50,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -467,18 +468,18 @@
       "reason": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Pragmatic FDT, and predictors as game theory",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
-      "impact": 17,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "What’s at the center of Claude’s mind?",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1up59ul/whats_at_the_center_of_claudes_mind/",
+      "impact": 19,
+      "reason": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
-      "source": "Hacker News",
-      "url": "https://github.com/Latand/live-log-viewer-next",
+      "title": "'Moon' the movie as a model for agentic LLMs [MOVIE SPOILERS]",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1up8t0f/moon_the_movie_as_a_model_for_agentic_llms_movie/",
       "impact": 17,
-      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -497,11 +498,11 @@
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Towards Robustness against Typographic Attack with Training-free Concept Localization",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.02494v1",
-      "impact": 4,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "JadePuffer ransomware used AI agent to automate attack",
+      "source": "Hacker News",
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+      "impact": 3,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
