@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-07T11:38:34.402Z",
-  "generatedAtKst": "2026. 07. 07. 20:38",
-  "nextUpdateAt": "2026-07-07T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 08. 00:00",
+  "generatedAt": "2026-07-07T17:06:08.754Z",
+  "generatedAtKst": "2026. 07. 08. 02:06",
+  "nextUpdateAt": "2026-07-07T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 08. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2205,
+    "rangeEnd": "2039-05-10",
+    "dday": 2160,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 45,
+    "hotCount": 46,
     "coldCount": 7,
-    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 70,
-      "delta": 5,
+      "score": 72,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+          "publishedAt": "2026-07-07T08:54:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 17:54",
+          "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How ChatGPT adoption has expanded",
           "source": "OpenAI News",
@@ -140,21 +156,6 @@
             "컴퓨트"
           ],
           "why": "Gemini, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Fast-tracking genetic leads to reverse cellular aging",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-          "publishedAt": "2026-05-18T18:21:39.000Z",
-          "publishedAtKst": "2026. 05. 19. 03:21",
-          "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-          "impact": 12,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -313,7 +314,7 @@
           "publishedAt": "2026-07-06T17:56:12.000Z",
           "publishedAtKst": "2026. 07. 07. 02:56",
           "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. ",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +332,7 @@
           "publishedAt": "2026-07-06T17:27:16.000Z",
           "publishedAtKst": "2026. 07. 07. 02:27",
           "summary": "We propose OptiAgent, a multi-agent framework that, given a natural language description of an Operations Research problem, is able to output a solver-ready mathematical formulation as well as executable code. Our archit",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +350,7 @@
           "publishedAt": "2026-07-06T17:55:12.000Z",
           "publishedAtKst": "2026. 07. 07. 02:55",
           "summary": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural sol",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -369,34 +370,34 @@
       "score": 77,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "Fable 5 sits at the top of KernelBench. Jack Clark calls it “the start of a RSI loop”",
+          "title": "Anthropic just reported that LLMs have hidden thoughts they hold without saying. An internal ”J-Space”",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uowkp0/fable_5_sits_at_the_top_of_kernelbench_jack_clark/",
-          "publishedAt": "2026-07-06T12:56:06.000Z",
-          "publishedAtKst": "2026. 07. 06. 21:56",
-          "summary": "From Import AI : Fable writes a decent GPU kernel, hinting at broader AI R&D automation: …The start of an RSI loop… Fable has written “the first genuine (and fastest) megakernel ever submitted to KernelBench-Mega, accord",
-          "impact": 33,
-          "confidence": 58,
+          "url": "https://www.reddit.com/r/singularity/comments/1uptvgb/anthropic_just_reported_that_llms_have_hidden/",
+          "publishedAt": "2026-07-07T12:38:46.000Z",
+          "publishedAtKst": "2026. 07. 07. 21:38",
+          "summary": "In [Anthropic’s new paper]( https://www.anthropic.com/research/global-workspace ) they found that a small set of internal activations in language models, they call it the J-space, behaves like a global workspace: the mod",
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "자율성",
-            "자기개선",
-            "GPT",
-            "Claude"
+            "추론",
+            "Claude",
+            "LLM",
+            "모델"
           ],
-          "why": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Office Suite for Coding Agents",
+          "title": "Show HN: The Banana Test: coding agents grow a 3D banana plant'",
           "source": "Hacker News",
-          "url": "https://smalldocs.org/",
-          "publishedAt": "2026-07-07T11:36:20.000Z",
-          "publishedAtKst": "2026. 07. 07. 20:36",
-          "summary": "1 points, 0 comments",
+          "url": "https://francescomoramarco.com/banana-test/",
+          "publishedAt": "2026-07-07T13:54:57.000Z",
+          "publishedAtKst": "2026. 07. 07. 22:54",
+          "summary": "2 points, 0 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -407,47 +408,48 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What’s at the center of Claude’s mind?",
+          "title": "I Trained a 117M parameters Silia model on an H100 in 5 hours.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1up59ul/whats_at_the_center_of_claudes_mind/",
-          "publishedAt": "2026-07-06T18:09:24.000Z",
-          "publishedAtKst": "2026. 07. 07. 03:09",
-          "summary": "As you read this sentence, circuits in your brain are adjusting your posture, controlling your breathing, and transforming lines and curves on the screen into recognizable words. Most of this processing is invisible to y",
-          "impact": 17,
-          "confidence": 51,
+          "url": "https://www.reddit.com/r/singularity/comments/1upv00n/i_trained_a_117m_parameters_silia_model_on_an/",
+          "publishedAt": "2026-07-07T13:23:30.000Z",
+          "publishedAtKst": "2026. 07. 07. 22:23",
+          "summary": "About a month ago I posted my very first paper about my custom Silia architecture here https://www.reddit.com/r/LocalLLaMA/s/J19Qi4NXeJ With the help of Ok-Internal9317 who decided to sponsor the paper with compute I was",
+          "impact": 18,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "Claude",
-            "모델"
+            "GPT",
+            "모델",
+            "벤치마크",
+            "컴퓨트"
           ],
-          "why": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
+          "title": "Beating a text-to-SQL benchmark: can you get better than plain Claude?",
           "source": "Hacker News",
-          "url": "https://github.com/Latand/live-log-viewer-next",
-          "publishedAt": "2026-07-06T14:06:25.000Z",
-          "publishedAtKst": "2026. 07. 06. 23:06",
-          "summary": "4 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "url": "https://motley.ai/blog-posts/bird-interact-benchmark-top-score/",
+          "publishedAt": "2026-07-07T16:44:58.000Z",
+          "publishedAtKst": "2026. 07. 08. 01:44",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "Claude"
+            "Claude",
+            "벤치마크"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "is anyone systematically mapping sci-fi concepts to the real companies and scientists building them?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uph1ip/is_anyone_systematically_mapping_scifi_concepts/",
-          "publishedAt": "2026-07-07T01:42:37.000Z",
-          "publishedAtKst": "2026. 07. 07. 10:42",
-          "summary": "it's pretty well documented that tech founders treat sci-fi as a product roadmap. palmer luckey has been open about it with oculus and anduril, musk named spacex's drone ships after iain m. banks' culture vessels, and ne",
-          "impact": 14,
-          "confidence": 48,
+          "title": "Show HN: Tracking GenAI cost and endpoint fragility so app teams don't have to",
+          "source": "Hacker News",
+          "url": "https://llmintel.ai/demo",
+          "publishedAt": "2026-07-07T16:39:58.000Z",
+          "publishedAtKst": "2026. 07. 08. 01:39",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -492,7 +494,7 @@
       "title": "Learning Only What Valid Adapters Can Express: Subspace-Constrained Adaptation Against Fine-Tuning Poisoning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.05300v1",
-      "impact": 0,
+      "impact": 1,
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
