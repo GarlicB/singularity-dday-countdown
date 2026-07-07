@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T22:06:03.220Z",
-  "generatedAtKst": "2026. 07. 07. 07:06",
-  "nextUpdateAt": "2026-07-07T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 07. 12:00",
+  "generatedAt": "2026-07-07T06:37:17.317Z",
+  "generatedAtKst": "2026. 07. 07. 15:37",
+  "nextUpdateAt": "2026-07-07T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 07. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
-    "rangeStart": "2027-03-14",
-    "rangeEnd": "2039-02-19",
-    "dday": 2431,
+    "medianDate": "2032-06-05",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2039-05-10",
+    "dday": 2160,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 25,
-    "coldCount": 6,
-    "summary": "가속 신호 25건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 44,
+    "coldCount": 8,
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -54,15 +54,15 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     }
   ],
@@ -162,12 +162,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 72,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.18,
-      "confidence": 78,
+      "confidence": 79,
       "trend": "hot",
       "items": [
+        {
+          "title": "Data filtering works a lot worse than you would expect",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
+          "publishedAt": "2026-07-07T04:41:59.000Z",
+          "publishedAtKst": "2026. 07. 07. 13:41",
+          "summary": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provid",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "GPT",
+            "Gemini"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "The Case for Model Forensics",
           "source": "Alignment Forum",
@@ -185,24 +203,6 @@
             "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Pragmatic FDT, and predictors as game theory",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
-          "publishedAt": "2026-07-03T13:22:38.000Z",
-          "publishedAtKst": "2026. 07. 03. 22:22",
-          "summary": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with ",
-          "impact": 16,
-          "confidence": 72,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
@@ -223,6 +223,24 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Pragmatic FDT, and predictors as game theory",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
+          "publishedAt": "2026-07-03T13:22:38.000Z",
+          "publishedAtKst": "2026. 07. 03. 22:22",
+          "summary": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with ",
+          "impact": 14,
+          "confidence": 72,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Deployment Awareness Matters More Than Evaluation Awareness",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
@@ -239,24 +257,6 @@
             "GPT"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "LLM-Driven Feature Discovery",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
-          "publishedAt": "2026-06-22T22:26:51.000Z",
-          "publishedAtKst": "2026. 06. 23. 07:26",
-          "summary": "We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to discover novel behaviors , figure out what c",
-          "impact": 13,
-          "confidence": 79,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "Gemini",
-            "LLM"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,101 +264,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 72,
-      "delta": 6,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
-      "confidence": 84,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Distributed Attacks in Persistent-State AI Control",
+          "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02514v1",
-          "publishedAt": "2026-07-02T17:59:56.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:59",
-          "summary": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can ",
-          "impact": 14,
-          "confidence": 91,
+          "url": "http://arxiv.org/abs/2607.05391v1",
+          "publishedAt": "2026-07-06T17:59:35.000Z",
+          "publishedAtKst": "2026. 07. 07. 02:59",
+          "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a s",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02504v1",
-          "publishedAt": "2026-07-02T17:58:52.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:58",
-          "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken u",
-          "impact": 14,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
             "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Automated grading of Linux/bash examinations using large language models: a four-level cognitive taxonomy approach",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02432v1",
-          "publishedAt": "2026-07-02T17:01:47.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:01",
-          "summary": "Scalable and reliable grading of command-line examinations remains a challenge in computing education, where rising enrolments make manual marking difficult and rule-based autograders cannot handle partial credit, equiva",
-          "impact": 14,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "Gemini",
             "Claude",
             "LLM"
           ],
-          "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
+          "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02469v1",
-          "publishedAt": "2026-07-02T17:35:20.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:35",
-          "summary": "Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior. Yet existing test generation and update benchmarks often isolate the test from the ",
-          "impact": 13,
-          "confidence": 83,
+          "url": "http://arxiv.org/abs/2607.05297v1",
+          "publishedAt": "2026-07-06T16:40:23.000Z",
+          "publishedAtKst": "2026. 07. 07. 01:40",
+          "summary": "Recent LLM agents tackle increasingly long-horizon, open-ended tasks, and external skills, reusable procedural knowledge supplied to the agent, further extend this capability. However, a fixed, hand-authored skill is rar",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Gemini",
-            "Claude",
+            "자기개선",
+            "LLM",
             "모델"
           ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+          "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.02502v1",
-          "publishedAt": "2026-07-02T17:58:29.000Z",
-          "publishedAtKst": "2026. 07. 03. 02:58",
-          "summary": "On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different levels of information",
-          "impact": 13,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2607.05382v1",
+          "publishedAt": "2026-07-06T17:56:12.000Z",
+          "publishedAtKst": "2026. 07. 07. 02:56",
+          "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. ",
+          "impact": 33,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
+            "자기개선",
+            "벤치마크",
+            "멀티모달"
+          ],
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.05346v1",
+          "publishedAt": "2026-07-06T17:27:16.000Z",
+          "publishedAtKst": "2026. 07. 07. 02:27",
+          "summary": "We propose OptiAgent, a multi-agent framework that, given a natural language description of an Operations Research problem, is able to output a solver-ready mathematical formulation as well as executable code. Our archit",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
             "추론",
-            "LLM",
             "모델",
             "벤치마크"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.05378v1",
+          "publishedAt": "2026-07-06T17:55:12.000Z",
+          "publishedAtKst": "2026. 07. 07. 02:55",
+          "summary": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural sol",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "코딩 성능"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,10 +366,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
+      "score": 77,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -379,7 +379,7 @@
           "publishedAt": "2026-07-06T12:56:06.000Z",
           "publishedAtKst": "2026. 07. 06. 21:56",
           "summary": "From Import AI : Fable writes a decent GPU kernel, hinting at broader AI R&D automation: …The start of an RSI loop… Fable has written “the first genuine (and fastest) megakernel ever submitted to KernelBench-Mega, accord",
-          "impact": 36,
+          "impact": 35,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -397,7 +397,7 @@
           "publishedAt": "2026-07-06T18:09:24.000Z",
           "publishedAtKst": "2026. 07. 07. 03:09",
           "summary": "As you read this sentence, circuits in your brain are adjusting your posture, controlling your breathing, and transforming lines and curves on the screen into recognizable words. Most of this processing is invisible to y",
-          "impact": 19,
+          "impact": 18,
           "confidence": 52,
           "stance": "accelerate",
           "tags": [
@@ -408,31 +408,14 @@
           "why": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "'Moon' the movie as a model for agentic LLMs [MOVIE SPOILERS]",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1up8t0f/moon_the_movie_as_a_model_for_agentic_llms_movie/",
-          "publishedAt": "2026-07-06T20:13:42.000Z",
-          "publishedAtKst": "2026. 07. 07. 05:13",
-          "summary": "&#32; submitted by &#32; /u/FinsAssociate [link] &#32; [comments]",
-          "impact": 17,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
           "source": "Hacker News",
           "url": "https://github.com/Latand/live-log-viewer-next",
           "publishedAt": "2026-07-06T14:06:25.000Z",
           "publishedAtKst": "2026. 07. 06. 23:06",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "summary": "4 points, 0 comments",
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -441,13 +424,28 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "is anyone systematically mapping sci-fi concepts to the real companies and scientists building them?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uph1ip/is_anyone_systematically_mapping_scifi_concepts/",
+          "publishedAt": "2026-07-07T01:42:37.000Z",
+          "publishedAtKst": "2026. 07. 07. 10:42",
+          "summary": "it's pretty well documented that tech founders treat sci-fi as a product roadmap. palmer luckey has been open about it with oculus and anduril, musk named spacex's drone ships after iain m. banks' culture vessels, and ne",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "FlowerBench: Benchmarking AI Agents on Real Enterprise Work",
           "source": "Hacker News",
           "url": "https://flower.ai/benchmarks/flowerbench/",
           "publishedAt": "2026-07-06T11:55:56.000Z",
           "publishedAtKst": "2026. 07. 06. 20:55",
           "summary": "5 points, 1 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -461,47 +459,47 @@
   ],
   "topDrivers": [
     {
-      "title": "Fable 5 sits at the top of KernelBench. Jack Clark calls it “the start of a RSI loop”",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1uowkp0/fable_5_sits_at_the_top_of_kernelbench_jack_clark/",
+      "title": "Data filtering works a lot worse than you would expect",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
       "impact": 36,
-      "reason": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "What’s at the center of Claude’s mind?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1up59ul/whats_at_the_center_of_claudes_mind/",
-      "impact": 19,
-      "reason": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.05391v1",
+      "impact": 36,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "'Moon' the movie as a model for agentic LLMs [MOVIE SPOILERS]",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1up8t0f/moon_the_movie_as_a_model_for_agentic_llms_movie/",
-      "impact": 17,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.05297v1",
+      "impact": 36,
+      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "GDM AI Control Roadmap",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
-      "impact": 2,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "The distillation panic",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-distillation-panic",
-      "impact": 3,
+      "title": "Untrusted Content Masking for Web Agents with Security Guarantees",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.05277v1",
+      "impact": -4,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "JadePuffer ransomware used AI agent to automate attack",
+      "title": "The 'first' AI-run ransomware attack still needed a human",
       "source": "Hacker News",
-      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-      "impact": 3,
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Learning Only What Valid Adapters Can Express: Subspace-Constrained Adaptation Against Fine-Tuning Poisoning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.05300v1",
+      "impact": 0,
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
