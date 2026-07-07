@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-07T17:06:08.754Z",
-  "generatedAtKst": "2026. 07. 08. 02:06",
-  "nextUpdateAt": "2026-07-07T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 08. 06:00",
+  "generatedAt": "2026-07-07T22:05:03.527Z",
+  "generatedAtKst": "2026. 07. 08. 07:05",
+  "nextUpdateAt": "2026-07-08T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 08. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2160,
+    "rangeEnd": "2039-03-26",
+    "dday": 2115,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
+    "hotCount": 51,
     "coldCount": 7,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/australian-payments-plus",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 09:00",
+          "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
           "source": "Google AI Blog",
@@ -84,7 +100,7 @@
           "publishedAt": "2026-07-07T08:54:00.000Z",
           "publishedAtKst": "2026. 07. 07. 17:54",
           "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -92,6 +108,22 @@
             "Gemini"
           ],
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Meta-Harness R&D: Enterprise-Grade Self-Improvement for Long-Horizon AI Workflows",
+          "source": "OpenAI News",
+          "url": "https://openai.com/deployco/news/meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
+          "publishedAt": "2026-06-23T12:00:00.000Z",
+          "publishedAtKst": "2026. 06. 23. 21:00",
+          "summary": "How autonomous code improvement can be made disciplined enough for enterprise use",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "자기개선"
+          ],
+          "why": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How ChatGPT adoption has expanded",
@@ -124,38 +156,6 @@
             "돌파"
           ],
           "why": "GPT, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-          "publishedAt": "2026-06-24T06:00:00.000Z",
-          "publishedAtKst": "2026. 06. 24. 15:00",
-          "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-          "impact": 12,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "추론 인프라"
-          ],
-          "why": "LLM, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing computer use in Gemini 3.5 Flash",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-          "publishedAt": "2026-06-24T16:30:01.000Z",
-          "publishedAtKst": "2026. 06. 25. 01:30",
-          "summary": "",
-          "impact": 12,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "컴퓨트"
-          ],
-          "why": "Gemini, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -296,7 +296,7 @@
           "publishedAt": "2026-07-06T16:40:23.000Z",
           "publishedAtKst": "2026. 07. 07. 01:40",
           "summary": "Recent LLM agents tackle increasingly long-horizon, open-ended tasks, and external skills, reusable procedural knowledge supplied to the agent, further extend this capability. However, a fixed, hand-authored skill is rar",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-07-06T17:56:12.000Z",
           "publishedAtKst": "2026. 07. 07. 02:56",
           "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. ",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-07-06T17:27:16.000Z",
           "publishedAtKst": "2026. 07. 07. 02:27",
           "summary": "We propose OptiAgent, a multi-agent framework that, given a natural language description of an Operations Research problem, is able to output a solver-ready mathematical formulation as well as executable code. Our archit",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +350,7 @@
           "publishedAt": "2026-07-06T17:55:12.000Z",
           "publishedAtKst": "2026. 07. 07. 02:55",
           "summary": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural sol",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,7 +367,7 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
+      "score": 79,
       "delta": 7,
       "weight": 0.2,
       "confidence": 58,
@@ -380,7 +380,7 @@
           "publishedAt": "2026-07-07T12:38:46.000Z",
           "publishedAtKst": "2026. 07. 07. 21:38",
           "summary": "In [Anthropic’s new paper]( https://www.anthropic.com/research/global-workspace ) they found that a small set of internal activations in language models, they call it the J-space, behaves like a global workspace: the mod",
-          "impact": 24,
+          "impact": 23,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -392,12 +392,61 @@
           "why": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: The Banana Test: coding agents grow a 3D banana plant'",
+          "title": "One AI policy running 20 different robot bodies, from single arms to full humanoids, all fully autonomous",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uq8l0y/one_ai_policy_running_20_different_robot_bodies/",
+          "publishedAt": "2026-07-07T21:24:48.000Z",
+          "publishedAtKst": "2026. 07. 08. 06:24",
+          "summary": "Robbyant's LingBot-VLA 2.0 demo shows one trained policy driving everything from a Franka single arm up to Fourier GR-2 and Unitree G1 humanoids with dexterous hands. The clip is all marked 1x speed and fully autonomous.",
+          "impact": 22,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "자율성"
+          ],
+          "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ASRock Rack Had One of the First Arm AGI Servers at Computex 2026 – ServeTheHome",
           "source": "Hacker News",
-          "url": "https://francescomoramarco.com/banana-test/",
-          "publishedAt": "2026-07-07T13:54:57.000Z",
-          "publishedAtKst": "2026. 07. 07. 22:54",
-          "summary": "2 points, 0 comments",
+          "url": "https://www.servethehome.com/asrock-rack-had-one-of-the-first-arm-agi-servers-at-computex-2026/",
+          "publishedAt": "2026-07-07T21:50:57.000Z",
+          "publishedAtKst": "2026. 07. 08. 06:50",
+          "summary": "4 points, 0 comments",
+          "impact": 21,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "컴퓨트"
+          ],
+          "why": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Let's look back to December 2022 and the launch of ChatGPT: if you had been told then how good LLMs would become by July 2026, would you have believed it?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uq7tic/lets_look_back_to_december_2022_and_the_launch_of/",
+          "publishedAt": "2026-07-07T20:56:46.000Z",
+          "publishedAtKst": "2026. 07. 08. 05:56",
+          "summary": "Title &#32; submitted by &#32; /u/manubfr [link] &#32; [comments]",
+          "impact": 20,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "LLM"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Backlog – tasks and contexts manager for AI coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/mazen160/backlog",
+          "publishedAt": "2026-07-07T21:30:08.000Z",
+          "publishedAtKst": "2026. 07. 08. 06:30",
+          "summary": "3 points, 0 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -406,55 +455,6 @@
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I Trained a 117M parameters Silia model on an H100 in 5 hours.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1upv00n/i_trained_a_117m_parameters_silia_model_on_an/",
-          "publishedAt": "2026-07-07T13:23:30.000Z",
-          "publishedAtKst": "2026. 07. 07. 22:23",
-          "summary": "About a month ago I posted my very first paper about my custom Silia architecture here https://www.reddit.com/r/LocalLLaMA/s/J19Qi4NXeJ With the help of Ok-Internal9317 who decided to sponsor the paper with compute I was",
-          "impact": 18,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "모델",
-            "벤치마크",
-            "컴퓨트"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Beating a text-to-SQL benchmark: can you get better than plain Claude?",
-          "source": "Hacker News",
-          "url": "https://motley.ai/blog-posts/bird-interact-benchmark-top-score/",
-          "publishedAt": "2026-07-07T16:44:58.000Z",
-          "publishedAtKst": "2026. 07. 08. 01:44",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "벤치마크"
-          ],
-          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Tracking GenAI cost and endpoint fragility so app teams don't have to",
-          "source": "Hacker News",
-          "url": "https://llmintel.ai/demo",
-          "publishedAt": "2026-07-07T16:39:58.000Z",
-          "publishedAtKst": "2026. 07. 08. 01:39",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -478,7 +478,7 @@
       "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.05297v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -487,7 +487,7 @@
       "title": "Untrusted Content Masking for Web Agents with Security Guarantees",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.05277v1",
-      "impact": -3,
+      "impact": -2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -498,11 +498,11 @@
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Wavelet Scattering Transform for Interpretable Schizophrenia Biomarker Discovery and Classification from Resting-State EEG",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.05282v1",
-      "impact": 1,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "GDM AI Control Roadmap",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
+      "impact": 2,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
