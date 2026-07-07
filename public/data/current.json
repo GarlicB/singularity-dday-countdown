@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-07T06:37:17.317Z",
-  "generatedAtKst": "2026. 07. 07. 15:37",
-  "nextUpdateAt": "2026-07-07T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 07. 18:00",
+  "generatedAt": "2026-07-07T11:38:34.402Z",
+  "generatedAtKst": "2026. 07. 07. 20:38",
+  "nextUpdateAt": "2026-07-07T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 08. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2160,
+    "rangeEnd": "2039-06-24",
+    "dday": 2205,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 44,
-    "coldCount": 8,
-    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 45,
+    "coldCount": 7,
+    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -162,10 +162,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 79,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -223,24 +223,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Pragmatic FDT, and predictors as game theory",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
-          "publishedAt": "2026-07-03T13:22:38.000Z",
-          "publishedAtKst": "2026. 07. 03. 22:22",
-          "summary": "Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has published a case against FDT ( functional decision theory ), contrasting rationalist enthusiasm with ",
-          "impact": 14,
-          "confidence": 72,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Deployment Awareness Matters More Than Evaluation Awareness",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
@@ -257,6 +239,24 @@
             "GPT"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "LLM-Driven Feature Discovery",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
+          "publishedAt": "2026-06-22T22:26:51.000Z",
+          "publishedAtKst": "2026. 06. 23. 07:26",
+          "summary": "We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to discover novel behaviors , figure out what c",
+          "impact": 13,
+          "confidence": 79,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "Gemini",
+            "LLM"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -313,7 +313,7 @@
           "publishedAt": "2026-07-06T17:56:12.000Z",
           "publishedAtKst": "2026. 07. 07. 02:56",
           "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. ",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +331,7 @@
           "publishedAt": "2026-07-06T17:27:16.000Z",
           "publishedAtKst": "2026. 07. 07. 02:27",
           "summary": "We propose OptiAgent, a multi-agent framework that, given a natural language description of an Operations Research problem, is able to output a solver-ready mathematical formulation as well as executable code. Our archit",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-07-06T17:55:12.000Z",
           "publishedAtKst": "2026. 07. 07. 02:55",
           "summary": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural sol",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -369,7 +369,7 @@
       "score": 77,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -379,7 +379,7 @@
           "publishedAt": "2026-07-06T12:56:06.000Z",
           "publishedAtKst": "2026. 07. 06. 21:56",
           "summary": "From Import AI : Fable writes a decent GPU kernel, hinting at broader AI R&D automation: …The start of an RSI loop… Fable has written “the first genuine (and fastest) megakernel ever submitted to KernelBench-Mega, accord",
-          "impact": 35,
+          "impact": 33,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -391,14 +391,30 @@
           "why": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Office Suite for Coding Agents",
+          "source": "Hacker News",
+          "url": "https://smalldocs.org/",
+          "publishedAt": "2026-07-07T11:36:20.000Z",
+          "publishedAtKst": "2026. 07. 07. 20:36",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "What’s at the center of Claude’s mind?",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1up59ul/whats_at_the_center_of_claudes_mind/",
           "publishedAt": "2026-07-06T18:09:24.000Z",
           "publishedAtKst": "2026. 07. 07. 03:09",
           "summary": "As you read this sentence, circuits in your brain are adjusting your posture, controlling your breathing, and transforming lines and curves on the screen into recognizable words. Most of this processing is invisible to y",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -414,7 +430,7 @@
           "publishedAt": "2026-07-06T14:06:25.000Z",
           "publishedAtKst": "2026. 07. 06. 23:06",
           "summary": "4 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -430,29 +446,13 @@
           "publishedAt": "2026-07-07T01:42:37.000Z",
           "publishedAtKst": "2026. 07. 07. 10:42",
           "summary": "it's pretty well documented that tech founders treat sci-fi as a product roadmap. palmer luckey has been open about it with oculus and anduril, musk named spacex's drone ships after iain m. banks' culture vessels, and ne",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
           ],
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "FlowerBench: Benchmarking AI Agents on Real Enterprise Work",
-          "source": "Hacker News",
-          "url": "https://flower.ai/benchmarks/flowerbench/",
-          "publishedAt": "2026-07-06T11:55:56.000Z",
-          "publishedAtKst": "2026. 07. 06. 20:55",
-          "summary": "5 points, 1 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -485,15 +485,8 @@
       "title": "Untrusted Content Masking for Web Agents with Security Guarantees",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.05277v1",
-      "impact": -4,
+      "impact": -3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "The 'first' AI-run ransomware attack still needed a human",
-      "source": "Hacker News",
-      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Learning Only What Valid Adapters Can Express: Subspace-Constrained Adaptation Against Fine-Tuning Poisoning",
@@ -501,6 +494,13 @@
       "url": "http://arxiv.org/abs/2607.05300v1",
       "impact": 0,
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Wavelet Scattering Transform for Interpretable Schizophrenia Biomarker Discovery and Classification from Resting-State EEG",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.05282v1",
+      "impact": 1,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
