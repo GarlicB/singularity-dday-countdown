@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-08T10:54:46.198Z",
-  "generatedAtKst": "2026. 07. 08. 19:54",
-  "nextUpdateAt": "2026-07-08T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 09. 00:00",
+  "generatedAt": "2026-07-08T16:24:50.752Z",
+  "generatedAtKst": "2026. 07. 09. 01:24",
+  "nextUpdateAt": "2026-07-08T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 09. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2159,
+    "rangeEnd": "2039-08-08",
+    "dday": 2249,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 50,
+    "hotCount": 46,
     "coldCount": 5,
-    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -78,22 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-          "publishedAt": "2026-07-07T08:54:00.000Z",
-          "publishedAtKst": "2026. 07. 07. 17:54",
-          "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 20,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
           "source": "OpenAI News",
           "url": "https://openai.com/index/australian-payments-plus",
@@ -124,6 +108,22 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+          "publishedAt": "2026-07-07T08:54:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 17:54",
+          "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How ChatGPT adoption has expanded",
@@ -265,8 +265,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -314,7 +314,7 @@
           "publishedAt": "2026-07-07T16:43:05.000Z",
           "publishedAtKst": "2026. 07. 08. 01:43",
           "summary": "Current benchmarks for evaluating Large Language Models (LLMs) in data analysis often fail to reflect real-world settings. They typically focus on fact retrieval from small tables and overlook the challenges of large mul",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-07-07T16:12:51.000Z",
           "publishedAtKst": "2026. 07. 08. 01:12",
           "summary": "Biomedical question answering requires not only accurate extraction of information from scientific literature but also reliable integration of evidence across multiple documents. This study presents a question-type-speci",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -344,22 +344,22 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+          "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06565v1",
-          "publishedAt": "2026-07-07T17:59:50.000Z",
-          "publishedAtKst": "2026. 07. 08. 02:59",
-          "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D token",
-          "impact": 30,
+          "url": "http://arxiv.org/abs/2607.06519v1",
+          "publishedAt": "2026-07-07T17:26:28.000Z",
+          "publishedAtKst": "2026. 07. 08. 02:26",
+          "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introd",
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "모델",
-            "추론 인프라",
-            "성능 향상"
+            "LLM",
+            "벤치마크",
+            "추론 인프라"
           ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,10 +367,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
-      "delta": 6,
+      "score": 64,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -380,8 +380,8 @@
           "publishedAt": "2026-07-07T13:54:57.000Z",
           "publishedAtKst": "2026. 07. 07. 22:54",
           "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,30 +390,14 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Trace – open-source, self-organizing memory for LLM agents (PyPI)",
-          "source": "Hacker News",
-          "url": "https://github.com/husain34/TRACE",
-          "publishedAt": "2026-07-08T09:49:12.000Z",
-          "publishedAtKst": "2026. 07. 08. 18:49",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
           "source": "Hacker News",
           "url": "https://github.com/rowboatlabs/rowboat",
           "publishedAt": "2026-07-07T16:10:44.000Z",
           "publishedAtKst": "2026. 07. 08. 01:10",
-          "summary": "166 points, 51 comments",
-          "impact": 13,
-          "confidence": 54,
+          "summary": "206 points, 86 comments",
+          "impact": 15,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "Claude"
@@ -426,15 +410,15 @@
           "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
           "publishedAt": "2026-07-08T06:04:14.000Z",
           "publishedAtKst": "2026. 07. 08. 15:04",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
+          "summary": "3 points, 1 comments",
+          "impact": 11,
           "confidence": 54,
-          "stance": "accelerate",
+          "stance": "watch",
           "tags": [
             "LLM",
             "모델"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
           "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
@@ -443,14 +427,29 @@
           "publishedAt": "2026-07-06T14:06:25.000Z",
           "publishedAtKst": "2026. 07. 06. 23:06",
           "summary": "4 points, 0 comments",
-          "impact": 12,
+          "impact": 11,
           "confidence": 52,
-          "stance": "accelerate",
+          "stance": "watch",
           "tags": [
             "에이전트",
             "Claude"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Ask HN: How are you running untrusted code from AI agents?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48833942",
+          "publishedAt": "2026-07-08T16:24:22.000Z",
+          "publishedAtKst": "2026. 07. 09. 01:24",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
