@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-08T05:42:08.967Z",
-  "generatedAtKst": "2026. 07. 08. 14:42",
-  "nextUpdateAt": "2026-07-08T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 08. 18:00",
+  "generatedAt": "2026-07-08T10:54:46.198Z",
+  "generatedAtKst": "2026. 07. 08. 19:54",
+  "nextUpdateAt": "2026-07-08T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 09. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2069,
+    "rangeEnd": "2039-05-10",
+    "dday": 2159,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 4,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 50,
+    "coldCount": 5,
+    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-07T08:54:00.000Z",
           "publishedAtKst": "2026. 07. 07. 17:54",
           "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-07T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 07. 09:00",
           "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-07-07T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 07. 09:00",
           "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -265,30 +265,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Data Analysis in the Wild: Benchmarking Large Language Models Against Real-World Data Complexities",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06482v1",
-          "publishedAt": "2026-07-07T16:43:05.000Z",
-          "publishedAtKst": "2026. 07. 08. 01:43",
-          "summary": "Current benchmarks for evaluating Large Language Models (LLMs) in data analysis often fail to reflect real-world settings. They typically focus on fact retrieval from small tables and overlook the challenges of large mul",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
           "source": "arXiv",
@@ -326,13 +308,31 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Data Analysis in the Wild: Benchmarking Large Language Models Against Real-World Data Complexities",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.06482v1",
+          "publishedAt": "2026-07-07T16:43:05.000Z",
+          "publishedAtKst": "2026. 07. 08. 01:43",
+          "summary": "Current benchmarks for evaluating Large Language Models (LLMs) in data analysis often fail to reflect real-world settings. They typically focus on fact retrieval from small tables and overlook the challenges of large mul",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "From Voting to Agent Collaboration: Answer-Type-Aware LLM Pipelines for BioASQ 14b",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.06452v1",
           "publishedAt": "2026-07-07T16:12:51.000Z",
           "publishedAtKst": "2026. 07. 08. 01:12",
           "summary": "Biomedical question answering requires not only accurate extraction of information from scientific literature but also reliable integration of evidence across multiple documents. This study presents a question-type-speci",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -344,22 +344,22 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
+          "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06519v1",
-          "publishedAt": "2026-07-07T17:26:28.000Z",
-          "publishedAtKst": "2026. 07. 08. 02:26",
-          "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introd",
-          "impact": 32,
+          "url": "http://arxiv.org/abs/2607.06565v1",
+          "publishedAt": "2026-07-07T17:59:50.000Z",
+          "publishedAtKst": "2026. 07. 08. 02:59",
+          "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D token",
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "LLM",
-            "벤치마크",
-            "추론 인프라"
+            "모델",
+            "추론 인프라",
+            "성능 향상"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,81 +367,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 81,
-      "delta": 8,
+      "score": 72,
+      "delta": 6,
       "weight": 0.2,
       "confidence": 55,
       "trend": "hot",
       "items": [
-        {
-          "title": "Open-source models are closing the coding gap with GPT/Claude/Gemini ~1.5x faster than the frontier is advancing, and on decontaminated benchmarks a 27B model already beats Claude Opus 4.8 [live dashboard + analysis]",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uqew7g/opensource_models_are_closing_the_coding_gap_with/",
-          "publishedAt": "2026-07-08T01:44:23.000Z",
-          "publishedAtKst": "2026. 07. 08. 10:44",
-          "summary": "Everyone argues about whether open-source AI is catching up to the closed labs. I got tired of vibes, so I built a live dashboard that plots open-weight vs closed models on the coding benchmarks that matter (SWE-bench Ve",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Gemini",
-            "Claude"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic just reported that LLMs have hidden thoughts they hold without saying. An internal ”J-Space”",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uptvgb/anthropic_just_reported_that_llms_have_hidden/",
-          "publishedAt": "2026-07-07T12:38:46.000Z",
-          "publishedAtKst": "2026. 07. 07. 21:38",
-          "summary": "In [Anthropic’s new paper]( https://www.anthropic.com/research/global-workspace ) they found that a small set of internal activations in language models, they call it the J-space, behaves like a global workspace: the mod",
-          "impact": 21,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "Claude",
-            "LLM",
-            "모델"
-          ],
-          "why": "추론, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "One AI policy running 20 different robot bodies, from single arms to full humanoids, all fully autonomous",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uq8l0y/one_ai_policy_running_20_different_robot_bodies/",
-          "publishedAt": "2026-07-07T21:24:48.000Z",
-          "publishedAtKst": "2026. 07. 08. 06:24",
-          "summary": "Robbyant's LingBot-VLA 2.0 demo shows one trained policy driving everything from a Franka single arm up to Fourier GR-2 and Unitree G1 humanoids with dexterous hands. The clip is all marked 1x speed and fully autonomous.",
-          "impact": 21,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "자율성"
-          ],
-          "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Let's look back to December 2022 and the launch of ChatGPT: if you had been told then how good LLMs would become by July 2026, would you have believed it?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uq7tic/lets_look_back_to_december_2022_and_the_launch_of/",
-          "publishedAt": "2026-07-07T20:56:46.000Z",
-          "publishedAtKst": "2026. 07. 08. 05:56",
-          "summary": "Title &#32; submitted by &#32; /u/manubfr [link] &#32; [comments]",
-          "impact": 19,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "LLM"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Show HN: The Banana Test: coding agents grow a 3D banana plant'",
           "source": "Hacker News",
@@ -449,14 +380,77 @@
           "publishedAt": "2026-07-07T13:54:57.000Z",
           "publishedAtKst": "2026. 07. 07. 22:54",
           "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Trace – open-source, self-organizing memory for LLM agents (PyPI)",
+          "source": "Hacker News",
+          "url": "https://github.com/husain34/TRACE",
+          "publishedAt": "2026-07-08T09:49:12.000Z",
+          "publishedAtKst": "2026. 07. 08. 18:49",
+          "summary": "2 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+          "source": "Hacker News",
+          "url": "https://github.com/rowboatlabs/rowboat",
+          "publishedAt": "2026-07-07T16:10:44.000Z",
+          "publishedAtKst": "2026. 07. 08. 01:10",
+          "summary": "166 points, 51 comments",
+          "impact": 13,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "Claude"
+          ],
+          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Can We Understand How Large Language Models Reason?",
+          "source": "Hacker News",
+          "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+          "publishedAt": "2026-07-08T06:04:14.000Z",
+          "publishedAtKst": "2026. 07. 08. 15:04",
+          "summary": "2 points, 0 comments",
+          "impact": 12,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
+          "source": "Hacker News",
+          "url": "https://github.com/Latand/live-log-viewer-next",
+          "publishedAt": "2026-07-06T14:06:25.000Z",
+          "publishedAtKst": "2026. 07. 06. 23:06",
+          "summary": "4 points, 0 comments",
+          "impact": 12,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -470,18 +464,18 @@
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Open-source models are closing the coding gap with GPT/Claude/Gemini ~1.5x faster than the frontier is advancing, and on decontaminated benchmarks a 27B model already beats Claude Opus 4.8 [live dashboard + analysis]",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1uqew7g/opensource_models_are_closing_the_coding_gap_with/",
+      "title": "An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.06413v1",
       "impact": 36,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Data Analysis in the Wild: Benchmarking Large Language Models Against Real-World Data Complexities",
+      "title": "RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.06482v1",
+      "url": "http://arxiv.org/abs/2607.06411v1",
       "impact": 36,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -489,8 +483,15 @@
       "title": "TILDE: TILt-based Distributional Erasure for Concept Unlearning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.06432v1",
-      "impact": -9,
+      "impact": -8,
       "reason": "저작권, 규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "What if a model could only learn what trusted LoRA adapters can express? [R]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/",
+      "impact": -7,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "GDM AI Control Roadmap",
@@ -498,13 +499,6 @@
       "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
       "impact": 2,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "The distillation panic",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-distillation-panic",
-      "impact": 3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
