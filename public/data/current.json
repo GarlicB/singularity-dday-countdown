@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-08T16:24:50.752Z",
-  "generatedAtKst": "2026. 07. 09. 01:24",
-  "nextUpdateAt": "2026-07-08T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 09. 06:00",
+  "generatedAt": "2026-07-08T21:58:57.977Z",
+  "generatedAtKst": "2026. 07. 09. 06:58",
+  "nextUpdateAt": "2026-07-09T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 09. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2031-12-08",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2249,
+    "rangeEnd": "2038-11-11",
+    "dday": 1979,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -49,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 83,
+    "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 5,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 51,
+    "coldCount": 4,
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
@@ -71,41 +71,43 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
-      "delta": 6,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+          "title": "Separating signal from noise in coding evaluations",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/australian-payments-plus",
-          "publishedAt": "2026-07-07T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 07. 09:00",
-          "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-          "impact": 19,
+          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+          "publishedAt": "2026-07-08T13:00:00.000Z",
+          "publishedAtKst": "2026. 07. 08. 22:00",
+          "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "모델",
+            "벤치마크",
+            "코딩 성능"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MUFG aims to become AI-native with OpenAI",
+          "title": "Introducing GPT-Live",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/mufg",
-          "publishedAt": "2026-07-07T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 07. 09:00",
-          "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-          "impact": 19,
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 08. 09:00",
+          "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
-            "GPT"
+            "GPT",
+            "모델"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -126,13 +128,13 @@
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How ChatGPT adoption has expanded",
+          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "publishedAt": "2026-06-30T09:00:00.000Z",
-          "publishedAtKst": "2026. 06. 30. 18:00",
-          "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-          "impact": 13,
+          "url": "https://openai.com/index/australian-payments-plus",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 09:00",
+          "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -142,20 +144,20 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+          "title": "MUFG aims to become AI-native with OpenAI",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/gpt-5-immunology-mystery",
-          "publishedAt": "2026-06-23T17:00:00.000Z",
-          "publishedAtKst": "2026. 06. 24. 02:00",
-          "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-          "impact": 13,
+          "url": "https://openai.com/index/mufg",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 09:00",
+          "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "돌파"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "GPT, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,12 +165,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 81,
       "trend": "hot",
       "items": [
+        {
+          "title": "Notes on technical alignment via human-like social drives",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
+          "publishedAt": "2026-07-08T18:30:22.000Z",
+          "publishedAtKst": "2026. 07. 09. 03:30",
+          "summary": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating h",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "자율성"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Data filtering works a lot worse than you would expect",
           "source": "Alignment Forum",
@@ -204,24 +224,6 @@
             "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail",
-          "publishedAt": "2026-06-14T19:45:10.000Z",
-          "publishedAtKst": "2026. 06. 15. 04:45",
-          "summary": "This is the fourth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The third post can be found here . Since SFT is the cause",
-          "impact": 14,
-          "confidence": 77,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Deployment Awareness Matters More Than Evaluation Awareness",
@@ -314,7 +316,7 @@
           "publishedAt": "2026-07-07T16:43:05.000Z",
           "publishedAtKst": "2026. 07. 08. 01:43",
           "summary": "Current benchmarks for evaluating Large Language Models (LLMs) in data analysis often fail to reflect real-world settings. They typically focus on fact retrieval from small tables and overlook the challenges of large mul",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +334,7 @@
           "publishedAt": "2026-07-07T16:12:51.000Z",
           "publishedAtKst": "2026. 07. 08. 01:12",
           "summary": "Biomedical question answering requires not only accurate extraction of information from scientific literature but also reliable integration of evidence across multiple documents. This study presents a question-type-speci",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +352,7 @@
           "publishedAt": "2026-07-07T17:26:28.000Z",
           "publishedAtKst": "2026. 07. 08. 02:26",
           "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introd",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,12 +369,63 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 64,
-      "delta": 4,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Open-source models are closing the coding gap with GPT/Claude/Gemini ~1.5x faster than the frontier is advancing, and on decontaminated benchmarks a 27B model already beats Claude Opus 4.8 [live dashboard + analysis]",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uqew7g/opensource_models_are_closing_the_coding_gap_with/",
+          "publishedAt": "2026-07-08T01:44:23.000Z",
+          "publishedAtKst": "2026. 07. 08. 10:44",
+          "summary": "Everyone argues about whether open-source AI is catching up to the closed labs. I got tired of vibes, so I built a live dashboard that plots open-weight vs closed models on the coding benchmarks that matter (SWE-bench Ve",
+          "impact": 36,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "Gemini",
+            "Claude"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Benchmarking Coding Agents on Databricks' Multi-Million Line Codebase",
+          "source": "Hacker News",
+          "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+          "publishedAt": "2026-07-08T21:30:09.000Z",
+          "publishedAtKst": "2026. 07. 09. 06:30",
+          "summary": "1 points, 0 comments",
+          "impact": 25,
+          "confidence": 65,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Why doesn't this sub like talking about ARC AGI as much anymore?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uqqjd3/why_doesnt_this_sub_like_talking_about_arc_agi_as/",
+          "publishedAt": "2026-07-08T11:57:30.000Z",
+          "publishedAtKst": "2026. 07. 08. 20:57",
+          "summary": "Like I kept seeing posts and images like these about models achieving high scores and accelerating with arc agi 2. Idk if arc agi 3 scoring system is rigged or not, but I think it at least completing some of the games wi",
+          "impact": 17,
+          "confidence": 51,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: The Banana Test: coding agents grow a 3D banana plant'",
           "source": "Hacker News",
@@ -395,66 +448,26 @@
           "url": "https://github.com/rowboatlabs/rowboat",
           "publishedAt": "2026-07-07T16:10:44.000Z",
           "publishedAtKst": "2026. 07. 08. 01:10",
-          "summary": "206 points, 86 comments",
-          "impact": 15,
-          "confidence": 55,
+          "summary": "211 points, 91 comments",
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "Claude"
           ],
           "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Can We Understand How Large Language Models Reason?",
-          "source": "Hacker News",
-          "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
-          "publishedAt": "2026-07-08T06:04:14.000Z",
-          "publishedAtKst": "2026. 07. 08. 15:04",
-          "summary": "3 points, 1 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
-          "source": "Hacker News",
-          "url": "https://github.com/Latand/live-log-viewer-next",
-          "publishedAt": "2026-07-06T14:06:25.000Z",
-          "publishedAtKst": "2026. 07. 06. 23:06",
-          "summary": "4 points, 0 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Ask HN: How are you running untrusted code from AI agents?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48833942",
-          "publishedAt": "2026-07-08T16:24:22.000Z",
-          "publishedAtKst": "2026. 07. 09. 01:24",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "Notes on technical alignment via human-like social drives",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
+      "impact": 36,
+      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "Data filtering works a lot worse than you would expect",
       "source": "Alignment Forum",
@@ -463,18 +476,11 @@
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.06413v1",
+      "title": "Open-source models are closing the coding gap with GPT/Claude/Gemini ~1.5x faster than the frontier is advancing, and on decontaminated benchmarks a 27B model already beats Claude Opus 4.8 [live dashboard + analysis]",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1uqew7g/opensource_models_are_closing_the_coding_gap_with/",
       "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.06411v1",
-      "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -482,15 +488,8 @@
       "title": "TILDE: TILt-based Distributional Erasure for Concept Unlearning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.06432v1",
-      "impact": -8,
-      "reason": "저작권, 규제 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "What if a model could only learn what trusted LoRA adapters can express? [R]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/",
       "impact": -7,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "저작권, 규제 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "GDM AI Control Roadmap",
@@ -498,6 +497,13 @@
       "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
       "impact": 2,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The distillation panic",
+      "source": "Interconnects",
+      "url": "https://www.interconnects.ai/p/the-distillation-panic",
+      "impact": 3,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
