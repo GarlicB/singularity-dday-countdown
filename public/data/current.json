@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-09T06:34:41.662Z",
-  "generatedAtKst": "2026. 07. 09. 15:34",
-  "nextUpdateAt": "2026-07-09T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 09. 18:00",
+  "generatedAt": "2026-07-09T11:45:30.352Z",
+  "generatedAtKst": "2026. 07. 09. 20:45",
+  "nextUpdateAt": "2026-07-09T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 10. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2113,
+    "rangeEnd": "2039-05-10",
+    "dday": 2158,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 44,
     "coldCount": 5,
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 58,
+      "delta": 2,
+      "tone": "hot"
     }
   ],
   "categories": [
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-08T13:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 22:00",
           "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-07-08T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 09:00",
           "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-07-07T08:54:00.000Z",
           "publishedAtKst": "2026. 07. 07. 17:54",
           "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-07-07T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 07. 09:00",
           "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-07-07T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 07. 09:00",
           "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,10 +165,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
+      "score": 82,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -196,7 +196,7 @@
           "publishedAt": "2026-07-07T04:41:59.000Z",
           "publishedAtKst": "2026. 07. 07. 13:41",
           "summary": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provid",
-          "impact": 32,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -206,6 +206,24 @@
             "Gemini"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Announcing our $160M grant from Coefficient Giving",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
+          "publishedAt": "2026-07-09T07:58:47.000Z",
+          "publishedAtKst": "2026. 07. 09. 16:58",
+          "summary": "We are excited to announce that Resolution ( fka Sequent ) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to acceler",
+          "impact": 25,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "초지능",
+            "추론",
+            "컴퓨트",
+            "안전 이슈"
+          ],
+          "why": "초지능, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The Case for Model Forensics",
@@ -242,24 +260,6 @@
             "GPT"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "LLM-Driven Feature Discovery",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
-          "publishedAt": "2026-06-22T22:26:51.000Z",
-          "publishedAtKst": "2026. 06. 23. 07:26",
-          "summary": "We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to discover novel behaviors , figure out what c",
-          "impact": 13,
-          "confidence": 79,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "Gemini",
-            "LLM"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -267,7 +267,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -316,7 +316,7 @@
           "publishedAt": "2026-07-08T17:59:45.000Z",
           "publishedAtKst": "2026. 07. 09. 02:59",
           "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the K",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,31 +328,13 @@
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+          "title": "Think Big, Search Small: Where Capacity Matters in Hierarchical Search Agents?",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.07702v1",
-          "publishedAt": "2026-07-08T17:57:27.000Z",
-          "publishedAtKst": "2026. 07. 09. 02:57",
-          "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real exe",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "모델",
-            "성능 향상"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.07696v1",
-          "publishedAt": "2026-07-08T17:55:00.000Z",
-          "publishedAtKst": "2026. 07. 09. 02:55",
-          "summary": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query executi",
-          "impact": 31,
+          "url": "http://arxiv.org/abs/2607.07548v1",
+          "publishedAt": "2026-07-08T15:46:48.000Z",
+          "publishedAtKst": "2026. 07. 09. 00:46",
+          "summary": "Large language model based search agents increasingly adopt multi-agent architectures in which a main agent decomposes a complex question into sub-queries and dispatches them to parallel sub-agents. However, existing sys",
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -362,6 +344,24 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.07702v1",
+          "publishedAt": "2026-07-08T17:57:27.000Z",
+          "publishedAtKst": "2026. 07. 09. 02:57",
+          "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real exe",
+          "impact": 29,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "성능 향상"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,28 +369,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 66,
+      "delta": 4,
       "weight": 0.2,
       "confidence": 52,
       "trend": "hot",
       "items": [
-        {
-          "title": "Why doesn't this sub like talking about ARC AGI as much anymore?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uqqjd3/why_doesnt_this_sub_like_talking_about_arc_agi_as/",
-          "publishedAt": "2026-07-08T11:57:30.000Z",
-          "publishedAtKst": "2026. 07. 08. 20:57",
-          "summary": "Like I kept seeing posts and images like these about models achieving high scores and accelerating with arc agi 2. Idk if arc agi 3 scoring system is rigged or not, but I think it at least completing some of the games wi",
-          "impact": 16,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Grok-4.5 on par with gpt-5.5-xhigh in coding at half the cost",
           "source": "r/singularity",
@@ -414,8 +398,8 @@
           "publishedAt": "2026-07-07T13:54:57.000Z",
           "publishedAtKst": "2026. 07. 07. 22:54",
           "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 54,
+          "impact": 13,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -429,9 +413,9 @@
           "url": "https://github.com/rowboatlabs/rowboat",
           "publishedAt": "2026-07-07T16:10:44.000Z",
           "publishedAtKst": "2026. 07. 08. 01:10",
-          "summary": "213 points, 91 comments",
-          "impact": 14,
-          "confidence": 53,
+          "summary": "214 points, 92 comments",
+          "impact": 13,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "Claude"
@@ -451,6 +435,21 @@
           "tags": [
             "LLM",
             "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Ember – Lightweight headless browser for AI agents (17MB idle)",
+          "source": "Hacker News",
+          "url": "https://github.com/andalabx/ember",
+          "publishedAt": "2026-07-09T11:32:52.000Z",
+          "publishedAtKst": "2026. 07. 09. 20:32",
+          "summary": "1 points, 1 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
