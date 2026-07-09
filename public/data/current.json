@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-09T17:11:58.916Z",
-  "generatedAtKst": "2026. 07. 10. 02:11",
-  "nextUpdateAt": "2026-07-09T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 10. 06:00",
+  "generatedAt": "2026-07-09T22:13:51.660Z",
+  "generatedAtKst": "2026. 07. 10. 07:13",
+  "nextUpdateAt": "2026-07-10T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 10. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-01-22",
+    "medianDate": "2031-12-08",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-12-26",
-    "dday": 2023,
+    "rangeEnd": "2038-11-11",
+    "dday": 1978,
     "confidence": 76,
-    "deltaDays": -48,
+    "deltaDays": -49,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 82,
+    "score": 83,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 48,
-    "coldCount": 6,
-    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 51,
+    "coldCount": 7,
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-09T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 19:00",
           "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-07-08T13:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 22:00",
           "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -129,12 +129,28 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/gpt-5-6",
+          "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+          "publishedAt": "2026-07-09T13:00:00.000Z",
+          "publishedAtKst": "2026. 07. 09. 22:00",
+          "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GPT-5.5 Bio Bug Bounty",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/bio-bug-bounty",
           "publishedAt": "2026-07-09T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 19:00",
-          "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+          "summary": "Details about the OpenAI Bio Bounty program",
           "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
@@ -142,22 +158,6 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/australian-payments-plus",
-          "publishedAt": "2026-07-07T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 07. 09:00",
-          "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,8 +165,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
-      "delta": 8,
+      "score": 84,
+      "delta": 9,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -190,13 +190,31 @@
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "AI 2040: Plan A",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
+          "publishedAt": "2026-07-09T16:25:14.000Z",
+          "publishedAtKst": "2026. 07. 10. 01:25",
+          "summary": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done! It’s called AI 2040: Plan A. It’s called Plan A because it’s a recommendation, not a predictio",
+          "impact": 29,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "컴퓨트",
+            "지연"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Data filtering works a lot worse than you would expect",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
           "publishedAt": "2026-07-07T04:41:59.000Z",
           "publishedAtKst": "2026. 07. 07. 13:41",
           "summary": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provid",
-          "impact": 28,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +232,7 @@
           "publishedAt": "2026-07-09T07:58:47.000Z",
           "publishedAtKst": "2026. 07. 09. 16:58",
           "summary": "We are excited to announce that Resolution ( fka Sequent ) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to acceler",
-          "impact": 24,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -242,24 +260,6 @@
             "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Deployment Awareness Matters More Than Evaluation Awareness",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
-          "publishedAt": "2026-06-26T22:54:06.000Z",
-          "publishedAtKst": "2026. 06. 27. 07:54",
-          "summary": "TL;DR Evaluation awareness — an AI recognizing it's being evaluated — is a widely discussed concept in AI safety. But there is a closely related concept that we claim is more important: deployment awareness , the AI's ab",
-          "impact": 13,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "GPT"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -267,7 +267,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -316,7 +316,7 @@
           "publishedAt": "2026-07-08T17:59:45.000Z",
           "publishedAtKst": "2026. 07. 09. 02:59",
           "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the K",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,31 +328,13 @@
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Think Big, Search Small: Where Capacity Matters in Hierarchical Search Agents?",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.07548v1",
-          "publishedAt": "2026-07-08T15:46:48.000Z",
-          "publishedAtKst": "2026. 07. 09. 00:46",
-          "summary": "Large language model based search agents increasingly adopt multi-agent architectures in which a main agent decomposes a complex question into sub-queries and dispatches them to parallel sub-agents. However, existing sys",
-          "impact": 29,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.07702v1",
           "publishedAt": "2026-07-08T17:57:27.000Z",
           "publishedAtKst": "2026. 07. 09. 02:57",
           "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real exe",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -362,6 +344,24 @@
             "성능 향상"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.07696v1",
+          "publishedAt": "2026-07-08T17:55:00.000Z",
+          "publishedAtKst": "2026. 07. 09. 02:55",
+          "summary": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query executi",
+          "impact": 27,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,12 +369,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "ChatGPT 5.6 - ARC-AGI 3 score",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1urx8hy/chatgpt_56_arcagi_3_score/",
+          "publishedAt": "2026-07-09T17:37:34.000Z",
+          "publishedAtKst": "2026. 07. 10. 02:37",
+          "summary": "&#32; submitted by &#32; /u/Bizzyguy [link] &#32; [comments]",
+          "impact": 36,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "ChatGPT",
+            "GPT",
+            "추론 벤치마크"
+          ],
+          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "The cost of a given X level of AI intelligence is cut in half every 2-4 months.",
           "source": "r/singularity",
@@ -382,7 +400,7 @@
           "publishedAt": "2026-07-09T06:32:24.000Z",
           "publishedAtKst": "2026. 07. 09. 15:32",
           "summary": "Grok 4.5 was released and they claim they offer a performance similar to Opus 4.7 with half of the cost. While this remains to be seen and to be confirmed, let's see how this claim seems to follow a trend we are experien",
-          "impact": 36,
+          "impact": 35,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -394,20 +412,36 @@
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How I use coding agents for reproducible DS/ML workflows",
+          "title": "Agents' Last Exam: AI Agent Benchmark for Real-World Professional Workflows",
           "source": "Hacker News",
-          "url": "https://github.com/tkpratardan/lemma",
-          "publishedAt": "2026-07-09T16:55:21.000Z",
-          "publishedAtKst": "2026. 07. 10. 01:55",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "url": "https://agents-last-exam.org",
+          "publishedAt": "2026-07-09T18:42:08.000Z",
+          "publishedAtKst": "2026. 07. 10. 03:42",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GPT 5.6 Sol benchmarks",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1urx260/gpt_56_sol_benchmarks/",
+          "publishedAt": "2026-07-09T17:31:27.000Z",
+          "publishedAtKst": "2026. 07. 10. 02:31",
+          "summary": "&#32; submitted by &#32; /u/TwitchTvOmo1 [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "벤치마크"
+          ],
+          "why": "GPT, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
@@ -416,7 +450,7 @@
           "publishedAt": "2026-07-09T01:52:00.000Z",
           "publishedAtKst": "2026. 07. 09. 10:52",
           "summary": "&#32; submitted by &#32; /u/TMWNN [link] &#32; [comments]",
-          "impact": 15,
+          "impact": 14,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -424,37 +458,6 @@
             "Claude"
           ],
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Grok-4.5 on par with gpt-5.5-xhigh in coding at half the cost",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1ur6bie/grok45_on_par_with_gpt55xhigh_in_coding_at_half/",
-          "publishedAt": "2026-07-08T21:30:11.000Z",
-          "publishedAtKst": "2026. 07. 09. 06:30",
-          "summary": "&#32; submitted by &#32; /u/NoFaithlessness951 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "고난도 평가"
-          ],
-          "why": "GPT, 고난도 평가 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-          "source": "Hacker News",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "publishedAt": "2026-07-07T16:10:44.000Z",
-          "publishedAtKst": "2026. 07. 08. 01:10",
-          "summary": "215 points, 94 comments",
-          "impact": 13,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "Claude"
-          ],
-          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -468,11 +471,11 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "The cost of a given X level of AI intelligence is cut in half every 2-4 months.",
+      "title": "ChatGPT 5.6 - ARC-AGI 3 score",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1uri6cs/the_cost_of_a_given_x_level_of_ai_intelligence_is/",
+      "url": "https://www.reddit.com/r/singularity/comments/1urx8hy/chatgpt_56_arcagi_3_score/",
       "impact": 36,
-      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
@@ -484,11 +487,18 @@
   ],
   "topDampeners": [
     {
-      "title": "Gradual Disempowerment: Systemic Existential Risks of Incremental AI Development",
+      "title": "Twilio API attack leaves customers with upwards $5k charges",
       "source": "Hacker News",
-      "url": "https://arxiv.org/abs/2501.16946",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://old.reddit.com/r/twilio/comments/1uhx9zt",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "1X unveils NEO's new robotics hands",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1us0av5/1x_unveils_neos_new_robotics_hands/",
+      "impact": -1,
+      "reason": "안전 이슈, 편향 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "GDM AI Control Roadmap",
@@ -496,13 +506,6 @@
       "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
       "impact": 2,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "The distillation panic",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-distillation-panic",
-      "impact": 3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
