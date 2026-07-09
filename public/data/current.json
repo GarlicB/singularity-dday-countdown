@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-08T21:58:57.977Z",
-  "generatedAtKst": "2026. 07. 09. 06:58",
-  "nextUpdateAt": "2026-07-09T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 09. 12:00",
+  "generatedAt": "2026-07-09T06:34:41.662Z",
+  "generatedAtKst": "2026. 07. 09. 15:34",
+  "nextUpdateAt": "2026-07-09T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 09. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2031-12-08",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-11-11",
-    "dday": 1979,
+    "rangeEnd": "2039-03-26",
+    "dday": 2113,
     "confidence": 76,
-    "deltaDays": -49,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 83,
-    "temperature": 59,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 4,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 44,
+    "coldCount": 5,
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -54,16 +54,16 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-08T13:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 22:00",
           "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-          "impact": 27,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-07-08T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 09:00",
           "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-07-07T08:54:00.000Z",
           "publishedAtKst": "2026. 07. 07. 17:54",
           "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-07-07T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 07. 09:00",
           "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-07-07T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 07. 09:00",
           "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,7 +165,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
       "confidence": 81,
@@ -196,7 +196,7 @@
           "publishedAt": "2026-07-07T04:41:59.000Z",
           "publishedAtKst": "2026. 07. 07. 13:41",
           "summary": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provid",
-          "impact": 36,
+          "impact": 32,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -274,49 +274,85 @@
       "trend": "hot",
       "items": [
         {
-          "title": "An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
+          "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06413v1",
-          "publishedAt": "2026-07-07T15:43:22.000Z",
-          "publishedAtKst": "2026. 07. 08. 00:43",
-          "summary": "Large language model coding agents increasingly perform open-ended data modeling and analysis. These agents are stochastic and adaptive, and therefore their autonomous model discovery behavior cannot be adequately charac",
+          "url": "http://arxiv.org/abs/2607.07708v1",
+          "publishedAt": "2026-07-08T17:59:59.000Z",
+          "publishedAtKst": "2026. 07. 09. 02:59",
+          "summary": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically exp",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "자율성",
             "추론",
-            "Claude"
+            "LLM",
+            "모델",
+            "벤치마크"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
+          "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06411v1",
-          "publishedAt": "2026-07-07T15:41:22.000Z",
-          "publishedAtKst": "2026. 07. 08. 00:41",
-          "summary": "Developers increasingly delegate real maintenance work to product-grade coding agents, and many state tasks in their native language, in the style of a customer request rather than a curated English issue. Existing repos",
+          "url": "http://arxiv.org/abs/2607.07508v1",
+          "publishedAt": "2026-07-08T15:02:19.000Z",
+          "publishedAtKst": "2026. 07. 09. 00:02",
+          "summary": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-h",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "추론",
-            "GPT",
-            "Claude"
+            "LLM",
+            "모델"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Data Analysis in the Wild: Benchmarking Large Language Models Against Real-World Data Complexities",
+          "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06482v1",
-          "publishedAt": "2026-07-07T16:43:05.000Z",
-          "publishedAtKst": "2026. 07. 08. 01:43",
-          "summary": "Current benchmarks for evaluating Large Language Models (LLMs) in data analysis often fail to reflect real-world settings. They typically focus on fact retrieval from small tables and overlook the challenges of large mul",
+          "url": "http://arxiv.org/abs/2607.07707v1",
+          "publishedAt": "2026-07-08T17:59:45.000Z",
+          "publishedAtKst": "2026. 07. 09. 02:59",
+          "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the K",
           "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.07702v1",
+          "publishedAt": "2026-07-08T17:57:27.000Z",
+          "publishedAtKst": "2026. 07. 09. 02:57",
+          "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real exe",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "성능 향상"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.07696v1",
+          "publishedAt": "2026-07-08T17:55:00.000Z",
+          "publishedAtKst": "2026. 07. 09. 02:55",
+          "summary": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query executi",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -326,42 +362,6 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "From Voting to Agent Collaboration: Answer-Type-Aware LLM Pipelines for BioASQ 14b",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06452v1",
-          "publishedAt": "2026-07-07T16:12:51.000Z",
-          "publishedAtKst": "2026. 07. 08. 01:12",
-          "summary": "Biomedical question answering requires not only accurate extraction of information from scientific literature but also reliable integration of evidence across multiple documents. This study presents a question-type-speci",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.06519v1",
-          "publishedAt": "2026-07-07T17:26:28.000Z",
-          "publishedAtKst": "2026. 07. 08. 02:26",
-          "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introd",
-          "impact": 28,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "벤치마크",
-            "추론 인프라"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,47 +369,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
-      "delta": 7,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 52,
       "trend": "hot",
       "items": [
-        {
-          "title": "Open-source models are closing the coding gap with GPT/Claude/Gemini ~1.5x faster than the frontier is advancing, and on decontaminated benchmarks a 27B model already beats Claude Opus 4.8 [live dashboard + analysis]",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uqew7g/opensource_models_are_closing_the_coding_gap_with/",
-          "publishedAt": "2026-07-08T01:44:23.000Z",
-          "publishedAtKst": "2026. 07. 08. 10:44",
-          "summary": "Everyone argues about whether open-source AI is catching up to the closed labs. I got tired of vibes, so I built a live dashboard that plots open-weight vs closed models on the coding benchmarks that matter (SWE-bench Ve",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Gemini",
-            "Claude"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Benchmarking Coding Agents on Databricks' Multi-Million Line Codebase",
-          "source": "Hacker News",
-          "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-          "publishedAt": "2026-07-08T21:30:09.000Z",
-          "publishedAtKst": "2026. 07. 09. 06:30",
-          "summary": "1 points, 0 comments",
-          "impact": 25,
-          "confidence": 65,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Why doesn't this sub like talking about ARC AGI as much anymore?",
           "source": "r/singularity",
@@ -417,8 +382,8 @@
           "publishedAt": "2026-07-08T11:57:30.000Z",
           "publishedAtKst": "2026. 07. 08. 20:57",
           "summary": "Like I kept seeing posts and images like these about models achieving high scores and accelerating with arc agi 2. Idk if arc agi 3 scoring system is rigged or not, but I think it at least completing some of the games wi",
-          "impact": 17,
-          "confidence": 51,
+          "impact": 16,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -427,14 +392,30 @@
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Grok-4.5 on par with gpt-5.5-xhigh in coding at half the cost",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1ur6bie/grok45_on_par_with_gpt55xhigh_in_coding_at_half/",
+          "publishedAt": "2026-07-08T21:30:11.000Z",
+          "publishedAtKst": "2026. 07. 09. 06:30",
+          "summary": "&#32; submitted by &#32; /u/NoFaithlessness951 [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "고난도 평가"
+          ],
+          "why": "GPT, 고난도 평가 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Show HN: The Banana Test: coding agents grow a 3D banana plant'",
           "source": "Hacker News",
           "url": "https://francescomoramarco.com/banana-test/",
           "publishedAt": "2026-07-07T13:54:57.000Z",
           "publishedAtKst": "2026. 07. 07. 22:54",
           "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -448,14 +429,30 @@
           "url": "https://github.com/rowboatlabs/rowboat",
           "publishedAt": "2026-07-07T16:10:44.000Z",
           "publishedAtKst": "2026. 07. 08. 01:10",
-          "summary": "211 points, 91 comments",
+          "summary": "213 points, 91 comments",
           "impact": 14,
-          "confidence": 54,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "Claude"
           ],
           "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Large language models can predict the results of social science experiments",
+          "source": "Hacker News",
+          "url": "https://www.nature.com/articles/s41586-026-10742-x",
+          "publishedAt": "2026-07-08T18:53:03.000Z",
+          "publishedAtKst": "2026. 07. 09. 03:53",
+          "summary": "1 points, 0 comments",
+          "impact": 11,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -469,28 +466,21 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Data filtering works a lot worse than you would expect",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.07708v1",
       "impact": 36,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Open-source models are closing the coding gap with GPT/Claude/Gemini ~1.5x faster than the frontier is advancing, and on decontaminated benchmarks a 27B model already beats Claude Opus 4.8 [live dashboard + analysis]",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1uqew7g/opensource_models_are_closing_the_coding_gap_with/",
+      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.07508v1",
       "impact": 36,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "TILDE: TILt-based Distributional Erasure for Concept Unlearning",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.06432v1",
-      "impact": -7,
-      "reason": "저작권, 규제 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "GDM AI Control Roadmap",
       "source": "Alignment Forum",
@@ -504,6 +494,13 @@
       "url": "https://www.interconnects.ai/p/the-distillation-panic",
       "impact": 3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Avoiding unsafe sets when training with Langevin Dynamics",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.07538v1",
+      "impact": 7,
+      "reason": "안전 이슈, 전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
