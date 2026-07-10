@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-10T06:33:40.649Z",
-  "generatedAtKst": "2026. 07. 10. 15:33",
-  "nextUpdateAt": "2026-07-10T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 10. 18:00",
+  "generatedAt": "2026-07-10T11:43:23.359Z",
+  "generatedAtKst": "2026. 07. 10. 20:43",
+  "nextUpdateAt": "2026-07-10T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 11. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2031-12-08",
+    "medianDate": "2032-01-22",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-11-11",
-    "dday": 1977,
+    "rangeEnd": "2038-12-26",
+    "dday": 2022,
     "confidence": 76,
-    "deltaDays": -49,
+    "deltaDays": -48,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 83,
+    "score": 82,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 58,
+    "hotCount": 56,
     "coldCount": 7,
-    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 58,
-      "delta": 2,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -101,7 +101,7 @@
           "publishedAt": "2026-07-08T13:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 22:00",
           "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -110,23 +110,6 @@
             "코딩 성능"
           ],
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing GPT-Live",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "publishedAt": "2026-07-08T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 08. 09:00",
-          "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "모델"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
@@ -145,13 +128,30 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-5.5 Bio Bug Bounty",
+          "title": "Introducing GPT-Live",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/bio-bug-bounty",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 08. 09:00",
+          "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gpt-5-6",
           "publishedAt": "2026-07-09T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 19:00",
-          "summary": "Details about the OpenAI Bio Bounty program",
-          "impact": 16,
+          "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,7 +165,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 86,
+      "score": 84,
       "delta": 9,
       "weight": 0.18,
       "confidence": 82,
@@ -178,7 +178,7 @@
           "publishedAt": "2026-07-08T18:30:22.000Z",
           "publishedAtKst": "2026. 07. 09. 03:30",
           "summary": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating h",
-          "impact": 34,
+          "impact": 32,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -196,7 +196,7 @@
           "publishedAt": "2026-07-10T00:43:29.000Z",
           "publishedAtKst": "2026. 07. 10. 09:43",
           "summary": "Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model migh",
-          "impact": 32,
+          "impact": 31,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +214,7 @@
           "publishedAt": "2026-07-09T16:25:14.000Z",
           "publishedAtKst": "2026. 07. 10. 01:25",
           "summary": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done! It’s called AI 2040: Plan A. It’s called Plan A because it’s a recommendation, not a predictio",
-          "impact": 28,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -226,13 +226,31 @@
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Modular Pretraining Enables Access Control",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control",
+          "publishedAt": "2026-07-09T00:03:25.000Z",
+          "publishedAtKst": "2026. 07. 09. 09:03",
+          "summary": "Full author list: Ethan Roland * , Murat Cubuktepe * , Erick Martinez * , Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; *Equal contribution tldr: ",
+          "impact": 21,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "프런티어 모델",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Data filtering works a lot worse than you would expect",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
           "publishedAt": "2026-07-07T04:41:59.000Z",
           "publishedAtKst": "2026. 07. 07. 13:41",
           "summary": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provid",
-          "impact": 23,
+          "impact": 21,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -242,24 +260,6 @@
             "Gemini"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Announcing our $160M grant from Coefficient Giving",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
-          "publishedAt": "2026-07-09T07:58:47.000Z",
-          "publishedAtKst": "2026. 07. 09. 16:58",
-          "summary": "We are excited to announce that Resolution ( fka Sequent ) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to acceler",
-          "impact": 22,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "초지능",
-            "추론",
-            "컴퓨트",
-            "안전 이슈"
-          ],
-          "why": "초지능, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -267,8 +267,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -310,31 +310,13 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.08745v1",
-          "publishedAt": "2026-07-09T17:46:24.000Z",
-          "publishedAtKst": "2026. 07. 10. 02:46",
-          "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visua",
-          "impact": 34,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.08662v1",
           "publishedAt": "2026-07-09T16:28:49.000Z",
           "publishedAtKst": "2026. 07. 10. 01:28",
           "summary": "Large language model (LLM)-based web search agents are transforming information seeking from simple factoid question answering into complex, deep-and-wide search and research-oriented tasks. A single ReAct-style agent is",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,13 +328,31 @@
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.08745v1",
+          "publishedAt": "2026-07-09T17:46:24.000Z",
+          "publishedAtKst": "2026. 07. 10. 02:46",
+          "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visua",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.08700v1",
           "publishedAt": "2026-07-09T17:01:40.000Z",
           "publishedAtKst": "2026. 07. 10. 02:01",
           "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the jud",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -369,10 +369,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
@@ -382,7 +382,7 @@
           "publishedAt": "2026-07-09T17:37:34.000Z",
           "publishedAtKst": "2026. 07. 10. 02:37",
           "summary": "&#32; submitted by &#32; /u/Bizzyguy [link] &#32; [comments]",
-          "impact": 34,
+          "impact": 32,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -400,7 +400,7 @@
           "publishedAt": "2026-07-09T18:42:08.000Z",
           "publishedAtKst": "2026. 07. 10. 03:42",
           "summary": "2 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -416,7 +416,7 @@
           "publishedAt": "2026-07-09T17:31:27.000Z",
           "publishedAtKst": "2026. 07. 10. 02:31",
           "summary": "&#32; submitted by &#32; /u/TwitchTvOmo1 [link] &#32; [comments]",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -432,7 +432,7 @@
           "publishedAt": "2026-07-09T17:58:57.000Z",
           "publishedAtKst": "2026. 07. 10. 02:58",
           "summary": "&#32; submitted by &#32; /u/Hans-Wermhatt [link] &#32; [comments]",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -441,20 +441,19 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Can We Understand How Large Language Models Reason?",
+          "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
           "source": "Hacker News",
-          "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
-          "publishedAt": "2026-07-10T01:51:29.000Z",
-          "publishedAtKst": "2026. 07. 10. 10:51",
-          "summary": "1 points, 0 comments",
+          "url": "https://github.com/rowboatlabs/rowboat",
+          "publishedAt": "2026-07-07T16:10:44.000Z",
+          "publishedAtKst": "2026. 07. 08. 01:10",
+          "summary": "216 points, 94 comments",
           "impact": 12,
-          "confidence": 54,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "Claude"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -475,11 +474,11 @@
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Notes on technical alignment via human-like social drives",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
-      "impact": 34,
-      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.08662v1",
+      "impact": 33,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
