@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-11T05:32:18.099Z",
-  "generatedAtKst": "2026. 07. 11. 14:32",
-  "nextUpdateAt": "2026-07-11T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 11. 18:00",
+  "generatedAt": "2026-07-11T10:09:21.713Z",
+  "generatedAtKst": "2026. 07. 11. 19:09",
+  "nextUpdateAt": "2026-07-11T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 12. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2156,
+    "rangeEnd": "2039-08-08",
+    "dday": 2246,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
+    "hotCount": 54,
     "coldCount": 7,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-09T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 19:00",
           "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-07-09T13:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 22:00",
           "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-07-08T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 08. 09:00",
           "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,8 +165,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.18,
       "confidence": 80,
       "trend": "hot",
@@ -178,8 +178,8 @@
           "publishedAt": "2026-07-10T00:43:29.000Z",
           "publishedAtKst": "2026. 07. 10. 09:43",
           "summary": "Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model migh",
-          "impact": 27,
-          "confidence": 81,
+          "impact": 26,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -196,7 +196,7 @@
           "publishedAt": "2026-07-08T18:30:22.000Z",
           "publishedAtKst": "2026. 07. 09. 03:30",
           "summary": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating h",
-          "impact": 26,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,8 +214,8 @@
           "publishedAt": "2026-07-09T16:25:14.000Z",
           "publishedAtKst": "2026. 07. 10. 01:25",
           "summary": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done! It’s called AI 2040: Plan A. It’s called Plan A because it’s a recommendation, not a predictio",
-          "impact": 23,
-          "confidence": 82,
+          "impact": 22,
+          "confidence": 81,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -232,8 +232,8 @@
           "publishedAt": "2026-07-09T00:03:25.000Z",
           "publishedAtKst": "2026. 07. 09. 09:03",
           "summary": "Full author list: Ethan Roland * , Murat Cubuktepe * , Erick Martinez * , Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; *Equal contribution tldr: ",
-          "impact": 18,
-          "confidence": 81,
+          "impact": 17,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -250,7 +250,7 @@
           "publishedAt": "2026-07-09T07:58:47.000Z",
           "publishedAtKst": "2026. 07. 09. 16:58",
           "summary": "We are excited to announce that Resolution ( fka Sequent ) has a $160M grant from Coefficient Giving (cG) to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to acceler",
-          "impact": 18,
+          "impact": 17,
           "confidence": 76,
           "stance": "accelerate",
           "tags": [
@@ -267,30 +267,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.08768v1",
-          "publishedAt": "2026-07-09T17:59:32.000Z",
-          "publishedAtKst": "2026. 07. 10. 02:59",
-          "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. Ho",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
           "source": "arXiv",
@@ -310,13 +292,31 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.08768v1",
+          "publishedAt": "2026-07-09T17:59:32.000Z",
+          "publishedAtKst": "2026. 07. 10. 02:59",
+          "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. Ho",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.08745v1",
           "publishedAt": "2026-07-09T17:46:24.000Z",
           "publishedAtKst": "2026. 07. 10. 02:46",
           "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visua",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -334,7 +334,7 @@
           "publishedAt": "2026-07-09T16:28:49.000Z",
           "publishedAtKst": "2026. 07. 10. 01:28",
           "summary": "Large language model (LLM)-based web search agents are transforming information seeking from simple factoid question answering into complex, deep-and-wide search and research-oriented tasks. A single ReAct-style agent is",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -352,7 +352,7 @@
           "publishedAt": "2026-07-09T17:01:40.000Z",
           "publishedAtKst": "2026. 07. 10. 02:01",
           "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the jud",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -369,57 +369,27 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
-      "delta": 6,
+      "score": 67,
+      "delta": 4,
       "weight": 0.2,
       "confidence": 53,
       "trend": "hot",
       "items": [
         {
-          "title": "Wlctl – a Rust TUI for Managing Wi-Fi/ETH/VPN Using NetworkManager",
+          "title": "AgentKindergarten – daycare for your AI coding agents",
           "source": "Hacker News",
-          "url": "https://github.com/aashish-thapa/wlctl",
-          "publishedAt": "2026-07-11T04:51:13.000Z",
-          "publishedAtKst": "2026. 07. 11. 13:51",
-          "summary": "3 points, 2 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Managing a small local AI budget (Mac M2 16gb)",
-          "source": "Hacker News",
-          "url": "https://millfolio.com/blog/local-ai-infra-tags/",
-          "publishedAt": "2026-07-11T04:17:19.000Z",
-          "publishedAtKst": "2026. 07. 11. 13:17",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "We went from AI writing emails to AI helping raise $100M",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1usy56j/we_went_from_ai_writing_emails_to_ai_helping/",
-          "publishedAt": "2026-07-10T19:48:36.000Z",
-          "publishedAtKst": "2026. 07. 11. 04:48",
-          "summary": "Whether this was fully autonomous or not, the direction is fascinating. Feels like agents are moving beyond task automation and starting to participate in actual business operations. &#32; submitted by &#32; /u/Bladerunn",
-          "impact": 15,
-          "confidence": 49,
+          "url": "https://github.com/rokrak1/agentkindergarten",
+          "publishedAt": "2026-07-11T10:08:05.000Z",
+          "publishedAtKst": "2026. 07. 11. 19:08",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How confident are you that you will be able to live enough to see aging being cured due to ai and tech acceleration?",
@@ -428,8 +398,8 @@
           "publishedAt": "2026-07-10T12:49:03.000Z",
           "publishedAtKst": "2026. 07. 10. 21:49",
           "summary": "Il keep things a bit conservative and realistic with this post. Im 45 , I think not too old , but not young either , so it is only natural that I wonder where people my age stand when it comes to scenarios like this. Obv",
-          "impact": 14,
-          "confidence": 48,
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -444,25 +414,49 @@
           "publishedAtKst": "2026. 07. 10. 03:42",
           "summary": "2 points, 0 comments",
           "impact": 12,
-          "confidence": 53,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Codex now encrypts messages passed to subagents",
+          "source": "Hacker News",
+          "url": "https://github.com/openai/codex/issues/28058",
+          "publishedAt": "2026-07-11T10:06:40.000Z",
+          "publishedAtKst": "2026. 07. 11. 19:06",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Can We Understand How Large Language Models Reason?",
+          "source": "Hacker News",
+          "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+          "publishedAt": "2026-07-10T01:51:29.000Z",
+          "publishedAtKst": "2026. 07. 10. 10:51",
+          "summary": "2 points, 0 comments",
+          "impact": 10,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.08768v1",
-      "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
       "source": "arXiv",
@@ -471,10 +465,17 @@
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.08768v1",
+      "impact": 34,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.08745v1",
-      "impact": 28,
+      "impact": 27,
       "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
