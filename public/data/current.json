@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-12T10:18:17.805Z",
-  "generatedAtKst": "2026. 07. 12. 19:18",
-  "nextUpdateAt": "2026-07-12T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 13. 00:00",
+  "generatedAt": "2026-07-12T15:50:32.065Z",
+  "generatedAtKst": "2026. 07. 13. 00:50",
+  "nextUpdateAt": "2026-07-12T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 13. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-12-02",
+    "medianDate": "2033-03-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-06",
-    "dday": 2335,
+    "rangeEnd": "2040-02-04",
+    "dday": 2425,
     "confidence": 76,
-    "deltaDays": -37,
+    "deltaDays": -34,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 75,
-    "temperature": 53,
+    "score": 73,
+    "temperature": 51,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
-    "coldCount": 6,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 7,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,16 +54,16 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 58,
-      "delta": 2,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-09T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 19:00",
           "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -128,34 +128,37 @@
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "title": "Introducing GPT-Live",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/gpt-5-6",
-          "publishedAt": "2026-07-09T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 09. 19:00",
-          "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 08. 09:00",
+          "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT"
+            "ChatGPT",
+            "GPT",
+            "모델"
           ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-5.5 Bio Bug Bounty",
+          "title": "MUFG aims to become AI-native with OpenAI",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/bio-bug-bounty",
-          "publishedAt": "2026-07-09T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 09. 19:00",
-          "summary": "Details about the OpenAI Bio Bounty program",
+          "url": "https://openai.com/index/mufg",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 09:00",
+          "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "ChatGPT",
             "GPT"
           ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,10 +166,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 79,
+      "confidence": 78,
       "trend": "hot",
       "items": [
         {
@@ -194,8 +197,8 @@
           "publishedAt": "2026-07-10T00:43:29.000Z",
           "publishedAtKst": "2026. 07. 10. 09:43",
           "summary": "Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model migh",
-          "impact": 20,
-          "confidence": 74,
+          "impact": 19,
+          "confidence": 72,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -206,13 +209,31 @@
           "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "AI 2040: Plan A",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
+          "publishedAt": "2026-07-09T16:25:14.000Z",
+          "publishedAtKst": "2026. 07. 10. 01:25",
+          "summary": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done! It’s called AI 2040: Plan A. It’s called Plan A because it’s a recommendation, not a predictio",
+          "impact": 16,
+          "confidence": 72,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "컴퓨트",
+            "지연"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Notes on technical alignment via human-like social drives",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
           "publishedAt": "2026-07-08T18:30:22.000Z",
           "publishedAtKst": "2026. 07. 09. 03:30",
           "summary": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating h",
-          "impact": 17,
+          "impact": 15,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -220,24 +241,6 @@
             "초지능",
             "에이전트",
             "자율성"
-          ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AI 2040: Plan A",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
-          "publishedAt": "2026-07-09T16:25:14.000Z",
-          "publishedAtKst": "2026. 07. 10. 01:25",
-          "summary": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done! It’s called AI 2040: Plan A. It’s called Plan A because it’s a recommendation, not a predictio",
-          "impact": 17,
-          "confidence": 74,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "컴퓨트",
-            "지연"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -265,10 +268,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 81,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 89,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
@@ -278,7 +281,7 @@
           "publishedAt": "2026-07-09T15:33:08.000Z",
           "publishedAtKst": "2026. 07. 10. 00:33",
           "summary": "Hepatocellular carcinoma (HCC) is a common malignancy and a leading cause of cancer-related mortality. Current guidelines and staging systems provide coarse categories, but often miss within-stage heterogeneity and the c",
-          "impact": 29,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,8 +299,8 @@
           "publishedAt": "2026-07-09T17:59:32.000Z",
           "publishedAtKst": "2026. 07. 10. 02:59",
           "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. Ho",
-          "impact": 26,
-          "confidence": 91,
+          "impact": 24,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -314,8 +317,8 @@
           "publishedAt": "2026-07-09T17:46:24.000Z",
           "publishedAtKst": "2026. 07. 10. 02:46",
           "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visua",
-          "impact": 21,
-          "confidence": 90,
+          "impact": 19,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -332,8 +335,8 @@
           "publishedAt": "2026-07-09T16:28:49.000Z",
           "publishedAtKst": "2026. 07. 10. 01:28",
           "summary": "Large language model (LLM)-based web search agents are transforming information seeking from simple factoid question answering into complex, deep-and-wide search and research-oriented tasks. A single ReAct-style agent is",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -350,8 +353,8 @@
           "publishedAt": "2026-07-09T17:01:40.000Z",
           "publishedAtKst": "2026. 07. 10. 02:01",
           "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the jud",
-          "impact": 18,
-          "confidence": 87,
+          "impact": 17,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -367,91 +370,92 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 62,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: Grinta – a local-first coding agent built for long autonomous runs",
-          "source": "Hacker News",
-          "url": "https://github.com/josephsenior/Grinta-Coding-Agent",
-          "publishedAt": "2026-07-12T09:39:29.000Z",
-          "publishedAtKst": "2026. 07. 12. 18:39",
-          "summary": "1 points, 0 comments",
-          "impact": 26,
-          "confidence": 66,
+          "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+          "publishedAt": "2026-07-12T12:32:29.000Z",
+          "publishedAtKst": "2026. 07. 12. 21:32",
+          "summary": "TL:DR: I’m a grad student in AI, I saw that Google released TabFM and TimesFM last week, I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transformer mo",
+          "impact": 32,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "에이전트",
-            "자율성",
-            "코딩 에이전트"
+            "Claude",
+            "LLM"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Yakr – a social-relay messaging protocol with Python and Rust implementations",
-          "source": "Hacker News",
-          "url": "https://github.com/MY20-PHEV/yakr",
-          "publishedAt": "2026-07-12T09:41:26.000Z",
-          "publishedAtKst": "2026. 07. 12. 18:41",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "VultronRetriever family of models released on HuggingFace![R]",
+          "title": "Where to publish a construction BIM Benchmark? [D]",
           "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
-          "publishedAt": "2026-07-11T15:22:33.000Z",
-          "publishedAtKst": "2026. 07. 12. 00:22",
-          "summary": "Thrilled to announce the VultronRetriever family of models, which were revealed during Raise Summit Paris and demonstrated running Q&A and embedding documents on the iPhone, fully offline! 📱 Some highlights from the Vul",
-          "impact": 15,
-          "confidence": 53,
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uufp11/where_to_publish_a_construction_bim_benchmark_d/",
+          "publishedAt": "2026-07-12T13:36:08.000Z",
+          "publishedAtKst": "2026. 07. 12. 22:36",
+          "summary": "Hey! I'm an ML Engineer at a startup building AI for construction cost estimation, and we're getting ready to publish some research. We've paid professional construction estimators to create item-level takeoffs from cons",
+          "impact": 23,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
+            "GPT",
+            "LLM",
             "모델",
-            "벤치마크",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Developers building with LLMs, how are you actually handling memory, context persistence, and multi-model routing? Genuinely curious what everyone's doing [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1uu96ap/developers_building_with_llms_how_are_you/",
-          "publishedAt": "2026-07-12T07:58:40.000Z",
-          "publishedAtKst": "2026. 07. 12. 16:58",
-          "summary": "Been building an AI product for a few months and honestly the part that's eaten most of my time has nothing to do with the actual product, it's all the plumbing around context management, memory persistence, and dealing ",
-          "impact": 11,
-          "confidence": 50,
+          "title": "Croc: Securely transfer files and folders between two computers",
+          "source": "Hacker News",
+          "url": "https://github.com/schollz/croc/",
+          "publishedAt": "2026-07-12T15:44:13.000Z",
+          "publishedAtKst": "2026. 07. 13. 00:44",
+          "summary": "1 points, 0 comments",
+          "impact": 8,
+          "confidence": 52,
           "stance": "watch",
           "tags": [
-            "LLM",
-            "모델"
+            "컴퓨트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Show HN: Sanbox, batteries included sandboxes for AI agents",
+          "title": "One Wikipedia page costs your AI agent 68,000 tokens",
           "source": "Hacker News",
-          "url": "https://sanbox.cloud",
-          "publishedAt": "2026-07-12T10:16:21.000Z",
-          "publishedAtKst": "2026. 07. 12. 19:16",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
+          "url": "https://news.ycombinator.com/item?id=48867021",
+          "publishedAt": "2026-07-11T00:12:26.000Z",
+          "publishedAtKst": "2026. 07. 11. 09:12",
+          "summary": "14 points, 8 comments",
+          "impact": 8,
+          "confidence": 49,
           "stance": "watch",
           "tags": [
             "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Apple files lawsuit, accuses OpenAI of stealing trade secrets",
+          "source": "Hacker News",
+          "url": "https://www.cbc.ca/news/world/apple-lawsuit-open-ai-trade-secrets-9.7266470",
+          "publishedAt": "2026-07-12T14:52:52.000Z",
+          "publishedAtKst": "2026. 07. 12. 23:52",
+          "summary": "2 points, 0 comments",
+          "impact": -3,
+          "confidence": 51,
+          "stance": "decelerate",
+          "tags": [
+            "소송"
+          ],
+          "why": "소송 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
@@ -465,21 +469,28 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+      "impact": 32,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.08602v1",
-      "impact": 29,
+      "impact": 27,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.08768v1",
-      "impact": 26,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Apple files lawsuit, accuses OpenAI of stealing trade secrets",
+      "source": "Hacker News",
+      "url": "https://www.cbc.ca/news/world/apple-lawsuit-open-ai-trade-secrets-9.7266470",
+      "impact": -3,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "The distillation panic",
       "source": "Interconnects",
@@ -493,13 +504,6 @@
       "url": "http://arxiv.org/abs/2607.08595v1",
       "impact": 3,
       "reason": "규제, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "The complexities of patient-centred conversational artificial intelligence",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.08625v1",
-      "impact": 8,
-      "reason": "위험, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
