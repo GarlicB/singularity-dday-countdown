@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-11T21:40:07.000Z",
-  "generatedAtKst": "2026. 07. 12. 06:40",
-  "nextUpdateAt": "2026-07-12T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 12. 12:00",
+  "generatedAt": "2026-07-12T05:47:46.963Z",
+  "generatedAtKst": "2026. 07. 12. 14:47",
+  "nextUpdateAt": "2026-07-12T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 12. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-12-02",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-06",
-    "dday": 2336,
+    "rangeEnd": "2039-09-22",
+    "dday": 2290,
     "confidence": 76,
-    "deltaDays": -37,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 75,
+    "score": 76,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
-    "coldCount": 6,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 50,
+    "coldCount": 8,
+    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,23 +47,23 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
-      "tone": "hot"
+      "value": 46,
+      "delta": -1,
+      "tone": "watch"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-09T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 09. 19:00",
           "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -93,23 +93,6 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Separating signal from noise in coding evaluations",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "publishedAt": "2026-07-08T13:00:00.000Z",
-          "publishedAtKst": "2026. 07. 08. 22:00",
-          "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "벤치마크",
-            "코딩 성능"
-          ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
@@ -126,6 +109,23 @@
             "모델"
           ],
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Separating signal from noise in coding evaluations",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+          "publishedAt": "2026-07-08T13:00:00.000Z",
+          "publishedAtKst": "2026. 07. 08. 22:00",
+          "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "모델",
+            "벤치마크",
+            "코딩 성능"
+          ],
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
@@ -163,12 +163,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.18,
       "confidence": 79,
       "trend": "hot",
       "items": [
+        {
+          "title": "The current bottleneck is political will, not research",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
+          "publishedAt": "2026-07-11T21:56:26.000Z",
+          "publishedAtKst": "2026. 07. 12. 06:56",
+          "summary": "Abstract: We already know enough to act. I wish we were in a world where research was the bottleneck, but the main constraint on AI safety is no longer a shortage of clever policy ideas: best practices already exist and ",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "자기개선"
+          ],
+          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How robust are natural language autoencoders to initialization?",
           "source": "Alignment Forum",
@@ -176,8 +194,8 @@
           "publishedAt": "2026-07-10T00:43:29.000Z",
           "publishedAtKst": "2026. 07. 10. 09:43",
           "summary": "Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model migh",
-          "impact": 23,
-          "confidence": 77,
+          "impact": 21,
+          "confidence": 75,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -194,7 +212,7 @@
           "publishedAt": "2026-07-08T18:30:22.000Z",
           "publishedAtKst": "2026. 07. 09. 03:30",
           "summary": "1. Frontmatter 1.1 Backstory for this post As discussed in Intro to Brain-Like-AGI Safety , I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating h",
-          "impact": 21,
+          "impact": 18,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -212,8 +230,8 @@
           "publishedAt": "2026-07-09T16:25:14.000Z",
           "publishedAtKst": "2026. 07. 10. 01:25",
           "summary": "For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done! It’s called AI 2040: Plan A. It’s called Plan A because it’s a recommendation, not a predictio",
-          "impact": 19,
-          "confidence": 77,
+          "impact": 18,
+          "confidence": 75,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -240,24 +258,6 @@
             "Gemini"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What Capable Agents Must Know: Why AI Consciousness May Be an Inevitable Byproduct of Capability",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/SD9jayFvEctW82Duk/what-capable-agents-must-know-why-ai-consciousness-may-be-an-2",
-          "publishedAt": "2026-06-30T11:48:47.000Z",
-          "publishedAtKst": "2026. 06. 30. 20:48",
-          "summary": "[No LLMs were used (or harmed!) in the writing of this blogpost!] Technical results can all be found in my UAI 2026 paper: https://arxiv.org/abs/2603.02491 This work, and this post about this work, was borne out of a fru",
-          "impact": 15,
-          "confidence": 78,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "프런티어 모델",
-            "Claude"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -265,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 82,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 91,
+      "confidence": 90,
       "trend": "hot",
       "items": [
         {
@@ -278,7 +278,7 @@
           "publishedAt": "2026-07-09T15:33:08.000Z",
           "publishedAtKst": "2026. 07. 10. 00:33",
           "summary": "Hepatocellular carcinoma (HCC) is a common malignancy and a leading cause of cancer-related mortality. Current guidelines and staging systems provide coarse categories, but often miss within-stage heterogeneity and the c",
-          "impact": 34,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +296,7 @@
           "publishedAt": "2026-07-09T17:59:32.000Z",
           "publishedAtKst": "2026. 07. 10. 02:59",
           "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. Ho",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,8 +314,8 @@
           "publishedAt": "2026-07-09T17:46:24.000Z",
           "publishedAtKst": "2026. 07. 10. 02:46",
           "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visua",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 22,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -332,8 +332,8 @@
           "publishedAt": "2026-07-09T16:28:49.000Z",
           "publishedAtKst": "2026. 07. 10. 01:28",
           "summary": "Large language model (LLM)-based web search agents are transforming information seeking from simple factoid question answering into complex, deep-and-wide search and research-oriented tasks. A single ReAct-style agent is",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -350,8 +350,8 @@
           "publishedAt": "2026-07-09T17:01:40.000Z",
           "publishedAtKst": "2026. 07. 10. 02:01",
           "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the jud",
-          "impact": 21,
-          "confidence": 90,
+          "impact": 19,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -367,122 +367,132 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 61,
-      "delta": 3,
+      "score": 71,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "VultronRetriever family of models released on HuggingFace![R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
-          "publishedAt": "2026-07-11T15:22:33.000Z",
-          "publishedAtKst": "2026. 07. 12. 00:22",
-          "summary": "Thrilled to announce the VultronRetriever family of models, which were announced during Raise Summit Paris and demonstrated running Q&A and embedding documents on the iPhone, fully offline! 📱 Some highlights from the Vu",
-          "impact": 17,
-          "confidence": 55,
+          "title": "Why did Google struggle to catch up with OpenAI and Anthropic?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uthk0o/why_did_google_struggle_to_catch_up_with_openai/",
+          "publishedAt": "2026-07-11T11:27:25.000Z",
+          "publishedAtKst": "2026. 07. 11. 20:27",
+          "summary": "Google had a huge advantage before ChatGPT launched. It had massive amounts of data, powerful infrastructure, advanced AI researchers, TPUs, and products used by billions of people. Despite that, OpenAI became the leader",
+          "impact": 27,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "모델",
-            "벤치마크",
-            "성능 향상"
+            "ChatGPT",
+            "GPT",
+            "Claude",
+            "모델"
           ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Secret Claude tracker surprises users after Anthropic's anti-surveillance stance",
-          "source": "Hacker News",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
-          "publishedAt": "2026-07-11T21:27:07.000Z",
-          "publishedAtKst": "2026. 07. 12. 06:27",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "Fable 5 made a Fireship Video for GPT 5.6 Sol",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uthb5q/fable_5_made_a_fireship_video_for_gpt_56_sol/",
+          "publishedAt": "2026-07-11T11:14:32.000Z",
+          "publishedAtKst": "2026. 07. 11. 20:14",
+          "summary": "Had some fable usage to waste yesterday cause my reset was gonna happen. Ended up burning all my usage so had to finish the last part with Sol itself. Imo Remotion based videos feel better to watch than just actual GenAI",
+          "impact": 26,
+          "confidence": 58,
+          "stance": "accelerate",
           "tags": [
+            "에이전트",
+            "GPT",
+            "Gemini",
             "Claude"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Agentic Memory Transparency",
-          "source": "Hacker News",
-          "url": "https://medium.com/@vektormemory/memory-transparency-why-vektor-slipstream-now-shows-you-exactly-what-it-remembers-fa9d37bcce8e",
-          "publishedAt": "2026-07-11T21:23:53.000Z",
-          "publishedAtKst": "2026. 07. 12. 06:23",
-          "summary": "1 points, 1 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "Sam Altman showing signs of singularity",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1utq7zm/sam_altman_showing_signs_of_singularity/",
+          "publishedAt": "2026-07-11T17:30:41.000Z",
+          "publishedAtKst": "2026. 07. 12. 02:30",
+          "summary": "It’s quite interesting to me how (relatively) cheap it is. That’s the headline for me. Combined with the recent math finding it’s also starting to show how general models are the way even for frontier intelligence. I wou",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "에이전트",
+            "Claude",
+            "모델"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: BoundFlow – an open-source control plane for AI agents",
-          "source": "Hacker News",
-          "url": "https://github.com/boundflow/boundflow",
-          "publishedAt": "2026-07-11T21:07:11.000Z",
-          "publishedAtKst": "2026. 07. 12. 06:07",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "GPT-5.5 with tools now surpasses the 10-year-old level on the BabyVision benchmark",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1utm334/gpt55_with_tools_now_surpasses_the_10yearold/",
+          "publishedAt": "2026-07-11T14:48:44.000Z",
+          "publishedAtKst": "2026. 07. 11. 23:48",
+          "summary": "I couldn't find the numerical performance values for the different age groups of children, but based on a visual inspection of the chart, the average scores appear to be approximately: 3 years old: ~40% 6 years old: ~66%",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "GPT",
+            "벤치마크"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "GPT, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Bitemporal provenance in agent memory: What did we believe, when, and why",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48875749",
-          "publishedAt": "2026-07-11T20:52:15.000Z",
-          "publishedAtKst": "2026. 07. 12. 05:52",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "What are the best scenarious whene singularity happens ? how do we imagine it as community ?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1utq4em/what_are_the_best_scenarious_whene_singularity/",
+          "publishedAt": "2026-07-11T17:26:48.000Z",
+          "publishedAtKst": "2026. 07. 12. 02:26",
+          "summary": "The technological singularity is often described as a discrete event in which an artificial system suddenly becomes more intelligent than humanity and begins operating beyond human control. That image is conceptually dra",
+          "impact": 11,
+          "confidence": 58,
+          "stance": "decelerate",
           "tags": [
-            "에이전트"
+            "AGI",
+            "에이전트",
+            "자율성",
+            "모델"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "The current bottleneck is political will, not research",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
+      "impact": 36,
+      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.08602v1",
-      "impact": 34,
+      "impact": 31,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.08768v1",
-      "impact": 30,
+      "impact": 28,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.08745v1",
-      "impact": 24,
-      "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Federated Deep Learning for Privacy-Preserving Cardiovascular Disease Risk Prediction",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.08595v1",
-      "impact": 2,
-      "reason": "규제, 위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "SK Hynix CEO: worst memory shortage in 2027, will persist beyond 2030",
+      "source": "Hacker News",
+      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-ceo-sees-worst-ever-memory-supply-shortage-2027-says-demand-outstrip-2026-07-10/",
+      "impact": -2,
+      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "The distillation panic",
@@ -492,11 +502,11 @@
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The complexities of patient-centred conversational artificial intelligence",
+      "title": "Federated Deep Learning for Privacy-Preserving Cardiovascular Disease Risk Prediction",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.08625v1",
-      "impact": 8,
-      "reason": "위험, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2607.08595v1",
+      "impact": 3,
+      "reason": "규제, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
