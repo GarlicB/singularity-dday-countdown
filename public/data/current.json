@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-13T17:07:03.386Z",
-  "generatedAtKst": "2026. 07. 14. 02:07",
-  "nextUpdateAt": "2026-07-13T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 14. 06:00",
+  "generatedAt": "2026-07-13T21:45:03.329Z",
+  "generatedAtKst": "2026. 07. 14. 06:45",
+  "nextUpdateAt": "2026-07-14T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 14. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,15 +26,15 @@
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 35,
-    "coldCount": 4,
+    "coldCount": 3,
     "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     }
   ],
@@ -166,12 +166,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 84,
-      "delta": 9,
+      "score": 88,
+      "delta": 10,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
       "items": [
+        {
+          "title": "Prism: Automating Science-of-Evals Research",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
+          "publishedAt": "2026-07-13T16:30:21.000Z",
+          "publishedAtKst": "2026. 07. 14. 01:30",
+          "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "추론"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Independent alignment of language models",
           "source": "Alignment Forum",
@@ -215,7 +233,7 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 31,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -225,24 +243,6 @@
             "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Data filtering works a lot worse than you would expect",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
-          "publishedAt": "2026-07-07T04:41:59.000Z",
-          "publishedAtKst": "2026. 07. 07. 13:41",
-          "summary": "This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase. J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provid",
-          "impact": 15,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Notes on technical alignment via human-like social drives",
@@ -268,10 +268,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -281,8 +281,8 @@
           "publishedAt": "2026-07-10T15:25:56.000Z",
           "publishedAtKst": "2026. 07. 11. 00:25",
           "summary": "Large language model (LLM) coding agents are increasingly deployed to autonomously perform software engineering tasks in terminal-based environments, making their reliability a growing concern. Existing empirical studies",
-          "impact": 24,
-          "confidence": 89,
+          "impact": 22,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -299,8 +299,8 @@
           "publishedAt": "2026-07-10T17:15:54.000Z",
           "publishedAtKst": "2026. 07. 11. 02:15",
           "summary": "As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Desig",
-          "impact": 23,
-          "confidence": 88,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -317,8 +317,8 @@
           "publishedAt": "2026-07-10T17:22:49.000Z",
           "publishedAtKst": "2026. 07. 11. 02:22",
           "summary": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions",
-          "impact": 21,
-          "confidence": 86,
+          "impact": 20,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -335,8 +335,8 @@
           "publishedAt": "2026-07-10T16:54:52.000Z",
           "publishedAtKst": "2026. 07. 11. 01:54",
           "summary": "Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matc",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -353,8 +353,8 @@
           "publishedAt": "2026-07-10T15:16:58.000Z",
           "publishedAtKst": "2026. 07. 11. 00:16",
           "summary": "Explaining machine-learning models is increasingly important for decision-making and consumer trust, yet it is widely believed to come at a cost: existing Explainable AI (XAI) methods suffer from a persistent accuracy-ex",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -373,44 +373,43 @@
       "score": 68,
       "delta": 5,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Ph.D. in Operations Research / Big Tech Eng: How to transition into intermediate/advanced ML for high-value industries (Robotics, Defense, Finance)? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1uumkkg/phd_in_operations_research_big_tech_eng_how_to/",
-          "publishedAt": "2026-07-12T17:58:18.000Z",
-          "publishedAtKst": "2026. 07. 13. 02:58",
-          "summary": "I hold a Ph.D. in Operations Research, along with a BSc/MSc in Engineering and OR. I previously worked in Big Tech, but I’m currently looking to transition. My primary goal is to upgrade my technical skillset to maximize",
-          "impact": 28,
-          "confidence": 62,
+          "title": "Richard Sutton launches Oak Lab - \"Our holy grail: A trillion-parameter agent that learns and plans in real-time with 20 watts of energy\"",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uvfrjg/richard_sutton_launches_oak_lab_our_holy_grail_a/",
+          "publishedAt": "2026-07-13T16:03:56.000Z",
+          "publishedAtKst": "2026. 07. 14. 01:03",
+          "summary": "Some background: Richard Sutton has been talking about a grand architecture for intelligence for the past year or two, which he's labeled \"OaK\", short for \"Options and Knowledge\". It's a proposed blueprint for AGI that r",
+          "impact": 29,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
+            "AGI",
+            "초지능",
             "에이전트",
-            "자율성",
-            "LLM",
-            "모델"
+            "전력 병목"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Hundreds of papers hit arXiv every day and maybe 3 matter to my research, so I built an open-source tool that finds them [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1uvcdf7/hundreds_of_papers_hit_arxiv_every_day_and_maybe/",
-          "publishedAt": "2026-07-13T13:59:17.000Z",
-          "publishedAtKst": "2026. 07. 13. 22:59",
-          "summary": "Left: Telegram digest (optional); Right: detailed digest on HTML Like probably everyone here, my to-read list only grows. Skimming arXiv listings or my feeds takes 30-60 minutes a day, 95% of it is irrelevant to what I a",
-          "impact": 23,
+          "title": "AI agents write Ruby but can't navigate it: a 5-model, 13-codebase benchmark",
+          "source": "Hacker News",
+          "url": "https://github.com/luuuc/sense/blob/main/bench/verticals/ruby-rails/report-for-humans.md",
+          "publishedAt": "2026-07-13T18:21:35.000Z",
+          "publishedAtKst": "2026. 07. 14. 03:21",
+          "summary": "4 points, 1 comments",
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "Claude",
-            "LLM",
+            "에이전트",
             "모델",
             "벤치마크"
           ],
-          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
@@ -418,7 +417,7 @@
           "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
           "publishedAt": "2026-07-12T18:04:41.000Z",
           "publishedAtKst": "2026. 07. 13. 03:04",
-          "summary": "111 points, 75 comments",
+          "summary": "112 points, 79 comments",
           "impact": 11,
           "confidence": 52,
           "stance": "watch",
@@ -428,26 +427,11 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Capturing token IDs during agentic interaction for better reinforcement learning",
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
           "source": "Hacker News",
-          "url": "https://www.amazon.science/blog/capturing-token-ids-during-agentic-interactions-for-better-reinforcement-learning",
-          "publishedAt": "2026-07-13T16:48:17.000Z",
-          "publishedAtKst": "2026. 07. 14. 01:48",
-          "summary": "2 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Build Rules for Claude Code, Cursor, and Codex",
-          "source": "Hacker News",
-          "url": "https://kastra.ai/",
-          "publishedAt": "2026-07-13T14:07:35.000Z",
-          "publishedAtKst": "2026. 07. 13. 23:07",
+          "url": "https://arxiv.org/abs/2607.01418",
+          "publishedAt": "2026-07-13T21:43:51.000Z",
+          "publishedAtKst": "2026. 07. 14. 06:43",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
@@ -456,11 +440,33 @@
             "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "OpenAI's new Agent Sandbox Cloud [video]",
+          "source": "Hacker News",
+          "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk",
+          "publishedAt": "2026-07-13T21:40:50.000Z",
+          "publishedAtKst": "2026. 07. 14. 06:40",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "Prism: Automating Science-of-Evals Research",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
+      "impact": 36,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "Independent alignment of language models",
       "source": "Alignment Forum",
@@ -474,23 +480,9 @@
       "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
       "impact": 36,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "From wantons to moral agents",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents",
-      "impact": 31,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "I built a prompt injection defense middleware for LLMs (Python/FastAPI)",
-      "source": "Hacker News",
-      "url": "https://github.com/JustiNoel/LLM-Prompt-Injection",
-      "impact": 1,
-      "reason": "프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "The distillation panic",
       "source": "Interconnects",
@@ -504,6 +496,13 @@
       "url": "http://arxiv.org/abs/2607.09544v1",
       "impact": 8,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.09653v1",
+      "impact": 12,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
