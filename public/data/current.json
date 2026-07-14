@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-14T10:29:31.656Z",
-  "generatedAtKst": "2026. 07. 14. 19:29",
-  "nextUpdateAt": "2026-07-14T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 15. 00:00",
+  "generatedAt": "2026-07-14T16:08:04.622Z",
+  "generatedAtKst": "2026. 07. 15. 01:08",
+  "nextUpdateAt": "2026-07-14T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 15. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2031-10-24",
+    "medianDate": "2031-09-09",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-09-27",
-    "dday": 1928,
+    "rangeEnd": "2038-08-13",
+    "dday": 1883,
     "confidence": 76,
-    "deltaDays": -51,
+    "deltaDays": -52,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 84,
-    "temperature": 60,
+    "score": 85,
+    "temperature": 61,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 6,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 56,
+    "coldCount": 5,
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,12 +71,44 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How sales teams use ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "publishedAt": "2026-07-14T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 14. 09:00",
+          "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How data science teams use ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+          "publishedAt": "2026-07-14T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 14. 09:00",
+          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Empowering India’s next generation of innovators with ATL Saathi",
           "source": "Google DeepMind",
@@ -126,39 +158,6 @@
             "코딩 성능"
           ],
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Getting started with ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/academy/getting-started",
-          "publishedAt": "2026-07-10T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 10. 09:00",
-          "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing GPT-Live",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "publishedAt": "2026-07-08T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 08. 09:00",
-          "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "모델"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -215,7 +214,7 @@
           "publishedAt": "2026-07-11T21:56:26.000Z",
           "publishedAtKst": "2026. 07. 12. 06:56",
           "summary": "Motivation: If we want to move from Plan D to Plan A or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do. Abstract: We already know enough to act. I wi",
-          "impact": 34,
+          "impact": 32,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -233,8 +232,8 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 26,
-          "confidence": 82,
+          "impact": 25,
+          "confidence": 81,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -268,30 +267,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Evidence-Backed Video Question Answering",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.11862v1",
-          "publishedAt": "2026-07-13T17:49:10.000Z",
-          "publishedAtKst": "2026. 07. 14. 02:49",
-          "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
           "source": "arXiv",
@@ -347,13 +328,31 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Evidence-Backed Video Question Answering",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.11862v1",
+          "publishedAt": "2026-07-13T17:49:10.000Z",
+          "publishedAtKst": "2026. 07. 14. 02:49",
+          "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "$\\mathtt{Q^2SAR}$: overcoming classical bottlenecks in drug discovery via quantum multiple kernel learning",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.11701v1",
           "publishedAt": "2026-07-13T15:33:05.000Z",
           "publishedAtKst": "2026. 07. 14. 00:33",
           "summary": "Quantitative Structure-Activity Relationship ($\\mathtt{QSAR}$) modeling is a foundational computational methodology in early-stage drug discovery, heavily relied upon for predicting compound toxicity, bioavailability, an",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -370,7 +369,7 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 85,
+      "score": 87,
       "delta": 9,
       "weight": 0.2,
       "confidence": 59,
@@ -413,22 +412,22 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Richard Sutton launches Oak Lab - \"Our holy grail: A trillion-parameter agent that learns and plans in real-time with 20 watts of energy\"",
+          "title": "Well it finally happened: we’re not using models because of cost",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uvfrjg/richard_sutton_launches_oak_lab_our_holy_grail_a/",
-          "publishedAt": "2026-07-13T16:03:56.000Z",
-          "publishedAtKst": "2026. 07. 14. 01:03",
-          "summary": "Some background: Richard Sutton has been talking about a grand architecture for intelligence for the past year or two, which he's labeled \"OaK\", short for \"Options and Knowledge\". It's a proposed blueprint for AGI that r",
-          "impact": 26,
+          "url": "https://www.reddit.com/r/singularity/comments/1uwa1mv/well_it_finally_happened_were_not_using_models/",
+          "publishedAt": "2026-07-14T14:19:10.000Z",
+          "publishedAtKst": "2026. 07. 14. 23:19",
+          "summary": "Hey all! I’ve been working for a large company (Fortune 500) for 3 years now. We’re an “AI First” company. When I onboarded it was made explicit to me that it was absolutely imperative that I was not only allowed to use ",
+          "impact": 32,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "초지능",
             "에이전트",
-            "전력 병목"
+            "Claude",
+            "모델"
           ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "One Contract, Every Model: An Operating Standard for AI Coding Agents",
@@ -437,8 +436,8 @@
           "publishedAt": "2026-07-14T03:47:50.000Z",
           "publishedAtKst": "2026. 07. 14. 12:47",
           "summary": "2 points, 0 comments",
-          "impact": 21,
-          "confidence": 62,
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -448,21 +447,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI agents write Ruby but can't navigate it: a 5-model, 13-codebase benchmark",
+          "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
           "source": "Hacker News",
-          "url": "https://github.com/luuuc/sense/blob/main/bench/verticals/ruby-rails/report-for-humans.md",
-          "publishedAt": "2026-07-13T18:21:35.000Z",
-          "publishedAtKst": "2026. 07. 14. 03:21",
-          "summary": "7 points, 2 comments",
-          "impact": 17,
-          "confidence": 58,
+          "url": "https://github.com/anandgupta42/aireceipts",
+          "publishedAt": "2026-07-14T14:16:34.000Z",
+          "publishedAtKst": "2026. 07. 14. 23:16",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델",
-            "벤치마크"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -495,7 +493,7 @@
       "title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.11843v1",
-      "impact": -10,
+      "impact": -9,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -506,11 +504,11 @@
       "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The distillation panic",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-distillation-panic",
-      "impact": 3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.11783v1",
+      "impact": 11,
+      "reason": "환각, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
