@@ -448,5 +448,15 @@
     "medianDate": "2032-01-22",
     "dday": 2017,
     "confidence": 76
+  },
+  {
+    "generatedAt": "2026-07-15T21:48:54.543Z",
+    "generatedAtKst": "2026. 07. 16. 06:48",
+    "score": 78,
+    "temperature": 55,
+    "season": "여름",
+    "medianDate": "2032-07-20",
+    "dday": 2197,
+    "confidence": 76
   }
 ]
