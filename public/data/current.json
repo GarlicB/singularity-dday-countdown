@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-14T21:47:47.801Z",
-  "generatedAtKst": "2026. 07. 15. 06:47",
-  "nextUpdateAt": "2026-07-15T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 15. 12:00",
+  "generatedAt": "2026-07-15T05:22:43.226Z",
+  "generatedAtKst": "2026. 07. 15. 14:22",
+  "nextUpdateAt": "2026-07-15T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 15. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2031-12-08",
+    "medianDate": "2032-01-22",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-11-11",
-    "dday": 1973,
+    "rangeEnd": "2038-12-26",
+    "dday": 2017,
     "confidence": 76,
-    "deltaDays": -49,
+    "deltaDays": -48,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 83,
+    "score": 82,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
-    "coldCount": 6,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 57,
+    "coldCount": 3,
+    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 52,
-      "delta": 0,
+      "value": 46,
+      "delta": -1,
       "tone": "watch"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-07-13T12:37:28.000Z",
           "publishedAtKst": "2026. 07. 13. 21:37",
           "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 86,
+      "score": 84,
       "delta": 9,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -176,7 +176,7 @@
           "publishedAt": "2026-07-13T16:30:21.000Z",
           "publishedAtKst": "2026. 07. 14. 01:30",
           "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 35,
+          "impact": 33,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -212,7 +212,7 @@
           "publishedAt": "2026-07-11T21:56:26.000Z",
           "publishedAtKst": "2026. 07. 12. 06:56",
           "summary": "Motivation: If we want to move from Plan D to Plan A or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do. Abstract: We already know enough to act. I wi",
-          "impact": 29,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -230,8 +230,8 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 24,
-          "confidence": 80,
+          "impact": 22,
+          "confidence": 77,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -265,101 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
+          "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.11849v1",
-          "publishedAt": "2026-07-13T17:38:22.000Z",
-          "publishedAtKst": "2026. 07. 14. 02:38",
-          "summary": "Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced mathematics remain poorly understood. Existing benchmarks, however, fall",
+          "url": "http://arxiv.org/abs/2607.13034v1",
+          "publishedAt": "2026-07-14T17:59:31.000Z",
+          "publishedAtKst": "2026. 07. 15. 02:59",
+          "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
             "추론",
-            "프런티어 모델",
             "GPT",
             "LLM"
           ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "From Global to Factor-Wise Expert Composition in Discrete Diffusion Models",
+          "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.11758v1",
-          "publishedAt": "2026-07-13T16:22:01.000Z",
-          "publishedAtKst": "2026. 07. 14. 01:22",
-          "summary": "Discrete diffusion models offer a powerful framework for solving complex reasoning tasks, particularly through compositional generation, which combines multiple pre-trained experts to generalize beyond their individual t",
+          "url": "http://arxiv.org/abs/2607.13028v1",
+          "publishedAt": "2026-07-14T17:59:02.000Z",
+          "publishedAtKst": "2026. 07. 15. 02:59",
+          "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the saf",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Think Through a Bottleneck: Hourglass Reasoning for Rigorous Induction",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.11696v1",
-          "publishedAt": "2026-07-13T15:29:24.000Z",
-          "publishedAtKst": "2026. 07. 14. 00:29",
-          "summary": "Self-refinement often fails to strengthen few-shot inductive reasoning in large language models. Prompting a model to explicitly state its inferred rule does little on its own. What actually matters is a structurally enf",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Evidence-Backed Video Question Answering",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.11862v1",
-          "publishedAt": "2026-07-13T17:49:10.000Z",
-          "publishedAtKst": "2026. 07. 14. 02:49",
-          "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on",
-          "impact": 33,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "$\\mathtt{Q^2SAR}$: overcoming classical bottlenecks in drug discovery via quantum multiple kernel learning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.11701v1",
-          "publishedAt": "2026-07-13T15:33:05.000Z",
-          "publishedAtKst": "2026. 07. 14. 00:33",
-          "summary": "Quantitative Structure-Activity Relationship ($\\mathtt{QSAR}$) modeling is a foundational computational methodology in early-stage drug discovery, heavily relied upon for predicting compound toxicity, bioavailability, an",
-          "impact": 28,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
+            "에이전트",
             "자율성",
             "모델",
-            "벤치마크",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "자율성, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.12982v1",
+          "publishedAt": "2026-07-14T17:24:57.000Z",
+          "publishedAtKst": "2026. 07. 15. 02:24",
+          "summary": "Math reasoning has achieved significant progress with the rapid advancement of Multimodal Large Language Models (MLLMs), however analytic geometry remains largely underexplored, primarily due to the scarcity of annotated",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.12884v1",
+          "publishedAt": "2026-07-14T15:30:37.000Z",
+          "publishedAtKst": "2026. 07. 15. 00:30",
+          "summary": "Patients seeking medical information often ask questions that embed incorrect assumptions or misconceptions. In such cases, safe medical communication requires not only answering the question, but identifying and correct",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "GPT",
+            "Claude",
+            "LLM"
+          ],
+          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.12963v1",
+          "publishedAt": "2026-07-14T17:01:12.000Z",
+          "publishedAtKst": "2026. 07. 15. 02:01",
+          "summary": "As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find t",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "컴퓨트"
+          ],
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,10 +367,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
@@ -398,13 +398,29 @@
           "publishedAt": "2026-07-14T03:47:50.000Z",
           "publishedAtKst": "2026. 07. 14. 12:47",
           "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트",
             "모델"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/anandgupta42/aireceipts",
+          "publishedAt": "2026-07-14T14:16:34.000Z",
+          "publishedAtKst": "2026. 07. 14. 23:16",
+          "summary": "1 points, 0 comments",
+          "impact": 17,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -415,8 +431,8 @@
           "publishedAt": "2026-07-14T08:17:25.000Z",
           "publishedAtKst": "2026. 07. 14. 17:17",
           "summary": "Does anyone know of any evidence/forum/paper analyzing benchmark result differences between cloud inference platforms (togetherai) and running models locally with vLLM under greedy decoding? &#32; submitted by &#32; /u/N",
-          "impact": 19,
-          "confidence": 56,
+          "impact": 17,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -427,30 +443,14 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
-          "source": "Hacker News",
-          "url": "https://github.com/anandgupta42/aireceipts",
-          "publishedAt": "2026-07-14T14:16:34.000Z",
-          "publishedAtKst": "2026. 07. 14. 23:16",
-          "summary": "1 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
           "source": "Hacker News",
           "url": "https://github.com/juggler-ai/juggler",
           "publishedAt": "2026-07-12T18:28:15.000Z",
           "publishedAtKst": "2026. 07. 13. 03:28",
-          "summary": "138 points, 74 comments",
+          "summary": "207 points, 86 comments",
           "impact": 17,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -463,13 +463,6 @@
   ],
   "topDrivers": [
     {
-      "title": "Prism: Automating Science-of-Evals Research",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordination in Language Agents [R]",
       "source": "r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
@@ -477,27 +470,34 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.11849v1",
+      "url": "http://arxiv.org/abs/2607.13034v1",
       "impact": 36,
-      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.13028v1",
+      "impact": 36,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.11843v1",
-      "impact": -8,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Meta used AI to tag workers who took leave to be laid off, lawsuit claims",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/jul/14/meta-ai-mass-layoffs-lawsuit",
+      "impact": -3,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+      "title": "Energy-Based Physics-Informed Form Finding for Clustered Tensegrity Structures",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.11874v1",
+      "url": "http://arxiv.org/abs/2607.12888v1",
       "impact": 2,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "The distillation panic",
