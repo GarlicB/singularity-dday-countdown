@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-15T10:42:27.748Z",
-  "generatedAtKst": "2026. 07. 15. 19:42",
-  "nextUpdateAt": "2026-07-15T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 16. 00:00",
+  "generatedAt": "2026-07-15T16:13:08.191Z",
+  "generatedAtKst": "2026. 07. 16. 01:13",
+  "nextUpdateAt": "2026-07-15T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 16. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 82,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
-    "coldCount": 2,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 56,
+    "coldCount": 1,
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -78,22 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "How data science teams use ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-          "publishedAt": "2026-07-14T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 14. 09:00",
-          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "How sales teams use ChatGPT Work",
           "source": "OpenAI News",
           "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
@@ -110,13 +94,29 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "How data science teams use ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+          "publishedAt": "2026-07-14T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 14. 09:00",
+          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Empowering India’s next generation of innovators with ATL Saathi",
           "source": "Google DeepMind",
           "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
           "publishedAt": "2026-07-13T12:37:28.000Z",
           "publishedAtKst": "2026. 07. 13. 21:37",
           "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -176,7 +176,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 32,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-07-13T16:30:21.000Z",
           "publishedAtKst": "2026. 07. 14. 01:30",
           "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 32,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -212,7 +212,7 @@
           "publishedAt": "2026-07-11T21:56:26.000Z",
           "publishedAtKst": "2026. 07. 12. 06:56",
           "summary": "Motivation: If we want to move from Plan D to Plan A or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do. Abstract: We already know enough to act. I wi",
-          "impact": 23,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -230,8 +230,8 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 20,
-          "confidence": 76,
+          "impact": 19,
+          "confidence": 74,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -314,7 +314,7 @@
           "publishedAt": "2026-07-14T15:30:37.000Z",
           "publishedAtKst": "2026. 07. 15. 00:30",
           "summary": "Patients seeking medical information often ask questions that embed incorrect assumptions or misconceptions. In such cases, safe medical communication requires not only answering the question, but identifying and correct",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-07-14T17:59:02.000Z",
           "publishedAtKst": "2026. 07. 15. 02:59",
           "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the saf",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +350,7 @@
           "publishedAt": "2026-07-14T17:01:12.000Z",
           "publishedAtKst": "2026. 07. 15. 02:01",
           "summary": "As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find t",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,29 +367,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
       "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Well it finally happened: we’re not using models because of cost",
+          "title": "UnisonAl: A Forced, Derived Omni-Model Architecture with Zero Parameters",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uwa1mv/well_it_finally_happened_were_not_using_models/",
-          "publishedAt": "2026-07-14T14:19:10.000Z",
-          "publishedAtKst": "2026. 07. 14. 23:19",
-          "summary": "Hey all! I’ve been working for a large company (Fortune 500) for 3 years now. We’re an “AI First” company. When I onboarded it was made explicit to me that it was absolutely imperative that I was not only allowed to use ",
-          "impact": 27,
+          "url": "https://www.reddit.com/r/singularity/comments/1ux7ff4/unisonal_a_forced_derived_omnimodel_architecture/",
+          "publishedAt": "2026-07-15T14:26:55.000Z",
+          "publishedAtKst": "2026. 07. 15. 23:26",
+          "summary": "Imagine you want to build an AI model that can read, look at photos, listen to audio, and talk. Modern frontier models cost millions of dollars to buy massive computers for \"training.\" This process is basically a giant g",
+          "impact": 36,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "에이전트",
-            "Claude",
+            "프런티어 모델",
+            "GPT",
             "모델"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Differences Between GPT-5.5 Pro and GPT-5.6 Sol on MineBench",
@@ -398,8 +398,8 @@
           "publishedAt": "2026-07-14T18:58:38.000Z",
           "publishedAtKst": "2026. 07. 15. 03:58",
           "summary": "Notes Average Inference Time: 25m 16s (1516.2s) GPT-5.5 Pro averaged 21m 23s (1283.3s) for context; so slightly longer inference times Total Cost (for 15 builds): $710.82 ($47.39 per build) Most expensive model benchmark",
-          "impact": 26,
-          "confidence": 58,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -410,19 +410,18 @@
           "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "One Contract, Every Model: An Operating Standard for AI Coding Agents",
+          "title": "Show HN: Mindlas – catch your coding agent drifting before the bad code lands",
           "source": "Hacker News",
-          "url": "https://manazir.dev/blog/operating-standard-harness",
-          "publishedAt": "2026-07-14T03:47:50.000Z",
-          "publishedAtKst": "2026. 07. 14. 12:47",
-          "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 57,
+          "url": "https://github.com/Evolutionairy-AI/MINDLAS",
+          "publishedAt": "2026-07-15T16:05:02.000Z",
+          "publishedAtKst": "2026. 07. 16. 01:05",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트",
-            "모델"
+            "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -432,9 +431,9 @@
           "url": "https://github.com/juggler-ai/juggler",
           "publishedAt": "2026-07-12T18:28:15.000Z",
           "publishedAtKst": "2026. 07. 13. 03:28",
-          "summary": "244 points, 106 comments",
-          "impact": 17,
-          "confidence": 53,
+          "summary": "267 points, 113 comments",
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -443,25 +442,32 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
+          "title": "Show HN: OtoDock, run Claude Code and Codex as a team of agents on your server",
           "source": "Hacker News",
-          "url": "https://github.com/anandgupta42/aireceipts",
-          "publishedAt": "2026-07-14T14:16:34.000Z",
-          "publishedAtKst": "2026. 07. 14. 23:16",
+          "url": "https://github.com/OtoDock/oto-dock/",
+          "publishedAt": "2026-07-15T16:11:23.000Z",
+          "publishedAtKst": "2026. 07. 16. 01:11",
           "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "Claude"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "UnisonAl: A Forced, Derived Omni-Model Architecture with Zero Parameters",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1ux7ff4/unisonal_a_forced_derived_omnimodel_architecture/",
+      "impact": 36,
+      "reason": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
       "source": "arXiv",
@@ -475,23 +481,9 @@
       "url": "http://arxiv.org/abs/2607.12982v1",
       "impact": 36,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.12884v1",
-      "impact": 36,
-      "reason": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Google's AI search features pose 'unacceptable risk' to children",
-      "source": "Hacker News",
-      "url": "https://www.pbs.org/newshour/nation/googles-ai-search-features-pose-unacceptable-risk-to-children-new-report-finds",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "The distillation panic",
       "source": "Interconnects",
