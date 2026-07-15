@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-15T05:22:43.226Z",
-  "generatedAtKst": "2026. 07. 15. 14:22",
-  "nextUpdateAt": "2026-07-15T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 15. 18:00",
+  "generatedAt": "2026-07-15T10:42:27.748Z",
+  "generatedAtKst": "2026. 07. 15. 19:42",
+  "nextUpdateAt": "2026-07-15T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 16. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 57,
-    "coldCount": 3,
+    "coldCount": 2,
     "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-07-14T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 19:00",
           "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,30 +163,12 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 84,
-      "delta": 9,
+      "score": 82,
+      "delta": 8,
       "weight": 0.18,
       "confidence": 81,
       "trend": "hot",
       "items": [
-        {
-          "title": "Prism: Automating Science-of-Evals Research",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
-          "publishedAt": "2026-07-13T16:30:21.000Z",
-          "publishedAtKst": "2026. 07. 14. 01:30",
-          "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 34,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "추론"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Open Distillation of Hereditary Traits",
           "source": "Alignment Forum",
@@ -194,7 +176,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 33,
+          "impact": 32,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -206,13 +188,31 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Prism: Automating Science-of-Evals Research",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
+          "publishedAt": "2026-07-13T16:30:21.000Z",
+          "publishedAtKst": "2026. 07. 14. 01:30",
+          "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
+          "impact": 32,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "추론"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "The current bottleneck is political will, not research",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
           "publishedAt": "2026-07-11T21:56:26.000Z",
           "publishedAtKst": "2026. 07. 12. 06:56",
           "summary": "Motivation: If we want to move from Plan D to Plan A or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do. Abstract: We already know enough to act. I wi",
-          "impact": 25,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -230,8 +230,8 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 22,
-          "confidence": 77,
+          "impact": 20,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -290,24 +290,6 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.13028v1",
-          "publishedAt": "2026-07-14T17:59:02.000Z",
-          "publishedAtKst": "2026. 07. 15. 02:59",
-          "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the saf",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.12982v1",
@@ -344,13 +326,31 @@
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.13028v1",
+          "publishedAt": "2026-07-14T17:59:02.000Z",
+          "publishedAtKst": "2026. 07. 15. 02:59",
+          "summary": "Training robust autonomous driving agents requires a simulator that is fast enough for reinforcement learning at scale, realistic enough to ground behavior in real-world map structure, and diverse enough to cover the saf",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.12963v1",
           "publishedAt": "2026-07-14T17:01:12.000Z",
           "publishedAtKst": "2026. 07. 15. 02:01",
           "summary": "As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find t",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -374,22 +374,40 @@
       "trend": "hot",
       "items": [
         {
-          "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordination in Language Agents [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
-          "publishedAt": "2026-07-14T15:37:52.000Z",
-          "publishedAtKst": "2026. 07. 15. 00:37",
-          "summary": "Can LLM agents coordinate in long-horizon, open-ended worlds? We evaluate 13 modern LLMs in a new benchmark where agents must work together to explore, communicate, trade resources, craft tools, build structures, and fig",
-          "impact": 36,
-          "confidence": 62,
+          "title": "Well it finally happened: we’re not using models because of cost",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uwa1mv/well_it_finally_happened_were_not_using_models/",
+          "publishedAt": "2026-07-14T14:19:10.000Z",
+          "publishedAtKst": "2026. 07. 14. 23:19",
+          "summary": "Hey all! I’ve been working for a large company (Fortune 500) for 3 years now. We’re an “AI First” company. When I onboarded it was made explicit to me that it was absolutely imperative that I was not only allowed to use ",
+          "impact": 27,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "Gemini",
-            "LLM"
+            "Claude",
+            "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Differences Between GPT-5.5 Pro and GPT-5.6 Sol on MineBench",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uwhvws/differences_between_gpt55_pro_and_gpt56_sol_on/",
+          "publishedAt": "2026-07-14T18:58:38.000Z",
+          "publishedAtKst": "2026. 07. 15. 03:58",
+          "summary": "Notes Average Inference Time: 25m 16s (1516.2s) GPT-5.5 Pro averaged 21m 23s (1283.3s) for context; so slightly longer inference times Total Cost (for 15 builds): $710.82 ($47.39 per build) Most expensive model benchmark",
+          "impact": 26,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "Gemini",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "One Contract, Every Model: An Operating Standard for AI Coding Agents",
@@ -398,13 +416,29 @@
           "publishedAt": "2026-07-14T03:47:50.000Z",
           "publishedAtKst": "2026. 07. 14. 12:47",
           "summary": "2 points, 0 comments",
-          "impact": 18,
-          "confidence": 58,
+          "impact": 17,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트",
             "모델"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+          "source": "Hacker News",
+          "url": "https://github.com/juggler-ai/juggler",
+          "publishedAt": "2026-07-12T18:28:15.000Z",
+          "publishedAtKst": "2026. 07. 13. 03:28",
+          "summary": "244 points, 106 comments",
+          "impact": 17,
+          "confidence": 53,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -415,42 +449,8 @@
           "publishedAt": "2026-07-14T14:16:34.000Z",
           "publishedAtKst": "2026. 07. 14. 23:16",
           "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Cloud-vLLM Benchmark Differences [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1uw2j9e/cloudvllm_benchmark_differences_r/",
-          "publishedAt": "2026-07-14T08:17:25.000Z",
-          "publishedAtKst": "2026. 07. 14. 17:17",
-          "summary": "Does anyone know of any evidence/forum/paper analyzing benchmark result differences between cloud inference platforms (togetherai) and running models locally with vLLM under greedy decoding? &#32; submitted by &#32; /u/N",
-          "impact": 17,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "추론 인프라"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-          "source": "Hacker News",
-          "url": "https://github.com/juggler-ai/juggler",
-          "publishedAt": "2026-07-12T18:28:15.000Z",
-          "publishedAtKst": "2026. 07. 13. 03:28",
-          "summary": "207 points, 86 comments",
-          "impact": 17,
-          "confidence": 54,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -463,13 +463,6 @@
   ],
   "topDrivers": [
     {
-      "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordination in Language Agents [R]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.13034v1",
@@ -477,27 +470,27 @@
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.13028v1",
+      "url": "http://arxiv.org/abs/2607.12982v1",
       "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.12884v1",
+      "impact": 36,
+      "reason": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Meta used AI to tag workers who took leave to be laid off, lawsuit claims",
+      "title": "Google's AI search features pose 'unacceptable risk' to children",
       "source": "Hacker News",
-      "url": "https://www.theguardian.com/technology/2026/jul/14/meta-ai-mass-layoffs-lawsuit",
-      "impact": -3,
-      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Energy-Based Physics-Informed Form Finding for Clustered Tensegrity Structures",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.12888v1",
-      "impact": 2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://www.pbs.org/newshour/nation/googles-ai-search-features-pose-unacceptable-risk-to-children-new-report-finds",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "The distillation panic",
