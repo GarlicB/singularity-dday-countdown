@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-16T10:49:37.486Z",
-  "generatedAtKst": "2026. 07. 16. 19:49",
-  "nextUpdateAt": "2026-07-16T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 17. 00:00",
+  "generatedAt": "2026-07-16T16:10:06.220Z",
+  "generatedAtKst": "2026. 07. 17. 01:10",
+  "nextUpdateAt": "2026-07-16T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 17. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2241,
+    "rangeEnd": "2039-03-26",
+    "dday": 2106,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
+    "hotCount": 52,
     "coldCount": 7,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,43 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 67,
-      "delta": 4,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Why teens deserve access to safe AI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "publishedAt": "2026-07-16T16:00:00.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:00",
+          "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "impact": 23,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How Cars24 scales conversations and builds faster with OpenAI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/cars24",
+          "publishedAt": "2026-07-16T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 16. 09:00",
+          "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How sales teams use ChatGPT Work",
           "source": "OpenAI News",
@@ -84,7 +115,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +131,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -110,54 +141,19 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-          "publishedAt": "2026-07-15T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 15. 19:00",
-          "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "decelerate",
-          "tags": [
-            "자기개선",
-            "GPT",
-            "안전 이슈",
-            "프롬프트 인젝션"
-          ],
-          "why": "안전 이슈, 프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
-        },
-        {
-          "title": "How to manage AI investments in the agentic era",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-          "publishedAt": "2026-07-14T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 14. 19:00",
-          "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-          "impact": 14,
+          "title": "Create, edit and star in videos with two Google Vids updates",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+          "publishedAt": "2026-07-16T16:00:00.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:00",
+          "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "Gemini"
           ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "ChatGPT is now a partner for your most ambitious work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-          "publishedAt": "2026-07-09T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 09. 19:00",
-          "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,7 +161,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
       "confidence": 80,
@@ -196,7 +192,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 25,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +210,7 @@
           "publishedAt": "2026-07-13T16:30:21.000Z",
           "publishedAtKst": "2026. 07. 14. 01:30",
           "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 24,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -250,7 +246,7 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 14,
+          "impact": 12,
           "confidence": 72,
           "stance": "accelerate",
           "tags": [
@@ -267,30 +263,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Leveraging unlabelled data for generalizable neural population decoding",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.14086v1",
-          "publishedAt": "2026-07-15T17:58:00.000Z",
-          "publishedAtKst": "2026. 07. 16. 02:58",
-          "summary": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "컴퓨트",
-            "성능 향상"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
           "source": "arXiv",
@@ -310,13 +288,31 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Leveraging unlabelled data for generalizable neural population decoding",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.14086v1",
+          "publishedAt": "2026-07-15T17:58:00.000Z",
+          "publishedAtKst": "2026. 07. 16. 02:58",
+          "summary": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "컴퓨트",
+            "성능 향상"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Minimax Theory of Likelihood-Based Deep Learning for Speckle Regression",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.14064v1",
           "publishedAt": "2026-07-15T17:36:23.000Z",
           "publishedAtKst": "2026. 07. 16. 02:36",
           "summary": "Speckle noise is a multiplicative noise commonly encountered in coherent imaging modalities such as synthetic aperture radar, optical coherence tomography, and digital holography. Although deep learning methods, in pract",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +329,7 @@
           "publishedAt": "2026-07-15T16:16:42.000Z",
           "publishedAtKst": "2026. 07. 16. 01:16",
           "summary": "Multi-turn agents solve complex tasks through extended sequences of tool interactions before producing a final answer, making credit assignment a fundamental challenge during post-training. Outcome rewards provide reliab",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,8 +347,8 @@
           "publishedAt": "2026-07-15T17:16:43.000Z",
           "publishedAtKst": "2026. 07. 16. 02:16",
           "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typ",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -367,12 +363,47 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Introducing OpenMicro: Bring Codex Micro to any gaming controller and coding harness",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1uxxl0e/introducing_openmicro_bring_codex_micro_to_any/",
+          "publishedAt": "2026-07-16T09:10:49.000Z",
+          "publishedAtKst": "2026. 07. 16. 18:10",
+          "summary": "Hello everyone, I've been experimenting with using a gaming controller to interact with my AI coding agents for a while now. Since OpenAI announced Codex Micro, I'm open sourcing OpenMicro which brings Codex Micro’s func",
+          "impact": 31,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "Claude",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Mac App to turn your computer into a hands-off coding agent",
+          "source": "Hacker News",
+          "url": "https://caider.dev/",
+          "publishedAt": "2026-07-16T14:06:02.000Z",
+          "publishedAtKst": "2026. 07. 16. 23:06",
+          "summary": "1 points, 0 comments",
+          "impact": 24,
+          "confidence": 64,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "컴퓨트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Is anyone else beginning to feel the AGI?",
           "source": "r/singularity",
@@ -380,8 +411,8 @@
           "publishedAt": "2026-07-15T22:33:52.000Z",
           "publishedAtKst": "2026. 07. 16. 07:33",
           "summary": "I think this latest series of models (GPT 5.6 Sol, Fable especially) has just completely blew my mind and I can feel the recursive self improvement slowly beginning. I am mainly a hobbyist that does a lot of ML research ",
-          "impact": 23,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -397,8 +428,8 @@
           "publishedAt": "2026-07-15T19:22:10.000Z",
           "publishedAtKst": "2026. 07. 16. 04:22",
           "summary": "TL;DR: I expected a nuanced essay from Demis, but this felt more like Google corporate strategy. It abandons his earlier vision of global AI governance in favor of a US-led coalition, raises unanswered questions about co",
-          "impact": 21,
-          "confidence": 53,
+          "impact": 20,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -408,28 +439,13 @@
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A Guide to Agile for English Speakers",
-          "source": "Hacker News",
-          "url": "https://lewiscampbell.tech/blog/260713.html",
-          "publishedAt": "2026-07-16T10:40:55.000Z",
-          "publishedAtKst": "2026. 07. 16. 19:40",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: OtoDock, run Claude Code and Codex as a team of agents on your server",
           "source": "Hacker News",
           "url": "https://github.com/OtoDock/oto-dock/",
           "publishedAt": "2026-07-15T16:11:23.000Z",
           "publishedAtKst": "2026. 07. 16. 01:11",
           "summary": "2 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -437,22 +453,6 @@
             "Claude"
           ],
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
-          "source": "Hacker News",
-          "url": "https://github.com/anandgupta42/aireceipts",
-          "publishedAt": "2026-07-14T14:16:34.000Z",
-          "publishedAtKst": "2026. 07. 14. 23:16",
-          "summary": "1 points, 0 comments",
-          "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -466,18 +466,18 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Leveraging unlabelled data for generalizable neural population decoding",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.14086v1",
-      "impact": 36,
-      "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.13884v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Leveraging unlabelled data for generalizable neural population decoding",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.14086v1",
+      "impact": 34,
+      "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -492,7 +492,7 @@
       "title": "Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.14018v1",
-      "impact": 0,
+      "impact": 1,
       "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
