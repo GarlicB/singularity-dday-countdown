@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-16T05:31:28.057Z",
-  "generatedAtKst": "2026. 07. 16. 14:31",
-  "nextUpdateAt": "2026-07-16T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 16. 18:00",
+  "generatedAt": "2026-07-16T10:49:37.486Z",
+  "generatedAtKst": "2026. 07. 16. 19:49",
+  "nextUpdateAt": "2026-07-16T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 17. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2196,
+    "rangeEnd": "2039-08-08",
+    "dday": 2241,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
-    "coldCount": 8,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 51,
+    "coldCount": 7,
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 68,
-      "delta": 5,
+      "score": 67,
+      "delta": 4,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -128,22 +128,6 @@
           "why": "안전 이슈, 프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
-          "title": "Empowering India’s next generation of innovators with ATL Saathi",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-          "publishedAt": "2026-07-13T12:37:28.000Z",
-          "publishedAtKst": "2026. 07. 13. 21:37",
-          "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "로보틱스"
-          ],
-          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "How to manage AI investments in the agentic era",
           "source": "OpenAI News",
           "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
@@ -157,6 +141,23 @@
             "에이전트"
           ],
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT is now a partner for your most ambitious work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+          "publishedAt": "2026-07-09T10:00:00.000Z",
+          "publishedAtKst": "2026. 07. 09. 19:00",
+          "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,7 +165,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.18,
       "confidence": 80,
@@ -195,7 +196,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 27,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -213,7 +214,7 @@
           "publishedAt": "2026-07-13T16:30:21.000Z",
           "publishedAtKst": "2026. 07. 14. 01:30",
           "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 26,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -249,7 +250,7 @@
           "publishedAt": "2026-07-12T17:30:31.000Z",
           "publishedAtKst": "2026. 07. 13. 02:30",
           "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 15,
+          "impact": 14,
           "confidence": 72,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +316,7 @@
           "publishedAt": "2026-07-15T17:36:23.000Z",
           "publishedAtKst": "2026. 07. 16. 02:36",
           "summary": "Speckle noise is a multiplicative noise commonly encountered in coherent imaging modalities such as synthetic aperture radar, optical coherence tomography, and digital holography. Although deep learning methods, in pract",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +333,7 @@
           "publishedAt": "2026-07-15T16:16:42.000Z",
           "publishedAtKst": "2026. 07. 16. 01:16",
           "summary": "Multi-turn agents solve complex tasks through extended sequences of tool interactions before producing a final answer, making credit assignment a fundamental challenge during post-training. Outcome rewards provide reliab",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +351,7 @@
           "publishedAt": "2026-07-15T17:16:43.000Z",
           "publishedAtKst": "2026. 07. 16. 02:16",
           "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typ",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,7 +367,7 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.2,
       "confidence": 55,
@@ -379,7 +380,7 @@
           "publishedAt": "2026-07-15T22:33:52.000Z",
           "publishedAtKst": "2026. 07. 16. 07:33",
           "summary": "I think this latest series of models (GPT 5.6 Sol, Fable especially) has just completely blew my mind and I can feel the recursive self improvement slowly beginning. I am mainly a hobbyist that does a lot of ML research ",
-          "impact": 24,
+          "impact": 23,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -396,8 +397,8 @@
           "publishedAt": "2026-07-15T19:22:10.000Z",
           "publishedAtKst": "2026. 07. 16. 04:22",
           "summary": "TL;DR: I expected a nuanced essay from Demis, but this felt more like Google corporate strategy. It abandons his earlier vision of global AI governance in favor of a US-led coalition, raises unanswered questions about co",
-          "impact": 22,
-          "confidence": 55,
+          "impact": 21,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -407,36 +408,19 @@
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Manage your Claude Code agents in Raycast",
+          "title": "A Guide to Agile for English Speakers",
           "source": "Hacker News",
-          "url": "https://github.com/vmc-7645/claude-fleet",
-          "publishedAt": "2026-07-16T04:58:48.000Z",
-          "publishedAtKst": "2026. 07. 16. 13:58",
-          "summary": "1 points, 1 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-          "source": "Hacker News",
-          "url": "https://github.com/juggler-ai/juggler",
-          "publishedAt": "2026-07-12T18:28:15.000Z",
-          "publishedAtKst": "2026. 07. 13. 03:28",
-          "summary": "274 points, 117 comments",
+          "url": "https://lewiscampbell.tech/blog/260713.html",
+          "publishedAt": "2026-07-16T10:40:55.000Z",
+          "publishedAtKst": "2026. 07. 16. 19:40",
+          "summary": "1 points, 0 comments",
           "impact": 16,
-          "confidence": 50,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: OtoDock, run Claude Code and Codex as a team of agents on your server",
@@ -446,13 +430,29 @@
           "publishedAtKst": "2026. 07. 16. 01:11",
           "summary": "2 points, 0 comments",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "Claude"
           ],
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/anandgupta42/aireceipts",
+          "publishedAt": "2026-07-14T14:16:34.000Z",
+          "publishedAtKst": "2026. 07. 14. 23:16",
+          "summary": "1 points, 0 comments",
+          "impact": 13,
+          "confidence": 53,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -485,15 +485,8 @@
       "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.14046v1",
-      "impact": -4,
+      "impact": -3,
       "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "EU officials peeved after Anthropic sends junior staffer to testify about safety",
-      "source": "Hacker News",
-      "url": "https://www.politico.eu/article/anthropic-european-parliament-donny-greenberg-artificial-intelligence-ai/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth",
@@ -501,6 +494,13 @@
       "url": "http://arxiv.org/abs/2607.14018v1",
       "impact": 0,
       "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The distillation panic",
+      "source": "Interconnects",
+      "url": "https://www.interconnects.ai/p/the-distillation-panic",
+      "impact": 3,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
