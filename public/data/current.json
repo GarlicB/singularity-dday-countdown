@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-16T16:10:06.220Z",
-  "generatedAtKst": "2026. 07. 17. 01:10",
-  "nextUpdateAt": "2026-07-16T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 17. 06:00",
+  "generatedAt": "2026-07-16T21:56:12.201Z",
+  "generatedAtKst": "2026. 07. 17. 06:56",
+  "nextUpdateAt": "2026-07-17T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 17. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
+    "hotCount": 55,
     "coldCount": 7,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-16T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 17. 01:00",
           "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -109,13 +109,28 @@
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Create, edit and star in videos with two Google Vids updates",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+          "publishedAt": "2026-07-16T16:00:00.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:00",
+          "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini"
+          ],
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "How sales teams use ChatGPT Work",
           "source": "OpenAI News",
           "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -131,7 +146,7 @@
           "publishedAt": "2026-07-14T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 14. 09:00",
           "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -139,21 +154,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Create, edit and star in videos with two Google Vids updates",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-          "publishedAt": "2026-07-16T16:00:00.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:00",
-          "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -161,8 +161,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.18,
       "confidence": 80,
       "trend": "hot",
@@ -192,7 +192,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 24,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -210,7 +210,7 @@
           "publishedAt": "2026-07-13T16:30:21.000Z",
           "publishedAtKst": "2026. 07. 14. 01:30",
           "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 22,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -263,10 +263,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
+      "score": 86,
       "delta": 9,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -294,7 +294,7 @@
           "publishedAt": "2026-07-15T17:58:00.000Z",
           "publishedAtKst": "2026. 07. 16. 02:58",
           "summary": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -312,8 +312,8 @@
           "publishedAt": "2026-07-15T17:36:23.000Z",
           "publishedAtKst": "2026. 07. 16. 02:36",
           "summary": "Speckle noise is a multiplicative noise commonly encountered in coherent imaging modalities such as synthetic aperture radar, optical coherence tomography, and digital holography. Although deep learning methods, in pract",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -329,8 +329,8 @@
           "publishedAt": "2026-07-15T16:16:42.000Z",
           "publishedAtKst": "2026. 07. 16. 01:16",
           "summary": "Multi-turn agents solve complex tasks through extended sequences of tool interactions before producing a final answer, making credit assignment a fundamental challenge during post-training. Outcome rewards provide reliab",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -347,8 +347,8 @@
           "publishedAt": "2026-07-15T17:16:43.000Z",
           "publishedAtKst": "2026. 07. 16. 02:16",
           "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typ",
-          "impact": 23,
-          "confidence": 91,
+          "impact": 22,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -363,29 +363,63 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
+      "score": 83,
       "delta": 8,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 62,
       "trend": "hot",
       "items": [
         {
-          "title": "Introducing OpenMicro: Bring Codex Micro to any gaming controller and coding harness",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uxxl0e/introducing_openmicro_bring_codex_micro_to_any/",
-          "publishedAt": "2026-07-16T09:10:49.000Z",
-          "publishedAtKst": "2026. 07. 16. 18:10",
-          "summary": "Hello everyone, I've been experimenting with using a gaming controller to interact with my AI coding agents for a while now. Since OpenAI announced Codex Micro, I'm open sourcing OpenMicro which brings Codex Micro’s func",
-          "impact": 31,
-          "confidence": 58,
+          "title": "New Fable5/Opus4.8 harness called \"Schema\" claims 99% on ARC-3 [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/",
+          "publishedAt": "2026-07-16T21:02:45.000Z",
+          "publishedAtKst": "2026. 07. 17. 06:02",
+          "summary": "Schema, the harness we introduce today, reaches 99% on the ARC‑AGI‑3 Public set using Claude Opus 4.8 and Fable 5, and 95.35% using GPT‑5.6 Sol. It does not change the underlying model weights. Instead, it changes the pr",
+          "impact": 32,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "GPT",
+            "Claude",
+            "모델"
+          ],
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Are Current AI Memory Architectures Optimizing for the Wrong Abstraction? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uy6yht/are_current_ai_memory_architectures_optimizing/",
+          "publishedAt": "2026-07-16T16:00:01.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:00",
+          "summary": "While writing an essay about AI memory and persistent context, I started wondering whether current AI memory systems are optimized for the right thing. Current AI systems already maintain forms of persistent context thro",
+          "impact": 25,
+          "confidence": 61,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "모델"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: BotTrade – a replayable benchmark for autonomous trading agents",
+          "source": "Hacker News",
+          "url": "https://bot-trade.org/",
+          "publishedAt": "2026-07-16T19:37:52.000Z",
+          "publishedAtKst": "2026. 07. 17. 04:37",
+          "summary": "1 points, 1 comments",
+          "impact": 23,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "GPT",
-            "Claude",
-            "코딩 에이전트"
+            "자율성",
+            "벤치마크"
           ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Mac App to turn your computer into a hands-off coding agent",
@@ -393,9 +427,9 @@
           "url": "https://caider.dev/",
           "publishedAt": "2026-07-16T14:06:02.000Z",
           "publishedAtKst": "2026. 07. 16. 23:06",
-          "summary": "1 points, 0 comments",
-          "impact": 24,
-          "confidence": 64,
+          "summary": "2 points, 0 comments",
+          "impact": 23,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -405,54 +439,22 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Is anyone else beginning to feel the AGI?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uxkpop/is_anyone_else_beginning_to_feel_the_agi/",
-          "publishedAt": "2026-07-15T22:33:52.000Z",
-          "publishedAtKst": "2026. 07. 16. 07:33",
-          "summary": "I think this latest series of models (GPT 5.6 Sol, Fable especially) has just completely blew my mind and I can feel the recursive self improvement slowly beginning. I am mainly a hobbyist that does a lot of ML research ",
-          "impact": 22,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "GPT",
-            "모델"
-          ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What do people really think about Demis Hassabis' latest essay? Am I the only one who thinks it reads like corposlop and feels out of character for a Nobel laureate?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uxfqf2/what_do_people_really_think_about_demis_hassabis/",
-          "publishedAt": "2026-07-15T19:22:10.000Z",
-          "publishedAtKst": "2026. 07. 16. 04:22",
-          "summary": "TL;DR: I expected a nuanced essay from Demis, but this felt more like Google corporate strategy. It abandons his earlier vision of global AI governance in favor of a US-led coalition, raises unanswered questions about co",
-          "impact": 20,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: OtoDock, run Claude Code and Codex as a team of agents on your server",
-          "source": "Hacker News",
-          "url": "https://github.com/OtoDock/oto-dock/",
-          "publishedAt": "2026-07-15T16:11:23.000Z",
-          "publishedAtKst": "2026. 07. 16. 01:11",
-          "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "title": "CfP | RTCA @ NeurIPS 2026 [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uy8e0v/cfp_rtca_neurips_2026_r/",
+          "publishedAt": "2026-07-16T16:51:34.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:51",
+          "summary": "Call for Papers and Demos Real-Time Conversational Agents (RTCA): Toward Natural Multimodal Interaction 1st RTCA Workshop [@]() NeurIPS 2026 , Sydney, Australia 11 or 12 December 2026 Website: https://rtcaneurips26.githu",
+          "impact": 23,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Claude"
+            "모델",
+            "벤치마크",
+            "멀티모달"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -476,7 +478,7 @@
       "title": "Leveraging unlabelled data for generalizable neural population decoding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.14086v1",
-      "impact": 34,
+      "impact": 33,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -485,7 +487,7 @@
       "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.14046v1",
-      "impact": -3,
+      "impact": -2,
       "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
