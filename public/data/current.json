@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-17T05:32:51.683Z",
-  "generatedAtKst": "2026. 07. 17. 14:32",
-  "nextUpdateAt": "2026-07-17T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 17. 18:00",
+  "generatedAt": "2026-07-17T10:29:53.425Z",
+  "generatedAtKst": "2026. 07. 17. 19:29",
+  "nextUpdateAt": "2026-07-17T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 18. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2150,
+    "rangeEnd": "2039-06-24",
+    "dday": 2195,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
-    "coldCount": 5,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 58,
+    "coldCount": 6,
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -163,7 +163,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.18,
       "confidence": 80,
@@ -176,7 +176,7 @@
           "publishedAt": "2026-07-15T17:42:46.000Z",
           "publishedAtKst": "2026. 07. 16. 02:42",
           "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-07-14T10:15:03.000Z",
           "publishedAtKst": "2026. 07. 14. 19:15",
           "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 20,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -202,24 +202,6 @@
             "에이전트",
             "추론",
             "Gemini"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Prism: Automating Science-of-Evals Research",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
-          "publishedAt": "2026-07-13T16:30:21.000Z",
-          "publishedAtKst": "2026. 07. 14. 01:30",
-          "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
-          "impact": 18,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -240,6 +222,24 @@
             "자기개선"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Prism: Automating Science-of-Evals Research",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
+          "publishedAt": "2026-07-13T16:30:21.000Z",
+          "publishedAtKst": "2026. 07. 14. 01:30",
+          "summary": "tl;dr – we present [ Prism ], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying ",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "추론"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "From wantons to moral agents",
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -278,7 +278,7 @@
           "publishedAt": "2026-07-16T16:29:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:29",
           "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +296,7 @@
           "publishedAt": "2026-07-16T17:51:23.000Z",
           "publishedAtKst": "2026. 07. 17. 02:51",
           "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. ",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-07-16T16:57:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:57",
           "summary": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likeliho",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-07-16T17:59:31.000Z",
           "publishedAtKst": "2026. 07. 17. 02:59",
           "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If t",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +350,7 @@
           "publishedAt": "2026-07-16T17:54:47.000Z",
           "publishedAtKst": "2026. 07. 17. 02:54",
           "summary": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,10 +367,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 83,
+      "score": 80,
       "delta": 8,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
@@ -380,7 +380,7 @@
           "publishedAt": "2026-07-16T19:42:45.000Z",
           "publishedAtKst": "2026. 07. 17. 04:42",
           "summary": "https://x.com/i/status/2077770348876247502 https://schema-harness.github.io/ Edit: IMPORTANT CLARIFICATION This is just the public set, which is much easier than the held out set, \"supposedly\" is the wrong way to frame i",
-          "impact": 34,
+          "impact": 32,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -392,32 +392,14 @@
           "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing OpenMicro: Bring Codex Micro to any gaming controller and coding harness",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uxxl0e/introducing_openmicro_bring_codex_micro_to_any/",
-          "publishedAt": "2026-07-16T09:10:49.000Z",
-          "publishedAtKst": "2026. 07. 16. 18:10",
-          "summary": "Hello everyone, I've been experimenting with using a gaming controller to interact with my AI coding agents for a while now. Since OpenAI announced Codex Micro, I'm open sourcing OpenMicro which brings Codex Micro’s func",
-          "impact": 27,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Claude",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: BotTrade – a replayable benchmark for autonomous trading agents",
           "source": "Hacker News",
           "url": "https://bot-trade.org/",
           "publishedAt": "2026-07-16T19:37:52.000Z",
           "publishedAtKst": "2026. 07. 17. 04:37",
           "summary": "1 points, 1 comments",
-          "impact": 21,
-          "confidence": 62,
+          "impact": 20,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -433,8 +415,8 @@
           "publishedAt": "2026-07-16T14:06:02.000Z",
           "publishedAtKst": "2026. 07. 16. 23:06",
           "summary": "2 points, 0 comments",
-          "impact": 21,
-          "confidence": 61,
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -450,38 +432,53 @@
           "publishedAt": "2026-07-16T19:08:09.000Z",
           "publishedAtKst": "2026. 07. 17. 04:08",
           "summary": "&#32; submitted by &#32; /u/MagicZhang [link] &#32; [comments]",
-          "impact": 21,
-          "confidence": 54,
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "Claude"
           ],
           "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Monocoque – ZMTP 3.1 (ZeroMQ) messaging library in pure Rust",
+          "source": "Hacker News",
+          "url": "https://github.com/vorjdux/monocoque",
+          "publishedAt": "2026-07-17T09:49:34.000Z",
+          "publishedAtKst": "2026. 07. 17. 18:49",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Why I Left Google DeepMind",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
-      "impact": 36,
-      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15176v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Why I Left Google DeepMind",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
+      "impact": 34,
+      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Schema: a harness for llms, with Fable+4.8 or GPT 5.6 Sol, (supposedly) achieves 99% and 95.35% respectively on ARC-AGI-3.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1uyd4g9/schema_a_harness_for_llms_with_fable48_or_gpt_56/",
-      "impact": 34,
+      "impact": 32,
       "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -490,22 +487,22 @@
       "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15267v1",
-      "impact": -4,
+      "impact": -3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15207v1",
-      "impact": -2,
+      "impact": -1,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The distillation panic",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-distillation-panic",
-      "impact": 3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Show HN: Senbonzakura – remove the safety guardrails from open AI models",
+      "source": "Hacker News",
+      "url": "https://github.com/elementmerc/senbonzakura",
+      "impact": 1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
