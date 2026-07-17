@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-17T16:08:04.954Z",
-  "generatedAtKst": "2026. 07. 18. 01:08",
-  "nextUpdateAt": "2026-07-17T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 18. 06:00",
+  "generatedAt": "2026-07-17T21:42:36.132Z",
+  "generatedAtKst": "2026. 07. 18. 06:42",
+  "nextUpdateAt": "2026-07-18T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 18. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 6,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 5,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -99,8 +99,8 @@
           "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
           "publishedAt": "2026-07-17T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 17. 19:00",
-          "summary": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-          "impact": 15,
+          "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -115,28 +115,13 @@
           "publishedAt": "2026-07-16T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 16. 09:00",
           "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트"
           ],
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Create, edit and star in videos with two Google Vids updates",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-          "publishedAt": "2026-07-16T16:00:00.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:00",
-          "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "ChatGPT is now a partner for your most ambitious work",
@@ -154,6 +139,21 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Create, edit and star in videos with two Google Vids updates",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+          "publishedAt": "2026-07-16T16:00:00.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:00",
+          "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini"
+          ],
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -161,12 +161,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 82,
       "trend": "hot",
       "items": [
+        {
+          "title": "Announcing the Corrigibility Research Fund",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
+          "publishedAt": "2026-07-17T18:06:32.000Z",
+          "publishedAtKst": "2026. 07. 18. 03:06",
+          "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "프런티어 모델",
+            "모델"
+          ],
+          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Why I Left Google DeepMind",
           "source": "Alignment Forum",
@@ -174,7 +192,7 @@
           "publishedAt": "2026-07-15T17:42:46.000Z",
           "publishedAtKst": "2026. 07. 16. 02:42",
           "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
-          "impact": 32,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -184,24 +202,6 @@
             "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Open Distillation of Hereditary Traits",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
-          "publishedAt": "2026-07-14T10:15:03.000Z",
-          "publishedAtKst": "2026. 07. 14. 19:15",
-          "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
-          "impact": 17,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "Gemini"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The current bottleneck is political will, not research",
@@ -222,6 +222,24 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Open Distillation of Hereditary Traits",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
+          "publishedAt": "2026-07-14T10:15:03.000Z",
+          "publishedAtKst": "2026. 07. 14. 19:15",
+          "summary": "TL;DR Josh and Neel show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the Gemma Needs Help evals) On its o",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "Gemini"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Prism: Automating Science-of-Evals Research",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
@@ -238,24 +256,6 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "From wantons to moral agents",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents",
-          "publishedAt": "2026-07-12T17:30:31.000Z",
-          "publishedAtKst": "2026. 07. 13. 02:30",
-          "summary": "Posted also on the EA Forum. Written mostly at AFFINE . Theoretical, some parts are hard to read; consider reading the next post instead. Introduction: motivation Anyone interested in creating an artificial agent that do",
-          "impact": 12,
-          "confidence": 72,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,8 +263,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -276,7 +276,7 @@
           "publishedAt": "2026-07-16T16:29:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:29",
           "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -294,7 +294,7 @@
           "publishedAt": "2026-07-16T17:51:23.000Z",
           "publishedAtKst": "2026. 07. 17. 02:51",
           "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. ",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -312,7 +312,7 @@
           "publishedAt": "2026-07-16T16:57:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:57",
           "summary": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likeliho",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -330,7 +330,7 @@
           "publishedAt": "2026-07-16T17:59:31.000Z",
           "publishedAtKst": "2026. 07. 17. 02:59",
           "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If t",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,7 +348,7 @@
           "publishedAt": "2026-07-16T16:07:19.000Z",
           "publishedAtKst": "2026. 07. 17. 01:07",
           "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-poli",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -365,29 +365,45 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
+      "score": 77,
       "delta": 7,
       "weight": 0.2,
       "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Schema: a harness for llms, with Fable+4.8 or GPT 5.6 Sol, (supposedly) achieves 99% and 95.35% respectively on ARC-AGI-3.",
+          "title": "GPT-5.6 Sol outperforms Mythos 5 on AISI’s cyber challenge",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uyd4g9/schema_a_harness_for_llms_with_fable48_or_gpt_56/",
-          "publishedAt": "2026-07-16T19:42:45.000Z",
-          "publishedAtKst": "2026. 07. 17. 04:42",
-          "summary": "https://x.com/i/status/2077770348876247502 https://schema-harness.github.io/ Edit: IMPORTANT CLARIFICATION This is just the public set, which is much easier than the held out set, \"supposedly\" is the wrong way to frame i",
-          "impact": 31,
-          "confidence": 58,
+          "url": "https://www.reddit.com/r/singularity/comments/1uz91nn/gpt56_sol_outperforms_mythos_5_on_aisis_cyber/",
+          "publishedAt": "2026-07-17T19:07:28.000Z",
+          "publishedAtKst": "2026. 07. 18. 04:07",
+          "summary": "Source: AISI They’ve also added GLM 5.2 and DeepSeek V4 Pro. AISI says leading open-weight models are now roughly 4–7 months behind the closed-model frontier, narrowing from 6–10 months through most of 2025. They haven’t",
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "AGI",
             "GPT",
-            "LLM",
-            "추론 벤치마크"
+            "모델",
+            "벤치마크",
+            "성능 향상"
           ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Building a Rust-ish programming language with 100% coding agents: Wado",
+          "source": "Hacker News",
+          "url": "https://wado-lang.org/playground/",
+          "publishedAt": "2026-07-17T21:32:57.000Z",
+          "publishedAtKst": "2026. 07. 18. 06:32",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: BotTrade – a replayable benchmark for autonomous trading agents",
@@ -396,8 +412,8 @@
           "publishedAt": "2026-07-16T19:37:52.000Z",
           "publishedAtKst": "2026. 07. 17. 04:37",
           "summary": "1 points, 1 comments",
-          "impact": 20,
-          "confidence": 60,
+          "impact": 19,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -413,8 +429,8 @@
           "publishedAt": "2026-07-16T14:06:02.000Z",
           "publishedAtKst": "2026. 07. 16. 23:06",
           "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -424,61 +440,45 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Kimi K3 achieves 3rd Place on ArtificalAnalysis, beating out Claude Opus 4.8",
+          "title": "Kimi K3 ranks second overall on the Debate Benchmark, trailing only Claude Fable 5! However, it is much more expensive to run than Kimi K2.6.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uyc6sk/kimi_k3_achieves_3rd_place_on_artificalanalysis/",
-          "publishedAt": "2026-07-16T19:08:09.000Z",
-          "publishedAtKst": "2026. 07. 17. 04:08",
-          "summary": "&#32; submitted by &#32; /u/MagicZhang [link] &#32; [comments]",
-          "impact": 19,
-          "confidence": 52,
+          "url": "https://www.reddit.com/r/singularity/comments/1uz2l6n/kimi_k3_ranks_second_overall_on_the_debate/",
+          "publishedAt": "2026-07-17T15:14:04.000Z",
+          "publishedAtKst": "2026. 07. 18. 00:14",
+          "summary": "More info: https://github.com/lechmazur/debate &#32; submitted by &#32; /u/zero0_one1 [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "Claude"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Wandr Benchmark: Evaluating Research Agents That Must Search Wide and Deep",
-          "source": "Hacker News",
-          "url": "https://research.perplexity.ai/articles/wandr-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
-          "publishedAt": "2026-07-17T00:45:51.000Z",
-          "publishedAtKst": "2026. 07. 17. 09:45",
-          "summary": "1 points, 1 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
+            "Claude",
             "벤치마크"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "Announcing the Corrigibility Research Fund",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
+      "impact": 36,
+      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15176v1",
-      "impact": 33,
+      "impact": 31,
       "reason": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Why I Left Google DeepMind",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
-      "impact": 32,
+      "impact": 30,
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Schema: a harness for llms, with Fable+4.8 or GPT 5.6 Sol, (supposedly) achieves 99% and 95.35% respectively on ARC-AGI-3.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1uyd4g9/schema_a_harness_for_llms_with_fable48_or_gpt_56/",
-      "impact": 31,
-      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -486,15 +486,8 @@
       "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15267v1",
-      "impact": -3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "What lawyers can do for AI safety",
-      "source": "Hacker News",
-      "url": "https://martinsays.substack.com/p/what-lawyers-can-do-for-ai-safety",
       "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
@@ -502,6 +495,13 @@
       "url": "http://arxiv.org/abs/2607.15207v1",
       "impact": -1,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The distillation panic",
+      "source": "Interconnects",
+      "url": "https://www.interconnects.ai/p/the-distillation-panic",
+      "impact": 3,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
