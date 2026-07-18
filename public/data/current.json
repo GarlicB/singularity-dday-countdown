@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T15:44:36.982Z",
-  "generatedAtKst": "2026. 07. 19. 00:44",
-  "nextUpdateAt": "2026-07-18T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 19. 06:00",
+  "generatedAt": "2026-07-18T21:41:09.723Z",
+  "generatedAtKst": "2026. 07. 19. 06:41",
+  "nextUpdateAt": "2026-07-19T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 19. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2033-08-29",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2149,
-    "confidence": 76,
-    "deltaDays": -43,
+    "rangeEnd": "2040-07-18",
+    "dday": 2599,
+    "confidence": 75,
+    "deltaDays": -28,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 69,
+    "temperature": 47,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 5,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 28,
+    "coldCount": 3,
+    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-16T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 17. 01:00",
           "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -92,21 +92,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A scorecard for the AI age",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-          "publishedAt": "2026-07-17T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 17. 19:00",
-          "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "컴퓨트"
-          ],
-          "why": "컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "ChatGPT is now a partner for your most ambitious work",
@@ -124,6 +109,21 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "A scorecard for the AI age",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+          "publishedAt": "2026-07-17T10:00:00.000Z",
+          "publishedAtKst": "2026. 07. 17. 19:00",
+          "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "컴퓨트"
+          ],
+          "why": "컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How Cars24 scales conversations and builds faster with OpenAI",
@@ -162,7 +162,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 85,
+      "score": 84,
       "delta": 9,
       "weight": 0.18,
       "confidence": 82,
@@ -193,7 +193,7 @@
           "publishedAt": "2026-07-17T23:42:45.000Z",
           "publishedAtKst": "2026. 07. 18. 08:42",
           "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 35,
+          "impact": 33,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -203,24 +203,6 @@
             "LLM"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why I Left Google DeepMind",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
-          "publishedAt": "2026-07-15T17:42:46.000Z",
-          "publishedAtKst": "2026. 07. 16. 02:42",
-          "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
-          "impact": 24,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "자율성"
-          ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Endogenous Alignment",
@@ -236,6 +218,24 @@
             "AGI",
             "초지능",
             "정렬 실패"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Why I Left Google DeepMind",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
+          "publishedAt": "2026-07-15T17:42:46.000Z",
+          "publishedAtKst": "2026. 07. 16. 02:42",
+          "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
+          "impact": 22,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -263,101 +263,24 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
-      "delta": 8,
+      "score": 53,
+      "delta": 1,
       "weight": 0.28,
-      "confidence": 90,
-      "trend": "hot",
+      "confidence": 65,
+      "trend": "watch",
       "items": [
         {
-          "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15176v1",
-          "publishedAt": "2026-07-16T16:29:34.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:29",
-          "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (",
-          "impact": 26,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15257v1",
-          "publishedAt": "2026-07-16T17:51:23.000Z",
-          "publishedAtKst": "2026. 07. 17. 02:51",
-          "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. ",
-          "impact": 24,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15200v1",
-          "publishedAt": "2026-07-16T16:57:34.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:57",
-          "summary": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likeliho",
-          "impact": 24,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15277v1",
-          "publishedAt": "2026-07-16T17:59:31.000Z",
-          "publishedAtKst": "2026. 07. 17. 02:59",
-          "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If t",
-          "impact": 23,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "LLM",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "프런티어 모델, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "On-Policy Delta Distillation",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15161v1",
-          "publishedAt": "2026-07-16T16:07:19.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:07",
-          "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-poli",
-          "impact": 23,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
+          "source": "arXiv 점검",
+          "url": "https://arxiv.org/list/cs.AI/recent",
+          "publishedAt": "2026-07-18T21:41:09.723Z",
+          "publishedAtKst": "2026. 07. 19. 06:41",
+          "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
+          "impact": 5,
+          "confidence": 65,
+          "stance": "watch",
+          "tags": [],
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -365,64 +288,43 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 73,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Could multi-agent AI orchestration replace complete software development lifecycle? if yes how would it look like ?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uz5nby/could_multiagent_ai_orchestration_replace/",
-          "publishedAt": "2026-07-17T17:05:50.000Z",
-          "publishedAtKst": "2026. 07. 18. 02:05",
-          "summary": "Yesterday I ran into an issue with a frontend deployment on GCP. I didn't fully trust Claude's answer, so I asked it to generate a prompt for Cursor. Then I literally acted as the middleman, passing responses between the",
-          "impact": 34,
+          "title": "Wandr Benchmark: Evaluating Research Agents That Must Search Wide and Deep",
+          "source": "Hacker News",
+          "url": "https://research.perplexity.ai/articles/wandr-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
+          "publishedAt": "2026-07-18T20:59:57.000Z",
+          "publishedAtKst": "2026. 07. 19. 05:59",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI",
             "에이전트",
-            "추론",
-            "Claude"
+            "벤치마크"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Coding agent for local models on a Mac",
+          "title": "The first industrial operations benchmark for agents",
           "source": "Hacker News",
-          "url": "https://mlx-optiq.com/blog/optiq-code",
-          "publishedAt": "2026-07-18T15:14:24.000Z",
-          "publishedAtKst": "2026. 07. 19. 00:14",
-          "summary": "1 points, 0 comments",
-          "impact": 22,
-          "confidence": 63,
+          "url": "https://solarbench.maingen.ai/",
+          "publishedAt": "2026-07-18T18:29:29.000Z",
+          "publishedAtKst": "2026. 07. 19. 03:29",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트",
-            "모델"
+            "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT-5.6 Sol outperforms Mythos 5 on AISI’s cyber challenge",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1uz91nn/gpt56_sol_outperforms_mythos_5_on_aisis_cyber/",
-          "publishedAt": "2026-07-17T19:07:28.000Z",
-          "publishedAtKst": "2026. 07. 18. 04:07",
-          "summary": "Source: AISI They’ve also added GLM 5.2 and DeepSeek V4 Pro. AISI says leading open-weight models are now roughly 4–7 months behind the closed-model frontier, narrowing from 6–10 months through most of 2025. They haven’t",
-          "impact": 21,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "모델",
-            "벤치마크",
-            "성능 향상"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: BotTrade – a replayable benchmark for autonomous trading agents",
@@ -431,8 +333,8 @@
           "publishedAt": "2026-07-16T19:37:52.000Z",
           "publishedAtKst": "2026. 07. 17. 04:37",
           "summary": "1 points, 1 comments",
-          "impact": 16,
-          "confidence": 56,
+          "impact": 15,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -442,14 +344,29 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Bad vibes from the \"Head of Strategic Futures at OpenAI\"(X: @deanwball)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v001bu/bad_vibes_from_the_head_of_strategic_futures_at/",
+          "publishedAt": "2026-07-18T16:15:16.000Z",
+          "publishedAtKst": "2026. 07. 19. 01:15",
+          "summary": "https://x.com/deanwball/status/2078133895766114412 What's going on at OpenAI? Have they forgotten their mission statement? Abandoned it? \"Our mission is to ensure that artificial general intelligence benefits all of huma",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Show HN: Mac App to turn your computer into a hands-off coding agent",
           "source": "Hacker News",
           "url": "https://caider.dev/",
           "publishedAt": "2026-07-16T14:06:02.000Z",
           "publishedAtKst": "2026. 07. 16. 23:06",
           "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 55,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -473,31 +390,24 @@
       "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-      "impact": 35,
+      "impact": 33,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Could multi-agent AI orchestration replace complete software development lifecycle? if yes how would it look like ?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1uz5nby/could_multiagent_ai_orchestration_replace/",
-      "impact": 34,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Endogenous Alignment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
+      "impact": 22,
+      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.15267v1",
-      "impact": -1,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.15207v1",
-      "impact": 1,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "The Fastest-Growing Risk to Air Travel Is Probably in Your Pocket",
+      "source": "Hacker News",
+      "url": "https://www.wsj.com/business/airlines/the-fastest-growing-risk-to-air-travel-is-probably-in-your-pocket-602e4385",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "The distillation panic",
@@ -505,6 +415,13 @@
       "url": "https://www.interconnects.ai/p/the-distillation-panic",
       "impact": 3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "impact": 12,
+      "reason": "안전 이슈, 프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
