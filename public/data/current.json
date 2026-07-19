@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T05:42:21.803Z",
-  "generatedAtKst": "2026. 07. 19. 14:42",
-  "nextUpdateAt": "2026-07-19T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 19. 18:00",
+  "generatedAt": "2026-07-19T10:18:51.942Z",
+  "generatedAtKst": "2026. 07. 19. 19:18",
+  "nextUpdateAt": "2026-07-19T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 20. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 76,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
+    "hotCount": 51,
     "coldCount": 6,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -163,7 +163,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.18,
       "confidence": 82,
@@ -176,7 +176,7 @@
           "publishedAt": "2026-07-17T18:06:32.000Z",
           "publishedAtKst": "2026. 07. 18. 03:06",
           "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
-          "impact": 34,
+          "impact": 32,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-07-17T23:42:45.000Z",
           "publishedAtKst": "2026. 07. 18. 08:42",
           "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 31,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -212,7 +212,7 @@
           "publishedAt": "2026-07-18T14:10:37.000Z",
           "publishedAtKst": "2026. 07. 18. 23:10",
           "summary": "Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, a",
-          "impact": 21,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -229,7 +229,7 @@
           "publishedAt": "2026-07-15T17:42:46.000Z",
           "publishedAtKst": "2026. 07. 16. 02:42",
           "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
-          "impact": 19,
+          "impact": 17,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -264,10 +264,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -277,8 +277,8 @@
           "publishedAt": "2026-07-16T16:29:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:29",
           "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (",
-          "impact": 23,
-          "confidence": 89,
+          "impact": 21,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -295,8 +295,8 @@
           "publishedAt": "2026-07-16T17:51:23.000Z",
           "publishedAtKst": "2026. 07. 17. 02:51",
           "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. ",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -313,8 +313,8 @@
           "publishedAt": "2026-07-16T16:57:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:57",
           "summary": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likeliho",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -331,7 +331,7 @@
           "publishedAt": "2026-07-16T17:59:31.000Z",
           "publishedAtKst": "2026. 07. 17. 02:59",
           "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If t",
-          "impact": 20,
+          "impact": 19,
           "confidence": 86,
           "stance": "accelerate",
           "tags": [
@@ -349,8 +349,8 @@
           "publishedAt": "2026-07-16T16:07:19.000Z",
           "publishedAtKst": "2026. 07. 17. 01:07",
           "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-poli",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -373,30 +373,60 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
-          "publishedAt": "2026-07-18T15:10:52.000Z",
-          "publishedAtKst": "2026. 07. 19. 00:10",
-          "summary": "The Google DeepMind-sponsored Kaggle challenge \"Measuring Progress Toward AGI - Cognitive Abilities\" asked participants to design new cognitive-science-based AI benchmarks and they just announced the results this week. I",
-          "impact": 26,
-          "confidence": 62,
+          "title": "AI coding agents should optimize for less owned code",
+          "source": "Hacker News",
+          "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
+          "publishedAt": "2026-07-19T10:03:08.000Z",
+          "publishedAtKst": "2026. 07. 19. 19:03",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
+          "source": "Hacker News",
+          "url": "https://shikigami.dev/",
+          "publishedAt": "2026-07-19T08:48:47.000Z",
+          "publishedAtKst": "2026. 07. 19. 17:48",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Open source AI being slightly behind is the best possible scenario",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v0hvve/open_source_ai_being_slightly_behind_is_the_best/",
+          "publishedAt": "2026-07-19T05:29:22.000Z",
+          "publishedAtKst": "2026. 07. 19. 14:29",
+          "summary": "Let’s start by imagining what will happen if Chinese open source models eventually eclipse western models. At first, everyone here cheers and laughs at OpenAI/Anthropic/etc., yay we did it guys! Open source won! But righ",
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "LLM",
-            "모델",
-            "벤치마크"
+            "모델"
           ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI for Systems is \"AGI-Complete\"",
+          "title": "Aging Baby Boomers are America's real labor problem, not AI",
           "source": "Hacker News",
-          "url": "https://dl.acm.org/doi/10.1145/3830422.3830425",
-          "publishedAt": "2026-07-19T05:30:22.000Z",
-          "publishedAtKst": "2026. 07. 19. 14:30",
-          "summary": "2 points, 0 comments",
+          "url": "https://fortune.com/2026/07/18/us-labor-shortage-ai-baby-boomers-2032/",
+          "publishedAt": "2026-07-19T09:56:44.000Z",
+          "publishedAtKst": "2026. 07. 19. 18:56",
+          "summary": "3 points, 0 comments",
           "impact": 16,
           "confidence": 58,
           "stance": "accelerate",
@@ -411,24 +441,8 @@
           "url": "https://research.perplexity.ai/articles/wandr-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
           "publishedAt": "2026-07-18T20:59:57.000Z",
           "publishedAtKst": "2026. 07. 19. 05:59",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The first industrial operations benchmark for agents",
-          "source": "Hacker News",
-          "url": "https://solarbench.maingen.ai/",
-          "publishedAt": "2026-07-18T18:29:29.000Z",
-          "publishedAtKst": "2026. 07. 19. 03:29",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
+          "summary": "3 points, 0 comments",
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -436,23 +450,6 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: BotTrade – a replayable benchmark for autonomous trading agents",
-          "source": "Hacker News",
-          "url": "https://bot-trade.org/",
-          "publishedAt": "2026-07-16T19:37:52.000Z",
-          "publishedAtKst": "2026. 07. 17. 04:37",
-          "summary": "1 points, 1 comments",
-          "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "벤치마크"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -462,22 +459,22 @@
       "title": "Announcing the Corrigibility Research Fund",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-      "impact": 34,
+      "impact": 32,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-      "impact": 31,
+      "impact": 30,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
-      "impact": 26,
-      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.15176v1",
+      "impact": 21,
+      "reason": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
