@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T10:18:51.942Z",
-  "generatedAtKst": "2026. 07. 19. 19:18",
-  "nextUpdateAt": "2026-07-19T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 20. 00:00",
+  "generatedAt": "2026-07-19T15:47:23.918Z",
+  "generatedAtKst": "2026. 07. 20. 00:47",
+  "nextUpdateAt": "2026-07-19T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 20. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2032-12-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2283,
+    "rangeEnd": "2039-11-06",
+    "dday": 2328,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -37,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
+    "score": 75,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 6,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 50,
+    "coldCount": 8,
+    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,15 +54,15 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-16T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 17. 01:00",
           "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,7 +163,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
       "confidence": 82,
@@ -176,7 +176,7 @@
           "publishedAt": "2026-07-17T18:06:32.000Z",
           "publishedAtKst": "2026. 07. 18. 03:06",
           "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
-          "impact": 32,
+          "impact": 31,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-07-17T23:42:45.000Z",
           "publishedAtKst": "2026. 07. 18. 08:42",
           "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 30,
+          "impact": 28,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -212,31 +212,13 @@
           "publishedAt": "2026-07-18T14:10:37.000Z",
           "publishedAtKst": "2026. 07. 18. 23:10",
           "summary": "Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, a",
-          "impact": 20,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "초지능",
             "정렬 실패"
-          ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why I Left Google DeepMind",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
-          "publishedAt": "2026-07-15T17:42:46.000Z",
-          "publishedAtKst": "2026. 07. 16. 02:42",
-          "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
-          "impact": 17,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -257,6 +239,24 @@
             "자기개선"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Why I Left Google DeepMind",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
+          "publishedAt": "2026-07-15T17:42:46.000Z",
+          "publishedAtKst": "2026. 07. 16. 02:42",
+          "summary": "Preface for LessWrong: When I think back on my most cherished memories of this community, I return to those honoring defiance in pursuit of goodness : Defying prestigious dogma and searching for raw truth; Defying social",
+          "impact": 15,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "자율성"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,10 +264,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
+      "score": 76,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 86,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -277,8 +277,8 @@
           "publishedAt": "2026-07-16T16:29:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:29",
           "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -295,8 +295,8 @@
           "publishedAt": "2026-07-16T17:51:23.000Z",
           "publishedAtKst": "2026. 07. 17. 02:51",
           "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. ",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -313,8 +313,8 @@
           "publishedAt": "2026-07-16T16:57:34.000Z",
           "publishedAtKst": "2026. 07. 17. 01:57",
           "summary": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likeliho",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -331,8 +331,8 @@
           "publishedAt": "2026-07-16T17:59:31.000Z",
           "publishedAtKst": "2026. 07. 17. 02:59",
           "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If t",
-          "impact": 19,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -343,22 +343,22 @@
           "why": "프런티어 모델, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "On-Policy Delta Distillation",
+          "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15161v1",
-          "publishedAt": "2026-07-16T16:07:19.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:07",
-          "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-poli",
-          "impact": 19,
-          "confidence": 85,
+          "url": "http://arxiv.org/abs/2607.15263v1",
+          "publishedAt": "2026-07-16T17:54:47.000Z",
+          "publishedAtKst": "2026. 07. 17. 02:54",
+          "summary": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements",
+          "impact": 17,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
             "추론",
-            "LLM",
             "모델",
             "벤치마크"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,24 +369,25 @@
       "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "AI coding agents should optimize for less owned code",
-          "source": "Hacker News",
-          "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
-          "publishedAt": "2026-07-19T10:03:08.000Z",
-          "publishedAtKst": "2026. 07. 19. 19:03",
-          "summary": "1 points, 0 comments",
+          "title": "Does Kimi K3 change the distillation debate?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v0owoc/does_kimi_k3_change_the_distillation_debate/",
+          "publishedAt": "2026-07-19T12:09:01.000Z",
+          "publishedAtKst": "2026. 07. 19. 21:09",
+          "summary": "Kimi K3’s third-place ranking on the Artificial intelligence index seems difficult to reconcile with the idea that Chinese models depend heavily on distillation from the latest US leaders. Fable 5 and GPT‑5.6 came online",
           "impact": 19,
-          "confidence": 60,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "GPT",
+            "Claude",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
@@ -394,8 +395,8 @@
           "url": "https://shikigami.dev/",
           "publishedAt": "2026-07-19T08:48:47.000Z",
           "publishedAtKst": "2026. 07. 19. 17:48",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
+          "summary": "5 points, 2 comments",
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -411,8 +412,8 @@
           "publishedAt": "2026-07-19T05:29:22.000Z",
           "publishedAtKst": "2026. 07. 19. 14:29",
           "summary": "Let’s start by imagining what will happen if Chinese open source models eventually eclipse western models. At first, everyone here cheers and laughs at OpenAI/Anthropic/etc., yay we did it guys! Open source won! But righ",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -421,19 +422,20 @@
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Aging Baby Boomers are America's real labor problem, not AI",
+          "title": "Agent Arena: Benchmarking AI Agent Devtool Onboarding",
           "source": "Hacker News",
-          "url": "https://fortune.com/2026/07/18/us-labor-shortage-ai-baby-boomers-2032/",
-          "publishedAt": "2026-07-19T09:56:44.000Z",
-          "publishedAtKst": "2026. 07. 19. 18:56",
+          "url": "https://2027.dev/arena/sandboxes",
+          "publishedAt": "2026-07-19T10:44:13.000Z",
+          "publishedAtKst": "2026. 07. 19. 19:44",
           "summary": "3 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "벤치마크"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Wandr Benchmark: Evaluating Research Agents That Must Search Wide and Deep",
@@ -459,38 +461,38 @@
       "title": "Announcing the Corrigibility Research Fund",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-      "impact": 32,
+      "impact": 31,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-      "impact": 30,
+      "impact": 28,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15176v1",
-      "impact": 21,
+      "impact": 20,
       "reason": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "HuggingFace security incident report: \"the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models\"",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1v0n4rn/huggingface_security_incident_report_the_attacker/",
+      "impact": -2,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.15267v1",
-      "impact": 1,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.15207v1",
       "impact": 2,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "The distillation panic",
