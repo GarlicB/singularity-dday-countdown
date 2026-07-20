@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-20T11:36:43.761Z",
-  "generatedAtKst": "2026. 07. 20. 20:36",
-  "nextUpdateAt": "2026-07-20T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 21. 00:00",
+  "generatedAt": "2026-07-20T16:19:39.077Z",
+  "generatedAtKst": "2026. 07. 21. 01:19",
+  "nextUpdateAt": "2026-07-20T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 21. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2032-12-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2282,
+    "rangeEnd": "2039-11-06",
+    "dday": 2327,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -37,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
+    "score": 75,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 8,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 42,
+    "coldCount": 7,
+    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     }
   ],
@@ -164,10 +164,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -177,8 +177,8 @@
           "publishedAt": "2026-07-17T18:06:32.000Z",
           "publishedAtKst": "2026. 07. 18. 03:06",
           "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
-          "impact": 24,
-          "confidence": 82,
+          "impact": 22,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -195,8 +195,8 @@
           "publishedAt": "2026-07-17T23:42:45.000Z",
           "publishedAtKst": "2026. 07. 18. 08:42",
           "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 23,
-          "confidence": 81,
+          "impact": 21,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -232,7 +232,7 @@
           "publishedAtKst": "2026. 07. 18. 23:10",
           "summary": "Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, a",
           "impact": 16,
-          "confidence": 78,
+          "confidence": 77,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -265,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -278,8 +278,8 @@
           "publishedAt": "2026-07-17T17:46:23.000Z",
           "publishedAtKst": "2026. 07. 18. 02:46",
           "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essentia",
-          "impact": 28,
-          "confidence": 92,
+          "impact": 26,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -296,8 +296,8 @@
           "publishedAt": "2026-07-17T15:47:23.000Z",
           "publishedAtKst": "2026. 07. 18. 00:47",
           "summary": "Agentic Artificial Intelligence (AI), enabled by Large Language Models, marks a shift from rule-based automation toward autonomous, goal-driven control of Next-Generation Networks (NGNs). Existing surveys treat the two d",
-          "impact": 22,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -314,8 +314,8 @@
           "publishedAt": "2026-07-17T15:34:51.000Z",
           "publishedAtKst": "2026. 07. 18. 00:34",
           "summary": "Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematical problem-solving, and ",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -332,8 +332,8 @@
           "publishedAt": "2026-07-17T17:13:44.000Z",
           "publishedAtKst": "2026. 07. 18. 02:13",
           "summary": "LLM powered multi-agent systems (MAS) have emerged as a promising paradigm for complex tasks. However, their advantages over single-agent systems (SAS) remain unclear, with performance varying inconsistently across setti",
-          "impact": 19,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -350,8 +350,8 @@
           "publishedAt": "2026-07-17T15:41:09.000Z",
           "publishedAtKst": "2026. 07. 18. 00:41",
           "summary": "Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to replace: methods merge in",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -367,21 +367,38 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
       "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path forward? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v1i26p/i_just_read_lecuns_recent_thoughts_on_world/",
-          "publishedAt": "2026-07-20T10:50:04.000Z",
-          "publishedAtKst": "2026. 07. 20. 19:50",
+          "title": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, Publishing",
+          "source": "Hacker News",
+          "url": "https://llmspy.org",
+          "publishedAt": "2026-07-20T16:03:46.000Z",
+          "publishedAtKst": "2026. 07. 21. 01:03",
+          "summary": "1 points, 0 comments",
+          "impact": 23,
+          "confidence": 64,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA vs LLMs?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v1i657/i_just_read_lecuns_recent_thoughts_on_world/",
+          "publishedAt": "2026-07-20T10:55:48.000Z",
+          "publishedAtKst": "2026. 07. 20. 19:55",
           "summary": "So, I just read LeCun's interview with Nebius Science. I feel he had some cool points about LLMs being able to answer things, but not literally understand the physics of the physical world. (Like, being able to explain a",
-          "impact": 24,
-          "confidence": 60,
+          "impact": 22,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -391,55 +408,20 @@
           "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing ASCIITermDraw Bench | Testing the ability of VLMs to Generate and Edit ASCII [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v1fzuy/introducing_asciitermdraw_bench_testing_the/",
-          "publishedAt": "2026-07-20T08:53:33.000Z",
-          "publishedAtKst": "2026. 07. 20. 17:53",
-          "summary": "ASCIITermDraw-Bench: Can a Model Actually Draw in ASCII? Do we really need a image generator to relay our thoughts about - an architecture? a topology? a cluster og N nodes? Is it possible to let our AI assistants, easil",
-          "impact": 23,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Coercion and Deception in AI-to-AI Management: An Agentic Benchmark",
+          "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
           "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2607.15434",
-          "publishedAt": "2026-07-20T11:07:06.000Z",
-          "publishedAtKst": "2026. 07. 20. 20:07",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "url": "https://shikigami.dev/",
+          "publishedAt": "2026-07-19T08:48:47.000Z",
+          "publishedAtKst": "2026. 07. 19. 17:48",
+          "summary": "7 points, 2 comments",
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "벤치마크"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Am I focusing on the wrong skills as a CS student in the AI era? (Need brutally honest advice) [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pc9u/am_i_focusing_on_the_wrong_skills_as_a_cs_student/",
-          "publishedAt": "2026-07-19T12:29:44.000Z",
-          "publishedAtKst": "2026. 07. 19. 21:29",
-          "summary": "I'm a Computer Science student about to start my 4th semester this September in Pakistan. My long-term goals are: - Maintain a high GPA because I want to pursue a fully funded Master's abroad. - Eventually work at a top ",
-          "impact": 16,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "컴퓨트"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "A card game I built as a decision-making benchmark for AI agents",
@@ -448,8 +430,24 @@
           "publishedAt": "2026-07-20T00:06:24.000Z",
           "publishedAtKst": "2026. 07. 20. 09:06",
           "summary": "1 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Agent Arena: Benchmarking AI Agent Devtool Onboarding",
+          "source": "Hacker News",
+          "url": "https://2027.dev/arena/sandboxes",
+          "publishedAt": "2026-07-19T10:44:13.000Z",
+          "publishedAtKst": "2026. 07. 19. 19:44",
+          "summary": "3 points, 0 comments",
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -465,32 +463,25 @@
       "title": "An Exam for Active Observers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.16165v1",
-      "impact": 28,
+      "impact": 26,
       "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, Publishing",
+      "source": "Hacker News",
+      "url": "https://llmspy.org",
+      "impact": 23,
+      "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Announcing the Corrigibility Research Fund",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-      "impact": 24,
+      "impact": 22,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path forward? [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1i26p/i_just_read_lecuns_recent_thoughts_on_world/",
-      "impact": 24,
-      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "The distillation panic",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-distillation-panic",
-      "impact": 3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Harmonizing AI Safety Thresholds",
       "source": "arXiv",
@@ -504,6 +495,13 @@
       "url": "http://arxiv.org/abs/2607.16130v1",
       "impact": 5,
       "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "DELUGE: Towards Continental-Scale Daily Pluvial Flood Damage Prediction via Interpretable Conditioning on Foundation Model Embeddings",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.16050v1",
+      "impact": 8,
+      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
