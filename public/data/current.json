@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T21:41:35.766Z",
-  "generatedAtKst": "2026. 07. 20. 06:41",
-  "nextUpdateAt": "2026-07-20T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 20. 12:00",
+  "generatedAt": "2026-07-20T06:00:03.377Z",
+  "generatedAtKst": "2026. 07. 20. 15:00",
+  "nextUpdateAt": "2026-07-20T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 20. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-12-21",
-    "dday": 2373,
+    "dday": 2372,
     "confidence": 76,
     "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,16 +25,16 @@
     "score": 74,
     "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 42,
-    "coldCount": 6,
-    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 38,
+    "coldCount": 8,
+    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
-      "tone": "hot"
+      "value": 46,
+      "delta": -1,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -71,92 +71,89 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 71,
+      "score": 68,
       "delta": 5,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Why teens deserve access to safe AI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-          "publishedAt": "2026-07-16T16:00:00.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:00",
-          "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-          "impact": 14,
+          "title": "Empowering India’s next generation of innovators with ATL Saathi",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+          "publishedAt": "2026-07-13T12:37:28.000Z",
+          "publishedAtKst": "2026. 07. 13. 21:37",
+          "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+          "impact": 12,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "Gemini",
+            "로보틱스"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ChatGPT is now a partner for your most ambitious work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-          "publishedAt": "2026-07-09T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 09. 19:00",
-          "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "impact": 14,
+          "title": "Introducing computer use in Gemini 3.5 Flash",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+          "publishedAt": "2026-06-24T16:30:01.000Z",
+          "publishedAtKst": "2026. 06. 25. 01:30",
+          "summary": "",
+          "impact": 12,
           "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "컴퓨트"
+          ],
+          "why": "Gemini, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Fast-tracking genetic leads to reverse cellular aging",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+          "publishedAt": "2026-05-18T18:21:39.000Z",
+          "publishedAtKst": "2026. 05. 19. 03:21",
+          "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+          "impact": 12,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+          "publishedAt": "2026-07-07T08:54:00.000Z",
+          "publishedAtKst": "2026. 07. 07. 17:54",
+          "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+          "impact": 12,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "ChatGPT",
-            "GPT"
+            "Gemini"
           ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How sales teams use ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-          "publishedAt": "2026-07-14T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 14. 09:00",
-          "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-          "impact": 13,
+          "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+          "publishedAt": "2026-06-30T16:02:40.000Z",
+          "publishedAtKst": "2026. 07. 01. 01:02",
+          "summary": "",
+          "impact": 11,
           "confidence": 92,
-          "stance": "accelerate",
+          "stance": "watch",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "Gemini"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How data science teams use ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-          "publishedAt": "2026-07-14T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 14. 09:00",
-          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Getting started with ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/academy/getting-started",
-          "publishedAt": "2026-07-10T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 10. 09:00",
-          "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -164,7 +161,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.18,
       "confidence": 82,
@@ -177,7 +174,7 @@
           "publishedAt": "2026-07-17T18:06:32.000Z",
           "publishedAtKst": "2026. 07. 18. 03:06",
           "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
-          "impact": 29,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -195,7 +192,7 @@
           "publishedAt": "2026-07-17T23:42:45.000Z",
           "publishedAtKst": "2026. 07. 18. 08:42",
           "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 27,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -205,23 +202,6 @@
             "LLM"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Endogenous Alignment",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
-          "publishedAt": "2026-07-18T14:10:37.000Z",
-          "publishedAtKst": "2026. 07. 18. 23:10",
-          "summary": "Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, a",
-          "impact": 18,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "정렬 실패"
-          ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The current bottleneck is political will, not research",
@@ -240,6 +220,23 @@
             "자기개선"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Endogenous Alignment",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
+          "publishedAt": "2026-07-18T14:10:37.000Z",
+          "publishedAtKst": "2026. 07. 18. 23:10",
+          "summary": "Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, a",
+          "impact": 17,
+          "confidence": 80,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "정렬 실패"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I Left Google DeepMind",
@@ -265,101 +262,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 75,
-      "delta": 6,
+      "score": 81,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 84,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
-          "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+          "title": "An Exam for Active Observers",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15176v1",
-          "publishedAt": "2026-07-16T16:29:34.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:29",
-          "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (",
-          "impact": 18,
-          "confidence": 84,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15257v1",
-          "publishedAt": "2026-07-16T17:51:23.000Z",
-          "publishedAtKst": "2026. 07. 17. 02:51",
-          "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. ",
-          "impact": 17,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15200v1",
-          "publishedAt": "2026-07-16T16:57:34.000Z",
-          "publishedAtKst": "2026. 07. 17. 01:57",
-          "summary": "Reinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likeliho",
-          "impact": 17,
-          "confidence": 83,
+          "url": "http://arxiv.org/abs/2607.16165v1",
+          "publishedAt": "2026-07-17T17:46:23.000Z",
+          "publishedAtKst": "2026. 07. 18. 02:46",
+          "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essentia",
+          "impact": 30,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
+            "GPT",
+            "Claude",
+            "LLM"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+          "title": "LLM-Powered Agentic AI for 5G/6G Networks: A Tutorial and Survey on Architectures, Protocols, and Standardization",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15263v1",
-          "publishedAt": "2026-07-16T17:54:47.000Z",
-          "publishedAtKst": "2026. 07. 17. 02:54",
-          "summary": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements",
-          "impact": 16,
+          "url": "http://arxiv.org/abs/2607.16066v1",
+          "publishedAt": "2026-07-17T15:47:23.000Z",
+          "publishedAtKst": "2026. 07. 18. 00:47",
+          "summary": "Agentic Artificial Intelligence (AI), enabled by Large Language Models, marks a shift from rule-based automation toward autonomous, goal-driven control of Next-Generation Networks (NGNs). Existing surveys treat the two d",
+          "impact": 23,
+          "confidence": 89,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "추론",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Frontier AI performance across the business disciplines: a case-grounded benchmark of knowledge work and analytical reasoning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.16057v1",
+          "publishedAt": "2026-07-17T15:34:51.000Z",
+          "publishedAtKst": "2026. 07. 18. 00:34",
+          "summary": "Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematical problem-solving, and ",
+          "impact": 23,
+          "confidence": 89,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "When Do Multi-Agent Systems Help? An Information Bottleneck Perspective",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.16133v1",
+          "publishedAt": "2026-07-17T17:13:44.000Z",
+          "publishedAtKst": "2026. 07. 18. 02:13",
+          "summary": "LLM powered multi-agent systems (MAS) have emerged as a promising paradigm for complex tasks. However, their advantages over single-agent systems (SAS) remain unclear, with performance varying inconsistently across setti",
+          "impact": 20,
           "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "추론",
-            "모델",
-            "벤치마크"
+            "LLM",
+            "모델"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+          "title": "When Model Merging Rivals Joint Multi-Task Reinforcement Learning: A Task-Vector Geometry Analysis",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.15277v1",
-          "publishedAt": "2026-07-16T17:59:31.000Z",
-          "publishedAtKst": "2026. 07. 17. 02:59",
-          "summary": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If t",
-          "impact": 16,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2607.16062v1",
+          "publishedAt": "2026-07-17T15:41:09.000Z",
+          "publishedAtKst": "2026. 07. 18. 00:41",
+          "summary": "Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to replace: methods merge in",
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "LLM",
+            "AGI",
+            "에이전트",
             "모델",
-            "추론 인프라"
+            "벤치마크"
           ],
-          "why": "프런티어 모델, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -370,7 +367,7 @@
       "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -380,8 +377,8 @@
           "publishedAt": "2026-07-19T12:29:44.000Z",
           "publishedAtKst": "2026. 07. 19. 21:29",
           "summary": "I'm a Computer Science student about to start my 4th semester this September in Pakistan. My long-term goals are: - Maintain a high GPA because I want to pursue a fully funded Master's abroad. - Eventually work at a top ",
-          "impact": 18,
-          "confidence": 56,
+          "impact": 17,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -396,9 +393,9 @@
           "url": "https://shikigami.dev/",
           "publishedAt": "2026-07-19T08:48:47.000Z",
           "publishedAtKst": "2026. 07. 19. 17:48",
-          "summary": "5 points, 2 comments",
-          "impact": 17,
-          "confidence": 59,
+          "summary": "6 points, 2 comments",
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -407,13 +404,29 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "A card game I built as a decision-making benchmark for AI agents",
+          "source": "Hacker News",
+          "url": "https://play.in2itgame.com/agent-docs",
+          "publishedAt": "2026-07-20T00:06:24.000Z",
+          "publishedAtKst": "2026. 07. 20. 09:06",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Agent Arena: Benchmarking AI Agent Devtool Onboarding",
           "source": "Hacker News",
           "url": "https://2027.dev/arena/sandboxes",
           "publishedAt": "2026-07-19T10:44:13.000Z",
           "publishedAtKst": "2026. 07. 19. 19:44",
           "summary": "3 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -429,24 +442,8 @@
           "publishedAt": "2026-07-18T20:59:57.000Z",
           "publishedAtKst": "2026. 07. 19. 05:59",
           "summary": "3 points, 0 comments",
-          "impact": 13,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The first industrial operations benchmark for agents",
-          "source": "Hacker News",
-          "url": "https://solarbench.maingen.ai/",
-          "publishedAt": "2026-07-18T18:29:29.000Z",
-          "publishedAtKst": "2026. 07. 19. 03:29",
-          "summary": "2 points, 0 comments",
-          "impact": 13,
-          "confidence": 54,
+          "impact": 12,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -459,34 +456,34 @@
   ],
   "topDrivers": [
     {
+      "title": "An Exam for Active Observers",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.16165v1",
+      "impact": 30,
+      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Announcing the Corrigibility Research Fund",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-      "impact": 29,
+      "impact": 26,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-      "impact": 27,
+      "impact": 24,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Endogenous Alignment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
-      "impact": 18,
-      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.15267v1",
-      "impact": 2,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Al-altered images on birdwatching forums putting research at risk",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/environment/2026/jul/20/ai-slop-manipulated-fake-images-birds-citizen-science-aoe",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "The distillation panic",
@@ -496,11 +493,11 @@
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "title": "A Methodology for Auditable Trustworthiness Levels in AI Lifecycle Governance",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.15207v1",
-      "impact": 3,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2607.16130v1",
+      "impact": 4,
+      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
