@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-21T05:41:05.869Z",
-  "generatedAtKst": "2026. 07. 21. 14:41",
-  "nextUpdateAt": "2026-07-21T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 21. 18:00",
+  "generatedAt": "2026-07-21T10:56:17.660Z",
+  "generatedAtKst": "2026. 07. 21. 19:56",
+  "nextUpdateAt": "2026-07-21T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 22. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
-    "coldCount": 8,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 59,
+    "coldCount": 5,
+    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -164,48 +164,12 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.18,
       "confidence": 80,
       "trend": "hot",
       "items": [
-        {
-          "title": "Announcing the Corrigibility Research Fund",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-          "publishedAt": "2026-07-17T18:06:32.000Z",
-          "publishedAtKst": "2026. 07. 18. 03:06",
-          "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
-          "impact": 18,
-          "confidence": 78,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-          "publishedAt": "2026-07-17T23:42:45.000Z",
-          "publishedAtKst": "2026. 07. 18. 08:42",
-          "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 18,
-          "confidence": 76,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "프런티어 모델",
-            "LLM"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "The current bottleneck is political will, not research",
           "source": "Alignment Forum",
@@ -223,6 +187,42 @@
             "자기개선"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Announcing the Corrigibility Research Fund",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
+          "publishedAt": "2026-07-17T18:06:32.000Z",
+          "publishedAtKst": "2026. 07. 18. 03:06",
+          "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
+          "impact": 16,
+          "confidence": 78,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "프런티어 모델",
+            "모델"
+          ],
+          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
+          "publishedAt": "2026-07-17T23:42:45.000Z",
+          "publishedAtKst": "2026. 07. 18. 08:42",
+          "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
+          "impact": 16,
+          "confidence": 76,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "프런티어 모델",
+            "LLM"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I Left Google DeepMind",
@@ -273,24 +273,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18230v1",
-          "publishedAt": "2026-07-20T17:58:13.000Z",
-          "publishedAtKst": "2026. 07. 21. 02:58",
-          "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "Gemini",
-            "모델"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.18213v1",
@@ -333,7 +315,7 @@
           "publishedAt": "2026-07-20T16:11:19.000Z",
           "publishedAtKst": "2026. 07. 21. 01:11",
           "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -345,22 +327,40 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+          "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18199v1",
-          "publishedAt": "2026-07-20T17:38:38.000Z",
-          "publishedAtKst": "2026. 07. 21. 02:38",
-          "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data select",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2607.18230v1",
+          "publishedAt": "2026-07-20T17:58:13.000Z",
+          "publishedAtKst": "2026. 07. 21. 02:58",
+          "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of",
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "성능 향상"
+            "ChatGPT",
+            "GPT",
+            "Gemini",
+            "모델"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Judge-dependent safety gains and model-specific helpfulness costs of evidence-sufficiency prompting in clinical LLMs",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.18086v1",
+          "publishedAt": "2026-07-20T15:53:02.000Z",
+          "publishedAtKst": "2026. 07. 21. 00:53",
+          "summary": "Background: LLM judges increasingly score whether clinical language models give overconfident answers under incomplete evidence, yet whether a measured \"safety gain\" reflects real behavior change or the judge's calibrati",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "Gemini",
+            "Claude",
+            "LLM"
+          ],
+          "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,19 +368,19 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 78,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 60,
       "trend": "hot",
       "items": [
         {
           "title": "DeepSWE – Best Benchmark for Evaluating AI Coding Agents?",
           "source": "Hacker News",
-          "url": "https://www.i-programmer.info/professional-programmer/103-i-programmer/18759-why-software-engineering-will-never-die-revisited-in-the-age-of-spec-driven-development.html",
-          "publishedAt": "2026-07-21T02:58:30.000Z",
-          "publishedAtKst": "2026. 07. 21. 11:58",
-          "summary": "2 points, 0 comments",
+          "url": "https://www.i-programmer.info/news/105-artificial-intelligence/19016-deepswe-best-benchmark-for-evaluating-ai-coding-agents.html",
+          "publishedAt": "2026-07-21T07:45:59.000Z",
+          "publishedAtKst": "2026. 07. 21. 16:45",
+          "summary": "2 points, 1 comments",
           "impact": 24,
           "confidence": 64,
           "stance": "accelerate",
@@ -392,63 +392,66 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA vs LLMs?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v1i657/i_just_read_lecuns_recent_thoughts_on_world/",
-          "publishedAt": "2026-07-20T10:55:48.000Z",
-          "publishedAtKst": "2026. 07. 20. 19:55",
-          "summary": "So, I just read LeCun's interview with Nebius Science. I feel he had some cool points about LLMs being able to answer things, but not literally understand the physics of the physical world. (Like, being able to explain a",
-          "impact": 20,
-          "confidence": 53,
+          "title": "Training a harness for model-agnostic and task-environment-agnostic capability improvements with PyTorch-like framework [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v1qbl7/training_a_harness_for_modelagnostic_and/",
+          "publishedAt": "2026-07-20T16:26:55.000Z",
+          "publishedAtKst": "2026. 07. 21. 01:26",
+          "summary": "I worked on this project ( https://github.com/workofart/harness-training ) for the past few months to reframe \"Agent-driven Self-improving Harness\" to \"Harness Training\". The idea is simple, the harness is trained once w",
+          "impact": 23,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "AGI",
+            "에이전트",
             "LLM",
-            "모델"
+            "모델",
+            "코딩 성능"
           ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A card game I built as a decision-making benchmark for AI agents",
+          "title": "Reproducing OpenAI’s “persistently beneficial models” - GRPO trait install barely moves. Ideas? [P] [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v2b8rd/reproducing_openais_persistently_beneficial/",
+          "publishedAt": "2026-07-21T07:19:51.000Z",
+          "publishedAtKst": "2026. 07. 21. 16:19",
+          "summary": "TL;DR: I’m reproducing the trait-persistence result from arXiv:2606.24014 on one RTX 3090. Before I can test persistence I need to install a trait via RL — and my GRPO run moves the trait only +2.4 points (95% CI [+0.2, ",
+          "impact": 22,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "LLM",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
           "source": "Hacker News",
-          "url": "https://play.in2itgame.com/agent-docs",
-          "publishedAt": "2026-07-20T00:06:24.000Z",
-          "publishedAtKst": "2026. 07. 20. 09:06",
+          "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+          "publishedAt": "2026-07-21T10:42:26.000Z",
+          "publishedAtKst": "2026. 07. 21. 19:42",
           "summary": "1 points, 0 comments",
-          "impact": 13,
-          "confidence": 54,
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "GPT",
+            "Claude"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
+          "title": "I moved Agentique's LLM layer to BAML",
           "source": "Hacker News",
-          "url": "https://shikigami.dev/",
-          "publishedAt": "2026-07-19T08:48:47.000Z",
-          "publishedAtKst": "2026. 07. 19. 17:48",
-          "summary": "7 points, 2 comments",
-          "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agents Last Exam will be saturated by next February at the latest.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v1wd01/agents_last_exam_will_be_saturated_by_next/",
-          "publishedAt": "2026-07-20T20:03:08.000Z",
-          "publishedAtKst": "2026. 07. 21. 05:03",
-          "summary": "\"Pass Rate\" is defined as the fraction of tasks which receive a 100% score. \"Score\" is defined as the average score over all tasks. https://agents-last-exam.org/leaderboard &#32; submitted by &#32; /u/CallMePyro [link] &",
-          "impact": 13,
-          "confidence": 48,
+          "url": "https://agentique.ch/blog/why-i-moved-agentiques-llm-layer-to-baml/",
+          "publishedAt": "2026-07-21T10:46:45.000Z",
+          "publishedAtKst": "2026. 07. 21. 19:46",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -460,13 +463,6 @@
     }
   ],
   "topDrivers": [
-    {
-      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.18230v1",
-      "impact": 36,
-      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
       "source": "arXiv",
@@ -480,6 +476,13 @@
       "url": "http://arxiv.org/abs/2607.18171v1",
       "impact": 36,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.18116v1",
+      "impact": 35,
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -487,22 +490,22 @@
       "title": "Learning Adaptive Safety Margins for Visual Navigation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.18200v1",
-      "impact": -5,
+      "impact": -4,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "LSU physicists create first room-temperature quantum material",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v1syqe/lsu_physicists_create_first_roomtemperature/",
-      "impact": -2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "A Continual Validation, Updating, and Decision-Making Framework for Self-Adaptive Digital Twins via Robust Model Predictive Control: A Case Study in Additive Manufacturing",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.18164v1",
+      "impact": 1,
+      "reason": "지연, 전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Oracle Credit Risk Hits Near 18-Year High on AI Debt Load Angst",
-      "source": "Hacker News",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/oracle-credit-risk-hits-near-18-year-high-on-ai-debt-load-angst",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Safety and alignment in an era of long-horizon models",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "impact": 5,
+      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
