@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-22T05:40:03.892Z",
-  "generatedAtKst": "2026. 07. 22. 14:40",
-  "nextUpdateAt": "2026-07-22T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 22. 18:00",
+  "generatedAt": "2026-07-22T10:58:35.551Z",
+  "generatedAtKst": "2026. 07. 22. 19:58",
+  "nextUpdateAt": "2026-07-22T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 23. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2100,
+    "rangeEnd": "2039-05-10",
+    "dday": 2145,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
-    "coldCount": 7,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 6,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,16 +54,16 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 58,
-      "delta": 2,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 58,
+      "delta": 2,
+      "tone": "hot"
     }
   ],
   "categories": [
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-21T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 02:00",
           "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.18,
-      "confidence": 84,
+      "confidence": 83,
       "trend": "hot",
       "items": [
         {
@@ -176,8 +176,8 @@
           "publishedAt": "2026-07-20T19:45:04.000Z",
           "publishedAtKst": "2026. 07. 21. 04:45",
           "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
-          "impact": 29,
-          "confidence": 82,
+          "impact": 28,
+          "confidence": 81,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -186,24 +186,6 @@
             "모델"
           ],
           "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The current bottleneck is political will, not research",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
-          "publishedAt": "2026-07-11T21:56:26.000Z",
-          "publishedAtKst": "2026. 07. 12. 06:56",
-          "summary": "Motivation: If we want to move from Plan D to Plan A or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do. Abstract: We already know enough to act. I wi",
-          "impact": 17,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "자기개선"
-          ],
-          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
@@ -255,6 +237,24 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Announcing the Corrigibility Research Fund",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
+          "publishedAt": "2026-07-17T18:06:32.000Z",
+          "publishedAtKst": "2026. 07. 18. 03:06",
+          "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
+          "impact": 14,
+          "confidence": 78,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "프런티어 모델",
+            "모델"
+          ],
+          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -262,7 +262,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -275,7 +275,7 @@
           "publishedAt": "2026-07-21T17:56:49.000Z",
           "publishedAtKst": "2026. 07. 22. 02:56",
           "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as casca",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,7 +293,7 @@
           "publishedAt": "2026-07-21T16:32:54.000Z",
           "publishedAtKst": "2026. 07. 22. 01:32",
           "summary": "Financial statement fraud detection (FSFD) is crucial for market integrity but faces challenges from increasingly sophisticated schemes and under-utilized textual data in financial reports. Existing methods often rely on",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +311,7 @@
           "publishedAt": "2026-07-21T16:05:49.000Z",
           "publishedAtKst": "2026. 07. 22. 01:05",
           "summary": "Theory of Mind (ToM), the ability to infer other's beliefs, intentions, and states of knowledge, is central to social interaction, yet remains challenging for current Multimodal Large Language Models (MLLMs), especially ",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-07-21T15:52:50.000Z",
           "publishedAtKst": "2026. 07. 22. 00:52",
           "summary": "Speculative decoding, in which a lightweight draft model first generates a draft sequence that is then verified in parallel by the target model, has become a prevalent paradigm for accelerating large language model infer",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-07-21T17:55:10.000Z",
           "publishedAtKst": "2026. 07. 22. 02:55",
           "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale d",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,7 +364,7 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
       "confidence": 51,
@@ -377,8 +377,8 @@
           "publishedAt": "2026-07-21T07:45:59.000Z",
           "publishedAtKst": "2026. 07. 21. 16:45",
           "summary": "2 points, 1 comments",
-          "impact": 21,
-          "confidence": 61,
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -395,7 +395,7 @@
           "publishedAtKst": "2026. 07. 22. 01:32",
           "summary": "&#32; submitted by &#32; /u/sugemchuge [link] &#32; [comments]",
           "impact": 18,
-          "confidence": 52,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -403,22 +403,6 @@
             "모델"
           ],
           "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini 3.6 Flash benchmarks",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v2l6sm/gemini_36_flash_benchmarks/",
-          "publishedAt": "2026-07-21T15:09:26.000Z",
-          "publishedAtKst": "2026. 07. 22. 00:09",
-          "summary": "&#32; submitted by &#32; /u/CounterReady4774 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "벤치마크"
-          ],
-          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "OpenAI launches ChatGPT Ads",
@@ -437,14 +421,30 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Google's Frozen v2 chip embeds Gemini model architecture into silicon with targeting 6-10x more tokens per watt than current TPUs",
+          "title": "Gemini 3.6 Flash benchmarks",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v2t129/googles_frozen_v2_chip_embeds_gemini_model/",
-          "publishedAt": "2026-07-21T19:44:01.000Z",
-          "publishedAtKst": "2026. 07. 22. 04:44",
-          "summary": "Google is working on a new chip called Frozen v2 and is expected to launch sometime in 2028. Instead of a generic AI accelerator, it embeds parts of Gemini's actual architecture into the silicon, cutting the calculations",
+          "url": "https://www.reddit.com/r/singularity/comments/1v2l6sm/gemini_36_flash_benchmarks/",
+          "publishedAt": "2026-07-21T15:09:26.000Z",
+          "publishedAtKst": "2026. 07. 22. 00:09",
+          "summary": "&#32; submitted by &#32; /u/CounterReady4774 [link] &#32; [comments]",
+          "impact": 13,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "벤치마크"
+          ],
+          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Gemini is behind Meta's Models now, lol",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v397w9/gemini_is_behind_metas_models_now_lol/",
+          "publishedAt": "2026-07-22T07:41:48.000Z",
+          "publishedAtKst": "2026. 07. 22. 16:41",
+          "summary": "&#32; submitted by &#32; /u/IndividualShift2873 [link] &#32; [comments]",
           "impact": 12,
-          "confidence": 47,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -460,21 +460,21 @@
       "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19338v1",
-      "impact": 36,
+      "impact": 34,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Benchmarking Generalization in Financial Statement Fraud Detection: robust evaluation and novel tasks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19259v1",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19235v1",
-      "impact": 36,
+      "impact": 34,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -483,7 +483,7 @@
       "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19292v1",
-      "impact": -12,
+      "impact": -11,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -494,11 +494,11 @@
       "reason": "소송, 저작권 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "News Corp accuses search engine Brave of AI copyright infringement",
-      "source": "Hacker News",
-      "url": "https://www.semafor.com/article/07/21/2026/newscorp-accuses-search-engine-brave-of-ai-copyright-infringement",
-      "impact": -2,
-      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "OpenAI had to pause internal deployment of the unreleased model that disproved the Erdős unit distance conjecture after it repeatedly used novel ways to escape containment.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1v2j2os/openai_had_to_pause_internal_deployment_of_the/",
+      "impact": 1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
