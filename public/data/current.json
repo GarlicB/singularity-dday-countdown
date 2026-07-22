@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-21T21:55:40.618Z",
-  "generatedAtKst": "2026. 07. 22. 06:55",
-  "nextUpdateAt": "2026-07-22T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 22. 12:00",
+  "generatedAt": "2026-07-22T05:40:03.892Z",
+  "generatedAtKst": "2026. 07. 22. 14:40",
+  "nextUpdateAt": "2026-07-22T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 22. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-03-26",
-    "dday": 2101,
+    "dday": 2100,
     "confidence": 76,
     "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 60,
+    "hotCount": 55,
     "coldCount": 7,
-    "summary": "가속 신호 60건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,16 +54,16 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-21T15:16:30.000Z",
           "publishedAtKst": "2026. 07. 22. 00:16",
           "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -108,21 +108,6 @@
             "모델"
           ],
           "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-          "publishedAt": "2026-07-21T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 21. 16:00",
-          "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "모델"
-          ],
-          "why": "모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why teens deserve access to safe AI",
@@ -155,6 +140,22 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How data science teams use ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+          "publishedAt": "2026-07-14T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 14. 09:00",
+          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -175,7 +176,7 @@
           "publishedAt": "2026-07-20T19:45:04.000Z",
           "publishedAtKst": "2026. 07. 21. 04:45",
           "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
-          "impact": 32,
+          "impact": 29,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -211,7 +212,7 @@
           "publishedAt": "2026-07-21T07:00:00.000Z",
           "publishedAtKst": "2026. 07. 21. 16:00",
           "summary": "",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -261,101 +262,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
-      "delta": 10,
+      "score": 93,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+          "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18213v1",
-          "publishedAt": "2026-07-20T17:47:44.000Z",
-          "publishedAtKst": "2026. 07. 21. 02:47",
-          "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find",
+          "url": "http://arxiv.org/abs/2607.19338v1",
+          "publishedAt": "2026-07-21T17:56:49.000Z",
+          "publishedAtKst": "2026. 07. 22. 02:56",
+          "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as casca",
           "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18171v1",
-          "publishedAt": "2026-07-20T17:12:28.000Z",
-          "publishedAtKst": "2026. 07. 21. 02:12",
-          "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, ",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18116v1",
-          "publishedAt": "2026-07-20T16:11:19.000Z",
-          "publishedAtKst": "2026. 07. 21. 01:11",
-          "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as",
-          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "GPT",
-            "LLM",
+            "코딩 에이전트",
             "모델"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+          "title": "Benchmarking Generalization in Financial Statement Fraud Detection: robust evaluation and novel tasks",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18230v1",
-          "publishedAt": "2026-07-20T17:58:13.000Z",
-          "publishedAtKst": "2026. 07. 21. 02:58",
-          "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of",
-          "impact": 31,
+          "url": "http://arxiv.org/abs/2607.19259v1",
+          "publishedAt": "2026-07-21T16:32:54.000Z",
+          "publishedAtKst": "2026. 07. 22. 01:32",
+          "summary": "Financial statement fraud detection (FSFD) is crucial for market integrity but faces challenges from increasingly sophisticated schemes and under-utilized textual data in financial reports. Existing methods often rely on",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT",
-            "Gemini",
-            "모델"
+            "AGI",
+            "LLM",
+            "모델",
+            "벤치마크"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+          "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.18199v1",
-          "publishedAt": "2026-07-20T17:38:38.000Z",
-          "publishedAtKst": "2026. 07. 21. 02:38",
-          "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data select",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2607.19235v1",
+          "publishedAt": "2026-07-21T16:05:49.000Z",
+          "publishedAtKst": "2026. 07. 22. 01:05",
+          "summary": "Theory of Mind (ToM), the ability to infer other's beliefs, intentions, and states of knowledge, is central to social interaction, yet remains challenging for current Multimodal Large Language Models (MLLMs), especially ",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
             "LLM",
             "모델",
-            "성능 향상"
+            "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.19223v1",
+          "publishedAt": "2026-07-21T15:52:50.000Z",
+          "publishedAtKst": "2026. 07. 22. 00:52",
+          "summary": "Speculative decoding, in which a lightweight draft model first generates a draft sequence that is then verified in parallel by the target model, has become a prevalent paradigm for accelerating large language model infer",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "LLM",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Agents in the Wild: Where Research Meets Deployment",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.19336v1",
+          "publishedAt": "2026-07-21T17:55:10.000Z",
+          "publishedAtKst": "2026. 07. 22. 02:55",
+          "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale d",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -363,10 +364,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 51,
       "trend": "hot",
       "items": [
         {
@@ -376,8 +377,8 @@
           "publishedAt": "2026-07-21T07:45:59.000Z",
           "publishedAtKst": "2026. 07. 21. 16:45",
           "summary": "2 points, 1 comments",
-          "impact": 22,
-          "confidence": 63,
+          "impact": 21,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -393,8 +394,8 @@
           "publishedAt": "2026-07-21T16:32:30.000Z",
           "publishedAtKst": "2026. 07. 22. 01:32",
           "summary": "&#32; submitted by &#32; /u/sugemchuge [link] &#32; [comments]",
-          "impact": 20,
-          "confidence": 53,
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -404,20 +405,20 @@
           "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Reachpad – Run all your coding agents from anywhere from the browser",
-          "source": "Hacker News",
-          "url": "https://reachpad.dev/",
-          "publishedAt": "2026-07-21T21:32:46.000Z",
-          "publishedAtKst": "2026. 07. 22. 06:32",
-          "summary": "2 points, 1 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "Gemini 3.6 Flash benchmarks",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v2l6sm/gemini_36_flash_benchmarks/",
+          "publishedAt": "2026-07-21T15:09:26.000Z",
+          "publishedAtKst": "2026. 07. 22. 00:09",
+          "summary": "&#32; submitted by &#32; /u/CounterReady4774 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "Gemini",
+            "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "OpenAI launches ChatGPT Ads",
@@ -426,8 +427,8 @@
           "publishedAt": "2026-07-21T19:13:29.000Z",
           "publishedAtKst": "2026. 07. 22. 04:13",
           "summary": "&#32; submitted by &#32; /u/EcstaticAsparagus509 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 50,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -436,54 +437,54 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini 3.6 Flash benchmarks",
+          "title": "Google's Frozen v2 chip embeds Gemini model architecture into silicon with targeting 6-10x more tokens per watt than current TPUs",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v2l6sm/gemini_36_flash_benchmarks/",
-          "publishedAt": "2026-07-21T15:09:26.000Z",
-          "publishedAtKst": "2026. 07. 22. 00:09",
-          "summary": "&#32; submitted by &#32; /u/CounterReady4774 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "url": "https://www.reddit.com/r/singularity/comments/1v2t129/googles_frozen_v2_chip_embeds_gemini_model/",
+          "publishedAt": "2026-07-21T19:44:01.000Z",
+          "publishedAtKst": "2026. 07. 22. 04:44",
+          "summary": "Google is working on a new chip called Frozen v2 and is expected to launch sometime in 2028. Instead of a generic AI accelerator, it embeds parts of Gemini's actual architecture into the silicon, cutting the calculations",
+          "impact": 12,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "Gemini",
-            "벤치마크"
+            "모델"
           ],
-          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.18213v1",
+      "url": "http://arxiv.org/abs/2607.19338v1",
       "impact": 36,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "title": "Benchmarking Generalization in Financial Statement Fraud Detection: robust evaluation and novel tasks",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.18171v1",
+      "url": "http://arxiv.org/abs/2607.19259v1",
       "impact": 36,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
-      "impact": 32,
-      "reason": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.19235v1",
+      "impact": 36,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Learning Adaptive Safety Margins for Visual Navigation",
+      "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.18200v1",
-      "impact": -3,
-      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2607.19292v1",
+      "impact": -12,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Judge approves a US$1.5B Anthropic settlement over pirated books used to train Claude - the lawsuit cover half a million books",
@@ -493,11 +494,11 @@
       "reason": "소송, 저작권 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "OpenAI had to pause internal deployment of the unreleased model that disproved the Erdős unit distance conjecture after it repeatedly used novel ways to escape containment.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v2j2os/openai_had_to_pause_internal_deployment_of_the/",
-      "impact": 1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "News Corp accuses search engine Brave of AI copyright infringement",
+      "source": "Hacker News",
+      "url": "https://www.semafor.com/article/07/21/2026/newscorp-accuses-search-engine-brave-of-ai-copyright-infringement",
+      "impact": -2,
+      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
