@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-22T16:14:51.141Z",
-  "generatedAtKst": "2026. 07. 23. 01:14",
-  "nextUpdateAt": "2026-07-22T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 23. 06:00",
+  "generatedAt": "2026-07-22T21:57:35.994Z",
+  "generatedAtKst": "2026. 07. 23. 06:57",
+  "nextUpdateAt": "2026-07-23T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 23. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2190,
+    "rangeEnd": "2039-09-22",
+    "dday": 2280,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 4,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 5,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -162,10 +162,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 74,
+      "score": 75,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 83,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -175,8 +175,8 @@
           "publishedAt": "2026-07-20T19:45:04.000Z",
           "publishedAtKst": "2026. 07. 21. 04:45",
           "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
-          "impact": 27,
-          "confidence": 80,
+          "impact": 25,
+          "confidence": 78,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -185,6 +185,21 @@
             "모델"
           ],
           "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Economics of Recursive Self-Improvement",
+          "source": "METR",
+          "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+          "publishedAt": "2026-07-22T07:00:00.000Z",
+          "publishedAtKst": "2026. 07. 22. 16:00",
+          "summary": "",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "자기개선"
+          ],
+          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I Left Google DeepMind",
@@ -239,21 +254,6 @@
             "모델"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/",
-          "publishedAt": "2026-07-21T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 21. 16:00",
-          "summary": "",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -261,7 +261,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -274,7 +274,7 @@
           "publishedAt": "2026-07-21T17:56:49.000Z",
           "publishedAtKst": "2026. 07. 22. 02:56",
           "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as casca",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -292,7 +292,7 @@
           "publishedAt": "2026-07-21T16:32:54.000Z",
           "publishedAtKst": "2026. 07. 22. 01:32",
           "summary": "Financial statement fraud detection (FSFD) is crucial for market integrity but faces challenges from increasingly sophisticated schemes and under-utilized textual data in financial reports. Existing methods often rely on",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -310,7 +310,7 @@
           "publishedAt": "2026-07-21T16:05:49.000Z",
           "publishedAtKst": "2026. 07. 22. 01:05",
           "summary": "Theory of Mind (ToM), the ability to infer other's beliefs, intentions, and states of knowledge, is central to social interaction, yet remains challenging for current Multimodal Large Language Models (MLLMs), especially ",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,7 +328,7 @@
           "publishedAt": "2026-07-21T15:52:50.000Z",
           "publishedAtKst": "2026. 07. 22. 00:52",
           "summary": "Speculative decoding, in which a lightweight draft model first generates a draft sequence that is then verified in parallel by the target model, has become a prevalent paradigm for accelerating large language model infer",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,7 +346,7 @@
           "publishedAt": "2026-07-21T17:55:10.000Z",
           "publishedAtKst": "2026. 07. 22. 02:55",
           "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale d",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -363,10 +363,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 62,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -376,8 +376,8 @@
           "publishedAt": "2026-07-21T07:45:59.000Z",
           "publishedAtKst": "2026. 07. 21. 16:45",
           "summary": "2 points, 1 comments",
-          "impact": 19,
-          "confidence": 59,
+          "impact": 18,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -387,69 +387,65 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I Had 11 AI Subagents Test Every PPTX Skill for Claude Code. Here's What Works",
+          "title": "Running Claude Code on a Jailbroken Kindle over SSH via Tailscale",
           "source": "Hacker News",
-          "url": "https://www.bulaev.net/p/i-had-11-ai-subagents-test-every",
-          "publishedAt": "2026-07-22T16:02:48.000Z",
-          "publishedAtKst": "2026. 07. 23. 01:02",
+          "url": "https://github.com/Mounstroya/kindle-ssh-guide",
+          "publishedAt": "2026-07-22T21:53:05.000Z",
+          "publishedAtKst": "2026. 07. 23. 06:53",
           "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "에이전트",
             "Claude"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Gemini 3.6 Flash is the fastest frontier model available... by a lot!",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v2niun/gemini_36_flash_is_the_fastest_frontier_model/",
-          "publishedAt": "2026-07-21T16:32:30.000Z",
-          "publishedAtKst": "2026. 07. 22. 01:32",
-          "summary": "&#32; submitted by &#32; /u/sugemchuge [link] &#32; [comments]",
-          "impact": 17,
-          "confidence": 50,
-          "stance": "accelerate",
+          "title": "NotchAgent – native macOS notch control for AI agents running under herdr",
+          "source": "Hacker News",
+          "url": "https://github.com/ykushch/agsig",
+          "publishedAt": "2026-07-22T21:43:42.000Z",
+          "publishedAtKst": "2026. 07. 23. 06:43",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "프런티어 모델",
-            "Gemini",
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Anakin – API for your AI agents to access the most difficult websites",
+          "source": "Hacker News",
+          "url": "https://anakin.io",
+          "publishedAt": "2026-07-22T15:12:00.000Z",
+          "publishedAtKst": "2026. 07. 23. 00:12",
+          "summary": "4 points, 0 comments",
+          "impact": 10,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Debating the role of large language models in the kernel community",
+          "source": "Hacker News",
+          "url": "https://lwn.net/SubscriberLink/1083275/59c6c17c34db11d4/",
+          "publishedAt": "2026-07-21T17:06:46.000Z",
+          "publishedAtKst": "2026. 07. 22. 02:06",
+          "summary": "8 points, 0 comments",
+          "impact": 10,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "LLM",
             "모델"
           ],
-          "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI launches ChatGPT Ads",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v2s6iz/openai_launches_chatgpt_ads/",
-          "publishedAt": "2026-07-21T19:13:29.000Z",
-          "publishedAtKst": "2026. 07. 22. 04:13",
-          "summary": "&#32; submitted by &#32; /u/EcstaticAsparagus509 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini is behind Meta's Models now, lol",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v397w9/gemini_is_behind_metas_models_now_lol/",
-          "publishedAt": "2026-07-22T07:41:48.000Z",
-          "publishedAtKst": "2026. 07. 22. 16:41",
-          "summary": "&#32; submitted by &#32; /u/IndividualShift2873 [link] &#32; [comments]",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "모델"
-          ],
-          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -459,21 +455,21 @@
       "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19338v1",
-      "impact": 33,
+      "impact": 31,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Benchmarking Generalization in Financial Statement Fraud Detection: robust evaluation and novel tasks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19259v1",
-      "impact": 33,
+      "impact": 31,
       "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19235v1",
-      "impact": 33,
+      "impact": 31,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -482,8 +478,15 @@
       "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.19292v1",
-      "impact": -10,
+      "impact": -9,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Happy openreview refresh day to all those who celebrate [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v3enzq/happy_openreview_refresh_day_to_all_those_who/",
+      "impact": -1,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Safety and alignment in an era of long-horizon models",
@@ -491,13 +494,6 @@
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
       "impact": 7,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Red Line and Oversight Framework for Government AI Contracts",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
