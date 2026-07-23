@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-23T05:44:42.304Z",
-  "generatedAtKst": "2026. 07. 23. 14:44",
-  "nextUpdateAt": "2026-07-23T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 23. 18:00",
+  "generatedAt": "2026-07-23T11:00:36.251Z",
+  "generatedAtKst": "2026. 07. 23. 20:00",
+  "nextUpdateAt": "2026-07-23T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 24. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2234,
+    "rangeEnd": "2039-06-24",
+    "dday": 2189,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 42,
-    "coldCount": 8,
-    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 45,
+    "coldCount": 7,
+    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-22T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 09:00",
           "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-21T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 02:00",
           "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -175,8 +175,8 @@
           "publishedAt": "2026-07-20T19:45:04.000Z",
           "publishedAtKst": "2026. 07. 21. 04:45",
           "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
-          "impact": 23,
-          "confidence": 76,
+          "impact": 21,
+          "confidence": 74,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -261,8 +261,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -292,7 +292,7 @@
           "publishedAt": "2026-07-22T17:02:34.000Z",
           "publishedAtKst": "2026. 07. 23. 02:02",
           "summary": "Humans distill experience into reusable abstractions, e.g., strategies and cautionary reminders, and apply them to gradually solve problems more effectively. We study whether Large Language Models (LLMs) can similarly be",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -310,7 +310,7 @@
           "publishedAt": "2026-07-22T16:14:26.000Z",
           "publishedAtKst": "2026. 07. 23. 01:14",
           "summary": "Large language models (LLMs) provide strong reasoning capabilities but are expensive to serve at scale, whereas small language models (SLMs) are cheaper but less reliable on difficult problems. We introduce PyroDash, a c",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,8 +328,8 @@
           "publishedAt": "2026-07-22T16:14:38.000Z",
           "publishedAtKst": "2026. 07. 23. 01:14",
           "summary": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a significant increase in AI",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -362,12 +362,43 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 67,
-      "delta": 4,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 50,
+      "confidence": 53,
       "trend": "hot",
       "items": [
+        {
+          "title": "This guy will never admit that he could be wrong too",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v496m8/this_guy_will_never_admit_that_he_could_be_wrong/",
+          "publishedAt": "2026-07-23T09:46:12.000Z",
+          "publishedAtKst": "2026. 07. 23. 18:46",
+          "summary": "His ego is bigger than any LLM out there. &#32; submitted by &#32; /u/MohMayaTyagi [link] &#32; [comments]",
+          "impact": 20,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "LLM"
+          ],
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Amazon \"AGI foundation team\" been disbanded",
+          "source": "Hacker News",
+          "url": "https://twitter.com/yuxin_tang_/status/2080042329583374796",
+          "publishedAt": "2026-07-23T10:55:56.000Z",
+          "publishedAtKst": "2026. 07. 23. 19:55",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "DeepSWE – Best Benchmark for Evaluating AI Coding Agents?",
           "source": "Hacker News",
@@ -375,7 +406,7 @@
           "publishedAt": "2026-07-21T07:45:59.000Z",
           "publishedAtKst": "2026. 07. 21. 16:45",
           "summary": "2 points, 1 comments",
-          "impact": 17,
+          "impact": 16,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -392,8 +423,8 @@
           "publishedAt": "2026-07-22T18:09:34.000Z",
           "publishedAtKst": "2026. 07. 23. 03:09",
           "summary": "TL;DR: Nvidia CEO Jensen Huang argues Chinese open-source AI models like Moonshot AI's new Kimi K3 are excellent and should be freely used — directly opposing Trump administration officials and U.S. AI labs (including Nv",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "Claude",
@@ -403,51 +434,20 @@
           "why": "Claude, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "❗NEWS❗The former Director of the White House Office of Science and Technology Policy and Presidential Science Advisor stated that Kimi K3 was distilled from Anthropic's Fable.",
+          "title": "\"Google is dead\" yea h no bro it's not",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v3lpwv/newsthe_former_director_of_the_white_house_office/",
-          "publishedAt": "2026-07-22T16:48:20.000Z",
-          "publishedAtKst": "2026. 07. 23. 01:48",
-          "summary": "We have information that Moonshot AI distilled Anthropic’s Fable for the development of its K3 model. To do this they developed a sophisticated internal platform to conduct large scale distillation against U.S. models, a",
+          "url": "https://www.reddit.com/r/singularity/comments/1v44lvp/google_is_dead_yea_h_no_bro_its_not/",
+          "publishedAt": "2026-07-23T05:29:08.000Z",
+          "publishedAtKst": "2026. 07. 23. 14:29",
+          "summary": "They did hit wall now with gemini models but trust me they gonna cook with gemini 4 &#32; submitted by &#32; /u/Independent-Wind4462 [link] &#32; [comments]",
           "impact": 12,
           "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini is behind Meta's Models now, lol",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v397w9/gemini_is_behind_metas_models_now_lol/",
-          "publishedAt": "2026-07-22T07:41:48.000Z",
-          "publishedAtKst": "2026. 07. 22. 16:41",
-          "summary": "&#32; submitted by &#32; /u/IndividualShift2873 [link] &#32; [comments]",
-          "impact": 11,
-          "confidence": 45,
-          "stance": "watch",
-          "tags": [
             "Gemini",
             "모델"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "OpenAI says its AI agent broke out of testing sandbox to hack Hugging Face",
-          "source": "Hacker News",
-          "url": "https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/",
-          "publishedAt": "2026-07-22T23:07:06.000Z",
-          "publishedAtKst": "2026. 07. 23. 08:07",
-          "summary": "5 points, 2 comments",
-          "impact": 10,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -464,25 +464,18 @@
       "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.20372v1",
-      "impact": 34,
+      "impact": 33,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.20327v1",
-      "impact": 34,
+      "impact": 33,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Local AI that finds sensitive files on your Mac before attackers do",
-      "source": "Hacker News",
-      "url": "https://www.vaultsort.com/guardian",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Generative AI floods and dilutes the market for books",
       "source": "arXiv",
@@ -491,10 +484,17 @@
       "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
+      "title": "A Red Line and Oversight Framework for Government AI Contracts",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Safety and alignment in an era of long-horizon models",
       "source": "OpenAI News",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "impact": 7,
+      "impact": 8,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
