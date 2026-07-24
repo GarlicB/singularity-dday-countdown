@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-24T10:54:05.182Z",
-  "generatedAtKst": "2026. 07. 24. 19:54",
-  "nextUpdateAt": "2026-07-24T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 25. 00:00",
+  "generatedAt": "2026-07-24T21:56:26.251Z",
+  "generatedAtKst": "2026. 07. 25. 06:56",
+  "nextUpdateAt": "2026-07-25T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 25. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 50,
+    "hotCount": 45,
     "coldCount": 5,
-    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-23T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 23. 09:00",
           "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-22T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 09:00",
           "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-          "impact": 17,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-07-21T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 02:00",
           "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-07-22T05:30:00.000Z",
           "publishedAtKst": "2026. 07. 22. 14:30",
           "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -141,20 +141,20 @@
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-          "publishedAt": "2026-07-21T15:16:30.000Z",
-          "publishedAtKst": "2026. 07. 22. 00:16",
-          "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-          "impact": 14,
+          "title": "Why teens deserve access to safe AI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "publishedAt": "2026-07-16T16:00:00.000Z",
+          "publishedAtKst": "2026. 07. 17. 01:00",
+          "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "Gemini",
-            "모델"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,10 +162,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -175,7 +175,7 @@
           "publishedAt": "2026-07-23T18:05:43.000Z",
           "publishedAtKst": "2026. 07. 24. 03:05",
           "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 26,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -193,31 +193,13 @@
           "publishedAt": "2026-07-22T07:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 16:00",
           "summary": "",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "자기개선"
           ],
           "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
-          "publishedAt": "2026-07-20T19:45:04.000Z",
-          "publishedAtKst": "2026. 07. 21. 04:45",
-          "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
-          "impact": 15,
-          "confidence": 71,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "Claude",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I Left Google DeepMind",
@@ -254,6 +236,24 @@
             "모델"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
+          "publishedAt": "2026-07-17T23:42:45.000Z",
+          "publishedAtKst": "2026. 07. 18. 08:42",
+          "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
+          "impact": 13,
+          "confidence": 76,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "프런티어 모델",
+            "LLM"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -261,7 +261,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -346,7 +346,7 @@
           "publishedAt": "2026-07-23T17:35:56.000Z",
           "publishedAtKst": "2026. 07. 24. 02:35",
           "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
-          "impact": 35,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -363,27 +363,46 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
+      "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "My Agent Isn't Autonomous. That's the Point",
-          "source": "Hacker News",
-          "url": "https://wp.awrshift.com/my-agent-isnt-autonomous/",
-          "publishedAt": "2026-07-24T10:30:13.000Z",
-          "publishedAtKst": "2026. 07. 24. 19:30",
-          "summary": "1 points, 1 comments",
-          "impact": 17,
-          "confidence": 59,
+          "title": "I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
+          "publishedAt": "2026-07-24T12:15:31.000Z",
+          "publishedAtKst": "2026. 07. 24. 21:15",
+          "summary": "Built an open-source AI coding agent that was 7%–75% cheaper than a cold \"claude -p\" run on 6/6 well-localized tasks across repositories up to ~82k LOC. The biggest difference: Cold agent: $6.83, 207 turns AutoDev Studio",
+          "impact": 36,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성"
+            "Gemini",
+            "Claude",
+            "코딩 에이전트"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "One ChatGPT link could smuggle a rogue AI agent into your company",
+          "source": "Hacker News",
+          "url": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
+          "publishedAt": "2026-07-24T21:43:30.000Z",
+          "publishedAtKst": "2026. 07. 25. 06:43",
+          "summary": "1 points, 0 comments",
+          "impact": 23,
+          "confidence": 64,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "A value-poisoning benchmark for consequential agent actions",
@@ -392,8 +411,8 @@
           "publishedAt": "2026-07-23T16:23:50.000Z",
           "publishedAtKst": "2026. 07. 24. 01:23",
           "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -408,8 +427,8 @@
           "publishedAt": "2026-07-23T14:10:28.000Z",
           "publishedAtKst": "2026. 07. 23. 23:10",
           "summary": "2 points, 1 comments",
-          "impact": 14,
-          "confidence": 56,
+          "impact": 12,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -418,40 +437,31 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Frontier model pricing became a rip-off, so I built an open-source CLI",
+          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
           "source": "Hacker News",
-          "url": "https://github.com/kolega-ai/kolega-code",
-          "publishedAt": "2026-07-24T10:33:37.000Z",
-          "publishedAtKst": "2026. 07. 24. 19:33",
-          "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
+          "url": "https://github.com/onecli/onecli",
+          "publishedAt": "2026-07-23T15:42:40.000Z",
+          "publishedAtKst": "2026. 07. 24. 00:42",
+          "summary": "103 points, 31 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
           "tags": [
-            "프런티어 모델",
-            "모델"
+            "에이전트"
           ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AGI achieved",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v4dcbr/agi_achieved/",
-          "publishedAt": "2026-07-23T13:03:54.000Z",
-          "publishedAtKst": "2026. 07. 23. 22:03",
-          "summary": "&#32; submitted by &#32; /u/Umr_at_Tawil [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
+      "impact": 36,
+      "reason": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
       "source": "arXiv",
@@ -465,29 +475,22 @@
       "url": "http://arxiv.org/abs/2607.21557v1",
       "impact": 36,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21496v1",
-      "impact": 36,
-      "reason": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Anthropic Donates $20M for Stricter AI Regulations",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v4nc6t/anthropic_donates_20m_for_stricter_ai_regulations/",
-      "impact": -3,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Zero-Flow Two-Sample Tests",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.21542v1",
       "impact": 0,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The Long (Self-)Correction",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
+      "impact": 1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Red Line and Oversight Framework for Government AI Contracts",
