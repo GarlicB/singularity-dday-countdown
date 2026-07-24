@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-24T05:40:59.216Z",
-  "generatedAtKst": "2026. 07. 24. 14:40",
-  "nextUpdateAt": "2026-07-24T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 24. 18:00",
+  "generatedAt": "2026-07-24T10:54:05.182Z",
+  "generatedAtKst": "2026. 07. 24. 19:54",
+  "nextUpdateAt": "2026-07-24T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 25. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2098,
+    "rangeEnd": "2039-05-10",
+    "dday": 2143,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 48,
+    "hotCount": 50,
     "coldCount": 5,
-    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-23T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 23. 09:00",
           "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -175,7 +175,7 @@
           "publishedAt": "2026-07-23T18:05:43.000Z",
           "publishedAtKst": "2026. 07. 24. 03:05",
           "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 27,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -185,24 +185,6 @@
             "벤치마크"
           ],
           "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
-          "publishedAt": "2026-07-20T19:45:04.000Z",
-          "publishedAtKst": "2026. 07. 21. 04:45",
-          "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
-          "impact": 16,
-          "confidence": 71,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "Claude",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The Economics of Recursive Self-Improvement",
@@ -218,6 +200,24 @@
             "자기개선"
           ],
           "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
+          "publishedAt": "2026-07-20T19:45:04.000Z",
+          "publishedAtKst": "2026. 07. 21. 04:45",
+          "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
+          "impact": 15,
+          "confidence": 71,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I Left Google DeepMind",
@@ -304,13 +304,49 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.21496v1",
+          "publishedAt": "2026-07-23T16:43:12.000Z",
+          "publishedAtKst": "2026. 07. 24. 01:43",
+          "summary": "Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "멀티모달"
+          ],
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.21461v1",
+          "publishedAt": "2026-07-23T16:05:46.000Z",
+          "publishedAtKst": "2026. 07. 24. 01:05",
+          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. Th",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "자기개선",
+            "추론"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.21552v1",
           "publishedAt": "2026-07-23T17:35:56.000Z",
           "publishedAtKst": "2026. 07. 24. 02:35",
           "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -320,42 +356,6 @@
             "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21522v1",
-          "publishedAt": "2026-07-23T17:04:36.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:04",
-          "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort ",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "모델",
-            "멀티모달"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21503v1",
-          "publishedAt": "2026-07-23T16:51:31.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:51",
-          "summary": "Production AI agents' failures are less often due to an inability to reason well and more often because they cannot manage what is in their reasoning context: conversation histories, large prompts, large tool definitions",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "벤치마크"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -363,29 +363,27 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
+      "score": 72,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "GPT-5.5 Scores 10.6% on ActiveVision, Humans Hit 96.1% [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v4ns8l/gpt55_scores_106_on_activevision_humans_hit_961_r/",
-          "publishedAt": "2026-07-23T19:20:01.000Z",
-          "publishedAtKst": "2026. 07. 24. 04:20",
-          "summary": "The interesting finding from a new [arXiv paper]( https://arxiv.org/abs/2607.16165 ) isn't that a frontier vision model failed a new benchmark, that happens weekly, but the specific shape of the failure and the fact that",
-          "impact": 30,
-          "confidence": 62,
+          "title": "My Agent Isn't Autonomous. That's the Point",
+          "source": "Hacker News",
+          "url": "https://wp.awrshift.com/my-agent-isnt-autonomous/",
+          "publishedAt": "2026-07-24T10:30:13.000Z",
+          "publishedAtKst": "2026. 07. 24. 19:30",
+          "summary": "1 points, 1 comments",
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "GPT",
-            "Claude",
-            "모델"
+            "에이전트",
+            "자율성"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "A value-poisoning benchmark for consequential agent actions",
@@ -394,7 +392,7 @@
           "publishedAt": "2026-07-23T16:23:50.000Z",
           "publishedAtKst": "2026. 07. 24. 01:23",
           "summary": "1 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -420,14 +418,14 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Frontier model pricing is a rip-off, so I built an open-source CLI",
+          "title": "Show HN: Frontier model pricing became a rip-off, so I built an open-source CLI",
           "source": "Hacker News",
-          "url": "https://kolegacode.com",
-          "publishedAt": "2026-07-23T11:15:01.000Z",
-          "publishedAtKst": "2026. 07. 23. 20:15",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
+          "url": "https://github.com/kolega-ai/kolega-code",
+          "publishedAt": "2026-07-24T10:33:37.000Z",
+          "publishedAtKst": "2026. 07. 24. 19:33",
+          "summary": "1 points, 0 comments",
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -436,21 +434,19 @@
           "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "DeepSWE – Best Benchmark for Evaluating AI Coding Agents?",
-          "source": "Hacker News",
-          "url": "https://www.i-programmer.info/news/105-artificial-intelligence/19016-deepswe-best-benchmark-for-evaluating-ai-coding-agents.html",
-          "publishedAt": "2026-07-21T07:45:59.000Z",
-          "publishedAtKst": "2026. 07. 21. 16:45",
-          "summary": "2 points, 1 comments",
-          "impact": 12,
-          "confidence": 52,
+          "title": "AGI achieved",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v4dcbr/agi_achieved/",
+          "publishedAt": "2026-07-23T13:03:54.000Z",
+          "publishedAtKst": "2026. 07. 23. 22:03",
+          "summary": "&#32; submitted by &#32; /u/Umr_at_Tawil [link] &#32; [comments]",
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
+            "AGI"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -471,19 +467,26 @@
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+      "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21552v1",
+      "url": "http://arxiv.org/abs/2607.21496v1",
       "impact": 36,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "Anthropic Donates $20M for Stricter AI Regulations",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1v4nc6t/anthropic_donates_20m_for_stricter_ai_regulations/",
+      "impact": -3,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Zero-Flow Two-Sample Tests",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.21542v1",
-      "impact": -1,
+      "impact": 0,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -492,13 +495,6 @@
       "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
       "impact": 7,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Prompt Injection in NeurIPS 2026? [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/",
-      "impact": 7,
-      "reason": "프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
