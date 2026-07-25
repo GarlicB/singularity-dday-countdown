@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T10:20:35.226Z",
-  "generatedAtKst": "2026. 07. 25. 19:20",
-  "nextUpdateAt": "2026-07-25T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 26. 00:00",
+  "generatedAt": "2026-07-25T15:56:53.971Z",
+  "generatedAtKst": "2026. 07. 26. 00:56",
+  "nextUpdateAt": "2026-07-25T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 26. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 77,
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 44,
+    "hotCount": 46,
     "coldCount": 6,
-    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
-      "delta": 6,
+      "score": 71,
+      "delta": 5,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-23T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 23. 09:00",
           "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-22T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 09:00",
           "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -175,7 +175,7 @@
           "publishedAt": "2026-07-23T18:05:43.000Z",
           "publishedAtKst": "2026. 07. 24. 03:05",
           "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 21,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -185,21 +185,6 @@
             "벤치마크"
           ],
           "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Metrics of Agent Ability",
-          "source": "METR",
-          "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
-          "publishedAt": "2026-07-24T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 24. 16:00",
-          "summary": "",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I Left Google DeepMind",
@@ -238,6 +223,21 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Metrics of Agent Ability",
+          "source": "METR",
+          "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
+          "publishedAt": "2026-07-24T07:00:00.000Z",
+          "publishedAtKst": "2026. 07. 24. 16:00",
+          "summary": "",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
@@ -261,7 +261,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -310,7 +310,7 @@
           "publishedAt": "2026-07-23T17:50:28.000Z",
           "publishedAtKst": "2026. 07. 24. 02:50",
           "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical cas",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,7 +328,7 @@
           "publishedAt": "2026-07-23T16:43:12.000Z",
           "publishedAtKst": "2026. 07. 24. 01:43",
           "summary": "Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -340,22 +340,22 @@
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21522v1",
-          "publishedAt": "2026-07-23T17:04:36.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:04",
-          "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort ",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2607.21552v1",
+          "publishedAt": "2026-07-23T17:35:56.000Z",
+          "publishedAtKst": "2026. 07. 24. 02:35",
+          "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "에이전트",
+            "추론",
+            "LLM",
             "모델",
-            "멀티모달"
+            "벤치마크"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -363,10 +363,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 71,
-      "delta": 5,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -376,14 +376,61 @@
           "publishedAt": "2026-07-24T17:05:23.000Z",
           "publishedAtKst": "2026. 07. 25. 02:05",
           "summary": "&#32; submitted by &#32; /u/manubfr [link] &#32; [comments]",
-          "impact": 21,
-          "confidence": 54,
+          "impact": 20,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "추론 벤치마크"
           ],
           "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT wants access to your health records so it can be a better not-doctor",
+          "source": "Hacker News",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
+          "publishedAt": "2026-07-25T15:45:08.000Z",
+          "publishedAtKst": "2026. 07. 26. 00:45",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Staging patches with Git add -p",
+          "source": "Hacker News",
+          "url": "https://www.simonholywell.com/post/git-add-p/",
+          "publishedAt": "2026-07-25T15:44:34.000Z",
+          "publishedAtKst": "2026. 07. 26. 00:44",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ARC AGI 3 could be gamed if Opus is a loop and not a pure model",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v5nrvd/arc_agi_3_could_be_gamed_if_opus_is_a_loop_and/",
+          "publishedAt": "2026-07-24T20:55:40.000Z",
+          "publishedAtKst": "2026. 07. 25. 05:55",
+          "summary": "&#32; submitted by &#32; /u/sdnr8 [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "AWS announces AWS-bench, an open-source benchmark for AI agents on AWS",
@@ -393,61 +440,13 @@
           "publishedAtKst": "2026. 07. 25. 13:42",
           "summary": "2 points, 0 comments",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Opus 5 outperformed Fable 5 in 3D destruction physics",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v5ujes/opus_5_outperformed_fable_5_in_3d_destruction/",
-          "publishedAt": "2026-07-25T01:37:19.000Z",
-          "publishedAtKst": "2026. 07. 25. 10:37",
-          "summary": "Source: Atomic Chat / X Outputs: - Opus 5: 55.9K tokens, $1.40 - Fable 5: 55.1K tokens, $2.82 - Kimi K3: 35.7K tokens, $0.55 - GPT 5.6: 20.1K tokens, $0.31 &#32; submitted by &#32; /u/Successful-Earth678 [link] &#32; [co",
-          "impact": 14,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "성능 향상"
-          ],
-          "why": "GPT, 성능 향상 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Claude Opus 5 BENCHMARKS!",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v5h8o6/claude_opus_5_benchmarks/",
-          "publishedAt": "2026-07-24T17:01:57.000Z",
-          "publishedAtKst": "2026. 07. 25. 02:01",
-          "summary": "&#32; submitted by &#32; /u/Acceptable-Debt-294 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "벤치마크"
-          ],
-          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A value-poisoning benchmark for consequential agent actions",
-          "source": "Hacker News",
-          "url": "https://actionrail.ai/research/value-poisoning-benchmark/",
-          "publishedAt": "2026-07-23T16:23:50.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:23",
-          "summary": "1 points, 0 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -471,7 +470,7 @@
       "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.21570v1",
-      "impact": 32,
+      "impact": 30,
       "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -484,18 +483,18 @@
       "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Zero-Flow Two-Sample Tests",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21542v1",
-      "impact": 1,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "The Long (Self-)Correction",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
       "impact": 2,
       "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Zero-Flow Two-Sample Tests",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.21542v1",
+      "impact": 2,
+      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
