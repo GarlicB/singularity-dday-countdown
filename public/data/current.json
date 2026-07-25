@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T05:34:55.275Z",
-  "generatedAtKst": "2026. 07. 25. 14:34",
-  "nextUpdateAt": "2026-07-25T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 25. 18:00",
+  "generatedAt": "2026-07-25T10:20:35.226Z",
+  "generatedAtKst": "2026. 07. 25. 19:20",
+  "nextUpdateAt": "2026-07-25T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 26. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2142,
+    "rangeEnd": "2039-08-08",
+    "dday": 2232,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
+    "hotCount": 44,
     "coldCount": 6,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -116,7 +116,7 @@
           "publishedAt": "2026-07-21T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 22. 02:00",
           "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -124,21 +124,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing OpenAI Presence",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-openai-presence",
-          "publishedAt": "2026-07-22T05:30:00.000Z",
-          "publishedAtKst": "2026. 07. 22. 14:30",
-          "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why teens deserve access to safe AI",
@@ -155,6 +140,21 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing OpenAI Presence",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-openai-presence",
+          "publishedAt": "2026-07-22T05:30:00.000Z",
+          "publishedAtKst": "2026. 07. 22. 14:30",
+          "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+          "impact": 12,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,7 +165,7 @@
       "score": 73,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 85,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -175,7 +175,7 @@
           "publishedAt": "2026-07-23T18:05:43.000Z",
           "publishedAtKst": "2026. 07. 24. 03:05",
           "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 22,
+          "impact": 21,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -238,19 +238,22 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Economics of Recursive Self-Improvement",
-          "source": "METR",
-          "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
-          "publishedAt": "2026-07-22T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 22. 16:00",
-          "summary": "",
+          "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
+          "publishedAt": "2026-07-17T23:42:45.000Z",
+          "publishedAtKst": "2026. 07. 18. 08:42",
+          "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
           "impact": 13,
-          "confidence": 91,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
-            "자기개선"
+            "AGI",
+            "추론",
+            "프런티어 모델",
+            "LLM"
           ],
-          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -258,8 +261,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -307,7 +310,7 @@
           "publishedAt": "2026-07-23T17:50:28.000Z",
           "publishedAtKst": "2026. 07. 24. 02:50",
           "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical cas",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -325,7 +328,7 @@
           "publishedAt": "2026-07-23T16:43:12.000Z",
           "publishedAtKst": "2026. 07. 24. 01:43",
           "summary": "Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -337,22 +340,22 @@
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21552v1",
-          "publishedAt": "2026-07-23T17:35:56.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:35",
-          "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
-          "impact": 30,
+          "url": "http://arxiv.org/abs/2607.21522v1",
+          "publishedAt": "2026-07-23T17:04:36.000Z",
+          "publishedAtKst": "2026. 07. 24. 02:04",
+          "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort ",
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "LLM",
+            "AGI",
+            "에이전트",
             "모델",
-            "벤치마크"
+            "멀티모달"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -360,29 +363,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
-      "delta": 7,
+      "score": 71,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 52,
       "trend": "hot",
       "items": [
-        {
-          "title": "Claude Opus 5 scores 30.2% on ARC-AGI 3",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v5ha95/claude_opus_5_scores_302_on_arcagi_3/",
-          "publishedAt": "2026-07-24T17:03:32.000Z",
-          "publishedAtKst": "2026. 07. 25. 02:03",
-          "summary": "https://www.anthropic.com/news/claude-opus-5 &#32; submitted by &#32; /u/Progressbarist [link] &#32; [comments]",
-          "impact": 28,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "Claude",
-            "추론 벤치마크"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Opus 5 scores 30.2% on ARC-AGI 3 !",
           "source": "r/singularity",
@@ -390,8 +376,8 @@
           "publishedAt": "2026-07-24T17:05:23.000Z",
           "publishedAtKst": "2026. 07. 25. 02:05",
           "summary": "&#32; submitted by &#32; /u/manubfr [link] &#32; [comments]",
-          "impact": 22,
-          "confidence": 55,
+          "impact": 21,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -400,36 +386,36 @@
           "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Coordination layer for AI coding agents, built on Git",
-          "source": "Hacker News",
-          "url": "https://github.com/zyads/loom-vcs",
-          "publishedAt": "2026-07-25T04:25:57.000Z",
-          "publishedAtKst": "2026. 07. 25. 13:25",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "AWS announces AWS-bench, an open-source benchmark for AI agents on AWS",
           "source": "Hacker News",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
           "publishedAt": "2026-07-25T04:42:35.000Z",
           "publishedAtKst": "2026. 07. 25. 13:42",
           "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Opus 5 outperformed Fable 5 in 3D destruction physics",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v5ujes/opus_5_outperformed_fable_5_in_3d_destruction/",
+          "publishedAt": "2026-07-25T01:37:19.000Z",
+          "publishedAtKst": "2026. 07. 25. 10:37",
+          "summary": "Source: Atomic Chat / X Outputs: - Opus 5: 55.9K tokens, $1.40 - Fable 5: 55.1K tokens, $2.82 - Kimi K3: 35.7K tokens, $0.55 - GPT 5.6: 20.1K tokens, $0.31 &#32; submitted by &#32; /u/Successful-Earth678 [link] &#32; [co",
+          "impact": 14,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "성능 향상"
+          ],
+          "why": "GPT, 성능 향상 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Claude Opus 5 BENCHMARKS!",
@@ -446,6 +432,22 @@
             "벤치마크"
           ],
           "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "A value-poisoning benchmark for consequential agent actions",
+          "source": "Hacker News",
+          "url": "https://actionrail.ai/research/value-poisoning-benchmark/",
+          "publishedAt": "2026-07-23T16:23:50.000Z",
+          "publishedAtKst": "2026. 07. 24. 01:23",
+          "summary": "1 points, 0 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -469,7 +471,7 @@
       "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.21570v1",
-      "impact": 34,
+      "impact": 32,
       "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
