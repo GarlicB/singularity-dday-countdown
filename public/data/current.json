@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T15:56:53.971Z",
-  "generatedAtKst": "2026. 07. 26. 00:56",
-  "nextUpdateAt": "2026-07-25T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 26. 06:00",
+  "generatedAt": "2026-07-25T21:44:08.618Z",
+  "generatedAtKst": "2026. 07. 26. 06:44",
+  "nextUpdateAt": "2026-07-26T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 26. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
-    "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2232,
-    "confidence": 76,
-    "deltaDays": -40,
+    "medianDate": "2033-11-27",
+    "rangeStart": "2028-01-28",
+    "rangeEnd": "2039-09-27",
+    "dday": 2682,
+    "confidence": 75,
+    "deltaDays": -25,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 67,
+    "temperature": 46,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
+    "hotCount": 21,
     "coldCount": 6,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 21건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-23T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 23. 09:00",
           "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -175,7 +175,7 @@
           "publishedAt": "2026-07-23T18:05:43.000Z",
           "publishedAtKst": "2026. 07. 24. 03:05",
           "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 20,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -261,101 +261,24 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
-      "delta": 10,
+      "score": 53,
+      "delta": 1,
       "weight": 0.28,
-      "confidence": 92,
-      "trend": "hot",
+      "confidence": 65,
+      "trend": "watch",
       "items": [
         {
-          "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21557v1",
-          "publishedAt": "2026-07-23T17:38:30.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:38",
-          "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make a",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "Claude",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21461v1",
-          "publishedAt": "2026-07-23T16:05:46.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:05",
-          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. Th",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "자기개선",
-            "추론"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21570v1",
-          "publishedAt": "2026-07-23T17:50:28.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:50",
-          "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical cas",
-          "impact": 30,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21496v1",
-          "publishedAt": "2026-07-23T16:43:12.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:43",
-          "summary": "Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising",
-          "impact": 30,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "멀티모달"
-          ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21552v1",
-          "publishedAt": "2026-07-23T17:35:56.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:35",
-          "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
+          "source": "arXiv 점검",
+          "url": "https://arxiv.org/list/cs.AI/recent",
+          "publishedAt": "2026-07-25T21:44:08.618Z",
+          "publishedAtKst": "2026. 07. 26. 06:44",
+          "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
+          "impact": 5,
+          "confidence": 65,
+          "stance": "watch",
+          "tags": [],
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -363,50 +286,35 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Opus 5 scores 30.2% on ARC-AGI 3 !",
+          "title": "Kimi K3 across an 8-pass production test: a 75-second code-driven deep-sea film",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v5hc2s/opus_5_scores_302_on_arcagi_3/",
-          "publishedAt": "2026-07-24T17:05:23.000Z",
-          "publishedAtKst": "2026. 07. 25. 02:05",
-          "summary": "&#32; submitted by &#32; /u/manubfr [link] &#32; [comments]",
-          "impact": 20,
-          "confidence": 52,
+          "url": "https://www.reddit.com/r/singularity/comments/1v5zoz8/kimi_k3_across_an_8pass_production_test_a/",
+          "publishedAt": "2026-07-25T05:50:06.000Z",
+          "publishedAtKst": "2026. 07. 25. 14:50",
+          "summary": "I wanted a real production test for Kimi K3 rather than another benchmark comparison, so I used it while building a 75-second deep-sea explainer through eight revision passes. This was not text-to-video. Licensed footage",
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "추론 벤치마크"
+            "프런티어 모델",
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ChatGPT wants access to your health records so it can be a better not-doctor",
+          "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras",
           "source": "Hacker News",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
-          "publishedAt": "2026-07-25T15:45:08.000Z",
-          "publishedAtKst": "2026. 07. 26. 00:45",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Staging patches with Git add -p",
-          "source": "Hacker News",
-          "url": "https://www.simonholywell.com/post/git-add-p/",
-          "publishedAt": "2026-07-25T15:44:34.000Z",
-          "publishedAtKst": "2026. 07. 26. 00:44",
+          "url": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/",
+          "publishedAt": "2026-07-25T21:32:08.000Z",
+          "publishedAtKst": "2026. 07. 26. 06:32",
           "summary": "2 points, 0 comments",
           "impact": 16,
           "confidence": 58,
@@ -417,29 +325,13 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ARC AGI 3 could be gamed if Opus is a loop and not a pure model",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v5nrvd/arc_agi_3_could_be_gamed_if_opus_is_a_loop_and/",
-          "publishedAt": "2026-07-24T20:55:40.000Z",
-          "publishedAtKst": "2026. 07. 25. 05:55",
-          "summary": "&#32; submitted by &#32; /u/sdnr8 [link] &#32; [comments]",
-          "impact": 16,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "AWS announces AWS-bench, an open-source benchmark for AI agents on AWS",
           "source": "Hacker News",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
           "publishedAt": "2026-07-25T04:42:35.000Z",
           "publishedAtKst": "2026. 07. 25. 13:42",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
+          "summary": "3 points, 0 comments",
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -447,34 +339,72 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AMD publishes machine-readable ISA so frontier models can write its GPU kernels",
+          "source": "Hacker News",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580",
+          "publishedAt": "2026-07-25T21:21:26.000Z",
+          "publishedAtKst": "2026. 07. 26. 06:21",
+          "summary": "3 points, 0 comments",
+          "impact": 14,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "모델"
+          ],
+          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Opus 5 ARC AGI score was benchmaxxed",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v66o8k/opus_5_arc_agi_score_was_benchmaxxed/",
+          "publishedAt": "2026-07-25T12:08:16.000Z",
+          "publishedAtKst": "2026. 07. 25. 21:08",
+          "summary": "&#32; submitted by &#32; /u/Charuru [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21557v1",
-      "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Challenge: Hand coding weights for efficient sequence memorisation",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
+      "impact": 19,
+      "reason": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21461v1",
-      "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Kimi K3 across an 8-pass production test: a 75-second code-driven deep-sea film",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1v5zoz8/kimi_k3_across_an_8pass_production_test_a/",
+      "impact": 17,
+      "reason": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21570v1",
-      "impact": 30,
-      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras",
+      "source": "Hacker News",
+      "url": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/",
+      "impact": 16,
+      "reason": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "ExploitGym – Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
+      "source": "Hacker News",
+      "url": "https://www.cybergym.io/exploitgym/",
+      "impact": -4,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Show HN: AI Meter – Local token usage with energy and water estimates",
       "source": "Hacker News",
@@ -488,13 +418,6 @@
       "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
       "impact": 2,
       "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Zero-Flow Two-Sample Tests",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21542v1",
-      "impact": 2,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
