@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-26T10:29:27.798Z",
-  "generatedAtKst": "2026. 07. 26. 19:29",
-  "nextUpdateAt": "2026-07-26T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 27. 00:00",
+  "generatedAt": "2026-07-26T15:55:32.094Z",
+  "generatedAtKst": "2026. 07. 27. 00:55",
+  "nextUpdateAt": "2026-07-26T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 27. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-12-02",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-06",
-    "dday": 2321,
+    "rangeEnd": "2039-12-21",
+    "dday": 2366,
     "confidence": 76,
-    "deltaDays": -37,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 75,
-    "temperature": 53,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 36,
+    "hotCount": 35,
     "coldCount": 4,
-    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-23T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 23. 09:00",
           "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -176,8 +176,8 @@
           "publishedAt": "2026-07-23T18:05:43.000Z",
           "publishedAtKst": "2026. 07. 24. 03:05",
           "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 17,
-          "confidence": 77,
+          "impact": 15,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "Claude",
@@ -249,7 +249,7 @@
           "publishedAtKst": "2026. 07. 24. 16:00",
           "summary": "",
           "impact": 12,
-          "confidence": 92,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트"
@@ -262,30 +262,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 84,
-      "delta": 9,
+      "score": 82,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 90,
+      "confidence": 89,
       "trend": "hot",
       "items": [
-        {
-          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21461v1",
-          "publishedAt": "2026-07-23T16:05:46.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:05",
-          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. Th",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "자기개선",
-            "추론"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
           "source": "arXiv",
@@ -293,7 +275,7 @@
           "publishedAt": "2026-07-23T17:38:30.000Z",
           "publishedAtKst": "2026. 07. 24. 02:38",
           "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make a",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -305,14 +287,32 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.21461v1",
+          "publishedAt": "2026-07-23T16:05:46.000Z",
+          "publishedAtKst": "2026. 07. 24. 01:05",
+          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. Th",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "자기개선",
+            "추론"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.21570v1",
           "publishedAt": "2026-07-23T17:50:28.000Z",
           "publishedAtKst": "2026. 07. 24. 02:50",
           "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical cas",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -329,8 +329,8 @@
           "publishedAt": "2026-07-23T16:43:12.000Z",
           "publishedAtKst": "2026. 07. 24. 01:43",
           "summary": "Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -341,22 +341,22 @@
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21522v1",
-          "publishedAt": "2026-07-23T17:04:36.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:04",
-          "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort ",
-          "impact": 22,
-          "confidence": 88,
+          "url": "http://arxiv.org/abs/2607.21552v1",
+          "publishedAt": "2026-07-23T17:35:56.000Z",
+          "publishedAtKst": "2026. 07. 24. 02:35",
+          "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "에이전트",
+            "추론",
+            "LLM",
             "모델",
-            "멀티모달"
+            "벤치마크"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,46 +364,43 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 69,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: Termic – desktop app for running CLI coding agents (Claude Code, Codex)",
+          "title": "Show HN: Minnarone – Multimodal agents that watch, listen, and react live",
           "source": "Hacker News",
-          "url": "https://termic.dev/",
-          "publishedAt": "2026-07-26T09:36:49.000Z",
-          "publishedAtKst": "2026. 07. 26. 18:36",
+          "url": "https://github.com/carlitose/minnarone",
+          "publishedAt": "2026-07-26T15:10:49.000Z",
+          "publishedAtKst": "2026. 07. 27. 00:10",
           "summary": "1 points, 0 comments",
-          "impact": 26,
-          "confidence": 66,
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Claude",
-            "코딩 에이전트"
+            "멀티모달"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 멀티모달 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What data mix are the labs using to train 10T param models?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v69niy/what_data_mix_are_the_labs_using_to_train_10t/",
-          "publishedAt": "2026-07-25T14:19:13.000Z",
-          "publishedAtKst": "2026. 07. 25. 23:19",
-          "summary": "So my assumption is: So far labs have made public max 2-3T param models based on different reports. And they are currently training or have trained 10T param models internally. Another assumption I'm making: If the model",
-          "impact": 14,
+          "title": "AI agents are eating the Web, growing by 8,000% and rewiring business models",
+          "source": "Hacker News",
+          "url": "https://fortune.com/2026/07/23/dead-internet-theory-bots-agents-majority-web-traffic/",
+          "publishedAt": "2026-07-26T15:30:44.000Z",
+          "publishedAtKst": "2026. 07. 27. 00:30",
+          "summary": "1 points, 0 comments",
+          "impact": 13,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "GPT",
-            "모델",
-            "추론 인프라"
+            "에이전트",
+            "모델"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "\"I spent months testing whether ChatGPT can create a consistent 100-page comic. This is the result.\"",
@@ -412,8 +409,8 @@
           "publishedAt": "2026-07-25T17:14:58.000Z",
           "publishedAtKst": "2026. 07. 26. 02:14",
           "summary": "&#32; submitted by &#32; /u/Anen-o-me [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -428,8 +425,8 @@
           "publishedAt": "2026-07-25T04:42:35.000Z",
           "publishedAtKst": "2026. 07. 25. 13:42",
           "summary": "3 points, 0 comments",
-          "impact": 13,
-          "confidence": 54,
+          "impact": 12,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -438,44 +435,44 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Opus 5 ARC AGI score was benchmaxxed",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v66o8k/opus_5_arc_agi_score_was_benchmaxxed/",
-          "publishedAt": "2026-07-25T12:08:16.000Z",
-          "publishedAtKst": "2026. 07. 25. 21:08",
-          "summary": "&#32; submitted by &#32; /u/Charuru [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 47,
-          "stance": "accelerate",
+          "title": "DROS-VEP – A <1μs C-ABI binary circuit breaker for AI agents",
+          "source": "Hacker News",
+          "url": "https://github.com/Top-Celestial-Company-Ltd/DROS-VEP-lite",
+          "publishedAt": "2026-07-26T15:46:11.000Z",
+          "publishedAtKst": "2026. 07. 27. 00:46",
+          "summary": "2 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "AGI"
+            "에이전트"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21461v1",
-      "impact": 31,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.21557v1",
-      "impact": 30,
+      "impact": 28,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Show HN: Termic – desktop app for running CLI coding agents (Claude Code, Codex)",
-      "source": "Hacker News",
-      "url": "https://termic.dev/",
-      "impact": 26,
-      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.21461v1",
+      "impact": 28,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.21570v1",
+      "impact": 23,
+      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
