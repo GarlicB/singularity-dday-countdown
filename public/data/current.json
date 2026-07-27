@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-27T16:52:33.686Z",
-  "generatedAtKst": "2026. 07. 28. 01:52",
-  "nextUpdateAt": "2026-07-27T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 28. 06:00",
+  "generatedAt": "2026-07-27T21:56:28.357Z",
+  "generatedAtKst": "2026. 07. 28. 06:56",
+  "nextUpdateAt": "2026-07-28T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 28. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-04-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-17",
-    "dday": 2410,
+    "rangeEnd": "2039-08-23",
+    "dday": 2455,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -33,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 72,
+    "temperature": 50,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 30,
-    "coldCount": 5,
-    "summary": "가속 신호 30건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 28,
+    "coldCount": 6,
+    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -262,10 +262,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -275,8 +275,8 @@
           "publishedAt": "2026-07-24T16:29:06.000Z",
           "publishedAtKst": "2026. 07. 25. 01:29",
           "summary": "Routing to select large language models (LLMs) with different cost-quality trade-offs has become a fundamental deployment feature of enterprise AI. Existing routers, primarily make independent routing decisions for each ",
-          "impact": 23,
-          "confidence": 90,
+          "impact": 21,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -293,8 +293,8 @@
           "publishedAt": "2026-07-24T17:59:22.000Z",
           "publishedAtKst": "2026. 07. 25. 02:59",
           "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability:",
-          "impact": 20,
-          "confidence": 90,
+          "impact": 19,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -305,50 +305,14 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.22471v1",
-          "publishedAt": "2026-07-24T16:39:06.000Z",
-          "publishedAtKst": "2026. 07. 25. 01:39",
-          "summary": "Large Language Model (LLM)-based Test-Driven Development (TDD) has advanced automated code generation. However, existing approaches depend heavily on human-crafted test cases and cannot operate effectively when only natu",
-          "impact": 20,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "성능 향상"
-          ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agentic Root Cause Analysis through Evidence-Grounded Reasoning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.22385v1",
-          "publishedAt": "2026-07-24T15:10:41.000Z",
-          "publishedAtKst": "2026. 07. 25. 00:10",
-          "summary": "Diagnosing the root cause of anomalies is essential for safe industrial operation. Despite extensive sensor instrumentation, formulating hypotheses and gathering evidence remains a manual process, creating a major operat",
-          "impact": 20,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "추론",
-            "LLM"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.22513v1",
           "publishedAt": "2026-07-24T17:32:43.000Z",
           "publishedAtKst": "2026. 07. 25. 02:32",
           "summary": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok, GPT,",
-          "impact": 19,
-          "confidence": 87,
+          "impact": 18,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -357,6 +321,42 @@
             "LLM"
           ],
           "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.22511v1",
+          "publishedAt": "2026-07-24T17:32:35.000Z",
+          "publishedAtKst": "2026. 07. 25. 02:32",
+          "summary": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM) rev",
+          "impact": 18,
+          "confidence": 84,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.22471v1",
+          "publishedAt": "2026-07-24T16:39:06.000Z",
+          "publishedAtKst": "2026. 07. 25. 01:39",
+          "summary": "Large Language Model (LLM)-based Test-Driven Development (TDD) has advanced automated code generation. However, existing approaches depend heavily on human-crafted test cases and cannot operate effectively when only natu",
+          "impact": 18,
+          "confidence": 84,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,30 +364,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 66,
-      "delta": 4,
+      "score": 60,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 48,
       "trend": "hot",
       "items": [
-        {
-          "title": "How far ahead of Fable 5 is Anthropic’s internal model by now?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v7h05n/how_far_ahead_of_fable_5_is_anthropics_internal/",
-          "publishedAt": "2026-07-26T21:39:50.000Z",
-          "publishedAtKst": "2026. 07. 27. 06:39",
-          "summary": "Mythos Preview was already being used by selected organizations in April. It’s now late July, and Anthropic has had several months of feedback, experiments and model-assisted research since then. Fable 5 was released in ",
-          "impact": 25,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자기개선",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "The Chinese labs everyone lumps together are making four pretty different bets",
           "source": "r/singularity",
@@ -395,8 +377,8 @@
           "publishedAt": "2026-07-27T12:58:38.000Z",
           "publishedAtKst": "2026. 07. 27. 21:58",
           "summary": "Still composing my thoughts, i will edit thisEvery time a model drops from a Chinese lab the thread fills with people who already know who made it, and the guess is usually Alibaba. There was a thread here recently askin",
-          "impact": 17,
-          "confidence": 51,
+          "impact": 16,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -404,36 +386,6 @@
             "모델"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Directed Memory Bank – Tool-agnostic project context for AI agents",
-          "source": "Hacker News",
-          "url": "https://github.com/pmikutel/directed-memory-bank",
-          "publishedAt": "2026-07-27T16:45:53.000Z",
-          "publishedAtKst": "2026. 07. 28. 01:45",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Gordon – The Frontier Trading Agent",
-          "source": "Hacker News",
-          "url": "https://www.gordoncli.com/",
-          "publishedAt": "2026-07-27T16:35:20.000Z",
-          "publishedAtKst": "2026. 07. 28. 01:35",
-          "summary": "1 points, 1 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
           "title": "Show HN: How I built a debugging tool, and the agent, using it, found bugs in it",
@@ -449,6 +401,52 @@
             "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "AWS announces AWS-bench, an open-source benchmark for AI agents on AWS",
+          "source": "Hacker News",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+          "publishedAt": "2026-07-25T04:42:35.000Z",
+          "publishedAtKst": "2026. 07. 25. 13:42",
+          "summary": "3 points, 0 comments",
+          "impact": 9,
+          "confidence": 49,
+          "stance": "watch",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Guys ig it's here 750t/sec GPT 5.6",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v8cimw/guys_ig_its_here_750tsec_gpt_56/",
+          "publishedAt": "2026-07-27T20:39:08.000Z",
+          "publishedAtKst": "2026. 07. 28. 05:39",
+          "summary": "&#32; submitted by &#32; /u/Independent-Wind4462 [link] &#32; [comments]",
+          "impact": 9,
+          "confidence": 45,
+          "stance": "watch",
+          "tags": [
+            "GPT"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v89avi/nvidia_ising_enables_fully_automated_quantum/",
+          "publishedAt": "2026-07-27T18:45:29.000Z",
+          "publishedAtKst": "2026. 07. 28. 03:45",
+          "summary": "&#32; submitted by &#32; /u/donutloop [link] &#32; [comments]",
+          "impact": 7,
+          "confidence": 44,
+          "stance": "watch",
+          "tags": [
+            "컴퓨트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -462,17 +460,17 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "How far ahead of Fable 5 is Anthropic’s internal model by now?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v7h05n/how_far_ahead_of_fable_5_is_anthropics_internal/",
-      "impact": 25,
-      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "How AI is expanding what people do at work",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "impact": 21,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.22465v1",
-      "impact": 23,
+      "impact": 21,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -485,18 +483,18 @@
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
+      "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1v87b95/jadepuffer_the_first_complete_llmdriven/",
+      "impact": 0,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "NVIDIA just announced Open Secure AI Alliance with goal to build and share open tools that promote responsible use of and trust in AI",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1v7y3sr/nvidia_just_announced_open_secure_ai_alliance/",
       "impact": 1,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
