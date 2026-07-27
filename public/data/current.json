@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-26T21:50:00.266Z",
-  "generatedAtKst": "2026. 07. 27. 06:50",
-  "nextUpdateAt": "2026-07-27T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 27. 12:00",
+  "generatedAt": "2026-07-27T06:17:46.470Z",
+  "generatedAtKst": "2026. 07. 27. 15:17",
+  "nextUpdateAt": "2026-07-27T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 27. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -14,8 +14,8 @@
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
     "medianDate": "2033-04-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-14",
-    "dday": 2456,
+    "rangeEnd": "2040-03-20",
+    "dday": 2455,
     "confidence": 76,
     "deltaDays": -33,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,16 +25,16 @@
     "score": 72,
     "temperature": 50,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 31,
+    "hotCount": 32,
     "coldCount": 4,
-    "summary": "가속 신호 31건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 32건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 52,
-      "delta": 0,
+      "value": 46,
+      "delta": -1,
       "tone": "watch"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     }
   ],
@@ -166,7 +166,7 @@
       "score": 71,
       "delta": 5,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 76,
       "trend": "hot",
       "items": [
         {
@@ -206,24 +206,6 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Challenge: Hand coding weights for efficient sequence memorisation",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
-          "publishedAt": "2026-07-23T18:05:43.000Z",
-          "publishedAtKst": "2026. 07. 24. 03:05",
-          "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
-          "impact": 14,
-          "confidence": 74,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
@@ -242,19 +224,40 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Metrics of Agent Ability",
-          "source": "METR",
-          "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
-          "publishedAt": "2026-07-24T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 24. 16:00",
-          "summary": "",
-          "impact": 12,
-          "confidence": 90,
+          "title": "Challenge: Hand coding weights for efficient sequence memorisation",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
+          "publishedAt": "2026-07-23T18:05:43.000Z",
+          "publishedAtKst": "2026. 07. 24. 03:05",
+          "summary": "We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy [1] scales roughly linearly with the models",
+          "impact": 13,
+          "confidence": 74,
           "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "Claude",
+            "LLM",
+            "모델",
+            "벤치마크"
           ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
+          "publishedAt": "2026-07-20T19:45:04.000Z",
+          "publishedAtKst": "2026. 07. 21. 04:45",
+          "summary": "TL;DR We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it",
+          "impact": 12,
+          "confidence": 71,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -262,101 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
+      "score": 81,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 90,
       "trend": "hot",
       "items": [
         {
-          "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+          "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21557v1",
-          "publishedAt": "2026-07-23T17:38:30.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:38",
-          "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make a",
-          "impact": 25,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "Claude",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21461v1",
-          "publishedAt": "2026-07-23T16:05:46.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:05",
-          "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. Th",
-          "impact": 25,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "자기개선",
-            "추론"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21570v1",
-          "publishedAt": "2026-07-23T17:50:28.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:50",
-          "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical cas",
-          "impact": 21,
-          "confidence": 86,
+          "url": "http://arxiv.org/abs/2607.22465v1",
+          "publishedAt": "2026-07-24T16:29:06.000Z",
+          "publishedAtKst": "2026. 07. 25. 01:29",
+          "summary": "Routing to select large language models (LLMs) with different cost-quality trade-offs has become a fundamental deployment feature of enterprise AI. Existing routers, primarily make independent routing decisions for each ",
+          "impact": 26,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
+            "에이전트",
             "LLM",
-            "모델",
-            "벤치마크"
+            "모델"
           ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
+          "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21496v1",
-          "publishedAt": "2026-07-23T16:43:12.000Z",
-          "publishedAtKst": "2026. 07. 24. 01:43",
-          "summary": "Cognitive impairment (CI) is a growing public health concern. Early and accurate diagnosis is critical for enabling timely intervention and improving patient outcomes. Speech-based CI detection has emerged as a promising",
-          "impact": 20,
-          "confidence": 86,
+          "url": "http://arxiv.org/abs/2607.22529v1",
+          "publishedAt": "2026-07-24T17:59:22.000Z",
+          "publishedAtKst": "2026. 07. 25. 02:59",
+          "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability:",
+          "impact": 23,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "LLM"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.22471v1",
+          "publishedAt": "2026-07-24T16:39:06.000Z",
+          "publishedAtKst": "2026. 07. 25. 01:39",
+          "summary": "Large Language Model (LLM)-based Test-Driven Development (TDD) has advanced automated code generation. However, existing approaches depend heavily on human-crafted test cases and cannot operate effectively when only natu",
+          "impact": 23,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "LLM",
             "모델",
             "벤치마크",
-            "멀티모달"
+            "성능 향상"
           ],
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+          "title": "Agentic Root Cause Analysis through Evidence-Grounded Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.21552v1",
-          "publishedAt": "2026-07-23T17:35:56.000Z",
-          "publishedAtKst": "2026. 07. 24. 02:35",
-          "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined di",
-          "impact": 19,
-          "confidence": 84,
+          "url": "http://arxiv.org/abs/2607.22385v1",
+          "publishedAt": "2026-07-24T15:10:41.000Z",
+          "publishedAtKst": "2026. 07. 25. 00:10",
+          "summary": "Diagnosing the root cause of anomalies is essential for safe industrial operation. Despite extensive sensor instrumentation, formulating hypotheses and gathering evidence remains a manual process, creating a major operat",
+          "impact": 23,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
+            "자율성",
             "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
+            "LLM"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.22513v1",
+          "publishedAt": "2026-07-24T17:32:43.000Z",
+          "publishedAtKst": "2026. 07. 25. 02:32",
+          "summary": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok, GPT,",
+          "impact": 22,
+          "confidence": 90,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "Gemini",
+            "Claude",
+            "LLM"
+          ],
+          "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,27 +367,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 62,
+      "score": 63,
       "delta": 3,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: Maginary.ai gets seedance2 and GPT-images2 support",
-          "source": "Hacker News",
-          "url": "https://twitter.com/xucian_/status/2081469757300359289",
-          "publishedAt": "2026-07-26T20:56:36.000Z",
-          "publishedAtKst": "2026. 07. 27. 05:56",
-          "summary": "1 points, 0 comments",
-          "impact": 23,
-          "confidence": 64,
+          "title": "How far ahead of Fable 5 is Anthropic’s internal model by now?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v7h05n/how_far_ahead_of_fable_5_is_anthropics_internal/",
+          "publishedAt": "2026-07-26T21:39:50.000Z",
+          "publishedAtKst": "2026. 07. 27. 06:39",
+          "summary": "Mythos Preview was already being used by selected organizations in April. It’s now late July, and Anthropic has had several months of feedback, experiments and model-assisted research since then. Fable 5 was released in ",
+          "impact": 27,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "GPT"
+            "에이전트",
+            "자기개선",
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "AWS announces AWS-bench, an open-source benchmark for AI agents on AWS",
@@ -403,12 +408,12 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Building a Moat: Self Learning Agents",
+          "title": "Show HN: Skill-language-server – A language server for agent skills",
           "source": "Hacker News",
-          "url": "https://twitter.com/ataiiam/status/2074501252268937703",
-          "publishedAt": "2026-07-26T21:37:42.000Z",
-          "publishedAtKst": "2026. 07. 27. 06:37",
-          "summary": "2 points, 0 comments",
+          "url": "https://github.com/CyrusNuevoDia/skill-language-server",
+          "publishedAt": "2026-07-27T06:15:54.000Z",
+          "publishedAtKst": "2026. 07. 27. 15:15",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
@@ -418,34 +423,32 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Show HN: LX Coreutils – pipeable tools enhanced by small local / cheap LLM calls",
+          "title": "Show HN: How I built a debugging tool, and the agent, using it, found bugs in it",
           "source": "Hacker News",
-          "url": "https://github.com/BrunkenClaas/lx",
-          "publishedAt": "2026-07-26T21:09:29.000Z",
-          "publishedAtKst": "2026. 07. 27. 06:09",
-          "summary": "1 points, 1 comments",
-          "impact": 8,
+          "url": "https://news.ycombinator.com/item?id=49064283",
+          "publishedAt": "2026-07-27T01:44:25.000Z",
+          "publishedAtKst": "2026. 07. 27. 10:44",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
           "confidence": 52,
           "stance": "watch",
           "tags": [
-            "LLM"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Jim Clyburn Says He Didn’t Know What ChatGPT Was ‘Until About a Week Ago’",
+          "title": "Talking to AI in 2026",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v6lu69/jim_clyburn_says_he_didnt_know_what_chatgpt_was/",
-          "publishedAt": "2026-07-25T22:23:42.000Z",
-          "publishedAtKst": "2026. 07. 26. 07:23",
-          "summary": "Thank goodness our elected representatives in the US government, whose approval will be needed for any possible oversight or regulation of the AI industry, are so in touch with the times! &#32; submitted by &#32; /u/Wile",
-          "impact": 8,
-          "confidence": 50,
+          "url": "https://www.reddit.com/r/singularity/comments/1v7boe1/talking_to_ai_in_2026/",
+          "publishedAt": "2026-07-26T18:20:36.000Z",
+          "publishedAtKst": "2026. 07. 27. 03:20",
+          "summary": "&#32; submitted by &#32; /u/swarmagent [link] &#32; [comments]",
+          "impact": 9,
+          "confidence": 44,
           "stance": "watch",
           "tags": [
-            "ChatGPT",
-            "GPT",
-            "규제"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -454,34 +457,34 @@
   ],
   "topDrivers": [
     {
-      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21557v1",
-      "impact": 25,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "How far ahead of Fable 5 is Anthropic’s internal model by now?",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1v7h05n/how_far_ahead_of_fable_5_is_anthropics_internal/",
+      "impact": 27,
+      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21461v1",
-      "impact": 25,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2607.22465v1",
+      "impact": 26,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Show HN: Maginary.ai gets seedance2 and GPT-images2 support",
-      "source": "Hacker News",
-      "url": "https://twitter.com/xucian_/status/2081469757300359289",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.22529v1",
       "impact": 23,
-      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Zero-Flow Two-Sample Tests",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.21542v1",
-      "impact": 4,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Antares: Highly Efficient Open Weight AI Models for Vulnerability Localization",
+      "source": "Hacker News",
+      "url": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+      "impact": 0,
+      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
