@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-28T16:28:05.047Z",
-  "generatedAtKst": "2026. 07. 29. 01:28",
-  "nextUpdateAt": "2026-07-28T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 29. 06:00",
+  "generatedAt": "2026-07-28T21:55:49.352Z",
+  "generatedAtKst": "2026. 07. 29. 06:55",
+  "nextUpdateAt": "2026-07-29T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 29. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2094,
+    "rangeEnd": "2039-02-09",
+    "dday": 2049,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
+    "hotCount": 46,
     "coldCount": 7,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Scientific computing in the age of agentic AI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scientific-computing-agentic-ai",
+          "publishedAt": "2026-07-28T17:00:00.000Z",
+          "publishedAtKst": "2026. 07. 29. 02:00",
+          "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
           "source": "Google AI Blog",
@@ -84,7 +100,7 @@
           "publishedAt": "2026-07-28T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 01:00",
           "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +116,7 @@
           "publishedAt": "2026-07-27T03:30:00.000Z",
           "publishedAtKst": "2026. 07. 27. 12:30",
           "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -140,22 +156,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing the ChatGPT for small business program",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-          "publishedAt": "2026-07-21T17:00:00.000Z",
-          "publishedAtKst": "2026. 07. 22. 02:00",
-          "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
+      "score": 74,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 79,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -188,22 +188,21 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Announcing the Corrigibility Research Fund",
+          "title": "Research directions in condensation: varieties of objectivity",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-          "publishedAt": "2026-07-17T18:06:32.000Z",
-          "publishedAtKst": "2026. 07. 18. 03:06",
-          "summary": "TLDR: I'm managing a new fund, housed at Lightcone Infrastructure, that will award at least $200,000 in grants and prizes for corrigibility research in 2026 . Roughly half will go to traditional grants (first application",
-          "impact": 14,
-          "confidence": 78,
+          "url": "https://www.alignmentforum.org/posts/89GJeixwhFHLWxNbX/research-directions-in-condensation-varieties-of-objectivity",
+          "publishedAt": "2026-07-28T17:30:49.000Z",
+          "publishedAtKst": "2026. 07. 29. 02:30",
+          "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
+          "impact": 18,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "에이전트",
-            "프런티어 모델",
-            "모델"
+            "모델",
+            "편향"
           ],
-          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
@@ -262,7 +261,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -305,24 +304,6 @@
           "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Kimi K3: Open Frontier Intelligence",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.24653v1",
-          "publishedAt": "2026-07-27T16:49:54.000Z",
-          "publishedAtKst": "2026. 07. 28. 01:49",
-          "summary": "We introduce Kimi K3, a 2.8T parameter Mixture-of-Experts model with 104 billion activated parameters, native vision capabilities, and a 1-million-token context window. Kimi K3 is built on Kimi Delta Attention and Attent",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "GPT",
-            "Claude"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "LLM-SoccerArena: Benchmarking LLMs on Real-World Predictions in Sports",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.24573v1",
@@ -347,7 +328,7 @@
           "publishedAt": "2026-07-27T15:36:21.000Z",
           "publishedAtKst": "2026. 07. 28. 00:36",
           "summary": "Large-scale video platforms process millions of uploads hourly, requiring moderation systems that can localize when and where policy violations occur within each video. Processing every frame is infeasible at scale, so s",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -357,6 +338,24 @@
             "성능 향상"
           ],
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.24717v1",
+          "publishedAt": "2026-07-27T17:54:12.000Z",
+          "publishedAtKst": "2026. 07. 28. 02:54",
+          "summary": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it unifo",
+          "impact": 30,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "컴퓨트"
+          ],
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,10 +363,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
@@ -377,7 +376,7 @@
           "publishedAt": "2026-07-28T12:48:56.000Z",
           "publishedAtKst": "2026. 07. 28. 21:48",
           "summary": "Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintell",
-          "impact": 32,
+          "impact": 31,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -394,8 +393,8 @@
           "publishedAt": "2026-07-28T08:38:26.000Z",
           "publishedAtKst": "2026. 07. 28. 17:38",
           "summary": "Tweet by Ilya: https://x.com/ilyasut/status/2081732293161582930 Newspost: https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Pa",
-          "impact": 26,
-          "confidence": 58,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "초지능",
@@ -411,7 +410,7 @@
           "publishedAt": "2026-07-28T00:00:33.000Z",
           "publishedAtKst": "2026. 07. 28. 09:00",
           "summary": "Anybody else noticed this? At first I thought it was hilarious and was a decent contrast to ChatGPT that felt at times like too much of a dutiful assistant but Claude Opus is just rude. I’ve tried to get it to take it do",
-          "impact": 20,
+          "impact": 19,
           "confidence": 52,
           "stance": "accelerate",
           "tags": [
@@ -422,20 +421,20 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI-coding agents kill team collaboration",
-          "source": "Hacker News",
-          "url": "https://leaddev.com/ai/ai-coding-agents-kill-team-collaboration",
-          "publishedAt": "2026-07-28T16:16:41.000Z",
-          "publishedAtKst": "2026. 07. 29. 01:16",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "Kimi K3 (Max) takes #1 in the new Code Arena Fullstack rankings, over GPT-5.6 Sol (#2) and Claude Fable 5 (#3)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v97424/kimi_k3_max_takes_1_in_the_new_code_arena/",
+          "publishedAt": "2026-07-28T18:36:44.000Z",
+          "publishedAtKst": "2026. 07. 29. 03:36",
+          "summary": "&#32; submitted by &#32; /u/KickLassChewGum [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "GPT",
+            "Claude"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "GPT-5, the world best model just 1 year ago, is today inferior to Qwen3.6 27B and most today’s low-tier models",
@@ -481,11 +480,11 @@
   ],
   "topDampeners": [
     {
-      "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v87b95/jadepuffer_the_first_complete_llmdriven/",
-      "impact": 1,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Wordfence Prism AI Vulnerability Detector Finds Backdoored WordPress Plugin",
+      "source": "Hacker News",
+      "url": "https://www.wordfence.com/blog/2026/07/wordfence-prism-detected-backdoored-wordpress-plugin-within-two-hours-of-it-being-introduced/",
+      "impact": -3,
+      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Stacking the Deck: Tunable Trainability in Stacked LCUs",
