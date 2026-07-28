@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-28T05:37:48.296Z",
-  "generatedAtKst": "2026. 07. 28. 14:37",
-  "nextUpdateAt": "2026-07-28T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 28. 18:00",
+  "generatedAt": "2026-07-28T11:09:09.979Z",
+  "generatedAtKst": "2026. 07. 28. 20:09",
+  "nextUpdateAt": "2026-07-28T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 29. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 78,
     "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 44,
-    "coldCount": 8,
-    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 42,
+    "coldCount": 6,
+    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-27T03:30:00.000Z",
           "publishedAtKst": "2026. 07. 27. 12:30",
           "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-07-27T15:36:21.000Z",
           "publishedAtKst": "2026. 07. 28. 00:36",
           "summary": "Large-scale video platforms process millions of uploads hourly, requiring moderation systems that can localize when and where policy violations occur within each video. Processing every frame is infeasible at scale, so s",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,77 +364,45 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
+      "score": 68,
       "delta": 5,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Claude Opus 5 is an asshole",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8hple/claude_opus_5_is_an_asshole/",
-          "publishedAt": "2026-07-28T00:00:33.000Z",
-          "publishedAtKst": "2026. 07. 28. 09:00",
-          "summary": "Anybody else noticed this? At first I thought it was hilarious and was a decent contrast to ChatGPT that felt at times like too much of a dutiful assistant but Claude Opus is just rude. I’ve tried to get it to take it do",
-          "impact": 21,
+          "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+          "publishedAt": "2026-07-27T22:37:40.000Z",
+          "publishedAtKst": "2026. 07. 28. 07:37",
+          "summary": "I ran a solo evaluation project benchmarking six current frontier models: GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3. I tested tham across 8 established bias/fairness datasets (Wi",
+          "impact": 36,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "프런티어 모델",
+            "GPT",
+            "Gemini"
+          ],
+          "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Randomness in large language models: What researchers need to know (and report)",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2607.24372",
+          "publishedAt": "2026-07-28T09:34:14.000Z",
+          "publishedAtKst": "2026. 07. 28. 18:34",
+          "summary": "2 points, 0 comments",
+          "impact": 12,
           "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT",
-            "Claude"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The Chinese labs everyone lumps together are making four pretty different bets",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v7zopf/the_chinese_labs_everyone_lumps_together_are/",
-          "publishedAt": "2026-07-27T12:58:38.000Z",
-          "publishedAtKst": "2026. 07. 27. 21:58",
-          "summary": "Still composing my thoughts, i will edit thisEvery time a model drops from a Chinese lab the thread fills with people who already know who made it, and the guess is usually Alibaba. There was a thread here recently askin",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
             "LLM",
             "모델"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "amid nvidia investment in ssi theyre speculated to release a frontier model soon™",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8faai/amid_nvidia_investment_in_ssi_theyre_speculated/",
-          "publishedAt": "2026-07-27T22:22:36.000Z",
-          "publishedAtKst": "2026. 07. 28. 07:22",
-          "summary": "&#32; submitted by &#32; /u/Effective_Scheme2158 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Someone made a NMS style exploration game in a day with Opus 5",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8lj7w/someone_made_a_nms_style_exploration_game_in_a/",
-          "publishedAt": "2026-07-28T02:46:12.000Z",
-          "publishedAtKst": "2026. 07. 28. 11:46",
-          "summary": "This looks impressive! Opus 5 not only coded the game, but also made every single asset including 3D models and textures via Blender MCP using sub-agents, the author published it and explained the process he used here: h",
-          "impact": 12,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "모델"
-          ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Lost in Context: Addressing Context Anxiety in Large Language Models",
@@ -444,11 +412,41 @@
           "publishedAtKst": "2026. 07. 28. 08:02",
           "summary": "2 points, 0 comments",
           "impact": 11,
-          "confidence": 54,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
             "LLM",
             "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: DynoTable – The DynamoDB GUI with real SQL and your AI agent",
+          "source": "Hacker News",
+          "url": "https://dynotable.com/",
+          "publishedAt": "2026-07-28T11:07:14.000Z",
+          "publishedAtKst": "2026. 07. 28. 20:07",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Building the enterprise environment for agentic AI",
+          "source": "Hacker News",
+          "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+          "publishedAt": "2026-07-28T11:01:20.000Z",
+          "publishedAtKst": "2026. 07. 28. 20:01",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -464,28 +462,21 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+      "impact": 36,
+      "reason": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.24743v1",
       "impact": 36,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.24714v1",
-      "impact": 36,
-      "reason": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v87b95/jadepuffer_the_first_complete_llmdriven/",
-      "impact": 0,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Stacking the Deck: Tunable Trainability in Stacked LCUs",
       "source": "arXiv",
@@ -494,11 +485,18 @@
       "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "NVIDIA just announced Open Secure AI Alliance with goal to build and share open tools that promote responsible use of and trust in AI",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1v7y3sr/nvidia_just_announced_open_secure_ai_alliance/",
-      "impact": 1,
-      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Red Line and Oversight Framework for Government AI Contracts",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
