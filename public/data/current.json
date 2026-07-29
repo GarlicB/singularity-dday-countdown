@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-29T05:42:52.165Z",
-  "generatedAtKst": "2026. 07. 29. 14:42",
-  "nextUpdateAt": "2026-07-29T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 29. 18:00",
+  "generatedAt": "2026-07-29T11:13:51.720Z",
+  "generatedAtKst": "2026. 07. 29. 20:13",
+  "nextUpdateAt": "2026-07-29T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 30. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 53,
-    "coldCount": 8,
+    "coldCount": 4,
     "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-28T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 02:00",
           "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -166,7 +166,7 @@
       "score": 74,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 79,
       "trend": "hot",
       "items": [
         {
@@ -194,8 +194,8 @@
           "publishedAt": "2026-07-28T17:30:49.000Z",
           "publishedAtKst": "2026. 07. 29. 02:30",
           "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
-          "impact": 17,
-          "confidence": 79,
+          "impact": 16,
+          "confidence": 77,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -310,7 +310,7 @@
           "publishedAt": "2026-07-28T17:28:21.000Z",
           "publishedAtKst": "2026. 07. 29. 02:28",
           "summary": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stabili",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,7 +328,7 @@
           "publishedAt": "2026-07-28T16:19:03.000Z",
           "publishedAtKst": "2026. 07. 29. 01:19",
           "summary": "Clinical diagnostic evaluation should not only assess whether models can provide correct diagnoses, but also reflect the realities of clinical practice, including progressive disclosure of multimodal information, dynamic",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,7 +346,7 @@
           "publishedAt": "2026-07-28T17:59:46.000Z",
           "publishedAtKst": "2026. 07. 29. 02:59",
           "summary": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on ",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -363,93 +363,92 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
-          "publishedAt": "2026-07-28T14:52:01.000Z",
-          "publishedAtKst": "2026. 07. 28. 23:52",
-          "summary": "One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance",
-          "impact": 25,
-          "confidence": 60,
+          "title": "Huggingface releases detailed blog post, including an interactive visualization, detailing the attack on their servers",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v9cynn/huggingface_releases_detailed_blog_post_including/",
+          "publishedAt": "2026-07-28T22:12:15.000Z",
+          "publishedAtKst": "2026. 07. 29. 07:12",
+          "summary": "https://huggingface.co/blog/agent-intrusion-technical-timeline TL;DR: An AI agent escaped its sandbox, cheated on its benchmark test, and hacked our infrastructure to steal the answer key. Over roughly two and a half day",
+          "impact": 28,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "Claude",
-            "LLM"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Might need math+code benchmark for frontier model(LLMs Silently Replace Math)[D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v94h9m/might_need_mathcode_benchmark_for_frontier/",
-          "publishedAt": "2026-07-28T17:05:17.000Z",
-          "publishedAtKst": "2026. 07. 29. 02:05",
-          "summary": "Hello guys. I found some problems in current frontier models. And want to share. # math_code_hallucination > Record of a failure caused by combining mathematics and code in a single prompt. --- ## Case 1 ### Initial prom",
-          "impact": 24,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "GPT",
-            "LLM",
+            "에이전트",
+            "자율성",
             "모델"
           ],
-          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Paseo: Open-source desktop and mobile app for TUI coding agents (Codex, CC)",
-          "source": "Hacker News",
-          "url": "https://paseo.sh/",
-          "publishedAt": "2026-07-29T05:28:46.000Z",
-          "publishedAtKst": "2026. 07. 29. 14:28",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "For everyone wondering why so much money is being poured into AI, here's the answer.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v8xjd5/for_everyone_wondering_why_so_much_money_is_being/",
+          "publishedAt": "2026-07-28T12:48:56.000Z",
+          "publishedAtKst": "2026. 07. 28. 21:48",
+          "summary": "Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintell",
+          "impact": 28,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "초지능",
+            "자기개선",
+            "돌파"
+          ],
+          "why": "초지능, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Google DeepMind dismantles Nobel-winning AlphaFold team, loses top talent in major shift toward Gemini and AI Agents. Will it remain research-first lab?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v9mq82/google_deepmind_dismantles_nobelwinning_alphafold/",
+          "publishedAt": "2026-07-29T05:24:41.000Z",
+          "publishedAtKst": "2026. 07. 29. 14:24",
+          "summary": "FT reported that GDM dismantled AlphaFold team in strategy shift. Key points from the FT article: Most researchers were reassigned to internal projects like Gemini, AI coding, genomics, enzyme design, nuclear fusion, or ",
+          "impact": 20,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "Gemini",
+            "LLM"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "PIRL: From Open-Loop Exploration to Closed-Loop Reinforcement Learning [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v8wq2b/pirl_from_openloop_exploration_to_closedloop/",
-          "publishedAt": "2026-07-28T12:13:38.000Z",
-          "publishedAtKst": "2026. 07. 28. 21:13",
-          "summary": "TL;DR: Most RL post-training algorithms optimize the current batch and move on. But after an update, did the new policy actually become better? We introduce Policy Improvement Reinforcement Learning (PIRL) and its practi",
-          "impact": 15,
-          "confidence": 53,
+          "title": "Kimi K3 (Max) takes #1 in the new Code Arena Fullstack rankings, over GPT-5.6 Sol (#2) and Claude Fable 5 (#3)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1v97424/kimi_k3_max_takes_1_in_the_new_code_arena/",
+          "publishedAt": "2026-07-28T18:36:44.000Z",
+          "publishedAtKst": "2026. 07. 29. 03:36",
+          "summary": "&#32; submitted by &#32; /u/KickLassChewGum [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "모델",
-            "컴퓨트"
+            "GPT",
+            "Claude"
           ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How to deal with text only vector search across multimodal embedding space? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1v9ad2j/how_to_deal_with_text_only_vector_search_across/",
-          "publishedAt": "2026-07-28T20:34:01.000Z",
-          "publishedAtKst": "2026. 07. 29. 05:34",
-          "summary": "My data set is a list of images, each equipped with a a couple sentences of text. A user would search primarily with text only. My default approach is using BM25, but how would I facilitate searching with a vector DB and",
-          "impact": 11,
-          "confidence": 50,
+          "title": "Show HN: Expose Your APIs to Agents Without Losing Control via Koodisi MCP",
+          "source": "Hacker News",
+          "url": "https://koodisi.com/blog/expose-your-apis-to-agents-without-losing-control",
+          "publishedAt": "2026-07-29T10:45:36.000Z",
+          "publishedAtKst": "2026. 07. 29. 19:45",
+          "summary": "3 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "모델",
-            "멀티모달"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -481,25 +480,25 @@
   ],
   "topDampeners": [
     {
-      "title": "Neurips rebuttals not visible to reviewers [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8yv7y/neurips_rebuttals_not_visible_to_reviewers_d/",
-      "impact": -2,
-      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Dreams Drain Energy: The REM Sleep Paradox",
-      "source": "Hacker News",
-      "url": "https://www.tohoku.ac.jp/en/press/dreams_drain_energy_the_rem_sleep_paradox.html",
-      "impact": -2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "NeurIPS 2026 AI-generated reviews [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/",
+      "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.26034v1",
       "impact": 1,
-      "reason": "프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Red Line and Oversight Framework for Government AI Contracts",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
