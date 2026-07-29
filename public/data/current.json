@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-28T21:55:49.352Z",
-  "generatedAtKst": "2026. 07. 29. 06:55",
-  "nextUpdateAt": "2026-07-29T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 29. 12:00",
+  "generatedAt": "2026-07-29T05:42:52.165Z",
+  "generatedAtKst": "2026. 07. 29. 14:42",
+  "nextUpdateAt": "2026-07-29T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 29. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2049,
+    "rangeEnd": "2039-03-26",
+    "dday": 2093,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 7,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 53,
+    "coldCount": 8,
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -47,9 +47,9 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
-      "tone": "hot"
+      "value": 46,
+      "delta": -1,
+      "tone": "watch"
     },
     {
       "key": "adoption",
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-28T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 02:00",
           "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-28T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 01:00",
           "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-07-27T03:30:00.000Z",
           "publishedAtKst": "2026. 07. 27. 12:30",
           "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -194,8 +194,8 @@
           "publishedAt": "2026-07-28T17:30:49.000Z",
           "publishedAtKst": "2026. 07. 29. 02:30",
           "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
-          "impact": 18,
-          "confidence": 80,
+          "impact": 17,
+          "confidence": 79,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -261,101 +261,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+          "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.24743v1",
-          "publishedAt": "2026-07-27T17:59:49.000Z",
-          "publishedAtKst": "2026. 07. 28. 02:59",
-          "summary": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from ",
+          "url": "http://arxiv.org/abs/2607.25947v1",
+          "publishedAt": "2026-07-28T16:33:41.000Z",
+          "publishedAtKst": "2026. 07. 29. 01:33",
+          "summary": "Question answering (QA) over irregular clinical time series (ICTS) plays a pivotal role in a wide range of healthcare applications. Although recent multimodal time-series large language models (LLMs) have shown considera",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.25921v1",
+          "publishedAt": "2026-07-28T16:10:47.000Z",
+          "publishedAtKst": "2026. 07. 29. 01:10",
+          "summary": "In this work, we study the use of Vision-Language Models (VLMs) for anomaly detection in an agent-driven game Quality Assurance (QA) pipeline focusing on geometry clipping. In this evaluation, a custom exploration agent ",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "자율성",
             "GPT",
-            "Gemini",
-            "LLM"
+            "Gemini"
           ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+          "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.24714v1",
-          "publishedAt": "2026-07-27T17:51:18.000Z",
-          "publishedAtKst": "2026. 07. 28. 02:51",
-          "summary": "Trapped-ion quantum computers rely on shuttling compilers, which cast an input algorithm into a sequence of ion-qubit movements within a given architecture. We present the first study in which a single frontier large lan",
-          "impact": 36,
+          "url": "http://arxiv.org/abs/2607.26017v1",
+          "publishedAt": "2026-07-28T17:28:21.000Z",
+          "publishedAtKst": "2026. 07. 29. 02:28",
+          "summary": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stabili",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "Claude",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "LLM-SoccerArena: Benchmarking LLMs on Real-World Predictions in Sports",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.24573v1",
-          "publishedAt": "2026-07-27T15:38:29.000Z",
-          "publishedAtKst": "2026. 07. 28. 00:38",
-          "summary": "Large language models (LLMs) increasingly support decisions about uncertain future events, yet evaluating their ability to forecast real-world outcomes remains difficult. In particular, existing benchmarks are typically ",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "Claude",
+            "에이전트",
+            "자율성",
             "LLM",
             "모델"
           ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Visual Bottleneck: Sparse-Frame Adaptation of MLLMs for Joint Spatial-Temporal Video Grounding",
+          "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.24570v1",
-          "publishedAt": "2026-07-27T15:36:21.000Z",
-          "publishedAtKst": "2026. 07. 28. 00:36",
-          "summary": "Large-scale video platforms process millions of uploads hourly, requiring moderation systems that can localize when and where policy violations occur within each video. Processing every frame is infeasible at scale, so s",
+          "url": "http://arxiv.org/abs/2607.25933v1",
+          "publishedAt": "2026-07-28T16:19:03.000Z",
+          "publishedAtKst": "2026. 07. 29. 01:19",
+          "summary": "Clinical diagnostic evaluation should not only assess whether models can provide correct diagnoses, but also reflect the realities of clinical practice, including progressive disclosure of multimodal information, dynamic",
           "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "추론",
             "LLM",
             "모델",
-            "멀티모달",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+          "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.24717v1",
-          "publishedAt": "2026-07-27T17:54:12.000Z",
-          "publishedAtKst": "2026. 07. 28. 02:54",
-          "summary": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it unifo",
-          "impact": 30,
+          "url": "http://arxiv.org/abs/2607.26057v1",
+          "publishedAt": "2026-07-28T17:59:46.000Z",
+          "publishedAtKst": "2026. 07. 29. 02:59",
+          "summary": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on ",
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델",
+            "추론",
             "벤치마크",
-            "컴퓨트"
+            "컴퓨트",
+            "성능 향상"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -363,94 +363,95 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "For everyone wondering why so much money is being poured into AI, here's the answer.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8xjd5/for_everyone_wondering_why_so_much_money_is_being/",
-          "publishedAt": "2026-07-28T12:48:56.000Z",
-          "publishedAtKst": "2026. 07. 28. 21:48",
-          "summary": "Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintell",
-          "impact": 31,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "초지능",
-            "자기개선",
-            "돌파"
-          ],
-          "why": "초지능, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Nvidia invests 5 billion dollars into Ilya Sutskever's (creator of ChatGPT) new company SSI (Safe Superintelligence)",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8sc6v/nvidia_invests_5_billion_dollars_into_ilya/",
-          "publishedAt": "2026-07-28T08:38:26.000Z",
-          "publishedAtKst": "2026. 07. 28. 17:38",
-          "summary": "Tweet by Ilya: https://x.com/ilyasut/status/2081732293161582930 Newspost: https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Pa",
+          "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
+          "publishedAt": "2026-07-28T14:52:01.000Z",
+          "publishedAtKst": "2026. 07. 28. 23:52",
+          "summary": "One of the papers I reviewed has what seems to be entirely LLM-generated rebuttals, and the original paper is also clearly LLM-generated, with Claude-speak everywhere. While the authors acknowledge LLM writing assistance",
           "impact": 25,
-          "confidence": 56,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "초지능",
-            "ChatGPT",
-            "GPT"
+            "AGI",
+            "Claude",
+            "LLM"
           ],
-          "why": "초지능, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Claude Opus 5 is an asshole",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8hple/claude_opus_5_is_an_asshole/",
-          "publishedAt": "2026-07-28T00:00:33.000Z",
-          "publishedAtKst": "2026. 07. 28. 09:00",
-          "summary": "Anybody else noticed this? At first I thought it was hilarious and was a decent contrast to ChatGPT that felt at times like too much of a dutiful assistant but Claude Opus is just rude. I’ve tried to get it to take it do",
-          "impact": 19,
-          "confidence": 52,
+          "title": "Might need math+code benchmark for frontier model(LLMs Silently Replace Math)[D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v94h9m/might_need_mathcode_benchmark_for_frontier/",
+          "publishedAt": "2026-07-28T17:05:17.000Z",
+          "publishedAtKst": "2026. 07. 29. 02:05",
+          "summary": "Hello guys. I found some problems in current frontier models. And want to share. # math_code_hallucination > Record of a failure caused by combining mathematics and code in a single prompt. --- ## Case 1 ### Initial prom",
+          "impact": 24,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
+            "프런티어 모델",
             "GPT",
-            "Claude"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Kimi K3 (Max) takes #1 in the new Code Arena Fullstack rankings, over GPT-5.6 Sol (#2) and Claude Fable 5 (#3)",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v97424/kimi_k3_max_takes_1_in_the_new_code_arena/",
-          "publishedAt": "2026-07-28T18:36:44.000Z",
-          "publishedAtKst": "2026. 07. 29. 03:36",
-          "summary": "&#32; submitted by &#32; /u/KickLassChewGum [link] &#32; [comments]",
-          "impact": 16,
-          "confidence": 50,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "Claude"
-          ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT-5, the world best model just 1 year ago, is today inferior to Qwen3.6 27B and most today’s low-tier models",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8wt2e/gpt5_the_world_best_model_just_1_year_ago_is/",
-          "publishedAt": "2026-07-28T12:17:21.000Z",
-          "publishedAtKst": "2026. 07. 28. 21:17",
-          "summary": "&#32; submitted by &#32; /u/zoratosthenes [link] &#32; [comments]",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
+            "LLM",
             "모델"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Paseo: Open-source desktop and mobile app for TUI coding agents (Codex, CC)",
+          "source": "Hacker News",
+          "url": "https://paseo.sh/",
+          "publishedAt": "2026-07-29T05:28:46.000Z",
+          "publishedAtKst": "2026. 07. 29. 14:28",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "PIRL: From Open-Loop Exploration to Closed-Loop Reinforcement Learning [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v8wq2b/pirl_from_openloop_exploration_to_closedloop/",
+          "publishedAt": "2026-07-28T12:13:38.000Z",
+          "publishedAtKst": "2026. 07. 28. 21:13",
+          "summary": "TL;DR: Most RL post-training algorithms optimize the current batch and move on. But after an update, did the new policy actually become better? We introduce Policy Improvement Reinforcement Learning (PIRL) and its practi",
+          "impact": 15,
+          "confidence": 53,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How to deal with text only vector search across multimodal embedding space? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v9ad2j/how_to_deal_with_text_only_vector_search_across/",
+          "publishedAt": "2026-07-28T20:34:01.000Z",
+          "publishedAtKst": "2026. 07. 29. 05:34",
+          "summary": "My data set is a list of images, each equipped with a a couple sentences of text. A user would search primarily with text only. My default approach is using BM25, but how would I facilitate searching with a vector DB and",
+          "impact": 11,
+          "confidence": 50,
+          "stance": "watch",
+          "tags": [
+            "모델",
+            "멀티모달"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -464,41 +465,41 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.24743v1",
+      "url": "http://arxiv.org/abs/2607.25947v1",
       "impact": 36,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+      "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.24714v1",
+      "url": "http://arxiv.org/abs/2607.25921v1",
       "impact": 36,
-      "reason": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Wordfence Prism AI Vulnerability Detector Finds Backdoored WordPress Plugin",
+      "title": "Neurips rebuttals not visible to reviewers [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8yv7y/neurips_rebuttals_not_visible_to_reviewers_d/",
+      "impact": -2,
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Dreams Drain Energy: The REM Sleep Paradox",
       "source": "Hacker News",
-      "url": "https://www.wordfence.com/blog/2026/07/wordfence-prism-detected-backdoored-wordpress-plugin-within-two-hours-of-it-being-introduced/",
-      "impact": -3,
-      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://www.tohoku.ac.jp/en/press/dreams_drain_energy_the_rem_sleep_paradox.html",
+      "impact": -2,
+      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Stacking the Deck: Tunable Trainability in Stacked LCUs",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.24686v1",
+      "title": "NeurIPS 2026 AI-generated reviews [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/",
       "impact": 1,
-      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
