@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-29T11:13:51.720Z",
-  "generatedAtKst": "2026. 07. 29. 20:13",
-  "nextUpdateAt": "2026-07-29T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 30. 00:00",
+  "generatedAt": "2026-07-29T16:15:36.962Z",
+  "generatedAtKst": "2026. 07. 30. 01:15",
+  "nextUpdateAt": "2026-07-29T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 30. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2093,
+    "rangeEnd": "2039-05-10",
+    "dday": 2138,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 53,
-    "coldCount": 4,
+    "coldCount": 5,
     "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,9 +47,9 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 64,
+      "delta": 3,
+      "tone": "hot"
     },
     {
       "key": "adoption",
@@ -100,7 +100,7 @@
           "publishedAt": "2026-07-28T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 01:00",
           "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-07-27T03:30:00.000Z",
           "publishedAtKst": "2026. 07. 27. 12:30",
           "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -170,6 +170,24 @@
       "trend": "hot",
       "items": [
         {
+          "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities",
+          "publishedAt": "2026-07-29T15:58:00.000Z",
+          "publishedAtKst": "2026. 07. 30. 00:58",
+          "summary": "A human superpower hidden from even ourselves I though GPT 3.5 was on the verge of Artificial General Intelligence (AGI). It certainly seemed that way – it could combine and extend ideas in ways that were far beyond narr",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "GPT"
+          ],
+          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "RL & search is a terrifying way to build AGI (an FAQ)",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/KHyBocZncAmtu4Jbc/rl-and-search-is-a-terrifying-way-to-build-agi-an-faq",
@@ -195,7 +213,7 @@
           "publishedAtKst": "2026. 07. 29. 02:30",
           "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
           "impact": 16,
-          "confidence": 77,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -205,22 +223,22 @@
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+          "title": "Value Generalisation 1: a Research and Deployment Program",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-          "publishedAt": "2026-07-17T23:42:45.000Z",
-          "publishedAtKst": "2026. 07. 18. 08:42",
-          "summary": "A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the proba",
-          "impact": 13,
-          "confidence": 76,
-          "stance": "accelerate",
+          "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
+          "publishedAt": "2026-07-29T15:57:50.000Z",
+          "publishedAtKst": "2026. 07. 30. 00:57",
+          "summary": "I’m looking for people, advice, critiques, and funding to build a research program on value generalisation – the ability of an AI to correctly extend human values and preferences to situations neither it nor we have seen",
+          "impact": 12,
+          "confidence": 82,
+          "stance": "decelerate",
           "tags": [
-            "AGI",
-            "추론",
-            "프런티어 모델",
-            "LLM"
+            "에이전트",
+            "자율성",
+            "LLM",
+            "안전 이슈"
           ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
@@ -239,21 +257,6 @@
             "모델"
           ],
           "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The Economics of Recursive Self-Improvement",
-          "source": "METR",
-          "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
-          "publishedAt": "2026-07-22T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 22. 16:00",
-          "summary": "",
-          "impact": 11,
-          "confidence": 90,
-          "stance": "watch",
-          "tags": [
-            "자기개선"
-          ],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -261,7 +264,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -310,7 +313,7 @@
           "publishedAt": "2026-07-28T17:28:21.000Z",
           "publishedAtKst": "2026. 07. 29. 02:28",
           "summary": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stabili",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,7 +331,7 @@
           "publishedAt": "2026-07-28T16:19:03.000Z",
           "publishedAtKst": "2026. 07. 29. 01:19",
           "summary": "Clinical diagnostic evaluation should not only assess whether models can provide correct diagnoses, but also reflect the realities of clinical practice, including progressive disclosure of multimodal information, dynamic",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,7 +349,7 @@
           "publishedAt": "2026-07-28T17:59:46.000Z",
           "publishedAtKst": "2026. 07. 29. 02:59",
           "summary": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on ",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -363,8 +366,8 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 73,
+      "delta": 6,
       "weight": 0.2,
       "confidence": 54,
       "trend": "hot",
@@ -376,7 +379,7 @@
           "publishedAt": "2026-07-28T22:12:15.000Z",
           "publishedAtKst": "2026. 07. 29. 07:12",
           "summary": "https://huggingface.co/blog/agent-intrusion-technical-timeline TL;DR: An AI agent escaped its sandbox, cheated on its benchmark test, and hacked our infrastructure to steal the answer key. Over roughly two and a half day",
-          "impact": 28,
+          "impact": 27,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -388,23 +391,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "For everyone wondering why so much money is being poured into AI, here's the answer.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v8xjd5/for_everyone_wondering_why_so_much_money_is_being/",
-          "publishedAt": "2026-07-28T12:48:56.000Z",
-          "publishedAtKst": "2026. 07. 28. 21:48",
-          "summary": "Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintell",
-          "impact": 28,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "초지능",
-            "자기개선",
-            "돌파"
-          ],
-          "why": "초지능, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Google DeepMind dismantles Nobel-winning AlphaFold team, loses top talent in major shift toward Gemini and AI Agents. Will it remain research-first lab?",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1v9mq82/google_deepmind_dismantles_nobelwinning_alphafold/",
@@ -412,7 +398,7 @@
           "publishedAtKst": "2026. 07. 29. 14:24",
           "summary": "FT reported that GDM dismantled AlphaFold team in strategy shift. Key points from the FT article: Most researchers were reassigned to internal projects like Gemini, AI coding, genomics, enzyme design, nuclear fusion, or ",
           "impact": 20,
-          "confidence": 54,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -438,17 +424,33 @@
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Expose Your APIs to Agents Without Losing Control via Koodisi MCP",
+          "title": "Gemini 2.5 models are being deprecated and discontinued",
           "source": "Hacker News",
-          "url": "https://koodisi.com/blog/expose-your-apis-to-agents-without-losing-control",
-          "publishedAt": "2026-07-29T10:45:36.000Z",
-          "publishedAtKst": "2026. 07. 29. 19:45",
-          "summary": "3 points, 0 comments",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+          "publishedAt": "2026-07-29T16:05:13.000Z",
+          "publishedAtKst": "2026. 07. 30. 01:05",
+          "summary": "1 points, 0 comments",
+          "impact": 13,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "모델"
+          ],
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Oryxflow – cheaper and more reliable AI data analysis in Python and Claude Code",
+          "source": "Hacker News",
+          "url": "https://github.com/oryxintel/oryxflow",
+          "publishedAt": "2026-07-29T16:06:23.000Z",
+          "publishedAtKst": "2026. 07. 30. 01:06",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -456,6 +458,13 @@
     }
   ],
   "topDrivers": [
+    {
+      "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities",
+      "impact": 36,
+      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "RL & search is a terrifying way to build AGI (an FAQ)",
       "source": "Alignment Forum",
@@ -469,34 +478,27 @@
       "url": "http://arxiv.org/abs/2607.25947v1",
       "impact": 36,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.25921v1",
-      "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "PwC published reports on AI marred by AI hallucinations",
+      "source": "Hacker News",
+      "url": "https://www.ft.com/content/7e149ac8-2ce2-4266-8940-192f9821b33c",
+      "impact": -2,
+      "reason": "환각 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.26034v1",
-      "impact": 1,
+      "impact": 2,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Red Line and Oversight Framework for Government AI Contracts",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
       "impact": 7,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
