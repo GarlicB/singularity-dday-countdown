@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-30T16:20:24.398Z",
-  "generatedAtKst": "2026. 07. 31. 01:20",
-  "nextUpdateAt": "2026-07-30T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 31. 06:00",
+  "generatedAt": "2026-07-30T21:59:17.571Z",
+  "generatedAtKst": "2026. 07. 31. 06:59",
+  "nextUpdateAt": "2026-07-31T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 31. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2031-12-08",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2137,
+    "rangeEnd": "2038-11-11",
+    "dday": 1957,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -49,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 83,
+    "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 45,
-    "coldCount": 9,
-    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 7,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 58,
-      "delta": 2,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 83,
+      "score": 82,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -102,7 +102,7 @@
           "publishedAt": "2026-07-29T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 09:00",
           "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -120,7 +120,7 @@
           "publishedAt": "2026-07-29T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 19:00",
           "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -147,20 +147,20 @@
           "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Scientific computing in the age of agentic AI",
+          "title": "Advancing the price-performance frontier with GPT-5.6",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/scientific-computing-agentic-ai",
-          "publishedAt": "2026-07-28T17:00:00.000Z",
-          "publishedAtKst": "2026. 07. 29. 02:00",
-          "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-          "impact": 20,
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+          "publishedAt": "2026-07-30T10:00:00.000Z",
+          "publishedAtKst": "2026. 07. 30. 19:00",
+          "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "GPT",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -168,10 +168,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -217,7 +217,7 @@
           "publishedAt": "2026-07-27T14:50:30.000Z",
           "publishedAtKst": "2026. 07. 27. 23:50",
           "summary": "Q1: What are you saying? A: My claim here is that if you build artificial general intelligence (AGI) via any algorithm that’s choosing actions via reinforcement learning (RL) and/or model-based search and planning—a gian",
-          "impact": 29,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -236,7 +236,7 @@
           "publishedAtKst": "2026. 07. 29. 02:30",
           "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
           "impact": 13,
-          "confidence": 72,
+          "confidence": 71,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -266,8 +266,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -315,7 +315,7 @@
           "publishedAt": "2026-07-29T17:42:47.000Z",
           "publishedAtKst": "2026. 07. 30. 02:42",
           "summary": "LLM-based agents excel at software engineering tasks where an existing codebase provides context, but constructing a program from scratch remains fundamentally harder. Recent benchmarks such as ProgramBench quantify this",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +333,7 @@
           "publishedAt": "2026-07-29T17:56:49.000Z",
           "publishedAtKst": "2026. 07. 30. 02:56",
           "summary": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting tr",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-07-29T17:33:47.000Z",
           "publishedAtKst": "2026. 07. 30. 02:33",
           "summary": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at ",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,90 +368,93 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 54,
-      "delta": 1,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
       "confidence": 53,
-      "trend": "watch",
+      "trend": "hot",
       "items": [
         {
-          "title": "NeurIPS reviewers not engaging [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1va5io6/neurips_reviewers_not_engaging_d/",
-          "publishedAt": "2026-07-29T18:59:18.000Z",
-          "publishedAtKst": "2026. 07. 30. 03:59",
-          "summary": "So I know this is an ongoing issue at ML conferences, reviewers just tend to ghost. Do people have any strategies or recommendations on how to nudge them to engage with the rebuttals? Is it recommended to post a comment ",
-          "impact": 13,
-          "confidence": 51,
+          "title": "ARC-AGI 3 is not an honest measure of AGI",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vafut9/arcagi_3_is_not_an_honest_measure_of_agi/",
+          "publishedAt": "2026-07-30T01:45:55.000Z",
+          "publishedAtKst": "2026. 07. 30. 10:45",
+          "summary": "I want everyone to take a look at this graph for a second. ARC-AGI 3 was intentionally not allowing the reasoning agent to maintain its context across actions. It was effectively making the model forget what it had alrea",
+          "impact": 36,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "AGI",
+            "에이전트",
+            "추론",
+            "프런티어 모델"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I would like to show my open source eval framework for agents",
+          "title": "Show HN: Tuneloop – a local CLI for analyzing coding agent session transcripts",
           "source": "Hacker News",
-          "url": "https://github.com/Thomeras/agent_detective",
-          "publishedAt": "2026-07-30T15:58:57.000Z",
-          "publishedAtKst": "2026. 07. 31. 00:58",
-          "summary": "1 points, 1 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Randomness in large language models: What researchers need to know (and report)",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2607.24372",
-          "publishedAt": "2026-07-28T09:34:14.000Z",
-          "publishedAtKst": "2026. 07. 28. 18:34",
-          "summary": "3 points, 0 comments",
-          "impact": 8,
-          "confidence": 49,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "How to get more coding productivity with LLMs",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49104392",
-          "publishedAt": "2026-07-29T23:28:10.000Z",
-          "publishedAtKst": "2026. 07. 30. 08:28",
-          "summary": "6 points, 1 comments",
-          "impact": 7,
-          "confidence": 50,
-          "stance": "watch",
-          "tags": [
-            "LLM"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "AI Security Leaderboard: benchmarking model robustness [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vaargb/ai_security_leaderboard_benchmarking_model/",
-          "publishedAt": "2026-07-29T22:09:52.000Z",
-          "publishedAtKst": "2026. 07. 30. 07:09",
-          "summary": "We developed a leaderboard ranking frontier model security. There's no shortage of model capability rankings, but we didn't find anything comparable for model security. Yet security is becoming increasingly critical to d",
-          "impact": 2,
-          "confidence": 62,
-          "stance": "decelerate",
+          "url": "https://github.com/tuneloop/tuneloop",
+          "publishedAt": "2026-07-30T16:23:34.000Z",
+          "publishedAtKst": "2026. 07. 31. 01:23",
+          "summary": "5 points, 0 comments",
+          "impact": 18,
+          "confidence": 60,
+          "stance": "accelerate",
           "tags": [
             "에이전트",
-            "프런티어 모델",
-            "모델",
-            "벤치마크"
+            "코딩 에이전트"
           ],
-          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "More footage on Gemini Robotics 2",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vb3doe/more_footage_on_gemini_robotics_2/",
+          "publishedAt": "2026-07-30T19:20:31.000Z",
+          "publishedAtKst": "2026. 07. 31. 04:20",
+          "summary": "&#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "로보틱스"
+          ],
+          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Multi-robot collaboration with Gemini Robotics 2",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vaxynf/multirobot_collaboration_with_gemini_robotics_2/",
+          "publishedAt": "2026-07-30T16:08:21.000Z",
+          "publishedAtKst": "2026. 07. 31. 01:08",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "로보틱스"
+          ],
+          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Would you choose to live indefinitely in a robot body?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vasfzn/would_you_choose_to_live_indefinitely_in_a_robot/",
+          "publishedAt": "2026-07-30T12:36:35.000Z",
+          "publishedAtKst": "2026. 07. 30. 21:36",
+          "summary": "Been thinking about this a lot lately and wanted to see what people actually think. Say the technology existed full consciousness transfer in a robotic body, doesn't matter how, just assume it works. Would you do it? PRO",
+          "impact": 10,
+          "confidence": 51,
+          "stance": "watch",
+          "tags": [
+            "AGI",
+            "위험"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -481,18 +484,11 @@
   ],
   "topDampeners": [
     {
-      "title": "Open-source tabular model validation toolkit TanML needs feedback [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1va7w4p/opensource_tabular_model_validation_toolkit_tanml/",
-      "impact": 1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "AI Security Leaderboard: benchmarking model robustness [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vaargb/ai_security_leaderboard_benchmarking_model/",
-      "impact": 2,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Netflix hit with $105M lawsuit after losing copy of Nicholas Cage film",
+      "source": "Hacker News",
+      "url": "https://variety.com/2026/film/news/netflix-lawsuit-nicolas-cage-fortitude-1236824506/",
+      "impact": -3,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
@@ -500,6 +496,13 @@
       "url": "http://arxiv.org/abs/2607.27188v1",
       "impact": 5,
       "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2607.27081v1",
+      "impact": 5,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
