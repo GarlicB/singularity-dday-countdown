@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-30T05:31:16.678Z",
-  "generatedAtKst": "2026. 07. 30. 14:31",
-  "nextUpdateAt": "2026-07-30T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 30. 18:00",
+  "generatedAt": "2026-07-30T10:58:58.274Z",
+  "generatedAtKst": "2026. 07. 30. 19:58",
+  "nextUpdateAt": "2026-07-30T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 31. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 83,
+      "score": 82,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -102,7 +102,7 @@
           "publishedAt": "2026-07-29T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 09:00",
           "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -137,7 +137,7 @@
           "publishedAt": "2026-07-28T17:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 02:00",
           "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -153,7 +153,7 @@
           "publishedAt": "2026-07-28T16:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 01:00",
           "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -199,7 +199,7 @@
           "publishedAt": "2026-07-27T14:50:30.000Z",
           "publishedAtKst": "2026. 07. 27. 23:50",
           "summary": "Q1: What are you saying? A: My claim here is that if you build artificial general intelligence (AGI) via any algorithm that’s choosing actions via reinforcement learning (RL) and/or model-based search and planning—a gian",
-          "impact": 35,
+          "impact": 32,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -218,7 +218,7 @@
           "publishedAtKst": "2026. 07. 29. 02:30",
           "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
           "impact": 14,
-          "confidence": 74,
+          "confidence": 73,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -333,7 +333,7 @@
           "publishedAt": "2026-07-29T17:56:49.000Z",
           "publishedAtKst": "2026. 07. 30. 02:56",
           "summary": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting tr",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-07-29T17:33:47.000Z",
           "publishedAtKst": "2026. 07. 30. 02:33",
           "summary": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at ",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -371,7 +371,7 @@
       "score": 71,
       "delta": 5,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 49,
       "trend": "hot",
       "items": [
         {
@@ -399,8 +399,8 @@
           "publishedAt": "2026-07-29T13:55:58.000Z",
           "publishedAtKst": "2026. 07. 29. 22:55",
           "summary": "If the internal model at Open AI (Along with whatever Anthropic/Grok/Meta/Deepmind are cooking internally) is as good as shown.....the next giant pre-training run (with 2-3x more compute) may produce a model with super h",
-          "impact": 19,
-          "confidence": 52,
+          "impact": 18,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "자기개선",
@@ -416,8 +416,8 @@
           "publishedAt": "2026-07-29T21:31:34.000Z",
           "publishedAtKst": "2026. 07. 30. 06:31",
           "summary": "Blog: How GPT-5.6 fuses frontier intelligence with frontier efficiency | OpenAI &#32; submitted by &#32; /u/Outside-Iron-8242 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
+          "impact": 12,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -426,33 +426,32 @@
           "why": "GPT, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "We built our agent a tool for codebase intelligence",
-          "source": "Hacker News",
-          "url": "https://medium.com/@vektormemory/we-built-our-agent-a-tool-for-codebase-intelligence-43e482fee4aa",
-          "publishedAt": "2026-07-30T05:16:59.000Z",
-          "publishedAtKst": "2026. 07. 30. 14:16",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
+          "title": "Claude Opus 5 behaves strangely with this prompt.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vaebys/claude_opus_5_behaves_strangely_with_this_prompt/",
+          "publishedAt": "2026-07-30T00:37:30.000Z",
+          "publishedAtKst": "2026. 07. 30. 09:37",
+          "summary": "The prompt is: see the below — To Opus 5. Thread: https://x.com/matthen2/status/2082566186785480708?s=20 &#32; submitted by &#32; /u/Responsible_Cow2236 [link] &#32; [comments]",
+          "impact": 9,
+          "confidence": 44,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Randomness in large language models: What researchers need to know (and report)",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2607.24372",
-          "publishedAt": "2026-07-28T09:34:14.000Z",
-          "publishedAtKst": "2026. 07. 28. 18:34",
-          "summary": "3 points, 0 comments",
+          "title": "Claude 5 Opus and 3D Moonlight Scene",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vaax68/claude_5_opus_and_3d_moonlight_scene/",
+          "publishedAt": "2026-07-29T22:16:08.000Z",
+          "publishedAtKst": "2026. 07. 30. 07:16",
+          "summary": "This is NOT 1 shot, we did a few iterations. But Claude made every assets itself. I used a variant of Matt Shumer's prompt and then did 2-3 iterations to fix some issues. Claude first did a scene at dawn, but in its test",
           "impact": 9,
-          "confidence": 50,
+          "confidence": 44,
           "stance": "watch",
           "tags": [
-            "LLM",
-            "모델"
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
