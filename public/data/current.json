@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-30T10:58:58.274Z",
-  "generatedAtKst": "2026. 07. 30. 19:58",
-  "nextUpdateAt": "2026-07-30T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 31. 00:00",
+  "generatedAt": "2026-07-30T16:20:24.398Z",
+  "generatedAtKst": "2026. 07. 31. 01:20",
+  "nextUpdateAt": "2026-07-30T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 07. 31. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2047,
+    "rangeEnd": "2039-05-10",
+    "dday": 2137,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 45,
-    "coldCount": 7,
+    "coldCount": 9,
     "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 82,
+      "score": 83,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -102,7 +102,7 @@
           "publishedAt": "2026-07-29T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 09:00",
           "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -120,7 +120,7 @@
           "publishedAt": "2026-07-29T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 19:00",
           "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -129,6 +129,22 @@
             "모델"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+          "publishedAt": "2026-07-30T15:00:59.000Z",
+          "publishedAtKst": "2026. 07. 31. 00:00",
+          "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "로보틱스"
+          ],
+          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Scientific computing in the age of agentic AI",
@@ -145,22 +161,6 @@
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-          "publishedAt": "2026-07-28T16:00:00.000Z",
-          "publishedAtKst": "2026. 07. 29. 01:00",
-          "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-          "impact": 18,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -168,12 +168,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 71,
-      "delta": 5,
+      "score": 81,
+      "delta": 8,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
       "items": [
+        {
+          "title": "Thousand-dimensional structure",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
+          "publishedAt": "2026-07-30T14:04:05.000Z",
+          "publishedAtKst": "2026. 07. 30. 23:04",
+          "summary": "Summary: One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-tra",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "추론"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
           "source": "Alignment Forum",
@@ -199,7 +217,7 @@
           "publishedAt": "2026-07-27T14:50:30.000Z",
           "publishedAtKst": "2026. 07. 27. 23:50",
           "summary": "Q1: What are you saying? A: My claim here is that if you build artificial general intelligence (AGI) via any algorithm that’s choosing actions via reinforcement learning (RL) and/or model-based search and planning—a gian",
-          "impact": 32,
+          "impact": 29,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -217,8 +235,8 @@
           "publishedAt": "2026-07-28T17:30:49.000Z",
           "publishedAtKst": "2026. 07. 29. 02:30",
           "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
-          "impact": 14,
-          "confidence": 73,
+          "impact": 13,
+          "confidence": 72,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -241,24 +259,6 @@
             "자기개선"
           ],
           "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
-        },
-        {
-          "title": "Value Generalisation 1: a Research and Deployment Program",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
-          "publishedAt": "2026-07-29T15:57:50.000Z",
-          "publishedAtKst": "2026. 07. 30. 00:57",
-          "summary": "I’m looking for people, advice, critiques, and funding to build a research program on value generalisation – the ability of an AI to correctly extend human values and preferences to situations neither it nor we have seen",
-          "impact": 11,
-          "confidence": 82,
-          "stance": "decelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "LLM",
-            "안전 이슈"
-          ],
-          "why": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     },
@@ -266,30 +266,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.27167v1",
-          "publishedAt": "2026-07-29T17:42:47.000Z",
-          "publishedAtKst": "2026. 07. 30. 02:42",
-          "summary": "LLM-based agents excel at software engineering tasks where an existing codebase provides context, but constructing a program from scratch remains fundamentally harder. Recent benchmarks such as ProgramBench quantify this",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "프런티어 모델",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
           "source": "arXiv",
@@ -327,13 +309,31 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.27167v1",
+          "publishedAt": "2026-07-29T17:42:47.000Z",
+          "publishedAtKst": "2026. 07. 30. 02:42",
+          "summary": "LLM-based agents excel at software engineering tasks where an existing codebase provides context, but constructing a program from scratch remains fundamentally harder. Recent benchmarks such as ProgramBench quantify this",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "APEX-Accounting",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.27189v1",
           "publishedAt": "2026-07-29T17:56:49.000Z",
           "publishedAtKst": "2026. 07. 30. 02:56",
           "summary": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting tr",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-07-29T17:33:47.000Z",
           "publishedAtKst": "2026. 07. 30. 02:33",
           "summary": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at ",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,92 +368,90 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 71,
-      "delta": 5,
+      "score": 54,
+      "delta": 1,
       "weight": 0.2,
-      "confidence": 49,
-      "trend": "hot",
+      "confidence": 53,
+      "trend": "watch",
       "items": [
         {
-          "title": "ARC-AGI 3 is not an honest measure of AGI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vafut9/arcagi_3_is_not_an_honest_measure_of_agi/",
-          "publishedAt": "2026-07-30T01:45:55.000Z",
-          "publishedAtKst": "2026. 07. 30. 10:45",
-          "summary": "I want everyone to take a look at this graph for a second. ARC-AGI 3 was intentionally not allowing the reasoning agent to maintain its context across actions. It was effectively making the model forget what it had alrea",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "프런티어 모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Beware the next giant pre-training run",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1v9wxm8/beware_the_next_giant_pretraining_run/",
-          "publishedAt": "2026-07-29T13:55:58.000Z",
-          "publishedAtKst": "2026. 07. 29. 22:55",
-          "summary": "If the internal model at Open AI (Along with whatever Anthropic/Grok/Meta/Deepmind are cooking internally) is as good as shown.....the next giant pre-training run (with 2-3x more compute) may produce a model with super h",
-          "impact": 18,
+          "title": "NeurIPS reviewers not engaging [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1va5io6/neurips_reviewers_not_engaging_d/",
+          "publishedAt": "2026-07-29T18:59:18.000Z",
+          "publishedAtKst": "2026. 07. 30. 03:59",
+          "summary": "So I know this is an ongoing issue at ML conferences, reviewers just tend to ghost. Do people have any strategies or recommendations on how to nudge them to engage with the rebuttals? Is it recommended to post a comment ",
+          "impact": 13,
           "confidence": 51,
           "stance": "accelerate",
           "tags": [
-            "자기개선",
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "I would like to show my open source eval framework for agents",
+          "source": "Hacker News",
+          "url": "https://github.com/Thomeras/agent_detective",
+          "publishedAt": "2026-07-30T15:58:57.000Z",
+          "publishedAtKst": "2026. 07. 31. 00:58",
+          "summary": "1 points, 1 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Randomness in large language models: What researchers need to know (and report)",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2607.24372",
+          "publishedAt": "2026-07-28T09:34:14.000Z",
+          "publishedAtKst": "2026. 07. 28. 18:34",
+          "summary": "3 points, 0 comments",
+          "impact": 8,
+          "confidence": 49,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "How to get more coding productivity with LLMs",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49104392",
+          "publishedAt": "2026-07-29T23:28:10.000Z",
+          "publishedAtKst": "2026. 07. 30. 08:28",
+          "summary": "6 points, 1 comments",
+          "impact": 7,
+          "confidence": 50,
+          "stance": "watch",
+          "tags": [
+            "LLM"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "AI Security Leaderboard: benchmarking model robustness [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vaargb/ai_security_leaderboard_benchmarking_model/",
+          "publishedAt": "2026-07-29T22:09:52.000Z",
+          "publishedAtKst": "2026. 07. 30. 07:09",
+          "summary": "We developed a leaderboard ranking frontier model security. There's no shortage of model capability rankings, but we didn't find anything comparable for model security. Yet security is becoming increasingly critical to d",
+          "impact": 2,
+          "confidence": 62,
+          "stance": "decelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
             "모델",
-            "컴퓨트"
+            "벤치마크"
           ],
-          "why": "자기개선, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT-5.6 Sol helped optimize its own inference",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1va9qu0/gpt56_sol_helped_optimize_its_own_inference/",
-          "publishedAt": "2026-07-29T21:31:34.000Z",
-          "publishedAtKst": "2026. 07. 30. 06:31",
-          "summary": "Blog: How GPT-5.6 fuses frontier intelligence with frontier efficiency | OpenAI &#32; submitted by &#32; /u/Outside-Iron-8242 [link] &#32; [comments]",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "추론 인프라"
-          ],
-          "why": "GPT, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Claude Opus 5 behaves strangely with this prompt.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vaebys/claude_opus_5_behaves_strangely_with_this_prompt/",
-          "publishedAt": "2026-07-30T00:37:30.000Z",
-          "publishedAtKst": "2026. 07. 30. 09:37",
-          "summary": "The prompt is: see the below — To Opus 5. Thread: https://x.com/matthen2/status/2082566186785480708?s=20 &#32; submitted by &#32; /u/Responsible_Cow2236 [link] &#32; [comments]",
-          "impact": 9,
-          "confidence": 44,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Claude 5 Opus and 3D Moonlight Scene",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vaax68/claude_5_opus_and_3d_moonlight_scene/",
-          "publishedAt": "2026-07-29T22:16:08.000Z",
-          "publishedAtKst": "2026. 07. 30. 07:16",
-          "summary": "This is NOT 1 shot, we did a few iterations. But Claude made every assets itself. I used a variant of Matt Shumer's prompt and then did 2-3 iterations to fix some issues. Claude first did a scene at dawn, but in its test",
-          "impact": 9,
-          "confidence": 44,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
@@ -467,41 +465,41 @@
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Thousand-dimensional structure",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
+      "impact": 36,
+      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities",
       "impact": 36,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "ARC-AGI 3 is not an honest measure of AGI",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vafut9/arcagi_3_is_not_an_honest_measure_of_agi/",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Open-source tabular model validation toolkit TanML needs feedback [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1va7w4p/opensource_tabular_model_validation_toolkit_tanml/",
+      "impact": 1,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI Security Leaderboard: benchmarking model robustness [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vaargb/ai_security_leaderboard_benchmarking_model/",
+      "impact": 2,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.27188v1",
       "impact": 5,
       "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.27081v1",
-      "impact": 5,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Cost-Sensitive Conformal Prediction and Human-in-the-Loop Abstention for Imbalanced High-Stakes Decision Support: A Multi-Domain Benchmark",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.27143v1",
-      "impact": 6,
-      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
