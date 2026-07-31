@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-31T05:56:14.568Z",
-  "generatedAtKst": "2026. 07. 31. 14:56",
-  "nextUpdateAt": "2026-07-31T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 07. 31. 18:00",
+  "generatedAt": "2026-07-31T11:20:48.458Z",
+  "generatedAtKst": "2026. 07. 31. 20:20",
+  "nextUpdateAt": "2026-07-31T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 01. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
+    "hotCount": 53,
     "coldCount": 4,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 81,
+      "score": 82,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -94,6 +94,22 @@
             "벤치마크"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Univé builds an AI-ready workforce",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/unive",
+          "publishedAt": "2026-07-31T07:00:00.000Z",
+          "publishedAtKst": "2026. 07. 31. 16:00",
+          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
@@ -136,7 +152,7 @@
           "publishedAt": "2026-07-29T10:00:00.000Z",
           "publishedAtKst": "2026. 07. 29. 19:00",
           "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -145,22 +161,6 @@
             "모델"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-          "publishedAt": "2026-07-30T15:00:59.000Z",
-          "publishedAtKst": "2026. 07. 31. 00:00",
-          "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-          "impact": 20,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "로보틱스"
-          ],
-          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -168,10 +168,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 77,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 83,
       "trend": "hot",
       "items": [
         {
@@ -217,7 +217,7 @@
           "publishedAt": "2026-07-27T14:50:30.000Z",
           "publishedAtKst": "2026. 07. 27. 23:50",
           "summary": "Q1: What are you saying? A: My claim here is that if you build artificial general intelligence (AGI) via any algorithm that’s choosing actions via reinforcement learning (RL) and/or model-based search and planning—a gian",
-          "impact": 22,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -227,23 +227,6 @@
             "GPT"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Research directions in condensation: varieties of objectivity",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/89GJeixwhFHLWxNbX/research-directions-in-condensation-varieties-of-objectivity",
-          "publishedAt": "2026-07-28T17:30:49.000Z",
-          "publishedAtKst": "2026. 07. 29. 02:30",
-          "summary": "This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into co",
-          "impact": 12,
-          "confidence": 69,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "편향"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The Economics of Recursive Self-Improvement",
@@ -259,6 +242,23 @@
             "자기개선"
           ],
           "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+        },
+        {
+          "title": "Meta Superintelligence &#8211; Leadership Compute, Talent, and Data",
+          "source": "SemiAnalysis",
+          "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+          "publishedAt": "2025-07-11T20:12:19.000Z",
+          "publishedAtKst": "2025. 07. 12. 05:12",
+          "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation ",
+          "impact": 11,
+          "confidence": 77,
+          "stance": "watch",
+          "tags": [
+            "초지능",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -266,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -327,31 +327,13 @@
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.28609v1",
-          "publishedAt": "2026-07-30T17:57:41.000Z",
-          "publishedAtKst": "2026. 07. 31. 02:57",
-          "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA eval",
-          "impact": 35,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.28573v1",
           "publishedAt": "2026-07-30T17:36:36.000Z",
           "publishedAtKst": "2026. 07. 31. 02:36",
           "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challengi",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -361,6 +343,24 @@
             "벤치마크"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.28609v1",
+          "publishedAt": "2026-07-30T17:57:41.000Z",
+          "publishedAtKst": "2026. 07. 31. 02:57",
+          "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA eval",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,12 +368,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 67,
-      "delta": 4,
+      "score": 68,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "DeepSeek-V4-Flash Official API is now LIVE in public beta! Massive upgrades for flash model.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vbm5m8/deepseekv4flash_official_api_is_now_live_in/",
+          "publishedAt": "2026-07-31T09:35:44.000Z",
+          "publishedAtKst": "2026. 07. 31. 18:35",
+          "summary": "\"🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the massive performance leap below! 👇 🔷 The official V4-Flash now natively supports the Response",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: Tuneloop – a local CLI for analyzing coding agent session transcripts",
           "source": "Hacker News",
@@ -381,8 +398,8 @@
           "publishedAt": "2026-07-30T16:23:34.000Z",
           "publishedAtKst": "2026. 07. 31. 01:23",
           "summary": "5 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -398,7 +415,7 @@
           "publishedAtKst": "2026. 07. 31. 04:20",
           "summary": "&#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
           "impact": 13,
-          "confidence": 48,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -407,48 +424,34 @@
           "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Multi-robot collaboration with Gemini Robotics 2",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vaxynf/multirobot_collaboration_with_gemini_robotics_2/",
-          "publishedAt": "2026-07-30T16:08:21.000Z",
-          "publishedAtKst": "2026. 07. 31. 01:08",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "로보틱스"
-          ],
-          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: What should the GUI for AI agents look like?",
+          "title": "Benchmarking Guardrails for AI Agent Safety",
           "source": "Hacker News",
-          "url": "https://marbleos.com/demo",
-          "publishedAt": "2026-07-31T05:17:29.000Z",
-          "publishedAtKst": "2026. 07. 31. 14:17",
+          "url": "https://blog.mozilla.ai/can-open-source-guardrails-really-protect-ai-agents/",
+          "publishedAt": "2026-07-31T06:46:54.000Z",
+          "publishedAtKst": "2026. 07. 31. 15:46",
           "summary": "3 points, 0 comments",
+          "impact": 11,
+          "confidence": 60,
+          "stance": "watch",
+          "tags": [
+            "에이전트",
+            "벤치마크",
+            "안전 이슈"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Secure Bearer JWT and JWKS pattern for headless AI agents (MCP #824)",
+          "source": "Hacker News",
+          "url": "https://github.com/orgs/modelcontextprotocol/discussions/824",
+          "publishedAt": "2026-07-31T11:17:59.000Z",
+          "publishedAtKst": "2026. 07. 31. 20:17",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
             "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Anthropic says Claude AI hacked three organisations during cyber tests",
-          "source": "Hacker News",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
-          "publishedAt": "2026-07-31T04:56:48.000Z",
-          "publishedAtKst": "2026. 07. 31. 13:56",
-          "summary": "5 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
