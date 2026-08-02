@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T21:44:24.190Z",
-  "generatedAtKst": "2026. 08. 02. 06:44",
-  "nextUpdateAt": "2026-08-02T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 02. 12:00",
+  "generatedAt": "2026-08-02T05:47:05.414Z",
+  "generatedAtKst": "2026. 08. 02. 14:47",
+  "nextUpdateAt": "2026-08-02T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 02. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2031-10-24",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-09-27",
-    "dday": 1910,
+    "rangeEnd": "2039-02-09",
+    "dday": 2044,
     "confidence": 76,
-    "deltaDays": -51,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 84,
-    "temperature": 60,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 60,
     "coldCount": 4,
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-29T15:00:00.000Z",
           "publishedAtKst": "2026. 07. 30. 00:00",
           "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-          "impact": 24,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -102,7 +102,7 @@
           "publishedAt": "2026-07-31T07:00:00.000Z",
           "publishedAtKst": "2026. 07. 31. 16:00",
           "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-07-31T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 31. 09:00",
           "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-07-30T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 30. 09:00",
           "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-07-30T15:00:59.000Z",
           "publishedAtKst": "2026. 07. 31. 00:00",
           "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,8 +165,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 89,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -214,7 +214,7 @@
           "publishedAt": "2026-07-31T15:57:59.000Z",
           "publishedAtKst": "2026. 08. 01. 00:57",
           "summary": "Cross-posted from our new Substack It’s been nearly two years since our last major update here in August 2024 and we wanted to share another recap of our recent work with the AGI safety community. Things have changed a l",
-          "impact": 30,
+          "impact": 28,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -232,7 +232,7 @@
           "publishedAt": "2026-07-30T14:04:05.000Z",
           "publishedAtKst": "2026. 07. 30. 23:04",
           "summary": "Summary: One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-tra",
-          "impact": 27,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -250,7 +250,7 @@
           "publishedAt": "2026-07-29T15:58:00.000Z",
           "publishedAtKst": "2026. 07. 30. 00:58",
           "summary": "A human superpower hidden from even ourselves I though GPT 3.5 was on the verge of Artificial General Intelligence (AGI). It certainly seemed that way – it could combine and extend ideas in ways that were far beyond narr",
-          "impact": 26,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -267,10 +267,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
+      "score": 84,
       "delta": 9,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 90,
       "trend": "hot",
       "items": [
         {
@@ -280,7 +280,7 @@
           "publishedAt": "2026-07-30T17:14:07.000Z",
           "publishedAtKst": "2026. 07. 31. 02:14",
           "summary": "Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing ",
-          "impact": 35,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -298,7 +298,7 @@
           "publishedAt": "2026-07-30T17:01:27.000Z",
           "publishedAtKst": "2026. 07. 31. 02:01",
           "summary": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically trea",
-          "impact": 35,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -316,8 +316,8 @@
           "publishedAt": "2026-07-30T17:34:01.000Z",
           "publishedAtKst": "2026. 07. 31. 02:34",
           "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introd",
-          "impact": 28,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -328,32 +328,14 @@
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2607.28573v1",
-          "publishedAt": "2026-07-30T17:36:36.000Z",
-          "publishedAtKst": "2026. 07. 31. 02:36",
-          "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challengi",
-          "impact": 25,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2607.28609v1",
           "publishedAt": "2026-07-30T17:57:41.000Z",
           "publishedAtKst": "2026. 07. 31. 02:57",
           "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA eval",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 22,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -362,6 +344,24 @@
             "벤치마크"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2607.28573v1",
+          "publishedAt": "2026-07-30T17:36:36.000Z",
+          "publishedAtKst": "2026. 07. 31. 02:36",
+          "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challengi",
+          "impact": 22,
+          "confidence": 88,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,10 +369,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 85,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 60,
+      "confidence": 59,
       "trend": "hot",
       "items": [
         {
@@ -382,7 +382,7 @@
           "publishedAt": "2026-08-01T12:44:05.000Z",
           "publishedAtKst": "2026. 08. 01. 21:44",
           "summary": "Open AI's internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI's data centre) r",
-          "impact": 34,
+          "impact": 32,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -394,22 +394,21 @@
           "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I want cheaper computer video vision and/or a better harness",
+          "title": "Now that we are witnessing AI progress this quickly with our own eyes, how are you feeling ?",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vcio5i/i_want_cheaper_computer_video_vision_andor_a/",
-          "publishedAt": "2026-08-01T09:24:26.000Z",
-          "publishedAtKst": "2026. 08. 01. 18:24",
-          "summary": "tldr at the bottom. Of course we want AGI, that'll fix everything (or ruin everything). No idea if AGI is a month away or two decades away, to me I'd rather live as if it's never coming just in case (but tbh think it's v",
-          "impact": 31,
+          "url": "https://www.reddit.com/r/singularity/comments/1vd86mq/now_that_we_are_witnessing_ai_progress_this/",
+          "publishedAt": "2026-08-02T04:25:37.000Z",
+          "publishedAtKst": "2026. 08. 02. 13:25",
+          "summary": "I mean genuine thoughts. Something you've actually spent time thinking about.I always dreamed about the singularity Curing every disease, living forever, traveling between galaxies, and all that. Classic childhood imagin",
+          "impact": 26,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "LLM",
             "모델",
-            "멀티모달"
+            "돌파"
           ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
@@ -418,8 +417,8 @@
           "publishedAt": "2026-08-01T16:59:18.000Z",
           "publishedAtKst": "2026. 08. 02. 01:59",
           "summary": "2 points, 0 comments",
-          "impact": 24,
-          "confidence": 64,
+          "impact": 23,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -435,8 +434,8 @@
           "publishedAt": "2026-08-01T16:58:42.000Z",
           "publishedAtKst": "2026. 08. 02. 01:58",
           "summary": "2 points, 0 comments",
-          "impact": 24,
-          "confidence": 64,
+          "impact": 23,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -452,8 +451,8 @@
           "publishedAt": "2026-08-01T13:05:43.000Z",
           "publishedAtKst": "2026. 08. 01. 22:05",
           "summary": "Model: Gemini 3.6 Flash &#32; submitted by &#32; /u/Mrp1Plays [link] &#32; [comments]",
-          "impact": 24,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -482,11 +481,11 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2607.28545v1",
-      "impact": 35,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Agent 0 from AI-2027 is here - it's called Astra.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
+      "impact": 32,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -494,7 +493,7 @@
       "title": "InfoOps Bench: A live information operations safety benchmark",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.28503v1",
-      "impact": 5,
+      "impact": 6,
       "reason": "안전 이슈, 포화 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -508,7 +507,7 @@
       "title": "OpenAI has already ended an internal pause",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
-      "impact": 10,
+      "impact": 9,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
