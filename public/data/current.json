@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-02T10:25:49.361Z",
-  "generatedAtKst": "2026. 08. 02. 19:25",
-  "nextUpdateAt": "2026-08-02T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 03. 00:00",
+  "generatedAt": "2026-08-02T15:53:44.061Z",
+  "generatedAtKst": "2026. 08. 03. 00:53",
+  "nextUpdateAt": "2026-08-02T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 03. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 50,
-    "coldCount": 4,
-    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 53,
+    "coldCount": 5,
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 88,
-      "delta": 8,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-07-29T15:00:00.000Z",
           "publishedAtKst": "2026. 07. 30. 00:00",
           "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-          "impact": 20,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-07-31T00:00:00.000Z",
           "publishedAtKst": "2026. 07. 31. 09:00",
           "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -128,36 +128,38 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-          "publishedAt": "2026-07-30T15:00:59.000Z",
-          "publishedAtKst": "2026. 07. 31. 00:00",
-          "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "로보틱스"
-          ],
-          "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Advancing the price-performance frontier with GPT-5.6",
+          "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-          "publishedAt": "2026-07-30T10:00:00.000Z",
-          "publishedAtKst": "2026. 07. 30. 19:00",
-          "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+          "url": "https://openai.com/index/avatarin",
+          "publishedAt": "2026-07-30T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 30. 09:00",
+          "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
           "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "모델"
+            "에이전트",
+            "GPT"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+          "publishedAt": "2026-07-29T00:00:00.000Z",
+          "publishedAtKst": "2026. 07. 29. 09:00",
+          "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,7 +167,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 86,
+      "score": 85,
       "delta": 9,
       "weight": 0.18,
       "confidence": 82,
@@ -196,7 +198,7 @@
           "publishedAt": "2026-07-31T15:53:58.000Z",
           "publishedAtKst": "2026. 08. 01. 00:53",
           "summary": "GDM’s AGI Safety and Alignment Team is hiring for multiple roles, across all areas in this post on our recent work . This is the team at GDM, led by Rohin Shah , that aims to reduce existential risks from AI systems. You",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +216,7 @@
           "publishedAt": "2026-07-31T15:57:59.000Z",
           "publishedAtKst": "2026. 08. 01. 00:57",
           "summary": "Cross-posted from our new Substack It’s been nearly two years since our last major update here in August 2024 and we wanted to share another recap of our recent work with the AGI safety community. Things have changed a l",
-          "impact": 26,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -232,7 +234,7 @@
           "publishedAt": "2026-07-30T14:04:05.000Z",
           "publishedAtKst": "2026. 07. 30. 23:04",
           "summary": "Summary: One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-tra",
-          "impact": 23,
+          "impact": 21,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -250,7 +252,7 @@
           "publishedAt": "2026-07-29T15:58:00.000Z",
           "publishedAtKst": "2026. 07. 30. 00:58",
           "summary": "A human superpower hidden from even ourselves I though GPT 3.5 was on the verge of Artificial General Intelligence (AGI). It certainly seemed that way – it could combine and extend ideas in ways that were far beyond narr",
-          "impact": 20,
+          "impact": 17,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -267,10 +269,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 83,
+      "score": 81,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 90,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
@@ -280,8 +282,8 @@
           "publishedAt": "2026-07-30T17:14:07.000Z",
           "publishedAtKst": "2026. 07. 31. 02:14",
           "summary": "Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing ",
-          "impact": 29,
-          "confidence": 92,
+          "impact": 27,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -298,8 +300,8 @@
           "publishedAt": "2026-07-30T17:01:27.000Z",
           "publishedAtKst": "2026. 07. 31. 02:01",
           "summary": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically trea",
-          "impact": 29,
-          "confidence": 92,
+          "impact": 27,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -316,8 +318,8 @@
           "publishedAt": "2026-07-30T17:34:01.000Z",
           "publishedAtKst": "2026. 07. 31. 02:34",
           "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introd",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -334,8 +336,8 @@
           "publishedAt": "2026-07-30T17:57:41.000Z",
           "publishedAtKst": "2026. 07. 31. 02:57",
           "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA eval",
-          "impact": 21,
-          "confidence": 90,
+          "impact": 20,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -352,8 +354,8 @@
           "publishedAt": "2026-07-30T17:36:36.000Z",
           "publishedAtKst": "2026. 07. 31. 02:36",
           "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challengi",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -369,12 +371,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Now that we are witnessing AI progress this quickly with our own eyes, how are you feeling ?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vd86mq/now_that_we_are_witnessing_ai_progress_this/",
+          "publishedAt": "2026-08-02T04:25:37.000Z",
+          "publishedAtKst": "2026. 08. 02. 13:25",
+          "summary": "I mean genuine thoughts. Something you've actually spent time thinking about.I always dreamed about the singularity Curing every disease, living forever, traveling between galaxies, and all that. Classic childhood imagin",
+          "impact": 24,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "돌파"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
           "source": "Hacker News",
@@ -382,8 +401,8 @@
           "publishedAt": "2026-08-01T16:59:18.000Z",
           "publishedAtKst": "2026. 08. 02. 01:59",
           "summary": "2 points, 0 comments",
-          "impact": 22,
-          "confidence": 62,
+          "impact": 21,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -399,8 +418,8 @@
           "publishedAt": "2026-08-01T16:58:42.000Z",
           "publishedAtKst": "2026. 08. 02. 01:58",
           "summary": "2 points, 0 comments",
-          "impact": 22,
-          "confidence": 62,
+          "impact": 21,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -410,53 +429,35 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "[R] CausalVLBench: Benchmarking Visual Causal Reasoning in Large VLMs.",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vdd7ty/r_causalvlbench_benchmarking_visual_causal/",
-          "publishedAt": "2026-08-02T09:07:49.000Z",
-          "publishedAtKst": "2026. 08. 02. 18:07",
-          "summary": "&#32; submitted by &#32; /u/moschles [link] &#32; [comments]",
-          "impact": 22,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "벤치마크",
-            "고난도 평가"
-          ],
-          "why": "추론, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Supabase Evals: Benchmark for testing how well AI agents build using Supabase",
+          "title": "Show HN: A fixed harness for comparing LLM agent memory systems",
           "source": "Hacker News",
-          "url": "https://supabase.com/blog/introducing-supabase-evals",
-          "publishedAt": "2026-08-01T18:19:41.000Z",
-          "publishedAtKst": "2026. 08. 02. 03:19",
-          "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "url": "https://github.com/AML-memory/agent-memory-leaderboard",
+          "publishedAt": "2026-08-02T15:18:00.000Z",
+          "publishedAtKst": "2026. 08. 03. 00:18",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "벤치마크"
+            "LLM"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Large language models can predict the results of social science experiments",
-          "source": "Hacker News",
-          "url": "https://www.nature.com/articles/s41586-026-10742-x",
-          "publishedAt": "2026-08-02T03:28:25.000Z",
-          "publishedAtKst": "2026. 08. 02. 12:28",
-          "summary": "1 points, 0 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
+          "title": "4 years difference. Imagine 10 - 50 years from now",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vdj41z/4_years_difference_imagine_10_50_years_from_now/",
+          "publishedAt": "2026-08-02T14:11:44.000Z",
+          "publishedAtKst": "2026. 08. 02. 23:11",
+          "summary": "&#32; submitted by &#32; /u/HyperspaceAndBeyond [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 50,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "AGI"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -473,18 +474,25 @@
       "title": "The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2607.28545v1",
-      "impact": 29,
+      "impact": 27,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "The Most Important Chart in the History of the Species",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vdaau9/the_most_important_chart_in_the_history_of_the/",
+      "impact": -4,
+      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "InfoOps Bench: A live information operations safety benchmark",
       "source": "arXiv",
@@ -497,13 +505,6 @@
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
       "impact": 7,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI has already ended an internal pause",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
-      "impact": 9,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
