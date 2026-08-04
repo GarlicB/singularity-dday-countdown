@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-04T11:15:40.445Z",
-  "generatedAtKst": "2026. 08. 04. 20:15",
-  "nextUpdateAt": "2026-08-04T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 05. 00:00",
+  "generatedAt": "2026-08-04T16:46:16.854Z",
+  "generatedAtKst": "2026. 08. 05. 01:46",
+  "nextUpdateAt": "2026-08-04T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 05. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
+    "hotCount": 56,
     "coldCount": 7,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -78,22 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "How we built a realtime system for responsive voice AI in six months",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-          "publishedAt": "2026-08-03T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 03. 16:00",
-          "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-          "impact": 18,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "모델"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
           "source": "OpenAI News",
           "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
@@ -110,6 +94,37 @@
             "벤치마크"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "publishedAt": "2026-08-03T07:00:00.000Z",
+          "publishedAtKst": "2026. 08. 03. 16:00",
+          "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Inside our 353,000-person vibe coding course",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+          "publishedAt": "2026-08-03T15:00:00.000Z",
+          "publishedAtKst": "2026. 08. 04. 00:00",
+          "summary": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
@@ -144,22 +159,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Disrupting a Criminal Scam Operation",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-          "publishedAt": "2026-07-31T00:00:00.000Z",
-          "publishedAtKst": "2026. 07. 31. 09:00",
-          "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -167,8 +166,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -198,7 +197,7 @@
           "publishedAt": "2026-07-31T16:32:50.000Z",
           "publishedAtKst": "2026. 08. 01. 01:32",
           "summary": "TL;DR: LLMs should give accurate answers. Yet we find their answers are often biased to favor their own values and they don't disclose this in their reasoning. For example, when a user asks how likely the AI bubble is to",
-          "impact": 25,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -208,24 +207,6 @@
             "프런티어 모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
-          "publishedAt": "2026-07-31T15:53:58.000Z",
-          "publishedAtKst": "2026. 08. 01. 00:53",
-          "summary": "GDM’s AGI Safety and Alignment Team is hiring for multiple roles, across all areas in this post on our recent work . This is the team at GDM, led by Rohin Shah , that aims to reduce existential risks from AI systems. You",
-          "impact": 17,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "추론"
-          ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
@@ -244,6 +225,24 @@
             "GPT"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
+          "publishedAt": "2026-07-31T15:53:58.000Z",
+          "publishedAtKst": "2026. 08. 01. 00:53",
+          "summary": "GDM’s AGI Safety and Alignment Team is hiring for multiple roles, across all areas in this post on our recent work . This is the team at GDM, led by Rohin Shah , that aims to reduce existential risks from AI systems. You",
+          "impact": 15,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "추론"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Thousand-dimensional structure",
@@ -269,7 +268,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -318,7 +317,7 @@
           "publishedAt": "2026-08-03T17:55:24.000Z",
           "publishedAtKst": "2026. 08. 04. 02:55",
           "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -336,7 +335,7 @@
           "publishedAt": "2026-08-03T17:45:58.000Z",
           "publishedAtKst": "2026. 08. 04. 02:45",
           "summary": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a si",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,22 +347,22 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation",
+          "title": "Real-Time Detection and Repair of LLM Agent Failures",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.02505v1",
-          "publishedAt": "2026-08-03T17:05:31.000Z",
-          "publishedAtKst": "2026. 08. 04. 02:05",
-          "summary": "Can scientific abduction occur without continuous sensorimotor embodiment? Recent arguments in AI and philosophy of science hold that genuine hypothesis generation requires an agent continuously coupled to the physical w",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.02464v1",
+          "publishedAt": "2026-08-03T16:34:46.000Z",
+          "publishedAtKst": "2026. 08. 04. 01:34",
+          "summary": "LLM agents fail mid-episode -- they loop, cascade tool errors, drift off goal, fabricate results, or silently absorb corrupted content -- and the standard remedy, judging every step with a second LLM, costs more than the",
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델",
-            "벤치마크",
-            "멀티모달"
+            "Gemini",
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -374,52 +373,33 @@
       "score": 78,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 60,
       "trend": "hot",
       "items": [
         {
-          "title": "TIL AI can draw a watch showing an actual time",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vf0ng4/til_ai_can_draw_a_watch_showing_an_actual_time/",
-          "publishedAt": "2026-08-04T04:57:03.000Z",
-          "publishedAtKst": "2026. 08. 04. 13:57",
-          "summary": "Today I learned that ChatGPT can easily generate a watch face with a specified time. A year ago, this used to be a classic AI fail. You ask for any time, and it draws 10:10, no matter what. Because most of the internet s",
-          "impact": 25,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "ChatGPT",
-            "GPT",
-            "모델"
-          ],
-          "why": "프런티어 모델, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Is anyone else surprised Google DeepMind isn't leading these mathematical benchmarks?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1ven8ow/is_anyone_else_surprised_google_deepmind_isnt/",
-          "publishedAt": "2026-08-03T19:24:38.000Z",
-          "publishedAtKst": "2026. 08. 04. 04:24",
-          "summary": "Seeing OpenAI's recent progress surprised me, but what surprised me even more is how little Google DeepMind appears in comparison. DeepMind has arguably done more foundational work in AI for mathematics than anyone else ",
-          "impact": 22,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "Gemini",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+          "title": "Computer Anthology: A continuously evolving benchmark family for AI agents",
           "source": "Hacker News",
-          "url": "https://hoplite.sh",
-          "publishedAt": "2026-08-03T16:32:06.000Z",
-          "publishedAtKst": "2026. 08. 04. 01:32",
-          "summary": "74 points, 60 comments",
+          "url": "https://vetto.ai/companies/computer-anthology-terminal-tasks.html",
+          "publishedAt": "2026-08-04T14:38:41.000Z",
+          "publishedAtKst": "2026. 08. 04. 23:38",
+          "summary": "20 points, 7 comments",
+          "impact": 22,
+          "confidence": 63,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크",
+            "컴퓨트"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Guide AI coding agents on how to use libraries securely",
+          "source": "Hacker News",
+          "url": "https://github.com/Reware-Labs/securitycards",
+          "publishedAt": "2026-08-04T14:12:10.000Z",
+          "publishedAtKst": "2026. 08. 04. 23:12",
+          "summary": "1 points, 0 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -430,38 +410,52 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vewuhp/inducing_language_models_to_assert_their_own/",
-          "publishedAt": "2026-08-04T01:51:58.000Z",
-          "publishedAtKst": "2026. 08. 04. 10:51",
-          "summary": "https://arxiv.org/pdf/2607.28607 Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs a",
-          "impact": 18,
-          "confidence": 57,
+          "title": "AI coding agents pass tests. Can they write idiomatic Laravel?",
+          "source": "Hacker News",
+          "url": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
+          "publishedAt": "2026-08-04T16:36:58.000Z",
+          "publishedAtKst": "2026. 08. 05. 01:36",
+          "summary": "2 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "안전 이슈"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Frontier models, transparency and trust; a new golden age in research for some?",
+          "title": "Show HN: I Repurposed Unit Tests to Show How Much Coding Agents \"Improvise\"",
           "source": "Hacker News",
-          "url": "https://scholarlyfutures.substack.com/p/frontier-models-transparency-and",
-          "publishedAt": "2026-08-04T10:34:35.000Z",
-          "publishedAtKst": "2026. 08. 04. 19:34",
-          "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "url": "https://github.com/RudderCode/Rudder",
+          "publishedAt": "2026-08-04T16:33:00.000Z",
+          "publishedAtKst": "2026. 08. 05. 01:33",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "모델"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+          "source": "Hacker News",
+          "url": "https://hoplite.sh",
+          "publishedAt": "2026-08-03T16:32:06.000Z",
+          "publishedAtKst": "2026. 08. 04. 01:32",
+          "summary": "76 points, 61 comments",
+          "impact": 19,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -491,17 +485,10 @@
   ],
   "topDampeners": [
     {
-      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
-      "source": "Hacker News",
-      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.02491v1",
-      "impact": 1,
+      "impact": 2,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -510,6 +497,13 @@
       "url": "http://arxiv.org/abs/2608.02518v1",
       "impact": 5,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Simple Approximation to the Distribution of the Ridge Regression Estimator",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.02539v1",
+      "impact": 6,
+      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
