@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-04T16:46:16.854Z",
-  "generatedAtKst": "2026. 08. 05. 01:46",
-  "nextUpdateAt": "2026-08-04T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 05. 06:00",
+  "generatedAt": "2026-08-04T22:04:14.069Z",
+  "generatedAtKst": "2026. 08. 05. 07:04",
+  "nextUpdateAt": "2026-08-05T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 05. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
+    "hotCount": 51,
     "coldCount": 7,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 75,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "New ways to learn and teach with ChatGPT Work and Codex",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 04. 09:00",
+          "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
           "source": "OpenAI News",
@@ -112,21 +128,6 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Inside our 353,000-person vibe coding course",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-          "publishedAt": "2026-08-03T15:00:00.000Z",
-          "publishedAtKst": "2026. 08. 04. 00:00",
-          "summary": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
           "source": "OpenAI News",
           "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
@@ -145,20 +146,19 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Univé builds an AI-ready workforce",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/unive",
-          "publishedAt": "2026-07-31T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 31. 16:00",
-          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-          "impact": 13,
+          "title": "Inside our 353,000-person vibe coding course",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+          "publishedAt": "2026-08-03T15:00:00.000Z",
+          "publishedAtKst": "2026. 08. 04. 00:00",
+          "summary": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "에이전트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -317,7 +317,7 @@
           "publishedAt": "2026-08-03T17:55:24.000Z",
           "publishedAtKst": "2026. 08. 04. 02:55",
           "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -335,7 +335,7 @@
           "publishedAt": "2026-08-03T17:45:58.000Z",
           "publishedAtKst": "2026. 08. 04. 02:45",
           "summary": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a si",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -353,7 +353,7 @@
           "publishedAt": "2026-08-03T16:34:46.000Z",
           "publishedAtKst": "2026. 08. 04. 01:34",
           "summary": "LLM agents fail mid-episode -- they loop, cascade tool errors, drift off goal, fabricate results, or silently absorb corrupted content -- and the standard remedy, judging every step with a second LLM, costs more than the",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -370,10 +370,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 60,
+      "confidence": 59,
       "trend": "hot",
       "items": [
         {
@@ -382,9 +382,9 @@
           "url": "https://vetto.ai/companies/computer-anthology-terminal-tasks.html",
           "publishedAt": "2026-08-04T14:38:41.000Z",
           "publishedAtKst": "2026. 08. 04. 23:38",
-          "summary": "20 points, 7 comments",
-          "impact": 22,
-          "confidence": 63,
+          "summary": "27 points, 10 comments",
+          "impact": 21,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -400,40 +400,8 @@
           "publishedAt": "2026-08-04T14:12:10.000Z",
           "publishedAtKst": "2026. 08. 04. 23:12",
           "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AI coding agents pass tests. Can they write idiomatic Laravel?",
-          "source": "Hacker News",
-          "url": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
-          "publishedAt": "2026-08-04T16:36:58.000Z",
-          "publishedAtKst": "2026. 08. 05. 01:36",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: I Repurposed Unit Tests to Show How Much Coding Agents \"Improvise\"",
-          "source": "Hacker News",
-          "url": "https://github.com/RudderCode/Rudder",
-          "publishedAt": "2026-08-04T16:33:00.000Z",
-          "publishedAtKst": "2026. 08. 05. 01:33",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -447,15 +415,48 @@
           "url": "https://hoplite.sh",
           "publishedAt": "2026-08-03T16:32:06.000Z",
           "publishedAtKst": "2026. 08. 04. 01:32",
-          "summary": "76 points, 61 comments",
-          "impact": 19,
-          "confidence": 59,
+          "summary": "77 points, 62 comments",
+          "impact": 18,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Why Large Language Models Fail at Tabular Prediction",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2608.02412",
+          "publishedAt": "2026-08-04T10:07:06.000Z",
+          "publishedAtKst": "2026. 08. 04. 19:07",
+          "summary": "97 points, 32 comments",
+          "impact": 14,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Downsides of LLM-Generated Peer Reviews [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vf4zjz/the_downsides_of_llmgenerated_peer_reviews_d/",
+          "publishedAt": "2026-08-04T09:03:02.000Z",
+          "publishedAtKst": "2026. 08. 04. 18:03",
+          "summary": "Having used LLMs to assist with reviews, and also having received reviews that appear to rely heavily on LLM-generated text, I have noticed two recurring problems. 1. The endless search for uncontrolled variables LLMs ar",
+          "impact": 12,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "LLM",
+            "개선 부족"
+          ],
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -485,6 +486,13 @@
   ],
   "topDampeners": [
     {
+      "title": "AI music generator Suno loses copyright infringement legal case",
+      "source": "Hacker News",
+      "url": "https://www.nme.com/news/music/ai-music-generator-suno-loses-copyright-infringement-legal-case-3960760",
+      "impact": -2,
+      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.02491v1",
@@ -497,13 +505,6 @@
       "url": "http://arxiv.org/abs/2608.02518v1",
       "impact": 5,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Simple Approximation to the Distribution of the Ridge Regression Estimator",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.02539v1",
-      "impact": 6,
-      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
