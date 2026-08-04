@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-04T05:39:05.010Z",
-  "generatedAtKst": "2026. 08. 04. 14:39",
-  "nextUpdateAt": "2026-08-04T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 04. 18:00",
+  "generatedAt": "2026-08-04T11:15:40.445Z",
+  "generatedAtKst": "2026. 08. 04. 20:15",
+  "nextUpdateAt": "2026-08-04T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 05. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2042,
+    "rangeEnd": "2039-03-26",
+    "dday": 2087,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 55,
-    "coldCount": 6,
+    "coldCount": 7,
     "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -167,7 +167,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
       "confidence": 82,
@@ -179,7 +179,7 @@
           "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
           "publishedAt": "2026-08-03T09:23:01.000Z",
           "publishedAtKst": "2026. 08. 03. 18:23",
-          "summary": "[Tweet Thread] This post is written in our personal capacity. Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber",
+          "summary": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehe",
           "impact": 36,
           "confidence": 82,
           "stance": "accelerate",
@@ -198,7 +198,7 @@
           "publishedAt": "2026-07-31T16:32:50.000Z",
           "publishedAtKst": "2026. 08. 01. 01:32",
           "summary": "TL;DR: LLMs should give accurate answers. Yet we find their answers are often biased to favor their own values and they don't disclose this in their reasoning. For example, when a user asks how likely the AI bubble is to",
-          "impact": 29,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -216,7 +216,7 @@
           "publishedAt": "2026-07-31T15:53:58.000Z",
           "publishedAtKst": "2026. 08. 01. 00:53",
           "summary": "GDM’s AGI Safety and Alignment Team is hiring for multiple roles, across all areas in this post on our recent work . This is the team at GDM, led by Rohin Shah , that aims to reduce existential risks from AI systems. You",
-          "impact": 19,
+          "impact": 17,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -246,22 +246,22 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)",
+          "title": "Thousand-dimensional structure",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
-          "publishedAt": "2026-07-31T15:57:59.000Z",
-          "publishedAtKst": "2026. 08. 01. 00:57",
-          "summary": "Cross-posted from our new Substack It’s been nearly two years since our last major update here in August 2024 and we wanted to share another recap of our recent work with the AGI safety community. Things have changed a l",
-          "impact": 15,
+          "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
+          "publishedAt": "2026-07-30T14:04:05.000Z",
+          "publishedAtKst": "2026. 07. 30. 23:04",
+          "summary": "Summary: One area we plan to explore at Resolution is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-tra",
+          "impact": 14,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
+            "초지능",
             "에이전트",
-            "추론",
-            "프런티어 모델"
+            "추론"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -269,30 +269,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.02585v1",
-          "publishedAt": "2026-08-03T17:55:24.000Z",
-          "publishedAtKst": "2026. 08. 04. 02:55",
-          "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
           "source": "arXiv",
@@ -330,13 +312,31 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.02585v1",
+          "publishedAt": "2026-08-03T17:55:24.000Z",
+          "publishedAtKst": "2026. 08. 04. 02:55",
+          "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.02569v1",
           "publishedAt": "2026-08-03T17:45:58.000Z",
           "publishedAtKst": "2026. 08. 04. 02:45",
           "summary": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a si",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,22 +348,22 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Real-Time Detection and Repair of LLM Agent Failures",
+          "title": "Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.02464v1",
-          "publishedAt": "2026-08-03T16:34:46.000Z",
-          "publishedAtKst": "2026. 08. 04. 01:34",
-          "summary": "LLM agents fail mid-episode -- they loop, cascade tool errors, drift off goal, fabricate results, or silently absorb corrupted content -- and the standard remedy, judging every step with a second LLM, costs more than the",
-          "impact": 31,
+          "url": "http://arxiv.org/abs/2608.02505v1",
+          "publishedAt": "2026-08-03T17:05:31.000Z",
+          "publishedAtKst": "2026. 08. 04. 02:05",
+          "summary": "Can scientific abduction occur without continuous sensorimotor embodiment? Recent arguments in AI and philosophy of science hold that genuine hypothesis generation requires an agent continuously coupled to the physical w",
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Gemini",
-            "LLM",
-            "모델"
+            "모델",
+            "벤치마크",
+            "멀티모달"
           ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -371,12 +371,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
+      "score": 78,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "TIL AI can draw a watch showing an actual time",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vf0ng4/til_ai_can_draw_a_watch_showing_an_actual_time/",
+          "publishedAt": "2026-08-04T04:57:03.000Z",
+          "publishedAtKst": "2026. 08. 04. 13:57",
+          "summary": "Today I learned that ChatGPT can easily generate a watch face with a specified time. A year ago, this used to be a classic AI fail. You ask for any time, and it draws 10:10, no matter what. Because most of the internet s",
+          "impact": 25,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "프런티어 모델, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Is anyone else surprised Google DeepMind isn't leading these mathematical benchmarks?",
           "source": "r/singularity",
@@ -384,8 +402,8 @@
           "publishedAt": "2026-08-03T19:24:38.000Z",
           "publishedAtKst": "2026. 08. 04. 04:24",
           "summary": "Seeing OpenAI's recent progress surprised me, but what surprised me even more is how little Google DeepMind appears in comparison. DeepMind has arguably done more foundational work in AI for mathematics than anyone else ",
-          "impact": 23,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -401,23 +419,7 @@
           "url": "https://hoplite.sh",
           "publishedAt": "2026-08-03T16:32:06.000Z",
           "publishedAtKst": "2026. 08. 04. 01:32",
-          "summary": "65 points, 51 comments",
-          "impact": 20,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repos",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2607.27250",
-          "publishedAt": "2026-08-04T04:23:08.000Z",
-          "publishedAtKst": "2026. 08. 04. 13:23",
-          "summary": "1 points, 0 comments",
+          "summary": "74 points, 60 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -435,7 +437,7 @@
           "publishedAtKst": "2026. 08. 04. 10:51",
           "summary": "https://arxiv.org/pdf/2607.28607 Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs a",
           "impact": 18,
-          "confidence": 58,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -446,19 +448,20 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI-assisted staging draws boos at the Richard Wagner festival in Germany",
+          "title": "Frontier models, transparency and trust; a new golden age in research for some?",
           "source": "Hacker News",
-          "url": "https://apnews.com/article/germany-bayreuth-wagner-festival-ai-f4300cdc0be195dabdadfa6d2ab4254c",
-          "publishedAt": "2026-08-04T04:11:38.000Z",
-          "publishedAtKst": "2026. 08. 04. 13:11",
-          "summary": "4 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "url": "https://scholarlyfutures.substack.com/p/frontier-models-transparency-and",
+          "publishedAt": "2026-08-04T10:34:35.000Z",
+          "publishedAtKst": "2026. 08. 04. 19:34",
+          "summary": "2 points, 0 comments",
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "프런티어 모델",
+            "모델"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -472,21 +475,28 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.02585v1",
-      "impact": 36,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.02553v1",
       "impact": 36,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.02499v1",
+      "impact": 36,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "source": "Hacker News",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
       "source": "arXiv",
@@ -500,13 +510,6 @@
       "url": "http://arxiv.org/abs/2608.02518v1",
       "impact": 5,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Simple Approximation to the Distribution of the Ridge Regression Estimator",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.02539v1",
-      "impact": 6,
-      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
