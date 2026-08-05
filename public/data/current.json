@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T11:12:08.852Z",
-  "generatedAtKst": "2026. 08. 05. 20:12",
-  "nextUpdateAt": "2026-08-05T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 06. 00:00",
+  "generatedAt": "2026-08-05T16:25:59.076Z",
+  "generatedAtKst": "2026. 08. 06. 01:25",
+  "nextUpdateAt": "2026-08-05T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 06. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 64,
+    "hotCount": 63,
     "coldCount": 4,
-    "summary": "가속 신호 64건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 63건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -118,7 +118,7 @@
           "publishedAt": "2026-08-03T07:00:00.000Z",
           "publishedAtKst": "2026. 08. 03. 16:00",
           "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -318,7 +318,7 @@
           "publishedAt": "2026-08-04T17:27:21.000Z",
           "publishedAtKst": "2026. 08. 05. 02:27",
           "summary": "Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use fixed per-query budgets that spend the same compute on easy and difficult prompts. These fixed bud",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -330,31 +330,13 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.03958v1",
-          "publishedAt": "2026-08-04T17:24:33.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:24",
-          "summary": "As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooper",
-          "impact": 32,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.04010v1",
           "publishedAt": "2026-08-04T17:59:58.000Z",
           "publishedAtKst": "2026. 08. 05. 02:59",
           "summary": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, m",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,6 +346,24 @@
             "컴퓨트"
           ],
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.03958v1",
+          "publishedAt": "2026-08-04T17:24:33.000Z",
+          "publishedAtKst": "2026. 08. 05. 02:24",
+          "summary": "As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooper",
+          "impact": 30,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -374,9 +374,25 @@
       "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Measure coding agents in hardened environments",
+          "source": "Hacker News",
+          "url": "https://boundarybench.com/",
+          "publishedAt": "2026-08-05T16:13:01.000Z",
+          "publishedAtKst": "2026. 08. 06. 01:13",
+          "summary": "2 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Computer Anthology: A continuously evolving benchmark family for AI agents",
           "source": "Hacker News",
@@ -384,8 +400,8 @@
           "publishedAt": "2026-08-04T14:38:41.000Z",
           "publishedAtKst": "2026. 08. 04. 23:38",
           "summary": "27 points, 10 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -401,40 +417,8 @@
           "publishedAt": "2026-08-05T02:44:07.000Z",
           "publishedAtKst": "2026. 08. 05. 11:44",
           "summary": "3 points, 0 comments",
-          "impact": 18,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Replacing static back end endpoints with an autonomous agent",
-          "source": "Hacker News",
-          "url": "https://docs.ardor.cloud/introduction",
-          "publishedAt": "2026-08-05T10:40:29.000Z",
-          "publishedAtKst": "2026. 08. 05. 19:40",
-          "summary": "1 points, 0 comments",
           "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Guide AI coding agents on how to use libraries securely",
-          "source": "Hacker News",
-          "url": "https://github.com/Reware-Labs/securitycards",
-          "publishedAt": "2026-08-04T14:12:10.000Z",
-          "publishedAtKst": "2026. 08. 04. 23:12",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -448,8 +432,24 @@
           "url": "https://hoplite.sh",
           "publishedAt": "2026-08-03T16:32:06.000Z",
           "publishedAtKst": "2026. 08. 04. 01:32",
-          "summary": "79 points, 62 comments",
+          "summary": "79 points, 63 comments",
           "impact": 16,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Guide AI coding agents on how to use libraries securely",
+          "source": "Hacker News",
+          "url": "https://github.com/Reware-Labs/securitycards",
+          "publishedAt": "2026-08-04T14:12:10.000Z",
+          "publishedAtKst": "2026. 08. 04. 23:12",
+          "summary": "3 points, 2 comments",
+          "impact": 15,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
