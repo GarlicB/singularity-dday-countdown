@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T16:25:59.076Z",
-  "generatedAtKst": "2026. 08. 06. 01:25",
-  "nextUpdateAt": "2026-08-05T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 06. 06:00",
+  "generatedAt": "2026-08-05T22:05:47.591Z",
+  "generatedAtKst": "2026. 08. 06. 07:05",
+  "nextUpdateAt": "2026-08-06T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 06. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2086,
+    "rangeEnd": "2039-05-10",
+    "dday": 2131,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 63,
     "coldCount": 4,
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-04T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 04. 09:00",
           "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -269,30 +269,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.04001v1",
-          "publishedAt": "2026-08-04T17:57:20.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:57",
-          "summary": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a si",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
           "source": "arXiv",
@@ -312,20 +294,20 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+          "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.03961v1",
-          "publishedAt": "2026-08-04T17:27:21.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:27",
-          "summary": "Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use fixed per-query budgets that spend the same compute on easy and difficult prompts. These fixed bud",
-          "impact": 31,
+          "url": "http://arxiv.org/abs/2608.04001v1",
+          "publishedAt": "2026-08-04T17:57:20.000Z",
+          "publishedAtKst": "2026. 08. 05. 02:57",
+          "summary": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a si",
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
             "LLM",
             "모델",
-            "컴퓨트"
+            "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -336,7 +318,7 @@
           "publishedAt": "2026-08-04T17:59:58.000Z",
           "publishedAtKst": "2026. 08. 05. 02:59",
           "summary": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, m",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,13 +330,31 @@
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.03961v1",
+          "publishedAt": "2026-08-04T17:27:21.000Z",
+          "publishedAtKst": "2026. 08. 05. 02:27",
+          "summary": "Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use fixed per-query budgets that spend the same compute on easy and difficult prompts. These fixed bud",
+          "impact": 29,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.03958v1",
           "publishedAt": "2026-08-04T17:24:33.000Z",
           "publishedAtKst": "2026. 08. 05. 02:24",
           "summary": "As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooper",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -374,24 +374,42 @@
       "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "Measure coding agents in hardened environments",
+          "title": "Show HN: A self-improvement feedback loop for AI agent skills",
           "source": "Hacker News",
-          "url": "https://boundarybench.com/",
-          "publishedAt": "2026-08-05T16:13:01.000Z",
-          "publishedAtKst": "2026. 08. 06. 01:13",
+          "url": "https://github.com/Carlo1911/skill-evolution",
+          "publishedAt": "2026-08-05T21:28:05.000Z",
+          "publishedAtKst": "2026. 08. 06. 06:28",
           "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 21,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "자기개선"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Was Demis demoted or promoted?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vgeatr/was_demis_demoted_or_promoted/",
+          "publishedAt": "2026-08-05T17:40:30.000Z",
+          "publishedAtKst": "2026. 08. 06. 02:40",
+          "summary": "Do you think Demis wanted to step down as CEO to have more time for research and leading Isomorphic Labs (as implied by comments he and Sundar made on X), or do you think Google leadership (Sundar, Sergey, Larry) wanted ",
+          "impact": 18,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "Gemini",
+            "Claude"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Computer Anthology: A continuously evolving benchmark family for AI agents",
@@ -399,9 +417,9 @@
           "url": "https://vetto.ai/companies/computer-anthology-terminal-tasks.html",
           "publishedAt": "2026-08-04T14:38:41.000Z",
           "publishedAtKst": "2026. 08. 04. 23:38",
-          "summary": "27 points, 10 comments",
-          "impact": 18,
-          "confidence": 58,
+          "summary": "27 points, 11 comments",
+          "impact": 17,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -417,24 +435,8 @@
           "publishedAt": "2026-08-05T02:44:07.000Z",
           "publishedAtKst": "2026. 08. 05. 11:44",
           "summary": "3 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
-          "source": "Hacker News",
-          "url": "https://hoplite.sh",
-          "publishedAt": "2026-08-03T16:32:06.000Z",
-          "publishedAtKst": "2026. 08. 04. 01:32",
-          "summary": "79 points, 63 comments",
           "impact": 16,
-          "confidence": 55,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -470,18 +472,18 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.04001v1",
-      "impact": 36,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.03979v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.04001v1",
+      "impact": 34,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -503,7 +505,7 @@
       "title": "Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.03892v1",
-      "impact": 11,
+      "impact": 10,
       "reason": "안전 이슈, 지연 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
