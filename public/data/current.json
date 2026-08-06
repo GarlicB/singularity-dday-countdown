@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T22:05:47.591Z",
-  "generatedAtKst": "2026. 08. 06. 07:05",
-  "nextUpdateAt": "2026-08-06T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 06. 12:00",
+  "generatedAt": "2026-08-06T05:39:27.265Z",
+  "generatedAtKst": "2026. 08. 06. 14:39",
+  "nextUpdateAt": "2026-08-06T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 06. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2131,
+    "rangeEnd": "2039-03-26",
+    "dday": 2085,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 63,
+    "hotCount": 61,
     "coldCount": 4,
-    "summary": "가속 신호 63건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 61건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     }
   ],
@@ -71,28 +71,12 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "New ways to learn and teach with ChatGPT Work and Codex",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-          "publishedAt": "2026-08-04T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 04. 09:00",
-          "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-          "impact": 18,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
           "source": "OpenAI News",
@@ -112,13 +96,29 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "New ways to learn and teach with ChatGPT Work and Codex",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 04. 09:00",
+          "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "How we built a realtime system for responsive voice AI in six months",
           "source": "OpenAI News",
           "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
           "publishedAt": "2026-08-03T07:00:00.000Z",
           "publishedAtKst": "2026. 08. 03. 16:00",
           "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -269,38 +269,38 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
-      "delta": 10,
+      "score": 92,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+          "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.03979v1",
-          "publishedAt": "2026-08-04T17:45:16.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:45",
-          "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary",
+          "url": "http://arxiv.org/abs/2608.05144v1",
+          "publishedAt": "2026-08-05T17:58:58.000Z",
+          "publishedAtKst": "2026. 08. 06. 02:58",
+          "summary": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argu",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "자율성",
-            "GPT",
-            "Gemini"
+            "추론",
+            "GPT"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+          "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.04001v1",
-          "publishedAt": "2026-08-04T17:57:20.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:57",
-          "summary": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a si",
-          "impact": 34,
+          "url": "http://arxiv.org/abs/2608.05131v1",
+          "publishedAt": "2026-08-05T17:53:06.000Z",
+          "publishedAtKst": "2026. 08. 06. 02:53",
+          "summary": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input ",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -312,58 +312,58 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+          "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.04010v1",
-          "publishedAt": "2026-08-04T17:59:58.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:59",
-          "summary": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, m",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.05126v1",
+          "publishedAt": "2026-08-05T17:50:31.000Z",
+          "publishedAtKst": "2026. 08. 06. 02:50",
+          "summary": "Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics f",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "AGI",
+            "에이전트",
             "LLM",
-            "모델",
-            "멀티모달",
-            "컴퓨트"
+            "모델"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+          "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.03961v1",
-          "publishedAt": "2026-08-04T17:27:21.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:27",
-          "summary": "Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use fixed per-query budgets that spend the same compute on easy and difficult prompts. These fixed bud",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.05141v1",
+          "publishedAt": "2026-08-05T17:58:15.000Z",
+          "publishedAtKst": "2026. 08. 06. 02:58",
+          "summary": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are domin",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자기개선",
+            "모델",
+            "SOTA"
+          ],
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.05139v1",
+          "publishedAt": "2026-08-05T17:57:16.000Z",
+          "publishedAtKst": "2026. 08. 06. 02:57",
+          "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
             "LLM",
             "모델",
-            "컴퓨트"
+            "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.03958v1",
-          "publishedAt": "2026-08-04T17:24:33.000Z",
-          "publishedAtKst": "2026. 08. 05. 02:24",
-          "summary": "As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooper",
-          "impact": 29,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -371,28 +371,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 55,
       "trend": "hot",
       "items": [
-        {
-          "title": "Show HN: A self-improvement feedback loop for AI agent skills",
-          "source": "Hacker News",
-          "url": "https://github.com/Carlo1911/skill-evolution",
-          "publishedAt": "2026-08-05T21:28:05.000Z",
-          "publishedAtKst": "2026. 08. 06. 06:28",
-          "summary": "2 points, 0 comments",
-          "impact": 21,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자기개선"
-          ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Was Demis demoted or promoted?",
           "source": "r/singularity",
@@ -400,7 +384,7 @@
           "publishedAt": "2026-08-05T17:40:30.000Z",
           "publishedAtKst": "2026. 08. 06. 02:40",
           "summary": "Do you think Demis wanted to step down as CEO to have more time for research and leading Isomorphic Labs (as implied by comments he and Sundar made on X), or do you think Google leadership (Sundar, Sergey, Larry) wanted ",
-          "impact": 18,
+          "impact": 17,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -412,14 +396,30 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Definition of AGI keeps changing to exclude the latest model",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vgiwby/definition_of_agi_keeps_changing_to_exclude_the/",
+          "publishedAt": "2026-08-05T20:23:37.000Z",
+          "publishedAtKst": "2026. 08. 06. 05:23",
+          "summary": "&#32; submitted by &#32; /u/15_Redstones [link] &#32; [comments]",
+          "impact": 17,
+          "confidence": 51,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Computer Anthology: A continuously evolving benchmark family for AI agents",
           "source": "Hacker News",
           "url": "https://vetto.ai/companies/computer-anthology-terminal-tasks.html",
           "publishedAt": "2026-08-04T14:38:41.000Z",
           "publishedAtKst": "2026. 08. 04. 23:38",
           "summary": "27 points, 11 comments",
-          "impact": 17,
-          "confidence": 57,
+          "impact": 16,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -435,8 +435,8 @@
           "publishedAt": "2026-08-05T02:44:07.000Z",
           "publishedAtKst": "2026. 08. 05. 11:44",
           "summary": "3 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -451,8 +451,8 @@
           "publishedAt": "2026-08-04T14:12:10.000Z",
           "publishedAtKst": "2026. 08. 04. 23:12",
           "summary": "3 points, 2 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -472,27 +472,27 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.03979v1",
+      "url": "http://arxiv.org/abs/2608.05144v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.04001v1",
-      "impact": 34,
+      "url": "http://arxiv.org/abs/2608.05131v1",
+      "impact": 36,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "[Reuters] Trump advisers tell AI firms they will not safety-test open-weight models",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vfs3s7/reuters_trump_advisers_tell_ai_firms_they_will/",
-      "impact": 1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.05045v1",
+      "impact": 4,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "OpenAI has already ended an internal pause",
@@ -502,11 +502,11 @@
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.03892v1",
-      "impact": 10,
-      "reason": "안전 이슈, 지연 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Returning to ARC",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "impact": 12,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
