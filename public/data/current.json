@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T00:59:21.284Z",
-  "generatedAtKst": "2026. 08. 07. 09:59",
-  "nextUpdateAt": "2026-08-07T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 07. 12:00",
+  "generatedAt": "2026-08-07T04:47:45.130Z",
+  "generatedAtKst": "2026. 08. 07. 13:47",
+  "nextUpdateAt": "2026-08-07T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 07. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
+    "hotCount": 59,
     "coldCount": 5,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-06T15:06:15.000Z",
           "publishedAtKst": "2026. 08. 07. 00:06",
           "summary": "",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,7 +163,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
       "confidence": 82,
@@ -194,7 +194,7 @@
           "publishedAt": "2026-08-03T09:23:01.000Z",
           "publishedAtKst": "2026. 08. 03. 18:23",
           "summary": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehe",
-          "impact": 26,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -265,101 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
-      "delta": 10,
+      "score": 93,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+          "title": "The Bitter Lesson of Tool Calling",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.05144v1",
-          "publishedAt": "2026-08-05T17:58:58.000Z",
-          "publishedAtKst": "2026. 08. 06. 02:58",
-          "summary": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argu",
+          "url": "http://arxiv.org/abs/2608.06370v1",
+          "publishedAt": "2026-08-06T17:58:32.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:58",
+          "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize ",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성",
-            "추론",
-            "GPT"
+            "GPT",
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+          "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.05126v1",
-          "publishedAt": "2026-08-05T17:50:31.000Z",
-          "publishedAtKst": "2026. 08. 06. 02:50",
-          "summary": "Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics f",
+          "url": "http://arxiv.org/abs/2608.06347v1",
+          "publishedAt": "2026-08-06T17:52:06.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:52",
+          "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promis",
           "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06294v1",
+          "publishedAt": "2026-08-06T17:18:03.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:18",
+          "summary": "Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population la",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "성능 향상"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06292v1",
+          "publishedAt": "2026-08-06T17:16:28.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:16",
+          "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06264v1",
+          "publishedAt": "2026-08-06T16:54:15.000Z",
+          "publishedAtKst": "2026. 08. 07. 01:54",
+          "summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a",
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "에이전트",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.05131v1",
-          "publishedAt": "2026-08-05T17:53:06.000Z",
-          "publishedAtKst": "2026. 08. 06. 02:53",
-          "summary": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input ",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
             "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.05141v1",
-          "publishedAt": "2026-08-05T17:58:15.000Z",
-          "publishedAtKst": "2026. 08. 06. 02:58",
-          "summary": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are domin",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자기개선",
-            "모델",
+            "성능 향상",
             "SOTA"
           ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.05030v1",
-          "publishedAt": "2026-08-05T16:34:53.000Z",
-          "publishedAtKst": "2026. 08. 06. 01:34",
-          "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team strength, expected goals, and coherent score probabilities, but do not directly ",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -380,7 +380,7 @@
           "publishedAt": "2026-08-06T17:24:54.000Z",
           "publishedAtKst": "2026. 08. 07. 02:24",
           "summary": "We are investigating whether recurring LLM workloads can be replaced, where appropriate, by automatically constructed pipelines of regexes, deterministic parsers, traditional ML and NLP models. As an example, suppose an ",
-          "impact": 24,
+          "impact": 23,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -399,7 +399,7 @@
           "publishedAtKst": "2026. 08. 06. 15:35",
           "summary": "We're currently involved in collecting two types of datasets that seem to be increasingly important for multimodal AI Studio quality speech/audio datasets (high fidelity recordings) Egocentric household activity video da",
           "impact": 20,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -410,19 +410,20 @@
           "why": "모델, 고난도 평가 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I built fingerprint unlock for Mac (no Magic Keyboard) [video]",
+          "title": "piclaw – Pi coding agent in a Technicolor web trenchcoat",
           "source": "Hacker News",
-          "url": "https://www.youtube.com/watch?v=tB3lk-PNA6I",
-          "publishedAt": "2026-08-07T00:58:37.000Z",
-          "publishedAtKst": "2026. 08. 07. 09:58",
+          "url": "https://rcarmo.github.io/projects/piclaw/",
+          "publishedAt": "2026-08-07T02:27:15.000Z",
+          "publishedAtKst": "2026. 08. 07. 11:27",
           "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The current state of language models and human preference based rankings [R]",
@@ -432,7 +433,7 @@
           "publishedAtKst": "2026. 08. 06. 22:19",
           "summary": "\"Arena ai\" has been a great success in producing a human preference based ranking, additional to other more objective benchmarks. However, this (probably) had also played a role in the syncopancy crisis and the general t",
           "impact": 15,
-          "confidence": 53,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -442,20 +443,21 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Memcode launches a new terminal coding agent",
+          "title": "Computer Anthology: A continuously evolving benchmark family for AI agents",
           "source": "Hacker News",
-          "url": "https://www.memcode.ai/",
-          "publishedAt": "2026-08-05T02:44:07.000Z",
-          "publishedAtKst": "2026. 08. 05. 11:44",
-          "summary": "3 points, 0 comments",
+          "url": "https://vetto.ai/companies/computer-anthology-terminal-tasks.html",
+          "publishedAt": "2026-08-04T14:38:41.000Z",
+          "publishedAtKst": "2026. 08. 04. 23:38",
+          "summary": "27 points, 11 comments",
           "impact": 13,
-          "confidence": 53,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "벤치마크",
+            "컴퓨트"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -469,41 +471,41 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "title": "The Bitter Lesson of Tool Calling",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.05144v1",
+      "url": "http://arxiv.org/abs/2608.06370v1",
       "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.05126v1",
+      "url": "http://arxiv.org/abs/2608.06347v1",
       "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Meta fined $567M in largest child safety ruling against social media giant",
-      "source": "Hacker News",
-      "url": "https://www.bbc.com/news/articles/cd7lz3wr2rlo",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.05045v1",
-      "impact": 5,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2608.06364v1",
+      "impact": 2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "OpenAI has already ended an internal pause",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
-      "impact": 7,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "An Optimal Agnostic PAC Algorithm",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.06363v1",
+      "impact": 2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.06250v1",
+      "impact": 2,
+      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
