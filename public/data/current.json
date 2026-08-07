@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T15:44:10.043Z",
-  "generatedAtKst": "2026. 08. 08. 00:44",
-  "nextUpdateAt": "2026-08-07T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 08. 06:00",
+  "generatedAt": "2026-08-07T21:28:53.339Z",
+  "generatedAtKst": "2026. 08. 08. 06:28",
+  "nextUpdateAt": "2026-08-08T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 08. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-08-29",
-    "rangeStart": "2027-02-27",
-    "rangeEnd": "2040-02-29",
-    "dday": 2579,
-    "confidence": 75,
-    "deltaDays": -28,
+    "medianDate": "2032-06-05",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2039-05-10",
+    "dday": 2129,
+    "confidence": 76,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 69,
-    "temperature": 47,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 24,
-    "coldCount": 2,
-    "summary": "가속 신호 24건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 3,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 88,
-      "delta": 8,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-06T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 19:00",
           "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-06T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 09:00",
           "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -265,24 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 53,
-      "delta": 1,
+      "score": 90,
+      "delta": 10,
       "weight": 0.28,
-      "confidence": 65,
-      "trend": "watch",
+      "confidence": 92,
+      "trend": "hot",
       "items": [
         {
-          "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
-          "source": "arXiv 점검",
-          "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-08-07T15:44:10.043Z",
-          "publishedAtKst": "2026. 08. 08. 00:44",
-          "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
-          "impact": 5,
-          "confidence": 65,
-          "stance": "watch",
-          "tags": [],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+          "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06347v1",
+          "publishedAt": "2026-08-06T17:52:06.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:52",
+          "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promis",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Bitter Lesson of Tool Calling",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06370v1",
+          "publishedAt": "2026-08-06T17:58:32.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:58",
+          "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize ",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06294v1",
+          "publishedAt": "2026-08-06T17:18:03.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:18",
+          "summary": "Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population la",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "성능 향상"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06292v1",
+          "publishedAt": "2026-08-06T17:16:28.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:16",
+          "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.06264v1",
+          "publishedAt": "2026-08-06T16:54:15.000Z",
+          "publishedAtKst": "2026. 08. 07. 01:54",
+          "summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a",
+          "impact": 29,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "성능 향상",
+            "SOTA"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -290,63 +367,61 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
-      "delta": 6,
+      "score": 67,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Ben Goertzel: Google May Be Abandoning Alternative Paths for the Final Sprint to AGI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vhg99v/ben_goertzel_google_may_be_abandoning_alternative/",
-          "publishedAt": "2026-08-06T20:47:23.000Z",
-          "publishedAtKst": "2026. 08. 07. 05:47",
-          "summary": "Lots of interesting details here: Clearly this is the nail in the coffin for DeepMind as a semi-autonomous unit within Google... DeepMind will now be a regular Google division. As a consequence of 1, one would expect all",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "자율성",
-            "Gemini",
-            "LLM"
-          ],
-          "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Google DeepMind is open-sourcing WeatherNext, its AI weather forecasting model",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vh8hzi/google_deepmind_is_opensourcing_weathernext_its/",
-          "publishedAt": "2026-08-06T16:05:29.000Z",
-          "publishedAtKst": "2026. 08. 07. 01:05",
-          "summary": "GDM announced open-sourcing WeatherNext's code and model weights on GitHub. Source: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones A few points from the blog post: Forecas",
+          "title": "Show HN: Coarena - A community-driven arena to benchmark models for computer-use",
+          "source": "Hacker News",
+          "url": "https://coarena.ai",
+          "publishedAt": "2026-08-07T19:00:42.000Z",
+          "publishedAtKst": "2026. 08. 08. 04:00",
+          "summary": "2 points, 0 comments",
           "impact": 17,
-          "confidence": 56,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "모델",
             "벤치마크",
-            "돌파",
-            "성능 향상"
+            "컴퓨트"
           ],
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OpenAI: Improving GPT‑5.6 in ChatGPT",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vhb5f6/openai_improving_gpt56_in_chatgpt/",
-          "publishedAt": "2026-08-06T17:40:11.000Z",
-          "publishedAtKst": "2026. 08. 07. 02:40",
-          "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 47,
+          "title": "What is currently considered the theoretically optimal quantization bit-width for LLMs? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/",
+          "publishedAt": "2026-08-07T17:10:03.000Z",
+          "publishedAtKst": "2026. 08. 08. 02:10",
+          "summary": "I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source formats like GGUF Suppose you have a fixed memory/compute budget and can choose th",
+          "impact": 15,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "LLM",
+            "모델",
+            "컴퓨트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Improved compression of Bad Apple into a Neural Network [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vhvfws/improved_compression_of_bad_apple_into_a_neural/",
+          "publishedAt": "2026-08-07T09:06:25.000Z",
+          "publishedAtKst": "2026. 08. 07. 18:06",
+          "summary": "I played a bit with the SIREN network from the other post and found that it could be improved by a using a different sampler for batch generation. By feeding pixels across the entire video and not only a limited set of f",
+          "impact": 12,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Pivotal role of reinforcement learning in modern large language models",
@@ -365,18 +440,17 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Show HN: Memcode launches a new terminal coding agent",
+          "title": "Show HN: Podiom – Persistent project context, goals and scheduling for AI agents",
           "source": "Hacker News",
-          "url": "https://www.memcode.ai/",
-          "publishedAt": "2026-08-05T02:44:07.000Z",
-          "publishedAtKst": "2026. 08. 05. 11:44",
-          "summary": "3 points, 0 comments",
-          "impact": 11,
-          "confidence": 51,
+          "url": "https://github.com/Podiom/Podiom",
+          "publishedAt": "2026-08-07T21:24:57.000Z",
+          "publishedAtKst": "2026. 08. 08. 06:24",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -392,21 +466,28 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Ben Goertzel: Google May Be Abandoning Alternative Paths for the Final Sprint to AGI",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vhg99v/ben_goertzel_google_may_be_abandoning_alternative/",
-      "impact": 36,
-      "reason": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.06347v1",
+      "impact": 35,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/hsp-gruppe",
-      "impact": 22,
-      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "The Bitter Lesson of Tool Calling",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.06370v1",
+      "impact": 33,
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.06250v1",
+      "impact": 3,
+      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "OpenAI has already ended an internal pause",
       "source": "Alignment Forum",
@@ -418,7 +499,7 @@
       "title": "Returning to ARC",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
-      "impact": 10,
+      "impact": 9,
       "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
