@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T04:47:45.130Z",
-  "generatedAtKst": "2026. 08. 07. 13:47",
-  "nextUpdateAt": "2026-08-07T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 07. 18:00",
+  "generatedAt": "2026-08-07T09:51:29.813Z",
+  "generatedAtKst": "2026. 08. 07. 18:51",
+  "nextUpdateAt": "2026-08-07T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 08. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-01-22",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2039,
+    "rangeEnd": "2038-12-26",
+    "dday": 1994,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -48,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 82,
+    "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 59,
-    "coldCount": 5,
+    "coldCount": 3,
     "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/hsp-gruppe",
+          "publishedAt": "2026-08-07T09:00:00.000Z",
+          "publishedAtKst": "2026. 08. 07. 18:00",
+          "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+          "impact": 23,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
           "source": "OpenAI News",
@@ -84,7 +100,7 @@
           "publishedAt": "2026-08-06T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 19:00",
           "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +116,7 @@
           "publishedAt": "2026-08-06T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 09:00",
           "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,23 +148,7 @@
           "publishedAt": "2026-08-04T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 04. 09:00",
           "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Univé builds an AI-ready workforce",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/unive",
-          "publishedAt": "2026-07-31T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 31. 16:00",
-          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-          "impact": 13,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -188,24 +188,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
-          "publishedAt": "2026-08-03T09:23:01.000Z",
-          "publishedAtKst": "2026. 08. 03. 18:23",
-          "summary": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehe",
-          "impact": 23,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "추론"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
@@ -220,6 +202,24 @@
             "에이전트",
             "추론",
             "프런티어 모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
+          "publishedAt": "2026-08-03T09:23:01.000Z",
+          "publishedAtKst": "2026. 08. 03. 18:23",
+          "summary": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehe",
+          "impact": 21,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -332,7 +332,7 @@
           "publishedAt": "2026-08-06T17:16:28.000Z",
           "publishedAtKst": "2026. 08. 07. 02:16",
           "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -344,22 +344,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+          "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.06264v1",
-          "publishedAt": "2026-08-06T16:54:15.000Z",
-          "publishedAtKst": "2026. 08. 07. 01:54",
-          "summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2608.06366v1",
+          "publishedAt": "2026-08-06T17:57:37.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:57",
+          "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an e",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "모델",
-            "성능 향상",
-            "SOTA"
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,12 +367,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Show HN: AgisHub – pay-per-call tools for AI agents over x402 (USDC on Base)",
+          "source": "Hacker News",
+          "url": "https://api.agishub.com/try",
+          "publishedAt": "2026-08-07T08:51:05.000Z",
+          "publishedAtKst": "2026. 08. 07. 17:51",
+          "summary": "2 points, 0 comments",
+          "impact": 23,
+          "confidence": 64,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Can recurring LLM traces be synthesized into deterministic pipelines of typed ML and NLP operators? [D]",
           "source": "r/MachineLearning",
@@ -381,7 +397,7 @@
           "publishedAtKst": "2026. 08. 07. 02:24",
           "summary": "We are investigating whether recurring LLM workloads can be replaced, where appropriate, by automatically constructed pipelines of regexes, deterministic parsers, traditional ML and NLP models. As an example, suppose an ",
           "impact": 23,
-          "confidence": 60,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -392,38 +408,20 @@
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What are the biggest challenges in collecting high-quality speech and egocentric video datasets? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vgwecq/what_are_the_biggest_challenges_in_collecting/",
-          "publishedAt": "2026-08-06T06:35:24.000Z",
-          "publishedAtKst": "2026. 08. 06. 15:35",
-          "summary": "We're currently involved in collecting two types of datasets that seem to be increasingly important for multimodal AI Studio quality speech/audio datasets (high fidelity recordings) Egocentric household activity video da",
-          "impact": 20,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "고난도 평가",
-            "멀티모달",
-            "로보틱스"
-          ],
-          "why": "모델, 고난도 평가 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "piclaw – Pi coding agent in a Technicolor web trenchcoat",
+          "title": "Runtime instances: persistent compute for production AI agents",
           "source": "Hacker News",
-          "url": "https://rcarmo.github.io/projects/piclaw/",
-          "publishedAt": "2026-08-07T02:27:15.000Z",
-          "publishedAtKst": "2026. 08. 07. 11:27",
+          "url": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-08-07T09:39:50.000Z",
+          "publishedAtKst": "2026. 08. 07. 18:39",
           "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "컴퓨트"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The current state of language models and human preference based rankings [R]",
@@ -432,7 +430,7 @@
           "publishedAt": "2026-08-06T13:19:57.000Z",
           "publishedAtKst": "2026. 08. 06. 22:19",
           "summary": "\"Arena ai\" has been a great success in producing a human preference based ranking, additional to other more objective benchmarks. However, this (probably) had also played a role in the syncopancy crisis and the general t",
-          "impact": 15,
+          "impact": 14,
           "confidence": 52,
           "stance": "accelerate",
           "tags": [
@@ -443,21 +441,20 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Computer Anthology: A continuously evolving benchmark family for AI agents",
+          "title": "Pivotal role of reinforcement learning in modern large language models",
           "source": "Hacker News",
-          "url": "https://vetto.ai/companies/computer-anthology-terminal-tasks.html",
-          "publishedAt": "2026-08-04T14:38:41.000Z",
-          "publishedAtKst": "2026. 08. 04. 23:38",
-          "summary": "27 points, 11 comments",
-          "impact": 13,
-          "confidence": 52,
+          "url": "https://news.harvard.edu/gazette/story/newsplus/pivotal-role-of-reinforcement-learning-in-modern-large-language-models/",
+          "publishedAt": "2026-08-07T04:11:12.000Z",
+          "publishedAtKst": "2026. 08. 07. 13:11",
+          "summary": "1 points, 1 comments",
+          "impact": 12,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "벤치마크",
-            "컴퓨트"
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -487,25 +484,25 @@
   ],
   "topDampeners": [
     {
-      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.06364v1",
-      "impact": 2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "An Optimal Agnostic PAC Algorithm",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.06363v1",
-      "impact": 2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.06250v1",
       "impact": 2,
       "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "OpenAI has already ended an internal pause",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
+      "impact": 7,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Returning to ARC",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "impact": 10,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
