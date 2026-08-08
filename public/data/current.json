@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-08T15:20:18.025Z",
-  "generatedAtKst": "2026. 08. 09. 00:20",
-  "nextUpdateAt": "2026-08-08T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 09. 06:00",
+  "generatedAt": "2026-08-08T21:20:33.713Z",
+  "generatedAtKst": "2026. 08. 09. 06:20",
+  "nextUpdateAt": "2026-08-09T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 09. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 54,
-    "coldCount": 3,
+    "coldCount": 4,
     "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-07T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 07. 18:00",
           "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-06T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 19:00",
           "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-06T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 09:00",
           "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-06T15:06:15.000Z",
           "publishedAtKst": "2026. 08. 07. 00:06",
           "summary": "",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -265,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
+      "score": 84,
       "delta": 9,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -278,7 +278,7 @@
           "publishedAt": "2026-08-06T17:52:06.000Z",
           "publishedAtKst": "2026. 08. 07. 02:52",
           "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promis",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +296,7 @@
           "publishedAt": "2026-08-06T17:58:32.000Z",
           "publishedAtKst": "2026. 08. 07. 02:58",
           "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize ",
-          "impact": 28,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,8 +314,8 @@
           "publishedAt": "2026-08-06T17:18:03.000Z",
           "publishedAtKst": "2026. 08. 07. 02:18",
           "summary": "Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population la",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 26,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -332,8 +332,8 @@
           "publishedAt": "2026-08-06T17:16:28.000Z",
           "publishedAtKst": "2026. 08. 07. 02:16",
           "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -344,22 +344,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+          "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.06366v1",
-          "publishedAt": "2026-08-06T17:57:37.000Z",
-          "publishedAtKst": "2026. 08. 07. 02:57",
-          "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an e",
-          "impact": 24,
-          "confidence": 90,
+          "url": "http://arxiv.org/abs/2608.06264v1",
+          "publishedAt": "2026-08-06T16:54:15.000Z",
+          "publishedAtKst": "2026. 08. 07. 01:54",
+          "summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a",
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "추론",
-            "LLM",
-            "모델"
+            "AGI",
+            "모델",
+            "성능 향상",
+            "SOTA"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,29 +367,60 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 71,
-      "delta": 5,
+      "score": 72,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
-          "title": "Real-Time Conversational Agents (RTCA) Workshop @ NeurIPS 2026 — submissions now open, deadline Aug 29 AoE [N]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vir5t6/realtime_conversational_agents_rtca_workshop/",
-          "publishedAt": "2026-08-08T09:06:01.000Z",
-          "publishedAtKst": "2026. 08. 08. 18:06",
-          "summary": "Real-Time Conversational Agents (RTCA) workshop at NeurIPS 2026 (Sydney, Dec 11–12). Submissions are now open on OpenReview. What the workshop is about Conversational AI has crossed into real-time deployment — voice mode",
-          "impact": 23,
-          "confidence": 62,
+          "title": "Detailed account of the OpenAI/Huggingface agentic hack",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vipy0p/detailed_account_of_the_openaihuggingface_agentic/",
+          "publishedAt": "2026-08-08T07:50:55.000Z",
+          "publishedAtKst": "2026. 08. 08. 16:50",
+          "summary": "This is a technical security talk, but absolutely astonishing to listen to. The way in which AI agents kind of build their own messaging system and communication protocol (twice!) and arrived at the conclusions it was be",
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "모델",
-            "벤치마크",
-            "멀티모달"
+            "AGI",
+            "에이전트"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "1mongpt: A large language model, except it's one guy",
+          "source": "Hacker News",
+          "url": "https://iwanttochee.se",
+          "publishedAt": "2026-08-08T18:09:43.000Z",
+          "publishedAtKst": "2026. 08. 09. 03:09",
+          "summary": "6 points, 1 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "LLM",
+            "모델"
+          ],
+          "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT Sol 5.6 high found a normalization error in two recently published Riemann Hypothesis papers. The author confirmed it.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vj3rck/chatgpt_sol_56_high_found_a_normalization_error/",
+          "publishedAt": "2026-08-08T18:45:48.000Z",
+          "publishedAtKst": "2026. 08. 09. 03:45",
+          "summary": "Edit: I'll post the screenshot in the comments of this post Overnight I became a professor, thanks ChatGPT! Edit2: I'll just add the post body here: Alright, this is exactly the kind of thing that makes me think we are a",
+          "impact": 15,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Coarena - A community-driven arena to benchmark models for computer-use",
@@ -398,8 +429,8 @@
           "publishedAt": "2026-08-07T19:00:42.000Z",
           "publishedAtKst": "2026. 08. 08. 04:00",
           "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -409,50 +440,17 @@
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Canon-A controlled English for model prompting and agent-to-agent communication",
-          "source": "Hacker News",
-          "url": "https://github.com/sanshagn/Canon/tree/main",
-          "publishedAt": "2026-08-08T14:25:41.000Z",
-          "publishedAtKst": "2026. 08. 08. 23:25",
-          "summary": "2 points, 0 comments",
-          "impact": 13,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "모델"
-          ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What is currently considered the theoretically optimal quantization bit-width for LLMs? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/",
-          "publishedAt": "2026-08-07T17:10:03.000Z",
-          "publishedAtKst": "2026. 08. 08. 02:10",
-          "summary": "I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source formats like GGUF Suppose you have a fixed memory/compute budget and can choose th",
-          "impact": 13,
-          "confidence": 51,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Pivotal role of reinforcement learning in modern large language models",
-          "source": "Hacker News",
-          "url": "https://news.harvard.edu/gazette/story/newsplus/pivotal-role-of-reinforcement-learning-in-modern-large-language-models/",
-          "publishedAt": "2026-08-07T04:11:12.000Z",
-          "publishedAtKst": "2026. 08. 07. 13:11",
-          "summary": "1 points, 1 comments",
-          "impact": 9,
-          "confidence": 51,
+          "title": "Titles are hard",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vipm8h/titles_are_hard/",
+          "publishedAt": "2026-08-08T07:31:39.000Z",
+          "publishedAtKst": "2026. 08. 08. 16:31",
+          "summary": "https://openai.com/index/hugging-face-model-evaluation-security-incident/ https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behavio",
+          "impact": 11,
+          "confidence": 46,
           "stance": "watch",
           "tags": [
-            "LLM",
+            "에이전트",
             "모델"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
@@ -479,16 +477,23 @@
       "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.06347v1",
-      "impact": 29,
+      "impact": 28,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "Sam on Astra’s delayed release",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vifymf/sam_on_astras_delayed_release/",
+      "impact": -2,
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.06250v1",
-      "impact": 3,
+      "impact": 4,
       "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -497,13 +502,6 @@
       "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
       "impact": 7,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Returning to ARC",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
-      "impact": 8,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
