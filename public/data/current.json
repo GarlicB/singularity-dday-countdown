@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T21:28:53.339Z",
-  "generatedAtKst": "2026. 08. 08. 06:28",
-  "nextUpdateAt": "2026-08-08T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 08. 12:00",
+  "generatedAt": "2026-08-08T04:05:05.228Z",
+  "generatedAtKst": "2026. 08. 08. 13:05",
+  "nextUpdateAt": "2026-08-08T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 08. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2129,
+    "rangeEnd": "2039-08-08",
+    "dday": 2218,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 3,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 52,
+    "coldCount": 6,
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-07T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 07. 18:00",
           "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-06T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 19:00",
           "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-06T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 09:00",
           "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-06T15:06:15.000Z",
           "publishedAtKst": "2026. 08. 07. 00:06",
           "summary": "",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -278,7 +278,7 @@
           "publishedAt": "2026-08-06T17:52:06.000Z",
           "publishedAtKst": "2026. 08. 07. 02:52",
           "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promis",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +296,7 @@
           "publishedAt": "2026-08-06T17:58:32.000Z",
           "publishedAtKst": "2026. 08. 07. 02:58",
           "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize ",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-08-06T17:18:03.000Z",
           "publishedAtKst": "2026. 08. 07. 02:18",
           "summary": "Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population la",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-08-06T17:16:28.000Z",
           "publishedAtKst": "2026. 08. 07. 02:16",
           "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -344,22 +344,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+          "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.06264v1",
-          "publishedAt": "2026-08-06T16:54:15.000Z",
-          "publishedAtKst": "2026. 08. 07. 01:54",
-          "summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.06366v1",
+          "publishedAt": "2026-08-06T17:57:37.000Z",
+          "publishedAtKst": "2026. 08. 07. 02:57",
+          "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an e",
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "모델",
-            "성능 향상",
-            "SOTA"
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,10 +367,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 67,
+      "score": 64,
       "delta": 4,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
@@ -380,8 +380,8 @@
           "publishedAt": "2026-08-07T19:00:42.000Z",
           "publishedAtKst": "2026. 08. 08. 04:00",
           "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -391,37 +391,51 @@
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What is currently considered the theoretically optimal quantization bit-width for LLMs? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/",
-          "publishedAt": "2026-08-07T17:10:03.000Z",
-          "publishedAtKst": "2026. 08. 08. 02:10",
-          "summary": "I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source formats like GGUF Suppose you have a fixed memory/compute budget and can choose th",
-          "impact": 15,
-          "confidence": 53,
+          "title": "AMD acquires Taalas to accelerate inference by compiling model weights directly into silicon",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vhxxm5/amd_acquires_taalas_to_accelerate_inference_by/",
+          "publishedAt": "2026-08-07T11:24:58.000Z",
+          "publishedAtKst": "2026. 08. 07. 20:24",
+          "summary": "In AMD’s latest bid to upset Nvidia's dominance in AI hardware, the House of Zen has acquired AI chip company Taalas, which bakes model weights directly into silicon in a process that promises to boost inference performa",
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "LLM",
+            "에이전트",
             "모델",
-            "컴퓨트"
+            "추론 인프라"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Improved compression of Bad Apple into a Neural Network [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vhvfws/improved_compression_of_bad_apple_into_a_neural/",
-          "publishedAt": "2026-08-07T09:06:25.000Z",
-          "publishedAtKst": "2026. 08. 07. 18:06",
-          "summary": "I played a bit with the SIREN network from the other post and found that it could be improved by a using a different sampler for batch generation. By feeding pixels across the entire video and not only a limited set of f",
-          "impact": 12,
-          "confidence": 50,
-          "stance": "accelerate",
+          "title": "Show HN: Buddy – An iOS browser with an AI agent inside",
+          "source": "Hacker News",
+          "url": "https://apps.apple.com/us/app/buddy-the-ai-mobile-browser/id6788047483",
+          "publishedAt": "2026-08-08T03:22:23.000Z",
+          "publishedAtKst": "2026. 08. 08. 12:22",
+          "summary": "3 points, 1 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "GPT",
-            "모델"
+            "에이전트"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Obscura: Headless browser engine. For web scraping and AI agent automation",
+          "source": "Hacker News",
+          "url": "https://github.com/h4ckf0r0day/obscura",
+          "publishedAt": "2026-08-08T02:34:00.000Z",
+          "publishedAtKst": "2026. 08. 08. 11:34",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
           "title": "Pivotal role of reinforcement learning in modern large language models",
@@ -430,27 +444,12 @@
           "publishedAt": "2026-08-07T04:11:12.000Z",
           "publishedAtKst": "2026. 08. 07. 13:11",
           "summary": "1 points, 1 comments",
-          "impact": 11,
-          "confidence": 53,
+          "impact": 10,
+          "confidence": 52,
           "stance": "watch",
           "tags": [
             "LLM",
             "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Podiom – Persistent project context, goals and scheduling for AI agents",
-          "source": "Hacker News",
-          "url": "https://github.com/Podiom/Podiom",
-          "publishedAt": "2026-08-07T21:24:57.000Z",
-          "publishedAtKst": "2026. 08. 08. 06:24",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -469,38 +468,38 @@
       "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.06347v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "The Bitter Lesson of Tool Calling",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.06370v1",
-      "impact": 33,
+      "impact": 31,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.06250v1",
-      "impact": 3,
-      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+      "source": "Hacker News",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "OpenAI has already ended an internal pause",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
-      "impact": 7,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Sam on Astra’s delayed release",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vifymf/sam_on_astras_delayed_release/",
+      "impact": -3,
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Returning to ARC",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
-      "impact": 9,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Lucid whistleblower lawsuit links dismissed warning to Air recall that grew 16x",
+      "source": "Hacker News",
+      "url": "https://runtimewire.com/article/exclusive-lucid-whistleblower-lawsuit-links-dismissed-warning-to-air-recall-that",
+      "impact": -3,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
