@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09T15:21:34.795Z",
-  "generatedAtKst": "2026. 08. 10. 00:21",
-  "nextUpdateAt": "2026-08-09T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 10. 06:00",
+  "generatedAt": "2026-08-09T21:21:46.759Z",
+  "generatedAtKst": "2026. 08. 10. 06:21",
+  "nextUpdateAt": "2026-08-10T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 10. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2217,
+    "rangeEnd": "2039-09-22",
+    "dday": 2262,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
+    "hotCount": 53,
     "coldCount": 3,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-07T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 07. 18:00",
           "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-06T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 06. 19:00",
           "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -108,22 +108,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-          "publishedAt": "2026-08-06T15:06:15.000Z",
-          "publishedAtKst": "2026. 08. 07. 00:06",
-          "summary": "",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "돌파"
-          ],
-          "why": "모델, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "From asking to doing: How the world is putting ChatGPT to work",
@@ -156,6 +140,22 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Univé builds an AI-ready workforce",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/unive",
+          "publishedAt": "2026-07-31T07:00:00.000Z",
+          "publishedAtKst": "2026. 07. 31. 16:00",
+          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,8 +163,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 84,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -176,7 +176,7 @@
           "publishedAt": "2026-08-06T22:16:54.000Z",
           "publishedAtKst": "2026. 08. 07. 07:16",
           "summary": "TL;DR How can we study misalignment with today's models as proxies? They're clearly not paperclip maximizers, but they also often do things the user doesn't want. A strong contender for a real misaligned propensity is ta",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-08-06T20:43:40.000Z",
           "publishedAtKst": "2026. 08. 07. 05:43",
           "summary": "Cross-posted on Transluce blog . This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt. Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code pl",
-          "impact": 34,
+          "impact": 31,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -265,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 86,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -278,8 +278,8 @@
           "publishedAt": "2026-08-06T17:52:06.000Z",
           "publishedAtKst": "2026. 08. 07. 02:52",
           "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promis",
-          "impact": 22,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -296,8 +296,8 @@
           "publishedAt": "2026-08-06T17:58:32.000Z",
           "publishedAtKst": "2026. 08. 07. 02:58",
           "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize ",
-          "impact": 21,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -314,8 +314,8 @@
           "publishedAt": "2026-08-06T17:18:03.000Z",
           "publishedAtKst": "2026. 08. 07. 02:18",
           "summary": "Cardiac arrest remains one of the most lethal conditions encountered in intensive care units. Despite the growing availability of electronic health record data, existing mortality prediction studies in this population la",
-          "impact": 21,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -332,8 +332,8 @@
           "publishedAt": "2026-08-06T17:16:28.000Z",
           "publishedAtKst": "2026. 08. 07. 02:16",
           "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -350,8 +350,8 @@
           "publishedAt": "2026-08-06T17:57:37.000Z",
           "publishedAtKst": "2026. 08. 07. 02:57",
           "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an e",
-          "impact": 18,
-          "confidence": 85,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -367,30 +367,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 52,
       "trend": "hot",
       "items": [
-        {
-          "title": "DeepSeek V4 Flash 0731 ARC-AGI-1 and 2",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vj65p3/deepseek_v4_flash_0731_arcagi1_and_2/",
-          "publishedAt": "2026-08-08T20:26:13.000Z",
-          "publishedAtKst": "2026. 08. 09. 05:26",
-          "summary": "Interesting to see the latest version buck the trend of increasing cost for increased performance based on the reasoning level. Both for ARC-AGI-1 and 2 as well Just thought I'd post since I thought it was interesting, d",
-          "impact": 29,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "추론 벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Demis Hassabis Expects All Diseases To Be Cured Within 20 Years",
           "source": "r/singularity",
@@ -398,8 +380,8 @@
           "publishedAt": "2026-08-09T04:49:41.000Z",
           "publishedAtKst": "2026. 08. 09. 13:49",
           "summary": "It increasingly appears that Demis Hassabis voluntarily gave up his role as CEO because he sees AGI as basically almost solved, and that it's much more important to setup the infrastructure for these super intelligent sy",
-          "impact": 22,
-          "confidence": 55,
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -408,14 +390,30 @@
           "why": "AGI, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "More info about upcoming models Astra and Doug",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vjxnaq/more_info_about_upcoming_models_astra_and_doug/",
+          "publishedAt": "2026-08-09T18:40:27.000Z",
+          "publishedAtKst": "2026. 08. 10. 03:40",
+          "summary": "Source: https://x.com/choblin29/status/2086410039460573331 &#32; submitted by &#32; /u/MohMayaTyagi [link] &#32; [comments]",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Benchmarking models on ability to prompt-engineer GPT-2",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vje7ll/benchmarking_models_on_ability_to_promptengineer/",
           "publishedAt": "2026-08-09T02:42:40.000Z",
           "publishedAtKst": "2026. 08. 09. 11:42",
           "summary": "I always thought this could be a good proxy on model’s intelligence, so decided to try a minimal test: models write a single prompt template for gpt-2, and gpt-2+the template is scored on 395 examples of a basic task (de",
-          "impact": 17,
-          "confidence": 51,
+          "impact": 16,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -431,8 +429,8 @@
           "publishedAt": "2026-08-08T18:09:43.000Z",
           "publishedAtKst": "2026. 08. 09. 03:09",
           "summary": "6 points, 1 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -442,20 +440,19 @@
           "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Adversarial LLM Reversal for hermes-agent",
-          "source": "Hacker News",
-          "url": "https://github.com/jnorthrup/hermes-jekyl-hyde",
-          "publishedAt": "2026-08-09T14:32:01.000Z",
-          "publishedAtKst": "2026. 08. 09. 23:32",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "title": "Does anyone remember lk-99?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vjozv4/does_anyone_remember_lk99/",
+          "publishedAt": "2026-08-09T12:46:04.000Z",
+          "publishedAtKst": "2026. 08. 09. 21:46",
+          "summary": "I remember the good old times when we all thought we were getting hoveboards and AGI next year. I feel like the sub is pretty different from the times of lk-99, Jimmy Apple, 'feel the AGI', the ambiguous OpenAI employees",
+          "impact": 14,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "LLM"
+            "AGI"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -465,22 +462,22 @@
       "title": "Why do models task game?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "User awareness in frontier models",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
-      "impact": 34,
+      "impact": 31,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "DeepSeek V4 Flash 0731 ARC-AGI-1 and 2",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vj65p3/deepseek_v4_flash_0731_arcagi1_and_2/",
-      "impact": 29,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
+      "impact": 22,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -488,7 +485,7 @@
       "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.06250v1",
-      "impact": 4,
+      "impact": 5,
       "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
