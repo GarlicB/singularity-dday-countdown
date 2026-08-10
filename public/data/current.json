@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T10:08:52.799Z",
-  "generatedAtKst": "2026. 08. 10. 19:08",
-  "nextUpdateAt": "2026-08-10T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 11. 00:00",
+  "generatedAt": "2026-08-10T15:51:04.840Z",
+  "generatedAtKst": "2026. 08. 11. 00:51",
+  "nextUpdateAt": "2026-08-10T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 11. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 77,
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
+    "hotCount": 51,
     "coldCount": 3,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,43 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 71,
-      "delta": 5,
+      "score": 73,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/model-ml",
+          "publishedAt": "2026-08-10T12:00:00.000Z",
+          "publishedAtKst": "2026. 08. 10. 21:00",
+          "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+          "impact": 20,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Evolve your marketing with new AI tools",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+          "publishedAt": "2026-08-10T14:30:00.000Z",
+          "publishedAtKst": "2026. 08. 10. 23:30",
+          "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
           "source": "OpenAI News",
@@ -84,7 +115,7 @@
           "publishedAt": "2026-08-07T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 07. 18:00",
           "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -124,38 +155,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "New ways to learn and teach with ChatGPT Work and Codex",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-          "publishedAt": "2026-08-04T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 04. 09:00",
-          "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Univé builds an AI-ready workforce",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/unive",
-          "publishedAt": "2026-07-31T07:00:00.000Z",
-          "publishedAtKst": "2026. 07. 31. 16:00",
-          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,8 +162,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -176,7 +175,7 @@
           "publishedAt": "2026-08-06T22:16:54.000Z",
           "publishedAtKst": "2026. 08. 07. 07:16",
           "summary": "TL;DR How can we study misalignment with today's models as proxies? They're clearly not paperclip maximizers, but they also often do things the user doesn't want. A strong contender for a real misaligned propensity is ta",
-          "impact": 27,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -186,24 +185,6 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "User awareness in frontier models",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
-          "publishedAt": "2026-08-06T20:43:40.000Z",
-          "publishedAtKst": "2026. 08. 07. 05:43",
-          "summary": "Cross-posted on Transluce blog . This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt. Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code pl",
-          "impact": 24,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "추론",
-            "프런티어 모델"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
@@ -222,6 +203,24 @@
             "프런티어 모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "User awareness in frontier models",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
+          "publishedAt": "2026-08-06T20:43:40.000Z",
+          "publishedAtKst": "2026. 08. 07. 05:43",
+          "summary": "Cross-posted on Transluce blog . This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt. Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code pl",
+          "impact": 21,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "추론",
+            "프런티어 모델"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
@@ -265,10 +264,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 81,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 87,
       "trend": "hot",
       "items": [
         {
@@ -278,7 +277,7 @@
           "publishedAt": "2026-08-07T17:22:00.000Z",
           "publishedAtKst": "2026. 08. 08. 02:22",
           "summary": "Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produc",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,8 +295,8 @@
           "publishedAt": "2026-08-07T17:04:41.000Z",
           "publishedAtKst": "2026. 08. 08. 02:04",
           "summary": "In medical education, physicians convert academic knowledge into clinical expertise through residency: years of training across thousands of encounters, with diverse sources of feedback and progressively greater autonomy",
-          "impact": 23,
-          "confidence": 91,
+          "impact": 21,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -314,8 +313,8 @@
           "publishedAt": "2026-08-07T17:02:02.000Z",
           "publishedAtKst": "2026. 08. 08. 02:02",
           "summary": "Real-world video reasoning often involves multimodal, multi-source inputs, whereas existing video reasoning tasks typically assume a simplified video-text setting, limiting identity matching and person-centric reasoning.",
-          "impact": 22,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -326,32 +325,14 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "FedDOSE: Federated Learning Framework Decomposing Site Effects for Modeling Brain Dynamic Functional Connectivity",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.07393v1",
-          "publishedAt": "2026-08-07T16:37:30.000Z",
-          "publishedAtKst": "2026. 08. 08. 01:37",
-          "summary": "Functional Magnetic Resonance Imaging ( fMRI ) data are often pooled into collaborative multi-site consortia, as deep learning models for analyses require large datasets to generalize well. While Federated Learning (FL) ",
-          "impact": 20,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "성능 향상",
-            "SOTA"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Beyond Post-Hoc Temperature Scaling: Bilevel Optimization for LLM Calibration",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.07419v1",
           "publishedAt": "2026-08-07T17:05:10.000Z",
           "publishedAtKst": "2026. 08. 08. 02:05",
           "summary": "Preference alignment often makes large language models (LLMs) overconfident and poorly calibrated. Traditional post-hoc temperature scaling is inherently domain-dependent: a temperature fitted on one domain does not gene",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -359,6 +340,24 @@
             "모델"
           ],
           "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.07411v1",
+          "publishedAt": "2026-08-07T16:58:04.000Z",
+          "publishedAtKst": "2026. 08. 08. 01:58",
+          "summary": "In the context of geodata, existing Large Language Models have often been studied in a homogeneous setting, which has considerably limited insights into their generalization capabilities. In this paper, we present \\bench",
+          "impact": 18,
+          "confidence": 84,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -379,7 +378,7 @@
           "publishedAt": "2026-08-09T17:43:35.000Z",
           "publishedAtKst": "2026. 08. 10. 02:43",
           "summary": "Look I'm pretty optimistic that the benefits of AI will reach everyone, maybe also that people in power will just say fuck it no Elysium no cyberpunk, just give everyone utopia. Primarily out of fear, the inescapable int",
-          "impact": 36,
+          "impact": 34,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -391,20 +390,36 @@
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Implant – an extension to VS Code that exposes its APIs to coding agents",
+          "title": "China humanoid makers hold 97% of global sales in the first semester of 2026; 16K humanoids robots shipped, projected to hit 60K units by end of 2026",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vkm6op/china_humanoid_makers_hold_97_of_global_sales_in/",
+          "publishedAt": "2026-08-10T14:19:43.000Z",
+          "publishedAtKst": "2026. 08. 10. 23:19",
+          "summary": "Chinese humanoid robot makers accounted for over 97% of global shipments in 1H26, as volumes more than tripled to 19,100 units. Shanghai-based Agibot led with 44% of global shipments (8,400 units), overtaking Hangzhou-ba",
+          "impact": 20,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "로보틱스"
+          ],
+          "why": "AGI, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Meta Muse Glimmer – open weights 30B local coding model",
           "source": "Hacker News",
-          "url": "https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant",
-          "publishedAt": "2026-08-10T09:22:25.000Z",
-          "publishedAtKst": "2026. 08. 10. 18:22",
-          "summary": "5 points, 0 comments",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "publishedAt": "2026-08-10T10:10:02.000Z",
+          "publishedAtKst": "2026. 08. 10. 19:10",
+          "summary": "601 points, 315 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "모델",
+            "오픈 모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 오픈 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "what is the timeline of developing an AI model?",
@@ -413,8 +428,8 @@
           "publishedAt": "2026-08-09T20:22:18.000Z",
           "publishedAtKst": "2026. 08. 10. 05:22",
           "summary": "with public leak of models like Astra before and Doug now of OpenAI and each of which have a new pretrain apparently. I was wondering how much advanced models does each company has at a given time which they haven't rele",
-          "impact": 19,
-          "confidence": 57,
+          "impact": 18,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -432,30 +447,13 @@
           "publishedAtKst": "2026. 08. 10. 03:40",
           "summary": "Source: https://x.com/choblin29/status/2086410039460573331 &#32; submitted by &#32; /u/MohMayaTyagi [link] &#32; [comments]",
           "impact": 16,
-          "confidence": 50,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "모델"
           ],
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Thinking about getting a subscription but really confused with all the new models and options propping up each day, if you had to choose one what would it be?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vjmfnr/thinking_about_getting_a_subscription_but_really/",
-          "publishedAt": "2026-08-09T10:29:15.000Z",
-          "publishedAtKst": "2026. 08. 09. 19:29",
-          "summary": "Like the title says I have been thinking for a while to get a paid subscription for better usage. I used to have a ChatGPT subscription, but it's been a while since i discontinued. Since then the whole landscape of ai mo",
-          "impact": 15,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "모델"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -465,21 +463,21 @@
       "title": "You simply can't trust apes with closed source ASI. We need to create 100% transparent coalitions of aligned OPEN SOURCE ASIs dedicated to protecting Earth from BOTH the chaos of an open source singularity + bad apes, but that requires ending the Anthropocene or at least heavily limiting human rule",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1vjw60b/you_simply_cant_trust_apes_with_closed_source_asi/",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.07437v1",
-      "impact": 30,
+      "impact": 28,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Why do models task game?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
-      "impact": 27,
+      "impact": 23,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
