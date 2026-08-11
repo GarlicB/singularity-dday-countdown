@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-11T04:12:13.940Z",
-  "generatedAtKst": "2026. 08. 11. 13:12",
-  "nextUpdateAt": "2026-08-11T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 11. 18:00",
+  "generatedAt": "2026-08-11T09:51:09.832Z",
+  "generatedAtKst": "2026. 08. 11. 18:51",
+  "nextUpdateAt": "2026-08-11T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 12. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 60,
+    "hotCount": 59,
     "coldCount": 5,
-    "summary": "가속 신호 60건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-10T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 09:00",
           "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-10T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 09:00",
           "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-10T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 09:00",
           "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-10T12:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 21:00",
           "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +331,7 @@
           "publishedAt": "2026-08-10T16:39:55.000Z",
           "publishedAtKst": "2026. 08. 11. 01:39",
           "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. Adaptation is pursu",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-08-10T16:05:58.000Z",
           "publishedAtKst": "2026. 08. 11. 01:05",
           "summary": "Answering complex conditional questions using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) remains a challenge, particularly in domain-specific contexts where general-purpose LLMs and RAG tend to",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,10 +366,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 49,
       "trend": "hot",
       "items": [
         {
@@ -379,8 +379,8 @@
           "publishedAt": "2026-08-11T01:18:38.000Z",
           "publishedAtKst": "2026. 08. 11. 10:18",
           "summary": "Using a mindless prompt, ChatGPT Sol found a candidate unconditional improvement to Anthropic’s bound for the proportion of Riemann zeta zeros that are both simple and on the critical line, raising it from 67.250070% to ",
-          "impact": 20,
-          "confidence": 53,
+          "impact": 19,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -396,8 +396,8 @@
           "publishedAt": "2026-08-10T14:19:43.000Z",
           "publishedAtKst": "2026. 08. 10. 23:19",
           "summary": "Chinese humanoid robot makers accounted for over 97% of global shipments in 1H26, as volumes more than tripled to 19,100 units. Shanghai-based Agibot led with 44% of global shipments (8,400 units), overtaking Hangzhou-ba",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -412,14 +412,29 @@
           "publishedAt": "2026-08-10T21:19:11.000Z",
           "publishedAtKst": "2026. 08. 11. 06:19",
           "summary": "Hi everyone, I'm a 4th year undergraduate student studying and doing research in theoretical CS. After seeing the recent advancements made by AI in mathematics, especially in graph theory, I bought a ChatGPT Pro subscrip",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Is Ai progress faster or slower than Ai 2027?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vknqjp/is_ai_progress_faster_or_slower_than_ai_2027/",
+          "publishedAt": "2026-08-10T15:17:22.000Z",
+          "publishedAtKst": "2026. 08. 11. 00:17",
+          "summary": "Based on the paper it seems like we’re hitting milestones that happen in 2027 in 2026 and much of what’s in 2026 happened already. Curious if anyone else feels that way or can challenge me on my belief? From a capability",
+          "impact": 13,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Mark Zuckerberg on X: \"I believe everyone should have access to superintelligence\"",
@@ -429,28 +444,12 @@
           "publishedAtKst": "2026. 08. 11. 02:11",
           "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
           "impact": 13,
-          "confidence": 48,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "초지능"
           ],
           "why": "초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A Watermark for Large Language Models",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2301.10226",
-          "publishedAt": "2026-08-10T22:48:28.000Z",
-          "publishedAtKst": "2026. 08. 11. 07:48",
-          "summary": "3 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
