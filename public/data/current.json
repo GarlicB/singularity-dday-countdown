@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-11T15:50:16.769Z",
-  "generatedAtKst": "2026. 08. 12. 00:50",
-  "nextUpdateAt": "2026-08-11T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 12. 06:00",
+  "generatedAt": "2026-08-11T21:35:55.844Z",
+  "generatedAtKst": "2026. 08. 12. 06:35",
+  "nextUpdateAt": "2026-08-12T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 12. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2035,
+    "rangeEnd": "2039-03-26",
+    "dday": 2080,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 58,
-    "coldCount": 6,
-    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 7,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Testing ads in ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/testing-ads-in-chatgpt",
+          "publishedAt": "2026-08-11T10:00:00.000Z",
+          "publishedAtKst": "2026. 08. 11. 19:00",
+          "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Premium seats are coming to ChatGPT Business",
           "source": "OpenAI News",
@@ -84,7 +100,7 @@
           "publishedAt": "2026-08-10T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 09:00",
           "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +116,7 @@
           "publishedAt": "2026-08-10T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 09:00",
           "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +132,7 @@
           "publishedAt": "2026-08-10T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 09:00",
           "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +148,7 @@
           "publishedAt": "2026-08-10T12:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 21:00",
           "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -140,21 +156,6 @@
             "모델"
           ],
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Evolve your marketing with new AI tools",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-          "publishedAt": "2026-08-10T14:30:00.000Z",
-          "publishedAtKst": "2026. 08. 10. 23:30",
-          "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -175,7 +176,7 @@
           "publishedAt": "2026-08-10T16:16:16.000Z",
           "publishedAtKst": "2026. 08. 11. 01:16",
           "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 36,
+          "impact": 35,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -264,30 +265,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Consilience for Verifier-Free Test-Time Scaling",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.09898v1",
-          "publishedAt": "2026-08-10T17:45:44.000Z",
-          "publishedAtKst": "2026. 08. 11. 02:45",
-          "summary": "Test-time scaling often uses an external verifier, such as compilers and test cases in coding or trained value functions in robotics applications, to obtain high-quality rollouts. Verifier-free test-time scaling (or VF-T",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "로보틱스"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
           "source": "arXiv",
@@ -325,22 +308,22 @@
           "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
+          "title": "Consilience for Verifier-Free Test-Time Scaling",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.09779v1",
-          "publishedAt": "2026-08-10T16:05:58.000Z",
-          "publishedAtKst": "2026. 08. 11. 01:05",
-          "summary": "Answering complex conditional questions using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) remains a challenge, particularly in domain-specific contexts where general-purpose LLMs and RAG tend to",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.09898v1",
+          "publishedAt": "2026-08-10T17:45:44.000Z",
+          "publishedAtKst": "2026. 08. 11. 02:45",
+          "summary": "Test-time scaling often uses an external verifier, such as compilers and test cases in coding or trained value functions in robotics applications, to obtain high-quality rollouts. Verifier-free test-time scaling (or VF-T",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "GPT",
             "LLM",
-            "모델"
+            "모델",
+            "로보틱스"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
@@ -349,7 +332,7 @@
           "publishedAt": "2026-08-10T16:39:55.000Z",
           "publishedAtKst": "2026. 08. 11. 01:39",
           "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. Adaptation is pursu",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -359,6 +342,24 @@
             "벤치마크"
           ],
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.09779v1",
+          "publishedAt": "2026-08-10T16:05:58.000Z",
+          "publishedAtKst": "2026. 08. 11. 01:05",
+          "summary": "Answering complex conditional questions using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) remains a challenge, particularly in domain-specific contexts where general-purpose LLMs and RAG tend to",
+          "impact": 27,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "GPT",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,135 +367,135 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 72,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vljb4r/did_pathway_just_reveal_the_architecture/",
-          "publishedAt": "2026-08-11T14:39:08.000Z",
-          "publishedAtKst": "2026. 08. 11. 23:39",
-          "summary": "Andrew Curran recently hinted at a major architectural breakthrough in memory efficiency, coming not from a big AI lab but from a team with ties to OpenAI: https://x.com/AndrewCurran_/status/2072076893730349409 Pathway h",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "추론 벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "\"do ur thang\" using a mindless GPT 5.6 Sol claims to improve upon Anthropic's Riemann hypothesis +0.002%",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vl3eqx/do_ur_thang_using_a_mindless_gpt_56_sol_claims_to/",
-          "publishedAt": "2026-08-11T01:18:38.000Z",
-          "publishedAtKst": "2026. 08. 11. 10:18",
-          "summary": "Using a mindless prompt, ChatGPT Sol found a candidate unconditional improvement to Anthropic’s bound for the proportion of Riemann zeta zeros that are both simple and on the critical line, raising it from 67.250070% to ",
-          "impact": 18,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "컴퓨트"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Can Agents Use a Computer Yet?",
-          "source": "Hacker News",
-          "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-          "publishedAt": "2026-08-11T15:47:41.000Z",
-          "publishedAtKst": "2026. 08. 12. 00:47",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "title": "We built the Agentic World Cup - LLMs that compete in 1v1 Soccer. [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vllvmn/we_built_the_agentic_world_cup_llms_that_compete/",
+          "publishedAt": "2026-08-11T16:12:11.000Z",
+          "publishedAtKst": "2026. 08. 12. 01:12",
+          "summary": "Hey everyone - we've been building something particularly relevant to ML at large - The Agentic World Cup - a platform where Agents compete in sports . As you know, today's Agents can code , do math , and write - but the",
+          "impact": 27,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "컴퓨트"
+            "LLM",
+            "벤치마크",
+            "고난도 평가"
           ],
-          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Stealing Reasoning Traces from Proprietary LLM APIs [pdf]",
-          "source": "Hacker News",
-          "url": "https://stolen-thoughts.com/paper.pdf",
-          "publishedAt": "2026-08-11T15:30:22.000Z",
-          "publishedAtKst": "2026. 08. 12. 00:30",
-          "summary": "2 points, 0 comments",
+          "title": "HyperSAE: Decoupled Poincaré Geometry for Sparse Autoencoders -- 9.8% MSE reduction, 0.2% dead latents on Gemma-2-2B [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincaré_geometry_for_sparse/",
+          "publishedAt": "2026-08-11T18:37:18.000Z",
+          "publishedAtKst": "2026. 08. 12. 03:37",
+          "summary": "I built HyperSAE, a PyTorch library that applies Poincaré hyperbolic geometry to Sparse Autoencoders for mechanistic interpretability. GitHub: https://github.com/vishal-dehurdle/hypersae Paper: https://vishalvermalabs.co",
+          "impact": 17,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "벤치마크",
+            "추론 인프라"
+          ],
+          "why": "LLM, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Continued development of the model based on the SSN [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vlrajq/continued_development_of_the_model_based_on_the/",
+          "publishedAt": "2026-08-11T19:25:06.000Z",
+          "publishedAtKst": "2026. 08. 12. 04:25",
+          "summary": "Back after ~6 months — rebuilding my spiking language model around CPU-first inference Hey everyone. It’s been around six months since I last posted anything about this project here. Some of you might remember Project NO",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "LLM"
+            "모델",
+            "벤치마크",
+            "추론 인프라"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Imbalance Conjecture proven and Teschner’s bondage-number conjecture disproven by AI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vkxpob/imbalance_conjecture_proven_and_teschners/",
-          "publishedAt": "2026-08-10T21:19:11.000Z",
-          "publishedAtKst": "2026. 08. 11. 06:19",
-          "summary": "Hi everyone, I'm a 4th year undergraduate student studying and doing research in theoretical CS. After seeing the recent advancements made by AI in mathematics, especially in graph theory, I bought a ChatGPT Pro subscrip",
-          "impact": 13,
-          "confidence": 48,
+          "title": "Emergent Introspective Awareness in Large Language Models",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2601.01828",
+          "publishedAt": "2026-08-11T21:14:10.000Z",
+          "publishedAtKst": "2026. 08. 12. 06:14",
+          "summary": "3 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "LLM",
+            "모델"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Asked AI to do a mini math breakthrough. It did a mini breakthrough",
+          "source": "Hacker News",
+          "url": "https://github.com/learademacher/ai-refines-ai-zeta-bound",
+          "publishedAt": "2026-08-11T21:17:08.000Z",
+          "publishedAtKst": "2026. 08. 12. 06:17",
+          "summary": "3 points, 1 comments",
+          "impact": 11,
+          "confidence": 54,
+          "stance": "watch",
+          "tags": [
+            "돌파"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Four LLM loss functions → four flavors of LLM misalignment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vljb4r/did_pathway_just_reveal_the_architecture/",
+      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.09888v1",
       "impact": 36,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Consilience for Verifier-Free Test-Time Scaling",
+      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.09898v1",
+      "url": "http://arxiv.org/abs/2608.09802v1",
       "impact": 36,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Four LLM loss functions → four flavors of LLM misalignment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
+      "impact": 35,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "AI Is Accelerating Vulnerability Discovery",
-      "source": "Hacker News",
-      "url": "https://ai-updates.net/ai-accelerating-vulnerability-discovery-inventory/",
-      "impact": -3,
-      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Agentic Harnesses: LLM-Driven Verification Layers for Robot Autonomy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.09857v1",
       "impact": 0,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/",
+      "impact": 2,
+      "reason": "편향 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Returning to ARC",
