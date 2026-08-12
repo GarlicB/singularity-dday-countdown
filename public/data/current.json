@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T09:53:49.174Z",
-  "generatedAtKst": "2026. 08. 12. 18:53",
-  "nextUpdateAt": "2026-08-12T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 13. 00:00",
+  "generatedAt": "2026-08-12T15:51:19.581Z",
+  "generatedAtKst": "2026. 08. 13. 00:51",
+  "nextUpdateAt": "2026-08-12T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 13. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-07-15",
+    "medianDate": "2033-05-31",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-07-08",
-    "dday": 2529,
-    "confidence": 75,
-    "deltaDays": -30,
+    "rangeEnd": "2040-06-13",
+    "dday": 2484,
+    "confidence": 74,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 70,
-    "temperature": 48,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 30,
+    "hotCount": 31,
     "coldCount": 4,
-    "summary": "가속 신호 30건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 31건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,29 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
-      "delta": 6,
+      "score": 78,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "From assistance to execution: How enterprises put AI to work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+          "publishedAt": "2026-08-12T06:00:00.000Z",
+          "publishedAtKst": "2026. 08. 12. 15:00",
+          "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Testing ads in ChatGPT",
           "source": "OpenAI News",
@@ -94,52 +111,20 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Premium seats are coming to ChatGPT Business",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/premium-seats-chatgpt-business",
-          "publishedAt": "2026-08-10T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 10. 09:00",
-          "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-          "impact": 17,
+          "title": "Putting sign language AI into users’ hands",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+          "publishedAt": "2026-08-12T14:01:59.000Z",
+          "publishedAtKst": "2026. 08. 12. 23:01",
+          "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "모델",
+            "돌파"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/zapier",
-          "publishedAt": "2026-08-10T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 10. 09:00",
-          "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-          "publishedAt": "2026-08-10T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 10. 09:00",
-          "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
@@ -156,6 +141,22 @@
             "모델"
           ],
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Premium seats are coming to ChatGPT Business",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/premium-seats-chatgpt-business",
+          "publishedAt": "2026-08-10T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 10. 09:00",
+          "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -176,7 +177,7 @@
           "publishedAt": "2026-08-10T16:16:16.000Z",
           "publishedAtKst": "2026. 08. 11. 01:16",
           "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 31,
+          "impact": 29,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -275,8 +276,8 @@
           "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
           "source": "arXiv 점검",
           "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-08-12T09:53:49.174Z",
-          "publishedAtKst": "2026. 08. 12. 18:53",
+          "publishedAt": "2026-08-12T15:51:19.581Z",
+          "publishedAtKst": "2026. 08. 13. 00:51",
           "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
           "impact": 5,
           "confidence": 65,
@@ -290,30 +291,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 51,
       "trend": "hot",
       "items": [
-        {
-          "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vljb4r/did_pathway_just_reveal_the_architecture/",
-          "publishedAt": "2026-08-11T14:39:08.000Z",
-          "publishedAtKst": "2026. 08. 11. 23:39",
-          "summary": "Andrew Curran recently hinted at a major architectural breakthrough in memory efficiency, coming not from a big AI lab but from a team with ties to OpenAI: https://x.com/AndrewCurran_/status/2072076893730349409 Pathway h",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "추론 벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Could AI create a new coding language that was incredibly token efficient to work with?",
           "source": "r/singularity",
@@ -321,7 +304,7 @@
           "publishedAt": "2026-08-11T16:56:04.000Z",
           "publishedAtKst": "2026. 08. 12. 01:56",
           "summary": "I asked gpt about this, and it said yes, and gave some good examples of how some python code might look like in a new language, where the language was indeciferable to us, and very short. This concept must surely have be",
-          "impact": 20,
+          "impact": 19,
           "confidence": 52,
           "stance": "accelerate",
           "tags": [
@@ -331,20 +314,38 @@
           "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ChatGPT Desktop with wider support now in preview.",
+          "title": "DeepMind just released SL2T, sign language-to-text model, deaf users can now sign into their phones instead of typing, developed with heavy input from the Deaf community",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vlq75e/chatgpt_desktop_with_wider_support_now_in_preview/",
-          "publishedAt": "2026-08-11T18:45:54.000Z",
-          "publishedAtKst": "2026. 08. 12. 03:45",
-          "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "url": "https://www.reddit.com/r/singularity/comments/1vmflo1/deepmind_just_released_sl2t_sign_languagetotext/",
+          "publishedAt": "2026-08-12T14:24:01.000Z",
+          "publishedAtKst": "2026. 08. 12. 23:24",
+          "summary": "Deaf users can now sign into their phones instead of typing. This feels like one of those quiet but huge accessibility + AI milestones. The model reads simultaneous hand, body, and facial movements and turns them into En",
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "모델",
+            "벤치마크",
+            "SOTA"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Samsung Electronics reported efficiency gains due to using Claude models.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vmavo4/samsung_electronics_reported_efficiency_gains_due/",
+          "publishedAt": "2026-08-12T10:58:32.000Z",
+          "publishedAtKst": "2026. 08. 12. 19:58",
+          "summary": "Samsung Electronics has been confirmed to have adopted Anthropic's large language model Claude, sharply reducing the time required for some semiconductor design and verification work, according to Korean media reports. T",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Emergent Introspective Awareness in Large Language Models",
@@ -352,9 +353,9 @@
           "url": "https://arxiv.org/abs/2601.01828",
           "publishedAt": "2026-08-11T21:14:10.000Z",
           "publishedAtKst": "2026. 08. 12. 06:14",
-          "summary": "59 points, 30 comments",
+          "summary": "66 points, 30 comments",
           "impact": 13,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -363,37 +364,38 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What do you think society after AGI, self-improving AI and ASI will look like?",
+          "title": "ChatGPT Desktop with wider support now in preview.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vlk4x8/what_do_you_think_society_after_agi_selfimproving/",
-          "publishedAt": "2026-08-11T15:09:47.000Z",
-          "publishedAtKst": "2026. 08. 12. 00:09",
-          "summary": "I used to assume everybody on this sub more-or-less has the same vision about what exactly the trajectory is. But as I read the comments here, that seems to not be the case. There seem to be many diverse opinions on what",
+          "url": "https://www.reddit.com/r/singularity/comments/1vlq75e/chatgpt_desktop_with_wider_support_now_in_preview/",
+          "publishedAt": "2026-08-11T18:45:54.000Z",
+          "publishedAtKst": "2026. 08. 12. 03:45",
+          "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
           "impact": 13,
-          "confidence": 48,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vljb4r/did_pathway_just_reveal_the_architecture/",
-      "impact": 36,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Four LLM loss functions → four flavors of LLM misalignment",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-      "impact": 31,
+      "impact": 29,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "impact": 28,
+      "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
@@ -405,18 +407,18 @@
   ],
   "topDampeners": [
     {
-      "title": "An Advanced Attacker Is Targeting Salesforce and ServiceNow",
-      "source": "Hacker News",
-      "url": "https://www.reco.ai/blog/city-forum-campaign-salesforce-servicenow",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Watermarking LLM Outputs is Going to be Standard Thanks to EU Regulations",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1vlrvkd/watermarking_llm_outputs_is_going_to_be_standard/",
       "impact": 1,
       "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "China-linked hackers hit Taiwan in unprecedented 'autonomous' AI cyber attack",
+      "source": "Hacker News",
+      "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
+      "impact": 3,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Returning to ARC",
