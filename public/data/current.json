@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T04:44:50.242Z",
-  "generatedAtKst": "2026. 08. 13. 13:44",
-  "nextUpdateAt": "2026-08-13T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 13. 18:00",
+  "generatedAt": "2026-08-13T09:53:23.835Z",
+  "generatedAtKst": "2026. 08. 13. 18:53",
+  "nextUpdateAt": "2026-08-13T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 14. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
-    "coldCount": 8,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 56,
+    "coldCount": 9,
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-12T06:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 15:00",
           "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-08-12T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 09:00",
           "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -149,7 +149,7 @@
           "publishedAt": "2026-08-10T12:00:00.000Z",
           "publishedAtKst": "2026. 08. 10. 21:00",
           "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -177,7 +177,7 @@
           "publishedAt": "2026-08-10T16:16:16.000Z",
           "publishedAtKst": "2026. 08. 11. 01:16",
           "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 25,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -273,24 +273,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.12307v1",
-          "publishedAt": "2026-08-12T17:53:18.000Z",
-          "publishedAtKst": "2026. 08. 13. 02:53",
-          "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In thi",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.12290v1",
@@ -327,13 +309,31 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.12307v1",
+          "publishedAt": "2026-08-12T17:53:18.000Z",
+          "publishedAtKst": "2026. 08. 13. 02:53",
+          "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In thi",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.12246v1",
           "publishedAt": "2026-08-12T16:45:49.000Z",
           "publishedAtKst": "2026. 08. 13. 01:45",
           "summary": "Evaluating security vulnerability detection tools requires benchmark datasets with vulnerability-inducing commits (VICs) - the commits that first introduce vulnerabilities into codebases. VICs are essential for determini",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-08-12T16:55:50.000Z",
           "publishedAtKst": "2026. 08. 13. 01:55",
           "summary": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failur",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,12 +368,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
+      "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 50,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+          "source": "Hacker News",
+          "url": "https://www.codewithbullet.com",
+          "publishedAt": "2026-08-13T08:14:30.000Z",
+          "publishedAtKst": "2026. 08. 13. 17:14",
+          "summary": "4 points, 1 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "DeepMind just released SL2T, sign language-to-text model, deaf users can now sign into their phones instead of typing, developed with heavy input from the Deaf community",
           "source": "r/singularity",
@@ -382,7 +398,7 @@
           "publishedAtKst": "2026. 08. 12. 23:24",
           "summary": "Deaf users can now sign into their phones instead of typing. This feels like one of those quiet but huge accessibility + AI milestones. The model reads simultaneous hand, body, and facial movements and turns them into En",
           "impact": 16,
-          "confidence": 50,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -392,14 +408,30 @@
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "AI Agents Enable Adaptive Computer Worms",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2606.03811",
+          "publishedAt": "2026-08-13T08:52:44.000Z",
+          "publishedAtKst": "2026. 08. 13. 17:52",
+          "summary": "4 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "컴퓨트"
+          ],
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Samsung Electronics reported efficiency gains due to using Claude models.",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vmavo4/samsung_electronics_reported_efficiency_gains_due/",
           "publishedAt": "2026-08-12T10:58:32.000Z",
           "publishedAtKst": "2026. 08. 12. 19:58",
           "summary": "Samsung Electronics has been confirmed to have adopted Anthropic's large language model Claude, sharply reducing the time required for some semiconductor design and verification work, according to Korean media reports. T",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "Claude",
@@ -409,63 +441,25 @@
           "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+          "title": "If I own Claude's outputs why can't I train my own model on them?",
           "source": "Hacker News",
-          "url": "https://discoveredmaterials.com/research/",
-          "publishedAt": "2026-08-12T07:51:20.000Z",
-          "publishedAtKst": "2026. 08. 12. 16:51",
-          "summary": "128 points, 28 comments",
-          "impact": 12,
-          "confidence": 53,
+          "url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+          "publishedAt": "2026-08-13T09:34:13.000Z",
+          "publishedAtKst": "2026. 08. 13. 18:34",
+          "summary": "3 points, 0 comments",
+          "impact": 13,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Emergent Introspective Awareness in Large Language Models",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2601.01828",
-          "publishedAt": "2026-08-11T21:14:10.000Z",
-          "publishedAtKst": "2026. 08. 12. 06:14",
-          "summary": "72 points, 33 comments",
-          "impact": 12,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
+            "Claude",
             "모델"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agentic AI could push CPU-to-GPU ratios from 1:4 toward 1:1 according to AMD",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vm9mh6/agentic_ai_could_push_cputogpu_ratios_from_14/",
-          "publishedAt": "2026-08-12T09:50:41.000Z",
-          "publishedAtKst": "2026. 08. 12. 18:50",
-          "summary": "At OCP APAC 2026, AMD said the progress from chatbots to agentic AI is increasing CPU demand alongside GPU fast usage, potentially moving the traditional ratio from roughly 1:4 toward 1:2 or even 1:1 But the logic makes ",
-          "impact": 12,
-          "confidence": 46,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론 인프라"
-          ],
-          "why": "에이전트, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Claude, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12307v1",
-      "impact": 36,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
       "source": "arXiv",
@@ -479,29 +473,36 @@
       "url": "http://arxiv.org/abs/2608.12262v1",
       "impact": 36,
       "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.12307v1",
+      "impact": 35,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "White House creates framework for private companies to launch government authorized cyberattacks",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vn0oww/white_house_creates_framework_for_private/",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Boltz shuts down Bitcoin swaps, citing AI attacks outpacing patching",
+      "source": "Hacker News",
+      "url": "https://davidebtc186.substack.com/p/ai-vs-ai-how-boltzs-shutdown-reveals",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Chief Scientist of Redwood Research (AI safety lab) Ryan Greenblatt’s best guess prediction for AI progress over the next few years",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1vmxl8k/chief_scientist_of_redwood_research_ai_safety_lab/",
       "impact": -2,
       "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12198v1",
-      "impact": 2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Machine Learning-Based Cyber Defense for Cloud Infrastructure: An Adaptive Deep Q-Network Architecture for Intelligent Intrusion Detection and Automated Threat Mitigation",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12190v1",
-      "impact": 3,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
