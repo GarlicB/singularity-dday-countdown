@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T04:42:25.671Z",
-  "generatedAtKst": "2026. 08. 14. 13:42",
-  "nextUpdateAt": "2026-08-14T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 14. 18:00",
+  "generatedAt": "2026-08-14T09:51:53.141Z",
+  "generatedAtKst": "2026. 08. 14. 18:51",
+  "nextUpdateAt": "2026-08-14T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 15. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2032,
+    "rangeEnd": "2039-03-26",
+    "dday": 2077,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
-    "coldCount": 6,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 53,
+    "coldCount": 5,
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -101,7 +101,7 @@
           "publishedAt": "2026-08-12T06:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 15:00",
           "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -128,22 +128,6 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Putting sign language AI into users’ hands",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-          "publishedAt": "2026-08-12T14:01:59.000Z",
-          "publishedAtKst": "2026. 08. 12. 23:01",
-          "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "돌파"
-          ],
-          "why": "모델, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
           "source": "OpenAI News",
           "url": "https://openai.com/index/previewing-ultrafast",
@@ -157,6 +141,22 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Putting sign language AI into users’ hands",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+          "publishedAt": "2026-08-12T14:01:59.000Z",
+          "publishedAtKst": "2026. 08. 12. 23:01",
+          "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "모델",
+            "돌파"
+          ],
+          "why": "모델, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,7 +164,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.18,
       "confidence": 82,
@@ -249,7 +249,7 @@
           "publishedAt": "2026-08-10T16:16:16.000Z",
           "publishedAtKst": "2026. 08. 11. 01:16",
           "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 17,
+          "impact": 16,
           "confidence": 81,
           "stance": "accelerate",
           "tags": [
@@ -266,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -351,7 +351,7 @@
           "publishedAt": "2026-08-13T17:57:20.000Z",
           "publishedAtKst": "2026. 08. 14. 02:57",
           "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
-      "delta": 6,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -380,9 +380,9 @@
           "url": "https://www.codewithbullet.com",
           "publishedAt": "2026-08-13T08:14:30.000Z",
           "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "90 points, 61 comments",
-          "impact": 19,
-          "confidence": 60,
+          "summary": "98 points, 74 comments",
+          "impact": 20,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -397,7 +397,7 @@
           "publishedAt": "2026-08-13T19:01:53.000Z",
           "publishedAtKst": "2026. 08. 14. 04:01",
           "summary": "2 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -423,36 +423,35 @@
           "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini 3.7 Flash Benchmark just released.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vngpvl/gemini_37_flash_benchmark_just_released/",
-          "publishedAt": "2026-08-13T17:07:44.000Z",
-          "publishedAtKst": "2026. 08. 14. 02:07",
-          "summary": "&#32; submitted by &#32; /u/virtualQubit [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "title": "Scalable watermarking for identifying large language model outputs",
+          "source": "Hacker News",
+          "url": "https://www.nature.com/articles/s41586-024-08025-4",
+          "publishedAt": "2026-08-14T09:37:11.000Z",
+          "publishedAtKst": "2026. 08. 14. 18:37",
+          "summary": "2 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "Gemini",
-            "벤치마크"
+            "LLM",
+            "모델"
           ],
-          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OpenAI begins rolling out gifting credits in ChatGPT. (Source in comments)",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vn1gr9/openai_begins_rolling_out_gifting_credits_in/",
-          "publishedAt": "2026-08-13T05:13:53.000Z",
-          "publishedAtKst": "2026. 08. 13. 14:13",
-          "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 47,
-          "stance": "accelerate",
+          "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+          "source": "Hacker News",
+          "url": "https://discoveredmaterials.com/research/",
+          "publishedAt": "2026-08-12T07:51:20.000Z",
+          "publishedAtKst": "2026. 08. 12. 16:51",
+          "summary": "157 points, 35 comments",
+          "impact": 11,
+          "confidence": 50,
+          "stance": "watch",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "에이전트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -482,13 +481,6 @@
   ],
   "topDampeners": [
     {
-      "title": "Equivariant learning of a transferable three-dimensional classical density functional",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.13506v1",
-      "impact": 2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13453v1",
@@ -501,6 +493,13 @@
       "url": "http://arxiv.org/abs/2608.13461v1",
       "impact": 4,
       "reason": "편향, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Returning to ARC",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "impact": 7,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
