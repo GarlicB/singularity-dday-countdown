@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T09:51:53.141Z",
-  "generatedAtKst": "2026. 08. 14. 18:51",
-  "nextUpdateAt": "2026-08-14T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 15. 00:00",
+  "generatedAt": "2026-08-14T15:41:35.889Z",
+  "generatedAtKst": "2026. 08. 15. 00:41",
+  "nextUpdateAt": "2026-08-14T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 15. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2077,
+    "rangeEnd": "2039-02-09",
+    "dday": 2032,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 53,
     "coldCount": 5,
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-13T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 13. 20:00",
           "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-08-12T06:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 15:00",
           "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-08-12T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 09:00",
           "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -126,21 +126,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "publishedAt": "2026-08-13T10:00:00.000Z",
-          "publishedAtKst": "2026. 08. 13. 19:00",
-          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Putting sign language AI into users’ hands",
@@ -157,6 +142,21 @@
             "돌파"
           ],
           "why": "모델, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "publishedAt": "2026-08-13T10:00:00.000Z",
+          "publishedAtKst": "2026. 08. 13. 19:00",
+          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -249,7 +249,7 @@
           "publishedAt": "2026-08-10T16:16:16.000Z",
           "publishedAtKst": "2026. 08. 11. 01:16",
           "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 16,
+          "impact": 14,
           "confidence": 81,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-08-13T17:57:20.000Z",
           "publishedAtKst": "2026. 08. 14. 02:57",
           "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,27 +368,61 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+          "title": "Show HN: Remarc – contextual feedback for coding agents via MCP",
           "source": "Hacker News",
-          "url": "https://www.codewithbullet.com",
-          "publishedAt": "2026-08-13T08:14:30.000Z",
-          "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "98 points, 74 comments",
-          "impact": 20,
-          "confidence": 59,
+          "url": "https://github.com/metedata/Remarc",
+          "publishedAt": "2026-08-14T15:35:23.000Z",
+          "publishedAtKst": "2026. 08. 15. 00:35",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+          "source": "Hacker News",
+          "url": "https://www.codewithbullet.com",
+          "publishedAt": "2026-08-13T08:14:30.000Z",
+          "publishedAtKst": "2026. 08. 13. 17:14",
+          "summary": "104 points, 76 comments",
+          "impact": 19,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Reproducible canvas-aligned low-level patterns in somerandomllm-generated images and their possible relation to iterative editing artifacts [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vnq08v/reproducible_canvasaligned_lowlevel_patterns_in/",
+          "publishedAt": "2026-08-13T22:52:35.000Z",
+          "publishedAtKst": "2026. 08. 14. 07:52",
+          "summary": "I may have stumbled onto something interesting while trying to figure out a recurring artifact in ChatGPT image generation and editing (maybe applicable to other models as well?). It started with a very practical problem",
+          "impact": 18,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "LLM",
+            "모델"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Nine AI demo-agent landing pages: a 30-point conversion benchmark",
@@ -407,51 +441,20 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini 3.7 flash benchmark",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vnguad/gemini_37_flash_benchmark/",
-          "publishedAt": "2026-08-13T17:12:09.000Z",
-          "publishedAtKst": "2026. 08. 14. 02:12",
-          "summary": "&#32; submitted by &#32; /u/Expensive_Syrup_6529 [link] &#32; [comments]",
+          "title": "For the people who got reviews back from neurips, cvpr, eccv, etc and also tested their paper through an agentic reviewer like the stanford one, how different were the reviews? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vo5vdm/for_the_people_who_got_reviews_back_from_neurips/",
+          "publishedAt": "2026-08-14T12:26:29.000Z",
+          "publishedAtKst": "2026. 08. 14. 21:26",
+          "summary": "Hello, I was curious about the differences you can get from the human reviewers and the llms. Any insight is welcome, thank you! &#32; submitted by &#32; /u/obliviousphoenix2003 [link] &#32; [comments]",
           "impact": 14,
-          "confidence": 48,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "Gemini",
-            "벤치마크"
+            "에이전트",
+            "LLM"
           ],
-          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Scalable watermarking for identifying large language model outputs",
-          "source": "Hacker News",
-          "url": "https://www.nature.com/articles/s41586-024-08025-4",
-          "publishedAt": "2026-08-14T09:37:11.000Z",
-          "publishedAtKst": "2026. 08. 14. 18:37",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
-          "source": "Hacker News",
-          "url": "https://discoveredmaterials.com/research/",
-          "publishedAt": "2026-08-12T07:51:20.000Z",
-          "publishedAtKst": "2026. 08. 12. 16:51",
-          "summary": "157 points, 35 comments",
-          "impact": 11,
-          "confidence": 50,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
