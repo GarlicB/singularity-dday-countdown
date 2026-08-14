@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T21:34:58.942Z",
-  "generatedAtKst": "2026. 08. 14. 06:34",
-  "nextUpdateAt": "2026-08-14T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 14. 12:00",
+  "generatedAt": "2026-08-14T04:42:25.671Z",
+  "generatedAtKst": "2026. 08. 14. 13:42",
+  "nextUpdateAt": "2026-08-14T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 14. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-02-09",
-    "dday": 2033,
+    "dday": 2032,
     "confidence": 76,
     "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,16 +25,16 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
-    "coldCount": 8,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 6,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 70,
-      "delta": 4,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 46,
-      "delta": -1,
-      "tone": "watch"
+      "value": 76,
+      "delta": 5,
+      "tone": "hot"
     }
   ],
   "categories": [
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-13T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 13. 20:00",
           "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-08-12T06:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 15:00",
           "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-08-12T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 09:00",
           "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-08-12T14:01:59.000Z",
           "publishedAtKst": "2026. 08. 12. 23:01",
           "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -225,24 +225,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Four LLM loss functions → four flavors of LLM misalignment",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-          "publishedAt": "2026-08-10T16:16:16.000Z",
-          "publishedAtKst": "2026. 08. 11. 01:16",
-          "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 20,
-          "confidence": 81,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "GPT"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "User awareness in frontier models",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
@@ -259,6 +241,24 @@
             "프런티어 모델"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Four LLM loss functions → four flavors of LLM misalignment",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
+          "publishedAt": "2026-08-10T16:16:16.000Z",
+          "publishedAtKst": "2026. 08. 11. 01:16",
+          "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
+          "impact": 17,
+          "confidence": 81,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "GPT"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,101 +266,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
-      "delta": 10,
+      "score": 94,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+          "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.12290v1",
-          "publishedAt": "2026-08-12T17:35:16.000Z",
-          "publishedAtKst": "2026. 08. 13. 02:35",
-          "summary": "Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Th",
+          "url": "http://arxiv.org/abs/2608.13560v1",
+          "publishedAt": "2026-08-13T17:59:57.000Z",
+          "publishedAtKst": "2026. 08. 14. 02:59",
+          "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should a",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "자율성",
             "자기개선",
-            "LLM",
-            "모델"
+            "Claude"
           ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Diagram-MMU: A Multi-Modal Benchmark for Scientific Diagrams",
+          "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.12262v1",
-          "publishedAt": "2026-08-12T17:04:13.000Z",
-          "publishedAtKst": "2026. 08. 13. 02:04",
-          "summary": "Multimodal Large Language Models (MLLMs) have been growing the capability for scientific writing and collaboration. For example, OpenAI Prism is a free workspace for scientific writing and collaboration. One important fe",
+          "url": "http://arxiv.org/abs/2608.13558v1",
+          "publishedAt": "2026-08-13T17:59:52.000Z",
+          "publishedAtKst": "2026. 08. 14. 02:59",
+          "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Claude",
+            "자율성",
+            "AI 연구 자동화",
+            "추론"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.13517v1",
+          "publishedAt": "2026-08-13T17:37:53.000Z",
+          "publishedAtKst": "2026. 08. 14. 02:37",
+          "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
             "LLM",
             "모델"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+          "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.12307v1",
-          "publishedAt": "2026-08-12T17:53:18.000Z",
-          "publishedAtKst": "2026. 08. 13. 02:53",
-          "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In thi",
-          "impact": 32,
+          "url": "http://arxiv.org/abs/2608.13463v1",
+          "publishedAt": "2026-08-13T16:45:24.000Z",
+          "publishedAtKst": "2026. 08. 14. 01:45",
+          "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image c",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
+            "에이전트",
+            "자율성",
             "추론",
-            "모델",
-            "벤치마크"
+            "LLM"
           ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
+          "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.12246v1",
-          "publishedAt": "2026-08-12T16:45:49.000Z",
-          "publishedAtKst": "2026. 08. 13. 01:45",
-          "summary": "Evaluating security vulnerability detection tools requires benchmark datasets with vulnerability-inducing commits (VICs) - the commits that first introduce vulnerabilities into codebases. VICs are essential for determini",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "LLM",
-            "벤치마크"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.12253v1",
-          "publishedAt": "2026-08-12T16:55:50.000Z",
-          "publishedAtKst": "2026. 08. 13. 01:55",
-          "summary": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failur",
-          "impact": 30,
+          "url": "http://arxiv.org/abs/2608.13547v1",
+          "publishedAt": "2026-08-13T17:57:20.000Z",
+          "publishedAtKst": "2026. 08. 14. 02:57",
+          "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "GPT",
             "LLM",
-            "모델",
-            "벤치마크"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
@@ -380,7 +380,7 @@
           "url": "https://www.codewithbullet.com",
           "publishedAt": "2026-08-13T08:14:30.000Z",
           "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "62 points, 38 comments",
+          "summary": "90 points, 61 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -397,8 +397,8 @@
           "publishedAt": "2026-08-13T19:01:53.000Z",
           "publishedAtKst": "2026. 08. 14. 04:01",
           "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -413,8 +413,8 @@
           "publishedAt": "2026-08-13T17:12:09.000Z",
           "publishedAtKst": "2026. 08. 14. 02:12",
           "summary": "&#32; submitted by &#32; /u/Expensive_Syrup_6529 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -429,8 +429,8 @@
           "publishedAt": "2026-08-13T17:07:44.000Z",
           "publishedAtKst": "2026. 08. 14. 02:07",
           "summary": "&#32; submitted by &#32; /u/virtualQubit [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -445,8 +445,8 @@
           "publishedAt": "2026-08-13T05:13:53.000Z",
           "publishedAtKst": "2026. 08. 13. 14:13",
           "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -459,48 +459,48 @@
   ],
   "topDrivers": [
     {
-      "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12290v1",
+      "url": "http://arxiv.org/abs/2608.13560v1",
       "impact": 36,
-      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Diagram-MMU: A Multi-Modal Benchmark for Scientific Diagrams",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12262v1",
+      "url": "http://arxiv.org/abs/2608.13558v1",
       "impact": 36,
-      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12307v1",
-      "impact": 32,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2608.13517v1",
+      "impact": 36,
+      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "White House creates framework for private companies to launch government authorized cyberattacks",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vn0oww/white_house_creates_framework_for_private/",
-      "impact": -10,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Chief Scientist of Redwood Research (AI safety lab) Ryan Greenblatt’s best guess prediction for AI progress over the next few years",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vmxl8k/chief_scientist_of_redwood_research_ai_safety_lab/",
-      "impact": -1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Machine Learning-Based Cyber Defense for Cloud Infrastructure: An Adaptive Deep Q-Network Architecture for Intelligent Intrusion Detection and Automated Threat Mitigation",
+      "title": "Equivariant learning of a transferable three-dimensional classical density functional",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.12190v1",
+      "url": "http://arxiv.org/abs/2608.13506v1",
+      "impact": 2,
+      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.13453v1",
       "impact": 3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Doubly Robust Estimation of Causal Effect on CVR with Targeted Regularization",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.13461v1",
+      "impact": 4,
+      "reason": "편향, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
