@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T21:15:59.204Z",
-  "generatedAtKst": "2026. 08. 15. 06:15",
-  "nextUpdateAt": "2026-08-15T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 15. 12:00",
+  "generatedAt": "2026-08-15T03:32:12.779Z",
+  "generatedAtKst": "2026. 08. 15. 12:32",
+  "nextUpdateAt": "2026-08-15T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 15. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-01-22",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2032,
+    "rangeEnd": "2038-12-26",
+    "dday": 1986,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -48,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 82,
+    "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
+    "hotCount": 54,
     "coldCount": 5,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-13T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 13. 20:00",
           "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-08-12T06:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 15:00",
           "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -110,21 +110,6 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "publishedAt": "2026-08-13T10:00:00.000Z",
-          "publishedAtKst": "2026. 08. 13. 19:00",
-          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How RingCentral builds AI-native work from engineering to ops",
@@ -143,19 +128,35 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing Gemini 3.7 Flash",
+          "title": "Putting sign language AI into users’ hands",
           "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-          "publishedAt": "2026-08-13T17:04:18.000Z",
-          "publishedAtKst": "2026. 08. 14. 02:04",
-          "summary": "",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+          "publishedAt": "2026-08-12T14:01:59.000Z",
+          "publishedAtKst": "2026. 08. 12. 23:01",
+          "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
           "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "Gemini"
+            "모델",
+            "돌파"
           ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "publishedAt": "2026-08-13T10:00:00.000Z",
+          "publishedAtKst": "2026. 08. 13. 19:00",
+          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -290,24 +291,6 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.13558v1",
-          "publishedAt": "2026-08-13T17:59:52.000Z",
-          "publishedAtKst": "2026. 08. 14. 02:59",
-          "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "AI 연구 자동화",
-            "추론"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.13463v1",
@@ -326,13 +309,31 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.13558v1",
+          "publishedAt": "2026-08-13T17:59:52.000Z",
+          "publishedAtKst": "2026. 08. 14. 02:59",
+          "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "AI 연구 자동화",
+            "추론"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.13517v1",
           "publishedAt": "2026-08-13T17:37:53.000Z",
           "publishedAtKst": "2026. 08. 14. 02:37",
           "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +351,7 @@
           "publishedAt": "2026-08-13T17:57:20.000Z",
           "publishedAtKst": "2026. 08. 14. 02:57",
           "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,12 +368,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 83,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "You can now build digital clones to do your work if you have a coding agent",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1voitnh/you_can_now_build_digital_clones_to_do_your_work/",
+          "publishedAt": "2026-08-14T20:37:59.000Z",
+          "publishedAtKst": "2026. 08. 15. 05:37",
+          "summary": "Built something over a weekend a few months back because I was tired of babysitting AI coding agents, approving every step, re-explaining context every session. So I made it wrap the agent I already used and just... lear",
+          "impact": 36,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "Claude",
+            "코딩 에이전트"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "A 150M param recurrent model scores 29.5% on ARC-AGI-1 at $0.0007 per task",
           "source": "r/singularity",
@@ -380,7 +399,7 @@
           "publishedAt": "2026-08-14T19:43:27.000Z",
           "publishedAtKst": "2026. 08. 15. 04:43",
           "summary": "Not a transformer. It's a recurrent latent reasoning setup that keeps \"thinking\" in latent space before answering. Sits completely outside the published cost/accuracy frontier for ARC-AGI, and something this size runs on",
-          "impact": 34,
+          "impact": 32,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -392,14 +411,32 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "\"Vision\" is the current bottleneck imo",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vo76vn/vision_is_the_current_bottleneck_imo/",
+          "publishedAt": "2026-08-14T13:23:22.000Z",
+          "publishedAtKst": "2026. 08. 14. 22:23",
+          "summary": "Blind people are obviously just as capable in some areas, but ask them to make a Minecraft clone (or an original video game with a focus on visual elements) and they'll really fucking struggle, not with the coding, but w",
+          "impact": 24,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "ChatGPT",
+            "GPT",
+            "LLM"
+          ],
+          "why": "추론, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
           "source": "Hacker News",
           "url": "https://www.codewithbullet.com",
           "publishedAt": "2026-08-13T08:14:30.000Z",
           "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "106 points, 80 comments",
-          "impact": 18,
-          "confidence": 57,
+          "summary": "107 points, 86 comments",
+          "impact": 17,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -414,8 +451,8 @@
           "publishedAt": "2026-08-14T09:40:48.000Z",
           "publishedAtKst": "2026. 08. 14. 18:40",
           "summary": "Claude managed to do some significant work on the Riemann Hypothesis increasing the provable lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis from 41.6% to 67.2% But ",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -423,53 +460,22 @@
             "모델"
           ],
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Nine AI demo-agent landing pages: a 30-point conversion benchmark",
-          "source": "Hacker News",
-          "url": "https://w24bd0kvaqatl5q4d67cvoiga5ccskw9.pastehtml.dev/",
-          "publishedAt": "2026-08-13T19:01:53.000Z",
-          "publishedAtKst": "2026. 08. 14. 04:01",
-          "summary": "2 points, 0 comments",
-          "impact": 13,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Self-bench – build SWE-bench style evals from private repos",
-          "source": "Hacker News",
-          "url": "https://github.com/mupt-ai/self-bench",
-          "publishedAt": "2026-08-14T16:01:50.000Z",
-          "publishedAtKst": "2026. 08. 15. 01:01",
-          "summary": "3 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "코딩 성능"
-          ],
-          "why": "코딩 성능 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "You can now build digital clones to do your work if you have a coding agent",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1voitnh/you_can_now_build_digital_clones_to_do_your_work/",
+      "impact": 36,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13560v1",
-      "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.13558v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
