@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T03:39:40.045Z",
-  "generatedAtKst": "2026. 08. 16. 12:39",
-  "nextUpdateAt": "2026-08-16T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 16. 18:00",
+  "generatedAt": "2026-08-16T09:17:48.270Z",
+  "generatedAtKst": "2026. 08. 16. 18:17",
+  "nextUpdateAt": "2026-08-16T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 17. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 77,
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
+    "hotCount": 51,
     "coldCount": 6,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-13T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 13. 20:00",
           "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -164,12 +164,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
       "items": [
+        {
+          "title": "Does DiffusionGemma do latent reasoning?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+          "publishedAt": "2026-08-16T04:22:18.000Z",
+          "publishedAtKst": "2026. 08. 16. 13:22",
+          "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
+          "impact": 35,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
           "source": "Alignment Forum",
@@ -241,24 +259,6 @@
             "프런티어 모델"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Four LLM loss functions → four flavors of LLM misalignment",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-          "publishedAt": "2026-08-10T16:16:16.000Z",
-          "publishedAtKst": "2026. 08. 11. 01:16",
-          "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 14,
-          "confidence": 81,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "GPT"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 84,
-      "delta": 9,
+      "score": 82,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 91,
+      "confidence": 89,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +279,8 @@
           "publishedAt": "2026-08-13T17:59:57.000Z",
           "publishedAtKst": "2026. 08. 14. 02:59",
           "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should a",
-          "impact": 28,
-          "confidence": 92,
+          "impact": 26,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -297,8 +297,8 @@
           "publishedAt": "2026-08-13T17:59:52.000Z",
           "publishedAtKst": "2026. 08. 14. 02:59",
           "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -315,8 +315,8 @@
           "publishedAt": "2026-08-13T16:45:24.000Z",
           "publishedAtKst": "2026. 08. 14. 01:45",
           "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image c",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -333,8 +333,8 @@
           "publishedAt": "2026-08-13T17:37:53.000Z",
           "publishedAtKst": "2026. 08. 14. 02:37",
           "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -351,8 +351,8 @@
           "publishedAt": "2026-08-13T17:57:20.000Z",
           "publishedAtKst": "2026. 08. 14. 02:57",
           "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
-          "impact": 23,
-          "confidence": 89,
+          "impact": 21,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -368,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -381,8 +381,8 @@
           "publishedAt": "2026-08-15T11:15:00.000Z",
           "publishedAtKst": "2026. 08. 15. 20:15",
           "summary": "1 points, 0 comments",
-          "impact": 23,
-          "confidence": 63,
+          "impact": 22,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -391,53 +391,6 @@
             "모델"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "ProofRun – a local verification receipt for AI coding agents",
-          "source": "Hacker News",
-          "url": "https://github.com/yebiguo/ProofRun",
-          "publishedAt": "2026-08-16T03:22:15.000Z",
-          "publishedAtKst": "2026. 08. 16. 12:22",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-          "source": "Hacker News",
-          "url": "https://www.codewithbullet.com",
-          "publishedAt": "2026-08-13T08:14:30.000Z",
-          "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "112 points, 88 comments",
-          "impact": 15,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I don’t think we’re psychologically prepared for how alien the world after ASI is going to be",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vphdpw/i_dont_think_were_psychologically_prepared_for/",
-          "publishedAt": "2026-08-15T23:30:42.000Z",
-          "publishedAtKst": "2026. 08. 16. 08:30",
-          "summary": "gonna start by saying I’m feeling very iffy about ASI because I kinda enjoy my life rn, but that aside: after going down the AI 2040 rabbithole, I keep thinking that even people who talk about ASI constantly are still im",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "1Password's new benchmark teaches AI agents how not to get scammed",
@@ -454,40 +407,89 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+          "source": "Hacker News",
+          "url": "https://www.codewithbullet.com",
+          "publishedAt": "2026-08-13T08:14:30.000Z",
+          "publishedAtKst": "2026. 08. 13. 17:14",
+          "summary": "113 points, 88 comments",
+          "impact": 14,
+          "confidence": 51,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "I don’t think we’re psychologically prepared for how alien the world after ASI is going to be",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vphdpw/i_dont_think_were_psychologically_prepared_for/",
+          "publishedAt": "2026-08-15T23:30:42.000Z",
+          "publishedAtKst": "2026. 08. 16. 08:30",
+          "summary": "gonna start by saying I’m feeling very iffy about ASI because I kinda enjoy my life rn, but that aside: after going down the AI 2040 rabbithole, I keep thinking that even people who talk about ASI constantly are still im",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Anthropic Researcher Sholto Douglas: Models Will Be Capable Of Automating 95% Of Computer Facing Jobs By 2028, But People Will Continue To Work Well Into The 2030's",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vppvwz/anthropic_researcher_sholto_douglas_models_will/",
+          "publishedAt": "2026-08-16T06:48:20.000Z",
+          "publishedAtKst": "2026. 08. 16. 15:48",
+          "summary": "Dario Amodei expects computer facing jobs to start being widely automated within the next 2-3 years, But Sholto Douglas implies that despite the fact that models will be capable of automating knowledge workers by 2028, w",
+          "impact": 13,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "컴퓨트",
+            "위험"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "Does DiffusionGemma do latent reasoning?",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+      "impact": 35,
+      "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13560v1",
-      "impact": 28,
+      "impact": 26,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13558v1",
-      "impact": 27,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.13463v1",
-      "impact": 27,
+      "impact": 25,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Has the hallucination problem in AI been solved?",
-      "source": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=49316330",
+      "title": "Dario Amodei: It Is Actually Possible To Cure Most Diseases Within 5-10 Years",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vppaig/dario_amodei_it_is_actually_possible_to_cure_most/",
       "impact": -2,
-      "reason": "환각 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
