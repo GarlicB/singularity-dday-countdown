@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T21:12:04.688Z",
-  "generatedAtKst": "2026. 08. 16. 06:12",
-  "nextUpdateAt": "2026-08-16T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 16. 12:00",
+  "generatedAt": "2026-08-16T03:39:40.045Z",
+  "generatedAtKst": "2026. 08. 16. 12:39",
+  "nextUpdateAt": "2026-08-16T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 16. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2121,
+    "rangeEnd": "2039-08-08",
+    "dday": 2210,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 52,
-    "coldCount": 5,
+    "coldCount": 6,
     "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-13T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 13. 20:00",
           "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-08-12T06:00:00.000Z",
           "publishedAtKst": "2026. 08. 12. 15:00",
           "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
+      "score": 84,
       "delta": 9,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -279,7 +279,7 @@
           "publishedAt": "2026-08-13T17:59:57.000Z",
           "publishedAtKst": "2026. 08. 14. 02:59",
           "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should a",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -291,31 +291,13 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.13463v1",
-          "publishedAt": "2026-08-13T16:45:24.000Z",
-          "publishedAtKst": "2026. 08. 14. 01:45",
-          "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image c",
-          "impact": 30,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "추론",
-            "LLM"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.13558v1",
           "publishedAt": "2026-08-13T17:59:52.000Z",
           "publishedAtKst": "2026. 08. 14. 02:59",
           "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d",
-          "impact": 29,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -327,14 +309,32 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.13463v1",
+          "publishedAt": "2026-08-13T16:45:24.000Z",
+          "publishedAtKst": "2026. 08. 14. 01:45",
+          "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image c",
+          "impact": 27,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "추론",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.13517v1",
           "publishedAt": "2026-08-13T17:37:53.000Z",
           "publishedAtKst": "2026. 08. 14. 02:37",
           "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -351,8 +351,8 @@
           "publishedAt": "2026-08-13T17:57:20.000Z",
           "publishedAtKst": "2026. 08. 14. 02:57",
           "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -368,30 +368,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 60,
+      "confidence": 56,
       "trend": "hot",
       "items": [
-        {
-          "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/",
-          "publishedAt": "2026-08-15T06:18:15.000Z",
-          "publishedAtKst": "2026. 08. 15. 15:18",
-          "summary": "We introduce BDH-CQ, a reasoning system that brings these capabilities together. Demonstrations of a previously unseen task update recurrent memory; the query is then solved through iterative computation in a high-dimens",
-          "impact": 36,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "추론 벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Agentic Reasoning for Large Language Models",
           "source": "Hacker News",
@@ -399,8 +381,8 @@
           "publishedAt": "2026-08-15T11:15:00.000Z",
           "publishedAtKst": "2026. 08. 15. 20:15",
           "summary": "1 points, 0 comments",
-          "impact": 24,
-          "confidence": 64,
+          "impact": 23,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -411,30 +393,14 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "TemporalStore: A disruptive open-source engine managing your LLM memory",
+          "title": "ProofRun – a local verification receipt for AI coding agents",
           "source": "Hacker News",
-          "url": "https://temporalstore.ai/blog-context-management.html",
-          "publishedAt": "2026-08-15T20:51:41.000Z",
-          "publishedAtKst": "2026. 08. 16. 05:51",
-          "summary": "2 points, 1 comments",
-          "impact": 21,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "LLM"
-          ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-          "source": "Hacker News",
-          "url": "https://www.codewithbullet.com",
-          "publishedAt": "2026-08-13T08:14:30.000Z",
-          "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "110 points, 87 comments",
-          "impact": 16,
-          "confidence": 53,
+          "url": "https://github.com/yebiguo/ProofRun",
+          "publishedAt": "2026-08-16T03:22:15.000Z",
+          "publishedAtKst": "2026. 08. 16. 12:22",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -443,14 +409,45 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+          "source": "Hacker News",
+          "url": "https://www.codewithbullet.com",
+          "publishedAt": "2026-08-13T08:14:30.000Z",
+          "publishedAtKst": "2026. 08. 13. 17:14",
+          "summary": "112 points, 88 comments",
+          "impact": 15,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "I don’t think we’re psychologically prepared for how alien the world after ASI is going to be",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vphdpw/i_dont_think_were_psychologically_prepared_for/",
+          "publishedAt": "2026-08-15T23:30:42.000Z",
+          "publishedAtKst": "2026. 08. 16. 08:30",
+          "summary": "gonna start by saying I’m feeling very iffy about ASI because I kinda enjoy my life rn, but that aside: after going down the AI 2040 rabbithole, I keep thinking that even people who talk about ASI constantly are still im",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "1Password's new benchmark teaches AI agents how not to get scammed",
           "source": "Hacker News",
           "url": "https://1password.github.io/SCAM/#",
           "publishedAt": "2026-08-15T13:20:46.000Z",
           "publishedAtKst": "2026. 08. 15. 22:20",
           "summary": "4 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -463,28 +460,35 @@
   ],
   "topDrivers": [
     {
-      "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/",
-      "impact": 36,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13560v1",
-      "impact": 30,
+      "impact": 28,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.13558v1",
+      "impact": 27,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13463v1",
-      "impact": 30,
+      "impact": 27,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Has the hallucination problem in AI been solved?",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49316330",
+      "impact": -2,
+      "reason": "환각 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
       "source": "arXiv",
@@ -498,13 +502,6 @@
       "url": "http://arxiv.org/abs/2608.13461v1",
       "impact": 5,
       "reason": "편향, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Returning to ARC",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
-      "impact": 7,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
