@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T09:17:48.270Z",
-  "generatedAtKst": "2026. 08. 16. 18:17",
-  "nextUpdateAt": "2026-08-16T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 17. 00:00",
+  "generatedAt": "2026-08-16T15:11:24.279Z",
+  "generatedAtKst": "2026. 08. 17. 00:11",
+  "nextUpdateAt": "2026-08-16T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 17. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2210,
+    "rangeEnd": "2039-09-22",
+    "dday": 2255,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 51,
-    "coldCount": 6,
+    "coldCount": 8,
     "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-13T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 13. 20:00",
           "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -110,21 +110,6 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "publishedAt": "2026-08-13T10:00:00.000Z",
-          "publishedAtKst": "2026. 08. 13. 19:00",
-          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How RingCentral builds AI-native work from engineering to ops",
@@ -157,6 +142,22 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Premium seats are coming to ChatGPT Business",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/premium-seats-chatgpt-business",
+          "publishedAt": "2026-08-10T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 10. 09:00",
+          "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -177,7 +178,7 @@
           "publishedAt": "2026-08-16T04:22:18.000Z",
           "publishedAtKst": "2026. 08. 16. 13:22",
           "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 35,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -266,10 +267,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
+      "score": 80,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 89,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +280,8 @@
           "publishedAt": "2026-08-13T17:59:57.000Z",
           "publishedAtKst": "2026. 08. 14. 02:59",
           "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should a",
-          "impact": 26,
-          "confidence": 91,
+          "impact": 24,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -297,8 +298,8 @@
           "publishedAt": "2026-08-13T17:59:52.000Z",
           "publishedAtKst": "2026. 08. 14. 02:59",
           "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -315,8 +316,8 @@
           "publishedAt": "2026-08-13T16:45:24.000Z",
           "publishedAtKst": "2026. 08. 14. 01:45",
           "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image c",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -333,8 +334,8 @@
           "publishedAt": "2026-08-13T17:37:53.000Z",
           "publishedAtKst": "2026. 08. 14. 02:37",
           "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-",
-          "impact": 23,
-          "confidence": 89,
+          "impact": 22,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -351,8 +352,8 @@
           "publishedAt": "2026-08-13T17:57:20.000Z",
           "publishedAtKst": "2026. 08. 14. 02:57",
           "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after gene",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -371,7 +372,7 @@
       "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -381,8 +382,8 @@
           "publishedAt": "2026-08-15T11:15:00.000Z",
           "publishedAtKst": "2026. 08. 15. 20:15",
           "summary": "1 points, 0 comments",
-          "impact": 22,
-          "confidence": 61,
+          "impact": 21,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -393,36 +394,20 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "1Password's new benchmark teaches AI agents how not to get scammed",
-          "source": "Hacker News",
-          "url": "https://1password.github.io/SCAM/#",
-          "publishedAt": "2026-08-15T13:20:46.000Z",
-          "publishedAtKst": "2026. 08. 15. 22:20",
-          "summary": "4 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "title": "Can LLMs realise we're looking at a problem the wrong way?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vpxxv2/can_llms_realise_were_looking_at_a_problem_the/",
+          "publishedAt": "2026-08-16T14:05:41.000Z",
+          "publishedAtKst": "2026. 08. 16. 23:05",
+          "summary": "I've been wondering recently whether LLMs will ever be able to come up with a different sort of scientific breakthrough; where they look at existing maths and science and realise that everyone has been looking at a probl",
+          "impact": 15,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "LLM",
+            "돌파"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-          "source": "Hacker News",
-          "url": "https://www.codewithbullet.com",
-          "publishedAt": "2026-08-13T08:14:30.000Z",
-          "publishedAtKst": "2026. 08. 13. 17:14",
-          "summary": "113 points, 88 comments",
-          "impact": 14,
-          "confidence": 51,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "I don’t think we’re psychologically prepared for how alien the world after ASI is going to be",
@@ -456,6 +441,22 @@
             "위험"
           ],
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "1Password's new benchmark teaches AI agents how not to get scammed",
+          "source": "Hacker News",
+          "url": "https://1password.github.io/SCAM/#",
+          "publishedAt": "2026-08-15T13:20:46.000Z",
+          "publishedAtKst": "2026. 08. 15. 22:20",
+          "summary": "4 points, 0 comments",
+          "impact": 13,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -465,25 +466,32 @@
       "title": "Does DiffusionGemma do latent reasoning?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-      "impact": 35,
+      "impact": 34,
       "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13560v1",
-      "impact": 26,
+      "impact": 24,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.13558v1",
-      "impact": 25,
+      "impact": 23,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Dario Amodei responds to criticism about his stance on AI regulation",
+      "source": "Hacker News",
+      "url": "https://xcancel.com/DarioAmodei/status/2088758816376807762",
+      "impact": -3,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Dario Amodei: It Is Actually Possible To Cure Most Diseases Within 5-10 Years",
       "source": "r/singularity",
@@ -492,18 +500,11 @@
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.13453v1",
-      "impact": 4,
+      "title": "An open agent-security benchmark, including the attacks we fail to catch",
+      "source": "Hacker News",
+      "url": "https://github.com/AndrewSispoidis/contemporary-agent-attacks",
+      "impact": 2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Doubly Robust Estimation of Causal Effect on CVR with Targeted Regularization",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.13461v1",
-      "impact": 5,
-      "reason": "편향, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
