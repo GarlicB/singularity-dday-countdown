@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T03:40:46.501Z",
-  "generatedAtKst": "2026. 08. 17. 12:40",
-  "nextUpdateAt": "2026-08-17T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 17. 18:00",
+  "generatedAt": "2026-08-17T09:30:44.393Z",
+  "generatedAtKst": "2026. 08. 17. 18:30",
+  "nextUpdateAt": "2026-08-17T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 18. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 76,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 4,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 44,
+    "coldCount": 7,
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -71,12 +71,27 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 71,
-      "delta": 5,
+      "score": 72,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Get closer to the game with Gemini and Pixel",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+          "publishedAt": "2026-08-17T08:00:00.000Z",
+          "publishedAtKst": "2026. 08. 17. 17:00",
+          "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini"
+          ],
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "The builder’s guide to GPT‑5.6",
           "source": "OpenAI News",
@@ -142,22 +157,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Premium seats are coming to ChatGPT Business",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/premium-seats-chatgpt-business",
-          "publishedAt": "2026-08-10T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 10. 09:00",
-          "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -178,7 +177,7 @@
           "publishedAt": "2026-08-16T04:22:18.000Z",
           "publishedAtKst": "2026. 08. 16. 13:22",
           "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 31,
+          "impact": 29,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -267,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
+      "score": 80,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 89,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
@@ -280,7 +279,7 @@
           "publishedAt": "2026-08-14T17:06:00.000Z",
           "publishedAtKst": "2026. 08. 15. 02:06",
           "summary": "We present a Test-time World-model Inference (Twin) system, in which a frontier coding agent writes an executable world model for completing continual learning tasks, such as ARC-AGI-3 games. Traditional approaches hand-",
-          "impact": 33,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -298,8 +297,8 @@
           "publishedAt": "2026-08-14T15:50:35.000Z",
           "publishedAtKst": "2026. 08. 15. 00:50",
           "summary": "We present a survey of the past and future of AI Scientists: machines capable of automating science. AI Scientists can originate hypotheses, deduce their consequences, design and execute experiments, interpret their resu",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -316,8 +315,8 @@
           "publishedAt": "2026-08-14T16:39:16.000Z",
           "publishedAtKst": "2026. 08. 15. 01:39",
           "summary": "Spreadsheets are widely used to organize, analyze, and manipulate semi-structured data, yet automated spreadsheet reasoning remains challenging for large language models (LLMs). Real-world workbooks often contain implici",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 19,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -328,31 +327,13 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "More Correct Mass, Worse Answers: Why Power Sampling Can Fail and How to Fix It",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.14420v1",
-          "publishedAt": "2026-08-14T16:01:10.000Z",
-          "publishedAtKst": "2026. 08. 15. 01:01",
-          "summary": "Power Sampling sharpens a language model's distribution over complete generation trajectories, offering a verifier-free way to improve reasoning at inference time. It also has the potential to serve as a general-purpose ",
-          "impact": 20,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "모델",
-            "벤치마크",
-            "추론 인프라"
-          ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.14399v1",
           "publishedAt": "2026-08-14T15:39:10.000Z",
           "publishedAtKst": "2026. 08. 15. 00:39",
           "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently",
-          "impact": 20,
+          "impact": 19,
           "confidence": 86,
           "stance": "accelerate",
           "tags": [
@@ -362,6 +343,24 @@
             "모델"
           ],
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "More Correct Mass, Worse Answers: Why Power Sampling Can Fail and How to Fix It",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.14420v1",
+          "publishedAt": "2026-08-14T16:01:10.000Z",
+          "publishedAtKst": "2026. 08. 15. 01:01",
+          "summary": "Power Sampling sharpens a language model's distribution over complete generation trajectories, offering a verifier-free way to improve reasoning at inference time. It also has the potential to serve as a general-purpose ",
+          "impact": 18,
+          "confidence": 85,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "모델",
+            "벤치마크",
+            "추론 인프라"
+          ],
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,28 +368,45 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "Which ai model is the best as a tutor in math physics and engineering?",
+          "title": "MirrorCode: Evidence AI can already do some weeks-long coding tasks",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vqb5xu/which_ai_model_is_the_best_as_a_tutor_in_math/",
-          "publishedAt": "2026-08-16T22:52:26.000Z",
-          "publishedAtKst": "2026. 08. 17. 07:52",
-          "summary": "Pretty much title says it all. I've been using Gemini pro for the last year, and I have nothing really to compare it with so I don't know which one would be best for my next year. I'm not looking for something to write l",
-          "impact": 19,
-          "confidence": 52,
+          "url": "https://www.reddit.com/r/singularity/comments/1vqjio8/mirrorcode_evidence_ai_can_already_do_some/",
+          "publishedAt": "2026-08-17T05:38:16.000Z",
+          "publishedAtKst": "2026. 08. 17. 14:38",
+          "summary": "Introduction We present early results from MirrorCode, a benchmark (co-developed with METR) of long-horizon coding tasks derived from real software applications. We find that AI models can autonomously reimplement comple",
+          "impact": 29,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "Gemini",
-            "모델"
+            "자율성",
+            "Claude",
+            "모델",
+            "벤치마크"
           ],
-          "why": "추론, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "자율성, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Pi coding agent: config folder is out of place on Linux",
+          "source": "Hacker News",
+          "url": "https://github.com/earendil-works/pi/issues/534",
+          "publishedAt": "2026-08-17T09:11:17.000Z",
+          "publishedAtKst": "2026. 08. 17. 18:11",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Agentic Reasoning for Large Language Models",
@@ -399,8 +415,8 @@
           "publishedAt": "2026-08-15T11:15:00.000Z",
           "publishedAtKst": "2026. 08. 15. 20:15",
           "summary": "1 points, 0 comments",
-          "impact": 18,
-          "confidence": 58,
+          "impact": 17,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -411,13 +427,31 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Delhi HC declines interim injunction against OpenAI in ANI copyright suit",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vqgvph/delhi_hc_declines_interim_injunction_against/",
+          "publishedAt": "2026-08-17T03:19:35.000Z",
+          "publishedAtKst": "2026. 08. 17. 12:19",
+          "summary": ">“AI and its applications are being used beneficially in several sectors, such as education, healthcare, financial support sector, agriculture and for providing other skill development resources...The development of LLMs",
+          "impact": 14,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "LLM",
+            "저작권"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Can LLMs realise we're looking at a problem the wrong way?",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vpxxv2/can_llms_realise_were_looking_at_a_problem_the/",
           "publishedAt": "2026-08-16T14:05:41.000Z",
           "publishedAtKst": "2026. 08. 16. 23:05",
           "summary": "I've been wondering recently whether LLMs will ever be able to come up with a different sort of scientific breakthrough; where they look at existing maths and science and realise that everyone has been looking at a probl",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -425,40 +459,6 @@
             "돌파"
           ],
           "why": "LLM, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic Researcher Sholto Douglas: Models Will Be Capable Of Automating 95% Of Computer Facing Jobs By 2028, But People Will Continue To Work Well Into The 2030's",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vppvwz/anthropic_researcher_sholto_douglas_models_will/",
-          "publishedAt": "2026-08-16T06:48:20.000Z",
-          "publishedAtKst": "2026. 08. 16. 15:48",
-          "summary": "Dario Amodei expects computer facing jobs to start being widely automated within the next 2-3 years, But Sholto Douglas implies that despite the fact that models will be capable of automating knowledge workers by 2028, w",
-          "impact": 12,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "컴퓨트",
-            "위험"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "1Password's new benchmark teaches AI agents how not to get scammed",
-          "source": "Hacker News",
-          "url": "https://1password.github.io/SCAM/#",
-          "publishedAt": "2026-08-15T13:20:46.000Z",
-          "publishedAtKst": "2026. 08. 15. 22:20",
-          "summary": "4 points, 0 comments",
-          "impact": 12,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -468,45 +468,45 @@
       "title": "Twin: Playing an Unknown Game with a Test-Time Digital Twin",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.14490v1",
-      "impact": 33,
+      "impact": 30,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Does DiffusionGemma do latent reasoning?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-      "impact": 31,
+      "impact": 29,
       "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "The Past and Future of AI Scientists",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.14407v1",
-      "impact": 27,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "MirrorCode: Evidence AI can already do some weeks-long coding tasks",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vqjio8/mirrorcode_evidence_ai_can_already_do_some/",
+      "impact": 29,
+      "reason": "자율성, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Tripwire: Triggering Aligned Refusal via Statistically Certified Safety Neurons",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.14392v1",
-      "impact": 4,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Nvidia AI Financing Is the $500B Risk Investors Aren't Watching",
+      "source": "Hacker News",
+      "url": "https://www.forbes.com/sites/jimosman/2026/08/16/nvidia-ai-financing-is-the-500-billion-risk-investors-arent-watching/",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "AI swarms are starting to pose indirect takeover risk",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Are Microsoft's AI plans being held back by a shortage of chips?",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips",
+      "impact": -2,
+      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Returning to ARC",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
-      "impact": 7,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Chinese brain-reading AI model may help predict depression risk 4 years in advance",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vqmoe2/chinese_brainreading_ai_model_may_help_predict/",
+      "impact": 1,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
