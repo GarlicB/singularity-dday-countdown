@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-18T09:22:12.515Z",
-  "generatedAtKst": "2026. 08. 18. 18:22",
-  "nextUpdateAt": "2026-08-18T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 19. 00:00",
+  "generatedAt": "2026-08-18T15:21:48.773Z",
+  "generatedAtKst": "2026. 08. 19. 00:21",
+  "nextUpdateAt": "2026-08-18T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 19. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
+    "hotCount": 54,
     "coldCount": 8,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,26 +71,27 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Get closer to the game with Gemini and Pixel",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-          "publishedAt": "2026-08-17T08:00:00.000Z",
-          "publishedAtKst": "2026. 08. 17. 17:00",
-          "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
-          "impact": 15,
+          "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-for-teens",
+          "publishedAt": "2026-08-18T11:00:00.000Z",
+          "publishedAtKst": "2026. 08. 18. 20:00",
+          "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "Gemini"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "From assistance to execution: How enterprises put AI to work",
@@ -108,6 +109,21 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Get closer to the game with Gemini and Pixel",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+          "publishedAt": "2026-08-17T08:00:00.000Z",
+          "publishedAtKst": "2026. 08. 17. 17:00",
+          "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini"
+          ],
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The builder’s guide to GPT‑5.6",
@@ -141,22 +157,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Testing ads in ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/testing-ads-in-chatgpt",
-          "publishedAt": "2026-08-11T10:00:00.000Z",
-          "publishedAtKst": "2026. 08. 11. 19:00",
-          "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -170,24 +170,6 @@
       "confidence": 82,
       "trend": "hot",
       "items": [
-        {
-          "title": "Does DiffusionGemma do latent reasoning?",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-          "publishedAt": "2026-08-16T04:22:18.000Z",
-          "publishedAtKst": "2026. 08. 16. 13:22",
-          "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 23,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
           "source": "Alignment Forum",
@@ -205,6 +187,24 @@
             "프런티어 모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Does DiffusionGemma do latent reasoning?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+          "publishedAt": "2026-08-16T04:22:18.000Z",
+          "publishedAtKst": "2026. 08. 16. 13:22",
+          "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
+          "impact": 22,
+          "confidence": 80,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
@@ -266,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
+      "score": 86,
       "delta": 9,
       "weight": 0.28,
       "confidence": 92,
@@ -297,7 +297,7 @@
           "publishedAt": "2026-08-17T16:57:38.000Z",
           "publishedAtKst": "2026. 08. 18. 01:57",
           "summary": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the t",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-08-17T16:07:25.000Z",
           "publishedAtKst": "2026. 08. 18. 01:07",
           "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new des",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +331,7 @@
           "publishedAt": "2026-08-17T15:49:36.000Z",
           "publishedAtKst": "2026. 08. 18. 00:49",
           "summary": "Reinforcement learning algorithms for Large Language Models (LLMs) are largely distinguished by their variance reduction strategy. Group-relative methods like GRPO reduce gradient variance by sampling multiple rollouts p",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-08-17T17:59:57.000Z",
           "publishedAtKst": "2026. 08. 18. 02:59",
           "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond ",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,12 +366,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Show HN: Singular – local orchestration for autonomous coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/alex-reysa/singular-lite",
+          "publishedAt": "2026-08-18T15:20:10.000Z",
+          "publishedAtKst": "2026. 08. 19. 00:20",
+          "summary": "2 points, 0 comments",
+          "impact": 26,
+          "confidence": 66,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Business adoption of AI agents tripled this year",
           "source": "r/singularity",
@@ -379,7 +396,7 @@
           "publishedAt": "2026-08-18T01:43:11.000Z",
           "publishedAtKst": "2026. 08. 18. 10:43",
           "summary": "Quote: A major transformation is underway as businesses create and scale their agentic workforce. Businesses scaled their agentic workforces from an average of 5 activated agents in February 2025 to 13 by April 2026—grow",
-          "impact": 28,
+          "impact": 26,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -390,32 +407,14 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vqzdz2/qwen3827b_lands_next_to_deepseek_v4_and_gpt56/",
-          "publishedAt": "2026-08-17T17:49:29.000Z",
-          "publishedAtKst": "2026. 08. 18. 02:49",
-          "summary": "&#32; submitted by &#32; /u/yaboyyoungairvent [link] &#32; [comments]",
-          "impact": 23,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "GPT",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
           "publishedAt": "2026-08-17T18:40:41.000Z",
           "publishedAtKst": "2026. 08. 18. 03:40",
           "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.",
-          "impact": 23,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -426,14 +425,32 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vqzdz2/qwen3827b_lands_next_to_deepseek_v4_and_gpt56/",
+          "publishedAt": "2026-08-17T17:49:29.000Z",
+          "publishedAtKst": "2026. 08. 18. 02:49",
+          "summary": "&#32; submitted by &#32; /u/yaboyyoungairvent [link] &#32; [comments]",
+          "impact": 22,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "GPT",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Anthropic Has Finished Training Mythos 2 But Does Not Currently Plan To Release It. Focus Is Now On Internal Improvements.",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vr3oo8/anthropic_has_finished_training_mythos_2_but_does/",
           "publishedAt": "2026-08-17T20:21:38.000Z",
           "publishedAtKst": "2026. 08. 18. 05:21",
           "summary": "https://x.com/kimmonismus/status/2089436090885185698 Anthropics Mythos 2 is done training and Anthropic won't release it, but the internal loop that builds Mythos 3 hasn't stopped, Patel says. The focus now is on interna",
-          "impact": 18,
-          "confidence": 51,
+          "impact": 17,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -441,22 +458,6 @@
             "모델"
           ],
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: A benchmark for AI agent guardrails that caught my own plugin",
-          "source": "Hacker News",
-          "url": "https://github.com/couldbeme/holdline",
-          "publishedAt": "2026-08-17T23:11:48.000Z",
-          "publishedAtKst": "2026. 08. 18. 08:11",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -473,14 +474,14 @@
       "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.16801v1",
-      "impact": 32,
+      "impact": 30,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Business adoption of AI agents tripled this year",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1vrbia3/business_adoption_of_ai_agents_tripled_this_year/",
-      "impact": 28,
+      "impact": 26,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
