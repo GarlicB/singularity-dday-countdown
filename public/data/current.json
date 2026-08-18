@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T21:16:45.288Z",
-  "generatedAtKst": "2026. 08. 18. 06:16",
-  "nextUpdateAt": "2026-08-18T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 18. 12:00",
+  "generatedAt": "2026-08-18T03:36:13.740Z",
+  "generatedAtKst": "2026. 08. 18. 12:36",
+  "nextUpdateAt": "2026-08-18T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 18. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2254,
+    "rangeEnd": "2039-05-10",
+    "dday": 2118,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
-    "temperature": 53,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 45,
-    "coldCount": 6,
-    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 57,
+    "coldCount": 9,
+    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -177,7 +177,7 @@
           "publishedAt": "2026-08-16T04:22:18.000Z",
           "publishedAtKst": "2026. 08. 16. 13:22",
           "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 26,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -266,101 +266,99 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 77,
-      "delta": 7,
+      "score": 88,
+      "delta": 10,
       "weight": 0.28,
-      "confidence": 84,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Twin: Playing an Unknown Game with a Test-Time Digital Twin",
+          "title": "TDD-Agent: Test-Driven Reasoning for Code Generation",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.14490v1",
-          "publishedAt": "2026-08-14T17:06:00.000Z",
-          "publishedAtKst": "2026. 08. 15. 02:06",
-          "summary": "We present a Test-time World-model Inference (Twin) system, in which a frontier coding agent writes an executable world model for completing continual learning tasks, such as ARC-AGI-3 games. Traditional approaches hand-",
-          "impact": 25,
-          "confidence": 90,
+          "url": "http://arxiv.org/abs/2608.16742v1",
+          "publishedAt": "2026-08-17T15:52:04.000Z",
+          "publishedAtKst": "2026. 08. 18. 00:52",
+          "summary": "Large Language Models (LLMs) have achieved remarkable progress in code generation, yet ensuring correctness in complex, repository-level tasks remains challenging. Existing approaches often use generated tests as static ",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "코딩 에이전트",
-            "모델"
+            "추론",
+            "LLM"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Past and Future of AI Scientists",
+          "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.14407v1",
-          "publishedAt": "2026-08-14T15:50:35.000Z",
-          "publishedAtKst": "2026. 08. 15. 00:50",
-          "summary": "We present a survey of the past and future of AI Scientists: machines capable of automating science. AI Scientists can originate hypotheses, deduce their consequences, design and execute experiments, interpret their resu",
-          "impact": 21,
-          "confidence": 86,
+          "url": "http://arxiv.org/abs/2608.16801v1",
+          "publishedAt": "2026-08-17T16:57:38.000Z",
+          "publishedAtKst": "2026. 08. 18. 01:57",
+          "summary": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the t",
+          "impact": 33,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "에이전트",
-            "자율성",
-            "AI 연구 자동화",
-            "추론"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+          "title": "On the Principles Behind Neural Network Optimizers",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.14452v1",
-          "publishedAt": "2026-08-14T16:39:16.000Z",
-          "publishedAtKst": "2026. 08. 15. 01:39",
-          "summary": "Spreadsheets are widely used to organize, analyze, and manipulate semi-structured data, yet automated spreadsheet reasoning remains challenging for large language models (LLMs). Real-world workbooks often contain implici",
-          "impact": 17,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2608.16760v1",
+          "publishedAt": "2026-08-17T16:07:25.000Z",
+          "publishedAtKst": "2026. 08. 18. 01:07",
+          "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new des",
+          "impact": 28,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
+            "AGI",
+            "LLM",
+            "성능 향상"
+          ],
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Le Critique: Privileged Value Functions for LLM Reinforcement Learning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.16739v1",
+          "publishedAt": "2026-08-17T15:49:36.000Z",
+          "publishedAtKst": "2026. 08. 18. 00:49",
+          "summary": "Reinforcement learning algorithms for Large Language Models (LLMs) are largely distinguished by their variance reduction strategy. Group-relative methods like GRPO reduce gradient variance by sampling multiple rollouts p",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
             "추론",
             "LLM",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "More Correct Mass, Worse Answers: Why Power Sampling Can Fail and How to Fix It",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.14420v1",
-          "publishedAt": "2026-08-14T16:01:10.000Z",
-          "publishedAtKst": "2026. 08. 15. 01:01",
-          "summary": "Power Sampling sharpens a language model's distribution over complete generation trajectories, offering a verifier-free way to improve reasoning at inference time. It also has the potential to serve as a general-purpose ",
-          "impact": 16,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
             "모델",
-            "벤치마크",
-            "추론 인프라"
+            "성능 향상"
           ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
+          "title": "Historical Backtesting for Scientific Question Discovery: A Protocol and Astronomy Pilot",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.14399v1",
-          "publishedAt": "2026-08-14T15:39:10.000Z",
-          "publishedAtKst": "2026. 08. 15. 00:39",
-          "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently",
-          "impact": 16,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2608.16795v1",
+          "publishedAt": "2026-08-17T16:51:06.000Z",
+          "publishedAtKst": "2026. 08. 18. 01:51",
+          "summary": "Systems that generate scientific research questions are evaluated today by expert scores, LLM-as-judge ratings, or curated case studies -- all subjective, none falsifiable. We formalize historical backtesting as an alter",
+          "impact": 27,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "GPT",
+            "프런티어 모델",
             "LLM",
-            "모델"
+            "모델",
+            "성능 향상"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,12 +366,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
+          "publishedAt": "2026-08-17T18:40:41.000Z",
+          "publishedAtKst": "2026. 08. 18. 03:40",
+          "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.",
+          "impact": 25,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
           "source": "r/singularity",
@@ -381,8 +397,8 @@
           "publishedAt": "2026-08-17T17:49:29.000Z",
           "publishedAtKst": "2026. 08. 18. 02:49",
           "summary": "&#32; submitted by &#32; /u/yaboyyoungairvent [link] &#32; [comments]",
-          "impact": 26,
-          "confidence": 58,
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -399,8 +415,8 @@
           "publishedAt": "2026-08-17T05:38:16.000Z",
           "publishedAtKst": "2026. 08. 17. 14:38",
           "summary": "Introduction We present early results from MirrorCode, a benchmark (co-developed with METR) of long-horizon coding tasks derived from real software applications. We find that AI models can autonomously reimplement comple",
-          "impact": 26,
-          "confidence": 58,
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -411,32 +427,14 @@
           "why": "자율성, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
-          "publishedAt": "2026-08-17T18:40:41.000Z",
-          "publishedAtKst": "2026. 08. 18. 03:40",
-          "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.",
-          "impact": 26,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Anthropic Has Finished Training Mythos 2 But Does Not Currently Plan To Release It. Focus Is Now On Internal Improvements.",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vr3oo8/anthropic_has_finished_training_mythos_2_but_does/",
           "publishedAt": "2026-08-17T20:21:38.000Z",
           "publishedAtKst": "2026. 08. 18. 05:21",
           "summary": "https://x.com/kimmonismus/status/2089436090885185698 Anthropics Mythos 2 is done training and Anthropic won't release it, but the internal loop that builds Mythos 3 hasn't stopped, Patel says. The focus now is on interna",
-          "impact": 19,
-          "confidence": 53,
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -446,45 +444,45 @@
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Agent Control Plane: the LLM proposes, it never authorizes",
+          "title": "Show HN: A benchmark for AI agent guardrails that caught my own plugin",
           "source": "Hacker News",
-          "url": "https://github.com/yacine-kellib/agent-control-plane",
-          "publishedAt": "2026-08-17T20:53:45.000Z",
-          "publishedAtKst": "2026. 08. 18. 05:53",
-          "summary": "1 points, 0 comments",
+          "url": "https://github.com/couldbeme/holdline",
+          "publishedAt": "2026-08-17T23:11:48.000Z",
+          "publishedAtKst": "2026. 08. 18. 08:11",
+          "summary": "2 points, 0 comments",
           "impact": 15,
           "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM"
+            "벤치마크"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Does DiffusionGemma do latent reasoning?",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-      "impact": 26,
-      "reason": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "TDD-Agent: Test-Driven Reasoning for Code Generation",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.16742v1",
+      "impact": 36,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vqzdz2/qwen3827b_lands_next_to_deepseek_v4_and_gpt56/",
-      "impact": 26,
-      "reason": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.16801v1",
+      "impact": 33,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "MirrorCode: Evidence AI can already do some weeks-long coding tasks",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vqjio8/mirrorcode_evidence_ai_can_already_do_some/",
-      "impact": 26,
-      "reason": "자율성, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "On the Principles Behind Neural Network Optimizers",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.16760v1",
+      "impact": 28,
+      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -496,18 +494,18 @@
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The Defender’s Window",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/the-defenders-window",
-      "impact": 4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Q-based Variational Inverse Reinforcement Learning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.16888v1",
+      "impact": 2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Tripwire: Triggering Aligned Refusal via Statistically Certified Safety Neurons",
+      "title": "zLend: A Dual-Scope Cash-Flow Reconstruction Framework for On-Chain Credit Underwriting",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.14392v1",
-      "impact": 5,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2608.16856v1",
+      "impact": 2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
