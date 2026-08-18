@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-18T03:36:13.740Z",
-  "generatedAtKst": "2026. 08. 18. 12:36",
-  "nextUpdateAt": "2026-08-18T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 18. 18:00",
+  "generatedAt": "2026-08-18T09:22:12.515Z",
+  "generatedAtKst": "2026. 08. 18. 18:22",
+  "nextUpdateAt": "2026-08-18T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 19. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
-    "coldCount": 9,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 8,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -177,7 +177,7 @@
           "publishedAt": "2026-08-16T04:22:18.000Z",
           "publishedAtKst": "2026. 08. 16. 13:22",
           "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 25,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -266,8 +266,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -297,7 +297,7 @@
           "publishedAt": "2026-08-17T16:57:38.000Z",
           "publishedAtKst": "2026. 08. 18. 01:57",
           "summary": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the t",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-08-17T16:07:25.000Z",
           "publishedAtKst": "2026. 08. 18. 01:07",
           "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new des",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +331,7 @@
           "publishedAt": "2026-08-17T15:49:36.000Z",
           "publishedAtKst": "2026. 08. 18. 00:49",
           "summary": "Reinforcement learning algorithms for Large Language Models (LLMs) are largely distinguished by their variance reduction strategy. Group-relative methods like GRPO reduce gradient variance by sampling multiple rollouts p",
-          "impact": 28,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -343,22 +343,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Historical Backtesting for Scientific Question Discovery: A Protocol and Astronomy Pilot",
+          "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.16795v1",
-          "publishedAt": "2026-08-17T16:51:06.000Z",
-          "publishedAtKst": "2026. 08. 18. 01:51",
-          "summary": "Systems that generate scientific research questions are evaluated today by expert scores, LLM-as-judge ratings, or curated case studies -- all subjective, none falsifiable. We formalize historical backtesting as an alter",
-          "impact": 27,
+          "url": "http://arxiv.org/abs/2608.16889v1",
+          "publishedAt": "2026-08-17T17:59:57.000Z",
+          "publishedAtKst": "2026. 08. 18. 02:59",
+          "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond ",
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
+            "에이전트",
             "LLM",
             "모델",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "프런티어 모델, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,26 +369,25 @@
       "score": 79,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
+          "title": "Business adoption of AI agents tripled this year",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
-          "publishedAt": "2026-08-17T18:40:41.000Z",
-          "publishedAtKst": "2026. 08. 18. 03:40",
-          "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.",
-          "impact": 25,
-          "confidence": 57,
+          "url": "https://www.reddit.com/r/singularity/comments/1vrbia3/business_adoption_of_ai_agents_tripled_this_year/",
+          "publishedAt": "2026-08-18T01:43:11.000Z",
+          "publishedAtKst": "2026. 08. 18. 10:43",
+          "summary": "Quote: A major transformation is underway as businesses create and scale their agentic workforce. Businesses scaled their agentic workforces from an average of 5 activated agents in February 2025 to 13 by April 2026—grow",
+          "impact": 28,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "에이전트",
-            "추론",
-            "GPT",
-            "모델"
+            "자율성"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
@@ -397,7 +396,7 @@
           "publishedAt": "2026-08-17T17:49:29.000Z",
           "publishedAtKst": "2026. 08. 18. 02:49",
           "summary": "&#32; submitted by &#32; /u/yaboyyoungairvent [link] &#32; [comments]",
-          "impact": 24,
+          "impact": 23,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -409,22 +408,22 @@
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MirrorCode: Evidence AI can already do some weeks-long coding tasks",
+          "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vqjio8/mirrorcode_evidence_ai_can_already_do_some/",
-          "publishedAt": "2026-08-17T05:38:16.000Z",
-          "publishedAtKst": "2026. 08. 17. 14:38",
-          "summary": "Introduction We present early results from MirrorCode, a benchmark (co-developed with METR) of long-horizon coding tasks derived from real software applications. We find that AI models can autonomously reimplement comple",
-          "impact": 24,
+          "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
+          "publishedAt": "2026-08-17T18:40:41.000Z",
+          "publishedAtKst": "2026. 08. 18. 03:40",
+          "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.",
+          "impact": 23,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "자율성",
-            "Claude",
-            "모델",
-            "벤치마크"
+            "에이전트",
+            "추론",
+            "GPT",
+            "모델"
           ],
-          "why": "자율성, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Anthropic Has Finished Training Mythos 2 But Does Not Currently Plan To Release It. Focus Is Now On Internal Improvements.",
@@ -434,7 +433,7 @@
           "publishedAtKst": "2026. 08. 18. 05:21",
           "summary": "https://x.com/kimmonismus/status/2089436090885185698 Anthropics Mythos 2 is done training and Anthropic won't release it, but the internal loop that builds Mythos 3 hasn't stopped, Patel says. The focus now is on interna",
           "impact": 18,
-          "confidence": 52,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -451,7 +450,7 @@
           "publishedAtKst": "2026. 08. 18. 08:11",
           "summary": "2 points, 0 comments",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -474,38 +473,38 @@
       "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.16801v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "On the Principles Behind Neural Network Optimizers",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.16760v1",
+      "title": "Business adoption of AI agents tripled this year",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vrbia3/business_adoption_of_ai_agents_tripled_this_year/",
       "impact": 28,
-      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Chinese brain-reading AI model may help predict depression risk 4 years in advance",
+      "title": "One of the few companies making the lasers that move data inside AI data centers just said it's keeping all of them for itself",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vqmoe2/chinese_brainreading_ai_model_may_help_predict/",
-      "impact": 1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1vrgbt1/one_of_the_few_companies_making_the_lasers_that/",
+      "impact": -3,
+      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Q-based Variational Inverse Reinforcement Learning",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.16888v1",
+      "title": "Former White House \"AI Czar\" David Sachs, Who Called UBI A \"Fantasy,\" States Dario Amodei Is Wrong About Automation And Open Source",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vr55s6/former_white_house_ai_czar_david_sachs_who_called/",
       "impact": 2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "zLend: A Dual-Scope Cash-Flow Reconstruction Framework for On-Chain Credit Underwriting",
+      "title": "Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.16856v1",
-      "impact": 2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2608.16791v1",
+      "impact": 3,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
