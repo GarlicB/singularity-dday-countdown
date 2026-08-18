@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-18T15:21:48.773Z",
-  "generatedAtKst": "2026. 08. 19. 00:21",
-  "nextUpdateAt": "2026-08-18T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 19. 06:00",
+  "generatedAt": "2026-08-18T21:13:56.779Z",
+  "generatedAtKst": "2026. 08. 19. 06:13",
+  "nextUpdateAt": "2026-08-19T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 19. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2118,
+    "rangeEnd": "2039-09-22",
+    "dday": 2253,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 8,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 6,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -126,6 +126,21 @@
           "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Pacing model development in an era of cyber-critical capabilities",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "publishedAt": "2026-08-18T11:00:00.000Z",
+          "publishedAtKst": "2026. 08. 18. 20:00",
+          "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "모델"
+          ],
+          "why": "모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "The builder’s guide to GPT‑5.6",
           "source": "OpenAI News",
           "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
@@ -141,22 +156,6 @@
             "모델"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How RingCentral builds AI-native work from engineering to ops",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ringcentral",
-          "publishedAt": "2026-08-12T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 12. 09:00",
-          "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -187,24 +186,6 @@
             "프런티어 모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Does DiffusionGemma do latent reasoning?",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-          "publishedAt": "2026-08-16T04:22:18.000Z",
-          "publishedAtKst": "2026. 08. 16. 13:22",
-          "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 22,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
@@ -243,6 +224,24 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Does DiffusionGemma do latent reasoning?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+          "publishedAt": "2026-08-16T04:22:18.000Z",
+          "publishedAtKst": "2026. 08. 16. 13:22",
+          "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
+          "impact": 20,
+          "confidence": 78,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "User awareness in frontier models",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
@@ -266,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
+      "score": 85,
       "delta": 9,
       "weight": 0.28,
       "confidence": 92,
@@ -297,7 +296,7 @@
           "publishedAt": "2026-08-17T16:57:38.000Z",
           "publishedAtKst": "2026. 08. 18. 01:57",
           "summary": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the t",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +313,7 @@
           "publishedAt": "2026-08-17T16:07:25.000Z",
           "publishedAtKst": "2026. 08. 18. 01:07",
           "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new des",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +330,7 @@
           "publishedAt": "2026-08-17T15:49:36.000Z",
           "publishedAtKst": "2026. 08. 18. 00:49",
           "summary": "Reinforcement learning algorithms for Large Language Models (LLMs) are largely distinguished by their variance reduction strategy. Group-relative methods like GRPO reduce gradient variance by sampling multiple rollouts p",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -343,22 +342,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+          "title": "LAVA: Logic-Aware Validation and Augmentation Framework for Large-Scale Financial Document Auditing",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.16889v1",
-          "publishedAt": "2026-08-17T17:59:57.000Z",
-          "publishedAtKst": "2026. 08. 18. 02:59",
-          "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond ",
-          "impact": 24,
+          "url": "http://arxiv.org/abs/2608.16763v1",
+          "publishedAt": "2026-08-17T16:10:05.000Z",
+          "publishedAtKst": "2026. 08. 18. 01:10",
+          "summary": "Financial document validation in production, such as payroll auditing, tax compliance, and loan underwriting, demands exceptional accuracy, consistency, and reproducibility under strict enterprise constraints. In practic",
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
             "LLM",
             "모델",
-            "벤치마크"
+            "벤치마크",
+            "멀티모달"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,98 +365,91 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 81,
-      "delta": 8,
+      "score": 65,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: Singular – local orchestration for autonomous coding agents",
+          "title": "Magnitude – Open-source AI coding agent that runs local models offline",
           "source": "Hacker News",
-          "url": "https://github.com/alex-reysa/singular-lite",
-          "publishedAt": "2026-08-18T15:20:10.000Z",
-          "publishedAtKst": "2026. 08. 19. 00:20",
+          "url": "https://digitalescapetools.com/tools/tool.html?id=magnitude",
+          "publishedAt": "2026-08-18T16:25:35.000Z",
+          "publishedAtKst": "2026. 08. 19. 01:25",
+          "summary": "2 points, 1 comments",
+          "impact": 21,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: A benchmark for AI agent guardrails that caught my own plugin",
+          "source": "Hacker News",
+          "url": "https://github.com/couldbeme/holdline",
+          "publishedAt": "2026-08-17T23:11:48.000Z",
+          "publishedAtKst": "2026. 08. 18. 08:11",
           "summary": "2 points, 0 comments",
-          "impact": 26,
-          "confidence": 66,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Business adoption of AI agents tripled this year",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vrbia3/business_adoption_of_ai_agents_tripled_this_year/",
-          "publishedAt": "2026-08-18T01:43:11.000Z",
-          "publishedAtKst": "2026. 08. 18. 10:43",
-          "summary": "Quote: A major transformation is underway as businesses create and scale their agentic workforce. Businesses scaled their agentic workforces from an average of 5 activated agents in February 2025 to 13 by April 2026—grow",
-          "impact": 26,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vr0v1q/qwen38_27b_performs_better_than_gpt56terra_max/",
-          "publishedAt": "2026-08-17T18:40:41.000Z",
-          "publishedAtKst": "2026. 08. 18. 03:40",
-          "summary": "https://preview.redd.it/k43scsdkbzjh1.png?width=624&format=png&auto=webp&s=bde429dce5283c28a83b7f66cea22d0469c751a9 Artifical Analysis Agentic Index Model (max reasoning effort) Score Qwen3.8 Max 58 GPT-5.6-Sol 58 Qwen3.",
-          "impact": 22,
+          "impact": 14,
           "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "추론",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Qwen3.8-27B lands next to DeepSeek V4 and GPT-5.6 Luna Max on the Artificial Analysis Benchmark. You can now run a near frontier model with just a RTX 3090.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vqzdz2/qwen3827b_lands_next_to_deepseek_v4_and_gpt56/",
-          "publishedAt": "2026-08-17T17:49:29.000Z",
-          "publishedAtKst": "2026. 08. 18. 02:49",
-          "summary": "&#32; submitted by &#32; /u/yaboyyoungairvent [link] &#32; [comments]",
-          "impact": 22,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "GPT",
-            "모델",
             "벤치마크"
           ],
-          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Anthropic Has Finished Training Mythos 2 But Does Not Currently Plan To Release It. Focus Is Now On Internal Improvements.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vr3oo8/anthropic_has_finished_training_mythos_2_but_does/",
-          "publishedAt": "2026-08-17T20:21:38.000Z",
-          "publishedAtKst": "2026. 08. 18. 05:21",
-          "summary": "https://x.com/kimmonismus/status/2089436090885185698 Anthropics Mythos 2 is done training and Anthropic won't release it, but the internal loop that builds Mythos 3 hasn't stopped, Patel says. The focus now is on interna",
-          "impact": 17,
-          "confidence": 50,
-          "stance": "accelerate",
+          "title": "Debating the role of large language models in the kernel community",
+          "source": "Hacker News",
+          "url": "https://lwn.net/Articles/1083275/",
+          "publishedAt": "2026-08-18T07:34:42.000Z",
+          "publishedAtKst": "2026. 08. 18. 16:34",
+          "summary": "3 points, 0 comments",
+          "impact": 11,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "GPT",
-            "Claude",
+            "LLM",
             "모델"
           ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Stressing LLMs – Complexity Benchmark",
+          "source": "Hacker News",
+          "url": "https://alexander-hanel.github.io/StressingLLMs/",
+          "publishedAt": "2026-08-17T13:39:07.000Z",
+          "publishedAtKst": "2026. 08. 17. 22:39",
+          "summary": "2 points, 0 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "벤치마크"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Agents for Robot Builders",
+          "source": "Hacker News",
+          "url": "https://foxglove.dev/blog/foxglove-goes-agentic",
+          "publishedAt": "2026-08-18T20:52:30.000Z",
+          "publishedAtKst": "2026. 08. 19. 05:52",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -474,38 +466,38 @@
       "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.16801v1",
-      "impact": 30,
+      "impact": 29,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Business adoption of AI agents tripled this year",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vrbia3/business_adoption_of_ai_agents_tripled_this_year/",
-      "impact": 26,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "On the Principles Behind Neural Network Optimizers",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.16760v1",
+      "impact": 25,
+      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "One of the few companies making the lasers that move data inside AI data centers just said it's keeping all of them for itself",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vrgbt1/one_of_the_few_companies_making_the_lasers_that/",
-      "impact": -3,
-      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Former White House \"AI Czar\" David Sachs, Who Called UBI A \"Fantasy,\" States Dario Amodei Is Wrong About Automation And Open Source",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vr55s6/former_white_house_ai_czar_david_sachs_who_called/",
-      "impact": 2,
-      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.16791v1",
       "impact": 3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The Defender’s Window",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-defenders-window",
+      "impact": 5,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
