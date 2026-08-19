@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T03:38:27.972Z",
-  "generatedAtKst": "2026. 08. 19. 12:38",
-  "nextUpdateAt": "2026-08-19T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 19. 18:00",
+  "generatedAt": "2026-08-19T09:23:05.140Z",
+  "generatedAtKst": "2026. 08. 19. 18:23",
+  "nextUpdateAt": "2026-08-19T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 20. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 60,
+    "hotCount": 58,
     "coldCount": 6,
-    "summary": "가속 신호 60건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "ChatGPT Ads expands across Europe",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "publishedAt": "2026-08-18T22:00:00.000Z",
+          "publishedAtKst": "2026. 08. 19. 07:00",
+          "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
           "source": "OpenAI News",
@@ -84,7 +100,7 @@
           "publishedAt": "2026-08-18T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 20:00",
           "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +116,7 @@
           "publishedAt": "2026-08-18T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 09:00",
           "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -142,22 +158,6 @@
             "모델"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How RingCentral builds AI-native work from engineering to ops",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ringcentral",
-          "publishedAt": "2026-08-12T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 12. 09:00",
-          "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -250,8 +250,8 @@
           "publishedAt": "2026-08-16T04:22:18.000Z",
           "publishedAtKst": "2026. 08. 16. 13:22",
           "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 18,
-          "confidence": 76,
+          "impact": 17,
+          "confidence": 75,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -369,10 +369,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
@@ -382,8 +382,8 @@
           "publishedAt": "2026-08-18T16:25:35.000Z",
           "publishedAtKst": "2026. 08. 19. 01:25",
           "summary": "2 points, 1 comments",
-          "impact": 20,
-          "confidence": 61,
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -400,7 +400,7 @@
           "publishedAtKst": "2026. 08. 19. 05:44",
           "summary": "This is a new quote from Sam Altman to Alex Heath saying that the reason OpenAI is slowing training is because its unreleased models are showing 'various degrees of misalignment'. They said in the blog that 'The signals ",
           "impact": 17,
-          "confidence": 52,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -414,8 +414,8 @@
           "url": "https://secitbench.cribl.io/",
           "publishedAt": "2026-08-19T00:28:02.000Z",
           "publishedAtKst": "2026. 08. 19. 09:28",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
+          "summary": "3 points, 0 comments",
+          "impact": 15,
           "confidence": 57,
           "stance": "accelerate",
           "tags": [
@@ -431,8 +431,8 @@
           "publishedAt": "2026-08-18T23:06:38.000Z",
           "publishedAtKst": "2026. 08. 19. 08:06",
           "summary": "https://preview.redd.it/t2etcv8rs7kh1.png?width=960&format=png&auto=webp&s=bff2886a56220157d7eb4a3b7ef3a040a855cbe6 Source &#32; submitted by &#32; /u/ResultBackground2450 [link] &#32; [comments]",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -447,8 +447,8 @@
           "publishedAt": "2026-08-19T00:04:03.000Z",
           "publishedAtKst": "2026. 08. 19. 09:04",
           "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -484,11 +484,11 @@
   ],
   "topDampeners": [
     {
-      "title": "One of the few companies making the lasers that move data inside AI data centers just said it's keeping all of them for itself",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vrgbt1/one_of_the_few_companies_making_the_lasers_that/",
+      "title": "Yoshua Bengio, the godfather of AI, explains the risks of AI [video]",
+      "source": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=fvvvtbBvh6Q",
       "impact": -2,
-      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Explanation from @sama on RL training pause: \"Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment.\"",
@@ -501,7 +501,7 @@
       "title": "The Defender’s Window",
       "source": "OpenAI News",
       "url": "https://openai.com/index/the-defenders-window",
-      "impact": 5,
+      "impact": 6,
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
