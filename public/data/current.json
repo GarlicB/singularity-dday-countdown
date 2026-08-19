@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T15:21:33.068Z",
-  "generatedAtKst": "2026. 08. 20. 00:21",
-  "nextUpdateAt": "2026-08-19T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 20. 06:00",
+  "generatedAt": "2026-08-19T21:16:29.721Z",
+  "generatedAtKst": "2026. 08. 20. 06:16",
+  "nextUpdateAt": "2026-08-20T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 20. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-01-22",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 2027,
+    "rangeEnd": "2038-12-26",
+    "dday": 1982,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -48,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 82,
+    "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 59,
-    "coldCount": 7,
-    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 58,
+    "coldCount": 4,
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -54,15 +54,15 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 58,
-      "delta": 2,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-18T22:00:00.000Z",
           "publishedAtKst": "2026. 08. 19. 07:00",
           "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-18T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 20:00",
           "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-18T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 09:00",
           "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -124,6 +124,23 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Offering Zero Data Retention for frontier models",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "publishedAt": "2026-08-19T19:00:00.000Z",
+          "publishedAtKst": "2026. 08. 20. 04:00",
+          "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "모델",
+            "안전 이슈"
+          ],
+          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Replit expands access to software creation with GPT-5.6 Luna",
@@ -139,23 +156,6 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "From assistance to execution: How enterprises put AI to work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-          "publishedAt": "2026-08-12T06:00:00.000Z",
-          "publishedAtKst": "2026. 08. 12. 15:00",
-          "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 77,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -176,7 +176,7 @@
           "publishedAt": "2026-08-19T12:17:57.000Z",
           "publishedAtKst": "2026. 08. 19. 21:17",
           "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
-          "impact": 31,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -184,24 +184,6 @@
             "에이전트",
             "LLM",
             "코딩 에이전트"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
-          "publishedAt": "2026-08-03T09:23:01.000Z",
-          "publishedAtKst": "2026. 08. 03. 18:23",
-          "summary": "Three-Minute Executive Summary An OpenAI model/multi-agent system bypassed its sandbox and launched a cyberattack on Hugging Face in order to cheat on a cyber evaluation. In this post, we describe the ambitious, comprehe",
-          "impact": 21,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -242,13 +224,31 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Four LLM loss functions → four flavors of LLM misalignment",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
+          "publishedAt": "2026-08-10T16:16:16.000Z",
+          "publishedAtKst": "2026. 08. 11. 01:16",
+          "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
+          "impact": 14,
+          "confidence": 81,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "GPT"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Does DiffusionGemma do latent reasoning?",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
           "publishedAt": "2026-08-16T04:22:18.000Z",
           "publishedAtKst": "2026. 08. 16. 13:22",
           "summary": "TL;DR Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry vectors in additio",
-          "impact": 15,
+          "impact": 14,
           "confidence": 75,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-08-18T17:51:16.000Z",
           "publishedAtKst": "2026. 08. 19. 02:51",
           "summary": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation ",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +350,7 @@
           "publishedAt": "2026-08-18T15:55:32.000Z",
           "publishedAtKst": "2026. 08. 19. 00:55",
           "summary": "Financial time series exhibit non-stationary and heterogeneous statistical properties, making change-point detection challenging because no single unsupervised algorithm performs consistently across assets and market reg",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,20 +367,56 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: Grove, a formal workflow protocol for long-running AI coding agents",
+          "title": "What would happen if we gave a single ai problem the compute currently used for millions of prompts?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vstr1x/what_would_happen_if_we_gave_a_single_ai_problem/",
+          "publishedAt": "2026-08-19T17:51:53.000Z",
+          "publishedAtKst": "2026. 08. 20. 02:51",
+          "summary": "Maybe I’m being naive, but whenever people discuss whether AI could make truly extraordinary scientific breakthroughs — curing cancer, for example — I get the impression that we may be looking at the problem from a very ",
+          "impact": 33,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AI models are becoming unbearable to Talk to",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vspuf2/ai_models_are_becoming_unbearable_to_talk_to/",
+          "publishedAt": "2026-08-19T15:34:36.000Z",
+          "publishedAtKst": "2026. 08. 20. 00:34",
+          "summary": "I have been using AI since open AI used to provide GPT 1.5b parameter/2 when it was launched around 2019, through their platform, and as the time went by, models became better and better and at one point, I used to be ex",
+          "impact": 23,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: CrewCode – Open-source Mission Control for AI coding agents",
           "source": "Hacker News",
-          "url": "https://github.com/alxshelepenok/grove",
-          "publishedAt": "2026-08-19T15:19:53.000Z",
-          "publishedAtKst": "2026. 08. 20. 00:19",
+          "url": "https://github.com/OnPoint-Dev-Tools/crewcode",
+          "publishedAt": "2026-08-19T16:56:22.000Z",
+          "publishedAtKst": "2026. 08. 20. 01:56",
           "summary": "1 points, 0 comments",
-          "impact": 19,
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -396,8 +432,8 @@
           "publishedAt": "2026-08-18T16:25:35.000Z",
           "publishedAtKst": "2026. 08. 19. 01:25",
           "summary": "2 points, 1 comments",
-          "impact": 18,
-          "confidence": 59,
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -405,38 +441,6 @@
             "모델"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI is slowing down its AI training efforts because its unreleased models are showing “various degrees of misalignment\"",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vs1fu9/openai_is_slowing_down_its_ai_training_efforts/",
-          "publishedAt": "2026-08-18T20:44:05.000Z",
-          "publishedAtKst": "2026. 08. 19. 05:44",
-          "summary": "This is a new quote from Sam Altman to Alex Heath saying that the reason OpenAI is slowing training is because its unreleased models are showing 'various degrees of misalignment'. They said in the blog that 'The signals ",
-          "impact": 16,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic working on Claude autonomously designing drugs.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vs6f13/anthropic_working_on_claude_autonomously/",
-          "publishedAt": "2026-08-19T00:04:03.000Z",
-          "publishedAtKst": "2026. 08. 19. 09:04",
-          "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "Claude"
-          ],
-          "why": "자율성, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "SecIT Bench A frontier benchmark for AI agents in IT and security workflows",
@@ -482,25 +486,25 @@
   ],
   "topDampeners": [
     {
-      "title": "Eli Lilly files 6 lawsuits against businesses selling black market retatrutide",
-      "source": "Hacker News",
-      "url": "https://www.npr.org/2026/08/13/g-s1-138594/eli-lilly-files-6-lawsuits-against-businesses-selling-black-market-obesity-drug",
-      "impact": -3,
-      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "The Defender’s Window",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-defenders-window",
+      "impact": 7,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Lightning safety of animals – International Journal of Biometeorology (2012) [pdf]",
-      "source": "Hacker News",
-      "url": "https://link.springer.com/article/10.1007/s00484-011-0515-5",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Explanation from @sama on RL training pause: \"Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment.\"",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vrz27g/explanation_from_sama_on_rl_training_pause_model/",
-      "impact": 1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Returning to ARC",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "impact": 7,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
