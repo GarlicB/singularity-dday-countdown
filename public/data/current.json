@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-20T15:24:16.875Z",
-  "generatedAtKst": "2026. 08. 21. 00:24",
-  "nextUpdateAt": "2026-08-20T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 21. 06:00",
+  "generatedAt": "2026-08-20T21:18:35.540Z",
+  "generatedAtKst": "2026. 08. 21. 06:18",
+  "nextUpdateAt": "2026-08-21T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 21. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2161,
+    "rangeEnd": "2039-08-08",
+    "dday": 2206,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
+    "hotCount": 46,
     "coldCount": 8,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 70,
+      "delta": 4,
+      "tone": "hot"
     }
   ],
   "categories": [
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 75,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How ChatGPT Work helps Stampli move ideas to market",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/stampli",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 20. 09:00",
+          "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "ChatGPT Ads expands across Europe",
           "source": "OpenAI News",
@@ -101,22 +117,6 @@
           "publishedAtKst": "2026. 08. 18. 20:00",
           "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
           "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How NVIDIA scales expertise with ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/nvidia/chatgpt-work",
-          "publishedAt": "2026-08-18T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 18. 09:00",
-          "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -176,7 +176,7 @@
           "publishedAt": "2026-08-19T12:17:57.000Z",
           "publishedAtKst": "2026. 08. 19. 21:17",
           "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
-          "impact": 26,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
+      "score": 85,
       "delta": 9,
       "weight": 0.28,
       "confidence": 91,
@@ -296,7 +296,7 @@
           "publishedAt": "2026-08-19T16:17:39.000Z",
           "publishedAtKst": "2026. 08. 20. 01:17",
           "summary": "Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that thi",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,8 +314,8 @@
           "publishedAt": "2026-08-19T17:16:27.000Z",
           "publishedAtKst": "2026. 08. 20. 02:16",
           "summary": "Time series imputation is a crucial area for reliable time series analysis, yet it remains challenging due to the complex temporal dynamics and noise of real-world data. Existing approaches, however, exhibit two limitati",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -332,8 +332,8 @@
           "publishedAt": "2026-08-19T15:41:32.000Z",
           "publishedAtKst": "2026. 08. 20. 00:41",
           "summary": "Deep reinforcement learning (DRL) has recently gained a great attention due to its real-time adaptation and effectiveness in complex optimization problems. This paper investigates the optimal deployment of millimeter-wav",
-          "impact": 22,
-          "confidence": 90,
+          "impact": 21,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -349,8 +349,8 @@
           "publishedAt": "2026-08-19T17:33:28.000Z",
           "publishedAtKst": "2026. 08. 20. 02:33",
           "summary": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a h",
-          "impact": 21,
-          "confidence": 90,
+          "impact": 20,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -366,27 +366,44 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "About the impact of grouping classes in multiclass classification [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/",
-          "publishedAt": "2026-08-20T07:42:20.000Z",
-          "publishedAtKst": "2026. 08. 20. 16:42",
-          "summary": "A premise: I hope this question is \"worth\" of this subreddit, I did a decent amount of research before posting, I thought it was potentially interesting enough for it, but possibly not basic enough for r/learnmachinelear",
-          "impact": 18,
-          "confidence": 56,
+          "title": "When will scicode be saturated?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vtumsz/when_will_scicode_be_saturated/",
+          "publishedAt": "2026-08-20T20:12:40.000Z",
+          "publishedAtKst": "2026. 08. 21. 05:12",
+          "summary": "SciCode HLE CritPt It has become my favorite benchmark since it is a fair test of how models perform in science when allowed to use coding which is their strong side. But it has been so slow. As you can see, CritPt has p",
+          "impact": 25,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "모델"
+            "GPT",
+            "Claude",
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Praxos – team messaging with built-in memory",
+          "source": "Hacker News",
+          "url": "https://www.praxos.ai/",
+          "publishedAt": "2026-08-20T20:55:49.000Z",
+          "publishedAtKst": "2026. 08. 21. 05:55",
+          "summary": "2 points, 1 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: CrewCode – Open-source Mission Control for AI coding agents",
@@ -395,8 +412,8 @@
           "publishedAt": "2026-08-19T16:56:22.000Z",
           "publishedAtKst": "2026. 08. 20. 01:56",
           "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -411,8 +428,8 @@
           "publishedAt": "2026-08-18T16:25:35.000Z",
           "publishedAtKst": "2026. 08. 19. 01:25",
           "summary": "2 points, 1 comments",
-          "impact": 15,
-          "confidence": 55,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -422,37 +439,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Same GRPO recipe on three from-scratch LLMs (353M/316M/672M) gave three different outcomes, with no clean relationship to scale [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vszsit/same_grpo_recipe_on_three_fromscratch_llms/",
-          "publishedAt": "2026-08-19T21:30:26.000Z",
-          "publishedAtKst": "2026. 08. 20. 06:30",
-          "summary": "I trained three LLMs from scratch in raw PyTorch then post-trained each one with SFT and then GRPO. Same process every time: same synthetic arithmetic curriculum, same reward function, same hyperparameters, same KL coeff",
-          "impact": 13,
-          "confidence": 51,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "SecIT Bench A frontier benchmark for AI agents in IT and security workflows",
           "source": "Hacker News",
           "url": "https://secitbench.cribl.io/",
           "publishedAt": "2026-08-19T00:28:02.000Z",
           "publishedAtKst": "2026. 08. 19. 09:28",
           "summary": "3 points, 0 comments",
-          "impact": 12,
-          "confidence": 53,
-          "stance": "accelerate",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -469,38 +469,38 @@
       "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.19072v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Debate Training Reduces Reward Hacking in RLAIF",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
-      "impact": 26,
+      "impact": 25,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "AI-generated code detection in CI/CD — looking for approaches and real-world experience [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtgw1g/aigenerated_code_detection_in_cicd_looking_for/",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Detecting Backdoors in Object Detection via Pre-NMS Prediction Distribution Shift",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.19088v1",
-      "impact": -2,
+      "impact": -1,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Mapping intrinsic rank and informational gravity in complex tabular data: I developed a non-parametric, model-agnostic, information-theoretic diagnostic to bypass the limits of linear, rank, and Euclidean baselines. [R]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtjotb/mapping_intrinsic_rank_and_informational_gravity/",
-      "impact": -1,
-      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Both Anthropic and OpenAI are making changes to their data retention policies",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vtvhgp/both_anthropic_and_openai_are_making_changes_to/",
+      "impact": 1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A question on gradual displacement",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vtr6nv/a_question_on_gradual_displacement/",
+      "impact": 1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
