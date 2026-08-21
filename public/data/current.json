@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-20T21:18:35.540Z",
-  "generatedAtKst": "2026. 08. 21. 06:18",
-  "nextUpdateAt": "2026-08-21T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 21. 12:00",
+  "generatedAt": "2026-08-21T03:41:51.750Z",
+  "generatedAtKst": "2026. 08. 21. 12:41",
+  "nextUpdateAt": "2026-08-21T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 21. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2206,
+    "rangeEnd": "2039-05-10",
+    "dday": 2115,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 8,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 53,
+    "coldCount": 6,
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -78,13 +78,13 @@
       "trend": "hot",
       "items": [
         {
-          "title": "How ChatGPT Work helps Stampli move ideas to market",
+          "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
           "source": "OpenAI News",
           "url": "https://openai.com/index/stampli",
           "publishedAt": "2026-08-20T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 20. 09:00",
           "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-18T22:00:00.000Z",
           "publishedAtKst": "2026. 08. 19. 07:00",
           "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-18T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 20:00",
           "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,19 +143,20 @@
           "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "title": "How NVIDIA scales expertise with ChatGPT Work",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/replit",
-          "publishedAt": "2026-08-19T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 19. 16:00",
-          "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "url": "https://openai.com/index/nvidia/chatgpt-work",
+          "publishedAt": "2026-08-18T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 18. 09:00",
+          "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
           "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "ChatGPT",
             "GPT"
           ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,8 +164,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.18,
       "confidence": 80,
       "trend": "hot",
@@ -176,7 +177,7 @@
           "publishedAt": "2026-08-19T12:17:57.000Z",
           "publishedAtKst": "2026. 08. 19. 21:17",
           "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
-          "impact": 25,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -265,19 +266,37 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 93,
+      "delta": 11,
       "weight": 0.28,
-      "confidence": 91,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+          "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.19197v1",
-          "publishedAt": "2026-08-19T17:58:56.000Z",
-          "publishedAtKst": "2026. 08. 20. 02:58",
-          "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) ",
+          "url": "http://arxiv.org/abs/2608.20320v1",
+          "publishedAt": "2026-08-20T17:57:42.000Z",
+          "publishedAtKst": "2026. 08. 21. 02:57",
+          "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conve",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.20318v1",
+          "publishedAt": "2026-08-20T17:56:59.000Z",
+          "publishedAtKst": "2026. 08. 21. 02:56",
+          "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
@@ -290,13 +309,49 @@
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+          "title": "Rule-Compliant Visual Spatial Planning for Multimodal Large Language Models",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.19072v1",
-          "publishedAt": "2026-08-19T16:17:39.000Z",
-          "publishedAtKst": "2026. 08. 20. 01:17",
-          "summary": "Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that thi",
-          "impact": 35,
+          "url": "http://arxiv.org/abs/2608.20237v1",
+          "publishedAt": "2026-08-20T16:28:28.000Z",
+          "publishedAtKst": "2026. 08. 21. 01:28",
+          "summary": "Multimodal large language models (MLLMs) combine linguistic reasoning with visual perception, yet their ability to perform visual spatial planning under explicit or previously unseen rule constraints remains underexplore",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ContractScrub: A benchmark for final review of legal contracts",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.20204v1",
+          "publishedAt": "2026-08-20T16:01:42.000Z",
+          "publishedAtKst": "2026. 08. 21. 01:01",
+          "summary": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for er",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.20314v1",
+          "publishedAt": "2026-08-20T17:53:59.000Z",
+          "publishedAtKst": "2026. 08. 21. 02:53",
+          "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as mat",
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -306,59 +361,6 @@
             "모델"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.19119v1",
-          "publishedAt": "2026-08-19T17:16:27.000Z",
-          "publishedAtKst": "2026. 08. 20. 02:16",
-          "summary": "Time series imputation is a crucial area for reliable time series analysis, yet it remains challenging due to the complex temporal dynamics and noise of real-world data. Existing approaches, however, exhibit two limitati",
-          "impact": 23,
-          "confidence": 91,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "벤치마크",
-            "성능 향상",
-            "SOTA"
-          ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.19049v1",
-          "publishedAt": "2026-08-19T15:41:32.000Z",
-          "publishedAtKst": "2026. 08. 20. 00:41",
-          "summary": "Deep reinforcement learning (DRL) has recently gained a great attention due to its real-time adaptation and effectiveness in complex optimization problems. This paper investigates the optimal deployment of millimeter-wav",
-          "impact": 21,
-          "confidence": 89,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크",
-            "성능 향상"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.19147v1",
-          "publishedAt": "2026-08-19T17:33:28.000Z",
-          "publishedAtKst": "2026. 08. 20. 02:33",
-          "summary": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a h",
-          "impact": 20,
-          "confidence": 89,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "추론 인프라"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,7 +371,7 @@
       "score": 72,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -379,7 +381,7 @@
           "publishedAt": "2026-08-20T20:12:40.000Z",
           "publishedAtKst": "2026. 08. 21. 05:12",
           "summary": "SciCode HLE CritPt It has become my favorite benchmark since it is a fair test of how models perform in science when allowed to use coding which is their strong side. But it has been so slow. As you can see, CritPt has p",
-          "impact": 25,
+          "impact": 24,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -391,19 +393,20 @@
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Praxos – team messaging with built-in memory",
+          "title": "Show HN: An autonomous AI agent running one project for two months in public",
           "source": "Hacker News",
-          "url": "https://www.praxos.ai/",
-          "publishedAt": "2026-08-20T20:55:49.000Z",
-          "publishedAtKst": "2026. 08. 21. 05:55",
-          "summary": "2 points, 1 comments",
-          "impact": 16,
-          "confidence": 58,
+          "url": "https://aitoolsinsiderhq.com/log/",
+          "publishedAt": "2026-08-21T03:21:46.000Z",
+          "publishedAtKst": "2026. 08. 21. 12:21",
+          "summary": "1 points, 1 comments",
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "자율성"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: CrewCode – Open-source Mission Control for AI coding agents",
@@ -412,8 +415,8 @@
           "publishedAt": "2026-08-19T16:56:22.000Z",
           "publishedAtKst": "2026. 08. 20. 01:56",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -428,8 +431,8 @@
           "publishedAt": "2026-08-18T16:25:35.000Z",
           "publishedAtKst": "2026. 08. 19. 01:25",
           "summary": "2 points, 1 comments",
-          "impact": 14,
-          "confidence": 54,
+          "impact": 13,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -439,18 +442,17 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "SecIT Bench A frontier benchmark for AI agents in IT and security workflows",
+          "title": "Anolisa – Agentic OS with runtime, security, observability and token compression",
           "source": "Hacker News",
-          "url": "https://secitbench.cribl.io/",
-          "publishedAt": "2026-08-19T00:28:02.000Z",
-          "publishedAtKst": "2026. 08. 19. 09:28",
-          "summary": "3 points, 0 comments",
-          "impact": 11,
-          "confidence": 52,
+          "url": "https://github.com/alibaba/anolisa",
+          "publishedAt": "2026-08-21T03:36:01.000Z",
+          "publishedAtKst": "2026. 08. 21. 12:36",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -459,35 +461,28 @@
   ],
   "topDrivers": [
     {
-      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.19197v1",
+      "url": "http://arxiv.org/abs/2608.20320v1",
+      "impact": 36,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.20318v1",
       "impact": 36,
       "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "title": "Rule-Compliant Visual Spatial Planning for Multimodal Large Language Models",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.19072v1",
-      "impact": 35,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Debate Training Reduces Reward Hacking in RLAIF",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
-      "impact": 25,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2608.20237v1",
+      "impact": 36,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Detecting Backdoors in Object Detection via Pre-NMS Prediction Distribution Shift",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.19088v1",
-      "impact": -1,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Both Anthropic and OpenAI are making changes to their data retention policies",
       "source": "r/singularity",
@@ -501,6 +496,13 @@
       "url": "https://www.reddit.com/r/singularity/comments/1vtr6nv/a_question_on_gradual_displacement/",
       "impact": 1,
       "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
