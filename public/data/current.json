@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T03:41:51.750Z",
-  "generatedAtKst": "2026. 08. 21. 12:41",
-  "nextUpdateAt": "2026-08-21T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 21. 18:00",
+  "generatedAt": "2026-08-21T09:26:00.851Z",
+  "generatedAtKst": "2026. 08. 21. 18:26",
+  "nextUpdateAt": "2026-08-21T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 22. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2115,
+    "rangeEnd": "2039-06-24",
+    "dday": 2160,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 53,
-    "coldCount": 6,
+    "coldCount": 5,
     "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 52,
-      "delta": 0,
+      "value": 46,
+      "delta": -1,
       "tone": "watch"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-20T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 20. 09:00",
           "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-18T22:00:00.000Z",
           "publishedAtKst": "2026. 08. 19. 07:00",
           "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-18T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 20:00",
           "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-19T19:00:00.000Z",
           "publishedAtKst": "2026. 08. 20. 04:00",
           "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,20 +143,19 @@
           "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How NVIDIA scales expertise with ChatGPT Work",
+          "title": "Replit expands access to software creation with GPT-5.6 Luna",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/nvidia/chatgpt-work",
-          "publishedAt": "2026-08-18T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 18. 09:00",
-          "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-          "impact": 15,
+          "url": "https://openai.com/index/replit",
+          "publishedAt": "2026-08-19T07:00:00.000Z",
+          "publishedAtKst": "2026. 08. 19. 16:00",
+          "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
             "GPT"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -177,7 +176,7 @@
           "publishedAt": "2026-08-19T12:17:57.000Z",
           "publishedAtKst": "2026. 08. 19. 21:17",
           "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
-          "impact": 23,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -266,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -315,7 +314,7 @@
           "publishedAt": "2026-08-20T16:28:28.000Z",
           "publishedAtKst": "2026. 08. 21. 01:28",
           "summary": "Multimodal large language models (MLLMs) combine linguistic reasoning with visual perception, yet their ability to perform visual spatial planning under explicit or previously unseen rule constraints remains underexplore",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -327,31 +326,13 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ContractScrub: A benchmark for final review of legal contracts",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.20204v1",
-          "publishedAt": "2026-08-20T16:01:42.000Z",
-          "publishedAtKst": "2026. 08. 21. 01:01",
-          "summary": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for er",
-          "impact": 33,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "프런티어 모델",
-            "LLM",
-            "모델"
-          ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.20314v1",
           "publishedAt": "2026-08-20T17:53:59.000Z",
           "publishedAtKst": "2026. 08. 21. 02:53",
           "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as mat",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -361,6 +342,24 @@
             "모델"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ContractScrub: A benchmark for final review of legal contracts",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.20204v1",
+          "publishedAt": "2026-08-20T16:01:42.000Z",
+          "publishedAtKst": "2026. 08. 21. 01:01",
+          "summary": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for er",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,37 +367,19 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
-      "delta": 6,
+      "score": 69,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "When will scicode be saturated?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vtumsz/when_will_scicode_be_saturated/",
-          "publishedAt": "2026-08-20T20:12:40.000Z",
-          "publishedAtKst": "2026. 08. 21. 05:12",
-          "summary": "SciCode HLE CritPt It has become my favorite benchmark since it is a fair test of how models perform in science when allowed to use coding which is their strong side. But it has been so slow. As you can see, CritPt has p",
-          "impact": 24,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "Claude",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: An autonomous AI agent running one project for two months in public",
+          "title": "Show HN: Squid Pay – Financial infrastructure for autonomous AI agents",
           "source": "Hacker News",
-          "url": "https://aitoolsinsiderhq.com/log/",
-          "publishedAt": "2026-08-21T03:21:46.000Z",
-          "publishedAtKst": "2026. 08. 21. 12:21",
-          "summary": "1 points, 1 comments",
+          "url": "https://www.squidpay.dev/",
+          "publishedAt": "2026-08-21T09:22:17.000Z",
+          "publishedAtKst": "2026. 08. 21. 18:22",
+          "summary": "1 points, 0 comments",
           "impact": 17,
           "confidence": 59,
           "stance": "accelerate",
@@ -416,7 +397,7 @@
           "publishedAtKst": "2026. 08. 20. 01:56",
           "summary": "1 points, 0 comments",
           "impact": 14,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -425,13 +406,29 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Your agent doesn't crash when it goes off the rails. It just keeps billing you[p]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vu96ci/your_agent_doesnt_crash_when_it_goes_off_the/",
+          "publishedAt": "2026-08-21T07:15:56.000Z",
+          "publishedAtKst": "2026. 08. 21. 16:15",
+          "summary": "It doesn't throw. It doesn't return malformed JSON. It just quietly stops doing what you asked — losing the thread, repeating itself, answering a question nobody asked — and keeps burning tokens for every step after that",
+          "impact": 12,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Magnitude – Open-source AI coding agent that runs local models offline",
           "source": "Hacker News",
           "url": "https://digitalescapetools.com/tools/tool.html?id=magnitude",
           "publishedAt": "2026-08-18T16:25:35.000Z",
           "publishedAtKst": "2026. 08. 19. 01:25",
           "summary": "2 points, 1 comments",
-          "impact": 13,
+          "impact": 12,
           "confidence": 52,
           "stance": "accelerate",
           "tags": [
@@ -442,17 +439,18 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Anolisa – Agentic OS with runtime, security, observability and token compression",
+          "title": "SecIT Bench A frontier benchmark for AI agents in IT and security workflows",
           "source": "Hacker News",
-          "url": "https://github.com/alibaba/anolisa",
-          "publishedAt": "2026-08-21T03:36:01.000Z",
-          "publishedAtKst": "2026. 08. 21. 12:36",
-          "summary": "1 points, 0 comments",
+          "url": "https://secitbench.cribl.io/",
+          "publishedAt": "2026-08-19T00:28:02.000Z",
+          "publishedAtKst": "2026. 08. 19. 09:28",
+          "summary": "3 points, 0 comments",
           "impact": 10,
-          "confidence": 53,
+          "confidence": 51,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "에이전트",
+            "벤치마크"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -478,24 +476,17 @@
       "title": "Rule-Compliant Visual Spatial Planning for Multimodal Large Language Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.20237v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Both Anthropic and OpenAI are making changes to their data retention policies",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vtvhgp/both_anthropic_and_openai_are_making_changes_to/",
-      "impact": 1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A question on gradual displacement",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1vtr6nv/a_question_on_gradual_displacement/",
-      "impact": 1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Mapping intrinsic rank and informational gravity in complex tabular data: I developed a non-parametric, model-agnostic, information-theoretic diagnostic to bypass the limits of linear, rank, and Euclidean baselines. [R]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vtjotb/mapping_intrinsic_rank_and_informational_gravity/",
+      "impact": -1,
+      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "AI swarms are starting to pose indirect takeover risk",
@@ -503,6 +494,13 @@
       "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
       "impact": 7,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Returning to ARC",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "impact": 7,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
