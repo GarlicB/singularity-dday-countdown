@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T15:11:08.637Z",
-  "generatedAtKst": "2026. 08. 23. 00:11",
-  "nextUpdateAt": "2026-08-22T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 23. 06:00",
+  "generatedAt": "2026-08-22T21:12:19.900Z",
+  "generatedAtKst": "2026. 08. 23. 06:12",
+  "nextUpdateAt": "2026-08-23T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 23. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2249,
+    "rangeEnd": "2039-06-24",
+    "dday": 2159,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
-    "temperature": 53,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 50,
+    "hotCount": 55,
     "coldCount": 4,
-    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-20T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 20. 09:00",
           "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,30 +100,13 @@
           "publishedAt": "2026-08-21T11:59:48.000Z",
           "publishedAtKst": "2026. 08. 21. 20:59",
           "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "돌파"
           ],
           "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Offering Zero Data Retention for frontier models",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-          "publishedAt": "2026-08-19T19:00:00.000Z",
-          "publishedAtKst": "2026. 08. 20. 04:00",
-          "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델",
-            "안전 이슈"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "ChatGPT Ads expands across Europe",
@@ -148,6 +131,22 @@
           "publishedAt": "2026-08-18T11:00:00.000Z",
           "publishedAtKst": "2026. 08. 18. 20:00",
           "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How NVIDIA scales expertise with ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/nvidia/chatgpt-work",
+          "publishedAt": "2026-08-18T00:00:00.000Z",
+          "publishedAtKst": "2026. 08. 18. 09:00",
+          "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
@@ -206,24 +205,6 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Debate Training Reduces Reward Hacking in RLAIF",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
-          "publishedAt": "2026-08-19T12:17:57.000Z",
-          "publishedAtKst": "2026. 08. 19. 21:17",
-          "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
-          "impact": 16,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "LLM",
-            "코딩 에이전트"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Four LLM loss functions → four flavors of LLM misalignment",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
@@ -238,6 +219,24 @@
             "에이전트",
             "추론",
             "GPT"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Debate Training Reduces Reward Hacking in RLAIF",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
+          "publishedAt": "2026-08-19T12:17:57.000Z",
+          "publishedAtKst": "2026. 08. 19. 21:17",
+          "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
+          "impact": 14,
+          "confidence": 80,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "LLM",
+            "코딩 에이전트"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -265,7 +264,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
+      "score": 84,
       "delta": 9,
       "weight": 0.28,
       "confidence": 91,
@@ -278,7 +277,7 @@
           "publishedAt": "2026-08-20T17:56:59.000Z",
           "publishedAtKst": "2026. 08. 21. 02:56",
           "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +295,7 @@
           "publishedAt": "2026-08-20T17:57:42.000Z",
           "publishedAtKst": "2026. 08. 21. 02:57",
           "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conve",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,8 +313,8 @@
           "publishedAt": "2026-08-20T16:28:28.000Z",
           "publishedAtKst": "2026. 08. 21. 01:28",
           "summary": "Multimodal large language models (MLLMs) combine linguistic reasoning with visual perception, yet their ability to perform visual spatial planning under explicit or previously unseen rule constraints remains underexplore",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -332,8 +331,8 @@
           "publishedAt": "2026-08-20T17:53:59.000Z",
           "publishedAtKst": "2026. 08. 21. 02:53",
           "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as mat",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -350,8 +349,8 @@
           "publishedAt": "2026-08-20T16:01:42.000Z",
           "publishedAtKst": "2026. 08. 21. 01:01",
           "summary": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for er",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -367,93 +366,97 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 69,
-      "delta": 5,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Does telling an LLM to \"be concise\" actually save you money? We measured it across 9 models. Compressing the output can save you money and keep accuracy, compressing the input prompt does not. [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vulfei/does_telling_an_llm_to_be_concise_actually_save/",
-          "publishedAt": "2026-08-21T16:38:15.000Z",
-          "publishedAtKst": "2026. 08. 22. 01:38",
-          "summary": "LLMs are too verbose and with a black box model the only things you control are what goes in and how you tell it to write back. Yesterday Claude Code shipped a \"concise output style\" where Claude keeps things short. We a",
-          "impact": 25,
-          "confidence": 60,
+          "title": "Deepmind Researcher Strongly Hints Ox Alpha Is The Next Gemini Pro Model",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vv32g8/deepmind_researcher_strongly_hints_ox_alpha_is/",
+          "publishedAt": "2026-08-22T05:00:30.000Z",
+          "publishedAtKst": "2026. 08. 22. 14:00",
+          "summary": "So it turns out Ox Alpha is not a Chinese model. It's either Gemini 3.5 Pro Or Gemini 4 Pro. https://x.com/EvanOtero/status/2090998215977947365 Gemini https://x.com/EvanOtero/status/2090998729637511301 What if the Ox Alp",
+          "impact": 28,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "GPT",
+            "Gemini",
             "Claude",
-            "LLM",
             "모델"
           ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+          "title": "Gemini 3.7 Flash is currently 75% off on OpenRouter, beating DeepSeek on price/performance",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vvb47a/gemini_37_flash_is_currently_75_off_on_openrouter/",
+          "publishedAt": "2026-08-22T12:26:29.000Z",
+          "publishedAtKst": "2026. 08. 22. 21:26",
+          "summary": "Google seems to realize their recent Flash price hikes were just inappropriate for a Flash model and that they need more real-world agent traces to train their upcoming models on and slashed prices another 50% on OpenRou",
+          "impact": 24,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Meta Muse Spark 1.2 Contributor is now available globally at a huge discount",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vvbocc/meta_muse_spark_12_contributor_is_now_available/",
+          "publishedAt": "2026-08-22T12:53:14.000Z",
+          "publishedAtKst": "2026. 08. 22. 21:53",
+          "summary": "It was previously only available in the US or through other routers like Nano-GPT, but is now also available on OpenRouter, beating OpenAI's Luna and DeepSeek on price/performance by a large margin. You are \"selling\" you",
+          "impact": 23,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델",
+            "오픈 모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Prediction thread: base camp-to-summit-to-base camp Mt. Everest climb before end of 2027? And, how soon will the humanoid robots be able to outperform the #1 human player in soccer, basketball, tennis, etc playing against humans in actual gameplay (over a span of a game/multiple games)?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vvkmoa/prediction_thread_base_camptosummittobase_camp_mt/",
+          "publishedAt": "2026-08-22T18:53:57.000Z",
+          "publishedAtKst": "2026. 08. 23. 03:53",
+          "summary": "In light of a humanoid robot having just broken Usain Bolt's 100m world record, maybe it is time for a new humanoid robots timeline prediction thread on here: Make your predictions: How long before first humanoid robot t",
+          "impact": 21,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "성능 향상"
+          ],
+          "why": "AGI, 성능 향상 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: TechSkills – Open-source skill modules for AI coding agents",
           "source": "Hacker News",
-          "url": "https://github.com/proliferate-ai/proliferate",
-          "publishedAt": "2026-08-21T16:47:15.000Z",
-          "publishedAtKst": "2026. 08. 22. 01:47",
-          "summary": "40 points, 15 comments",
-          "impact": 17,
-          "confidence": 58,
+          "url": "https://github.com/debabratasaha-dev/techskills",
+          "publishedAt": "2026-08-22T17:37:45.000Z",
+          "publishedAtKst": "2026. 08. 23. 02:37",
+          "summary": "2 points, 0 comments",
+          "impact": 18,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-          "source": "Hacker News",
-          "url": "https://ozbrain.com",
-          "publishedAt": "2026-08-21T23:09:06.000Z",
-          "publishedAtKst": "2026. 08. 22. 08:09",
-          "summary": "71 points, 45 comments",
-          "impact": 12,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Safety critical systems (SCS) are the only real benchmark for ML systems. Thoughts? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vukv7j/safety_critical_systems_scs_are_the_only_real/",
-          "publishedAt": "2026-08-21T16:17:37.000Z",
-          "publishedAtKst": "2026. 08. 22. 01:17",
-          "summary": "What are real-world safety critical systems (SCS)? A flight controller for a commercial airplane carrying 300 passengers. A braking system for a bullet train that operates at 320km/hour. A reactor protection system for n",
-          "impact": 10,
-          "confidence": 54,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "안전 이슈"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Knowl – CLAUDE.md hit 1000 lines, so I built memory that prunes itself",
-          "source": "Hacker News",
-          "url": "https://github.com/dat999zx/knowl",
-          "publishedAt": "2026-08-22T14:13:22.000Z",
-          "publishedAtKst": "2026. 08. 22. 23:13",
-          "summary": "1 points, 1 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -463,22 +466,22 @@
       "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.20318v1",
-      "impact": 34,
+      "impact": 32,
       "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.20320v1",
-      "impact": 31,
+      "impact": 29,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Rule-Compliant Visual Spatial Planning for Multimodal Large Language Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.20237v1",
-      "impact": 27,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Deepmind Researcher Strongly Hints Ox Alpha Is The Next Gemini Pro Model",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vv32g8/deepmind_researcher_strongly_hints_ox_alpha_is/",
+      "impact": 28,
+      "reason": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
