@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T15:12:52.758Z",
-  "generatedAtKst": "2026. 08. 24. 00:12",
-  "nextUpdateAt": "2026-08-23T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 24. 06:00",
+  "generatedAt": "2026-08-23T21:12:13.204Z",
+  "generatedAtKst": "2026. 08. 24. 06:12",
+  "nextUpdateAt": "2026-08-24T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 24. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-04-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-04",
-    "dday": 2383,
+    "rangeEnd": "2040-03-20",
+    "dday": 2428,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -33,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 72,
+    "temperature": 50,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 44,
     "coldCount": 4,
@@ -261,10 +261,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 77,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -274,8 +274,8 @@
           "publishedAt": "2026-08-20T17:56:59.000Z",
           "publishedAtKst": "2026. 08. 21. 02:56",
           "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -292,8 +292,8 @@
           "publishedAt": "2026-08-20T17:57:42.000Z",
           "publishedAtKst": "2026. 08. 21. 02:57",
           "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conve",
-          "impact": 23,
-          "confidence": 88,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -310,8 +310,8 @@
           "publishedAt": "2026-08-20T16:28:28.000Z",
           "publishedAtKst": "2026. 08. 21. 01:28",
           "summary": "Multimodal large language models (MLLMs) combine linguistic reasoning with visual perception, yet their ability to perform visual spatial planning under explicit or previously unseen rule constraints remains underexplore",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -328,8 +328,8 @@
           "publishedAt": "2026-08-20T17:53:59.000Z",
           "publishedAtKst": "2026. 08. 21. 02:53",
           "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as mat",
-          "impact": 18,
-          "confidence": 85,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -340,22 +340,22 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Prompt-Conditioned Channel Attention for Hierarchical Feature Modulation toward Anatomy-Agnostic Segmentation",
+          "title": "ContractScrub: A benchmark for final review of legal contracts",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.20229v1",
-          "publishedAt": "2026-08-20T16:24:09.000Z",
-          "publishedAtKst": "2026. 08. 21. 01:24",
-          "summary": "Anatomically plausible segmentation remains challenging because of low contrast, ambiguous boundaries, and modality-specific artifacts. Interactive segmentation has emerged as a promising strategy to guide feature extrac",
-          "impact": 18,
-          "confidence": 84,
+          "url": "http://arxiv.org/abs/2608.20204v1",
+          "publishedAt": "2026-08-20T16:01:42.000Z",
+          "publishedAtKst": "2026. 08. 21. 01:01",
+          "summary": "Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for er",
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "모델",
-            "벤치마크",
-            "컴퓨트"
+            "추론",
+            "프런티어 모델",
+            "LLM",
+            "모델"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,9 +366,27 @@
       "score": 70,
       "delta": 5,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "28 TPS on Qwen2.5-7B across two separate cloud regions over public WAN using speculative decoding + CUDA Graphs [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vw5ysj/28_tps_on_qwen257b_across_two_separate_cloud/",
+          "publishedAt": "2026-08-23T12:30:55.000Z",
+          "publishedAtKst": "2026. 08. 23. 21:30",
+          "summary": "been building ShardFlow for the past few months, a distributed LLM inference framework that splits any HuggingFace transformer across N GPU machines and uses neural speculative decoding to deal with WAN latency. the setu",
+          "impact": 19,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "추론 인프라"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: Active Source of Truth for Your Coding Agents",
           "source": "Hacker News",
@@ -376,8 +394,8 @@
           "publishedAt": "2026-08-23T00:43:04.000Z",
           "publishedAtKst": "2026. 08. 23. 09:43",
           "summary": "4 points, 2 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -386,19 +404,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A (stupid?) question for people who know something about AI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vw8umk/a_stupid_question_for_people_who_know_something/",
-          "publishedAt": "2026-08-23T14:36:37.000Z",
-          "publishedAtKst": "2026. 08. 23. 23:36",
-          "summary": "Presuming that any AGI or other super intelligent AI will be dependent on its physical infrastructure to “live”, wouldn’t wiping out humanity be self defeating at this point and for the near term? And wouldn’t it recogni",
-          "impact": 15,
-          "confidence": 50,
+          "title": "How to grow a project? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/",
+          "publishedAt": "2026-08-23T00:31:31.000Z",
+          "publishedAtKst": "2026. 08. 23. 09:31",
+          "summary": "I recently got my first paper accepted at EMNLP and open-sourced the code. The core idea is fundamental change, so I’ve been expanding it into a larger system with chatbot agents and extra components. My goal was to buil",
+          "impact": 14,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "Claude"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
@@ -407,8 +426,8 @@
           "publishedAt": "2026-08-21T16:47:15.000Z",
           "publishedAtKst": "2026. 08. 22. 01:47",
           "summary": "45 points, 16 comments",
-          "impact": 14,
-          "confidence": 54,
+          "impact": 13,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -417,29 +436,14 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What do you think is the long term solution and/or endgame of this RAM crisis? Asking here, because I am pro-AI.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vvwfbq/what_do_you_think_is_the_long_term_solution_andor/",
-          "publishedAt": "2026-08-23T03:40:29.000Z",
-          "publishedAtKst": "2026. 08. 23. 12:40",
-          "summary": "Most discussions about RAM crisis are futile because people just get on the bandwagon and blame everything on AI and the supposed bubble. I want some more nuanced take on the situation. The RAM crisis is actively hurting",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
           "source": "Hacker News",
           "url": "https://ozbrain.com",
           "publishedAt": "2026-08-21T23:09:06.000Z",
           "publishedAtKst": "2026. 08. 22. 08:09",
           "summary": "85 points, 50 comments",
-          "impact": 11,
-          "confidence": 51,
+          "impact": 10,
+          "confidence": 50,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -454,14 +458,14 @@
       "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.20318v1",
-      "impact": 25,
+      "impact": 23,
       "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.20320v1",
-      "impact": 23,
+      "impact": 21,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
