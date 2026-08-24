@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-24T09:36:36.823Z",
-  "generatedAtKst": "2026. 08. 24. 18:36",
-  "nextUpdateAt": "2026-08-24T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 25. 00:00",
+  "generatedAt": "2026-08-24T15:29:43.459Z",
+  "generatedAtKst": "2026. 08. 25. 00:29",
+  "nextUpdateAt": "2026-08-24T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 25. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-04-16",
+    "medianDate": "2033-05-31",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-03-20",
-    "dday": 2427,
+    "rangeEnd": "2040-05-04",
+    "dday": 2472,
     "confidence": 76,
-    "deltaDays": -33,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 72,
-    "temperature": 50,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 40,
+    "hotCount": 37,
     "coldCount": 6,
-    "summary": "가속 신호 40건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 37건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
@@ -263,10 +263,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 86,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -276,8 +276,8 @@
           "publishedAt": "2026-08-21T16:00:52.000Z",
           "publishedAtKst": "2026. 08. 22. 01:00",
           "summary": "While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-world patent drafting: generating a complet",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -294,8 +294,8 @@
           "publishedAt": "2026-08-21T17:07:41.000Z",
           "publishedAtKst": "2026. 08. 22. 02:07",
           "summary": "Reinforcement Learning (RL) has demonstrated significant gains in image captioning, yet it is still limited in encouraging Large Vision-Language Models (LVLMs) to explore novel reasoning strategies. This limitation leads",
-          "impact": 20,
-          "confidence": 90,
+          "impact": 19,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -312,8 +312,8 @@
           "publishedAt": "2026-08-21T17:52:17.000Z",
           "publishedAtKst": "2026. 08. 22. 02:52",
           "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve dif",
-          "impact": 19,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -330,8 +330,8 @@
           "publishedAt": "2026-08-21T15:21:40.000Z",
           "publishedAtKst": "2026. 08. 22. 00:21",
           "summary": "This paper investigates cross-agent specification portability using Oracle-to-PostgreSQL migration as a controlled software transformation task. The study combines two experimental stages. First, a specification-first mi",
-          "impact": 18,
-          "confidence": 85,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -348,8 +348,8 @@
           "publishedAt": "2026-08-21T15:27:28.000Z",
           "publishedAtKst": "2026. 08. 22. 00:27",
           "summary": "Predictive political question answering (QA), such as predicting how a political actor will vote, goes beyond factual lookup. External political resources offer rich historical evidence, but rarely contain the answer its",
-          "impact": 18,
-          "confidence": 84,
+          "impact": 16,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -365,12 +365,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 66,
+      "score": 64,
       "delta": 4,
       "weight": 0.2,
-      "confidence": 50,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "Delay-corrected Bellman operator + causal attribution for constrained RL contraction proof under unknown stochastic delay [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/",
+          "publishedAt": "2026-08-24T12:11:34.000Z",
+          "publishedAtKst": "2026. 08. 24. 21:11",
+          "summary": "Standard constrained RL assumes consequences are immediate and attributable to the current action. This breaks down whenever violations are delayed and stochastic, which is most real-world settings you end up penalizing ",
+          "impact": 15,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "추론 인프라"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: Active Source of Truth for Your Coding Agents",
           "source": "Hacker News",
@@ -378,45 +396,14 @@
           "publishedAt": "2026-08-23T00:43:04.000Z",
           "publishedAtKst": "2026. 08. 23. 09:43",
           "summary": "4 points, 2 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A (stupid?) question for people who know something about AI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vw8umk/a_stupid_question_for_people_who_know_something/",
-          "publishedAt": "2026-08-23T14:36:37.000Z",
-          "publishedAtKst": "2026. 08. 23. 23:36",
-          "summary": "Presuming that any AGI or other super intelligent AI will be dependent on its physical infrastructure to “live”, wouldn’t wiping out humanity be self defeating at this point and for the near term? And wouldn’t it recogni",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I gave Qwen 3.8 27B a reverse-engineering job I assumed needed a frontier model, and it finished in 30 minutes",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vwaetf/i_gave_qwen_38_27b_a_reverseengineering_job_i/",
-          "publishedAt": "2026-08-23T15:38:09.000Z",
-          "publishedAtKst": "2026. 08. 24. 00:38",
-          "summary": "&#32; submitted by &#32; /u/yogthos [link] &#32; [comments]",
-          "impact": 12,
-          "confidence": 46,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
@@ -426,7 +413,7 @@
           "publishedAtKst": "2026. 08. 22. 01:47",
           "summary": "45 points, 16 comments",
           "impact": 11,
-          "confidence": 51,
+          "confidence": 50,
           "stance": "watch",
           "tags": [
             "에이전트",
@@ -435,14 +422,14 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+          "title": "Locus – Deterministic Safe Rust AST Engine for Multi-Agent Coding Swarms",
           "source": "Hacker News",
-          "url": "https://ozbrain.com",
-          "publishedAt": "2026-08-21T23:09:06.000Z",
-          "publishedAtKst": "2026. 08. 22. 08:09",
-          "summary": "85 points, 50 comments",
-          "impact": 10,
-          "confidence": 49,
+          "url": "https://github.com/ahmadshady747-create/LOCUS",
+          "publishedAt": "2026-08-23T14:42:56.000Z",
+          "publishedAtKst": "2026. 08. 23. 23:42",
+          "summary": "2 points, 0 comments",
+          "impact": 8,
+          "confidence": 51,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -454,13 +441,6 @@
   ],
   "topDrivers": [
     {
-      "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.21249v1",
-      "impact": 21,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Why do models task game?",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
@@ -468,10 +448,17 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.21249v1",
+      "impact": 20,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.21305v1",
-      "impact": 20,
+      "impact": 19,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -480,15 +467,8 @@
       "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.21230v1",
-      "impact": 3,
+      "impact": 4,
       "reason": "공격/악용, 프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "From Regulation to Implementation: A Critical Evaluation of LLM-Assisted Regulatory Compliance in Industry",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.21317v1",
-      "impact": 5,
-      "reason": "규제, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "RARE: Decoupling Representation Steering from Expert Routing in Mixture-of-Experts Language Models",
@@ -496,6 +476,13 @@
       "url": "http://arxiv.org/abs/2608.21236v1",
       "impact": 5,
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "From Regulation to Implementation: A Critical Evaluation of LLM-Assisted Regulatory Compliance in Industry",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.21317v1",
+      "impact": 6,
+      "reason": "규제, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
