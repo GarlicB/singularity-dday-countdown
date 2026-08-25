@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-25T03:40:00.142Z",
-  "generatedAtKst": "2026. 08. 25. 12:40",
-  "nextUpdateAt": "2026-08-25T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 25. 18:00",
+  "generatedAt": "2026-08-25T09:24:59.501Z",
+  "generatedAtKst": "2026. 08. 25. 18:24",
+  "nextUpdateAt": "2026-08-25T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 26. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 78,
     "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
+    "hotCount": 52,
     "coldCount": 8,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -331,7 +331,7 @@
           "publishedAt": "2026-08-24T16:09:21.000Z",
           "publishedAtKst": "2026. 08. 25. 01:09",
           "summary": "Understanding a basketball game requires recognizing events, localizing actions, identifying players, and relating these to structured game knowledge. Existing benchmarks primarily evaluate these abilities one at a time,",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-08-24T16:28:26.000Z",
           "publishedAtKst": "2026. 08. 25. 01:28",
           "summary": "Interpretability is critical for machine learning models deployed in scientific space missions such as ESA's Ariel, where ground truth is unavailable during operations and physical plausibility must be assessed. While mo",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,12 +366,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
+      "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "How to know if talking to your coding agent like a caveman saves money",
+          "source": "Hacker News",
+          "url": "https://jayn.app/caveman",
+          "publishedAt": "2026-08-25T08:50:27.000Z",
+          "publishedAtKst": "2026. 08. 25. 17:50",
+          "summary": "5 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Why do antis still believe ai is incompetent/useless? This will lead to regulation coming too late.",
           "source": "r/singularity",
@@ -391,52 +407,36 @@
           "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Terminal-bench: benchmarks for AI agents in terminal environments",
+          "source": "Hacker News",
+          "url": "https://www.tbench.ai/",
+          "publishedAt": "2026-08-25T08:38:40.000Z",
+          "publishedAtKst": "2026. 08. 25. 17:38",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Why do we assume anyone will give us access to superintelligence?",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1vx5ezk/why_do_we_assume_anyone_will_give_us_access_to/",
           "publishedAt": "2026-08-24T15:06:17.000Z",
           "publishedAtKst": "2026. 08. 25. 00:06",
           "summary": "Thought experiment. Let's suppose a company develops something genuinely superintelligent. The full \"enslaved god\" scenario, in Tegmark's framework. In what universe would its rational next move be to put it behind a $20",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "초지능",
             "모델"
           ],
           "why": "초지능, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "We gave every agent a computer",
-          "source": "Hacker News",
-          "url": "https://onecli.sh/blog/why-we-gave-every-agent-a-computer",
-          "publishedAt": "2026-08-25T02:41:45.000Z",
-          "publishedAtKst": "2026. 08. 25. 11:41",
-          "summary": "5 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "컴퓨트"
-          ],
-          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Active Source of Truth for Your Coding Agents",
-          "source": "Hacker News",
-          "url": "https://meetless.ai",
-          "publishedAt": "2026-08-23T00:43:04.000Z",
-          "publishedAtKst": "2026. 08. 23. 09:43",
-          "summary": "4 points, 2 comments",
-          "impact": 12,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "AI Insider States \"The Next Generation Of Models Will Be An Ontological Shock\"",
@@ -446,7 +446,7 @@
           "publishedAtKst": "2026. 08. 25. 11:18",
           "summary": "https://x.com/skirano/status/2091652181870973309 No one is ready for what’s coming. The next generation of models will be an ontological shock. He had access to models like GPT-5.6 long before release, so this is legit. ",
           "impact": 12,
-          "confidence": 48,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -482,6 +482,13 @@
   ],
   "topDampeners": [
     {
+      "title": "Trump's tariffs risk higher prices for AI, video games, cellphones: experts",
+      "source": "Hacker News",
+      "url": "https://www.cbc.ca/news/business/trump-tariff-ai-9.7318970",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.23562v1",
@@ -494,13 +501,6 @@
       "url": "http://arxiv.org/abs/2608.23547v1",
       "impact": 2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.23480v1",
-      "impact": 2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
