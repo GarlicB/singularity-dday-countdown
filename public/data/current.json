@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-26T03:44:43.093Z",
-  "generatedAtKst": "2026. 08. 26. 12:44",
-  "nextUpdateAt": "2026-08-26T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 26. 18:00",
+  "generatedAt": "2026-08-26T09:31:14.819Z",
+  "generatedAtKst": "2026. 08. 26. 18:31",
+  "nextUpdateAt": "2026-08-26T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 27. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2065,
+    "rangeEnd": "2039-05-10",
+    "dday": 2110,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 48,
     "coldCount": 4,
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-25T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 25. 09:00",
           "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-25T07:05:00.000Z",
           "publishedAtKst": "2026. 08. 25. 16:05",
           "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-25T07:00:00.000Z",
           "publishedAtKst": "2026. 08. 25. 16:00",
           "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-24T12:00:00.000Z",
           "publishedAtKst": "2026. 08. 24. 21:00",
           "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -264,7 +264,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -331,7 +331,7 @@
           "publishedAt": "2026-08-25T16:00:11.000Z",
           "publishedAtKst": "2026. 08. 26. 01:00",
           "summary": "Procedural video-language models must solve heterogeneous tasks from the same visual evidence, including action recognition, forecasting, and procedure prediction. Dense transformer decoders share the same feed-forward n",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-08-25T15:52:10.000Z",
           "publishedAtKst": "2026. 08. 26. 00:52",
           "summary": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. ",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,30 +366,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 60,
+      "confidence": 58,
       "trend": "hot",
       "items": [
-        {
-          "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
-          "source": "Hacker News",
-          "url": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-          "publishedAt": "2026-08-26T03:23:50.000Z",
-          "publishedAtKst": "2026. 08. 26. 12:23",
-          "summary": "1 points, 0 comments",
-          "impact": 30,
-          "confidence": 66,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "Gemini",
-            "Claude"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weights Model [R]",
           "source": "r/MachineLearning",
@@ -397,7 +379,7 @@
           "publishedAt": "2026-08-25T10:30:17.000Z",
           "publishedAtKst": "2026. 08. 25. 19:30",
           "summary": "Paper: https://huggingface.co/spaces/tri-fair-lab/publications/blob/main/Thomson_1_0_Technical_Report.pdf The development of frontier models is commonly perceived to be in the exclusive remit of a small number of heavily",
-          "impact": 23,
+          "impact": 22,
           "confidence": 62,
           "stance": "accelerate",
           "tags": [
@@ -415,7 +397,7 @@
           "publishedAt": "2026-08-25T16:03:11.000Z",
           "publishedAtKst": "2026. 08. 26. 01:03",
           "summary": "2 points, 0 comments",
-          "impact": 20,
+          "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -432,8 +414,8 @@
           "publishedAt": "2026-08-26T01:36:48.000Z",
           "publishedAtKst": "2026. 08. 26. 10:36",
           "summary": "3 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -443,14 +425,29 @@
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Ubisoft forgot the actual game in Steam release of Heroes of Might and Magic 3",
+          "source": "Hacker News",
+          "url": "https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game/",
+          "publishedAt": "2026-08-26T08:45:36.000Z",
+          "publishedAtKst": "2026. 08. 26. 17:45",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "What would a fair benchmark for agent architecture look like? [D]",
           "source": "r/MachineLearning",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1vy0ki7/what_would_a_fair_benchmark_for_agent/",
           "publishedAt": "2026-08-25T13:55:48.000Z",
           "publishedAtKst": "2026. 08. 25. 22:55",
           "summary": "I am working on an evaluation design and would appreciate criticism before running it. Most coding-agent benchmarks collapse the model and its harness into one score. If a run fails, it is difficult to tell whether the c",
-          "impact": 17,
-          "confidence": 54,
+          "impact": 16,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -504,7 +501,7 @@
       "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.24777v1",
-      "impact": 12,
+      "impact": 11,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
