@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-26T09:31:14.819Z",
-  "generatedAtKst": "2026. 08. 26. 18:31",
-  "nextUpdateAt": "2026-08-26T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 27. 00:00",
+  "generatedAt": "2026-08-26T16:09:45.339Z",
+  "generatedAtKst": "2026. 08. 27. 01:09",
+  "nextUpdateAt": "2026-08-26T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 27. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2110,
+    "rangeEnd": "2039-06-24",
+    "dday": 2155,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 48,
-    "coldCount": 4,
-    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 45,
+    "coldCount": 6,
+    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 58,
-      "delta": 2,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -264,8 +264,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -331,7 +331,7 @@
           "publishedAt": "2026-08-25T16:00:11.000Z",
           "publishedAtKst": "2026. 08. 26. 01:00",
           "summary": "Procedural video-language models must solve heterogeneous tasks from the same visual evidence, including action recognition, forecasting, and procedure prediction. Dense transformer decoders share the same feed-forward n",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-08-25T15:52:10.000Z",
           "publishedAtKst": "2026. 08. 26. 00:52",
           "summary": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. ",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,30 +366,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 56,
       "trend": "hot",
       "items": [
-        {
-          "title": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weights Model [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vxvzju/continual_learning_of_frontier_models_for/",
-          "publishedAt": "2026-08-25T10:30:17.000Z",
-          "publishedAtKst": "2026. 08. 25. 19:30",
-          "summary": "Paper: https://huggingface.co/spaces/tri-fair-lab/publications/blob/main/Thomson_1_0_Technical_Report.pdf The development of frontier models is commonly perceived to be in the exclusive remit of a small number of heavily",
-          "impact": 22,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "프런티어 모델",
-            "모델",
-            "오픈 모델"
-          ],
-          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Show HN: TheGitAI – A model-agnostic coding agent for your terminal",
           "source": "Hacker News",
@@ -397,8 +379,8 @@
           "publishedAt": "2026-08-25T16:03:11.000Z",
           "publishedAtKst": "2026. 08. 26. 01:03",
           "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -414,8 +396,8 @@
           "publishedAt": "2026-08-26T01:36:48.000Z",
           "publishedAtKst": "2026. 08. 26. 10:36",
           "summary": "3 points, 0 comments",
-          "impact": 18,
-          "confidence": 59,
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -425,14 +407,30 @@
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Ubisoft forgot the actual game in Steam release of Heroes of Might and Magic 3",
+          "title": "Ora benchmarks every major AI agent on Vercel – Customers",
           "source": "Hacker News",
-          "url": "https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game/",
-          "publishedAt": "2026-08-26T08:45:36.000Z",
-          "publishedAtKst": "2026. 08. 26. 17:45",
-          "summary": "1 points, 0 comments",
+          "url": "https://vercel.com/customers/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+          "publishedAt": "2026-08-26T12:24:57.000Z",
+          "publishedAtKst": "2026. 08. 26. 21:24",
+          "summary": "2 points, 0 comments",
           "impact": 16,
-          "confidence": 58,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Sam Altman tells TIME that OpenAI will achieve AGI by the end of this year.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vyyli5/sam_altman_tells_time_that_openai_will_achieve/",
+          "publishedAt": "2026-08-26T14:25:37.000Z",
+          "publishedAtKst": "2026. 08. 26. 23:25",
+          "summary": "&#32; submitted by &#32; /u/troll_khan [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -440,21 +438,20 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What would a fair benchmark for agent architecture look like? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1vy0ki7/what_would_a_fair_benchmark_for_agent/",
-          "publishedAt": "2026-08-25T13:55:48.000Z",
-          "publishedAtKst": "2026. 08. 25. 22:55",
-          "summary": "I am working on an evaluation design and would appreciate criticism before running it. Most coding-agent benchmarks collapse the model and its harness into one score. If a run fails, it is difficult to tell whether the c",
-          "impact": 16,
-          "confidence": 53,
+          "title": "Terminal-bench: benchmarks for AI agents in terminal environments",
+          "source": "Hacker News",
+          "url": "https://www.tbench.ai/",
+          "publishedAt": "2026-08-25T08:38:40.000Z",
+          "publishedAtKst": "2026. 08. 25. 17:38",
+          "summary": "2 points, 0 comments",
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델",
             "벤치마크"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -484,6 +481,13 @@
   ],
   "topDampeners": [
     {
+      "title": "Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies",
+      "source": "Hacker News",
+      "url": "https://www.risklytics.ai/",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "AI swarms are starting to pose indirect takeover risk",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
@@ -496,13 +500,6 @@
       "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
       "impact": 7,
       "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.24777v1",
-      "impact": 11,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
