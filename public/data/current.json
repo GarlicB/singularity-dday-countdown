@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-25T21:18:14.753Z",
-  "generatedAtKst": "2026. 08. 26. 06:18",
-  "nextUpdateAt": "2026-08-26T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 26. 12:00",
+  "generatedAt": "2026-08-26T03:44:43.093Z",
+  "generatedAtKst": "2026. 08. 26. 12:44",
+  "nextUpdateAt": "2026-08-26T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 26. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2111,
+    "rangeEnd": "2039-03-26",
+    "dday": 2065,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 6,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 48,
+    "coldCount": 4,
+    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 76,
-      "delta": 5,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-25T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 25. 09:00",
           "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -264,101 +264,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
-      "delta": 10,
+      "score": 93,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+          "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.23564v1",
-          "publishedAt": "2026-08-24T17:59:04.000Z",
-          "publishedAtKst": "2026. 08. 25. 02:59",
-          "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform",
+          "url": "http://arxiv.org/abs/2608.24876v1",
+          "publishedAt": "2026-08-25T17:56:35.000Z",
+          "publishedAtKst": "2026. 08. 26. 02:56",
+          "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architectur",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성",
+            "자기개선",
             "프런티어 모델",
-            "Claude"
+            "GPT"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Prime Agent: A Self-Improving RLM Harness",
+          "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.23552v1",
-          "publishedAt": "2026-08-24T17:54:19.000Z",
-          "publishedAtKst": "2026. 08. 25. 02:54",
-          "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation ",
+          "url": "http://arxiv.org/abs/2608.24848v1",
+          "publishedAt": "2026-08-25T17:35:42.000Z",
+          "publishedAtKst": "2026. 08. 26. 02:35",
+          "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and h",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "자율성",
-            "GPT"
+            "추론",
+            "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+          "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.23493v1",
-          "publishedAt": "2026-08-24T16:55:09.000Z",
-          "publishedAtKst": "2026. 08. 25. 01:55",
-          "summary": "Self-reflection is a powerful mechanism for credit assignment in human learning, converting sparse outcome feedback into actionable guidance. However, its potential for post-training Large Language Models (LLMs) remains ",
+          "url": "http://arxiv.org/abs/2608.24735v1",
+          "publishedAt": "2026-08-25T15:44:25.000Z",
+          "publishedAtKst": "2026. 08. 26. 00:44",
+          "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery un",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "에이전트",
-            "추론",
-            "LLM",
-            "모델"
+            "자기개선",
+            "LLM"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Towards Comprehensive Basketball Understanding",
+          "title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.23435v1",
-          "publishedAt": "2026-08-24T16:09:21.000Z",
-          "publishedAtKst": "2026. 08. 25. 01:09",
-          "summary": "Understanding a basketball game requires recognizing events, localizing actions, identifying players, and relating these to structured game knowledge. Existing benchmarks primarily evaluate these abilities one at a time,",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.24763v1",
+          "publishedAt": "2026-08-25T16:00:11.000Z",
+          "publishedAtKst": "2026. 08. 26. 01:00",
+          "summary": "Procedural video-language models must solve heterogeneous tasks from the same visual evidence, including action recognition, forecasting, and procedure prediction. Dense transformer decoders share the same feed-forward n",
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
             "LLM",
+            "모델",
             "벤치마크",
             "멀티모달"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Traceable Spectral Inference via Influence Functions: Efficient Data Attribution and Error Proxies for the Ariel Mission",
+          "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.23458v1",
-          "publishedAt": "2026-08-24T16:28:26.000Z",
-          "publishedAtKst": "2026. 08. 25. 01:28",
-          "summary": "Interpretability is critical for machine learning models deployed in scientific space missions such as ESA's Ariel, where ground truth is unavailable during operations and physical plausibility must be assessed. While mo",
-          "impact": 25,
+          "url": "http://arxiv.org/abs/2608.24747v1",
+          "publishedAt": "2026-08-25T15:52:10.000Z",
+          "publishedAtKst": "2026. 08. 26. 00:52",
+          "summary": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. ",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
+            "에이전트",
+            "LLM",
             "모델",
-            "컴퓨트",
-            "추론 인프라"
+            "성능 향상"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,12 +366,48 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 80,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 60,
       "trend": "hot",
       "items": [
+        {
+          "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+          "source": "Hacker News",
+          "url": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+          "publishedAt": "2026-08-26T03:23:50.000Z",
+          "publishedAtKst": "2026. 08. 26. 12:23",
+          "summary": "1 points, 0 comments",
+          "impact": 30,
+          "confidence": 66,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "Gemini",
+            "Claude"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weights Model [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vxvzju/continual_learning_of_frontier_models_for/",
+          "publishedAt": "2026-08-25T10:30:17.000Z",
+          "publishedAtKst": "2026. 08. 25. 19:30",
+          "summary": "Paper: https://huggingface.co/spaces/tri-fair-lab/publications/blob/main/Thomson_1_0_Technical_Report.pdf The development of frontier models is commonly perceived to be in the exclusive remit of a small number of heavily",
+          "impact": 23,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "모델",
+            "오픈 모델"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: TheGitAI – A model-agnostic coding agent for your terminal",
           "source": "Hacker News",
@@ -379,8 +415,8 @@
           "publishedAt": "2026-08-25T16:03:11.000Z",
           "publishedAtKst": "2026. 08. 26. 01:03",
           "summary": "2 points, 0 comments",
-          "impact": 21,
-          "confidence": 62,
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,118 +426,85 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
+          "title": "Joint Optimization of Tool Creation and Use for Large Language Model Agents",
           "source": "Hacker News",
-          "url": "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
-          "publishedAt": "2026-08-25T20:47:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 05:47",
-          "summary": "2 points, 3 comments",
+          "url": "https://tool-use-smith.github.io/",
+          "publishedAt": "2026-08-26T01:36:48.000Z",
+          "publishedAtKst": "2026. 08. 26. 10:36",
+          "summary": "3 points, 0 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "LLM",
-            "추론 인프라"
+            "모델"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Ora benchmarks every major AI agent on Vercel – Customers",
-          "source": "Hacker News",
-          "url": "https://vercel.com/customers/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-          "publishedAt": "2026-08-25T16:10:06.000Z",
-          "publishedAtKst": "2026. 08. 26. 01:10",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "title": "What would a fair benchmark for agent architecture look like? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vy0ki7/what_would_a_fair_benchmark_for_agent/",
+          "publishedAt": "2026-08-25T13:55:48.000Z",
+          "publishedAtKst": "2026. 08. 25. 22:55",
+          "summary": "I am working on an evaluation design and would appreciate criticism before running it. Most coding-agent benchmarks collapse the model and its harness into one score. If a run fails, it is difficult to tell whether the c",
+          "impact": 17,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "모델",
             "벤치마크"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why do antis still believe ai is incompetent/useless? This will lead to regulation coming too late.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1vxg3xh/why_do_antis_still_believe_ai_is/",
-          "publishedAt": "2026-08-24T21:28:17.000Z",
-          "publishedAtKst": "2026. 08. 25. 06:28",
-          "summary": "As a SWE/someone interested in this space since gpt2 era, I am of the position that AI is competent/useful and therefore should be regulated before mass job loss. Even if you show them that Linus Torvalds said that \"ai h",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "Claude",
-            "돌파",
-            "규제"
-          ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Terminal-bench: benchmarks for AI agents in terminal environments",
-          "source": "Hacker News",
-          "url": "https://www.tbench.ai/",
-          "publishedAt": "2026-08-25T08:38:40.000Z",
-          "publishedAtKst": "2026. 08. 25. 17:38",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.23564v1",
+      "url": "http://arxiv.org/abs/2608.24876v1",
       "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.23552v1",
+      "url": "http://arxiv.org/abs/2608.24848v1",
       "impact": 36,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+      "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.23493v1",
+      "url": "http://arxiv.org/abs/2608.24735v1",
       "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.23547v1",
-      "impact": 2,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.23562v1",
-      "impact": 3,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "AI swarms are starting to pose indirect takeover risk",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
       "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Returning to ARC",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "impact": 7,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.24777v1",
+      "impact": 12,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
