@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-27T00:20:47.225Z",
-  "generatedAtKst": "2026. 08. 27. 09:20",
-  "nextUpdateAt": "2026-08-27T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 27. 12:00",
+  "generatedAt": "2026-08-27T13:20:39.088Z",
+  "generatedAtKst": "2026. 08. 27. 22:20",
+  "nextUpdateAt": "2026-08-27T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 28. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 4,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 56,
+    "coldCount": 5,
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-26T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 26. 19:00",
           "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-26T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 26. 19:00",
           "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-25T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 25. 09:00",
           "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-          "impact": 18,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-26T17:01:00.000Z",
           "publishedAtKst": "2026. 08. 27. 02:01",
           "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -147,7 +147,7 @@
           "publishedAt": "2026-08-25T07:05:00.000Z",
           "publishedAtKst": "2026. 08. 25. 16:05",
           "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -169,22 +169,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-          "publishedAt": "2026-08-26T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 16:00",
-          "summary": "",
-          "impact": 20,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Why do models task game?",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
@@ -201,6 +185,22 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "publishedAt": "2026-08-26T07:00:00.000Z",
+          "publishedAtKst": "2026. 08. 26. 16:00",
+          "summary": "",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "User awareness in frontier models",
@@ -262,101 +262,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 91,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+          "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.24876v1",
-          "publishedAt": "2026-08-25T17:56:35.000Z",
-          "publishedAtKst": "2026. 08. 26. 02:56",
-          "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architectur",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자기개선",
-            "프런티어 모델",
-            "GPT"
-          ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.24735v1",
-          "publishedAt": "2026-08-25T15:44:25.000Z",
-          "publishedAtKst": "2026. 08. 26. 00:44",
-          "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery un",
+          "url": "http://arxiv.org/abs/2608.25973v1",
+          "publishedAt": "2026-08-26T16:30:20.000Z",
+          "publishedAtKst": "2026. 08. 27. 01:30",
+          "summary": "Understanding instruction-following capabilities in scientific domains is essential for effectively leveraging Multimodal Large Language Models (MLLMs) to advance the development of scientific fields. In this work, we in",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "에이전트",
-            "자기개선",
-            "LLM"
+            "LLM",
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+          "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.24848v1",
-          "publishedAt": "2026-08-25T17:35:42.000Z",
-          "publishedAtKst": "2026. 08. 26. 02:35",
-          "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and h",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2608.26004v1",
+          "publishedAt": "2026-08-26T16:50:02.000Z",
+          "publishedAtKst": "2026. 08. 27. 01:50",
+          "summary": "Agentic LLM pipelines face escalating inference costs as context accumulates across retrieval, tool use, and multi-turn interactions. To control latency, deployments routinely compress inputs, but this degrades task accu",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
             "에이전트",
             "추론",
-            "모델"
+            "LLM",
+            "벤치마크"
           ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding",
+          "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.24763v1",
-          "publishedAt": "2026-08-25T16:00:11.000Z",
-          "publishedAtKst": "2026. 08. 26. 01:00",
-          "summary": "Procedural video-language models must solve heterogeneous tasks from the same visual evidence, including action recognition, forecasting, and procedure prediction. Dense transformer decoders share the same feed-forward n",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2608.26094v1",
+          "publishedAt": "2026-08-26T17:56:33.000Z",
+          "publishedAtKst": "2026. 08. 27. 02:56",
+          "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic pat",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "LLM",
+            "추론",
             "모델",
             "벤치마크",
             "멀티모달"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+          "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.24809v1",
-          "publishedAt": "2026-08-25T16:51:26.000Z",
-          "publishedAtKst": "2026. 08. 26. 01:51",
-          "summary": "We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5",
-          "impact": 26,
+          "url": "http://arxiv.org/abs/2608.26086v1",
+          "publishedAt": "2026-08-26T17:50:13.000Z",
+          "publishedAtKst": "2026. 08. 27. 02:50",
+          "summary": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over hours of feedback, a",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델",
-            "벤치마크",
-            "추론 인프라"
+            "자율성",
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.26013v1",
+          "publishedAt": "2026-08-26T16:55:58.000Z",
+          "publishedAtKst": "2026. 08. 27. 01:55",
+          "summary": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass generate-and-filter paradigm, discarding feed",
+          "impact": 30,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,10 +364,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 72,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
@@ -377,8 +377,8 @@
           "publishedAt": "2026-08-25T16:03:11.000Z",
           "publishedAtKst": "2026. 08. 26. 01:03",
           "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -388,14 +388,14 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Protein Secreted by Immune Cells May Help Drive Brain Aging",
-          "source": "Hacker News",
-          "url": "https://news.weill.cornell.edu/news/2026/08/protein-secreted-by-immune-cells-may-help-drive-brain-aging",
-          "publishedAt": "2026-08-27T00:15:04.000Z",
-          "publishedAtKst": "2026. 08. 27. 09:15",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "title": "TBH AI is 100x smarter than y'all.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1vzlutn/tbh_ai_is_100x_smarter_than_yall/",
+          "publishedAt": "2026-08-27T06:15:44.000Z",
+          "publishedAtKst": "2026. 08. 27. 15:15",
+          "summary": "Isn't AGI already here? &#32; submitted by &#32; /u/deferare [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -409,8 +409,8 @@
           "publishedAt": "2026-08-26T01:36:48.000Z",
           "publishedAtKst": "2026. 08. 26. 10:36",
           "summary": "4 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -426,8 +426,8 @@
           "publishedAt": "2026-08-26T12:24:57.000Z",
           "publishedAtKst": "2026. 08. 26. 21:24",
           "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 13,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -442,8 +442,8 @@
           "publishedAt": "2026-08-26T17:40:51.000Z",
           "publishedAtKst": "2026. 08. 27. 02:40",
           "summary": "&#32; submitted by &#32; /u/kaleNhearty [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 13,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -455,48 +455,48 @@
   ],
   "topDrivers": [
     {
-      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.24876v1",
+      "url": "http://arxiv.org/abs/2608.25973v1",
       "impact": 36,
-      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
+      "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.24735v1",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2608.26004v1",
+      "impact": 35,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.24848v1",
-      "impact": 33,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2608.26094v1",
+      "impact": 31,
+      "reason": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Jet engine safety issue impacting ~750 commercial aircraft",
-      "source": "Hacker News",
-      "url": "https://avioradar.net/en/faa-and-easa-order-compressor-blade-replacements-on-v2500-engines/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "AI swarms are starting to pose indirect takeover risk",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+      "title": "How Much Rank Does LoRA Need? Rank-Error Bounds for Transformer Attention",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.24777v1",
-      "impact": 11,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2608.26052v1",
+      "impact": -3,
+      "reason": "전력 병목, 포화 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Shieldprompt – test your LLM against prompt injection – no dependencies",
+      "source": "Hacker News",
+      "url": "https://github.com/Jograph17/shieldprompt",
+      "impact": 1,
+      "reason": "프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The raw chain of thought message snippets OpenAI released regarding the huggingface incident are fascinating",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1vzfupt/the_raw_chain_of_thought_message_snippets_openai/",
+      "impact": 5,
+      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
