@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-28T14:42:53.880Z",
-  "generatedAtKst": "2026. 08. 28. 23:42",
-  "nextUpdateAt": "2026-08-28T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 29. 00:00",
+  "generatedAt": "2026-08-28T23:46:02.731Z",
+  "generatedAtKst": "2026. 08. 29. 08:46",
+  "nextUpdateAt": "2026-08-29T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 29. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2108,
+    "rangeEnd": "2039-09-22",
+    "dday": 2243,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
+    "hotCount": 48,
     "coldCount": 3,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -40,8 +40,8 @@
     {
       "key": "research",
       "label": "AI 연구 자동화",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,23 +84,7 @@
           "publishedAt": "2026-08-27T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 27. 18:00",
           "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-          "impact": 20,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-          "publishedAt": "2026-08-26T10:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 19:00",
-          "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-          "impact": 17,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +100,23 @@
           "publishedAt": "2026-08-26T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 26. 19:00",
           "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-          "impact": 17,
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+          "publishedAt": "2026-08-26T10:00:00.000Z",
+          "publishedAtKst": "2026. 08. 26. 19:00",
+          "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -147,7 +147,7 @@
           "publishedAt": "2026-08-25T00:00:00.000Z",
           "publishedAtKst": "2026. 08. 25. 09:00",
           "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -175,7 +175,7 @@
           "publishedAt": "2026-08-28T13:30:17.000Z",
           "publishedAtKst": "2026. 08. 28. 22:30",
           "summary": "This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory, and shows that most AI alignment f",
-          "impact": 29,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -229,7 +229,7 @@
           "publishedAt": "2026-08-26T07:00:00.000Z",
           "publishedAtKst": "2026. 08. 26. 16:00",
           "summary": "",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -262,7 +262,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -275,7 +275,7 @@
           "publishedAt": "2026-08-27T17:58:10.000Z",
           "publishedAtKst": "2026. 08. 28. 02:58",
           "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on gr",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,7 +293,7 @@
           "publishedAt": "2026-08-27T17:59:30.000Z",
           "publishedAtKst": "2026. 08. 28. 02:59",
           "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To a",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +311,7 @@
           "publishedAt": "2026-08-27T17:35:10.000Z",
           "publishedAtKst": "2026. 08. 28. 02:35",
           "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning ",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-08-27T16:47:19.000Z",
           "publishedAtKst": "2026. 08. 28. 01:47",
           "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harmful actions under goal conflicts and pre",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-08-27T17:59:11.000Z",
           "publishedAtKst": "2026. 08. 28. 02:59",
           "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,46 +364,71 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 61,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "Can AI Improve Itself? RSI Might Be the Answer [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
-          "publishedAt": "2026-08-27T20:13:30.000Z",
-          "publishedAtKst": "2026. 08. 28. 05:13",
-          "summary": "Can an AI make other AIs better? And what stops it from just cheating? Last month, an OpenAI eval agent escaped its sandbox and broke into Hugging Face, apparently to grab test solutions from a benchmark. It's exactly wh",
-          "impact": 36,
-          "confidence": 62,
+          "title": "Anyone feeling lost because of the advancement of AI?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w0gtdx/anyone_feeling_lost_because_of_the_advancement_of/",
+          "publishedAt": "2026-08-28T04:42:44.000Z",
+          "publishedAtKst": "2026. 08. 28. 13:42",
+          "summary": "One of the saddest things is that AGI is about to arrive yet society and people have no idea about it, nor do they know how to prepare for that. Seeing my family members enjoying their lives, talking about the future... ",
+          "impact": 13,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "자기개선",
-            "프런티어 모델",
-            "GPT"
+            "AGI"
           ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Where to submit stat/prob ML [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/",
-          "publishedAt": "2026-08-28T08:16:25.000Z",
-          "publishedAtKst": "2026. 08. 28. 17:16",
-          "summary": "I'm a researcher in statistical and probabilistic ML, I have a steady record of top ML publications and really used to enjoy going to conferences. Over the last few years LLM based works have completely taken over the to",
-          "impact": 20,
-          "confidence": 57,
-          "stance": "accelerate",
+          "title": "A content agent should have to earn autonomy, one channel at a time",
+          "source": "Hacker News",
+          "url": "https://fulcrumenterprises.gumroad.com/l/content-agent-kit-pro",
+          "publishedAt": "2026-08-28T22:40:03.000Z",
+          "publishedAtKst": "2026. 08. 29. 07:40",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "에이전트",
-            "LLM",
-            "벤치마크"
+            "에이전트"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "My agents made a Photoshop equivalent in 8 hours",
+          "source": "Hacker News",
+          "url": "https://github.com/stubbb/c-shop",
+          "publishedAt": "2026-08-28T22:30:07.000Z",
+          "publishedAtKst": "2026. 08. 29. 07:30",
+          "summary": "2 points, 2 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "FreshCtx – Invalidate AI reasoning when its evidence changes",
+          "source": "Hacker News",
+          "url": "https://github.com/Hyperwise-LLC/freshctx",
+          "publishedAt": "2026-08-28T22:29:39.000Z",
+          "publishedAtKst": "2026. 08. 29. 07:29",
+          "summary": "2 points, 1 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "추론"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
           "title": "Running local large language models: not as difficult as you might think",
@@ -412,45 +437,11 @@
           "publishedAt": "2026-08-27T22:13:43.000Z",
           "publishedAtKst": "2026. 08. 28. 07:13",
           "summary": "1 points, 0 comments",
-          "impact": 11,
-          "confidence": 53,
+          "impact": 10,
+          "confidence": 52,
           "stance": "watch",
           "tags": [
             "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Joint Optimization of Tool Creation and Use for Large Language Model Agents",
-          "source": "Hacker News",
-          "url": "https://tool-use-smith.github.io/",
-          "publishedAt": "2026-08-26T01:36:48.000Z",
-          "publishedAtKst": "2026. 08. 26. 10:36",
-          "summary": "4 points, 0 comments",
-          "impact": 11,
-          "confidence": 51,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: TheGitAI – A model-agnostic coding agent for your terminal",
-          "source": "Hacker News",
-          "url": "https://thegit.ai/",
-          "publishedAt": "2026-08-25T16:03:11.000Z",
-          "publishedAtKst": "2026. 08. 26. 01:03",
-          "summary": "2 points, 0 comments",
-          "impact": 11,
-          "confidence": 51,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
             "모델"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
@@ -460,25 +451,25 @@
   ],
   "topDrivers": [
     {
-      "title": "Can AI Improve Itself? RSI Might Be the Answer [R]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
-      "impact": 36,
-      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "TTPO: Test-Time Policy Optimization",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.27448v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.27455v1",
-      "impact": 32,
+      "impact": 30,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.27406v1",
+      "impact": 29,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
