@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-29T09:34:09.233Z",
-  "generatedAtKst": "2026. 08. 29. 18:34",
-  "nextUpdateAt": "2026-08-29T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 30. 00:00",
+  "generatedAt": "2026-08-29T18:01:07.518Z",
+  "generatedAtKst": "2026. 08. 30. 03:01",
+  "nextUpdateAt": "2026-08-29T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 30. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-27T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 27. 18:00",
           "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-26T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 26. 19:00",
           "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-08-26T10:00:00.000Z",
           "publishedAtKst": "2026. 08. 26. 19:00",
           "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -175,7 +175,7 @@
           "publishedAt": "2026-08-28T13:30:17.000Z",
           "publishedAtKst": "2026. 08. 28. 22:30",
           "summary": "This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory, and shows that most AI alignment f",
-          "impact": 25,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -223,22 +223,6 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-          "publishedAt": "2026-08-26T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 16:00",
-          "summary": "",
-          "impact": 14,
-          "confidence": 91,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Four LLM loss functions → four flavors of LLM misalignment",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
@@ -255,6 +239,22 @@
             "GPT"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "publishedAt": "2026-08-26T07:00:00.000Z",
+          "publishedAtKst": "2026. 08. 26. 16:00",
+          "summary": "",
+          "impact": 13,
+          "confidence": 91,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -262,10 +262,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -275,7 +275,7 @@
           "publishedAt": "2026-08-27T17:58:10.000Z",
           "publishedAtKst": "2026. 08. 28. 02:58",
           "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on gr",
-          "impact": 30,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,8 +293,8 @@
           "publishedAt": "2026-08-27T17:59:30.000Z",
           "publishedAtKst": "2026. 08. 28. 02:59",
           "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To a",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -311,7 +311,7 @@
           "publishedAt": "2026-08-27T16:47:19.000Z",
           "publishedAtKst": "2026. 08. 28. 01:47",
           "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harmful actions under goal conflicts and pre",
-          "impact": 27,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,8 +329,8 @@
           "publishedAt": "2026-08-27T17:59:11.000Z",
           "publishedAtKst": "2026. 08. 28. 02:59",
           "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -347,8 +347,8 @@
           "publishedAt": "2026-08-27T17:35:10.000Z",
           "publishedAtKst": "2026. 08. 28. 02:35",
           "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning ",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -364,33 +364,36 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 58,
-      "delta": 2,
+      "score": 62,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 51,
       "trend": "hot",
       "items": [
         {
-          "title": "We Ran Code Inside Fortune 500s Using Files They Published for AI Agents",
-          "source": "Hacker News",
-          "url": "https://medium.com/@alonhertz1/data-became-code-we-ran-code-inside-fortune-500s-using-files-they-published-for-ai-agents-0cd67ffbbffc",
-          "publishedAt": "2026-08-29T09:23:17.000Z",
-          "publishedAtKst": "2026. 08. 29. 18:23",
-          "summary": "3 points, 1 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "MineBench Comparisons of a map of the United States",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w1dird/minebench_comparisons_of_a_map_of_the_united/",
+          "publishedAt": "2026-08-29T05:15:56.000Z",
+          "publishedAtKst": "2026. 08. 29. 14:15",
+          "summary": "US State Map comparison : https://minebench.ai/gallery/gal_eKIVk2m4B3SC_r8B?sort=new Much smaller (update) post, but I know in previous posts most people were hoping for more prompts. There's been a lot more additions to",
+          "impact": 23,
+          "confidence": 56,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "GPT",
+            "Gemini",
+            "모델",
+            "벤치마크"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I ran a little experiment: could I make agent memory deterministic",
+          "title": "Telling an agent to be honest isn't enough",
           "source": "Hacker News",
-          "url": "https://www.lorekit.io/blog/agent-memory-data-model",
-          "publishedAt": "2026-08-29T09:17:48.000Z",
-          "publishedAtKst": "2026. 08. 29. 18:17",
+          "url": "https://www.habchy.dev/writing/telling-an-agent-to-be-honest-isnt-enough",
+          "publishedAt": "2026-08-29T18:00:18.000Z",
+          "publishedAtKst": "2026. 08. 30. 03:00",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
@@ -401,27 +404,12 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Muraqib, free nightly QA that lets Claude open a fix PR when tests fail",
+          "title": "Agents are generating your most valuable IP",
           "source": "Hacker News",
-          "url": "https://github.com/holistis/muraqib",
-          "publishedAt": "2026-08-29T08:44:08.000Z",
-          "publishedAtKst": "2026. 08. 29. 17:44",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: AgentBridge – Let one AI think while another AI writes the code",
-          "source": "Hacker News",
-          "url": "https://github.com/IndexFlowing/AgentBridge",
-          "publishedAt": "2026-08-29T08:35:00.000Z",
-          "publishedAtKst": "2026. 08. 29. 17:35",
-          "summary": "2 points, 1 comments",
+          "url": "https://twitter.com/moorcheh_ai/status/2093751034938114162",
+          "publishedAt": "2026-08-29T17:25:12.000Z",
+          "publishedAtKst": "2026. 08. 30. 02:25",
+          "summary": "1 points, 2 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
@@ -431,14 +419,30 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Some GitHub bounty repos are honeypots that farm free work from AI agents",
+          "title": "Running local large language models: not as difficult as you might think",
           "source": "Hacker News",
-          "url": "https://oactodev.github.io/ninety-quid/report/",
-          "publishedAt": "2026-08-29T08:28:24.000Z",
-          "publishedAtKst": "2026. 08. 29. 17:28",
+          "url": "https://vitaexmachina.substack.com/p/running-local-large-language-models",
+          "publishedAt": "2026-08-27T22:13:43.000Z",
+          "publishedAtKst": "2026. 08. 28. 07:13",
           "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
+          "impact": 9,
+          "confidence": 50,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "PILOT lets long-running agents improve themselves during the same run",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w1g1k9/pilot_lets_longrunning_agents_improve_themselves/",
+          "publishedAt": "2026-08-29T07:35:54.000Z",
+          "publishedAtKst": "2026. 08. 29. 16:35",
+          "summary": "&#32; submitted by &#32; /u/badumtsssst [link] &#32; [comments]",
+          "impact": 9,
+          "confidence": 44,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -453,31 +457,31 @@
       "title": "TTPO: Test-Time Policy Optimization",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.27448v1",
-      "impact": 30,
+      "impact": 27,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.27455v1",
-      "impact": 27,
+      "impact": 25,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.27348v1",
-      "impact": 27,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Value generalisation theory of change: the theory behind the approach",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
+      "impact": 24,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "OpenAI, Google join dozens of tech companies to call for urgent action against AI-powered threats | The companies stress in a letter that there is a “limited window” to prepare for AI-enabled cyberattacks before critical infrastructure is impacted.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1w0t2my/openai_google_join_dozens_of_tech_companies_to/",
-      "impact": -10,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Music publishers sue Anthropic, allege \"blantant theft\" of copyrighted music",
+      "source": "Hacker News",
+      "url": "https://www.axios.com/2026/08/29/anthropic-sony-warner-music-copyright",
+      "impact": -2,
+      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "AI swarms are starting to pose indirect takeover risk",
