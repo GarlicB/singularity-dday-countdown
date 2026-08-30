@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T08:40:47.401Z",
-  "generatedAtKst": "2026. 08. 30. 17:40",
-  "nextUpdateAt": "2026-08-30T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 30. 18:00",
+  "generatedAt": "2026-08-30T14:05:31.200Z",
+  "generatedAtKst": "2026. 08. 30. 23:05",
+  "nextUpdateAt": "2026-08-30T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 08. 31. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 41,
-    "coldCount": 3,
+    "coldCount": 4,
     "summary": "가속 신호 41건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -142,19 +142,20 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini Omni 1.1 Flash lets you build with more control",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-          "publishedAt": "2026-08-27T16:11:32.000Z",
-          "publishedAtKst": "2026. 08. 28. 01:11",
-          "summary": "",
-          "impact": 13,
+          "title": "The full stack behind abundant intelligence",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "publishedAt": "2026-08-25T07:05:00.000Z",
+          "publishedAtKst": "2026. 08. 25. 16:05",
+          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "impact": 12,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "Gemini"
+            "모델",
+            "컴퓨트"
           ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -175,7 +176,7 @@
           "publishedAt": "2026-08-28T13:30:17.000Z",
           "publishedAtKst": "2026. 08. 28. 22:30",
           "summary": "This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory, and shows that most AI alignment f",
-          "impact": 21,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -264,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -277,8 +278,8 @@
           "publishedAt": "2026-08-27T17:58:10.000Z",
           "publishedAtKst": "2026. 08. 28. 02:58",
           "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on gr",
-          "impact": 23,
-          "confidence": 89,
+          "impact": 22,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -289,32 +290,14 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27348v1",
-          "publishedAt": "2026-08-27T16:47:19.000Z",
-          "publishedAtKst": "2026. 08. 28. 01:47",
-          "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harmful actions under goal conflicts and pre",
-          "impact": 21,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "추론",
-            "LLM"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.27455v1",
           "publishedAt": "2026-08-27T17:59:30.000Z",
           "publishedAtKst": "2026. 08. 28. 02:59",
           "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To a",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -325,13 +308,31 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.27348v1",
+          "publishedAt": "2026-08-27T16:47:19.000Z",
+          "publishedAtKst": "2026. 08. 28. 01:47",
+          "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harmful actions under goal conflicts and pre",
+          "impact": 19,
+          "confidence": 88,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "추론",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2608.27406v1",
           "publishedAt": "2026-08-27T17:35:10.000Z",
           "publishedAtKst": "2026. 08. 28. 02:35",
           "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning ",
-          "impact": 21,
+          "impact": 19,
           "confidence": 86,
           "stance": "accelerate",
           "tags": [
@@ -349,8 +350,8 @@
           "publishedAt": "2026-08-27T17:59:11.000Z",
           "publishedAtKst": "2026. 08. 28. 02:59",
           "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -366,28 +367,45 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 69,
-      "delta": 5,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "Memctl: Versioned memory for your coding agent (Claude.md / AGENTS.md)",
+          "title": "Ask HN: How do I make sure ChatGPT/Claude/Gemini forget all prior conversations?",
           "source": "Hacker News",
-          "url": "https://github.com/EltonCherrington/memctl",
-          "publishedAt": "2026-08-30T08:38:00.000Z",
-          "publishedAtKst": "2026. 08. 30. 17:38",
-          "summary": "1 points, 0 comments",
-          "impact": 26,
+          "url": "https://news.ycombinator.com/item?id=49498450",
+          "publishedAt": "2026-08-30T13:25:22.000Z",
+          "publishedAtKst": "2026. 08. 30. 22:25",
+          "summary": "1 points, 1 comments",
+          "impact": 30,
           "confidence": 66,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "Claude",
-            "코딩 에이전트"
+            "ChatGPT",
+            "GPT",
+            "Gemini",
+            "Claude"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Why is almost nobody talking about MAMMAL model?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w2gxvr/why_is_almost_nobody_talking_about_mammal_model/",
+          "publishedAt": "2026-08-30T12:59:53.000Z",
+          "publishedAtKst": "2026. 08. 30. 21:59",
+          "summary": "MAMMAL is a model that has been released a while ago. I heard about thanks to some small yt channel that focuses on bioinformatics and AI. I have seen hype AlphaFold 1, 2 or even 3 were causing. Everyone kept talking abo",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Critics loops vs 0 shot",
@@ -396,7 +414,7 @@
           "publishedAt": "2026-08-29T18:02:21.000Z",
           "publishedAtKst": "2026. 08. 30. 03:02",
           "summary": "Yes this is all pure Three.JS, 0 external assets. it was mostly a 0 shot work, but i did do 1 small corrections prompt (it left some big gaps between buildings and one path was blocked). EDIT: Actually i stand corrected,",
-          "impact": 15,
+          "impact": 14,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -406,80 +424,71 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "RSSMonster – An agentic RSS reader built on local embeddings and small models",
+          "source": "Hacker News",
+          "url": "https://github.com/pietheinstrengholt/rssmonster/",
+          "publishedAt": "2026-08-30T13:47:45.000Z",
+          "publishedAtKst": "2026. 08. 30. 22:47",
+          "summary": "1 points, 1 comments",
+          "impact": 13,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Large language models take the original politicalcompass.org test",
           "source": "Hacker News",
           "url": "https://aipolcom.net/",
           "publishedAt": "2026-08-30T08:37:26.000Z",
           "publishedAtKst": "2026. 08. 30. 17:37",
-          "summary": "1 points, 0 comments",
+          "summary": "2 points, 0 comments",
           "impact": 12,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
             "모델"
           ],
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Eight Things to Know about Large Language Models(2023)",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2304.00612",
-          "publishedAt": "2026-08-29T19:17:04.000Z",
-          "publishedAtKst": "2026. 08. 30. 04:17",
-          "summary": "2 points, 1 comments",
-          "impact": 11,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w1pn6j/swarmworld_stigmergic_technological_evolution_in/",
-          "publishedAt": "2026-08-29T15:34:13.000Z",
-          "publishedAtKst": "2026. 08. 30. 00:34",
-          "summary": "&#32; submitted by &#32; /u/coldbeers [link] &#32; [comments]",
-          "impact": 11,
-          "confidence": 46,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Memctl: Versioned memory for your coding agent (Claude.md / AGENTS.md)",
+      "title": "Ask HN: How do I make sure ChatGPT/Claude/Gemini forget all prior conversations?",
       "source": "Hacker News",
-      "url": "https://github.com/EltonCherrington/memctl",
-      "impact": 26,
-      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "https://news.ycombinator.com/item?id=49498450",
+      "impact": 30,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "TTPO: Test-Time Policy Optimization",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.27448v1",
-      "impact": 23,
+      "impact": 22,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Value generalisation theory of change: the theory behind the approach",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
-      "impact": 21,
+      "impact": 20,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "90 days of attacks on AI infrastructure",
+      "source": "Hacker News",
+      "url": "https://www.wiz.io/blog/ai-infrastructure-honeypot",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "AI swarms are starting to pose indirect takeover risk",
       "source": "Alignment Forum",
@@ -493,13 +502,6 @@
       "url": "http://arxiv.org/abs/2608.27367v1",
       "impact": 7,
       "reason": "개선 부족 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.27439v1",
-      "impact": 9,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
