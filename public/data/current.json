@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T23:01:01.623Z",
-  "generatedAtKst": "2026. 08. 31. 08:01",
-  "nextUpdateAt": "2026-08-31T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 08. 31. 12:00",
+  "generatedAt": "2026-08-31T09:03:58.065Z",
+  "generatedAtKst": "2026. 08. 31. 18:03",
+  "nextUpdateAt": "2026-08-31T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 01. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2032-12-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-04",
-    "dday": 2376,
+    "rangeEnd": "2039-11-06",
+    "dday": 2285,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -37,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 75,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 38,
-    "coldCount": 3,
-    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 42,
+    "coldCount": 5,
+    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -40,15 +40,15 @@
     {
       "key": "research",
       "label": "AI 연구 자동화",
-      "value": 58,
-      "delta": 2,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     },
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-27T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 27. 18:00",
           "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -166,7 +166,7 @@
       "score": 74,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -212,8 +212,8 @@
           "publishedAt": "2026-08-28T13:30:17.000Z",
           "publishedAtKst": "2026. 08. 28. 22:30",
           "summary": "This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory, and shows that most AI alignment f",
-          "impact": 18,
-          "confidence": 80,
+          "impact": 16,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -265,101 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 76,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 84,
+      "confidence": 89,
       "trend": "hot",
       "items": [
         {
-          "title": "TTPO: Test-Time Policy Optimization",
+          "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27448v1",
-          "publishedAt": "2026-08-27T17:58:10.000Z",
-          "publishedAtKst": "2026. 08. 28. 02:58",
-          "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on gr",
-          "impact": 19,
-          "confidence": 85,
+          "url": "http://arxiv.org/abs/2608.28476v1",
+          "publishedAt": "2026-08-28T16:01:08.000Z",
+          "publishedAtKst": "2026. 08. 29. 01:01",
+          "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a c",
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
-            "AGI",
+            "에이전트",
             "추론",
             "LLM",
             "모델"
           ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+          "title": "LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27455v1",
-          "publishedAt": "2026-08-27T17:59:30.000Z",
-          "publishedAtKst": "2026. 08. 28. 02:59",
-          "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To a",
-          "impact": 18,
-          "confidence": 83,
+          "url": "http://arxiv.org/abs/2608.28490v1",
+          "publishedAt": "2026-08-28T16:19:01.000Z",
+          "publishedAtKst": "2026. 08. 29. 01:19",
+          "summary": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Large language model (LLM)-based agents, whi",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "자기개선",
+            "추론"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Video Generative Models as Geometry Learner",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.28549v1",
+          "publishedAt": "2026-08-28T17:25:31.000Z",
+          "publishedAtKst": "2026. 08. 29. 02:25",
+          "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-",
+          "impact": 23,
+          "confidence": 89,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.28481v1",
+          "publishedAt": "2026-08-28T16:07:16.000Z",
+          "publishedAtKst": "2026. 08. 29. 01:07",
+          "summary": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into ",
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "추론",
             "LLM",
             "모델",
-            "추론 인프라"
+            "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+          "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27348v1",
-          "publishedAt": "2026-08-27T16:47:19.000Z",
-          "publishedAtKst": "2026. 08. 28. 01:47",
-          "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harmful actions under goal conflicts and pre",
-          "impact": 17,
-          "confidence": 85,
+          "url": "http://arxiv.org/abs/2608.28478v1",
+          "publishedAt": "2026-08-28T16:06:01.000Z",
+          "publishedAtKst": "2026. 08. 29. 01:06",
+          "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a",
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "자율성",
             "추론",
-            "LLM"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27454v1",
-          "publishedAt": "2026-08-27T17:59:11.000Z",
-          "publishedAtKst": "2026. 08. 28. 02:59",
-          "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi",
-          "impact": 17,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
+            "LLM",
             "모델",
-            "벤치마크",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27406v1",
-          "publishedAt": "2026-08-27T17:35:10.000Z",
-          "publishedAtKst": "2026. 08. 28. 02:35",
-          "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning ",
-          "impact": 17,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "모델",
-            "SOTA"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -370,7 +370,7 @@
       "score": 72,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
@@ -380,8 +380,8 @@
           "publishedAt": "2026-08-30T15:33:26.000Z",
           "publishedAtKst": "2026. 08. 31. 00:33",
           "summary": "&#32; submitted by &#32; /u/Charuru [link] &#32; [comments]",
-          "impact": 20,
-          "confidence": 53,
+          "impact": 19,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -391,20 +391,36 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI coding agents followed abandoned package references, 6K domains analyzed",
-          "source": "Hacker News",
-          "url": "https://forgeeks.net/ai-agents-abandoned-package-references/",
-          "publishedAt": "2026-08-30T22:15:34.000Z",
-          "publishedAtKst": "2026. 08. 31. 07:15",
-          "summary": "1 points, 0 comments",
+          "title": "Using LLMs",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w2y9rb/using_llms/",
+          "publishedAt": "2026-08-31T00:32:02.000Z",
+          "publishedAtKst": "2026. 08. 31. 09:32",
+          "summary": "My closest friends and family (except my kids) rarely or never use ChatGPT nor any other llms. They do absolutely not have any clue about codex or vibe coding. How many of the people you surround you with does actually u",
           "impact": 19,
-          "confidence": 60,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "ChatGPT",
+            "GPT",
+            "LLM"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Some Simple Economics of AGI",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2602.20946",
+          "publishedAt": "2026-08-31T08:54:11.000Z",
+          "publishedAtKst": "2026. 08. 31. 17:54",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why is almost nobody talking about MAMMAL model?",
@@ -413,8 +429,8 @@
           "publishedAt": "2026-08-30T12:59:53.000Z",
           "publishedAtKst": "2026. 08. 30. 21:59",
           "summary": "MAMMAL is a model that has been released a while ago. I heard about thanks to some small yt channel that focuses on bioinformatics and AI. I have seen hype AlphaFold 1, 2 or even 3 were causing. Everyone kept talking abo",
-          "impact": 17,
-          "confidence": 51,
+          "impact": 16,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -428,22 +444,6 @@
           "url": "https://www.nature.com/articles/s41586-024-08025-4",
           "publishedAt": "2026-08-30T18:10:02.000Z",
           "publishedAtKst": "2026. 08. 31. 03:10",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Large language models take the original politicalcompass.org test",
-          "source": "Hacker News",
-          "url": "https://aipolcom.net/",
-          "publishedAt": "2026-08-30T08:37:26.000Z",
-          "publishedAtKst": "2026. 08. 30. 17:37",
           "summary": "2 points, 0 comments",
           "impact": 11,
           "confidence": 53,
@@ -459,48 +459,48 @@
   ],
   "topDrivers": [
     {
-      "title": "Why do models task game?",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
-      "impact": 20,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Code World Model: Coding Agent as World Brain",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1w2kom2/code_world_model_coding_agent_as_world_brain/",
-      "impact": 20,
-      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "TTPO: Test-Time Policy Optimization",
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.27448v1",
-      "impact": 19,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2608.28476v1",
+      "impact": 25,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.28490v1",
+      "impact": 24,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Video Generative Models as Geometry Learner",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.28549v1",
+      "impact": 23,
+      "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2608.28564v1",
+      "impact": 1,
+      "reason": "편향, 정체 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Show HN: Catch AI code hallucinations without asking a model",
+      "source": "Hacker News",
+      "url": "https://github.com/lovettsendit/hedgemony",
+      "impact": 1,
+      "reason": "환각 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "AI swarms are starting to pose indirect takeover risk",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
       "impact": 7,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.27367v1",
-      "impact": 7,
-      "reason": "개선 부족 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.27439v1",
-      "impact": 8,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
