@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-31T20:29:02.824Z",
-  "generatedAtKst": "2026. 09. 01. 05:29",
-  "nextUpdateAt": "2026-08-31T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 01. 06:00",
+  "generatedAt": "2026-09-01T00:12:21.348Z",
+  "generatedAtKst": "2026. 09. 01. 09:12",
+  "nextUpdateAt": "2026-09-01T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 01. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2033-03-02",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2040-02-04",
-    "dday": 2375,
+    "dday": 2374,
     "confidence": 76,
     "deltaDays": -34,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 73,
     "temperature": 51,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 37,
+    "hotCount": 39,
     "coldCount": 5,
-    "summary": "가속 신호 37건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 39건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -40,9 +40,9 @@
     {
       "key": "research",
       "label": "AI 연구 자동화",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 58,
+      "delta": 2,
+      "tone": "hot"
     },
     {
       "key": "infra",
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -94,28 +94,28 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Polimill builds Japan's next-generation public AI infrastructure",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/polimill",
+          "publishedAt": "2026-08-31T07:00:00.000Z",
+          "publishedAtKst": "2026. 08. 31. 16:00",
+          "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
           "source": "OpenAI News",
           "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
           "publishedAt": "2026-08-27T09:00:00.000Z",
           "publishedAtKst": "2026. 08. 27. 18:00",
           "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-          "publishedAt": "2026-08-26T10:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 19:00",
-          "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
@@ -142,12 +142,12 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-admin-plugin",
-          "publishedAt": "2026-08-25T00:00:00.000Z",
-          "publishedAtKst": "2026. 08. 25. 09:00",
-          "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+          "publishedAt": "2026-08-26T10:00:00.000Z",
+          "publishedAtKst": "2026. 08. 26. 19:00",
+          "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
@@ -163,8 +163,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.18,
       "confidence": 80,
       "trend": "hot",
@@ -176,7 +176,7 @@
           "publishedAt": "2026-08-31T10:51:46.000Z",
           "publishedAtKst": "2026. 08. 31. 19:51",
           "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalis",
-          "impact": 28,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -230,7 +230,7 @@
           "publishedAt": "2026-08-28T13:30:17.000Z",
           "publishedAtKst": "2026. 08. 28. 22:30",
           "summary": "This is the first part of a theory of change explaining why I'm targeting value generalisation as the path to AI alignment. It presents the definitions and key claims behind the theory, and shows that most AI alignment f",
-          "impact": 14,
+          "impact": 13,
           "confidence": 74,
           "stance": "accelerate",
           "tags": [
@@ -265,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 86,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -278,8 +278,8 @@
           "publishedAt": "2026-08-28T16:01:08.000Z",
           "publishedAtKst": "2026. 08. 29. 01:01",
           "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a c",
-          "impact": 21,
-          "confidence": 86,
+          "impact": 20,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -296,8 +296,8 @@
           "publishedAt": "2026-08-28T16:19:01.000Z",
           "publishedAtKst": "2026. 08. 29. 01:19",
           "summary": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Large language model (LLM)-based agents, whi",
-          "impact": 20,
-          "confidence": 90,
+          "impact": 19,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -314,8 +314,8 @@
           "publishedAt": "2026-08-28T17:25:31.000Z",
           "publishedAtKst": "2026. 08. 29. 02:25",
           "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-",
-          "impact": 20,
-          "confidence": 85,
+          "impact": 19,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -332,8 +332,8 @@
           "publishedAt": "2026-08-28T16:07:16.000Z",
           "publishedAtKst": "2026. 08. 29. 01:07",
           "summary": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into ",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 18,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -344,22 +344,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+          "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.28478v1",
-          "publishedAt": "2026-08-28T16:06:01.000Z",
-          "publishedAtKst": "2026. 08. 29. 01:06",
-          "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a",
-          "impact": 18,
-          "confidence": 84,
+          "url": "http://arxiv.org/abs/2608.28497v1",
+          "publishedAt": "2026-08-28T16:27:35.000Z",
+          "publishedAtKst": "2026. 08. 29. 01:27",
+          "summary": "AI coding agents, software tools that automate development tasks through reasoning and tool use, are increasingly extended through plugin marketplaces, yet the structure, maintenance, and co-evolution dynamics of these e",
+          "impact": 17,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
             "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
+            "Claude",
+            "코딩 에이전트"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,10 +367,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 65,
-      "delta": 4,
+      "score": 63,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -380,8 +380,8 @@
           "publishedAt": "2026-08-31T12:53:52.000Z",
           "publishedAtKst": "2026. 08. 31. 21:53",
           "summary": "5 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -397,7 +397,7 @@
           "publishedAtKst": "2026. 08. 31. 09:32",
           "summary": "My closest friends and family (except my kids) rarely or never use ChatGPT nor any other llms. They do absolutely not have any clue about codex or vibe coding. How many of the people you surround you with does actually u",
           "impact": 17,
-          "confidence": 51,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -407,51 +407,51 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Keel - A conductor, not an agent loop",
+          "title": "ChatGPT becomes first AI chatbot to face tougher EU rules",
           "source": "Hacker News",
-          "url": "https://daneb.github.io/keel/",
-          "publishedAt": "2026-08-31T20:22:28.000Z",
-          "publishedAtKst": "2026. 09. 01. 05:22",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "url": "https://www.lemonde.fr/en/pixels/article/2026/08/31/chatgpt-becomes-first-ai-chatbot-to-face-tougher-eu-rules_6757011_13.html",
+          "publishedAt": "2026-08-31T23:15:30.000Z",
+          "publishedAtKst": "2026. 09. 01. 08:15",
+          "summary": "4 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Scalable watermarking for identifying large language model outputs [pdf]",
-          "source": "Hacker News",
-          "url": "https://www.nature.com/articles/s41586-024-08025-4",
-          "publishedAt": "2026-08-30T18:10:02.000Z",
-          "publishedAtKst": "2026. 08. 31. 03:10",
-          "summary": "2 points, 0 comments",
-          "impact": 10,
-          "confidence": 52,
-          "stance": "watch",
+          "title": "OpenAI expanding access to ads in ChatGPT from today.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w3ppmp/openai_expanding_access_to_ads_in_chatgpt_from/",
+          "publishedAt": "2026-08-31T20:21:21.000Z",
+          "publishedAtKst": "2026. 09. 01. 05:21",
+          "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Large language models take the original politicalcompass.org test",
+          "title": "Rogue AI attacks deserve more scrutiny than airplane crashes",
           "source": "Hacker News",
-          "url": "https://aipolcom.net/",
-          "publishedAt": "2026-08-30T08:37:26.000Z",
-          "publishedAtKst": "2026. 08. 30. 17:37",
+          "url": "https://blog.peterwildeford.com/p/rogue-ai-attacks-deserve-more-scrutiny",
+          "publishedAt": "2026-08-31T23:28:24.000Z",
+          "publishedAtKst": "2026. 09. 01. 08:28",
           "summary": "3 points, 0 comments",
-          "impact": 9,
-          "confidence": 51,
-          "stance": "watch",
+          "impact": -11,
+          "confidence": 56,
+          "stance": "decelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "공격/악용"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
@@ -461,7 +461,7 @@
       "title": "Value generalisation Theory of Change: putting it into practice",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
-      "impact": 28,
+      "impact": 27,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
@@ -472,26 +472,26 @@
       "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2608.28476v1",
-      "impact": 21,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Why do models task game?",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
+      "impact": 20,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "AI hallucinations are infiltrating Australia's parliament",
+      "title": "Rogue AI attacks deserve more scrutiny than airplane crashes",
       "source": "Hacker News",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/01/how-misinformation-ai-hallucinations-infiltrating-australian-parliament",
-      "impact": -2,
-      "reason": "환각 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://blog.peterwildeford.com/p/rogue-ai-attacks-deserve-more-scrutiny",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.28564v1",
-      "impact": 2,
+      "impact": 3,
       "reason": "편향, 정체 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
