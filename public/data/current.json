@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-01T08:06:41.626Z",
-  "generatedAtKst": "2026. 09. 01. 17:06",
-  "nextUpdateAt": "2026-09-01T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 01. 18:00",
+  "generatedAt": "2026-09-01T13:48:01.765Z",
+  "generatedAtKst": "2026. 09. 01. 22:48",
+  "nextUpdateAt": "2026-09-01T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 02. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 50,
-    "coldCount": 6,
+    "coldCount": 5,
     "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-08-31T04:00:00.000Z",
           "publishedAtKst": "2026. 08. 31. 13:00",
           "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-08-31T07:00:00.000Z",
           "publishedAtKst": "2026. 08. 31. 16:00",
           "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -176,7 +176,7 @@
           "publishedAt": "2026-08-31T10:51:46.000Z",
           "publishedAtKst": "2026. 08. 31. 19:51",
           "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalis",
-          "impact": 26,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -194,7 +194,7 @@
           "publishedAt": "2026-09-01T01:41:44.000Z",
           "publishedAtKst": "2026. 09. 01. 10:41",
           "summary": "Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger Abstract During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather ",
-          "impact": -15,
+          "impact": -14,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -278,7 +278,7 @@
           "publishedAt": "2026-08-31T17:05:41.000Z",
           "publishedAtKst": "2026. 09. 01. 02:05",
           "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks largely evaluate them as fixed policies. It therefore remains ",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +296,7 @@
           "publishedAt": "2026-08-31T16:48:48.000Z",
           "publishedAtKst": "2026. 09. 01. 01:48",
           "summary": "Recent advances in large reasoning models (LRMs) have shown that reinforcement learning with verifiable rewards (RLVR) can substantially improve reasoning in mathematics and code, where outcomes can be checked automatica",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-08-31T16:53:45.000Z",
           "publishedAtKst": "2026. 09. 01. 01:53",
           "summary": "Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDFs. The big bet in enterprise AI is deploying LLM agents that reason over this data to answer complex ",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-08-31T17:30:05.000Z",
           "publishedAtKst": "2026. 09. 01. 02:30",
           "summary": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning dense and Mixture-of-Experts variants fr",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +350,7 @@
           "publishedAt": "2026-08-31T16:35:31.000Z",
           "publishedAtKst": "2026. 09. 01. 01:35",
           "summary": "When information extraction fails, a natural instinct is to improve the model doing it: for example, by scaling it up or refining its reasoning. In this paper, we show that another part of the pipeline matters at least a",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,12 +367,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 63,
-      "delta": 3,
+      "score": 67,
+      "delta": 4,
       "weight": 0.2,
       "confidence": 52,
       "trend": "hot",
       "items": [
+        {
+          "title": "I don't think we sound crazy to most people anymore. Kinda weirding me out",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w49udd/i_dont_think_we_sound_crazy_to_most_people/",
+          "publishedAt": "2026-09-01T11:58:23.000Z",
+          "publishedAtKst": "2026. 09. 01. 20:58",
+          "summary": "Been generally tracking sentiment on the topic of the Singularity and AI progress for a very long time - on Reddit, in real life, wherever. A year ago, while people talking about AI progress were starting to be taken ser",
+          "impact": 17,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델",
+            "로보틱스"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: Decispher – persistent engineering context and memory for coding agents",
           "source": "Hacker News",
@@ -381,7 +398,7 @@
           "publishedAtKst": "2026. 08. 31. 21:53",
           "summary": "5 points, 0 comments",
           "impact": 16,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -396,7 +413,7 @@
           "publishedAt": "2026-08-31T20:21:21.000Z",
           "publishedAtKst": "2026. 09. 01. 05:21",
           "summary": "&#32; submitted by &#32; /u/borowcy [link] &#32; [comments]",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -406,17 +423,18 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Give your agent somewhere to think loud watch its decisions unfold live",
+          "title": "Show HN: OSS, K8s-native AI platform for distributed multi-model inference",
           "source": "Hacker News",
-          "url": "https://github.com/softcane/agents-workbook",
-          "publishedAt": "2026-09-01T07:40:35.000Z",
-          "publishedAtKst": "2026. 09. 01. 16:40",
-          "summary": "1 points, 1 comments",
+          "url": "https://github.com/axem-solutions/shaide",
+          "publishedAt": "2026-09-01T13:40:24.000Z",
+          "publishedAtKst": "2026. 09. 01. 22:40",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "모델",
+            "추론 인프라"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
@@ -428,22 +446,6 @@
           "publishedAtKst": "2026. 08. 31. 03:10",
           "summary": "2 points, 0 comments",
           "impact": 9,
-          "confidence": 51,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Large language models take the original politicalcompass.org test",
-          "source": "Hacker News",
-          "url": "https://aipolcom.net/",
-          "publishedAt": "2026-08-30T08:37:26.000Z",
-          "publishedAtKst": "2026. 08. 30. 17:37",
-          "summary": "3 points, 0 comments",
-          "impact": 8,
           "confidence": 50,
           "stance": "watch",
           "tags": [
@@ -460,21 +462,21 @@
       "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.31100v1",
-      "impact": 34,
+      "impact": 33,
       "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.31075v1",
-      "impact": 34,
+      "impact": 32,
       "reason": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2608.31082v1",
-      "impact": 31,
+      "impact": 30,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -483,7 +485,7 @@
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": -15,
+      "impact": -14,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -494,11 +496,11 @@
       "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Coder hit In a supply chain attack serving malicious packages",
-      "source": "Hacker News",
-      "url": "https://github.com/coder/coder/security/advisories/GHSA-vx42-ghc9-gw65",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Jensen Huang, Demis Hassabis, Elon Musk, Sam Altman and others will participate in a G20 Technology meeting in North Carolina, the goal is to get them to sign on to a commitment to \"light-touch AI regulation\"",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1w44d5n/jensen_huang_demis_hassabis_elon_musk_sam_altman/",
+      "impact": -1,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
