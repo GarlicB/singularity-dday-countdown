@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T18:14:00.273Z",
-  "generatedAtKst": "2026. 09. 03. 03:14",
-  "nextUpdateAt": "2026-09-02T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 03. 06:00",
+  "generatedAt": "2026-09-02T22:54:11.603Z",
+  "generatedAtKst": "2026. 09. 03. 07:54",
+  "nextUpdateAt": "2026-09-03T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 03. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-01T17:08:51.000Z",
           "publishedAtKst": "2026. 09. 02. 02:08",
           "summary": "",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-01T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 01. 21:00",
           "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -162,7 +162,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 70,
+      "score": 69,
       "delta": 5,
       "weight": 0.18,
       "confidence": 81,
@@ -175,8 +175,8 @@
           "publishedAt": "2026-08-31T10:51:46.000Z",
           "publishedAtKst": "2026. 08. 31. 19:51",
           "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalis",
-          "impact": 19,
-          "confidence": 80,
+          "impact": 18,
+          "confidence": 78,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -262,7 +262,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -311,7 +311,7 @@
           "publishedAt": "2026-09-01T17:59:13.000Z",
           "publishedAtKst": "2026. 09. 02. 02:59",
           "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We in",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-09-01T17:53:41.000Z",
           "publishedAtKst": "2026. 09. 02. 02:53",
           "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how ",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-09-01T17:59:39.000Z",
           "publishedAtKst": "2026. 09. 02. 02:59",
           "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input le",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,7 +367,7 @@
       "score": 79,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -377,7 +377,7 @@
           "publishedAt": "2026-09-02T06:05:41.000Z",
           "publishedAtKst": "2026. 09. 02. 15:05",
           "summary": "\"I want to prevent a race into unmonitorability kicked off by confused reporting. The depth of the computation graph for our present frontier models, including Astra, is within a factor of two of GPT-4. OpenAI has worked",
-          "impact": 36,
+          "impact": 35,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -395,7 +395,7 @@
           "publishedAt": "2026-09-02T01:23:03.000Z",
           "publishedAtKst": "2026. 09. 02. 10:23",
           "summary": "https://preview.redd.it/gxza3a3wd0nh1.png?width=1168&format=png&auto=webp&s=379e06f09940791c6d5eb95a80b288f60caddd4f From the reporting here allegedly OpenAI has trained Astra to do latent space reasoning, which is think",
-          "impact": 25,
+          "impact": 24,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -405,6 +405,23 @@
             "돌파"
           ],
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+          "source": "Hacker News",
+          "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+          "publishedAt": "2026-09-02T22:05:40.000Z",
+          "publishedAtKst": "2026. 09. 03. 07:05",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini 3.8 Flash Benchmarks",
@@ -423,48 +440,24 @@
           "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Medieval town down by Fable 5.1",
+          "title": "Muse Spark 1.3 Released",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w4yajb/medieval_town_down_by_fable_51/",
-          "publishedAt": "2026-09-02T03:01:37.000Z",
-          "publishedAtKst": "2026. 09. 02. 12:01",
-          "summary": "DIsclaimer: Fable was the orchestrator, and called itself on some tasks, but called Opus 5.0 on most of them. This still took 36% of my fable budget on a Claude max 20x sub, so doing the whole project with Fable would pr",
+          "url": "https://www.reddit.com/r/singularity/comments/1w5knze/muse_spark_13_released/",
+          "publishedAt": "2026-09-02T19:36:28.000Z",
+          "publishedAtKst": "2026. 09. 03. 04:36",
+          "summary": "&#32; submitted by &#32; /u/MagicZhang [link] &#32; [comments]",
           "impact": 15,
-          "confidence": 48,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "Claude"
+            "AGI"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Price Dashboard for LLM Inference",
-          "source": "Hacker News",
-          "url": "https://github.com/tokencanopy/price",
-          "publishedAt": "2026-09-02T17:46:53.000Z",
-          "publishedAtKst": "2026. 09. 03. 02:46",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "추론 인프라"
-          ],
-          "why": "LLM, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "OpenAl's chief scientist on the neuralese controversy",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1w51wt0/openals_chief_scientist_on_the_neuralese/",
-      "impact": 36,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
       "source": "arXiv",
@@ -478,6 +471,13 @@
       "url": "http://arxiv.org/abs/2609.01481v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "OpenAl's chief scientist on the neuralese controversy",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1w51wt0/openals_chief_scientist_on_the_neuralese/",
+      "impact": 35,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -489,11 +489,11 @@
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "AI companies are at risk of making Silicon Valley's mistakes all over again",
-      "source": "Hacker News",
-      "url": "https://werd.io/ai-companies-are-at-risk-of-making-silicon-valleys-harmful-mistakes-all-over-again/",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "US government backs OpenAI in New York Times copyright case (Training is NOT infringement) [It's over for humans that create content]",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1w5gg0r/us_government_backs_openai_in_new_york_times/",
+      "impact": -3,
+      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Variable Selection for Feature-Based Newsvendor",
