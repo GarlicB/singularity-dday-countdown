@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T13:04:49.317Z",
-  "generatedAtKst": "2026. 09. 02. 22:04",
-  "nextUpdateAt": "2026-09-02T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 03. 00:00",
+  "generatedAt": "2026-09-02T18:14:00.273Z",
+  "generatedAtKst": "2026. 09. 03. 03:14",
+  "nextUpdateAt": "2026-09-02T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 03. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 7,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 56,
+    "coldCount": 8,
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-01T01:00:00.000Z",
           "publishedAtKst": "2026. 09. 01. 10:00",
           "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-08-31T04:00:00.000Z",
           "publishedAtKst": "2026. 08. 31. 13:00",
           "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -142,19 +142,19 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How AI-native companies turn workflows into operating capability",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ai-native-company-workflows",
-          "publishedAt": "2026-09-01T17:00:00.000Z",
-          "publishedAtKst": "2026. 09. 02. 02:00",
-          "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+          "publishedAt": "2026-09-02T16:18:31.000Z",
+          "publishedAtKst": "2026. 09. 03. 01:18",
+          "summary": "",
           "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "Gemini"
           ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,7 +165,7 @@
       "score": 70,
       "delta": 5,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -175,8 +175,8 @@
           "publishedAt": "2026-08-31T10:51:46.000Z",
           "publishedAtKst": "2026. 08. 31. 19:51",
           "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalis",
-          "impact": 20,
-          "confidence": 81,
+          "impact": 19,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -311,7 +311,7 @@
           "publishedAt": "2026-09-01T17:59:13.000Z",
           "publishedAtKst": "2026. 09. 02. 02:59",
           "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We in",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-09-01T17:53:41.000Z",
           "publishedAtKst": "2026. 09. 02. 02:53",
           "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how ",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-09-01T17:59:39.000Z",
           "publishedAtKst": "2026. 09. 02. 02:59",
           "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input le",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,12 +364,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
+        {
+          "title": "OpenAl's chief scientist on the neuralese controversy",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w51wt0/openals_chief_scientist_on_the_neuralese/",
+          "publishedAt": "2026-09-02T06:05:41.000Z",
+          "publishedAtKst": "2026. 09. 02. 15:05",
+          "summary": "\"I want to prevent a race into unmonitorability kicked off by confused reporting. The depth of the computation graph for our present frontier models, including Astra, is within a factor of two of GPT-4. OpenAI has worked",
+          "impact": 36,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "프런티어 모델",
+            "GPT"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "if true openai has made another o1-level breakthrough",
           "source": "r/singularity",
@@ -377,8 +395,8 @@
           "publishedAt": "2026-09-02T01:23:03.000Z",
           "publishedAtKst": "2026. 09. 02. 10:23",
           "summary": "https://preview.redd.it/gxza3a3wd0nh1.png?width=1168&format=png&auto=webp&s=379e06f09940791c6d5eb95a80b288f60caddd4f From the reporting here allegedly OpenAI has trained Astra to do latent space reasoning, which is think",
-          "impact": 26,
-          "confidence": 58,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -389,19 +407,20 @@
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
-          "source": "Hacker News",
-          "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
-          "publishedAt": "2026-09-02T12:59:09.000Z",
-          "publishedAtKst": "2026. 09. 02. 21:59",
-          "summary": "4 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "title": "Gemini 3.8 Flash Benchmarks",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w5d1pz/gemini_38_flash_benchmarks/",
+          "publishedAt": "2026-09-02T15:08:38.000Z",
+          "publishedAtKst": "2026. 09. 03. 00:08",
+          "summary": "&#32; submitted by &#32; /u/Able-Line2683 [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "Gemini",
+            "벤치마크"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Medieval town down by Fable 5.1",
@@ -411,7 +430,7 @@
           "publishedAtKst": "2026. 09. 02. 12:01",
           "summary": "DIsclaimer: Fable was the orchestrator, and called itself on some tasks, but called Opus 5.0 on most of them. This still took 36% of my fable budget on a Claude max 20x sub, so doing the whole project with Fable would pr",
           "impact": 15,
-          "confidence": 49,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -420,41 +439,32 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Decispher – persistent engineering context and memory for coding agents",
+          "title": "Show HN: Price Dashboard for LLM Inference",
           "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49509142",
-          "publishedAt": "2026-08-31T12:53:52.000Z",
-          "publishedAtKst": "2026. 08. 31. 21:53",
-          "summary": "5 points, 0 comments",
-          "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "New Google AI Model Said to Narrow Gap on Coding Ability (Gemini 3.8 Flash)",
-          "source": "Hacker News",
-          "url": "https://www.wsj.com/tech/ai/new-google-ai-model-said-to-narrow-gap-on-coding-ability-264c6052",
-          "publishedAt": "2026-09-01T23:23:28.000Z",
-          "publishedAtKst": "2026. 09. 02. 08:23",
-          "summary": "3 points, 0 comments",
+          "url": "https://github.com/tokencanopy/price",
+          "publishedAt": "2026-09-02T17:46:53.000Z",
+          "publishedAtKst": "2026. 09. 03. 02:46",
+          "summary": "2 points, 0 comments",
           "impact": 12,
-          "confidence": 54,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "Gemini",
-            "모델"
+            "LLM",
+            "추론 인프라"
           ],
-          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "OpenAl's chief scientist on the neuralese controversy",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1w51wt0/openals_chief_scientist_on_the_neuralese/",
+      "impact": 36,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
       "source": "arXiv",
@@ -468,13 +478,6 @@
       "url": "http://arxiv.org/abs/2609.01481v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.01600v1",
-      "impact": 35,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -482,8 +485,15 @@
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": -9,
+      "impact": -8,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI companies are at risk of making Silicon Valley's mistakes all over again",
+      "source": "Hacker News",
+      "url": "https://werd.io/ai-companies-are-at-risk-of-making-silicon-valleys-harmful-mistakes-all-over-again/",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Variable Selection for Feature-Based Newsvendor",
@@ -491,13 +501,6 @@
       "url": "http://arxiv.org/abs/2609.01544v1",
       "impact": 1,
       "reason": "위험, 공급 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "AI swarms are starting to pose indirect takeover risk",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
