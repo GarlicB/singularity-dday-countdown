@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T13:06:44.673Z",
-  "generatedAtKst": "2026. 09. 03. 22:06",
-  "nextUpdateAt": "2026-09-03T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 04. 00:00",
+  "generatedAt": "2026-09-03T18:14:12.116Z",
+  "generatedAtKst": "2026. 09. 04. 03:14",
+  "nextUpdateAt": "2026-09-03T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 04. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2102,
+    "rangeEnd": "2039-03-26",
+    "dday": 2057,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 7,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 57,
+    "coldCount": 6,
+    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -94,20 +94,20 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "publishedAt": "2026-09-01T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 01. 21:00",
-          "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-          "impact": 18,
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 03. 21:00",
+          "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "GPT",
+            "모델"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Introducing agentic video understanding with Gemini",
@@ -126,13 +126,28 @@
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/gilbert-tobin",
-          "publishedAt": "2026-09-01T01:00:00.000Z",
-          "publishedAtKst": "2026. 09. 01. 10:00",
-          "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-          "impact": 16,
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 03. 21:00",
+          "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+          "publishedAt": "2026-09-01T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 01. 21:00",
+          "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -140,21 +155,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-          "publishedAt": "2026-09-02T16:18:31.000Z",
-          "publishedAtKst": "2026. 09. 03. 01:18",
-          "summary": "",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,12 +162,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 69,
+      "score": 70,
       "delta": 5,
       "weight": 0.18,
       "confidence": 80,
       "trend": "hot",
       "items": [
+        {
+          "title": "The Alignment Journal: Organization, Personnel, and Scope",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
+          "publishedAt": "2026-09-01T20:49:18.000Z",
+          "publishedAtKst": "2026. 09. 02. 05:49",
+          "summary": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a",
+          "impact": 20,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "LLM",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Value generalisation Theory of Change: putting it into practice",
           "source": "Alignment Forum",
@@ -175,7 +193,7 @@
           "publishedAt": "2026-08-31T10:51:46.000Z",
           "publishedAtKst": "2026. 08. 31. 19:51",
           "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalis",
-          "impact": 15,
+          "impact": 14,
           "confidence": 73,
           "stance": "accelerate",
           "tags": [
@@ -185,24 +203,6 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Four LLM loss functions → four flavors of LLM misalignment",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
-          "publishedAt": "2026-08-10T16:16:16.000Z",
-          "publishedAtKst": "2026. 08. 11. 01:16",
-          "summary": "It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately. Training stage Loss func",
-          "impact": 14,
-          "confidence": 81,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "GPT"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Misaligned AIs could use killer robots to take over",
@@ -262,7 +262,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -293,7 +293,7 @@
           "publishedAt": "2026-09-02T15:55:56.000Z",
           "publishedAtKst": "2026. 09. 03. 00:55",
           "summary": "Large language models now answer medical questions with expert-level performance. However, the context these systems act on can be misleading, and misleading context can corrupt a model's medical judgment. To understand ",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +311,7 @@
           "publishedAt": "2026-09-02T17:03:42.000Z",
           "publishedAtKst": "2026. 09. 03. 02:03",
           "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards leads to limited guidance on intermediate ",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-09-02T16:14:48.000Z",
           "publishedAtKst": "2026. 09. 03. 01:14",
           "summary": "Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, autonomous driving, industrial monitoring, surveillance and early warning, and wearable assistants. How",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-09-02T15:49:41.000Z",
           "publishedAtKst": "2026. 09. 03. 00:49",
           "summary": "Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model backbone with a harness for planning, execution, memory, and verification, but this architecture still ",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,10 +364,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 82,
-      "delta": 8,
+      "score": 85,
+      "delta": 9,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 60,
       "trend": "hot",
       "items": [
         {
@@ -389,22 +389,22 @@
           "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Differences Between Fable 5 and Fable 5.1 on MineBench",
+          "title": "Can GPT-6 Astra Pass The Demis Hassabis Benchmark For AGI?",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5gawp/differences_between_fable_5_and_fable_51_on/",
-          "publishedAt": "2026-09-02T17:05:09.000Z",
-          "publishedAtKst": "2026. 09. 03. 02:05",
-          "summary": "Notes Average Inference Time: 40m 12s Fable 5 averaged 18m 04s Total Cost (for 15 builds): $ 147.55 Fable 5 cost $54.93 Average JSON Size: 34.07 MiB (largest 88.76 MiB) Roughly comparable to Fable's 5 average of 30.65 Mi",
-          "impact": 31,
+          "url": "https://www.reddit.com/r/singularity/comments/1w5zhoo/can_gpt6_astra_pass_the_demis_hassabis_benchmark/",
+          "publishedAt": "2026-09-03T06:33:41.000Z",
+          "publishedAtKst": "2026. 09. 03. 15:33",
+          "summary": "Demis Hassabis has always said that a great way to determine whether we have AGI would be to train a foundation model with a knowledge cutoff around 1911 and see whether it could independently develop general relativity ",
+          "impact": 29,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "추론",
+            "AGI",
             "GPT",
-            "Gemini",
-            "모델"
+            "모델",
+            "벤치마크"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Insider's opinion on Astra capabilities",
@@ -413,7 +413,7 @@
           "publishedAt": "2026-09-03T00:03:13.000Z",
           "publishedAtKst": "2026. 09. 03. 09:03",
           "summary": "@Lentils80 post on X \"Over the past few days, two GPT Astra checkpoints, \"ultima-alpha\" and \"vega-alpha\", were undergoing testing \"ultima-alpha\" appears to be the release candidate intended for the public, while \"vega-al",
-          "impact": 28,
+          "impact": 27,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -425,35 +425,36 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Analysis: How accurate have Ed Zitron's predictions been?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5deqf/analysis_how_accurate_have_ed_zitrons_predictions/",
-          "publishedAt": "2026-09-02T15:21:37.000Z",
-          "publishedAtKst": "2026. 09. 03. 00:21",
-          "summary": "https://danluu.com/zitron/ Very well-written and considered analysis; homework was done here. Two good excerpts: Zitron's reasoning isn't worse than Kurzweil's, who (for example) continually made new predictions of extre",
-          "impact": 14,
-          "confidence": 48,
+          "title": "GPT-6 Astra Is Here–and OpenAI Thinks It May Kick Off the AGI Era",
+          "source": "Hacker News",
+          "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+          "publishedAt": "2026-09-03T18:13:21.000Z",
+          "publishedAtKst": "2026. 09. 04. 03:13",
+          "summary": "1 points, 0 comments",
+          "impact": 23,
+          "confidence": 64,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "Gemini"
+            "AGI",
+            "GPT"
           ],
-          "why": "추론, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Muse Spark 1.3 Released",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5knze/muse_spark_13_released/",
-          "publishedAt": "2026-09-02T19:36:28.000Z",
-          "publishedAtKst": "2026. 09. 03. 04:36",
-          "summary": "&#32; submitted by &#32; /u/MagicZhang [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
+          "title": "Show HN: A Context Registry for AI coding agents",
+          "source": "Hacker News",
+          "url": "https://context.apimatic.io/",
+          "publishedAt": "2026-09-03T16:00:26.000Z",
+          "publishedAtKst": "2026. 09. 04. 01:00",
+          "summary": "6 points, 1 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -477,7 +478,7 @@
       "title": "Untangling the Mechanisms of Misleading Context in Medical Question Answering",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.02754v1",
-      "impact": 35,
+      "impact": 34,
       "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -486,21 +487,21 @@
       "title": "CodePoisonRAG: Knowledge Poisoning Attacks on Retrieval-Augmented Code Generation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.02774v1",
-      "impact": -10,
+      "impact": -9,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.02741v1",
-      "impact": -9,
+      "impact": -8,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": -5,
+      "impact": -4,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
