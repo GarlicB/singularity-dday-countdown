@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T22:56:28.523Z",
-  "generatedAtKst": "2026. 09. 04. 07:56",
-  "nextUpdateAt": "2026-09-04T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 04. 12:00",
+  "generatedAt": "2026-09-04T07:36:35.155Z",
+  "generatedAtKst": "2026. 09. 04. 16:36",
+  "nextUpdateAt": "2026-09-04T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 04. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-05-10",
-    "dday": 2102,
+    "dday": 2101,
     "confidence": 76,
     "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,16 +25,16 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
-    "coldCount": 7,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 62,
+    "coldCount": 4,
+    "summary": "가속 신호 62건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-03T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 21:00",
           "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-02T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 02. 21:00",
           "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -108,38 +108,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "publishedAt": "2026-09-01T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 01. 21:00",
-          "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing agentic video understanding with Gemini",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-          "publishedAt": "2026-09-01T17:08:51.000Z",
-          "publishedAtKst": "2026. 09. 02. 02:08",
-          "summary": "",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
@@ -155,6 +123,38 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+          "publishedAt": "2026-09-01T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 01. 21:00",
+          "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing agentic video understanding with Gemini",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+          "publishedAt": "2026-09-01T17:08:51.000Z",
+          "publishedAtKst": "2026. 09. 02. 02:08",
+          "summary": "",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,10 +162,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 69,
-      "delta": 5,
+      "score": 67,
+      "delta": 4,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 84,
       "trend": "hot",
       "items": [
         {
@@ -175,7 +175,7 @@
           "publishedAt": "2026-09-01T20:49:18.000Z",
           "publishedAtKst": "2026. 09. 02. 05:49",
           "summary": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a",
-          "impact": 19,
+          "impact": 18,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -185,24 +185,6 @@
             "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Value generalisation Theory of Change: putting it into practice",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
-          "publishedAt": "2026-08-31T10:51:46.000Z",
-          "publishedAtKst": "2026. 08. 31. 19:51",
-          "summary": "In the previous post , I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalis",
-          "impact": 13,
-          "confidence": 73,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Misaligned AIs could use killer robots to take over",
@@ -255,6 +237,21 @@
             "추론"
           ],
           "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+        },
+        {
+          "title": "The Economics of Recursive Self-Improvement",
+          "source": "METR",
+          "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+          "publishedAt": "2026-07-22T07:00:00.000Z",
+          "publishedAtKst": "2026. 07. 22. 16:00",
+          "summary": "",
+          "impact": 11,
+          "confidence": 90,
+          "stance": "watch",
+          "tags": [
+            "자기개선"
+          ],
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -262,101 +259,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
-      "delta": 9,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+          "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.02783v1",
-          "publishedAt": "2026-09-02T16:15:18.000Z",
-          "publishedAtKst": "2026. 09. 03. 01:15",
-          "summary": "Evaluating LLM agents is essential for guiding their development, yet it has grown prohibitively expensive: a single pass of a frontier model over an agentic benchmark can cost hundreds to thousands of dollars, a price p",
+          "url": "http://arxiv.org/abs/2609.04159v1",
+          "publishedAt": "2026-09-03T17:49:12.000Z",
+          "publishedAtKst": "2026. 09. 04. 02:49",
+          "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authenticati",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "추론",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.04170v1",
+          "publishedAt": "2026-09-03T17:54:09.000Z",
+          "publishedAtKst": "2026. 09. 04. 02:54",
+          "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating ",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "LLM"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Environment Evolution for Terminal Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.04128v1",
+          "publishedAt": "2026-09-03T17:26:33.000Z",
+          "publishedAtKst": "2026. 09. 04. 02:26",
+          "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become more capable, environments synthesized from scratch become less challenging and thus provide limited lea",
           "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "프런티어 모델",
-            "LLM",
-            "모델"
+            "GPT",
+            "Claude"
           ],
           "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Untangling the Mechanisms of Misleading Context in Medical Question Answering",
+          "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.02754v1",
-          "publishedAt": "2026-09-02T15:55:56.000Z",
-          "publishedAtKst": "2026. 09. 03. 00:55",
-          "summary": "Large language models now answer medical questions with expert-level performance. However, the context these systems act on can be misleading, and misleading context can corrupt a model's medical judgment. To understand ",
-          "impact": 32,
+          "url": "http://arxiv.org/abs/2609.04061v1",
+          "publishedAt": "2026-09-03T16:36:05.000Z",
+          "publishedAtKst": "2026. 09. 04. 01:36",
+          "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "프런티어 모델",
+            "GPT",
             "LLM",
             "모델"
           ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Cliff: Learning Process Rewards from the First Mistake",
+          "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.02817v1",
-          "publishedAt": "2026-09-02T17:03:42.000Z",
-          "publishedAtKst": "2026. 09. 03. 02:03",
-          "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards leads to limited guidance on intermediate ",
-          "impact": 27,
+          "url": "http://arxiv.org/abs/2609.04167v1",
+          "publishedAt": "2026-09-03T17:53:34.000Z",
+          "publishedAtKst": "2026. 09. 04. 02:53",
+          "summary": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-",
+          "impact": 30,
           "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "성능 향상"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.02780v1",
-          "publishedAt": "2026-09-02T16:14:48.000Z",
-          "publishedAtKst": "2026. 09. 03. 01:14",
-          "summary": "Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, autonomous driving, industrial monitoring, surveillance and early warning, and wearable assistants. How",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "LLM",
-            "모델",
-            "멀티모달"
-          ],
-          "why": "자율성, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.02749v1",
-          "publishedAt": "2026-09-02T15:49:41.000Z",
-          "publishedAtKst": "2026. 09. 03. 00:49",
-          "summary": "Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model backbone with a harness for planning, execution, memory, and verification, but this architecture still ",
-          "impact": 24,
-          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성",
-            "GPT",
-            "모델"
+            "LLM",
+            "코딩 에이전트",
+            "벤치마크"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,39 +361,21 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 83,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 58,
       "trend": "hot",
       "items": [
-        {
-          "title": "May We Take A Moment?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w5tu57/may_we_take_a_moment/",
-          "publishedAt": "2026-09-03T01:44:00.000Z",
-          "publishedAtKst": "2026. 09. 03. 10:44",
-          "summary": "Prior to ChatGPT, the turing test was typically considered to be the defining moment; the event that marked when we could no longer doubt machine awareness anymore than our own. Does anyone here even remember when models",
-          "impact": 36,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "프런티어 모델",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index",
           "source": "Hacker News",
           "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
           "publishedAt": "2026-09-03T20:11:25.000Z",
           "publishedAtKst": "2026. 09. 04. 05:11",
-          "summary": "19 points, 9 comments",
-          "impact": 26,
-          "confidence": 66,
+          "summary": "21 points, 14 comments",
+          "impact": 25,
+          "confidence": 64,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -412,8 +391,8 @@
           "publishedAt": "2026-09-03T20:00:19.000Z",
           "publishedAtKst": "2026. 09. 04. 05:00",
           "summary": "&#32; submitted by &#32; /u/ObiWanCanownme [link] &#32; [comments]",
-          "impact": 24,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -422,14 +401,31 @@
           "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "With Astra, ChatGPT is nearly 2x faster at computer use",
+          "source": "Hacker News",
+          "url": "https://twitter.com/AriX/status/2095671700771762341",
+          "publishedAt": "2026-09-04T07:10:21.000Z",
+          "publishedAtKst": "2026. 09. 04. 16:10",
+          "summary": "1 points, 1 comments",
+          "impact": 21,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "컴퓨트"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1w6f0jp/welcome_to_the_agi_era_openai_says_as_gpt6_astra/",
           "publishedAt": "2026-09-03T18:04:03.000Z",
           "publishedAtKst": "2026. 09. 04. 03:04",
           "summary": "&#32; submitted by &#32; /u/ShreckAndDonkey123 [link] &#32; [comments]",
-          "impact": 22,
-          "confidence": 55,
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -443,9 +439,9 @@
           "url": "https://context.apimatic.io/",
           "publishedAt": "2026-09-03T16:00:26.000Z",
           "publishedAtKst": "2026. 09. 04. 01:00",
-          "summary": "7 points, 1 comments",
-          "impact": 18,
-          "confidence": 60,
+          "summary": "8 points, 1 comments",
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -458,47 +454,47 @@
   ],
   "topDrivers": [
     {
-      "title": "May We Take A Moment?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1w5tu57/may_we_take_a_moment/",
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.04159v1",
       "impact": 36,
-      "reason": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.02783v1",
+      "url": "http://arxiv.org/abs/2609.04170v1",
+      "impact": 35,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Environment Evolution for Terminal Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.04128v1",
       "impact": 35,
       "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Untangling the Mechanisms of Misleading Context in Medical Question Answering",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.02754v1",
-      "impact": 32,
-      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "CodePoisonRAG: Knowledge Poisoning Attacks on Retrieval-Augmented Code Generation",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.02774v1",
-      "impact": -9,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.02741v1",
-      "impact": -8,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": -3,
+      "impact": -2,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.04134v1",
+      "impact": 6,
+      "reason": "지연, 전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+      "impact": 7,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
