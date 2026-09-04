@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T13:00:50.711Z",
-  "generatedAtKst": "2026. 09. 04. 22:00",
-  "nextUpdateAt": "2026-09-04T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 05. 00:00",
+  "generatedAt": "2026-09-04T17:53:54.537Z",
+  "generatedAtKst": "2026. 09. 05. 02:53",
+  "nextUpdateAt": "2026-09-04T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 05. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 78,
     "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
+    "hotCount": 61,
     "coldCount": 4,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 61건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-03T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 21:00",
           "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-02T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 02. 21:00",
           "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -108,22 +108,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing agentic video understanding with Gemini",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-          "publishedAt": "2026-09-01T17:08:51.000Z",
-          "publishedAtKst": "2026. 09. 02. 02:08",
-          "summary": "",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
@@ -141,13 +125,29 @@
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Introducing agentic video understanding with Gemini",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+          "publishedAt": "2026-09-01T17:08:51.000Z",
+          "publishedAtKst": "2026. 09. 02. 02:08",
+          "summary": "",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
           "source": "OpenAI News",
           "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
           "publishedAt": "2026-09-01T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 01. 21:00",
           "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -162,10 +162,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 67,
+      "score": 66,
       "delta": 4,
       "weight": 0.18,
-      "confidence": 84,
+      "confidence": 83,
       "trend": "hot",
       "items": [
         {
@@ -175,8 +175,8 @@
           "publishedAt": "2026-09-01T20:49:18.000Z",
           "publishedAtKst": "2026. 09. 02. 05:49",
           "summary": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a",
-          "impact": 17,
-          "confidence": 82,
+          "impact": 16,
+          "confidence": 81,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -259,7 +259,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -272,7 +272,7 @@
           "publishedAt": "2026-09-03T17:49:12.000Z",
           "publishedAtKst": "2026. 09. 04. 02:49",
           "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authenticati",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -290,7 +290,7 @@
           "publishedAt": "2026-09-03T17:54:09.000Z",
           "publishedAtKst": "2026. 09. 04. 02:54",
           "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating ",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -308,7 +308,7 @@
           "publishedAt": "2026-09-03T17:26:33.000Z",
           "publishedAtKst": "2026. 09. 04. 02:26",
           "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become more capable, environments synthesized from scratch become less challenging and thus provide limited lea",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -326,7 +326,7 @@
           "publishedAt": "2026-09-03T16:36:05.000Z",
           "publishedAtKst": "2026. 09. 04. 01:36",
           "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -344,7 +344,7 @@
           "publishedAt": "2026-09-03T17:53:34.000Z",
           "publishedAtKst": "2026. 09. 04. 02:53",
           "summary": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -361,29 +361,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.2,
       "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "GPT-6 is released [N]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
-          "publishedAt": "2026-09-04T05:13:42.000Z",
-          "publishedAtKst": "2026. 09. 04. 14:13",
-          "summary": "Benchmark scores: https://preview.redd.it/dgumcg67ggnh1.png?width=1378&format=png&auto=webp&s=fae8fb006ef46fcdebb0876717fc977a905baa89 https://openai.com/index/gpt-6-astra/ Above, GPT-6 uses a harness for ARC-AGI-3, and ",
-          "impact": 35,
-          "confidence": 62,
+          "title": "Search agent beats GPT-6 Astra on benchmarks, just days after release",
+          "source": "Hacker News",
+          "url": "https://findcheap.ai/introducing-findcheap",
+          "publishedAt": "2026-09-04T16:08:40.000Z",
+          "publishedAtKst": "2026. 09. 05. 01:08",
+          "summary": "2 points, 0 comments",
+          "impact": 23,
+          "confidence": 64,
           "stance": "accelerate",
           "tags": [
-            "AGI",
+            "에이전트",
             "GPT",
-            "벤치마크",
-            "추론 벤치마크"
+            "벤치마크"
           ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index",
@@ -391,9 +390,9 @@
           "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
           "publishedAt": "2026-09-03T20:11:25.000Z",
           "publishedAtKst": "2026. 09. 04. 05:11",
-          "summary": "23 points, 14 comments",
-          "impact": 24,
-          "confidence": 64,
+          "summary": "25 points, 16 comments",
+          "impact": 23,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -403,53 +402,52 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: A Context Registry for AI coding agents",
-          "source": "Hacker News",
-          "url": "https://context.apimatic.io/",
-          "publishedAt": "2026-09-03T16:00:26.000Z",
-          "publishedAtKst": "2026. 09. 04. 01:00",
-          "summary": "8 points, 1 comments",
-          "impact": 16,
-          "confidence": 57,
+          "title": "Not only does Astra saturate ARC-AGI-3, it does so using fewer moves than the average human",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w6icmp/not_only_does_astra_saturate_arcagi3_it_does_so/",
+          "publishedAt": "2026-09-03T20:00:19.000Z",
+          "publishedAtKst": "2026. 09. 04. 05:00",
+          "summary": "&#32; submitted by &#32; /u/ObiWanCanownme [link] &#32; [comments]",
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI",
+            "추론 벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Grounding LLMs with JEPA-based world models trained in simulation — has this been tried? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/",
-          "publishedAt": "2026-09-03T14:45:53.000Z",
-          "publishedAtKst": "2026. 09. 03. 23:45",
-          "summary": "LLMs describe physics well but don't \"understand\" it in any grounded sense — they've learned statistical relationships between tokens like \"falls\" and \"gravity\", not actual physical intuition. This is basically the Mary'",
-          "impact": 15,
+          "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w6f0jp/welcome_to_the_agi_era_openai_says_as_gpt6_astra/",
+          "publishedAt": "2026-09-03T18:04:03.000Z",
+          "publishedAtKst": "2026. 09. 04. 03:04",
+          "summary": "&#32; submitted by &#32; /u/ShreckAndDonkey123 [link] &#32; [comments]",
+          "impact": 18,
           "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "LLM",
-            "모델"
+            "AGI",
+            "GPT"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Using semantic benchmarks to build a self-improving text-to-query agent",
+          "title": "It's 2026 and ChatGPT still fails",
           "source": "Hacker News",
-          "url": "https://conversion.ai/blog/text-to-query-agent/",
-          "publishedAt": "2026-09-03T18:43:24.000Z",
-          "publishedAtKst": "2026. 09. 04. 03:43",
-          "summary": "3 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "url": "https://news.ycombinator.com/item?id=49567516",
+          "publishedAt": "2026-09-04T17:23:37.000Z",
+          "publishedAtKst": "2026. 09. 05. 02:23",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -459,22 +457,22 @@
       "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04159v1",
-      "impact": 36,
+      "impact": 34,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "GPT-6 is released [N]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
-      "impact": 35,
-      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04170v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Environment Evolution for Terminal Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.04128v1",
+      "impact": 32,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -482,7 +480,7 @@
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": -1,
+      "impact": 0,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
