@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T12:13:35.838Z",
-  "generatedAtKst": "2026. 09. 05. 21:13",
-  "nextUpdateAt": "2026-09-05T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 06. 00:00",
+  "generatedAt": "2026-09-05T17:01:07.974Z",
+  "generatedAtKst": "2026. 09. 06. 02:01",
+  "nextUpdateAt": "2026-09-05T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 06. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 76,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
+    "hotCount": 52,
     "coldCount": 4,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-03T11:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 20:00",
           "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -102,7 +102,7 @@
           "publishedAt": "2026-09-03T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 21:00",
           "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,21 +143,20 @@
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Safety overview: GPT-6 Astra",
+          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-          "publishedAt": "2026-09-03T00:00:00.000Z",
-          "publishedAtKst": "2026. 09. 03. 09:00",
-          "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+          "publishedAt": "2026-09-01T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 01. 21:00",
+          "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "모델",
-            "안전 이슈"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,8 +164,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 66,
-      "delta": 4,
+      "score": 63,
+      "delta": 3,
       "weight": 0.18,
       "confidence": 83,
       "trend": "hot",
@@ -186,24 +185,6 @@
             "에이전트",
             "자율성",
             "추론"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The Alignment Journal: Organization, Personnel, and Scope",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
-          "publishedAt": "2026-09-01T20:49:18.000Z",
-          "publishedAtKst": "2026. 09. 02. 05:49",
-          "summary": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a",
-          "impact": 12,
-          "confidence": 79,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "LLM",
-            "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -255,6 +236,24 @@
             "자기개선"
           ],
           "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+        },
+        {
+          "title": "Debate Training Reduces Reward Hacking in RLAIF",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
+          "publishedAt": "2026-08-19T12:17:57.000Z",
+          "publishedAtKst": "2026. 08. 19. 21:17",
+          "summary": "Paper: Debate Training Reduces Reward Hacking in RLAIF Linkpost for GDM Alignment blogpost Work done by the GDM Amplified Oversight team ( we're hiring ). TL;DR : When you RL against an LLM judge, the judge gets hacked i",
+          "impact": 11,
+          "confidence": 80,
+          "stance": "watch",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "LLM",
+            "코딩 에이전트"
+          ],
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -262,8 +261,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 84,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.28,
       "confidence": 91,
       "trend": "hot",
@@ -275,7 +274,7 @@
           "publishedAt": "2026-09-03T17:49:12.000Z",
           "publishedAtKst": "2026. 09. 04. 02:49",
           "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authenticati",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,7 +292,7 @@
           "publishedAt": "2026-09-03T17:54:09.000Z",
           "publishedAtKst": "2026. 09. 04. 02:54",
           "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating ",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +310,7 @@
           "publishedAt": "2026-09-03T17:26:33.000Z",
           "publishedAtKst": "2026. 09. 04. 02:26",
           "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become more capable, environments synthesized from scratch become less challenging and thus provide limited lea",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -323,31 +322,13 @@
           "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.04061v1",
-          "publishedAt": "2026-09-03T16:36:05.000Z",
-          "publishedAtKst": "2026. 09. 04. 01:36",
-          "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over",
-          "impact": 24,
-          "confidence": 91,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "GPT",
-            "LLM",
-            "모델"
-          ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.04167v1",
           "publishedAt": "2026-09-03T17:53:34.000Z",
           "publishedAtKst": "2026. 09. 04. 02:53",
           "summary": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-",
-          "impact": 24,
+          "impact": 23,
           "confidence": 90,
           "stance": "accelerate",
           "tags": [
@@ -357,6 +338,24 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.04083v1",
+          "publishedAt": "2026-09-03T16:50:29.000Z",
+          "publishedAtKst": "2026. 09. 04. 01:50",
+          "summary": "MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but different attribute-object bindings. Yet the same backbone can resolve such dist",
+          "impact": 23,
+          "confidence": 90,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,21 +363,39 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "Signs of AGI? GPT-6 Astra scored 95% on a robot control task vs Fable 5.1's 40%",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w80gif/signs_of_agi_gpt6_astra_scored_95_on_a_robot/",
+          "publishedAt": "2026-09-05T13:13:57.000Z",
+          "publishedAtKst": "2026. 09. 05. 22:13",
+          "summary": "\"GPT-6 Astra scored 95% on a robot control task, up from Fable 5.1's 40%, with 6.2x fewer output tokens at 2.3x lower cost. On harder tasks involving precision, Astra has the same success rate as Fable 5.1 (2/20), but us",
+          "impact": 36,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "GPT",
+            "LLM"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "AWS-bench: Benchmark for evaluating AI coding agents on real-world AWS tasks",
           "source": "Hacker News",
           "url": "https://github.com/aws-bench/aws-bench",
           "publishedAt": "2026-09-04T20:55:15.000Z",
           "publishedAtKst": "2026. 09. 05. 05:55",
-          "summary": "1 points, 0 comments",
-          "impact": 22,
-          "confidence": 62,
+          "summary": "2 points, 0 comments",
+          "impact": 21,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -394,8 +411,8 @@
           "publishedAt": "2026-09-04T16:08:40.000Z",
           "publishedAtKst": "2026. 09. 05. 01:08",
           "summary": "2 points, 0 comments",
-          "impact": 20,
-          "confidence": 60,
+          "impact": 19,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -411,8 +428,8 @@
           "publishedAt": "2026-09-03T20:11:25.000Z",
           "publishedAtKst": "2026. 09. 04. 05:11",
           "summary": "26 points, 16 comments",
-          "impact": 19,
-          "confidence": 59,
+          "impact": 18,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -428,8 +445,8 @@
           "publishedAt": "2026-09-05T00:42:47.000Z",
           "publishedAtKst": "2026. 09. 05. 09:42",
           "summary": "Personally, this is the most realistic model I've used. It goes deep enough to solve problems I've been throwing at all models (Fable 5.1, Open-Source ones, Sol Pro, etc), but without needing as much hand holding. It onl",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -437,47 +454,31 @@
             "모델"
           ],
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The attempt: field notes from an autonomous agent, including the failures",
-          "source": "Hacker News",
-          "url": "https://github.com/massimiliano1991/the-attempt",
-          "publishedAt": "2026-09-05T11:48:09.000Z",
-          "publishedAtKst": "2026. 09. 05. 20:48",
-          "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "Signs of AGI? GPT-6 Astra scored 95% on a robot control task vs Fable 5.1's 40%",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1w80gif/signs_of_agi_gpt6_astra_scored_95_on_a_robot/",
+      "impact": 36,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04159v1",
-      "impact": 29,
+      "impact": 28,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04170v1",
-      "impact": 27,
+      "impact": 26,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Environment Evolution for Terminal Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.04128v1",
-      "impact": 27,
-      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
