@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T22:38:14.608Z",
-  "generatedAtKst": "2026. 09. 05. 07:38",
-  "nextUpdateAt": "2026-09-05T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 05. 12:00",
+  "generatedAt": "2026-09-05T07:12:54.519Z",
+  "generatedAtKst": "2026. 09. 05. 16:12",
+  "nextUpdateAt": "2026-09-05T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 05. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2146,
+    "rangeEnd": "2039-08-08",
+    "dday": 2190,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 63,
-    "coldCount": 4,
-    "summary": "가속 신호 63건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 5,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,30 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 75,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "GPT-6 Astra: A new generation of intelligence",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/gpt-6-astra",
+          "publishedAt": "2026-09-03T11:00:00.000Z",
+          "publishedAtKst": "2026. 09. 03. 20:00",
+          "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델",
+            "컴퓨트",
+            "SOTA"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
           "source": "OpenAI News",
@@ -84,7 +102,7 @@
           "publishedAt": "2026-09-03T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 21:00",
           "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +118,7 @@
           "publishedAt": "2026-09-02T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 02. 21:00",
           "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +134,7 @@
           "publishedAt": "2026-09-03T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 21:00",
           "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -125,36 +143,21 @@
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+          "title": "Safety overview: GPT-6 Astra",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "publishedAt": "2026-09-01T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 01. 21:00",
-          "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-          "impact": 14,
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "publishedAtKst": "2026. 09. 03. 09:00",
+          "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "GPT",
+            "모델",
+            "안전 이슈"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing agentic video understanding with Gemini",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-          "publishedAt": "2026-09-01T17:08:51.000Z",
-          "publishedAtKst": "2026. 09. 02. 02:08",
-          "summary": "",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -175,8 +178,8 @@
           "publishedAt": "2026-09-01T20:49:18.000Z",
           "publishedAtKst": "2026. 09. 02. 05:49",
           "summary": "[Cross-posted from the Alignment Journal's blog ] The Alignment Journal is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a",
-          "impact": 15,
-          "confidence": 80,
+          "impact": 13,
+          "confidence": 79,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -259,8 +262,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 86,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -272,7 +275,7 @@
           "publishedAt": "2026-09-03T17:49:12.000Z",
           "publishedAtKst": "2026. 09. 04. 02:49",
           "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authenticati",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -290,7 +293,7 @@
           "publishedAt": "2026-09-03T17:54:09.000Z",
           "publishedAtKst": "2026. 09. 04. 02:54",
           "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating ",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -308,7 +311,7 @@
           "publishedAt": "2026-09-03T17:26:33.000Z",
           "publishedAtKst": "2026. 09. 04. 02:26",
           "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become more capable, environments synthesized from scratch become less challenging and thus provide limited lea",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -326,7 +329,7 @@
           "publishedAt": "2026-09-03T17:53:34.000Z",
           "publishedAtKst": "2026. 09. 04. 02:53",
           "summary": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-",
-          "impact": 27,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -338,22 +341,22 @@
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+          "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.04083v1",
-          "publishedAt": "2026-09-03T16:50:29.000Z",
-          "publishedAtKst": "2026. 09. 04. 01:50",
-          "summary": "MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but different attribute-object bindings. Yet the same backbone can resolve such dist",
-          "impact": 27,
+          "url": "http://arxiv.org/abs/2609.04061v1",
+          "publishedAt": "2026-09-03T16:36:05.000Z",
+          "publishedAtKst": "2026. 09. 04. 01:36",
+          "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over",
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
+            "GPT",
             "LLM",
-            "모델",
-            "벤치마크"
+            "모델"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -361,29 +364,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 81,
-      "delta": 8,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 62,
+      "confidence": 57,
       "trend": "hot",
       "items": [
-        {
-          "title": "Astra WITHOUT CoT gets 97% on ARC-AGI-3 and 86% on ARC-AGI-1",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w6zxna/astra_without_cot_gets_97_on_arcagi3_and_86_on/",
-          "publishedAt": "2026-09-04T09:54:37.000Z",
-          "publishedAtKst": "2026. 09. 04. 18:54",
-          "summary": "I'm speechless. &#32; submitted by &#32; /u/FeeAvailable3770 [link] &#32; [comments]",
-          "impact": 28,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론 벤치마크",
-            "고난도 평가"
-          ],
-          "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "AWS-bench: Benchmark for evaluating AI coding agents on real-world AWS tasks",
           "source": "Hacker News",
@@ -391,8 +377,8 @@
           "publishedAt": "2026-09-04T20:55:15.000Z",
           "publishedAtKst": "2026. 09. 05. 05:55",
           "summary": "1 points, 0 comments",
-          "impact": 25,
-          "confidence": 65,
+          "impact": 23,
+          "confidence": 64,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -408,8 +394,8 @@
           "publishedAt": "2026-09-04T16:08:40.000Z",
           "publishedAtKst": "2026. 09. 05. 01:08",
           "summary": "2 points, 0 comments",
-          "impact": 22,
-          "confidence": 63,
+          "impact": 20,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -424,9 +410,9 @@
           "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
           "publishedAt": "2026-09-03T20:11:25.000Z",
           "publishedAtKst": "2026. 09. 04. 05:11",
-          "summary": "25 points, 16 comments",
-          "impact": 22,
-          "confidence": 61,
+          "summary": "26 points, 16 comments",
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -436,21 +422,38 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini vs. Claude: Which AI Model created a better perfume?",
-          "source": "Hacker News",
-          "url": "https://www.youtube.com/watch?v=YfFk050AjPw",
-          "publishedAt": "2026-09-04T21:57:54.000Z",
-          "publishedAtKst": "2026. 09. 05. 06:57",
-          "summary": "1 points, 1 comments",
-          "impact": 20,
-          "confidence": 61,
+          "title": "It's been a few hours since global rollout (Gpt-6 Astra) - What are your early impressions?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w7m0ui/its_been_a_few_hours_since_global_rollout_gpt6/",
+          "publishedAt": "2026-09-05T00:42:47.000Z",
+          "publishedAtKst": "2026. 09. 05. 09:42",
+          "summary": "Personally, this is the most realistic model I've used. It goes deep enough to solve problems I've been throwing at all models (Fable 5.1, Open-Source ones, Sol Pro, etc), but without needing as much hand holding. It onl",
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "Gemini",
-            "Claude",
+            "추론",
+            "GPT",
             "모델"
           ],
-          "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GPT-6 Astra gets 3% on the FrontierMath Erdős Benchmark, while every other Model(that was tested) got 0%",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w79wvx/gpt6_astra_gets_3_on_the_frontiermath_erdős/",
+          "publishedAt": "2026-09-04T16:52:59.000Z",
+          "publishedAtKst": "2026. 09. 05. 01:52",
+          "summary": "https://preview.redd.it/dhi42fp49jnh1.png?width=666&format=png&auto=webp&s=1c67e49c0f60575ad70ab60d30a775e36462800c So yeah, Astra is extremely good at mathematics. But we still have a long way to go. I wonder where we'l",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -460,30 +463,37 @@
       "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04159v1",
-      "impact": 33,
+      "impact": 31,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04170v1",
-      "impact": 31,
+      "impact": 29,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Environment Evolution for Terminal Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.04128v1",
-      "impact": 31,
+      "impact": 28,
       "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "ASCII smuggling isn't just an AI security risk",
+      "source": "Hacker News",
+      "url": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": 1,
+      "impact": 2,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -492,13 +502,6 @@
       "url": "http://arxiv.org/abs/2609.04134v1",
       "impact": 6,
       "reason": "지연, 전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "AI swarms are starting to pose indirect takeover risk",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
