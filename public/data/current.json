@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-06T07:25:14.828Z",
-  "generatedAtKst": "2026. 09. 06. 16:25",
-  "nextUpdateAt": "2026-09-06T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 06. 18:00",
+  "generatedAt": "2026-09-06T12:27:49.491Z",
+  "generatedAtKst": "2026. 09. 06. 21:27",
+  "nextUpdateAt": "2026-09-06T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 07. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2032-12-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2234,
+    "rangeEnd": "2039-11-06",
+    "dday": 2279,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -37,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
+    "score": 75,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
-    "coldCount": 5,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 4,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-03T11:00:00.000Z",
           "publishedAtKst": "2026. 09. 03. 20:00",
           "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -261,10 +261,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -274,8 +274,8 @@
           "publishedAt": "2026-09-03T17:49:12.000Z",
           "publishedAtKst": "2026. 09. 04. 02:49",
           "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authenticati",
-          "impact": 24,
-          "confidence": 89,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -292,8 +292,8 @@
           "publishedAt": "2026-09-03T17:54:09.000Z",
           "publishedAtKst": "2026. 09. 04. 02:54",
           "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating ",
-          "impact": 22,
-          "confidence": 88,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -310,8 +310,8 @@
           "publishedAt": "2026-09-03T17:26:33.000Z",
           "publishedAtKst": "2026. 09. 04. 02:26",
           "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become more capable, environments synthesized from scratch become less challenging and thus provide limited lea",
-          "impact": 22,
-          "confidence": 88,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -328,8 +328,8 @@
           "publishedAt": "2026-09-03T17:53:34.000Z",
           "publishedAtKst": "2026. 09. 04. 02:53",
           "summary": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -346,8 +346,8 @@
           "publishedAt": "2026-09-03T16:36:05.000Z",
           "publishedAtKst": "2026. 09. 04. 01:36",
           "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to the original implementation. We study over",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -363,8 +363,8 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 87,
-      "delta": 9,
+      "score": 88,
+      "delta": 10,
       "weight": 0.2,
       "confidence": 58,
       "trend": "hot",
@@ -406,13 +406,31 @@
           "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Frontier AI models are beginning to cross the human baseline on SimpleBench",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w8j2t0/frontier_ai_models_are_beginning_to_cross_the/",
+          "publishedAt": "2026-09-06T01:58:10.000Z",
+          "publishedAtKst": "2026. 09. 06. 10:58",
+          "summary": "&#x200B; EDIT: GPT-6 Astra hasn't been measured yet. They usually take a couple of days since release. u/Alt_Restorer also pointed out \"the benchmark is private, so Phillip only runs it if there's an API that doesn't ret",
+          "impact": 28,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "GPT",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "I know these posts are getting old, but Astra one-shot a Balatro clone with only vague direction and my mind is pretty blown",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1w8cgb5/i_know_these_posts_are_getting_old_but_astra/",
           "publishedAt": "2026-09-05T21:02:04.000Z",
           "publishedAtKst": "2026. 09. 06. 06:02",
           "summary": "Two prompts total: Build me a Balatro clone that can run completely in the browser. It should be similar to Balatro but have its own unique twist, with crazy synergies and combos and a unique, surreal visual style. With ",
-          "impact": 28,
+          "impact": 27,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -430,8 +448,8 @@
           "publishedAt": "2026-09-05T15:31:51.000Z",
           "publishedAtKst": "2026. 09. 06. 00:31",
           "summary": "I finally got access to GPT 6 Astra and Claude Fable 5.1. I wanted to see how far we've come. I was inspired by the \"pelican riding on a bicycle\" test but wanted to push it a bit more in the direction of inter-object phy",
-          "impact": 26,
-          "confidence": 57,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -439,23 +457,6 @@
             "Claude"
           ],
           "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AWS-bench: Benchmark for evaluating AI coding agents on real-world AWS tasks",
-          "source": "Hacker News",
-          "url": "https://github.com/aws-bench/aws-bench",
-          "publishedAt": "2026-09-04T20:55:15.000Z",
-          "publishedAtKst": "2026. 09. 05. 05:55",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -476,21 +477,14 @@
       "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "I know these posts are getting old, but Astra one-shot a Balatro clone with only vague direction and my mind is pretty blown",
+      "title": "Frontier AI models are beginning to cross the human baseline on SimpleBench",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1w8cgb5/i_know_these_posts_are_getting_old_but_astra/",
+      "url": "https://www.reddit.com/r/singularity/comments/1w8j2t0/frontier_ai_models_are_beginning_to_cross_the/",
       "impact": 28,
-      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "An advanced attacker is targeting Salesforce and ServiceNow instances worldwide",
-      "source": "Hacker News",
-      "url": "https://www.reco.ai/blog/city-forum-campaign-salesforce-servicenow",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
@@ -504,6 +498,13 @@
       "url": "http://arxiv.org/abs/2609.04134v1",
       "impact": 6,
       "reason": "지연, 전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
