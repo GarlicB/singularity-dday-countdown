@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T14:35:51.508Z",
-  "generatedAtKst": "2026. 09. 07. 23:35",
-  "nextUpdateAt": "2026-09-07T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 08. 00:00",
+  "generatedAt": "2026-09-07T18:55:22.108Z",
+  "generatedAtKst": "2026. 09. 08. 03:55",
+  "nextUpdateAt": "2026-09-07T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 08. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-06T08:00:00.000Z",
           "publishedAtKst": "2026. 09. 06. 17:00",
           "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -262,10 +262,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -275,8 +275,8 @@
           "publishedAt": "2026-09-04T15:30:22.000Z",
           "publishedAtKst": "2026. 09. 05. 00:30",
           "summary": "LLM agents deployed for software engineering fail expensively: they act confidently wrong, and bad actions are recognized only after costly execution and retry. We present Speculative Uncertainty (SU), a method that reco",
-          "impact": 23,
-          "confidence": 88,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -287,49 +287,13 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.05363v1",
-          "publishedAt": "2026-09-04T17:08:50.000Z",
-          "publishedAtKst": "2026. 09. 05. 02:08",
-          "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying th",
-          "impact": 22,
-          "confidence": 87,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.05381v1",
-          "publishedAt": "2026-09-04T17:32:48.000Z",
-          "publishedAtKst": "2026. 09. 05. 02:32",
-          "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier ",
-          "impact": 21,
-          "confidence": 87,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "프런티어 모델",
-            "LLM",
-            "모델"
-          ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.05401v1",
           "publishedAt": "2026-09-04T17:47:58.000Z",
           "publishedAtKst": "2026. 09. 05. 02:47",
           "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal d",
-          "impact": 21,
+          "impact": 20,
           "confidence": 86,
           "stance": "accelerate",
           "tags": [
@@ -341,14 +305,50 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.05381v1",
+          "publishedAt": "2026-09-04T17:32:48.000Z",
+          "publishedAtKst": "2026. 09. 05. 02:32",
+          "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier ",
+          "impact": 20,
+          "confidence": 86,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.05363v1",
+          "publishedAt": "2026-09-04T17:08:50.000Z",
+          "publishedAtKst": "2026. 09. 05. 02:08",
+          "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying th",
+          "impact": 20,
+          "confidence": 86,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.05385v1",
           "publishedAt": "2026-09-04T17:37:17.000Z",
           "publishedAtKst": "2026. 09. 05. 02:37",
           "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a system, diagnose er",
-          "impact": 20,
-          "confidence": 89,
+          "impact": 19,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -364,29 +364,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.2,
       "confidence": 55,
       "trend": "hot",
       "items": [
-        {
-          "title": "Bridge – give your coding agent the reasoning, not just the PRD",
-          "source": "Hacker News",
-          "url": "https://bridge.strine.com.br",
-          "publishedAt": "2026-09-07T14:14:56.000Z",
-          "publishedAtKst": "2026. 09. 07. 23:14",
-          "summary": "1 points, 0 comments",
-          "impact": 26,
-          "confidence": 66,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Terence Tao says AI labs’ race to beat math benchmarks is starting to hurt the field. He wants them to compete on new insights instead.",
           "source": "r/singularity",
@@ -394,8 +377,8 @@
           "publishedAt": "2026-09-06T22:15:59.000Z",
           "publishedAtKst": "2026. 09. 07. 07:15",
           "summary": "On Aug. 31, Stadlmann posted a preprint lowering the bound on gaps between primes from 246 to 240. Within days, several AI labs were posting their own improvements on social media. Tao responded with an eight-post thread",
-          "impact": 26,
-          "confidence": 57,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -412,13 +395,45 @@
           "publishedAt": "2026-09-06T23:57:54.000Z",
           "publishedAtKst": "2026. 09. 07. 08:57",
           "summary": "&#32; submitted by &#32; /u/TheGoldenLeaper [link] &#32; [comments]",
-          "impact": 25,
-          "confidence": 57,
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "\"The AGI I imagined was an Einstein-level intellect backed by massive compute, curing diseases, advancing science exponentially, and kicking off a whole new era for humanity.\"",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w9wmkt/the_agi_i_imagined_was_an_einsteinlevel_intellect/",
+          "publishedAt": "2026-09-07T16:18:13.000Z",
+          "publishedAtKst": "2026. 09. 08. 01:18",
+          "summary": "The AGI I imagined was an Einstein-level intellect backed by massive compute, curing diseases, advancing science exponentially, and kicking off a whole new era for humanity. Instead, people see an AI messing around in Bl",
+          "impact": 20,
+          "confidence": 53,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "컴퓨트"
+          ],
+          "why": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "\"Twenty years of brand building froze in time\": How coding agents select tools",
+          "source": "Hacker News",
+          "url": "https://thenewstack.io/coding-agents-tool-choice/",
+          "publishedAt": "2026-09-07T18:52:02.000Z",
+          "publishedAtKst": "2026. 09. 08. 03:52",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Astra is now a certified human",
@@ -427,21 +442,6 @@
           "publishedAt": "2026-09-07T08:48:23.000Z",
           "publishedAtKst": "2026. 09. 07. 17:48",
           "summary": "Source: https://twitter.com/sharifshameem/status/2096847916837314853 The video is very interesting to watch, honestly when the game first came out I thought of it as a mini AGI test and didn't think AI would be able to c",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What are your thoughts? I still believe AGI is a long way off.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w9ag49/what_are_your_thoughts_i_still_believe_agi_is_a/",
-          "publishedAt": "2026-09-06T22:35:22.000Z",
-          "publishedAtKst": "2026. 09. 07. 07:35",
-          "summary": "&#32; submitted by &#32; /u/Ashwinsuriya [link] &#32; [comments]",
           "impact": 14,
           "confidence": 48,
           "stance": "accelerate",
@@ -458,22 +458,22 @@
       "title": "Terence Tao says AI labs’ race to beat math benchmarks is starting to hurt the field. He wants them to compete on new insights instead.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1w99zj0/terence_tao_says_ai_labs_race_to_beat_math/",
-      "impact": 26,
+      "impact": 25,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Bridge – give your coding agent the reasoning, not just the PRD",
-      "source": "Hacker News",
-      "url": "https://bridge.strine.com.br",
-      "impact": 26,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1w9cbcb/ceo_jensen_huang_says_artificial_general/",
-      "impact": 25,
+      "impact": 24,
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "impact": 21,
+      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
