@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T23:09:46.940Z",
-  "generatedAtKst": "2026. 09. 08. 08:09",
-  "nextUpdateAt": "2026-09-08T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 08. 12:00",
+  "generatedAt": "2026-09-08T07:33:36.469Z",
+  "generatedAtKst": "2026. 09. 08. 16:33",
+  "nextUpdateAt": "2026-09-08T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 08. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-04-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-04",
-    "dday": 2368,
+    "rangeEnd": "2040-03-20",
+    "dday": 2412,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -33,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 72,
+    "temperature": 50,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 38,
+    "hotCount": 35,
     "coldCount": 4,
-    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-06T08:00:00.000Z",
           "publishedAtKst": "2026. 09. 06. 17:00",
           "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -262,10 +262,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 77,
-      "delta": 7,
+      "score": 74,
+      "delta": 6,
       "weight": 0.28,
-      "confidence": 85,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -275,8 +275,8 @@
           "publishedAt": "2026-09-04T15:30:22.000Z",
           "publishedAtKst": "2026. 09. 05. 00:30",
           "summary": "LLM agents deployed for software engineering fail expensively: they act confidently wrong, and bad actions are recognized only after costly execution and retry. We present Speculative Uncertainty (SU), a method that reco",
-          "impact": 20,
-          "confidence": 85,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -287,32 +287,14 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.05381v1",
-          "publishedAt": "2026-09-04T17:32:48.000Z",
-          "publishedAtKst": "2026. 09. 05. 02:32",
-          "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier ",
-          "impact": 19,
-          "confidence": 85,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "프런티어 모델",
-            "LLM",
-            "모델"
-          ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.05363v1",
           "publishedAt": "2026-09-04T17:08:50.000Z",
           "publishedAtKst": "2026. 09. 05. 02:08",
           "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying th",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 17,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -329,8 +311,8 @@
           "publishedAt": "2026-09-04T17:47:58.000Z",
           "publishedAtKst": "2026. 09. 05. 02:47",
           "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal d",
-          "impact": 19,
-          "confidence": 84,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -341,14 +323,32 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.05381v1",
+          "publishedAt": "2026-09-04T17:32:48.000Z",
+          "publishedAtKst": "2026. 09. 05. 02:32",
+          "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier ",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.05385v1",
           "publishedAt": "2026-09-04T17:37:17.000Z",
           "publishedAtKst": "2026. 09. 05. 02:37",
           "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a system, diagnose er",
-          "impact": 18,
-          "confidence": 86,
+          "impact": 15,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -364,26 +364,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 50,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
-          "title": "CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+          "title": "Francois Chollet: I would not \"declare AGI\" until we have AI that is capable of invention, conceptual breakthroughs, novel insights, new real-world technology, etc.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w9cbcb/ceo_jensen_huang_says_artificial_general/",
-          "publishedAt": "2026-09-06T23:57:54.000Z",
-          "publishedAtKst": "2026. 09. 07. 08:57",
-          "summary": "&#32; submitted by &#32; /u/TheGoldenLeaper [link] &#32; [comments]",
-          "impact": 23,
-          "confidence": 56,
+          "url": "https://www.reddit.com/r/singularity/comments/1waa3ek/francois_chollet_i_would_not_declare_agi_until_we/",
+          "publishedAt": "2026-09-08T01:05:29.000Z",
+          "publishedAtKst": "2026. 09. 08. 10:05",
+          "summary": "The narrative around why building AGI was a good idea has always been about invention -- \"it will cure cancer\", \"it will solve fusion energy\", etc. So I would not \"declare AGI\" until we have AI that is, at last, capable ",
+          "impact": 25,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "AGI",
+            "GPT",
+            "돌파",
+            "전력 병목"
           ],
-          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "\"The AGI I imagined was an Einstein-level intellect backed by massive compute, curing diseases, advancing science exponentially, and kicking off a whole new era for humanity.\"",
@@ -392,8 +395,8 @@
           "publishedAt": "2026-09-07T16:18:13.000Z",
           "publishedAtKst": "2026. 09. 08. 01:18",
           "summary": "The AGI I imagined was an Einstein-level intellect backed by massive compute, curing diseases, advancing science exponentially, and kicking off a whole new era for humanity. Instead, people see an AI messing around in Bl",
-          "impact": 19,
-          "confidence": 53,
+          "impact": 18,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -402,14 +405,30 @@
           "why": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Astra is now a certified human",
+          "title": "Agentic Video Understanding with Gemini",
+          "source": "Hacker News",
+          "url": "https://twitter.com/GoogleAIStudio/status/2094848490203410564",
+          "publishedAt": "2026-09-08T07:14:48.000Z",
+          "publishedAtKst": "2026. 09. 08. 16:14",
+          "summary": "1 points, 0 comments",
+          "impact": 17,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AGI achieved",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w9mp3k/astra_is_now_a_certified_human/",
-          "publishedAt": "2026-09-07T08:48:23.000Z",
-          "publishedAtKst": "2026. 09. 07. 17:48",
-          "summary": "Source: https://twitter.com/sharifshameem/status/2096847916837314853 The video is very interesting to watch, honestly when the game first came out I thought of it as a mini AGI test and didn't think AI would be able to c",
-          "impact": 14,
-          "confidence": 48,
+          "url": "https://www.reddit.com/r/singularity/comments/1waav51/agi_achieved/",
+          "publishedAt": "2026-09-08T01:41:07.000Z",
+          "publishedAtKst": "2026. 09. 08. 10:41",
+          "summary": "Doom scrolling is the sign of sentience. &#32; submitted by &#32; /u/VenomCruster [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -417,12 +436,12 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The man who invented the term 'AGI' declares that AGI is here",
+          "title": "Astra is now a certified human",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w9dmf3/the_man_who_invented_the_term_agi_declares_that/",
-          "publishedAt": "2026-09-07T00:56:51.000Z",
-          "publishedAtKst": "2026. 09. 07. 09:56",
-          "summary": "&#32; submitted by &#32; /u/Cagnazzo82 [link] &#32; [comments]",
+          "url": "https://www.reddit.com/r/singularity/comments/1w9mp3k/astra_is_now_a_certified_human/",
+          "publishedAt": "2026-09-07T08:48:23.000Z",
+          "publishedAtKst": "2026. 09. 07. 17:48",
+          "summary": "Source: https://twitter.com/sharifshameem/status/2096847916837314853 The video is very interesting to watch, honestly when the game first came out I thought of it as a mini AGI test and didn't think AI would be able to c",
           "impact": 13,
           "confidence": 47,
           "stance": "accelerate",
@@ -430,47 +449,31 @@
             "AGI"
           ],
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Unitree’s UnifoLM-X2-1.0 reads the opponent, predicts the next move and reacts instantly. For the first time a world model controls a fully autonomous humanoid fight in real time.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1w9vdkb/unitrees_unifolmx210_reads_the_opponent_predicts/",
-          "publishedAt": "2026-09-07T15:32:06.000Z",
-          "publishedAtKst": "2026. 09. 08. 00:32",
-          "summary": "UnifoLM-X2-1.0 breaks through world-action foundation models' bottlenecks in instant planning, decision-making, and dynamic interactive execution, achieve high dynamics, strong interaction, real-time prediction and plann",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "모델"
-          ],
-          "why": "자율성, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+      "title": "Francois Chollet: I would not \"declare AGI\" until we have AI that is capable of invention, conceptual breakthroughs, novel insights, new real-world technology, etc.",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1w9cbcb/ceo_jensen_huang_says_artificial_general/",
-      "impact": 23,
-      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1waa3ek/francois_chollet_i_would_not_declare_agi_until_we/",
+      "impact": 25,
+      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "source": "OpenAI News",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "impact": 21,
+      "impact": 20,
       "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.05274v1",
-      "impact": 20,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "\"The AGI I imagined was an Einstein-level intellect backed by massive compute, curing diseases, advancing science exponentially, and kicking off a whole new era for humanity.\"",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1w9wmkt/the_agi_i_imagined_was_an_einsteinlevel_intellect/",
+      "impact": 18,
+      "reason": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
