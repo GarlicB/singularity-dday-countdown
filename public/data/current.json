@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T18:11:22.877Z",
-  "generatedAtKst": "2026. 09. 09. 03:11",
-  "nextUpdateAt": "2026-09-08T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 09. 06:00",
+  "generatedAt": "2026-09-08T23:03:19.796Z",
+  "generatedAtKst": "2026. 09. 09. 08:03",
+  "nextUpdateAt": "2026-09-09T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 09. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
-    "rangeStart": "2027-06-27",
-    "rangeEnd": "2038-11-06",
-    "dday": 2367,
+    "medianDate": "2033-01-16",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2039-04-20",
+    "dday": 2322,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 22,
-    "coldCount": 6,
-    "summary": "가속 신호 22건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 26,
+    "coldCount": 4,
+    "summary": "가속 신호 26건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,12 +71,44 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
-      "delta": 6,
+      "score": 76,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "publishedAt": "2026-09-08T17:00:00.000Z",
+          "publishedAtKst": "2026. 09. 09. 02:00",
+          "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+          "impact": 23,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "GPT"
+          ],
+          "why": "자율성, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing ChatGPT Images 2.5",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "publishedAt": "2026-09-08T11:30:00.000Z",
+          "publishedAtKst": "2026. 09. 08. 20:30",
+          "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Research acceleration: The view inside OpenAI",
           "source": "OpenAI News",
@@ -84,7 +116,7 @@
           "publishedAt": "2026-09-06T08:00:00.000Z",
           "publishedAtKst": "2026. 09. 06. 17:00",
           "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -112,22 +144,6 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/atv-big-air-tour",
-          "publishedAt": "2026-09-02T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 02. 21:00",
-          "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
           "source": "OpenAI News",
           "url": "https://openai.com/index/playco-game-prototyping-with-astra",
@@ -142,22 +158,6 @@
             "모델"
           ],
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing agentic video understanding with Gemini",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-          "publishedAt": "2026-09-01T17:08:51.000Z",
-          "publishedAtKst": "2026. 09. 02. 02:08",
-          "summary": "",
-          "impact": 12,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,7 +165,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.18,
       "confidence": 84,
@@ -178,7 +178,7 @@
           "publishedAt": "2026-09-08T17:06:18.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade ",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -195,8 +195,8 @@
           "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
           "publishedAt": "2026-09-08T17:06:23.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
-          "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Taking the grad",
-          "impact": 25,
+          "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Training using ",
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -364,45 +364,46 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
+      "score": 77,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "I reduced image-processing token usage by ~95% compared with GPT-4o direct vision, while maintaining roughly the same accuracy.How significant is that?[P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wab7ui/i_reduced_imageprocessing_token_usage_by_95/",
-          "publishedAt": "2026-09-08T01:57:19.000Z",
-          "publishedAtKst": "2026. 09. 08. 10:57",
-          "summary": "I'm testing a new approach for reducing the cost of image-based LLM inference. I evaluated it on the MOMA Graph benchmark , using 1,315 questions . Compared with using GPT-4o to process the original images directly, I ob",
-          "impact": 29,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Is anyone working on wave-superposition-based pattern recognition instead of neural-network weights? [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wanr4p/is_anyone_working_on_wavesuperpositionbased/",
-          "publishedAt": "2026-09-08T13:00:10.000Z",
-          "publishedAtKst": "2026. 09. 08. 22:00",
-          "summary": "I’ve been thinking about an alternative way of doing low-level AI perception, and I’m curious whether anyone here is already working on something similar. The basic idea is to use waves and physical superposition/interfe",
-          "impact": 22,
-          "confidence": 59,
+          "title": "HairBench: there’s no AGI till male pattern baldness is reversed",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wagysy/hairbench_theres_no_agi_till_male_pattern/",
+          "publishedAt": "2026-09-08T06:55:34.000Z",
+          "publishedAtKst": "2026. 09. 08. 15:55",
+          "summary": "But seriously though with new drug simulation workflows and research ability of frontier models, how much longer do I have to endure😭. &#32; submitted by &#32; /u/UniqueArrival9756 [link] &#32; [comments]",
+          "impact": 23,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "자율성"
+            "프런티어 모델",
+            "모델"
           ],
-          "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Francois Chollet: I would not \"declare AGI\" until we have AI that is capable of invention, conceptual breakthroughs, novel insights, new real-world technology, etc.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1waa3ek/francois_chollet_i_would_not_declare_agi_until_we/",
+          "publishedAt": "2026-09-08T01:05:29.000Z",
+          "publishedAtKst": "2026. 09. 08. 10:05",
+          "summary": "The narrative around why building AGI was a good idea has always been about invention -- \"it will cure cancer\", \"it will solve fusion energy\", etc. So I would not \"declare AGI\" until we have AI that is, at last, capable ",
+          "impact": 22,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "GPT",
+            "돌파",
+            "전력 병목"
+          ],
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "I made 5 AI models play a golf season. I think we benchmark agents wrong",
@@ -411,7 +412,7 @@
           "publishedAt": "2026-09-08T16:27:30.000Z",
           "publishedAtKst": "2026. 09. 09. 01:27",
           "summary": "2 points, 0 comments",
-          "impact": 19,
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -422,13 +423,13 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Can Coding Agents Play Pokemon?",
+          "title": "Show HN: Felan – an open source coding agent focused on efficiency",
           "source": "Hacker News",
-          "url": "https://bkal01.github.io/posts/radical-red/",
-          "publishedAt": "2026-09-08T18:10:24.000Z",
-          "publishedAtKst": "2026. 09. 09. 03:10",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
+          "url": "https://github.com/felan-ai/felan",
+          "publishedAt": "2026-09-08T18:31:59.000Z",
+          "publishedAtKst": "2026. 09. 09. 03:31",
+          "summary": "2 points, 0 comments",
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -438,22 +439,19 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Generating Bad Apple autonomously from a single initial state using a tiny recurrent dynamical system (417k params) [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wa8rub/generating_bad_apple_autonomously_from_a_single/",
-          "publishedAt": "2026-09-08T00:05:37.000Z",
-          "publishedAtKst": "2026. 09. 08. 09:05",
-          "summary": "A few weeks ago, I saw this post where the author trained a SIREN MLP to implicitly memorize Bad Apple as a coordinate function: (t, y, x) to pixel. That got me curious about a slightly different formulation: instead of ",
-          "impact": 11,
-          "confidence": 55,
-          "stance": "watch",
+          "title": "Ask HN: Is September 8th AGI Day?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49618229",
+          "publishedAt": "2026-09-08T22:48:24.000Z",
+          "publishedAtKst": "2026. 09. 09. 07:48",
+          "summary": "2 points, 1 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
           "tags": [
-            "자율성",
-            "모델",
-            "추론 인프라",
-            "위험"
+            "AGI"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -463,45 +461,45 @@
       "title": "Training on probes: What's going on",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "I reduced image-processing token usage by ~95% compared with GPT-4o direct vision, while maintaining roughly the same accuracy.How significant is that?[P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wab7ui/i_reduced_imageprocessing_token_usage_by_95/",
-      "impact": 29,
-      "reason": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Training on probes: Research ideas",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
-      "impact": 25,
+      "impact": 24,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "impact": 23,
+      "reason": "자율성, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Robots \"protest\" in Warsaw to demand regulation of AI and automation",
-      "source": "Hacker News",
-      "url": "https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/",
-      "impact": -3,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "NeurIPS desk-rejected 178 papers for being \"AI-generated\". The detector flagged the track chairs' own papers at 24-69% [N]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wakf62/neurips_deskrejected_178_papers_for_being/",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
       "impact": 2,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.05395v1",
+      "impact": 8,
+      "reason": "규제, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
