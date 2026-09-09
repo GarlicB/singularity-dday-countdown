@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T07:40:45.816Z",
-  "generatedAtKst": "2026. 09. 09. 16:40",
-  "nextUpdateAt": "2026-09-09T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 09. 18:00",
+  "generatedAt": "2026-09-09T13:15:38.229Z",
+  "generatedAtKst": "2026. 09. 09. 22:15",
+  "nextUpdateAt": "2026-09-09T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 10. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2096,
+    "rangeEnd": "2039-06-24",
+    "dday": 2141,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 47,
     "coldCount": 6,
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-08T11:30:00.000Z",
           "publishedAtKst": "2026. 09. 08. 20:30",
           "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,8 +165,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 72,
-      "delta": 6,
+      "score": 71,
+      "delta": 5,
       "weight": 0.18,
       "confidence": 84,
       "trend": "hot",
@@ -178,7 +178,7 @@
           "publishedAt": "2026-09-08T17:06:18.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade ",
-          "impact": 32,
+          "impact": 31,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -196,7 +196,7 @@
           "publishedAt": "2026-09-08T17:06:23.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an",
-          "impact": 23,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -262,8 +262,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -293,7 +293,7 @@
           "publishedAt": "2026-09-08T17:15:39.000Z",
           "publishedAtKst": "2026. 09. 09. 02:15",
           "summary": "While many video-game environments (VGEs) have played crucial roles in advancing reinforcement learning (RL), developing novel VGEs or modifying existing ones to support new features, has been a laborious process requiri",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +311,7 @@
           "publishedAt": "2026-09-08T17:59:50.000Z",
           "publishedAtKst": "2026. 09. 09. 02:59",
           "summary": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, ",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-09-08T17:47:43.000Z",
           "publishedAtKst": "2026. 09. 09. 02:47",
           "summary": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and compl",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +347,7 @@
           "publishedAt": "2026-09-08T17:45:09.000Z",
           "publishedAtKst": "2026. 09. 09. 02:45",
           "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what model",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -377,8 +377,8 @@
           "publishedAt": "2026-09-08T16:27:30.000Z",
           "publishedAtKst": "2026. 09. 09. 01:27",
           "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -394,14 +394,31 @@
           "publishedAt": "2026-09-08T18:31:59.000Z",
           "publishedAtKst": "2026. 09. 09. 03:31",
           "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Large language models develop novel social biases through adaptive exploration",
+          "source": "Hacker News",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+          "publishedAt": "2026-09-08T21:47:38.000Z",
+          "publishedAtKst": "2026. 09. 09. 06:47",
+          "summary": "182 points, 96 comments",
+          "impact": 14,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "편향"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "ChatGPT 2 years ago",
@@ -426,7 +443,7 @@
           "publishedAt": "2026-09-08T19:00:11.000Z",
           "publishedAtKst": "2026. 09. 09. 04:00",
           "summary": "&#32; submitted by &#32; /u/FateOfMuffins [link] &#32; [comments]",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -434,23 +451,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Large language models develop novel social biases through adaptive exploration",
-          "source": "Hacker News",
-          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
-          "publishedAt": "2026-09-08T21:47:38.000Z",
-          "publishedAtKst": "2026. 09. 09. 06:47",
-          "summary": "147 points, 77 comments",
-          "impact": 13,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "편향"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -467,18 +467,25 @@
       "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.09059v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "ReCite: Agentic Reasoning for Faithful Citation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.09156v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Veronika on X: \"Anti AI people are falling behind so fast they can't even have an intelligent discussion about AI anymore. Talking to an AI luddite is like talking about cars with a person who thinks the 1980 Buick Regal is still the standard. This is horrible for real regulation.\" / X",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wbge7j/veronika_on_x_anti_ai_people_are_falling_behind/",
+      "impact": -4,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
       "source": "arXiv",
@@ -490,15 +497,8 @@
       "title": "Chris Combs, professor of Aerospace engineering, throws some cold water on OpenAI’s NS solution",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wb05u0/chris_combs_professor_of_aerospace_engineering/",
-      "impact": -2,
+      "impact": -1,
       "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Silent Revision: Measuring Undisclosed Change in AI Safety Frameworks",
-      "source": "Hacker News",
-      "url": "https://arxiv.org/abs/2609.08789",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
