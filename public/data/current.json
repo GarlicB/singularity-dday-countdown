@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T17:57:31.285Z",
-  "generatedAtKst": "2026. 09. 11. 02:57",
-  "nextUpdateAt": "2026-09-10T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 11. 06:00",
+  "generatedAt": "2026-09-10T22:51:05.083Z",
+  "generatedAtKst": "2026. 09. 11. 07:51",
+  "nextUpdateAt": "2026-09-11T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 11. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 84,
     "temperature": 60,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
+    "hotCount": 51,
     "coldCount": 6,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 81,
+      "score": 82,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -101,7 +101,7 @@
           "publishedAt": "2026-09-09T11:00:00.000Z",
           "publishedAtKst": "2026. 09. 09. 20:00",
           "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -113,13 +113,30 @@
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Introducing ChatGPT for Financial Services",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "publishedAt": "2026-09-10T07:00:00.000Z",
+          "publishedAtKst": "2026. 09. 10. 16:00",
+          "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
           "source": "OpenAI News",
           "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
           "publishedAt": "2026-09-10T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 01:00",
           "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,22 +160,6 @@
             "GPT"
           ],
           "why": "자율성, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing ChatGPT Images 2.5",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-          "publishedAt": "2026-09-08T11:30:00.000Z",
-          "publishedAtKst": "2026. 09. 08. 20:30",
-          "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -166,8 +167,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -196,7 +197,7 @@
           "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
           "publishedAt": "2026-09-10T02:31:26.000Z",
           "publishedAtKst": "2026. 09. 10. 11:31",
-          "summary": "TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fabl",
+          "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next ",
           "impact": 36,
           "confidence": 82,
           "stance": "accelerate",
@@ -215,7 +216,7 @@
           "publishedAt": "2026-09-10T17:18:38.000Z",
           "publishedAtKst": "2026. 09. 11. 02:18",
           "summary": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this prope",
-          "impact": 28,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -233,7 +234,7 @@
           "publishedAt": "2026-09-08T22:13:19.000Z",
           "publishedAtKst": "2026. 09. 09. 07:13",
           "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
-          "impact": 27,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -251,7 +252,7 @@
           "publishedAt": "2026-09-08T17:06:18.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade ",
-          "impact": 24,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -268,8 +269,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -317,7 +318,7 @@
           "publishedAt": "2026-09-09T15:44:32.000Z",
           "publishedAtKst": "2026. 09. 10. 00:44",
           "summary": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning methods mitigate this overhead, they implicitl",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -335,7 +336,7 @@
           "publishedAt": "2026-09-09T15:56:26.000Z",
           "publishedAtKst": "2026. 09. 10. 00:56",
           "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with H",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -353,7 +354,7 @@
           "publishedAt": "2026-09-09T15:26:28.000Z",
           "publishedAtKst": "2026. 09. 10. 00:26",
           "summary": "Knowledge distillation offers an efficient route to transfer a task-adapted vision-language teacher to a compact student. The training target in current vision-language distillation methods is typically constructed from ",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -373,7 +374,7 @@
       "score": 76,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -383,7 +384,7 @@
           "publishedAt": "2026-09-09T23:44:43.000Z",
           "publishedAtKst": "2026. 09. 10. 08:44",
           "summary": "There's probably an old game that you are very fond of. You'd like to bring it to more modern standards, or tweak the experience to your liking. But there's a problem -- the source code was never released. You could spen",
-          "impact": 33,
+          "impact": 31,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -401,8 +402,8 @@
           "publishedAt": "2026-09-10T14:12:52.000Z",
           "publishedAtKst": "2026. 09. 10. 23:12",
           "summary": "2 points, 1 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -411,14 +412,31 @@
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "After Astra's stealth nerf last night, we really need benchmarks to do a re-bench 1 week after any model release. This is ridiculous.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wcu0fj/after_astras_stealth_nerf_last_night_we_really/",
+          "publishedAt": "2026-09-10T19:57:59.000Z",
+          "publishedAtKst": "2026. 09. 11. 04:57",
+          "summary": "2 days ago Astra was 1 shotting AAA game level models and now today even after reprompting on xhigh effort several times the results are completely terrible. Hundreds of users on X have noticed the same https://x.com/who",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "모델",
+            "벤치마크",
+            "컴퓨트"
+          ],
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Large language models develop novel social biases through adaptive exploration",
           "source": "Hacker News",
           "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
           "publishedAt": "2026-09-08T21:47:38.000Z",
           "publishedAtKst": "2026. 09. 09. 06:47",
-          "summary": "199 points, 116 comments",
+          "summary": "200 points, 116 comments",
           "impact": 13,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -434,7 +452,7 @@
           "publishedAt": "2026-09-09T14:02:47.000Z",
           "publishedAtKst": "2026. 09. 09. 23:02",
           "summary": "2 points, 0 comments",
-          "impact": 13,
+          "impact": 12,
           "confidence": 54,
           "stance": "accelerate",
           "tags": [
@@ -442,22 +460,6 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Felan – an open source coding agent focused on efficiency",
-          "source": "Hacker News",
-          "url": "https://github.com/felan-ai/felan",
-          "publishedAt": "2026-09-08T18:31:59.000Z",
-          "publishedAtKst": "2026. 09. 09. 03:31",
-          "summary": "2 points, 0 comments",
-          "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -487,6 +489,13 @@
   ],
   "topDampeners": [
     {
+      "title": "Elon Musk attacks film-maker Alex Gibney about upcoming documentary about him",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/elon-musk-attacks-film-maker-behind-documentary-about-him",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "OpenAI just called for Congress to create mandatory national safety regulations on AI & Jacob Coxon is now world famous.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wc56nu/openai_just_called_for_congress_to_create/",
@@ -499,13 +508,6 @@
       "url": "https://www.reddit.com/r/singularity/comments/1wcnfjm/president_trump_on_ai_risks_its_going_to_be_fine/",
       "impact": -2,
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Training a Misaligned Reward Seeker",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": 2,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {

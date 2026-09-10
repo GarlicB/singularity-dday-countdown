@@ -1,15 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-25T09:24:59.501Z",
-    "generatedAtKst": "2026. 08. 25. 18:24",
-    "score": 78,
-    "temperature": 55,
-    "season": "여름",
-    "medianDate": "2032-07-20",
-    "dday": 2156,
-    "confidence": 76
-  },
-  {
     "generatedAt": "2026-08-25T15:33:24.800Z",
     "generatedAtKst": "2026. 08. 26. 00:33",
     "score": 79,
@@ -592,6 +582,16 @@
   {
     "generatedAt": "2026-09-10T17:57:31.285Z",
     "generatedAtKst": "2026. 09. 11. 02:57",
+    "score": 84,
+    "temperature": 60,
+    "season": "여름",
+    "medianDate": "2031-10-24",
+    "dday": 1870,
+    "confidence": 76
+  },
+  {
+    "generatedAt": "2026-09-10T22:51:05.083Z",
+    "generatedAtKst": "2026. 09. 11. 07:51",
     "score": 84,
     "temperature": 60,
     "season": "여름",
