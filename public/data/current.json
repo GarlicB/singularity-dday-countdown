@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T07:38:10.926Z",
-  "generatedAtKst": "2026. 09. 10. 16:38",
-  "nextUpdateAt": "2026-09-10T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 10. 18:00",
+  "generatedAt": "2026-09-10T13:12:43.565Z",
+  "generatedAtKst": "2026. 09. 10. 22:12",
+  "nextUpdateAt": "2026-09-10T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 11. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-01-22",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-12-26",
-    "dday": 1960,
+    "rangeEnd": "2039-02-09",
+    "dday": 2005,
     "confidence": 76,
-    "deltaDays": -48,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 82,
-    "temperature": 59,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 46,
-    "coldCount": 6,
+    "coldCount": 4,
     "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-09T11:00:00.000Z",
           "publishedAtKst": "2026. 09. 09. 20:00",
           "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -196,7 +196,7 @@
           "publishedAt": "2026-09-08T22:13:19.000Z",
           "publishedAtKst": "2026. 09. 09. 07:13",
           "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
-          "impact": 30,
+          "impact": 29,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +214,7 @@
           "publishedAt": "2026-09-08T17:06:18.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade ",
-          "impact": 26,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -232,7 +232,7 @@
           "publishedAt": "2026-09-08T17:06:23.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "Recap Sequel to Previous Post . This post might not make sense without it. Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an",
-          "impact": 19,
+          "impact": 18,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -288,24 +288,6 @@
             "LLM"
           ],
           "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.10364v1",
-          "publishedAt": "2026-09-09T15:56:26.000Z",
-          "publishedAtKst": "2026. 09. 10. 00:56",
-          "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with H",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "벤치마크",
-            "고난도 평가"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
@@ -344,13 +326,31 @@
           "why": "추론, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.10364v1",
+          "publishedAt": "2026-09-09T15:56:26.000Z",
+          "publishedAtKst": "2026. 09. 10. 00:56",
+          "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with H",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "벤치마크",
+            "고난도 평가"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.10321v1",
           "publishedAt": "2026-09-09T15:26:28.000Z",
           "publishedAtKst": "2026. 09. 10. 00:26",
           "summary": "Knowledge distillation offers an efficient route to transfer a task-adapted vision-language teacher to a compact student. The training target in current vision-language distillation methods is typically constructed from ",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,10 +367,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -380,7 +380,7 @@
           "publishedAt": "2026-09-09T23:44:43.000Z",
           "publishedAtKst": "2026. 09. 10. 08:44",
           "summary": "There's probably an old game that you are very fond of. You'd like to bring it to more modern standards, or tweak the experience to your liking. But there's a problem -- the source code was never released. You could spen",
-          "impact": 36,
+          "impact": 34,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -390,22 +390,6 @@
             "LLM"
           ],
           "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Voice AI Benchmarks: a directory of voice-agent evaluations",
-          "source": "Hacker News",
-          "url": "https://voicebenchmarks.com/",
-          "publishedAt": "2026-09-09T14:02:47.000Z",
-          "publishedAtKst": "2026. 09. 09. 23:02",
-          "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Large language models develop novel social biases through adaptive exploration",
@@ -425,14 +409,30 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Voice AI Benchmarks: a directory of voice-agent evaluations",
+          "source": "Hacker News",
+          "url": "https://voicebenchmarks.com/",
+          "publishedAt": "2026-09-09T14:02:47.000Z",
+          "publishedAtKst": "2026. 09. 09. 23:02",
+          "summary": "2 points, 0 comments",
+          "impact": 13,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Show HN: Felan – an open source coding agent focused on efficiency",
           "source": "Hacker News",
           "url": "https://github.com/felan-ai/felan",
           "publishedAt": "2026-09-08T18:31:59.000Z",
           "publishedAtKst": "2026. 09. 09. 03:31",
           "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 55,
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -447,8 +447,8 @@
           "publishedAt": "2026-09-08T16:27:30.000Z",
           "publishedAtKst": "2026. 09. 09. 01:27",
           "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 54,
+          "impact": 13,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -469,18 +469,18 @@
       "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "You can now mod ANY game. Frontier LLMs solved reverse engineering -- here are two real examples!",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wc2eqb/you_can_now_mod_any_game_frontier_llms_solved/",
-      "impact": 36,
-      "reason": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.10421v1",
       "impact": 36,
       "reason": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.10346v1",
+      "impact": 36,
+      "reason": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -488,22 +488,22 @@
       "title": "Living through the birth of ASI makes life feel like a sci-fi movie and honestly Im kind of here for it",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wbvlb5/living_through_the_birth_of_asi_makes_life_feel/",
-      "impact": -2,
+      "impact": -1,
       "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Ex-Anthropic researcher Jacob Coxon says AI development poses risk to humans",
-      "source": "Hacker News",
-      "url": "https://apnews.com/article/anthropic-ai-safety-jacob-coxon-2ed549e07f2f941600a135070487d83d",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Training a Misaligned Reward Seeker",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
+      "impact": 2,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Math is over as a field. Top Mathematician goes to work in AI safety at OpenAI",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wbio17/math_is_over_as_a_field_top_mathematician_goes_to/",
-      "impact": -1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Searching for New Physics with Reinforcement Learning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.10382v1",
+      "impact": 2,
+      "reason": "전력 병목, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
