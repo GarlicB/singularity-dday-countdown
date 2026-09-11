@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T22:51:05.083Z",
-  "generatedAtKst": "2026. 09. 11. 07:51",
-  "nextUpdateAt": "2026-09-11T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 11. 12:00",
+  "generatedAt": "2026-09-11T07:35:56.359Z",
+  "generatedAtKst": "2026. 09. 11. 16:35",
+  "nextUpdateAt": "2026-09-11T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 11. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2031-10-24",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-09-27",
-    "dday": 1870,
+    "rangeEnd": "2039-02-09",
+    "dday": 2004,
     "confidence": 76,
-    "deltaDays": -51,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 84,
-    "temperature": 60,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 6,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 53,
+    "coldCount": 5,
+    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 82,
+      "score": 80,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-10T15:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 00:00",
           "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "impact": 29,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-09-09T11:00:00.000Z",
           "publishedAtKst": "2026. 09. 09. 20:00",
           "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -119,7 +119,7 @@
           "publishedAt": "2026-09-10T07:00:00.000Z",
           "publishedAtKst": "2026. 09. 10. 16:00",
           "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -136,7 +136,7 @@
           "publishedAt": "2026-09-10T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 01:00",
           "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -152,7 +152,7 @@
           "publishedAt": "2026-09-08T17:00:00.000Z",
           "publishedAtKst": "2026. 09. 09. 02:00",
           "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -167,7 +167,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 87,
+      "score": 86,
       "delta": 9,
       "weight": 0.18,
       "confidence": 82,
@@ -216,7 +216,7 @@
           "publishedAt": "2026-09-10T17:18:38.000Z",
           "publishedAtKst": "2026. 09. 11. 02:18",
           "summary": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this prope",
-          "impact": 27,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -234,7 +234,7 @@
           "publishedAt": "2026-09-08T22:13:19.000Z",
           "publishedAtKst": "2026. 09. 09. 07:13",
           "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
-          "impact": 26,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -252,8 +252,8 @@
           "publishedAt": "2026-09-08T17:06:18.000Z",
           "publishedAtKst": "2026. 09. 09. 02:06",
           "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade ",
-          "impact": 22,
-          "confidence": 82,
+          "impact": 20,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -269,99 +269,99 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support",
+          "title": "Thinking with Looped Flows",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.10421v1",
-          "publishedAt": "2026-09-09T16:37:35.000Z",
-          "publishedAtKst": "2026. 09. 10. 01:37",
-          "summary": "Background: Emergency Department (ED) return visits are commonly reviewed for quality assurance, but are often limited (e.g., to revisits within 48-72 hours) to increase actionable finding yield while minimizing chart re",
+          "url": "http://arxiv.org/abs/2609.11801v1",
+          "publishedAt": "2026-09-10T16:52:54.000Z",
+          "publishedAtKst": "2026. 09. 11. 01:52",
+          "summary": "Humans and machines often solve harder problems by spending more time on computation. In deep learning, looped models implement this idea during inference by recurrently updating a hidden state. In practice, however, the",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "ChatGPT",
-            "GPT",
-            "LLM"
+            "추론",
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+          "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.10335v1",
-          "publishedAt": "2026-09-09T15:33:25.000Z",
-          "publishedAtKst": "2026. 09. 10. 00:33",
-          "summary": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally handle visuo-linguistic inputs, they are oft",
-          "impact": 36,
+          "url": "http://arxiv.org/abs/2609.11900v1",
+          "publishedAt": "2026-09-10T17:54:32.000Z",
+          "publishedAtKst": "2026. 09. 11. 02:54",
+          "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relatio",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.11864v1",
+          "publishedAt": "2026-09-10T17:41:53.000Z",
+          "publishedAtKst": "2026. 09. 11. 02:41",
+          "summary": "Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they cont",
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "Gemini",
             "LLM",
-            "모델"
+            "모델",
+            "벤치마크"
           ],
-          "why": "추론, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+          "title": "Domain-Specific Hallucination Detection in Large Language Models",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.10346v1",
-          "publishedAt": "2026-09-09T15:44:32.000Z",
-          "publishedAtKst": "2026. 09. 10. 00:44",
-          "summary": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning methods mitigate this overhead, they implicitl",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2609.11878v1",
+          "publishedAt": "2026-09-10T17:45:36.000Z",
+          "publishedAtKst": "2026. 09. 11. 02:45",
+          "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Car",
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "추론",
             "LLM",
             "모델",
-            "벤치마크",
-            "멀티모달"
+            "벤치마크"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
+          "title": "Model-Aware Schedules Improve Generation via Fiberwise Optimal Transport",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.10364v1",
-          "publishedAt": "2026-09-09T15:56:26.000Z",
-          "publishedAtKst": "2026. 09. 10. 00:56",
-          "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with H",
-          "impact": 32,
+          "url": "http://arxiv.org/abs/2609.11842v1",
+          "publishedAt": "2026-09-10T17:30:44.000Z",
+          "publishedAtKst": "2026. 09. 11. 02:30",
+          "summary": "Diffusion and flow-matching schedules control the signal and noise coefficients that mix data and noise along affine probability paths. Minimizing a kinetic action defined on coefficient paths, motivated by optimal trans",
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "모델",
-            "벤치마크",
-            "고난도 평가"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.10321v1",
-          "publishedAt": "2026-09-09T15:26:28.000Z",
-          "publishedAtKst": "2026. 09. 10. 00:26",
-          "summary": "Knowledge distillation offers an efficient route to transfer a task-adapted vision-language teacher to a compact student. The training target in current vision-language distillation methods is typically constructed from ",
-          "impact": 30,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "벤치마크",
-            "멀티모달"
+            "성능 향상",
+            "위험"
           ],
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
@@ -371,30 +371,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 69,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 53,
       "trend": "hot",
       "items": [
-        {
-          "title": "You can now mod ANY game. Frontier LLMs solved reverse engineering -- here are two real examples!",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wc2eqb/you_can_now_mod_any_game_frontier_llms_solved/",
-          "publishedAt": "2026-09-09T23:44:43.000Z",
-          "publishedAtKst": "2026. 09. 10. 08:44",
-          "summary": "There's probably an old game that you are very fond of. You'd like to bring it to more modern standards, or tweak the experience to your liking. But there's a problem -- the source code was never released. You could spen",
-          "impact": 31,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "자율성",
-            "프런티어 모델",
-            "LLM"
-          ],
-          "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Glq a port trellis quantization of large language models as a vLLM plugin",
           "source": "Hacker News",
@@ -402,8 +384,8 @@
           "publishedAt": "2026-09-10T14:12:52.000Z",
           "publishedAtKst": "2026. 09. 10. 23:12",
           "summary": "2 points, 1 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -418,8 +400,8 @@
           "publishedAt": "2026-09-10T19:57:59.000Z",
           "publishedAtKst": "2026. 09. 11. 04:57",
           "summary": "2 days ago Astra was 1 shotting AAA game level models and now today even after reprompting on xhigh effort several times the results are completely terrible. Hundreds of users on X have noticed the same https://x.com/who",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -436,7 +418,7 @@
           "publishedAtKst": "2026. 09. 09. 06:47",
           "summary": "200 points, 116 comments",
           "impact": 13,
-          "confidence": 54,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -446,20 +428,36 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Voice AI Benchmarks: a directory of voice-agent evaluations",
+          "title": "Large Language Models Reflect the Ideology of Their Creators",
           "source": "Hacker News",
-          "url": "https://voicebenchmarks.com/",
-          "publishedAt": "2026-09-09T14:02:47.000Z",
-          "publishedAtKst": "2026. 09. 09. 23:02",
-          "summary": "2 points, 0 comments",
+          "url": "https://arxiv.org/abs/2410.18417",
+          "publishedAt": "2026-09-11T06:13:59.000Z",
+          "publishedAtKst": "2026. 09. 11. 15:13",
+          "summary": "3 points, 0 comments",
           "impact": 12,
-          "confidence": 54,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Datasets for Large Language Models: A Comprehensive Survey",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2402.18041",
+          "publishedAt": "2026-09-10T14:16:53.000Z",
+          "publishedAtKst": "2026. 09. 10. 23:16",
+          "summary": "2 points, 0 comments",
+          "impact": 11,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -480,27 +478,20 @@
       "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support",
+      "title": "Thinking with Looped Flows",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.10421v1",
+      "url": "http://arxiv.org/abs/2609.11801v1",
       "impact": 36,
-      "reason": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Elon Musk attacks film-maker Alex Gibney about upcoming documentary about him",
-      "source": "Hacker News",
-      "url": "https://www.theguardian.com/technology/2026/sep/10/elon-musk-attacks-film-maker-behind-documentary-about-him",
-      "impact": -11,
+      "title": "Predicting Privacy Leakage from Weight Spectral Density",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.11780v1",
+      "impact": -3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI just called for Congress to create mandatory national safety regulations on AI & Jacob Coxon is now world famous.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wc56nu/openai_just_called_for_congress_to_create/",
-      "impact": -7,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "President Trump on AI risks: “It's going to be fine. We'll always have something to stop them. We'll have a little gear. Boom. I really don't like that robot. We’ll stop”",
@@ -508,6 +499,13 @@
       "url": "https://www.reddit.com/r/singularity/comments/1wcnfjm/president_trump_on_ai_risks_its_going_to_be_fine/",
       "impact": -2,
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Training a Misaligned Reward Seeker",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
+      "impact": 2,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
