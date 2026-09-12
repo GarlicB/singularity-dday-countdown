@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T07:27:02.229Z",
-  "generatedAtKst": "2026. 09. 12. 16:27",
-  "nextUpdateAt": "2026-09-12T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 12. 18:00",
+  "generatedAt": "2026-09-12T12:30:37.127Z",
+  "generatedAtKst": "2026. 09. 12. 21:30",
+  "nextUpdateAt": "2026-09-12T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 13. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 7,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 4,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-10T15:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 00:00",
           "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -93,22 +93,6 @@
             "GPT"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-          "publishedAt": "2026-09-11T10:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 19:00",
-          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-          "impact": 21,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -127,13 +111,13 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-          "publishedAt": "2026-09-10T16:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 01:00",
-          "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-          "impact": 19,
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "publishedAt": "2026-09-11T10:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 19:00",
+          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -158,6 +142,22 @@
             "모델"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "publishedAt": "2026-09-10T16:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 01:00",
+          "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,10 +165,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 86,
+      "score": 85,
       "delta": 9,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -214,7 +214,7 @@
           "publishedAt": "2026-09-10T02:31:26.000Z",
           "publishedAtKst": "2026. 09. 10. 11:31",
           "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next ",
-          "impact": 28,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -232,8 +232,8 @@
           "publishedAt": "2026-09-10T17:18:38.000Z",
           "publishedAtKst": "2026. 09. 11. 02:18",
           "summary": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this prope",
-          "impact": 21,
-          "confidence": 82,
+          "impact": 20,
+          "confidence": 81,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -250,7 +250,7 @@
           "publishedAt": "2026-09-08T22:13:19.000Z",
           "publishedAtKst": "2026. 09. 09. 07:13",
           "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
-          "impact": 17,
+          "impact": 15,
           "confidence": 80,
           "stance": "accelerate",
           "tags": [
@@ -267,7 +267,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 83,
+      "score": 82,
       "delta": 8,
       "weight": 0.28,
       "confidence": 91,
@@ -298,8 +298,8 @@
           "publishedAt": "2026-09-10T17:54:32.000Z",
           "publishedAtKst": "2026. 09. 11. 02:54",
           "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relatio",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -316,7 +316,7 @@
           "publishedAt": "2026-09-10T17:41:53.000Z",
           "publishedAtKst": "2026. 09. 11. 02:41",
           "summary": "Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they cont",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -334,7 +334,7 @@
           "publishedAt": "2026-09-10T17:45:36.000Z",
           "publishedAtKst": "2026. 09. 11. 02:45",
           "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Car",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,20 +346,22 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Whisper-Based Speech Transcription from Videos Across Multiple Languages for Cross-Cultural Understanding",
+          "title": "Model-Aware Schedules Improve Generation via Fiberwise Optimal Transport",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.11772v1",
-          "publishedAt": "2026-09-10T16:27:47.000Z",
-          "publishedAtKst": "2026. 09. 11. 01:27",
-          "summary": "Cross-cultural understanding has become increasingly important in today's highly connected, cross-national world. The success of LLM-based technologies is now driving the development of automated tools to aid understandi",
-          "impact": 19,
-          "confidence": 86,
+          "url": "http://arxiv.org/abs/2609.11842v1",
+          "publishedAt": "2026-09-10T17:30:44.000Z",
+          "publishedAtKst": "2026. 09. 11. 02:30",
+          "summary": "Diffusion and flow-matching schedules control the signal and noise coefficients that mix data and noise along affine probability paths. Minimizing a kinetic action defined on coefficient paths, motivated by optimal trans",
+          "impact": 18,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "LLM"
+            "모델",
+            "성능 향상",
+            "위험"
           ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,10 +369,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -380,13 +382,29 @@
           "publishedAt": "2026-09-11T18:09:37.000Z",
           "publishedAtKst": "2026. 09. 12. 03:09",
           "summary": "3 points, 0 comments",
-          "impact": 23,
-          "confidence": 63,
+          "impact": 22,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트",
             "벤치마크"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Parallel Coding Agents on Mobile",
+          "source": "Hacker News",
+          "url": "https://github.com/PlathsOven/maestro",
+          "publishedAt": "2026-09-12T12:02:50.000Z",
+          "publishedAtKst": "2026. 09. 12. 21:02",
+          "summary": "4 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -397,8 +415,8 @@
           "publishedAt": "2026-09-11T14:18:52.000Z",
           "publishedAtKst": "2026. 09. 11. 23:18",
           "summary": "1 points, 1 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -407,12 +425,12 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OpenAI Is Considering Slowing Down The Development Of Cutting-edge AI, Sam Altman Is Hoping Other AI Companies Will Do The Same",
+          "title": "Before solving alignment on AI we must solve alignment of the oligarchs.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wdkdl5/openai_is_considering_slowing_down_the/",
-          "publishedAt": "2026-09-11T16:01:54.000Z",
-          "publishedAtKst": "2026. 09. 12. 01:01",
-          "summary": "Not good: OpenAI is considering slowing down the development of cutting-edge AI, Sam Altman is hoping other AI companies will do the same. Via Bloomberg \"In a company-wide meeting this week, Altman told employees that Op",
+          "url": "https://www.reddit.com/r/singularity/comments/1wdu9in/before_solving_alignment_on_ai_we_must_solve/",
+          "publishedAt": "2026-09-11T22:03:49.000Z",
+          "publishedAtKst": "2026. 09. 12. 07:03",
+          "summary": "A man finds a magic lamp with a djinn inside. The djinn says \"you can wish for anything you want. But whatever you wish for, your neighbor gets twice as much\". After thinking for a while the man says \"take out one of my ",
           "impact": 14,
           "confidence": 48,
           "stance": "accelerate",
@@ -422,35 +440,19 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Stop AI bill crafted by politicians and anti-AI advocates proposes criminalizing superintelligence and jailing researchers for 20 years",
+          "title": "OpenAI Is Considering Slowing Down The Development Of Cutting-edge AI, Sam Altman Is Hoping Other AI Companies Will Do The Same",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wdnp8d/stop_ai_bill_crafted_by_politicians_and_antiai/",
-          "publishedAt": "2026-09-11T18:01:36.000Z",
-          "publishedAtKst": "2026. 09. 12. 03:01",
-          "summary": "&#32; submitted by &#32; /u/Cagnazzo82 [link] &#32; [comments]",
+          "url": "https://www.reddit.com/r/singularity/comments/1wdkdl5/openai_is_considering_slowing_down_the/",
+          "publishedAt": "2026-09-11T16:01:54.000Z",
+          "publishedAtKst": "2026. 09. 12. 01:01",
+          "summary": "Not good: OpenAI is considering slowing down the development of cutting-edge AI, Sam Altman is hoping other AI companies will do the same. Via Bloomberg \"In a company-wide meeting this week, Altman told employees that Op",
           "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "초지능"
+            "AGI"
           ],
-          "why": "초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Glq a port trellis quantization of large language models as a vLLM plugin",
-          "source": "Hacker News",
-          "url": "https://github.com/cnygaard/glq",
-          "publishedAt": "2026-09-10T14:12:52.000Z",
-          "publishedAtKst": "2026. 09. 10. 23:12",
-          "summary": "2 points, 1 comments",
-          "impact": 12,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -480,25 +482,25 @@
   ],
   "topDampeners": [
     {
-      "title": "Brainstorming novel biological attacks with an LLM",
-      "source": "Hacker News",
-      "url": "https://www.robertvesco.com/posts/chatgpt-helps-me-brainstorm-guerilla-warfare-against-ai-powered-surveillance-state/",
-      "impact": -6,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wdm9gb/trump_dismisses_ai_extinction_risks_as_more_than/",
-      "impact": -2,
+      "impact": -1,
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "This is really bad: AI Safety Threat",
-      "source": "Hacker News",
-      "url": "https://www.nytimes.com/2026/09/11/opinion/ai-safety-threat-technology.html",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Predicting Privacy Leakage from Weight Spectral Density",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.11780v1",
+      "impact": -1,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Training a Misaligned Reward Seeker",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
+      "impact": 2,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
