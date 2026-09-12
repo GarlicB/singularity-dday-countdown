@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T17:31:55.774Z",
-  "generatedAtKst": "2026. 09. 13. 02:31",
-  "nextUpdateAt": "2026-09-12T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 13. 06:00",
+  "generatedAt": "2026-09-12T22:43:01.523Z",
+  "generatedAtKst": "2026. 09. 13. 07:43",
+  "nextUpdateAt": "2026-09-13T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 13. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-07-15",
+    "medianDate": "2033-05-31",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-06-03",
-    "dday": 2498,
+    "rangeEnd": "2040-03-15",
+    "dday": 2453,
     "confidence": 75,
-    "deltaDays": -30,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 70,
-    "temperature": 48,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 26,
-    "coldCount": 1,
-    "summary": "가속 신호 26건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 28,
+    "coldCount": 4,
+    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -133,7 +133,7 @@
           "publishedAt": "2026-09-10T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 01:00",
           "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -149,7 +149,7 @@
           "publishedAt": "2026-09-10T07:00:00.000Z",
           "publishedAtKst": "2026. 09. 10. 16:00",
           "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,10 +165,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 84,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -214,8 +214,8 @@
           "publishedAt": "2026-09-10T02:31:26.000Z",
           "publishedAtKst": "2026. 09. 10. 11:31",
           "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next ",
-          "impact": 25,
-          "confidence": 80,
+          "impact": 23,
+          "confidence": 78,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -232,8 +232,8 @@
           "publishedAt": "2026-09-10T17:18:38.000Z",
           "publishedAtKst": "2026. 09. 11. 02:18",
           "summary": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this prope",
-          "impact": 19,
-          "confidence": 80,
+          "impact": 18,
+          "confidence": 78,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -250,7 +250,7 @@
           "publishedAt": "2026-09-08T22:13:19.000Z",
           "publishedAtKst": "2026. 09. 09. 07:13",
           "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
-          "impact": 14,
+          "impact": 13,
           "confidence": 80,
           "stance": "accelerate",
           "tags": [
@@ -277,8 +277,8 @@
           "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
           "source": "arXiv 점검",
           "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-09-12T17:31:55.774Z",
-          "publishedAtKst": "2026. 09. 13. 02:31",
+          "publishedAt": "2026-09-12T22:43:01.523Z",
+          "publishedAtKst": "2026. 09. 13. 07:43",
           "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
           "impact": 5,
           "confidence": 65,
@@ -292,10 +292,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
@@ -305,7 +305,7 @@
           "publishedAt": "2026-09-11T18:09:37.000Z",
           "publishedAtKst": "2026. 09. 12. 03:09",
           "summary": "3 points, 0 comments",
-          "impact": 21,
+          "impact": 20,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -314,6 +314,40 @@
             "벤치마크"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "A Chinese researcher's opinions on a unified slowdown",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wel7o1/a_chinese_researchers_opinions_on_a_unified/",
+          "publishedAt": "2026-09-12T19:07:08.000Z",
+          "publishedAtKst": "2026. 09. 13. 04:07",
+          "summary": "I have seen that this subreddit is arguing over whether China will cooperate or be forced to slow down AI progress if the US wants to do so. As an AI researcher working in China, I think this problem is a bit more nuance",
+          "impact": 18,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "컴퓨트",
+            "안전 이슈"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "“AGI Has Essentially Arrived, Just Not Publicly”: Reports Of “Existential Crises” at OpenAI and Anthropic",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1weoufm/agi_has_essentially_arrived_just_not_publicly/",
+          "publishedAt": "2026-09-12T21:29:26.000Z",
+          "publishedAtKst": "2026. 09. 13. 06:29",
+          "summary": "Steep rise in the number of people at OpenAI and Anthropic having existential crises these past few weeks. From conversations with people at and around both labs, it's increasingly clear to me that AGI has essentially ar",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Usero MCP, give your coding agent your user feedback",
@@ -332,52 +366,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Determinstic LLM inference for lowest price Gemma 4, with Windows XP",
+          "title": "Datasets for Large Language Models: A Comprehensive Survey",
           "source": "Hacker News",
-          "url": "https://www.tokendelivery.ai/",
-          "publishedAt": "2026-09-12T16:45:14.000Z",
-          "publishedAtKst": "2026. 09. 13. 01:45",
-          "summary": "2 points, 0 comments",
+          "url": "https://arxiv.org/abs/2402.18041",
+          "publishedAt": "2026-09-12T21:19:33.000Z",
+          "publishedAtKst": "2026. 09. 13. 06:19",
+          "summary": "1 points, 0 comments",
           "impact": 12,
           "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "LLM",
-            "추론 인프라"
-          ],
-          "why": "LLM, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How much do tech reports matter for a PhD application? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/",
-          "publishedAt": "2026-09-12T14:40:54.000Z",
-          "publishedAtKst": "2026. 09. 12. 23:40",
-          "summary": "The title, by tech reports I don't mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A",
-          "impact": 12,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
             "모델"
           ],
-          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Glq a port trellis quantization of large language models as a vLLM plugin",
-          "source": "Hacker News",
-          "url": "https://github.com/cnygaard/glq",
-          "publishedAt": "2026-09-10T14:12:52.000Z",
-          "publishedAtKst": "2026. 09. 10. 23:12",
-          "summary": "2 points, 1 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -401,11 +403,25 @@
       "title": "Astra can do a concerning amount with no chain of thought",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
-      "impact": 25,
+      "impact": 23,
       "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Regulations incoming?",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wemejz/regulations_incoming/",
+      "impact": -4,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Skeptic's Guide to AI Regulation",
+      "source": "Hacker News",
+      "url": "https://twitter.com/cesifoti/status/2098876203822387327",
+      "impact": -3,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Training a Misaligned Reward Seeker",
       "source": "Alignment Forum",
