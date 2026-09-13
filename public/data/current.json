@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T17:47:02.929Z",
-  "generatedAtKst": "2026. 09. 14. 02:47",
-  "nextUpdateAt": "2026-09-13T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 14. 06:00",
+  "generatedAt": "2026-09-13T22:43:41.725Z",
+  "generatedAtKst": "2026. 09. 14. 07:43",
+  "nextUpdateAt": "2026-09-14T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 14. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-05-31",
+    "medianDate": "2033-07-15",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-05-24",
-    "dday": 2452,
+    "rangeEnd": "2040-03-25",
+    "dday": 2497,
     "confidence": 75,
-    "deltaDays": -31,
+    "deltaDays": -30,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 71,
-    "temperature": 49,
+    "score": 70,
+    "temperature": 48,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 29,
+    "hotCount": 25,
     "coldCount": 2,
-    "summary": "가속 신호 29건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 25건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -94,22 +94,6 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-          "publishedAt": "2026-09-11T10:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 19:00",
-          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Now everyone can put data to work",
           "source": "OpenAI News",
           "url": "https://openai.com/index/put-data-to-work",
@@ -127,13 +111,13 @@
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-          "publishedAt": "2026-09-10T16:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 01:00",
-          "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-          "impact": 15,
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "publishedAt": "2026-09-11T10:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 19:00",
+          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,19 +127,33 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing ChatGPT for Financial Services",
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-          "publishedAt": "2026-09-10T07:00:00.000Z",
-          "publishedAtKst": "2026. 09. 10. 16:00",
-          "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-          "impact": 15,
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "publishedAt": "2026-09-11T16:00:00.000Z",
+          "publishedAtKst": "2026. 09. 12. 01:00",
+          "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "publishedAt": "2026-09-10T16:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 01:00",
+          "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
-            "GPT",
-            "모델"
+            "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
@@ -165,8 +163,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.18,
       "confidence": 78,
       "trend": "hot",
@@ -178,7 +176,7 @@
           "publishedAt": "2026-09-11T17:12:04.000Z",
           "publishedAtKst": "2026. 09. 12. 02:12",
           "summary": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at th",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -196,7 +194,7 @@
           "publishedAt": "2026-09-10T17:26:39.000Z",
           "publishedAtKst": "2026. 09. 11. 02:26",
           "summary": "Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transpa",
-          "impact": 31,
+          "impact": 28,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +212,7 @@
           "publishedAt": "2026-09-10T02:31:26.000Z",
           "publishedAtKst": "2026. 09. 10. 11:31",
           "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next ",
-          "impact": 17,
+          "impact": 15,
           "confidence": 76,
           "stance": "accelerate",
           "tags": [
@@ -277,8 +275,8 @@
           "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
           "source": "arXiv 점검",
           "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-09-13T17:47:02.929Z",
-          "publishedAtKst": "2026. 09. 14. 02:47",
+          "publishedAt": "2026-09-13T22:43:41.725Z",
+          "publishedAtKst": "2026. 09. 14. 07:43",
           "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
           "impact": 5,
           "confidence": 65,
@@ -292,29 +290,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
       "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "ARC-AGI-4 Will Target Autonomous Invention: “the Meta-skill That Unlocks Progress Across Every Field of Technology”",
+          "title": "The current situation of AGI being achieved and RSI is possibly real.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wenztq/arcagi4_will_target_autonomous_invention_the/",
-          "publishedAt": "2026-09-12T20:55:28.000Z",
-          "publishedAtKst": "2026. 09. 13. 05:55",
-          "summary": "ARC-AGI-4 will be a benchmark for autonomous open-ended innovation. It will continue our commitment to open-source, giving the research community a shared target for progress that benefits all of humanity. Despite rapid ",
+          "url": "https://www.reddit.com/r/singularity/comments/1wfbmc9/the_current_situation_of_agi_being_achieved_and/",
+          "publishedAt": "2026-09-13T16:02:34.000Z",
+          "publishedAtKst": "2026. 09. 14. 01:02",
+          "summary": "If you have been using AI agents intensively, whether for work or just for personal projects, you would know that Astra has crossed that threshold where it can complete narrowly defined, well-specified tasks at a fairly ",
           "impact": 36,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "자율성",
-            "모델",
-            "벤치마크"
+            "에이전트",
+            "LLM",
+            "모델"
           ],
-          "why": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "An OpenAI Researcher on the Gap Between Internal and External Perceptions of AI Progress",
@@ -323,7 +321,7 @@
           "publishedAt": "2026-09-12T22:45:35.000Z",
           "publishedAtKst": "2026. 09. 13. 07:45",
           "summary": "I came across an interesting post on X that I thought was worth sharing here. Since not everyone uses X, I’m quoting it in full below: from the outside, it is very reasonable to interpret the past 2 weeks as an orchestra",
-          "impact": 28,
+          "impact": 27,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -341,8 +339,8 @@
           "publishedAt": "2026-09-11T18:09:37.000Z",
           "publishedAtKst": "2026. 09. 12. 03:09",
           "summary": "3 points, 0 comments",
-          "impact": 16,
-          "confidence": 56,
+          "impact": 15,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -352,72 +350,68 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A Chinese researcher's opinions on a unified slowdown",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wel7o1/a_chinese_researchers_opinions_on_a_unified/",
-          "publishedAt": "2026-09-12T19:07:08.000Z",
-          "publishedAtKst": "2026. 09. 13. 04:07",
-          "summary": "I have seen that this subreddit is arguing over whether China will cooperate or be forced to slow down AI progress if the US wants to do so. As an AI researcher working in China, I think this problem is a bit more nuance",
-          "impact": 16,
-          "confidence": 54,
+          "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2609.11873",
+          "publishedAt": "2026-09-13T22:06:45.000Z",
+          "publishedAtKst": "2026. 09. 14. 07:06",
+          "summary": "1 points, 0 comments",
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "모델",
-            "컴퓨트",
-            "안전 이슈"
+            "자기개선"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "“AGI Has Essentially Arrived, Just Not Publicly”: Reports Of “Existential Crises” at OpenAI and Anthropic",
+          "title": "Too many rumours, too little reliable information",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1weoufm/agi_has_essentially_arrived_just_not_publicly/",
-          "publishedAt": "2026-09-12T21:29:26.000Z",
-          "publishedAtKst": "2026. 09. 13. 06:29",
-          "summary": "Steep rise in the number of people at OpenAI and Anthropic having existential crises these past few weeks. From conversations with people at and around both labs, it's increasingly clear to me that AGI has essentially ar",
-          "impact": 16,
-          "confidence": 49,
+          "url": "https://www.reddit.com/r/singularity/comments/1wesm54/too_many_rumours_too_little_reliable_information/",
+          "publishedAt": "2026-09-13T00:14:41.000Z",
+          "publishedAtKst": "2026. 09. 13. 09:14",
+          "summary": "There are way too many rumours spreading right now, and it's getting harder to know what is even real. “Google has achieved RSI.” “OpenAI solved multiple Millennium Prize problem.” “These companies have already achieved ",
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "모델"
+            "AGI"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "The current situation of AGI being achieved and RSI is possibly real.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfbmc9/the_current_situation_of_agi_being_achieved_and/",
+      "impact": 36,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "CoT controllability evals seem very under-elicited",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "ARC-AGI-4 Will Target Autonomous Invention: “the Meta-skill That Unlocks Progress Across Every Field of Technology”",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wenztq/arcagi4_will_target_autonomous_invention_the/",
-      "impact": 36,
-      "reason": "AGI, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "An operationalization of opaque serial depth",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
-      "impact": 31,
+      "impact": 28,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Regulations incoming?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wemejz/regulations_incoming/",
-      "impact": -3,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Trump downplays warnings of AI risks as he cites rivalry with China",
+      "source": "Hacker News",
+      "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Training a Misaligned Reward Seeker",
