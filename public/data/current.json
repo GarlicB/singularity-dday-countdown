@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T22:43:01.523Z",
-  "generatedAtKst": "2026. 09. 13. 07:43",
-  "nextUpdateAt": "2026-09-13T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 13. 12:00",
+  "generatedAt": "2026-09-13T07:46:59.362Z",
+  "generatedAtKst": "2026. 09. 13. 16:46",
+  "nextUpdateAt": "2026-09-13T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 13. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-05-31",
+    "medianDate": "2033-04-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-03-15",
-    "dday": 2453,
+    "rangeEnd": "2040-03-05",
+    "dday": 2407,
     "confidence": 75,
-    "deltaDays": -31,
+    "deltaDays": -33,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 71,
-    "temperature": 49,
+    "score": 72,
+    "temperature": 50,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 28,
-    "coldCount": 4,
+    "coldCount": 3,
     "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,29 +71,12 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Now everyone can put data to work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/put-data-to-work",
-          "publishedAt": "2026-09-10T15:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 00:00",
-          "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "impact": 21,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
           "source": "OpenAI News",
@@ -111,13 +94,30 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Now everyone can put data to work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/put-data-to-work",
+          "publishedAt": "2026-09-10T15:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 00:00",
+          "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
           "source": "OpenAI News",
           "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
           "publishedAt": "2026-09-11T10:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 19:00",
           "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -133,7 +133,7 @@
           "publishedAt": "2026-09-10T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 01:00",
           "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -149,7 +149,7 @@
           "publishedAt": "2026-09-10T07:00:00.000Z",
           "publishedAtKst": "2026. 09. 10. 16:00",
           "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,10 +165,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 83,
+      "score": 82,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 79,
       "trend": "hot",
       "items": [
         {
@@ -214,8 +214,8 @@
           "publishedAt": "2026-09-10T02:31:26.000Z",
           "publishedAtKst": "2026. 09. 10. 11:31",
           "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next ",
-          "impact": 23,
-          "confidence": 78,
+          "impact": 20,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -232,8 +232,8 @@
           "publishedAt": "2026-09-10T17:18:38.000Z",
           "publishedAtKst": "2026. 09. 11. 02:18",
           "summary": "Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this prope",
-          "impact": 18,
-          "confidence": 78,
+          "impact": 16,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -277,8 +277,8 @@
           "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
           "source": "arXiv 점검",
           "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-09-12T22:43:01.523Z",
-          "publishedAtKst": "2026. 09. 13. 07:43",
+          "publishedAt": "2026-09-13T07:46:59.362Z",
+          "publishedAtKst": "2026. 09. 13. 16:46",
           "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
           "impact": 5,
           "confidence": 65,
@@ -292,12 +292,48 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
       "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "Interesting post from Adam Majmudar (research at OpenAI) — full text in body",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wezf9y/interesting_post_from_adam_majmudar_research_at/",
+          "publishedAt": "2026-09-13T05:58:17.000Z",
+          "publishedAtKst": "2026. 09. 13. 14:58",
+          "summary": "from the outside, it is very reasonable to interpret the past 2 weeks as an orchestrated industry-wide regulatory capture strategy. I realize that no one has properly explained yet what all the lab employees have seen th",
+          "impact": 33,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "An OpenAI Researcher on the Gap Between Internal and External Perceptions of AI Progress",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1weqmr7/an_openai_researcher_on_the_gap_between_internal/",
+          "publishedAt": "2026-09-12T22:45:35.000Z",
+          "publishedAtKst": "2026. 09. 13. 07:45",
+          "summary": "I came across an interesting post on X that I thought was worth sharing here. Since not everyone uses X, I’m quoting it in full below: from the outside, it is very reasonable to interpret the past 2 weeks as an orchestra",
+          "impact": 31,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Benchmarking coding agents perform on scraping",
           "source": "Hacker News",
@@ -305,8 +341,8 @@
           "publishedAt": "2026-09-11T18:09:37.000Z",
           "publishedAtKst": "2026. 09. 12. 03:09",
           "summary": "3 points, 0 comments",
-          "impact": 20,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -322,8 +358,8 @@
           "publishedAt": "2026-09-12T19:07:08.000Z",
           "publishedAtKst": "2026. 09. 13. 04:07",
           "summary": "I have seen that this subreddit is arguing over whether China will cooperate or be forced to slow down AI progress if the US wants to do so. As an AI researcher working in China, I think this problem is a bit more nuance",
-          "impact": 18,
-          "confidence": 58,
+          "impact": 17,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -340,46 +376,14 @@
           "publishedAt": "2026-09-12T21:29:26.000Z",
           "publishedAtKst": "2026. 09. 13. 06:29",
           "summary": "Steep rise in the number of people at OpenAI and Anthropic having existential crises these past few weeks. From conversations with people at and around both labs, it's increasingly clear to me that AGI has essentially ar",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "모델"
           ],
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Usero MCP, give your coding agent your user feedback",
-          "source": "Hacker News",
-          "url": "https://usero.io/docs/mcp",
-          "publishedAt": "2026-09-11T14:18:52.000Z",
-          "publishedAtKst": "2026. 09. 11. 23:18",
-          "summary": "1 points, 1 comments",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Datasets for Large Language Models: A Comprehensive Survey",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2402.18041",
-          "publishedAt": "2026-09-12T21:19:33.000Z",
-          "publishedAtKst": "2026. 09. 13. 06:19",
-          "summary": "1 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -400,11 +404,11 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Astra can do a concerning amount with no chain of thought",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
-      "impact": 23,
-      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Interesting post from Adam Majmudar (research at OpenAI) — full text in body",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wezf9y/interesting_post_from_adam_majmudar_research_at/",
+      "impact": 33,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -412,13 +416,6 @@
       "title": "Regulations incoming?",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wemejz/regulations_incoming/",
-      "impact": -4,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Skeptic's Guide to AI Regulation",
-      "source": "Hacker News",
-      "url": "https://twitter.com/cesifoti/status/2098876203822387327",
       "impact": -3,
       "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
     },
@@ -428,6 +425,13 @@
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
       "impact": 2,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AI agents tested by OpenAI involved in cyber-attack on service, say researchers",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages",
+      "impact": 3,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
