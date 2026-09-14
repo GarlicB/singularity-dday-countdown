@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-14T08:17:55.607Z",
-  "generatedAtKst": "2026. 09. 14. 17:17",
-  "nextUpdateAt": "2026-09-14T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 14. 18:00",
+  "generatedAt": "2026-09-14T15:26:17.355Z",
+  "generatedAtKst": "2026. 09. 15. 00:26",
+  "nextUpdateAt": "2026-09-14T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 15. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-10-13",
-    "rangeStart": "2027-04-13",
-    "rangeEnd": "2040-04-14",
-    "dday": 2586,
+    "medianDate": "2033-08-29",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2040-05-09",
+    "dday": 2541,
     "confidence": 75,
-    "deltaDays": -27,
+    "deltaDays": -28,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 68,
-    "temperature": 46,
+    "score": 69,
+    "temperature": 47,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 24,
+    "hotCount": 25,
     "coldCount": 2,
-    "summary": "가속 신호 24건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 25건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-10T15:00:00.000Z",
           "publishedAtKst": "2026. 09. 11. 00:00",
           "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,12 +165,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.18,
-      "confidence": 79,
+      "confidence": 80,
       "trend": "hot",
       "items": [
+        {
+          "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
+          "publishedAt": "2026-09-14T14:53:57.000Z",
+          "publishedAtKst": "2026. 09. 14. 23:53",
+          "summary": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand",
+          "impact": 35,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자기개선",
+            "추론",
+            "ChatGPT"
+          ],
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "CoT controllability evals seem very under-elicited",
           "source": "Alignment Forum",
@@ -178,7 +196,7 @@
           "publishedAt": "2026-09-11T17:12:04.000Z",
           "publishedAtKst": "2026. 09. 12. 02:12",
           "summary": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at th",
-          "impact": 30,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -196,7 +214,7 @@
           "publishedAt": "2026-09-10T17:26:39.000Z",
           "publishedAtKst": "2026. 09. 11. 02:26",
           "summary": "Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transpa",
-          "impact": 23,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -242,24 +260,6 @@
             "Gemini"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Training on probes: What's going on",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
-          "publishedAt": "2026-09-08T17:06:18.000Z",
-          "publishedAtKst": "2026. 09. 09. 02:06",
-          "summary": "TL;DR If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade ",
-          "impact": 12,
-          "confidence": 76,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "LLM",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -277,8 +277,8 @@
           "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
           "source": "arXiv 점검",
           "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-09-14T08:17:55.607Z",
-          "publishedAtKst": "2026. 09. 14. 17:17",
+          "publishedAt": "2026-09-14T15:26:17.355Z",
+          "publishedAtKst": "2026. 09. 15. 00:26",
           "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
           "impact": 5,
           "confidence": 65,
@@ -292,10 +292,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
@@ -305,7 +305,7 @@
           "publishedAt": "2026-09-13T16:02:34.000Z",
           "publishedAtKst": "2026. 09. 14. 01:02",
           "summary": "If you have been using AI agents intensively, whether for work or just for personal projects, you would know that Astra has crossed that threshold where it can complete narrowly defined, well-specified tasks at a fairly ",
-          "impact": 36,
+          "impact": 34,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -317,34 +317,51 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Recursive Self-Improvement (RSI)",
+          "title": "The expanding scope of coding agents",
           "source": "Hacker News",
-          "url": "https://github.com/theseus-labs-rsi/awesome-rsi",
-          "publishedAt": "2026-09-14T08:17:38.000Z",
-          "publishedAtKst": "2026. 09. 14. 17:17",
+          "url": "https://chameth.com/the-expanding-scope-of-coding-agents/",
+          "publishedAt": "2026-09-14T15:04:24.000Z",
+          "publishedAtKst": "2026. 09. 15. 00:04",
           "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "자기개선"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+          "title": "A fresh take on Code Intelligence for AI agents – publically benchmarked",
           "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2609.11873",
-          "publishedAt": "2026-09-14T08:09:00.000Z",
-          "publishedAtKst": "2026. 09. 14. 17:09",
-          "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "url": "https://github.com/oooscoos/Benzi",
+          "publishedAt": "2026-09-14T14:07:27.000Z",
+          "publishedAtKst": "2026. 09. 14. 23:07",
+          "summary": "2 points, 1 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "자기개선"
+            "에이전트",
+            "벤치마크"
           ],
-          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "An Audit of Public AGI Prediction, 1950-2026",
+          "source": "Hacker News",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7456700",
+          "publishedAt": "2026-09-14T15:12:38.000Z",
+          "publishedAtKst": "2026. 09. 15. 00:12",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Benchmarking coding agents perform on scraping",
@@ -353,8 +370,8 @@
           "publishedAt": "2026-09-11T18:09:37.000Z",
           "publishedAtKst": "2026. 09. 12. 03:09",
           "summary": "3 points, 0 comments",
-          "impact": 14,
-          "confidence": 53,
+          "impact": 12,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -362,56 +379,40 @@
             "벤치마크"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Epistemology and Large Language Models",
-          "source": "Hacker News",
-          "url": "https://medium.com/@nomad.tech/what-is-epistemology-c1590cc7fac0",
-          "publishedAt": "2026-09-13T15:13:09.000Z",
-          "publishedAtKst": "2026. 09. 14. 00:13",
-          "summary": "1 points, 1 comments",
-          "impact": 11,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
+      "impact": 35,
+      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "The current situation of AGI being achieved and RSI is possibly real.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wfbmc9/the_current_situation_of_agi_being_achieved_and/",
-      "impact": 36,
+      "impact": 34,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "CoT controllability evals seem very under-elicited",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
-      "impact": 30,
+      "impact": 27,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "An operationalization of opaque serial depth",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
-      "impact": 23,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Mike Johnson on AI leaders calling for regulation: \"We have to resist Congress jumping in & imposing some sort of emergency moratorium...the leaders of these platforms need to come together in a meeting w/us & figure out the right balance. We cannot put a moratorium on this bc China will overlap us\"",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wfalu2/mike_johnson_on_ai_leaders_calling_for_regulation/",
-      "impact": -3,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Microsoft says 'people matter more than AI' following safety concerns",
+      "source": "Hacker News",
+      "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Training a Misaligned Reward Seeker",
