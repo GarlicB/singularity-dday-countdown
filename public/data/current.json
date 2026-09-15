@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-15T13:58:58.388Z",
-  "generatedAtKst": "2026. 09. 15. 22:58",
-  "nextUpdateAt": "2026-09-15T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 16. 00:00",
+  "generatedAt": "2026-09-15T18:35:04.642Z",
+  "generatedAtKst": "2026. 09. 16. 03:35",
+  "nextUpdateAt": "2026-09-15T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 16. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-10-13",
-    "rangeStart": "2027-03-09",
-    "rangeEnd": "2040-05-19",
-    "dday": 2585,
-    "confidence": 75,
-    "deltaDays": -27,
+    "medianDate": "2032-06-05",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2039-05-10",
+    "dday": 2090,
+    "confidence": 76,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 68,
-    "temperature": 46,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 26,
-    "coldCount": 3,
-    "summary": "가속 신호 26건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 58,
+    "coldCount": 6,
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -78,13 +78,28 @@
       "trend": "hot",
       "items": [
         {
+          "title": "AI for Societal Impact",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+          "publishedAt": "2026-09-15T16:00:00.000Z",
+          "publishedAtKst": "2026. 09. 16. 01:00",
+          "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "돌파"
+          ],
+          "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
           "source": "OpenAI News",
           "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
           "publishedAt": "2026-09-14T00:00:00.000Z",
           "publishedAtKst": "2026. 09. 14. 09:00",
           "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -94,19 +109,19 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "DevFest is back",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-          "publishedAt": "2026-09-14T16:00:00.000Z",
-          "publishedAtKst": "2026. 09. 15. 01:00",
-          "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-          "impact": 15,
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+          "publishedAt": "2026-09-15T17:05:57.000Z",
+          "publishedAtKst": "2026. 09. 16. 02:05",
+          "summary": "",
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "Gemini"
           ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Now everyone can put data to work",
@@ -142,22 +157,6 @@
             "컴퓨트"
           ],
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-          "publishedAt": "2026-09-11T10:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 19:00",
-          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -178,7 +177,7 @@
           "publishedAt": "2026-09-14T14:53:57.000Z",
           "publishedAtKst": "2026. 09. 14. 23:53",
           "summary": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand",
-          "impact": 29,
+          "impact": 28,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -214,7 +213,7 @@
           "publishedAt": "2026-09-11T17:12:04.000Z",
           "publishedAtKst": "2026. 09. 12. 02:12",
           "summary": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at th",
-          "impact": 17,
+          "impact": 16,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -267,24 +266,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 53,
-      "delta": 1,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
-      "confidence": 65,
-      "trend": "watch",
+      "confidence": 92,
+      "trend": "hot",
       "items": [
         {
-          "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
-          "source": "arXiv 점검",
-          "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-09-15T13:58:58.388Z",
-          "publishedAtKst": "2026. 09. 15. 22:58",
-          "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
-          "impact": 5,
-          "confidence": 65,
-          "stance": "watch",
-          "tags": [],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+          "title": "Before You Poll with LLMs: A Deliberative Diagnostic Framework",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.15849v1",
+          "publishedAt": "2026-09-14T16:41:48.000Z",
+          "publishedAtKst": "2026. 09. 15. 01:41",
+          "summary": "Can LLMs reason through new information like humans, or do they merely retrieve cached opinions? This is critical for silicon sampling, where LLM personas simulate public opinion at scale. Current evaluations test only w",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "GPT",
+            "Gemini"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.15820v1",
+          "publishedAt": "2026-09-14T16:24:27.000Z",
+          "publishedAtKst": "2026. 09. 15. 01:24",
+          "summary": "Large language models have advanced automated algorithm discovery by synthesizing executable code, but existing frameworks trap them in rigid search pipelines with pre-defined control flows. This limitation restricts ada",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "추론",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.15982v1",
+          "publishedAt": "2026-09-14T17:58:27.000Z",
+          "publishedAtKst": "2026. 09. 15. 02:58",
+          "summary": "Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. Deployed harnesses route by preloading every skill's metadata into the context, which disperses the ag",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Learning to Coach for Experiential Learning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.15851v1",
+          "publishedAt": "2026-09-14T16:47:02.000Z",
+          "publishedAtKst": "2026. 09. 15. 01:47",
+          "summary": "Language models can learn from experience, but raw solution trajectories are often too long and noisy to provide effective guidance. In this work, we propose Learning to Coach (L2C), a framework that trains a dedicated L",
+          "impact": 30,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.15818v1",
+          "publishedAt": "2026-09-14T16:22:30.000Z",
+          "publishedAtKst": "2026. 09. 15. 01:22",
+          "summary": "As AI agents become participants in the development of their successors, they reshape both the production of intelligence and the role of human researchers. We introduce Atria Dawn Preview, a foundation agentic language ",
+          "impact": 30,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "초지능",
+            "에이전트",
+            "자율성",
+            "모델"
+          ],
+          "why": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -299,61 +375,30 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Markdown feature flags your coding agent can install and manage for you",
+          "title": "Universal Declaration of the Three Laws of Autonomous Agents",
           "source": "Hacker News",
-          "url": "https://www.dif.sh",
-          "publishedAt": "2026-09-15T13:54:36.000Z",
-          "publishedAtKst": "2026. 09. 15. 22:54",
+          "url": "https://huggingface.co/blog/anurajke/universal-declaration-of-the-three-laws-of-autonom",
+          "publishedAt": "2026-09-15T18:16:36.000Z",
+          "publishedAtKst": "2026. 09. 16. 03:16",
           "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Slowave – local adaptive memory for coding agents",
-          "source": "Hacker News",
-          "url": "https://github.com/slowave-ai/slowave",
-          "publishedAt": "2026-09-14T19:49:12.000Z",
-          "publishedAtKst": "2026. 09. 15. 04:49",
-          "summary": "4 points, 0 comments",
           "impact": 17,
-          "confidence": 58,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "자율성"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "LMAX Disruptor – High Performance Inter-Thread Messaging Library",
+          "title": "Auto-autoresearch: self-improving agents on Karpathy's NanoChat benchmark",
           "source": "Hacker News",
-          "url": "https://lmax-exchange.github.io/disruptor/",
-          "publishedAt": "2026-09-15T13:49:42.000Z",
-          "publishedAtKst": "2026. 09. 15. 22:49",
+          "url": "https://rekursiv.ai/blog/autoautoresearch/",
+          "publishedAt": "2026-09-15T17:48:55.000Z",
+          "publishedAtKst": "2026. 09. 16. 02:48",
           "summary": "1 points, 0 comments",
           "impact": 16,
           "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A fresh take on Code Intelligence for AI agents – publically benchmarked",
-          "source": "Hacker News",
-          "url": "https://github.com/oooscoos/Benzi",
-          "publishedAt": "2026-09-14T14:07:27.000Z",
-          "publishedAtKst": "2026. 09. 14. 23:07",
-          "summary": "2 points, 1 comments",
-          "impact": 13,
-          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -362,54 +407,85 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "We’re literally living through Don’t Look Up, except it’s AI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wgv7y3/were_literally_living_through_dont_look_up_except/",
-          "publishedAt": "2026-09-15T09:13:56.000Z",
-          "publishedAtKst": "2026. 09. 15. 18:13",
-          "summary": "Interesting watching this happen in real time and seeing the divergence in opinions. People who barely use AI beyond messing around with the free browser versions are suddenly completely confident that the whole thing is",
-          "impact": 13,
-          "confidence": 48,
+          "title": "We Benchmark Analytics Agents, this explains how",
+          "source": "Hacker News",
+          "url": "https://benchouse.ai/blog/how-we-benchmark-analytics-agents",
+          "publishedAt": "2026-09-15T14:45:28.000Z",
+          "publishedAtKst": "2026. 09. 15. 23:45",
+          "summary": "2 points, 1 comments",
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "성능 향상"
+            "에이전트",
+            "벤치마크"
           ],
-          "why": "LLM, 성능 향상 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Slowave – local adaptive memory for coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/slowave-ai/slowave",
+          "publishedAt": "2026-09-14T19:49:12.000Z",
+          "publishedAtKst": "2026. 09. 15. 04:49",
+          "summary": "4 points, 0 comments",
+          "impact": 16,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Continual learning in the fruit fly brain has been decoded, the missing piece for true AGI",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wh68ii/continual_learning_in_the_fruit_fly_brain_has/",
+          "publishedAt": "2026-09-15T17:06:06.000Z",
+          "publishedAtKst": "2026. 09. 16. 02:06",
+          "summary": "&#32; submitted by &#32; /u/skolnaja [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
-      "impact": 29,
-      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Before You Poll with LLMs: A Deliberative Diagnostic Framework",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.15849v1",
+      "impact": 36,
+      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Markdown feature flags your coding agent can install and manage for you",
-      "source": "Hacker News",
-      "url": "https://www.dif.sh",
-      "impact": 19,
-      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.15820v1",
+      "impact": 36,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "An operationalization of opaque serial depth",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
-      "impact": 18,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.15982v1",
+      "impact": 34,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Is anyone else creeped out by how the whole whole has suddenly become ASI pilled in the space of a week?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wgg889/is_anyone_else_creeped_out_by_how_the_whole_whole/",
-      "impact": -1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "OpenAI Says It's Working with Anthropic, Google on AI Safety",
+      "source": "Hacker News",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Training a Misaligned Reward Seeker",
@@ -419,11 +495,11 @@
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "AI 2027 author Daniel Kokotajlo tweets message from current OpenAI capabilities researcher, Dan Selsam, on AI risk. Gives some insight into why some AI researchers may be freaking out: increasing model situational awareness during alignment evaluations",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wgibs1/ai_2027_author_daniel_kokotajlo_tweets_message/",
-      "impact": 11,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "CiteGuard-RAG: A Validation-Centered AI System for Evidence-Grounded Question Answering",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.15830v1",
+      "impact": 2,
+      "reason": "환각 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
