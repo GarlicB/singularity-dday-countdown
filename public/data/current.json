@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-14T23:35:45.631Z",
-  "generatedAtKst": "2026. 09. 15. 08:35",
-  "nextUpdateAt": "2026-09-15T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 15. 12:00",
+  "generatedAt": "2026-09-15T08:10:22.200Z",
+  "generatedAtKst": "2026. 09. 15. 17:10",
+  "nextUpdateAt": "2026-09-15T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 15. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -13,9 +13,9 @@
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
     "medianDate": "2033-11-27",
-    "rangeStart": "2027-07-02",
-    "rangeEnd": "2040-04-24",
-    "dday": 2631,
+    "rangeStart": "2027-09-10",
+    "rangeEnd": "2040-02-14",
+    "dday": 2630,
     "confidence": 75,
     "deltaDays": -25,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 67,
     "temperature": 46,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 24,
-    "coldCount": 3,
-    "summary": "가속 신호 24건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 25,
+    "coldCount": 6,
+    "summary": "가속 신호 25건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-14T00:00:00.000Z",
           "publishedAtKst": "2026. 09. 14. 09:00",
           "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,29 +100,13 @@
           "publishedAt": "2026-09-14T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 15. 01:00",
           "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트"
           ],
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-          "publishedAt": "2026-09-11T10:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 19:00",
-          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Now everyone can put data to work",
@@ -158,6 +142,22 @@
             "컴퓨트"
           ],
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "publishedAt": "2026-09-11T10:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 19:00",
+          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -165,7 +165,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.18,
       "confidence": 80,
@@ -178,7 +178,7 @@
           "publishedAt": "2026-09-14T14:53:57.000Z",
           "publishedAtKst": "2026. 09. 14. 23:53",
           "summary": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand",
-          "impact": 33,
+          "impact": 31,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -196,7 +196,7 @@
           "publishedAt": "2026-09-11T17:12:04.000Z",
           "publishedAtKst": "2026. 09. 12. 02:12",
           "summary": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at th",
-          "impact": 23,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -277,8 +277,8 @@
           "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
           "source": "arXiv 점검",
           "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-09-14T23:35:45.631Z",
-          "publishedAtKst": "2026. 09. 15. 08:35",
+          "publishedAt": "2026-09-15T08:10:22.200Z",
+          "publishedAtKst": "2026. 09. 15. 17:10",
           "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
           "impact": 5,
           "confidence": 65,
@@ -292,21 +292,37 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 64,
+      "score": 67,
       "delta": 4,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "Brig: Run coding agents in a MicroVM sandbox",
+          "source": "Hacker News",
+          "url": "https://github.com/brig-sh/brig",
+          "publishedAt": "2026-09-15T07:46:04.000Z",
+          "publishedAtKst": "2026. 09. 15. 16:46",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: Slowave – local adaptive memory for coding agents",
           "source": "Hacker News",
           "url": "https://github.com/slowave-ai/slowave",
           "publishedAt": "2026-09-14T19:49:12.000Z",
           "publishedAtKst": "2026. 09. 15. 04:49",
-          "summary": "1 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
+          "summary": "3 points, 0 comments",
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -321,7 +337,7 @@
           "publishedAt": "2026-09-14T14:07:27.000Z",
           "publishedAtKst": "2026. 09. 14. 23:07",
           "summary": "2 points, 1 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -337,8 +353,8 @@
           "publishedAt": "2026-09-14T19:22:49.000Z",
           "publishedAtKst": "2026. 09. 15. 04:22",
           "summary": "Source: https://x.com/elonmusk/status/2099455592670634034 &#32; submitted by &#32; /u/TheGoldenLeaper [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -362,23 +378,6 @@
             "벤치마크"
           ],
           "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-        },
-        {
-          "title": "Benchmarking coding agents perform on scraping",
-          "source": "Hacker News",
-          "url": "https://xulux.ai/blog/scraping-agents-benchmark",
-          "publishedAt": "2026-09-11T18:09:37.000Z",
-          "publishedAtKst": "2026. 09. 12. 03:09",
-          "summary": "3 points, 0 comments",
-          "impact": 11,
-          "confidence": 50,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -388,22 +387,22 @@
       "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
-      "impact": 33,
+      "impact": 31,
       "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "CoT controllability evals seem very under-elicited",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
-      "impact": 23,
+      "impact": 20,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "impact": 18,
-      "reason": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Brig: Run coding agents in a MicroVM sandbox",
+      "source": "Hacker News",
+      "url": "https://github.com/brig-sh/brig",
+      "impact": 19,
+      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -411,22 +410,22 @@
       "title": "China's state-backed Global Times: true agenda of American safety regulation is 'Cold war playbook' to curb China's AI progress.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wfzjlf/chinas_statebacked_global_times_true_agenda_of/",
-      "impact": -7,
+      "impact": -6,
       "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Training a Misaligned Reward Seeker",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "impact": 2,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Is anyone else creeped out by how the whole whole has suddenly become ASI pilled in the space of a week?",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wgg889/is_anyone_else_creeped_out_by_how_the_whole_whole/",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "AI 2027 author Daniel Kokotajlo tweets message from current OpenAI capabilities researcher, Dan Selsam, on AI risk. Gives some insight into why some AI researchers may be freaking out: increasing model situational awareness during alignment evaluations",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wgibs1/ai_2027_author_daniel_kokotajlo_tweets_message/",
-      "impact": 12,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Is Big Tech's AI slowdown a safety pact or a cartel?",
+      "source": "Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
