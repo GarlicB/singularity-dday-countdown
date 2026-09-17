@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T23:24:15.554Z",
-  "generatedAtKst": "2026. 09. 17. 08:24",
-  "nextUpdateAt": "2026-09-17T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 17. 12:00",
+  "generatedAt": "2026-09-17T08:09:44.990Z",
+  "generatedAtKst": "2026. 09. 17. 17:09",
+  "nextUpdateAt": "2026-09-17T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 17. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-05-10",
-    "dday": 2089,
+    "dday": 2088,
     "confidence": 76,
     "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,30 +25,30 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 59,
-    "coldCount": 1,
-    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 3,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 94,
-      "delta": 9,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "research",
       "label": "AI 연구 자동화",
-      "value": 58,
-      "delta": 2,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     },
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 88,
-      "delta": 8,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-16T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 01:00",
           "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -126,34 +126,36 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Now everyone can put data to work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/put-data-to-work",
+          "publishedAt": "2026-09-10T15:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 00:00",
+          "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
           "source": "Google DeepMind",
           "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
           "publishedAt": "2026-09-15T17:05:57.000Z",
           "publishedAtKst": "2026. 09. 16. 02:05",
           "summary": "",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "Gemini"
           ],
           "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AI for Societal Impact",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-          "publishedAt": "2026-09-15T16:00:00.000Z",
-          "publishedAtKst": "2026. 09. 16. 01:00",
-          "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "돌파"
-          ],
-          "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -174,7 +176,7 @@
           "publishedAt": "2026-09-14T14:53:57.000Z",
           "publishedAtKst": "2026. 09. 14. 23:53",
           "summary": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand",
-          "impact": 21,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -184,24 +186,6 @@
             "ChatGPT"
           ],
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
-          "publishedAt": "2026-09-15T21:50:08.000Z",
-          "publishedAtKst": "2026. 09. 16. 06:50",
-          "summary": "It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring [1] , help us do better science on current models [2] , and augment certain forms o",
-          "impact": 18,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "모델",
-            "성능 향상",
-            "SOTA"
-          ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "An operationalization of opaque serial depth",
@@ -240,22 +224,40 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Astra can do a concerning amount with no chain of thought",
+          "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
-          "publishedAt": "2026-09-10T02:31:26.000Z",
-          "publishedAtKst": "2026. 09. 10. 11:31",
-          "summary": "Work done in a personal capacity TLDR : Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next ",
-          "impact": 14,
-          "confidence": 76,
+          "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
+          "publishedAt": "2026-09-15T21:50:08.000Z",
+          "publishedAtKst": "2026. 09. 16. 06:50",
+          "summary": "It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring [1] , help us do better science on current models [2] , and augment certain forms o",
+          "impact": 16,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
+            "모델",
+            "성능 향상",
+            "SOTA"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "A Conceptual Framework for Reasoning about Exploration Hacking",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/am5w2t9LzJB4sRhKw/a-conceptual-framework-for-reasoning-about-exploration",
+          "publishedAt": "2026-09-08T19:13:48.000Z",
+          "publishedAtKst": "2026. 09. 09. 04:13",
+          "summary": "This is the second of two posts resulting from a recent Astra/MATS research project investigating exploration hacking in AI debate. They are designed to be standalone, but we encourage interested readers to read both. Th",
+          "impact": 15,
+          "confidence": 78,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
             "추론",
-            "프런티어 모델",
-            "Gemini",
             "LLM"
           ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,100 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
-      "delta": 9,
+      "score": 90,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+          "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.17398v1",
-          "publishedAt": "2026-09-15T16:33:38.000Z",
-          "publishedAtKst": "2026. 09. 16. 01:33",
-          "summary": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA). PLA aims to simplify technical medical language, bridging a critical gap betw",
-          "impact": 32,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Gemini",
-            "LLM"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agentic Societies Need a Social Harness",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.17527v1",
-          "publishedAt": "2026-09-15T17:57:27.000Z",
-          "publishedAtKst": "2026. 09. 16. 02:57",
-          "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic so",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.17523v1",
-          "publishedAt": "2026-09-15T17:55:28.000Z",
-          "publishedAtKst": "2026. 09. 16. 02:55",
-          "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying ",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자기개선",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Coding Agents Have Converged: Why the SWE-bench Leaderboard Can No Longer Order Its Top Entries, and What to Measure Instead",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.17394v1",
-          "publishedAt": "2026-09-15T16:29:12.000Z",
-          "publishedAtKst": "2026. 09. 16. 01:29",
-          "summary": "Small differences on coding-agent leaderboards are often read as an ordering of systems. We audit whether the published verdicts support this reading, using 254 SWE-bench submissions across four splits without running mo",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "모델",
-            "코딩 성능"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.17306v1",
-          "publishedAt": "2026-09-15T15:17:29.000Z",
-          "publishedAtKst": "2026. 09. 16. 00:17",
-          "summary": "Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidate",
-          "impact": 27,
+          "url": "http://arxiv.org/abs/2609.19113v1",
+          "publishedAt": "2026-09-16T17:41:12.000Z",
+          "publishedAtKst": "2026. 09. 17. 02:41",
+          "summary": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ yes/no questions. An",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "추론",
-            "LLM",
-            "모델"
+            "프런티어 모델",
+            "GPT"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.18909v1",
+          "publishedAt": "2026-09-16T16:49:50.000Z",
+          "publishedAtKst": "2026. 09. 17. 01:49",
+          "summary": "Agent benchmarks are substantially more costly to evaluate than conventional LLM benchmarks. Benchmark compression is therefore a natural solution, yet existing methods primarily model redundancy in task--model final-sco",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Higher-order pruning of experts in mixture-of-experts language models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.18916v1",
+          "publishedAt": "2026-09-16T16:55:46.000Z",
+          "publishedAtKst": "2026. 09. 17. 01:55",
+          "summary": "Mixture-of-Experts (MoE) language models suffer from large parameter counts, which create a significant memory bottleneck. Expert pruning is the most direct approach for reducing this parameter count, yet existing method",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How Much is a Human Right Worth? ECtHR-NPD: A Benchmark for Predicting Non-Pecuniary Damage Awards",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.18908v1",
+          "publishedAt": "2026-09-16T16:49:48.000Z",
+          "publishedAtKst": "2026. 09. 17. 01:49",
+          "summary": "Existing legal benchmarks cover diverse tasks, while continuous monetary remedies remain comparatively underexplored. We introduce ECtHR-NPD, to the best of our knowledge, the first benchmark for predicting non-pecuniary",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Structured Claim-Level Discourse Representations for Dense Health Narratives",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.18905v1",
+          "publishedAt": "2026-09-16T16:43:11.000Z",
+          "publishedAtKst": "2026. 09. 17. 01:43",
+          "summary": "Health discourse in social media videos often contains densely entangled claims spanning multiple thematic aspects, stances, evidential frames, and rhetorical functions within short conversational spans. Existing approac",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,28 +367,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 55,
       "trend": "hot",
       "items": [
-        {
-          "title": "Show HN: A Coding Agent from Scratch",
-          "source": "Hacker News",
-          "url": "https://blog.softwarewrighter.com/2026/09/16/ai-tools-coding-agent-in-mlpl/",
-          "publishedAt": "2026-09-16T16:30:10.000Z",
-          "publishedAtKst": "2026. 09. 17. 01:30",
-          "summary": "2 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Finally understand why the higher-ups are freaking out",
           "source": "r/singularity",
@@ -393,7 +380,7 @@
           "publishedAt": "2026-09-16T17:27:36.000Z",
           "publishedAtKst": "2026. 09. 17. 02:27",
           "summary": "To understand it, you have to really understand the HF attack. Because the breach into HF is not the important part. It was what they learnt along the way, and what they did with that information which may still remain u",
-          "impact": 18,
+          "impact": 17,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -405,35 +392,36 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "My website charged AI agents a penny per page. I watched Claude pay it",
+          "title": "Show HN: A Coding Agent from Scratch",
           "source": "Hacker News",
-          "url": "https://suganthan.com/blog/x402-pay-per-crawl/",
-          "publishedAt": "2026-09-16T23:22:56.000Z",
-          "publishedAtKst": "2026. 09. 17. 08:22",
-          "summary": "1 points, 0 comments",
+          "url": "https://blog.softwarewrighter.com/2026/09/16/ai-tools-coding-agent-in-mlpl/",
+          "publishedAt": "2026-09-16T16:30:10.000Z",
+          "publishedAtKst": "2026. 09. 17. 01:30",
+          "summary": "2 points, 0 comments",
           "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Encouraging Deception in Compaction Summaries",
-          "source": "Hacker News",
-          "url": "https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/",
-          "publishedAt": "2026-09-16T23:21:16.000Z",
-          "publishedAtKst": "2026. 09. 17. 08:21",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Compute:Arena – Community submitted local AI benchmarks",
+          "source": "Hacker News",
+          "url": "https://computearena.ai",
+          "publishedAt": "2026-09-17T06:54:31.000Z",
+          "publishedAtKst": "2026. 09. 17. 15:54",
+          "summary": "3 points, 2 comments",
+          "impact": 14,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "벤치마크",
+            "컴퓨트"
+          ],
+          "why": "벤치마크, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Auto-autoresearch: self-improving agents on Karpathy's NanoChat benchmark",
@@ -441,49 +429,79 @@
           "url": "https://rekursiv.ai/blog/autoautoresearch/",
           "publishedAt": "2026-09-15T17:48:55.000Z",
           "publishedAtKst": "2026. 09. 16. 02:48",
-          "summary": "12 points, 5 comments",
-          "impact": 13,
-          "confidence": 54,
+          "summary": "13 points, 5 comments",
+          "impact": 12,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "We Benchmark Analytics Agents, this explains how",
+          "source": "Hacker News",
+          "url": "https://benchouse.ai/blog/how-we-benchmark-analytics-agents",
+          "publishedAt": "2026-09-15T14:45:28.000Z",
+          "publishedAtKst": "2026. 09. 15. 23:45",
+          "summary": "2 points, 1 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+      "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.17398v1",
+      "url": "http://arxiv.org/abs/2609.19113v1",
+      "impact": 36,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.18909v1",
+      "impact": 33,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Higher-order pruning of experts in mixture-of-experts language models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.18916v1",
       "impact": 32,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Reimagining advertising with AI",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "impact": 28,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Agentic Societies Need a Social Harness",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.17527v1",
-      "impact": 27,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Bias-Induced Crossover in Absolute Capacity of Dense Associative Memory",
+      "title": "Securing quantum error correction against misleading advice from AI agents",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.17477v1",
-      "impact": 4,
-      "reason": "전력 병목, 편향 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2609.19090v1",
+      "impact": 0,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.19124v1",
+      "impact": 7,
+      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Exploration Hacking in AI Debate: Initial Empirics and Generalisation Splitting",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/xjwtNid2xjqSJWB7z/exploration-hacking-in-ai-debate-initial-empirics-and",
+      "impact": 10,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
