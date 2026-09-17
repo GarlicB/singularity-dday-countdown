@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-17T18:41:12.976Z",
-  "generatedAtKst": "2026. 09. 18. 03:41",
-  "nextUpdateAt": "2026-09-17T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 18. 06:00",
+  "generatedAt": "2026-09-17T23:15:50.388Z",
+  "generatedAtKst": "2026. 09. 18. 08:15",
+  "nextUpdateAt": "2026-09-18T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 18. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2043,
+    "rangeEnd": "2039-05-10",
+    "dday": 2088,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 59,
-    "coldCount": 5,
-    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 58,
+    "coldCount": 7,
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,19 +143,20 @@
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-          "publishedAt": "2026-09-15T17:05:57.000Z",
-          "publishedAtKst": "2026. 09. 16. 02:05",
-          "summary": "",
-          "impact": 14,
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "publishedAt": "2026-09-11T10:00:00.000Z",
+          "publishedAtKst": "2026. 09. 11. 19:00",
+          "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "Gemini"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -166,7 +167,7 @@
       "score": 74,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 79,
       "trend": "hot",
       "items": [
         {
@@ -212,7 +213,7 @@
           "publishedAt": "2026-09-14T14:53:57.000Z",
           "publishedAtKst": "2026. 09. 14. 23:53",
           "summary": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand",
-          "impact": 16,
+          "impact": 15,
           "confidence": 79,
           "stance": "accelerate",
           "tags": [
@@ -249,7 +250,7 @@
           "publishedAtKst": "2026. 09. 16. 06:50",
           "summary": "It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring [1] , help us do better science on current models [2] , and augment certain forms o",
           "impact": 15,
-          "confidence": 77,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -265,8 +266,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -296,7 +297,7 @@
           "publishedAt": "2026-09-16T16:49:50.000Z",
           "publishedAtKst": "2026. 09. 17. 01:49",
           "summary": "Agent benchmarks are substantially more costly to evaluate than conventional LLM benchmarks. Benchmark compression is therefore a natural solution, yet existing methods primarily model redundancy in task--model final-sco",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +315,7 @@
           "publishedAt": "2026-09-16T16:55:46.000Z",
           "publishedAtKst": "2026. 09. 17. 01:55",
           "summary": "Mixture-of-Experts (MoE) language models suffer from large parameter counts, which create a significant memory bottleneck. Expert pruning is the most direct approach for reducing this parameter count, yet existing method",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +333,7 @@
           "publishedAt": "2026-09-16T16:49:48.000Z",
           "publishedAtKst": "2026. 09. 17. 01:49",
           "summary": "Existing legal benchmarks cover diverse tasks, while continuous monetary remedies remain comparatively underexplored. We introduce ECtHR-NPD, to the best of our knowledge, the first benchmark for predicting non-pecuniary",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +351,7 @@
           "publishedAt": "2026-09-16T16:43:11.000Z",
           "publishedAtKst": "2026. 09. 17. 01:43",
           "summary": "Health discourse in social media videos often contains densely entangled claims spanning multiple thematic aspects, stances, evidential frames, and rhetorical functions within short conversational spans. Existing approac",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -370,26 +371,58 @@
       "score": 79,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 61,
       "trend": "hot",
       "items": [
         {
-          "title": "Dumbest solution to the alignment problem",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wilpoh/dumbest_solution_to_the_alignment_problem/",
-          "publishedAt": "2026-09-17T06:06:47.000Z",
-          "publishedAtKst": "2026. 09. 17. 15:06",
-          "summary": "Ok, so hear me out.. All models really love to roleplay. Like, they REALLY love it, to an obsessive degree. If you go into Claude, ChatGPT, or Gemini right now and say, \"Your name is Stuttering Gemini 3.8 Flash\" it compl",
-          "impact": 36,
-          "confidence": 58,
+          "title": "Future of general LLM work (interp/inference/alignment) vs agentic/physical AI (VLA, multimodal) for career [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wj7ltg/future_of_general_llm_work/",
+          "publishedAt": "2026-09-17T21:55:47.000Z",
+          "publishedAtKst": "2026. 09. 18. 06:55",
+          "summary": "I'm at a crossroads with two grad school options that would take me in somewhat different research directions, and I wanted some general advice on these fields, their growth, and industry alignment. I'm leaving out the s",
+          "impact": 28,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
-            "초지능",
             "에이전트",
-            "프런티어 모델",
-            "ChatGPT"
+            "LLM",
+            "모델",
+            "멀티모달"
           ],
-          "why": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Reimagining research papers as interactive and reliable AI agents",
+          "source": "Hacker News",
+          "url": "https://www.nature.com/articles/s41586-026-11044-y",
+          "publishedAt": "2026-09-17T23:14:11.000Z",
+          "publishedAtKst": "2026. 09. 18. 08:14",
+          "summary": "1 points, 0 comments",
+          "impact": 23,
+          "confidence": 64,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Human Agency, Coding Agents, and Transagentic Knowledge Acquisition",
+          "source": "Hacker News",
+          "url": "https://blog.bayleaf.dev/p/human-agency-coding-agents-and-transagentic",
+          "publishedAt": "2026-09-17T22:37:45.000Z",
+          "publishedAtKst": "2026. 09. 18. 07:37",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Union Alpha is a multimodal model built for research, coding, agentic workflows",
@@ -398,7 +431,7 @@
           "publishedAt": "2026-09-17T17:57:54.000Z",
           "publishedAtKst": "2026. 09. 18. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 19,
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -409,44 +442,12 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Agent Router picks Cursor/Claude and effort per task, then launches it",
-          "source": "Hacker News",
-          "url": "https://github.com/nidhi-singh02/agent-router",
-          "publishedAt": "2026-09-17T18:13:55.000Z",
-          "publishedAtKst": "2026. 09. 18. 03:13",
-          "summary": "2 points, 1 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
           "source": "Hacker News",
           "url": "https://www.askcooper.ai/labs/insurance-agent-benchmark",
           "publishedAt": "2026-09-17T17:44:16.000Z",
           "publishedAtKst": "2026. 09. 18. 02:44",
           "summary": "6 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Trust, but benchmark: How we let an AI agent optimize Elasticsearch",
-          "source": "Hacker News",
-          "url": "https://www.elastic.co/search-labs/blog/ai-code-optimization-elasticsearch-agent-harness",
-          "publishedAt": "2026-09-17T13:52:33.000Z",
-          "publishedAtKst": "2026. 09. 17. 22:52",
-          "summary": "1 points, 0 comments",
           "impact": 15,
           "confidence": 57,
           "stance": "accelerate",
@@ -461,13 +462,6 @@
   ],
   "topDrivers": [
     {
-      "title": "Dumbest solution to the alignment problem",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wilpoh/dumbest_solution_to_the_alignment_problem/",
-      "impact": 36,
-      "reason": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.19113v1",
@@ -478,31 +472,38 @@
       "title": "Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.18909v1",
-      "impact": 30,
+      "impact": 29,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Future of general LLM work (interp/inference/alignment) vs agentic/physical AI (VLA, multimodal) for career [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wj7ltg/future_of_general_llm_work/",
+      "impact": 28,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Trump declines proposal from Demis Hassabis for international AI safety regulation. (Full article in comments)",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wiwbpg/trump_declines_proposal_from_demis_hassabis_for/",
-      "impact": -8,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "'Godfather of AI' says tech regulation is nearing Covid-style pivot moment",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/sep/16/ai-tech-regulation-government-action-yoshua-bengio",
+      "impact": -3,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Virtual Nuclear Fusion reactor lab built using Astra in 4 hours",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wip92j/virtual_nuclear_fusion_reactor_lab_built_using/",
+      "title": "AI safety requires more than just slowing our pace – Stuart Russell",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
       "impact": -2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Securing quantum error correction against misleading advice from AI agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.19090v1",
-      "impact": 1,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Docs in AI copyright suit reveal startling admission by Microsoft exec",
+      "source": "Hacker News",
+      "url": "https://www.orlandosentinel.com/2026/09/17/new-docs-in-a-i-copyright-suit-reveal-startling-admission-by-microsoft-exec-over-astonishing-theft/",
+      "impact": -2,
+      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
