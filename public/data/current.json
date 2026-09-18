@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T13:15:05.652Z",
-  "generatedAtKst": "2026. 09. 18. 22:15",
-  "nextUpdateAt": "2026-09-18T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 19. 00:00",
+  "generatedAt": "2026-09-18T17:57:29.683Z",
+  "generatedAtKst": "2026. 09. 19. 02:57",
+  "nextUpdateAt": "2026-09-18T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 19. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
-    "coldCount": 5,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 4,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-16T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 01:00",
           "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +315,7 @@
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +333,7 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
@@ -381,8 +381,8 @@
           "publishedAt": "2026-09-18T06:45:58.000Z",
           "publishedAtKst": "2026. 09. 18. 15:45",
           "summary": "Vid source: https://x.com/_MaxBlade/status/2100634359099232678 &#32; submitted by &#32; /u/Cagnazzo82 [link] &#32; [comments]",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 17,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -399,7 +399,7 @@
           "publishedAtKst": "2026. 09. 18. 02:57",
           "summary": "1 points, 0 comments",
           "impact": 16,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -409,37 +409,21 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "12-Factor Agents – Principles for building reliable LLM applications",
-          "source": "Hacker News",
-          "url": "https://github.com/humanlayer/12-factor-agents",
-          "publishedAt": "2026-09-18T13:02:24.000Z",
-          "publishedAtKst": "2026. 09. 18. 22:02",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What if consciousness is a spectrum, not an on/off state? Why wouldn’t AI be conscious in some form?",
+          "title": "Current LLMs is already enough for world changing effect",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wityzy/what_if_consciousness_is_a_spectrum_not_an_onoff/",
-          "publishedAt": "2026-09-17T13:26:27.000Z",
-          "publishedAtKst": "2026. 09. 17. 22:26",
-          "summary": "I have been thinking a lot about theories of consciousness lately, and one idea that makes intuitive sense to me is that \"the amount of active, interconnected complexity within a given physical space may determine the le",
+          "url": "https://www.reddit.com/r/singularity/comments/1wjpg34/current_llms_is_already_enough_for_world_changing/",
+          "publishedAt": "2026-09-18T12:55:54.000Z",
+          "publishedAtKst": "2026. 09. 18. 21:55",
+          "summary": "What if current frontier LLMs were integrated into digital infrastructure as completely as computers are today? Not just chatbots or plugins, but full access to company software, databases, emails, documents and workflow",
           "impact": 15,
-          "confidence": 48,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT",
-            "모델"
+            "LLM",
+            "모델",
+            "컴퓨트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
@@ -448,8 +432,24 @@
           "publishedAt": "2026-09-17T17:44:16.000Z",
           "publishedAtKst": "2026. 09. 18. 02:44",
           "summary": "7 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "impact": 13,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Trust, but benchmark: How we let an AI agent optimize Elasticsearch",
+          "source": "Hacker News",
+          "url": "https://www.elastic.co/search-labs/blog/ai-code-optimization-elasticsearch-agent-harness",
+          "publishedAt": "2026-09-17T13:52:33.000Z",
+          "publishedAtKst": "2026. 09. 17. 22:52",
+          "summary": "1 points, 0 comments",
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -479,17 +479,17 @@
       "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20794v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Trump declines proposal from Demis Hassabis for international AI safety regulation. (Full article in comments)",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wiwbpg/trump_declines_proposal_from_demis_hassabis_for/",
-      "impact": -6,
-      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Gavin Newsom Wants AI Kill Switch to Boost CA AI Safety",
+      "source": "Hacker News",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/newsom-pitches-ai-kill-switch-extra-oversight-in-california",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
