@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T17:57:29.683Z",
-  "generatedAtKst": "2026. 09. 19. 02:57",
-  "nextUpdateAt": "2026-09-18T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 19. 06:00",
+  "generatedAt": "2026-09-18T22:55:04.444Z",
+  "generatedAtKst": "2026. 09. 19. 07:55",
+  "nextUpdateAt": "2026-09-19T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 19. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,21 +12,21 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2087,
+    "rangeEnd": "2039-03-26",
+    "dday": 2042,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 54,
-    "coldCount": 4,
+    "coldCount": 5,
     "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-17T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 21:00",
           "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -126,6 +126,22 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/hex-gpt-6-astra",
+          "publishedAt": "2026-09-16T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 16. 21:00",
+          "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "How to connect AI usage to business value",
           "source": "OpenAI News",
           "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
@@ -140,23 +156,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Now everyone can put data to work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/put-data-to-work",
-          "publishedAt": "2026-09-10T15:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 00:00",
-          "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -315,7 +314,7 @@
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +332,7 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +350,7 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,28 +367,47 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "New 'decision' model Jev (developed by co-creator of ChatGPT) is playing Subway Surfers in real-time",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wjiphh/new_decision_model_jev_developed_by_cocreator_of/",
-          "publishedAt": "2026-09-18T06:45:58.000Z",
-          "publishedAtKst": "2026. 09. 18. 15:45",
-          "summary": "Vid source: https://x.com/_MaxBlade/status/2100634359099232678 &#32; submitted by &#32; /u/Cagnazzo82 [link] &#32; [comments]",
-          "impact": 17,
-          "confidence": 51,
+          "title": "What studies isolate back-and-forth LLM interaction from one-way sharing and self-refinement [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wjm0rx/what_studies_isolate_backandforth_llm_interaction/",
+          "publishedAt": "2026-09-18T10:01:58.000Z",
+          "publishedAtKst": "2026. 09. 18. 19:01",
+          "summary": "I'm trying to find out whether back-and-forth between two different LLMs improves task success beyond strong alternatives under a controlled resource budget — and I'd rather hear that it's already settled than spend mone",
+          "impact": 29,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
             "GPT",
-            "모델"
+            "Claude",
+            "LLM"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Gemini 3.8 Flash outperforms SOTA models at agentic CAD coding",
+          "source": "Hacker News",
+          "url": "https://www.partforge.ai/evals",
+          "publishedAt": "2026-09-18T17:57:49.000Z",
+          "publishedAtKst": "2026. 09. 19. 02:57",
+          "summary": "1 points, 0 comments",
+          "impact": 25,
+          "confidence": 65,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini",
+            "모델",
+            "성능 향상"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Union Alpha is a multimodal model built for research, coding, agentic workflows",
@@ -398,7 +416,7 @@
           "publishedAt": "2026-09-17T17:57:54.000Z",
           "publishedAtKst": "2026. 09. 18. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 16,
+          "impact": 15,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -409,23 +427,6 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Current LLMs is already enough for world changing effect",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wjpg34/current_llms_is_already_enough_for_world_changing/",
-          "publishedAt": "2026-09-18T12:55:54.000Z",
-          "publishedAtKst": "2026. 09. 18. 21:55",
-          "summary": "What if current frontier LLMs were integrated into digital infrastructure as completely as computers are today? Not just chatbots or plugins, but full access to company software, databases, emails, documents and workflow",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
           "source": "Hacker News",
           "url": "https://www.askcooper.ai/labs/insurance-agent-benchmark",
@@ -433,7 +434,7 @@
           "publishedAtKst": "2026. 09. 18. 02:44",
           "summary": "7 points, 0 comments",
           "impact": 13,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -448,8 +449,8 @@
           "publishedAt": "2026-09-17T13:52:33.000Z",
           "publishedAtKst": "2026. 09. 17. 22:52",
           "summary": "1 points, 0 comments",
-          "impact": 13,
-          "confidence": 54,
+          "impact": 12,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -479,30 +480,30 @@
       "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20794v1",
-      "impact": 32,
+      "impact": 31,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Gavin Newsom Wants AI Kill Switch to Boost CA AI Safety",
+      "title": "Classifying coronary heart disease risk from NHANES survey data (2011-2018), with a full leakage audit and calibration check [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjp062/classifying_coronary_heart_disease_risk_from/",
+      "impact": -5,
+      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Energy-Based Models",
       "source": "Hacker News",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-18/newsom-pitches-ai-kill-switch-extra-oversight-in-california",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://energy-based-model.github.io/",
+      "impact": 1,
+      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20684v1",
       "impact": 6,
-      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.20756v1",
-      "impact": 7,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
