@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T07:44:53.960Z",
-  "generatedAtKst": "2026. 09. 18. 16:44",
-  "nextUpdateAt": "2026-09-18T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 18. 18:00",
+  "generatedAt": "2026-09-18T13:15:05.652Z",
+  "generatedAtKst": "2026. 09. 18. 22:15",
+  "nextUpdateAt": "2026-09-18T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 19. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 6,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 5,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-17T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 21:00",
           "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-16T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 01:00",
           "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -167,7 +167,7 @@
       "score": 73,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 78,
+      "confidence": 80,
       "trend": "hot",
       "items": [
         {
@@ -243,22 +243,22 @@
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
+          "title": "How good are slop-vestigators?",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
-          "publishedAt": "2026-09-15T21:50:08.000Z",
-          "publishedAtKst": "2026. 09. 16. 06:50",
-          "summary": "It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring [1] , help us do better science on current models [2] , and augment certain forms o",
-          "impact": 14,
-          "confidence": 74,
+          "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
+          "publishedAt": "2026-09-08T22:13:19.000Z",
+          "publishedAtKst": "2026. 09. 09. 07:13",
+          "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
+          "impact": 13,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델",
-            "성능 향상",
-            "SOTA"
+            "추론",
+            "GPT",
+            "Gemini"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,8 +266,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -315,7 +315,7 @@
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +333,7 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,12 +368,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
+      "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "New 'decision' model Jev (developed by co-creator of ChatGPT) is playing Subway Surfers in real-time",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wjiphh/new_decision_model_jev_developed_by_cocreator_of/",
+          "publishedAt": "2026-09-18T06:45:58.000Z",
+          "publishedAtKst": "2026. 09. 18. 15:45",
+          "summary": "Vid source: https://x.com/_MaxBlade/status/2100634359099232678 &#32; submitted by &#32; /u/Cagnazzo82 [link] &#32; [comments]",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Union Alpha is a multimodal model built for research, coding, agentic workflows",
           "source": "Hacker News",
@@ -381,8 +398,8 @@
           "publishedAt": "2026-09-17T17:57:54.000Z",
           "publishedAtKst": "2026. 09. 18. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,6 +407,39 @@
             "멀티모달"
           ],
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "12-Factor Agents – Principles for building reliable LLM applications",
+          "source": "Hacker News",
+          "url": "https://github.com/humanlayer/12-factor-agents",
+          "publishedAt": "2026-09-18T13:02:24.000Z",
+          "publishedAtKst": "2026. 09. 18. 22:02",
+          "summary": "2 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "What if consciousness is a spectrum, not an on/off state? Why wouldn’t AI be conscious in some form?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wityzy/what_if_consciousness_is_a_spectrum_not_an_onoff/",
+          "publishedAt": "2026-09-17T13:26:27.000Z",
+          "publishedAtKst": "2026. 09. 17. 22:26",
+          "summary": "I have been thinking a lot about theories of consciousness lately, and one idea that makes intuitive sense to me is that \"the amount of active, interconnected complexity within a given physical space may determine the le",
+          "impact": 15,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
@@ -406,53 +456,6 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Trust, but benchmark: How we let an AI agent optimize Elasticsearch",
-          "source": "Hacker News",
-          "url": "https://www.elastic.co/search-labs/blog/ai-code-optimization-elasticsearch-agent-harness",
-          "publishedAt": "2026-09-17T13:52:33.000Z",
-          "publishedAtKst": "2026. 09. 17. 22:52",
-          "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Astra is porting my dual screen phone from Android 9 to Android 17",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wiskdl/astra_is_porting_my_dual_screen_phone_from/",
-          "publishedAt": "2026-09-17T12:25:42.000Z",
-          "publishedAtKst": "2026. 09. 17. 21:25",
-          "summary": "I have this Hisense A6L, a phone that is not mainstream at all, it released only in China. And which has some very specific hardware since it has 2 screens. One LCD and one Eink. I love it, but it's stuck on Android 9. A",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic open-sources Claude-written GPU optimizations that make 30+ biomolecular models ~4× faster on average",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wj7beg/anthropic_opensources_claudewritten_gpu/",
-          "publishedAt": "2026-09-17T21:44:30.000Z",
-          "publishedAtKst": "2026. 09. 18. 06:44",
-          "summary": "&#32; submitted by &#32; /u/ResultBackground2450 [link] &#32; [comments]",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "모델"
-          ],
-          "why": "Claude, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -476,7 +479,7 @@
       "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20794v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -485,21 +488,21 @@
       "title": "Trump declines proposal from Demis Hassabis for international AI safety regulation. (Full article in comments)",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wiwbpg/trump_declines_proposal_from_demis_hassabis_for/",
-      "impact": -7,
+      "impact": -6,
       "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Chinese AI not powerful enough to see rogue-AI risks, says Huawei",
-      "source": "Hacker News",
-      "url": "https://www.reuters.com/world/china/huaweis-xu-says-chinese-ai-not-powerful-enough-yet-see-frontier-risks-2026-09-17/",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20684v1",
       "impact": 6,
+      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.20756v1",
+      "impact": 7,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
