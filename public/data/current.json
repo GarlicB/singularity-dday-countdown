@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T17:35:33.882Z",
-  "generatedAtKst": "2026. 09. 20. 02:35",
-  "nextUpdateAt": "2026-09-19T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 20. 06:00",
+  "generatedAt": "2026-09-19T22:34:18.592Z",
+  "generatedAtKst": "2026. 09. 20. 07:34",
+  "nextUpdateAt": "2026-09-20T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 20. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 76,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 45,
-    "coldCount": 5,
-    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 7,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-16T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 01:00",
           "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -195,7 +195,7 @@
           "publishedAtKst": "2026. 09. 20. 00:42",
           "summary": "An &#8220;AI moderate&#8217;s&#8221; view on recent events and the trajectory of frontier models.",
           "impact": 17,
-          "confidence": 79,
+          "confidence": 78,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -263,10 +263,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
+      "score": 85,
       "delta": 9,
       "weight": 0.28,
-      "confidence": 91,
+      "confidence": 90,
       "trend": "hot",
       "items": [
         {
@@ -294,7 +294,7 @@
           "publishedAt": "2026-09-17T17:59:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:59",
           "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\e",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -312,8 +312,8 @@
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -330,8 +330,8 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -348,8 +348,8 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 22,
-          "confidence": 89,
+          "impact": 21,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -368,7 +368,7 @@
       "score": 68,
       "delta": 5,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -378,8 +378,8 @@
           "publishedAt": "2026-09-18T17:57:49.000Z",
           "publishedAtKst": "2026. 09. 19. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 21,
-          "confidence": 61,
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,6 +390,37 @@
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Direct Imaging of a Giant Planet and Debris Disk Around M-Dwarf RX J0534.0-0221",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2609.20748",
+          "publishedAt": "2026-09-19T22:22:32.000Z",
+          "publishedAtKst": "2026. 09. 20. 07:22",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wkwzzj/chatgpt6_astra_cracks_108yearold_unsolved_wwi/",
+          "publishedAt": "2026-09-19T20:40:52.000Z",
+          "publishedAtKst": "2026. 09. 20. 05:40",
+          "summary": "&#32; submitted by &#32; /u/Andune88 [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "The POTUS has drunk the ASI kool-aid",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1wkrij0/the_potus_has_drunk_the_asi_koolaid/",
@@ -397,7 +428,7 @@
           "publishedAtKst": "2026. 09. 20. 02:03",
           "summary": "I can't tell if he really believes in artificial superintelligence or if he's just grifting because he secretly invested in tech stocks &#32; submitted by &#32; /u/OmegaGogeta [link] &#32; [comments]",
           "impact": 14,
-          "confidence": 49,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "초지능"
@@ -405,52 +436,22 @@
           "why": "초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Union Alpha is a multimodal model built for research, coding, agentic workflows",
-          "source": "Hacker News",
-          "url": "https://openrouter.ai/stealth/union-alpha",
-          "publishedAt": "2026-09-17T17:57:54.000Z",
-          "publishedAtKst": "2026. 09. 18. 02:57",
-          "summary": "1 points, 0 comments",
+          "title": "The Hugging Face Hack Wasn’t What It Was Cracked Up to Be - WSJ",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wkh5ha/the_hugging_face_hack_wasnt_what_it_was_cracked/",
+          "publishedAt": "2026-09-19T09:00:11.000Z",
+          "publishedAtKst": "2026. 09. 19. 18:00",
+          "summary": "Is the panic over artificial intelligence justified? Anthropic researcher Jacob Coxon resigned on Sept. 8, warning that “the people building AI earnestly believe that it could kill us all by the end of the decade.” Colle",
           "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
+          "confidence": 58,
+          "stance": "decelerate",
           "tags": [
+            "초지능",
             "에이전트",
-            "모델",
-            "멀티모달"
+            "자율성",
+            "모델"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
-          "source": "Hacker News",
-          "url": "https://www.askcooper.ai/labs/insurance-agent-benchmark",
-          "publishedAt": "2026-09-17T17:44:16.000Z",
-          "publishedAtKst": "2026. 09. 18. 02:44",
-          "summary": "7 points, 0 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Gemini AI hacked three other companies during a test",
-          "source": "Hacker News",
-          "url": "https://news.sky.com/story/googles-gemini-ai-hacks-three-other-companies-during-security-test-13589551",
-          "publishedAt": "2026-09-19T17:33:06.000Z",
-          "publishedAtKst": "2026. 09. 20. 02:33",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
@@ -467,24 +468,31 @@
       "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20812v1",
-      "impact": 32,
+      "impact": 31,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20794v1",
-      "impact": 26,
+      "impact": 24,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Lawsuit: Illegal Agreement of Anthropic, OpenAI, SpaceXAI, Google on AI Slowdown",
+      "title": "Astra, Fable, and MolmoAct2 were put to the test by tasking them with 4 harmful operations through a robotic arm, to see just how risky things can get",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wkw0ln/astra_fable_and_molmoact2_were_put_to_the_test_by/",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Call for Open Science in AI Safety",
       "source": "Hacker News",
-      "url": "https://www.independent.co.uk/news/lawsuit-anthropic-google-openai-lawyers-b3052942.html",
-      "impact": -3,
-      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://make-safety-open.github.io/",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "OpenAI's Noam Brown says air-gapping the computers may not stop a misaligned AI, because the machines can still talk by running a CPU hot and reading the temperature change. \"We never want to be in a situation again where we underestimate the AI.\"",
@@ -492,13 +500,6 @@
       "url": "https://www.reddit.com/r/singularity/comments/1wk64m3/openais_noam_brown_says_airgapping_the_computers/",
       "impact": 0,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.20684v1",
-      "impact": 6,
-      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
