@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T22:55:04.444Z",
-  "generatedAtKst": "2026. 09. 19. 07:55",
-  "nextUpdateAt": "2026-09-19T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 19. 12:00",
+  "generatedAt": "2026-09-19T07:39:21.404Z",
+  "generatedAtKst": "2026. 09. 19. 16:39",
+  "nextUpdateAt": "2026-09-19T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 19. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2042,
+    "rangeEnd": "2039-05-10",
+    "dday": 2086,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 5,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 7,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-16T13:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 22:00",
           "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-17T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 21:00",
           "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-09-16T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 01:00",
           "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -148,7 +148,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -314,7 +314,7 @@
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,8 +350,8 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -380,7 +380,7 @@
           "publishedAt": "2026-09-18T10:01:58.000Z",
           "publishedAtKst": "2026. 09. 18. 19:01",
           "summary": "I'm trying to find out whether back-and-forth between two different LLMs improves task success beyond strong alternatives under a controlled resource budget — and I'd rather hear that it's already settled than spend mone",
-          "impact": 29,
+          "impact": 27,
           "confidence": 62,
           "stance": "accelerate",
           "tags": [
@@ -398,8 +398,8 @@
           "publishedAt": "2026-09-18T17:57:49.000Z",
           "publishedAtKst": "2026. 09. 19. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 25,
-          "confidence": 65,
+          "impact": 23,
+          "confidence": 64,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -410,14 +410,29 @@
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
+          "source": "Hacker News",
+          "url": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
+          "publishedAt": "2026-09-19T07:13:10.000Z",
+          "publishedAtKst": "2026. 09. 19. 16:13",
+          "summary": "6 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Union Alpha is a multimodal model built for research, coding, agentic workflows",
           "source": "Hacker News",
           "url": "https://openrouter.ai/stealth/union-alpha",
           "publishedAt": "2026-09-17T17:57:54.000Z",
           "publishedAtKst": "2026. 09. 18. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -427,36 +442,20 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
-          "source": "Hacker News",
-          "url": "https://www.askcooper.ai/labs/insurance-agent-benchmark",
-          "publishedAt": "2026-09-17T17:44:16.000Z",
-          "publishedAtKst": "2026. 09. 18. 02:44",
-          "summary": "7 points, 0 comments",
+          "title": "I'm a Principal Applied Scientist at AWS who builds AI services like Amazon Bedrock and Lex. AMA! [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wjuki0/im_a_principal_applied_scientist_at_aws_who/",
+          "publishedAt": "2026-09-18T16:13:30.000Z",
+          "publishedAtKst": "2026. 09. 19. 01:13",
+          "summary": "Hi r/MachineLearning ! I'm James Gung, a principal applied scientist at AWS. I joined Amazon in 2021 and have since worked on AI services like Lex, Bedrock, Q Business, and Amazon Quick (an AI assistant for work). In tha",
           "impact": 13,
-          "confidence": 54,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "벤치마크"
+            "컴퓨트"
           ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Trust, but benchmark: How we let an AI agent optimize Elasticsearch",
-          "source": "Hacker News",
-          "url": "https://www.elastic.co/search-labs/blog/ai-code-optimization-elasticsearch-agent-harness",
-          "publishedAt": "2026-09-17T13:52:33.000Z",
-          "publishedAtKst": "2026. 09. 17. 22:52",
-          "summary": "1 points, 0 comments",
-          "impact": 12,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -480,11 +479,18 @@
       "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20794v1",
-      "impact": 31,
+      "impact": 28,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "AI hallucination of Chinese nuclear components almost led to US Military attack",
+      "source": "Hacker News",
+      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+      "impact": -10,
+      "reason": "공격/악용, 환각 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Classifying coronary heart disease risk from NHANES survey data (2011-2018), with a full leakage audit and calibration check [P]",
       "source": "r/MachineLearning",
@@ -493,18 +499,11 @@
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Energy-Based Models",
-      "source": "Hacker News",
-      "url": "https://energy-based-model.github.io/",
-      "impact": 1,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.20684v1",
-      "impact": 6,
-      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "DiffusionGemma: How It Generates Text in Parallel (From Scratch in PyTorch) [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wkdnns/diffusiongemma_how_it_generates_text_in_parallel/",
+      "impact": -3,
+      "reason": "겨울 신호 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
