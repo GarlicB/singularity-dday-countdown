@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T07:39:21.404Z",
-  "generatedAtKst": "2026. 09. 19. 16:39",
-  "nextUpdateAt": "2026-09-19T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 19. 18:00",
+  "generatedAt": "2026-09-19T12:46:07.500Z",
+  "generatedAtKst": "2026. 09. 19. 21:46",
+  "nextUpdateAt": "2026-09-19T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 20. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2086,
+    "rangeEnd": "2039-09-22",
+    "dday": 2221,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
-    "coldCount": 7,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 6,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,28 +71,12 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Reimagining advertising with AI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "publishedAt": "2026-09-16T13:00:00.000Z",
-          "publishedAtKst": "2026. 09. 16. 22:00",
-          "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "How Cooley is accelerating IPO work with ChatGPT",
           "source": "OpenAI News",
@@ -110,13 +94,29 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Reimagining advertising with AI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "publishedAtKst": "2026. 09. 16. 22:00",
+          "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Helping older adults use AI in everyday life",
           "source": "OpenAI News",
           "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
           "publishedAt": "2026-09-16T16:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 01:00",
           "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -148,7 +148,7 @@
           "publishedAt": "2026-09-16T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 16. 21:00",
           "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -265,30 +265,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.20812v1",
-          "publishedAt": "2026-09-17T17:59:04.000Z",
-          "publishedAtKst": "2026. 09. 18. 02:59",
-          "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\e",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "프런티어 모델",
-            "LLM"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "An Empirical Study of Harness Design for Coding Agents",
           "source": "arXiv",
@@ -308,13 +290,31 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.20812v1",
+          "publishedAt": "2026-09-17T17:59:04.000Z",
+          "publishedAtKst": "2026. 09. 18. 02:59",
+          "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\e",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "프런티어 모델",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.20794v1",
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,8 +350,8 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 24,
-          "confidence": 91,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -367,30 +367,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 68,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 54,
       "trend": "hot",
       "items": [
-        {
-          "title": "What studies isolate back-and-forth LLM interaction from one-way sharing and self-refinement [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wjm0rx/what_studies_isolate_backandforth_llm_interaction/",
-          "publishedAt": "2026-09-18T10:01:58.000Z",
-          "publishedAtKst": "2026. 09. 18. 19:01",
-          "summary": "I'm trying to find out whether back-and-forth between two different LLMs improves task success beyond strong alternatives under a controlled resource budget — and I'd rather hear that it's already settled than spend mone",
-          "impact": 27,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "Claude",
-            "LLM"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Gemini 3.8 Flash outperforms SOTA models at agentic CAD coding",
           "source": "Hacker News",
@@ -398,8 +380,8 @@
           "publishedAt": "2026-09-18T17:57:49.000Z",
           "publishedAtKst": "2026. 09. 19. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 23,
-          "confidence": 64,
+          "impact": 22,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -410,29 +392,14 @@
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
-          "source": "Hacker News",
-          "url": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
-          "publishedAt": "2026-09-19T07:13:10.000Z",
-          "publishedAtKst": "2026. 09. 19. 16:13",
-          "summary": "6 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Union Alpha is a multimodal model built for research, coding, agentic workflows",
           "source": "Hacker News",
           "url": "https://openrouter.ai/stealth/union-alpha",
           "publishedAt": "2026-09-17T17:57:54.000Z",
           "publishedAtKst": "2026. 09. 18. 02:57",
           "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 55,
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -449,25 +416,50 @@
           "publishedAtKst": "2026. 09. 19. 01:13",
           "summary": "Hi r/MachineLearning ! I'm James Gung, a principal applied scientist at AWS. I joined Amazon in 2021 and have since worked on AI services like Lex, Bedrock, Q Business, and Amazon Quick (an AI assistant for work). In tha",
           "impact": 13,
-          "confidence": 52,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "컴퓨트"
           ],
           "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Insurance Agent Benchmark: 166 real-world cases for evaluating insurance AI",
+          "source": "Hacker News",
+          "url": "https://www.askcooper.ai/labs/insurance-agent-benchmark",
+          "publishedAt": "2026-09-17T17:44:16.000Z",
+          "publishedAtKst": "2026. 09. 18. 02:44",
+          "summary": "7 points, 0 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Trust, but benchmark: How we let an AI agent optimize Elasticsearch",
+          "source": "Hacker News",
+          "url": "https://www.elastic.co/search-labs/blog/ai-code-optimization-elasticsearch-agent-harness",
+          "publishedAt": "2026-09-17T13:52:33.000Z",
+          "publishedAtKst": "2026. 09. 17. 22:52",
+          "summary": "1 points, 0 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.20812v1",
-      "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "An Empirical Study of Harness Design for Coding Agents",
       "source": "arXiv",
@@ -476,34 +468,41 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.20812v1",
+      "impact": 34,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20794v1",
-      "impact": 28,
+      "impact": 27,
       "reason": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "AI hallucination of Chinese nuclear components almost led to US Military attack",
-      "source": "Hacker News",
-      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-      "impact": -10,
-      "reason": "공격/악용, 환각 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Classifying coronary heart disease risk from NHANES survey data (2011-2018), with a full leakage audit and calibration check [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjp062/classifying_coronary_heart_disease_risk_from/",
-      "impact": -5,
-      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "DiffusionGemma: How It Generates Text in Parallel (From Scratch in PyTorch) [P]",
       "source": "r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wkdnns/diffusiongemma_how_it_generates_text_in_parallel/",
-      "impact": -3,
+      "impact": -2,
       "reason": "겨울 신호 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Inside the suddenly explosive world of AI safety",
+      "source": "Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "JMLR submission experience [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wk9hwm/jmlr_submission_experience_d/",
+      "impact": 1,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
