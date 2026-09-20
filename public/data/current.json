@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-20T13:19:06.946Z",
-  "generatedAtKst": "2026. 09. 20. 22:19",
-  "nextUpdateAt": "2026-09-20T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 21. 00:00",
+  "generatedAt": "2026-09-20T17:47:34.162Z",
+  "generatedAtKst": "2026. 09. 21. 02:47",
+  "nextUpdateAt": "2026-09-20T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 21. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 76,
     "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 43,
-    "coldCount": 5,
-    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 38,
+    "coldCount": 4,
+    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-17T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 17. 21:00",
           "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -232,7 +232,7 @@
           "publishedAtKst": "2026. 09. 20. 00:42",
           "summary": "An &#8220;AI moderate&#8217;s&#8221; view on recent events and the trajectory of frontier models.",
           "impact": 15,
-          "confidence": 76,
+          "confidence": 75,
           "stance": "accelerate",
           "tags": [
             "프런티어 모델",
@@ -264,10 +264,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 81,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 87,
       "trend": "hot",
       "items": [
         {
@@ -277,7 +277,7 @@
           "publishedAt": "2026-09-17T17:58:07.000Z",
           "publishedAtKst": "2026. 09. 18. 02:58",
           "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effe",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -295,8 +295,8 @@
           "publishedAt": "2026-09-17T17:59:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:59",
           "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\e",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 24,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -313,8 +313,8 @@
           "publishedAt": "2026-09-17T17:54:12.000Z",
           "publishedAtKst": "2026. 09. 18. 02:54",
           "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill",
-          "impact": 21,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -331,8 +331,8 @@
           "publishedAt": "2026-09-17T17:43:51.000Z",
           "publishedAtKst": "2026. 09. 18. 02:43",
           "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. Howev",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -349,8 +349,8 @@
           "publishedAt": "2026-09-17T17:40:04.000Z",
           "publishedAtKst": "2026. 09. 18. 02:40",
           "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimizatio",
-          "impact": 18,
-          "confidence": 84,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -366,44 +366,62 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
+      "score": 78,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "AAA AI – Autonomous AI agent squads for local and cloud LLMs",
-          "source": "Hacker News",
-          "url": "https://aaaai.me/",
-          "publishedAt": "2026-09-20T12:45:19.000Z",
-          "publishedAtKst": "2026. 09. 20. 21:45",
-          "summary": "2 points, 0 comments",
-          "impact": 22,
-          "confidence": 63,
+          "title": "GPT-6 Astra just defeated STS2 on its own for me (Computer use)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wliewc/gpt6_astra_just_defeated_sts2_on_its_own_for_me/",
+          "publishedAt": "2026-09-20T14:23:18.000Z",
+          "publishedAtKst": "2026. 09. 20. 23:23",
+          "summary": "It wasn't a perfect run. GPT-6 made mistakes and had a bloated deck of 38 at the end. But it won an A0 run. No save scumming or internet search. The biggest problem was how my usage limits kept running out. If it can con",
+          "impact": 27,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "자율성",
-            "LLM"
+            "AGI",
+            "GPT",
+            "컴퓨트"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: ColliePWA, a self-hosted mobile terminal for coding agents, with alerts",
+          "title": "I think Banks gets the destination right, but getting there could be economically ugly",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wlbp3f/i_think_banks_gets_the_destination_right_but/",
+          "publishedAt": "2026-09-20T08:42:27.000Z",
+          "publishedAtKst": "2026. 09. 20. 17:42",
+          "summary": "I've been reading Iain M. Banks recently, and what I find most interesting about the Culture is not the giant spaceships or even the superintelligent Minds. It is the economic assumption underneath the whole civilization",
+          "impact": 22,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "로보틱스",
+            "컴퓨트"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
           "source": "Hacker News",
-          "url": "https://colliepwa.dev/",
-          "publishedAt": "2026-09-20T13:04:12.000Z",
-          "publishedAtKst": "2026. 09. 20. 22:04",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
+          "url": "https://softwarecrisis.dev/letters/llmentalist/",
+          "publishedAt": "2026-09-20T12:20:13.000Z",
+          "publishedAtKst": "2026. 09. 20. 21:20",
+          "summary": "142 points, 202 comments",
+          "impact": 20,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini 3.8 Flash outperforms SOTA models at agentic CAD coding",
@@ -412,8 +430,8 @@
           "publishedAt": "2026-09-18T17:57:49.000Z",
           "publishedAtKst": "2026. 09. 19. 02:57",
           "summary": "2 points, 0 comments",
-          "impact": 18,
-          "confidence": 57,
+          "impact": 17,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -424,36 +442,20 @@
           "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Presence.el Online status and simple messaging for Emacs",
-          "source": "Hacker News",
-          "url": "https://git.andros.dev/andros/presence.el",
-          "publishedAt": "2026-09-20T13:00:26.000Z",
-          "publishedAtKst": "2026. 09. 20. 22:00",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What drives your optimism regarding a technological singularity?",
+          "title": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wl5c51/what_drives_your_optimism_regarding_a/",
-          "publishedAt": "2026-09-20T02:59:57.000Z",
-          "publishedAtKst": "2026. 09. 20. 11:59",
-          "summary": "I'm a masters student in computer science specializing in AI research. I am extremely passionate about AI technology and excited about its impacts but I am aware of some risks and challenges emerging around it also. I wo",
-          "impact": 15,
-          "confidence": 55,
+          "url": "https://www.reddit.com/r/singularity/comments/1wkwzzj/chatgpt6_astra_cracks_108yearold_unsolved_wwi/",
+          "publishedAt": "2026-09-19T20:40:52.000Z",
+          "publishedAtKst": "2026. 09. 20. 05:40",
+          "summary": "&#32; submitted by &#32; /u/Andune88 [link] &#32; [comments]",
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "컴퓨트",
-            "위험"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -463,38 +465,31 @@
       "title": "An Empirical Study of Harness Design for Coding Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20804v1",
-      "impact": 30,
+      "impact": 28,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "GPT-6 Astra just defeated STS2 on its own for me (Computer use)",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wliewc/gpt6_astra_just_defeated_sts2_on_its_own_for_me/",
+      "impact": 27,
+      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.20812v1",
-      "impact": 25,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "AAA AI – Autonomous AI agent squads for local and cloud LLMs",
-      "source": "Hacker News",
-      "url": "https://aaaai.me/",
-      "impact": 22,
+      "impact": 24,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "source": "Hacker News",
-      "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-      "impact": -4,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Astra, Fable, and MolmoAct2 were put to the test by tasking them with 4 harmful operations through a robotic arm, to see just how risky things can get",
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wkw0ln/astra_fable_and_molmoact2_were_put_to_the_test_by/",
-      "impact": -1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1wlku5v/lawsuit_says_anthropic_openai_spacexai_and_google/",
+      "impact": -4,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
@@ -502,6 +497,13 @@
       "url": "http://arxiv.org/abs/2609.20684v1",
       "impact": 6,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Defense of Gradual Disempowerment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "impact": 7,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
