@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T08:21:39.819Z",
-  "generatedAtKst": "2026. 09. 21. 17:21",
-  "nextUpdateAt": "2026-09-21T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 21. 18:00",
+  "generatedAt": "2026-09-21T15:28:47.283Z",
+  "generatedAtKst": "2026. 09. 22. 00:28",
+  "nextUpdateAt": "2026-09-21T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 22. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-12-02",
+    "medianDate": "2033-03-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-06",
-    "dday": 2264,
+    "rangeEnd": "2040-02-04",
+    "dday": 2354,
     "confidence": 76,
-    "deltaDays": -37,
+    "deltaDays": -34,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 75,
-    "temperature": 53,
+    "score": 73,
+    "temperature": 51,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 43,
-    "coldCount": 4,
-    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 35,
+    "coldCount": 3,
+    "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 71,
-      "delta": 5,
+      "score": 73,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How V7 gives AI agents institutional memory",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/v7",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "publishedAtKst": "2026. 09. 21. 09:00",
+          "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Reimagining advertising with AI",
           "source": "OpenAI News",
@@ -92,23 +108,6 @@
             "에이전트"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Now everyone can put data to work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/put-data-to-work",
-          "publishedAt": "2026-09-10T15:00:00.000Z",
-          "publishedAtKst": "2026. 09. 11. 00:00",
-          "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How Cooley is accelerating IPO work with ChatGPT",
@@ -266,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +278,8 @@
           "publishedAt": "2026-09-18T17:00:56.000Z",
           "publishedAtKst": "2026. 09. 19. 02:00",
           "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to",
-          "impact": 23,
-          "confidence": 89,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -297,8 +296,8 @@
           "publishedAt": "2026-09-18T17:59:56.000Z",
           "publishedAtKst": "2026. 09. 19. 02:59",
           "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual ada",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -315,8 +314,8 @@
           "publishedAt": "2026-09-18T15:55:29.000Z",
           "publishedAtKst": "2026. 09. 19. 00:55",
           "summary": "Long-term memory is essential for large language model (LLM) agents to maintain consistency and personalization over extended interactions. Existing memory systems typically rely on fixed granularities or static schemas,",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -333,8 +332,8 @@
           "publishedAt": "2026-09-18T17:55:17.000Z",
           "publishedAtKst": "2026. 09. 19. 02:55",
           "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development",
-          "impact": 19,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -351,8 +350,8 @@
           "publishedAt": "2026-09-18T17:46:28.000Z",
           "publishedAtKst": "2026. 09. 19. 02:46",
           "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse kn",
-          "impact": 17,
-          "confidence": 84,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -368,136 +367,125 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 67,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "We need to talk about Irregular",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wlqbfd/we_need_to_talk_about_irregular/",
-          "publishedAt": "2026-09-20T19:26:54.000Z",
-          "publishedAtKst": "2026. 09. 21. 04:26",
-          "summary": "You might have noticed a strange pattern in several of the recent stories about frontier AI agents \"escaping\" cybersecurity evaluations and attacking real systems. Anthropic had incidents. OpenAI had one. Meta had one. G",
-          "impact": 34,
-          "confidence": 58,
+          "title": "These Were NOT Rogue AI Escapes. Just SLOPPY Firewall Failures. [N]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wm9hgn/these_were_not_rogue_ai_escapes_just_sloppy/",
+          "publishedAt": "2026-09-21T10:55:42.000Z",
+          "publishedAtKst": "2026. 09. 21. 19:55",
+          "summary": "The headlines right now are full of stories about AI models \"escaping their sandboxes\" and literally killing all humans, lol. I've even heard several commentators and writers say that AI escaped an \"Air gap\". But that is",
+          "impact": 30,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "에이전트",
-            "자율성",
-            "추론"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT-6 Astra just defeated STS2 on its own for me (Computer use)",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wliewc/gpt6_astra_just_defeated_sts2_on_its_own_for_me/",
-          "publishedAt": "2026-09-20T14:23:18.000Z",
-          "publishedAtKst": "2026. 09. 20. 23:23",
-          "summary": "It wasn't a perfect run. GPT-6 made mistakes and had a bloated deck of 38 at the end. But it won an A0 run. No save scumming or internet search. The biggest problem was how my usage limits kept running out. If it can con",
-          "impact": 24,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "GPT",
-            "컴퓨트"
-          ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I think Banks gets the destination right, but getting there could be economically ugly",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wlbp3f/i_think_banks_gets_the_destination_right_but/",
-          "publishedAt": "2026-09-20T08:42:27.000Z",
-          "publishedAtKst": "2026. 09. 20. 17:42",
-          "summary": "I've been reading Iain M. Banks recently, and what I find most interesting about the Culture is not the giant spaceships or even the superintelligent Minds. It is the economic assumption underneath the whole civilization",
-          "impact": 20,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
+            "Gemini",
             "모델",
-            "로보틱스",
             "컴퓨트"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Diogo Almeida: Thoughts on a Typesafe Coding Agent",
+          "title": "Gemini 3.8 Flash outperforms SOTA models at agentic CAD coding",
           "source": "Hacker News",
-          "url": "https://docs.google.com/document/d/1G61uUB0FifUnmmrPzFQojZ3KpczYKmXGpgEXDJ2l_Zg/edit?usp=drivesdk",
-          "publishedAt": "2026-09-21T08:07:38.000Z",
-          "publishedAtKst": "2026. 09. 21. 17:07",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "url": "https://www.partforge.ai/evals",
+          "publishedAt": "2026-09-18T17:57:49.000Z",
+          "publishedAtKst": "2026. 09. 19. 02:57",
+          "summary": "2 points, 0 comments",
+          "impact": 13,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "Gemini",
+            "모델",
+            "성능 향상"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "If AI agents start taking over the internet, how is our money actually protected?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wlmopd/if_ai_agents_start_taking_over_the_internet_how/",
-          "publishedAt": "2026-09-20T17:10:30.000Z",
-          "publishedAtKst": "2026. 09. 21. 02:10",
-          "summary": "One of my immediate concerns with the latest concerns of AI agents taking over the internet that crossed my mind is money. I realized I have basically zero physical cash. Everything I own financially exists as numbers so",
-          "impact": 15,
-          "confidence": 48,
-          "stance": "accelerate",
+          "title": "Two Claudes for One",
+          "source": "Hacker News",
+          "url": "https://techstrong.ai/articles/two-claudes-for-one/",
+          "publishedAt": "2026-09-21T15:24:23.000Z",
+          "publishedAtKst": "2026. 09. 22. 00:24",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "에이전트",
-            "자율성"
+            "Claude"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "We Tested Jev on 100 Agent Tool Calls",
+          "source": "Hacker News",
+          "url": "https://archestra.ai/blog/we-tested-jev-on-100-real-agent-calls",
+          "publishedAt": "2026-09-21T15:16:30.000Z",
+          "publishedAtKst": "2026. 09. 22. 00:16",
+          "summary": "11 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Jev is good for agentic security use cases too",
+          "source": "Hacker News",
+          "url": "https://labs.vega.io/blog/bubble-sheets-for-secops/",
+          "publishedAt": "2026-09-21T15:14:07.000Z",
+          "publishedAtKst": "2026. 09. 22. 00:14",
+          "summary": "2 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "We need to talk about Irregular",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wlqbfd/we_need_to_talk_about_irregular/",
-      "impact": 34,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "These Were NOT Rogue AI Escapes. Just SLOPPY Firewall Failures. [N]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wm9hgn/these_were_not_rogue_ai_escapes_just_sloppy/",
+      "impact": 30,
+      "reason": "AGI, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "GPT-6 Astra just defeated STS2 on its own for me (Computer use)",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wliewc/gpt6_astra_just_defeated_sts2_on_its_own_for_me/",
-      "impact": 24,
-      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "How V7 gives AI agents institutional memory",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/v7",
+      "impact": 22,
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.22000v1",
-      "impact": 23,
+      "impact": 21,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "AI hallucination of Chinese nuclear components almost led to US Military attack",
-      "source": "Hacker News",
-      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-      "impact": -10,
-      "reason": "공격/악용, 환각 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "End-to-End Hard-Label Cryptanalytic Model Extraction Using Efficient Sign Recovery",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.21941v1",
-      "impact": 1,
+      "impact": 2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -506,6 +494,13 @@
       "url": "http://arxiv.org/abs/2609.22008v1",
       "impact": 4,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Defense of Gradual Disempowerment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "impact": 7,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
