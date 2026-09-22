@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T18:24:58.088Z",
-  "generatedAtKst": "2026. 09. 23. 03:24",
-  "nextUpdateAt": "2026-09-22T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 23. 06:00",
+  "generatedAt": "2026-09-22T23:22:48.067Z",
+  "generatedAtKst": "2026. 09. 23. 08:22",
+  "nextUpdateAt": "2026-09-23T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 23. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2083,
+    "rangeEnd": "2039-03-26",
+    "dday": 2038,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
-    "coldCount": 3,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 4,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,12 +71,45 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+          "publishedAt": "2026-09-22T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 22. 21:00",
+          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing GPT-6 Sol and Luna",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "publishedAt": "2026-09-22T18:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 03:00",
+          "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "모델"
+          ],
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How V7 gives AI agents institutional memory",
           "source": "OpenAI News",
@@ -84,7 +117,7 @@
           "publishedAt": "2026-09-21T00:00:00.000Z",
           "publishedAtKst": "2026. 09. 21. 09:00",
           "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -92,6 +125,21 @@
             "GPT"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Better prompt caching for GPT-6",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+          "publishedAt": "2026-09-22T21:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 06:00",
+          "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Priorities and principles for effective third party assessments",
@@ -109,53 +157,6 @@
             "안전 이슈"
           ],
           "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-          "publishedAt": "2026-09-21T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 21. 21:00",
-          "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Reimagining advertising with AI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "publishedAt": "2026-09-16T13:00:00.000Z",
-          "publishedAtKst": "2026. 09. 16. 22:00",
-          "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How Cooley is accelerating IPO work with ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/cooley-gopublic",
-          "publishedAt": "2026-09-17T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 17. 21:00",
-          "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -265,30 +266,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 90,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.24894v1",
-          "publishedAt": "2026-09-21T16:59:06.000Z",
-          "publishedAtKst": "2026. 09. 22. 01:59",
-          "summary": "Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch ",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "멀티모달"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution",
           "source": "arXiv",
@@ -308,13 +291,31 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.24894v1",
+          "publishedAt": "2026-09-21T16:59:06.000Z",
+          "publishedAtKst": "2026. 09. 22. 01:59",
+          "summary": "Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch ",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "멀티모달"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.24890v1",
           "publishedAt": "2026-09-21T16:55:24.000Z",
           "publishedAtKst": "2026. 09. 22. 01:55",
           "summary": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of en",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +333,7 @@
           "publishedAt": "2026-09-21T17:54:49.000Z",
           "publishedAtKst": "2026. 09. 22. 02:54",
           "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this pr",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +351,7 @@
           "publishedAt": "2026-09-21T17:39:51.000Z",
           "publishedAtKst": "2026. 09. 22. 02:39",
           "summary": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exact",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -397,14 +398,45 @@
           "publishedAt": "2026-09-22T15:16:18.000Z",
           "publishedAtKst": "2026. 09. 23. 00:16",
           "summary": "7 points, 1 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 18,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "GPT-6 Astra just made a leap in musical reasoning: it wrote a complex four-part Bach-style piece with no harmony-rule errors and techniques no previous AI managed",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wnjtqa/gpt6_astra_just_made_a_leap_in_musical_reasoning/",
+          "publishedAt": "2026-09-22T19:46:08.000Z",
+          "publishedAtKst": "2026. 09. 23. 04:46",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "GPT"
+          ],
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The race for AGI",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wnn1p8/the_race_for_agi/",
+          "publishedAt": "2026-09-22T21:45:54.000Z",
+          "publishedAtKst": "2026. 09. 23. 06:45",
+          "summary": "&#32; submitted by &#32; /u/FalconsArentReal [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Claude Opus 5.5 Benchmarks",
@@ -414,56 +446,18 @@
           "publishedAtKst": "2026. 09. 23. 01:29",
           "summary": "&#32; submitted by &#32; /u/FalconsArentReal [link] &#32; [comments]",
           "impact": 15,
-          "confidence": 50,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "Claude",
             "벤치마크"
           ],
           "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "[LEAK] OpenAI’s “Aeon” agent may launch this week, with GPT-6 Sol reportedly expected tomorrow",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wn0rvl/leak_openais_aeon_agent_may_launch_this_week_with/",
-          "publishedAt": "2026-09-22T05:36:22.000Z",
-          "publishedAtKst": "2026. 09. 22. 14:36",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Can I get 100k now?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wmxey1/can_i_get_100k_now/",
-          "publishedAt": "2026-09-22T02:44:56.000Z",
-          "publishedAtKst": "2026. 09. 22. 11:44",
-          "summary": "If AI can cook, then we have AGI. &#32; submitted by &#32; /u/sweatierorc [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.24894v1",
-      "impact": 36,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution",
       "source": "arXiv",
@@ -472,20 +466,34 @@
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.24894v1",
+      "impact": 34,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.24890v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "I Changed My Mind About AI Risk",
+      "title": "A Taxonomy for Navigating the Global Landscape of AI Regulation (2025)",
       "source": "Hacker News",
-      "url": "https://www.persuasion.community/p/why-i-changed-my-mind-about-ai-risk",
+      "url": "https://dl.acm.org/doi/10.1145/3715275.3732059",
+      "impact": -3,
+      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "The 'AI Safety' Movement Is Making AI Less Safe",
+      "source": "Hacker News",
+      "url": "https://reason.com/2026/09/22/the-ai-safety-movement-is-making-ai-less-safe/",
       "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Defense of Gradual Disempowerment",
@@ -493,13 +501,6 @@
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.24967v1",
-      "impact": 11,
-      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
