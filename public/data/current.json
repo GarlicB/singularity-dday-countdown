@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-23T13:57:48.014Z",
-  "generatedAtKst": "2026. 09. 23. 22:57",
-  "nextUpdateAt": "2026-09-23T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 24. 00:00",
+  "generatedAt": "2026-09-23T18:44:01.858Z",
+  "generatedAtKst": "2026. 09. 24. 03:44",
+  "nextUpdateAt": "2026-09-23T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 24. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 81,
     "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
+    "hotCount": 57,
     "coldCount": 6,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/ringg",
+          "publishedAt": "2026-09-24T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 24. 21:00",
+          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
           "source": "OpenAI News",
@@ -111,22 +127,6 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How V7 gives AI agents institutional memory",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/v7",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "publishedAtKst": "2026. 09. 21. 09:00",
-          "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Better prompt caching for GPT-6",
           "source": "OpenAI News",
           "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
@@ -142,21 +142,20 @@
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Priorities and principles for effective third party assessments",
+          "title": "How V7 gives AI agents institutional memory",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-          "publishedAt": "2026-09-22T00:00:00.000Z",
-          "publishedAtKst": "2026. 09. 22. 09:00",
-          "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-          "impact": 14,
+          "url": "https://openai.com/index/v7",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "publishedAtKst": "2026. 09. 21. 09:00",
+          "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "모델",
-            "안전 이슈"
+            "에이전트",
+            "GPT"
           ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,7 +163,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 78,
+      "score": 77,
       "delta": 7,
       "weight": 0.18,
       "confidence": 83,
@@ -225,21 +224,6 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
-          "publishedAt": "2026-09-22T07:00:00.000Z",
-          "publishedAtKst": "2026. 09. 22. 16:00",
-          "summary": "",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Claude"
-          ],
-          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Astra can do a concerning amount with no chain of thought",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
@@ -256,6 +240,21 @@
             "LLM"
           ],
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+          "publishedAt": "2026-09-22T07:00:00.000Z",
+          "publishedAtKst": "2026. 09. 22. 16:00",
+          "summary": "",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Claude"
+          ],
+          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -330,7 +329,7 @@
           "publishedAt": "2026-09-22T16:10:18.000Z",
           "publishedAtKst": "2026. 09. 23. 01:10",
           "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple cus",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,7 +347,7 @@
           "publishedAt": "2026-09-22T17:40:45.000Z",
           "publishedAtKst": "2026. 09. 23. 02:40",
           "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedbac",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -365,12 +364,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
+      "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "The meta-harness for coding agents",
+          "source": "Hacker News",
+          "url": "https://soloterm.com/",
+          "publishedAt": "2026-09-23T18:34:14.000Z",
+          "publishedAtKst": "2026. 09. 24. 03:34",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "EncryptedLLM: Privacy-Preserving Large Language Model Inference",
           "source": "Hacker News",
@@ -379,7 +394,7 @@
           "publishedAtKst": "2026. 09. 22. 16:53",
           "summary": "1 points, 0 comments",
           "impact": 16,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -395,8 +410,8 @@
           "publishedAt": "2026-09-22T15:16:18.000Z",
           "publishedAtKst": "2026. 09. 23. 00:16",
           "summary": "9 points, 1 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -405,19 +420,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The race for AGI",
+          "title": "GPT-6 Astra makes a massive leap on ZeroBench (an extremely difficult vision benchmark), surpassing the human baseline across all three metrics",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wnn1p8/the_race_for_agi/",
-          "publishedAt": "2026-09-22T21:45:54.000Z",
-          "publishedAtKst": "2026. 09. 23. 06:45",
-          "summary": "&#32; submitted by &#32; /u/FalconsArentReal [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "url": "https://www.reddit.com/r/singularity/comments/1wo5c7t/gpt6_astra_makes_a_massive_leap_on_zerobench_an/",
+          "publishedAt": "2026-09-23T13:00:23.000Z",
+          "publishedAtKst": "2026. 09. 23. 22:00",
+          "summary": "pass@5: Scores if at least one of the 5 attempts is correct pass^5: Scores only if all 5 attempts are correct (a reliability metric) \"pass@1\": Not a true single-attempt pass@1, it's the average score across 5 attempts. h",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "GPT",
+            "벤치마크"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "GPT-6 Astra just made a leap in musical reasoning: it wrote a complex four-part Bach-style piece with no harmony-rule errors and techniques no previous AI managed",
@@ -434,22 +450,6 @@
             "GPT"
           ],
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Claude Opus 5.5 Benchmarks",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wneb1u/claude_opus_55_benchmarks/",
-          "publishedAt": "2026-09-22T16:29:34.000Z",
-          "publishedAtKst": "2026. 09. 23. 01:29",
-          "summary": "&#32; submitted by &#32; /u/FalconsArentReal [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "벤치마크"
-          ],
-          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -479,11 +479,11 @@
   ],
   "topDampeners": [
     {
-      "title": "Why I Changed My Mind About AI Risk",
+      "title": "Illinois, California governors fast-track AI safety measures with EOs",
       "source": "Hacker News",
-      "url": "https://www.persuasion.community/p/why-i-changed-my-mind-about-ai-risk",
+      "url": "https://www.transparencycoalition.ai/news/illinois-california-governors-fast-track-ai-safety-measures-with-executive-orders",
       "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
