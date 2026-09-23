@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T23:22:48.067Z",
-  "generatedAtKst": "2026. 09. 23. 08:22",
-  "nextUpdateAt": "2026-09-23T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 23. 12:00",
+  "generatedAt": "2026-09-23T08:06:17.132Z",
+  "generatedAtKst": "2026. 09. 23. 17:06",
+  "nextUpdateAt": "2026-09-23T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 23. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-03-26",
-    "dday": 2038,
+    "dday": 2037,
     "confidence": 76,
     "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
-    "coldCount": 4,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 58,
+    "coldCount": 5,
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 88,
-      "delta": 8,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-22T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 22. 21:00",
           "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-09-21T00:00:00.000Z",
           "publishedAtKst": "2026. 09. 21. 09:00",
           "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -133,7 +133,7 @@
           "publishedAt": "2026-09-22T21:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 06:00",
           "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -167,7 +167,7 @@
       "score": 73,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -225,6 +225,21 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+          "publishedAt": "2026-09-22T07:00:00.000Z",
+          "publishedAtKst": "2026. 09. 22. 16:00",
+          "summary": "",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Claude"
+          ],
+          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Astra can do a concerning amount with no chain of thought",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
@@ -241,24 +256,6 @@
             "LLM"
           ],
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How good are slop-vestigators?",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
-          "publishedAt": "2026-09-08T22:13:19.000Z",
-          "publishedAtKst": "2026. 09. 09. 07:13",
-          "summary": "TLDR: We release MessageBoardAuditBench : a benchmark to measure how well agents can replicate the recent investigation into a swarm of OpenAI agents colluding via a message board on an online wiki. We open-source the be",
-          "impact": 13,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,101 +263,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
-      "delta": 10,
+      "score": 94,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution",
+          "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.24838v1",
-          "publishedAt": "2026-09-21T16:19:33.000Z",
-          "publishedAtKst": "2026. 09. 22. 01:19",
-          "summary": "Medical agents increasingly combine general reasoning models with specialized clinical tools, yet their capabilities remain largely fixed by what clinicians and engineers design before deployment. Recursive self-improvem",
+          "url": "http://arxiv.org/abs/2609.26796v1",
+          "publishedAt": "2026-09-22T17:59:57.000Z",
+          "publishedAtKst": "2026. 09. 23. 02:59",
+          "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by ineff",
           "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "자기개선",
-            "추론"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.24894v1",
-          "publishedAt": "2026-09-21T16:59:06.000Z",
-          "publishedAtKst": "2026. 09. 22. 01:59",
-          "summary": "Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch ",
-          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "추론",
             "LLM",
             "모델",
-            "멀티모달"
+            "벤치마크"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+          "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.24890v1",
-          "publishedAt": "2026-09-21T16:55:24.000Z",
-          "publishedAtKst": "2026. 09. 22. 01:55",
-          "summary": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of en",
-          "impact": 32,
+          "url": "http://arxiv.org/abs/2609.26779v1",
+          "publishedAt": "2026-09-22T17:55:59.000Z",
+          "publishedAtKst": "2026. 09. 23. 02:55",
+          "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "GPT",
             "Claude",
-            "LLM",
-            "모델"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+          "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.24972v1",
-          "publishedAt": "2026-09-21T17:54:49.000Z",
-          "publishedAtKst": "2026. 09. 22. 02:54",
-          "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this pr",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자기개선",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.24942v1",
-          "publishedAt": "2026-09-21T17:39:51.000Z",
-          "publishedAtKst": "2026. 09. 22. 02:39",
-          "summary": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exact",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2609.26667v1",
+          "publishedAt": "2026-09-22T16:27:46.000Z",
+          "publishedAtKst": "2026. 09. 23. 01:27",
+          "summary": "Collaboration topology shapes both the performance and execution cost of LLM-based multi-agent systems. Because tasks differ in complexity and required capabilities, recent approaches generate task-specific collaboration",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "모델",
-            "추론 벤치마크",
-            "컴퓨트"
+            "에이전트",
+            "LLM",
+            "벤치마크"
           ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.26637v1",
+          "publishedAt": "2026-09-22T16:10:18.000Z",
+          "publishedAtKst": "2026. 09. 23. 01:10",
+          "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple cus",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "GPT",
+            "모델"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.26760v1",
+          "publishedAt": "2026-09-22T17:40:45.000Z",
+          "publishedAtKst": "2026. 09. 23. 02:40",
+          "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedbac",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -371,9 +368,25 @@
       "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 55,
       "trend": "hot",
       "items": [
+        {
+          "title": "Recursive self-improvement of AI research agents",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2609.26457",
+          "publishedAt": "2026-09-23T07:07:09.000Z",
+          "publishedAtKst": "2026. 09. 23. 16:07",
+          "summary": "1 points, 0 comments",
+          "impact": 21,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자기개선"
+          ],
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "EncryptedLLM: Privacy-Preserving Large Language Model Inference",
           "source": "Hacker News",
@@ -381,8 +394,8 @@
           "publishedAt": "2026-09-22T07:53:37.000Z",
           "publishedAtKst": "2026. 09. 22. 16:53",
           "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -397,9 +410,9 @@
           "url": "https://news.ycombinator.com/item?id=49802729",
           "publishedAt": "2026-09-22T15:16:18.000Z",
           "publishedAtKst": "2026. 09. 23. 00:16",
-          "summary": "7 points, 1 comments",
-          "impact": 18,
-          "confidence": 59,
+          "summary": "8 points, 1 comments",
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -414,8 +427,8 @@
           "publishedAt": "2026-09-22T19:46:08.000Z",
           "publishedAtKst": "2026. 09. 23. 04:46",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -430,77 +443,61 @@
           "publishedAt": "2026-09-22T21:45:54.000Z",
           "publishedAtKst": "2026. 09. 23. 06:45",
           "summary": "&#32; submitted by &#32; /u/FalconsArentReal [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 50,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
           ],
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Claude Opus 5.5 Benchmarks",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wneb1u/claude_opus_55_benchmarks/",
-          "publishedAt": "2026-09-22T16:29:34.000Z",
-          "publishedAtKst": "2026. 09. 23. 01:29",
-          "summary": "&#32; submitted by &#32; /u/FalconsArentReal [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "벤치마크"
-          ],
-          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.24838v1",
+      "url": "http://arxiv.org/abs/2609.26796v1",
       "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.24894v1",
-      "impact": 34,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.24890v1",
-      "impact": 32,
-      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2609.26779v1",
+      "impact": 36,
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.26667v1",
+      "impact": 36,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "A Taxonomy for Navigating the Global Landscape of AI Regulation (2025)",
-      "source": "Hacker News",
-      "url": "https://dl.acm.org/doi/10.1145/3715275.3732059",
-      "impact": -3,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.26679v1",
+      "impact": 2,
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The 'AI Safety' Movement Is Making AI Less Safe",
-      "source": "Hacker News",
-      "url": "https://reason.com/2026/09/22/the-ai-safety-movement-is-making-ai-less-safe/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.26761v1",
+      "impact": 5,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.26631v1",
+      "impact": 5,
+      "reason": "전력 병목, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
