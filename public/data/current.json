@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-23T18:44:01.858Z",
-  "generatedAtKst": "2026. 09. 24. 03:44",
-  "nextUpdateAt": "2026-09-23T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 24. 06:00",
+  "generatedAt": "2026-09-23T23:20:20.032Z",
+  "generatedAtKst": "2026. 09. 24. 08:20",
+  "nextUpdateAt": "2026-09-24T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 24. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 1992,
+    "rangeEnd": "2039-05-10",
+    "dday": 2082,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
+    "hotCount": 54,
     "coldCount": 6,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,20 +71,37 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 79,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
+          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/airbnb-gpt-6-astra",
+          "publishedAt": "2026-09-23T01:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 10:00",
+          "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "GPT",
+            "모델"
+          ],
+          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
           "source": "OpenAI News",
           "url": "https://openai.com/index/ringg",
-          "publishedAt": "2026-09-24T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 24. 21:00",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 21:00",
           "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +117,7 @@
           "publishedAt": "2026-09-22T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 22. 21:00",
           "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +134,7 @@
           "publishedAt": "2026-09-22T18:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 03:00",
           "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -127,12 +144,12 @@
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Better prompt caching for GPT-6",
+          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-          "publishedAt": "2026-09-22T21:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 06:00",
-          "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 21:00",
+          "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
           "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
@@ -140,22 +157,6 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How V7 gives AI agents institutional memory",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/v7",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "publishedAtKst": "2026. 09. 21. 09:00",
-          "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -262,7 +263,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -287,24 +288,6 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.26779v1",
-          "publishedAt": "2026-09-22T17:55:59.000Z",
-          "publishedAtKst": "2026. 09. 23. 02:55",
-          "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Claude",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.26667v1",
@@ -323,13 +306,31 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.26779v1",
+          "publishedAt": "2026-09-22T17:55:59.000Z",
+          "publishedAtKst": "2026. 09. 23. 02:55",
+          "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "Claude",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.26637v1",
           "publishedAt": "2026-09-22T16:10:18.000Z",
           "publishedAtKst": "2026. 09. 23. 01:10",
           "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple cus",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +348,7 @@
           "publishedAt": "2026-09-22T17:40:45.000Z",
           "publishedAtKst": "2026. 09. 23. 02:40",
           "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedbac",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -364,27 +365,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 61,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "The meta-harness for coding agents",
-          "source": "Hacker News",
-          "url": "https://soloterm.com/",
-          "publishedAt": "2026-09-23T18:34:14.000Z",
-          "publishedAtKst": "2026. 09. 24. 03:34",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "How do you split AI models across ideation, math, and coding?[D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnzols/how_do_you_split_ai_models_across_ideation_math/",
+          "publishedAt": "2026-09-23T07:59:39.000Z",
+          "publishedAtKst": "2026. 09. 23. 16:59",
+          "summary": "Hi, I'm a freshly graduated (undergrad) guy currently working on 3–4 projects in parallel: - An AI research project: working on a research problem statement, aiming towards a paper publication - New corporate work at a p",
+          "impact": 23,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "ChatGPT",
+            "GPT",
+            "Claude",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "EncryptedLLM: Privacy-Preserving Large Language Model Inference",
@@ -393,7 +396,7 @@
           "publishedAt": "2026-09-22T07:53:37.000Z",
           "publishedAtKst": "2026. 09. 22. 16:53",
           "summary": "1 points, 0 comments",
-          "impact": 16,
+          "impact": 15,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -420,36 +423,35 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-6 Astra makes a massive leap on ZeroBench (an extremely difficult vision benchmark), surpassing the human baseline across all three metrics",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wo5c7t/gpt6_astra_makes_a_massive_leap_on_zerobench_an/",
-          "publishedAt": "2026-09-23T13:00:23.000Z",
-          "publishedAtKst": "2026. 09. 23. 22:00",
-          "summary": "pass@5: Scores if at least one of the 5 attempts is correct pass^5: Scores only if all 5 attempts are correct (a reliability metric) \"pass@1\": Not a true single-attempt pass@1, it's the average score across 5 attempts. h",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
+          "title": "Fire in the brain: How psychosis may arise when the body attacks itself",
+          "source": "Hacker News",
+          "url": "https://knowablemagazine.org/content/article/mind/2026/new-research-on-autoimmune-causes-of-psychosis",
+          "publishedAt": "2026-09-23T23:12:04.000Z",
+          "publishedAtKst": "2026. 09. 24. 08:12",
+          "summary": "1 points, 0 comments",
+          "impact": -11,
+          "confidence": 56,
+          "stance": "decelerate",
           "tags": [
-            "GPT",
-            "벤치마크"
+            "공격/악용"
           ],
-          "why": "GPT, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
-          "title": "GPT-6 Astra just made a leap in musical reasoning: it wrote a complex four-part Bach-style piece with no harmony-rule errors and techniques no previous AI managed",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wnjtqa/gpt6_astra_just_made_a_leap_in_musical_reasoning/",
-          "publishedAt": "2026-09-22T19:46:08.000Z",
-          "publishedAtKst": "2026. 09. 23. 04:46",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
+          "title": "Lifelogging with Large Language Models",
+          "source": "Hacker News",
+          "url": "https://jaan.io/lifelogging-with-large-language-models",
+          "publishedAt": "2026-09-23T14:03:14.000Z",
+          "publishedAtKst": "2026. 09. 23. 23:03",
+          "summary": "5 points, 0 comments",
+          "impact": 11,
+          "confidence": 54,
+          "stance": "watch",
           "tags": [
-            "추론",
-            "GPT"
+            "LLM",
+            "모델"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -470,20 +472,20 @@
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.26779v1",
+      "url": "http://arxiv.org/abs/2609.26667v1",
       "impact": 36,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Illinois, California governors fast-track AI safety measures with EOs",
+      "title": "Fire in the brain: How psychosis may arise when the body attacks itself",
       "source": "Hacker News",
-      "url": "https://www.transparencycoalition.ai/news/illinois-california-governors-fast-track-ai-safety-measures-with-executive-orders",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://knowablemagazine.org/content/article/mind/2026/new-research-on-autoimmune-causes-of-psychosis",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
