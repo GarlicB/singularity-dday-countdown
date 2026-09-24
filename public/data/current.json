@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-23T23:20:20.032Z",
-  "generatedAtKst": "2026. 09. 24. 08:20",
-  "nextUpdateAt": "2026-09-24T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 24. 12:00",
+  "generatedAt": "2026-09-24T07:57:43.717Z",
+  "generatedAtKst": "2026. 09. 24. 16:57",
+  "nextUpdateAt": "2026-09-24T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 24. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2082,
+    "rangeEnd": "2039-03-26",
+    "dday": 2036,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
-    "coldCount": 6,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 51,
+    "coldCount": 3,
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,22 +47,22 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-23T01:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 10:00",
           "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-          "impact": 25,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-09-23T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 21:00",
           "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-09-22T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 22. 21:00",
           "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -126,6 +126,22 @@
             "모델"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+          "publishedAt": "2026-09-23T02:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 11:00",
+          "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+          "impact": 20,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Introducing GPT-6 Sol and Luna",
@@ -142,21 +158,6 @@
             "모델"
           ],
           "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:00",
-          "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,12 +165,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.18,
-      "confidence": 83,
+      "confidence": 81,
       "trend": "hot",
       "items": [
+        {
+          "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
+          "publishedAt": "2026-09-23T06:58:59.000Z",
+          "publishedAtKst": "2026. 09. 23. 15:58",
+          "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "Gemini"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Why I'm scared of RL",
           "source": "Alignment Forum",
@@ -177,7 +196,7 @@
           "publishedAt": "2026-09-23T12:07:33.000Z",
           "publishedAtKst": "2026. 09. 23. 21:07",
           "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 36,
+          "impact": 33,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -241,21 +260,6 @@
             "LLM"
           ],
           "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
-          "publishedAt": "2026-09-22T07:00:00.000Z",
-          "publishedAtKst": "2026. 09. 22. 16:00",
-          "summary": "",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Claude"
-          ],
-          "why": "Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,20 +267,38 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 88,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+          "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.26796v1",
-          "publishedAt": "2026-09-22T17:59:57.000Z",
-          "publishedAtKst": "2026. 09. 23. 02:59",
-          "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by ineff",
+          "url": "http://arxiv.org/abs/2609.28416v1",
+          "publishedAt": "2026-09-23T17:18:26.000Z",
+          "publishedAtKst": "2026. 09. 24. 02:18",
+          "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environ",
           "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Learning the Cost of Reliable Inference",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.28322v1",
+          "publishedAt": "2026-09-23T16:01:50.000Z",
+          "publishedAtKst": "2026. 09. 24. 01:01",
+          "summary": "Benchmarking and routing platforms increasingly act as intermediaries connecting large language model providers with end-users. However, providers on these platforms typically use a fixed price per token, preventing user",
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -288,76 +310,58 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+          "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.26667v1",
-          "publishedAt": "2026-09-22T16:27:46.000Z",
-          "publishedAtKst": "2026. 09. 23. 01:27",
-          "summary": "Collaboration topology shapes both the performance and execution cost of LLM-based multi-agent systems. Because tasks differ in complexity and required capabilities, recent approaches generate task-specific collaboration",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "LLM",
-            "벤치마크"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.26779v1",
-          "publishedAt": "2026-09-22T17:55:59.000Z",
-          "publishedAtKst": "2026. 09. 23. 02:55",
-          "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that",
-          "impact": 34,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Claude",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.26637v1",
-          "publishedAt": "2026-09-22T16:10:18.000Z",
-          "publishedAtKst": "2026. 09. 23. 01:10",
-          "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple cus",
-          "impact": 34,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "프런티어 모델",
-            "GPT",
-            "모델"
-          ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.26760v1",
-          "publishedAt": "2026-09-22T17:40:45.000Z",
-          "publishedAtKst": "2026. 09. 23. 02:40",
-          "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedbac",
+          "url": "http://arxiv.org/abs/2609.28449v1",
+          "publishedAt": "2026-09-23T17:46:50.000Z",
+          "publishedAtKst": "2026. 09. 24. 02:46",
+          "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and ",
           "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
             "추론",
             "LLM",
-            "모델"
+            "모델",
+            "벤치마크"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.28467v1",
+          "publishedAt": "2026-09-23T17:55:48.000Z",
+          "publishedAtKst": "2026. 09. 24. 02:55",
+          "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity a",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "모델",
+            "멀티모달",
+            "추론 인프라"
+          ],
+          "why": "자율성, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.28366v1",
+          "publishedAt": "2026-09-23T16:38:06.000Z",
+          "publishedAtKst": "2026. 09. 24. 01:38",
+          "summary": "Vision-language models (VLMs) offer a promising approach to long-tail autonomous driving, but existing driving datasets provide limited supervision for connecting decision-critical visual evidence with reasoning and plan",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -365,10 +369,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 61,
-      "delta": 3,
+      "score": 68,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -378,8 +382,8 @@
           "publishedAt": "2026-09-23T07:59:39.000Z",
           "publishedAtKst": "2026. 09. 23. 16:59",
           "summary": "Hi, I'm a freshly graduated (undergrad) guy currently working on 3–4 projects in parallel: - An AI research project: working on a research problem statement, aiming towards a paper publication - New corporate work at a p",
-          "impact": 23,
-          "confidence": 59,
+          "impact": 21,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -396,8 +400,8 @@
           "publishedAt": "2026-09-22T07:53:37.000Z",
           "publishedAtKst": "2026. 09. 22. 16:53",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -413,29 +417,14 @@
           "publishedAt": "2026-09-22T15:16:18.000Z",
           "publishedAtKst": "2026. 09. 23. 00:16",
           "summary": "9 points, 1 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Fire in the brain: How psychosis may arise when the body attacks itself",
-          "source": "Hacker News",
-          "url": "https://knowablemagazine.org/content/article/mind/2026/new-research-on-autoimmune-causes-of-psychosis",
-          "publishedAt": "2026-09-23T23:12:04.000Z",
-          "publishedAtKst": "2026. 09. 24. 08:12",
-          "summary": "1 points, 0 comments",
-          "impact": -11,
-          "confidence": 56,
-          "stance": "decelerate",
-          "tags": [
-            "공격/악용"
-          ],
-          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Lifelogging with Large Language Models",
@@ -445,11 +434,26 @@
           "publishedAtKst": "2026. 09. 23. 23:03",
           "summary": "5 points, 0 comments",
           "impact": 11,
-          "confidence": 54,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
             "LLM",
             "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Were agents breaching my site?",
+          "source": "Hacker News",
+          "url": "https://blog.matzielab.com/were-agents-breaching-my-site/",
+          "publishedAt": "2026-09-24T07:49:45.000Z",
+          "publishedAtKst": "2026. 09. 24. 16:49",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -458,48 +462,48 @@
   ],
   "topDrivers": [
     {
-      "title": "Why I'm scared of RL",
+      "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
       "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+      "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
       "impact": 36,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.26796v1",
+      "url": "http://arxiv.org/abs/2609.28416v1",
       "impact": 36,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.26667v1",
-      "impact": 36,
+      "title": "Why I'm scared of RL",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+      "impact": 33,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Fire in the brain: How psychosis may arise when the body attacks itself",
-      "source": "Hacker News",
-      "url": "https://knowablemagazine.org/content/article/mind/2026/new-research-on-autoimmune-causes-of-psychosis",
-      "impact": -11,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.28378v1",
+      "impact": 4,
+      "reason": "저작권, 규제 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.26679v1",
-      "impact": 2,
-      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "A Defense of Gradual Disempowerment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "impact": 6,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.26761v1",
-      "impact": 5,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2609.28335v1",
+      "impact": 11,
+      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
