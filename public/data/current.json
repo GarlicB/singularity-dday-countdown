@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-24T18:44:47.682Z",
-  "generatedAtKst": "2026. 09. 25. 03:44",
-  "nextUpdateAt": "2026-09-24T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 25. 06:00",
+  "generatedAt": "2026-09-24T23:40:39.306Z",
+  "generatedAtKst": "2026. 09. 25. 08:40",
+  "nextUpdateAt": "2026-09-25T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 25. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
+    "hotCount": 52,
     "coldCount": 4,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-23T01:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 10:00",
           "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -111,23 +111,6 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-          "publishedAt": "2026-09-22T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 22. 21:00",
-          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
           "source": "OpenAI News",
           "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
@@ -144,20 +127,36 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing GPT-6 Sol and Luna",
+          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-          "publishedAt": "2026-09-22T18:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 03:00",
-          "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+          "publishedAt": "2026-09-22T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 22. 21:00",
+          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing Gemini 3.8 Live with Live Avatar",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "publishedAt": "2026-09-24T16:20:39.000Z",
+          "publishedAtKst": "2026. 09. 25. 01:20",
+          "summary": "",
           "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "모델"
+            "Gemini"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -214,7 +213,7 @@
           "publishedAt": "2026-09-23T12:07:33.000Z",
           "publishedAtKst": "2026. 09. 23. 21:07",
           "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 30,
+          "impact": 29,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -267,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
+      "score": 85,
       "delta": 9,
       "weight": 0.28,
       "confidence": 92,
@@ -280,7 +279,7 @@
           "publishedAt": "2026-09-23T17:18:26.000Z",
           "publishedAtKst": "2026. 09. 24. 02:18",
           "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environ",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -298,7 +297,7 @@
           "publishedAt": "2026-09-23T16:01:50.000Z",
           "publishedAtKst": "2026. 09. 24. 01:01",
           "summary": "Benchmarking and routing platforms increasingly act as intermediaries connecting large language model providers with end-users. However, providers on these platforms typically use a fixed price per token, preventing user",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -316,7 +315,7 @@
           "publishedAt": "2026-09-23T17:46:50.000Z",
           "publishedAtKst": "2026. 09. 24. 02:46",
           "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and ",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -334,7 +333,7 @@
           "publishedAt": "2026-09-23T17:55:48.000Z",
           "publishedAtKst": "2026. 09. 24. 02:55",
           "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity a",
-          "impact": 24,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -353,7 +352,7 @@
           "publishedAtKst": "2026. 09. 24. 00:27",
           "summary": "Diffusion Language Models (DLMs) have attracted significant attention for their strong reasoning ability. However, under a bidirectional attention mechanism, DLMs operate over an exponentially large exploration space com",
           "impact": 23,
-          "confidence": 91,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -369,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
@@ -382,8 +381,8 @@
           "publishedAt": "2026-09-24T04:06:52.000Z",
           "publishedAtKst": "2026. 09. 24. 13:06",
           "summary": "Turn sound on for this video. Just for people who might be wondering, this video is based on Sydney, a GPT4 model given to microsoft with a very different RLHF from the OpenAI model. Here is a chatlog from it: https://we",
-          "impact": 23,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -394,37 +393,53 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Can we take a moment to appreciate that with 950 Claude agents running for only 21 hours searching genomic data, Anthropic may have found a new CRISPR-like gene-editing mechanism",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wohzqj/can_we_take_a_moment_to_appreciate_that_with_950/",
-          "publishedAt": "2026-09-23T20:55:58.000Z",
-          "publishedAtKst": "2026. 09. 24. 05:55",
-          "summary": "Not even a month OpenAI was able to Navier-Stokes by running 10,000 agents for 80 or so hours. Now in 21 hours and with less than a thousand agents Anthropic was able to find a candidate protein for gene editing, the imp",
-          "impact": 18,
-          "confidence": 51,
+          "title": "SWE-Serve: Benchmarking Agentic Engineering for Production Inference Serving",
+          "source": "Hacker News",
+          "url": "https://research.nvidia.com/benchmarks/swe-serve",
+          "publishedAt": "2026-09-24T23:34:34.000Z",
+          "publishedAtKst": "2026. 09. 25. 08:34",
+          "summary": "1 points, 0 comments",
+          "impact": 20,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Claude",
-            "컴퓨트"
+            "벤치마크",
+            "추론 인프라"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The moment Claude agents discover a new molecular mechanism, talking as if they were human, using interjections and cues",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wognfz/the_moment_claude_agents_discover_a_new_molecular/",
-          "publishedAt": "2026-09-23T20:03:58.000Z",
-          "publishedAtKst": "2026. 09. 24. 05:03",
-          "summary": "&#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "title": "Show HN: Jev-browse – browser sub-tasks for coding agents at ~1/3 the cost",
+          "source": "Hacker News",
+          "url": "https://github.com/danielnc/jev-browse",
+          "publishedAt": "2026-09-24T23:08:04.000Z",
+          "publishedAtKst": "2026. 09. 25. 08:08",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Claude"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Valen: A multimodal decision model inspired by Jev",
+          "source": "Hacker News",
+          "url": "https://github.com/Liuziyu77/Valen",
+          "publishedAt": "2026-09-24T23:15:27.000Z",
+          "publishedAtKst": "2026. 09. 25. 08:15",
+          "summary": "1 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "모델",
+            "멀티모달"
+          ],
+          "why": "모델, 멀티모달 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Lifelogging with Large Language Models",
@@ -433,31 +448,14 @@
           "publishedAt": "2026-09-24T17:24:07.000Z",
           "publishedAtKst": "2026. 09. 25. 02:24",
           "summary": "1 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
+          "impact": 11,
+          "confidence": 54,
+          "stance": "watch",
           "tags": [
             "LLM",
             "모델"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "EncryptedLLM: Privacy-Preserving Large Language Model Inference",
-          "source": "Hacker News",
-          "url": "https://ICML.cc/virtual/2025/poster/45395",
-          "publishedAt": "2026-09-22T07:53:37.000Z",
-          "publishedAtKst": "2026. 09. 22. 16:53",
-          "summary": "1 points, 0 comments",
-          "impact": 12,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -481,16 +479,16 @@
       "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.28416v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "OpenAI, Anthropic CEOs urge UN countries to cooperate on AI safety standards",
-      "source": "Hacker News",
-      "url": "https://slashdot.org/story/26/09/24/0338213/openai-anthropic-ceos-urge-un-countries-to-cooperate-on-ai-safety-standards",
-      "impact": -2,
+      "title": "Google, OpenAI and Anthropic are reportedly forming their own frontier-AI safety authority, potentially testing models before release without government oversight",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp7lhu/google_openai_and_anthropic_are_reportedly/",
+      "impact": 1,
       "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
