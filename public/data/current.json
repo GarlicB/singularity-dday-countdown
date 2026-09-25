@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T19:01:58.482Z",
-  "generatedAtKst": "2026. 09. 26. 04:01",
-  "nextUpdateAt": "2026-09-25T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 26. 06:00",
+  "generatedAt": "2026-09-25T23:41:55.886Z",
+  "generatedAtKst": "2026. 09. 26. 08:41",
+  "nextUpdateAt": "2026-09-26T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 26. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 78,
     "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 3,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 5,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,29 +71,12 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/airbnb-gpt-6-astra",
-          "publishedAt": "2026-09-23T01:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 10:00",
-          "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-          "impact": 18,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "GPT",
-            "모델"
-          ],
-          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
           "source": "OpenAI News",
@@ -126,13 +109,30 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/airbnb-gpt-6-astra",
+          "publishedAt": "2026-09-23T01:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 10:00",
+          "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+          "impact": 17,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "GPT",
+            "모델"
+          ],
+          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
           "source": "OpenAI News",
           "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
           "publishedAt": "2026-09-23T02:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 11:00",
           "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -148,7 +148,7 @@
           "publishedAt": "2026-09-22T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 22. 21:00",
           "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -164,8 +164,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -177,7 +177,7 @@
           "publishedAt": "2026-09-23T18:01:49.000Z",
           "publishedAtKst": "2026. 09. 24. 03:01",
           "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in la",
-          "impact": 32,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -195,7 +195,7 @@
           "publishedAt": "2026-09-23T06:58:59.000Z",
           "publishedAtKst": "2026. 09. 23. 15:58",
           "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
-          "impact": 29,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -213,7 +213,7 @@
           "publishedAt": "2026-09-23T12:07:33.000Z",
           "publishedAtKst": "2026. 09. 23. 21:07",
           "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 24,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +315,7 @@
           "publishedAt": "2026-09-24T17:46:27.000Z",
           "publishedAtKst": "2026. 09. 25. 02:46",
           "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +333,7 @@
           "publishedAt": "2026-09-24T17:41:16.000Z",
           "publishedAtKst": "2026. 09. 25. 02:41",
           "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-09-24T17:12:39.000Z",
           "publishedAtKst": "2026. 09. 25. 02:12",
           "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,12 +368,44 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 66,
-      "delta": 4,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 48,
+      "confidence": 50,
       "trend": "hot",
       "items": [
+        {
+          "title": "Speculative Reward Hacking in Coding Agents",
+          "source": "Hacker News",
+          "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/",
+          "publishedAt": "2026-09-25T23:13:52.000Z",
+          "publishedAtKst": "2026. 09. 26. 08:13",
+          "summary": "1 points, 1 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "In just 100 days, AI crossed into real medical work. 37,000 agents searched 55,000 trials for new treatments, an AI-designed pulmonary fibrosis drug entered Phase III, and an autonomous medical agent beat doctors on ER diagnosis, 87.8% to 78.1%",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/",
+          "publishedAt": "2026-09-25T19:11:38.000Z",
+          "publishedAtKst": "2026. 09. 26. 04:11",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "President Xi apparently likes the idea of renaming AI to \"Superintelligence\"",
           "source": "r/singularity",
@@ -381,29 +413,13 @@
           "publishedAt": "2026-09-25T14:29:36.000Z",
           "publishedAtKst": "2026. 09. 25. 23:29",
           "summary": "(This is real) https://truthsocial.com/@realDonaldTrump/117331749278785253 What is happening genuinely &#32; submitted by &#32; /u/OmegaGogeta [link] &#32; [comments]",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "초지능"
           ],
           "why": "초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI appears to be working on a higher-end ChatGPT plan called “Pro Max” this new tier could cost between $500 and $1000 USD",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wpfd43/openai_appears_to_be_working_on_a_higherend/",
-          "publishedAt": "2026-09-24T22:17:25.000Z",
-          "publishedAtKst": "2026. 09. 25. 07:17",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "C5R built a research facility that is run entirely by GPT-6 Astra - the model designs, executes, and observes experiments end-to-end across biology, chemistry, and materials science - it controls people and instruments around",
@@ -429,26 +445,11 @@
           "publishedAtKst": "2026. 09. 25. 11:12",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
           "impact": 11,
-          "confidence": 46,
+          "confidence": 45,
           "stance": "watch",
           "tags": [
             "GPT",
             "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Agentic CUDA Kernel Optimizer",
-          "source": "Hacker News",
-          "url": "https://github.com/bertaye/agentic-cuda-optimizer",
-          "publishedAt": "2026-09-25T10:32:58.000Z",
-          "publishedAtKst": "2026. 09. 25. 19:32",
-          "summary": "29 points, 10 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -474,31 +475,31 @@
       "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30217v1",
-      "impact": 34,
+      "impact": 33,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Prompt Injection in the Wild",
+      "source": "Hacker News",
+      "url": "https://cybershujin.github.io/Prompt-Injection-in-the-Wild/",
+      "impact": -4,
+      "reason": "프롬프트 인젝션 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Show HN: I wrote a book on trading psychology, Daoism, and quant risk",
+      "source": "Hacker News",
+      "url": "https://bayrising.dev/#book",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30258v1",
       "impact": 1,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Continual learning might make your blocking monitors nearly useless",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
-      "impact": 18,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
