@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T08:20:10.561Z",
-  "generatedAtKst": "2026. 09. 25. 17:20",
-  "nextUpdateAt": "2026-09-25T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 25. 18:00",
+  "generatedAt": "2026-09-25T14:18:00.947Z",
+  "generatedAtKst": "2026. 09. 25. 23:18",
+  "nextUpdateAt": "2026-09-25T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 26. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2125,
+    "rangeEnd": "2039-05-10",
+    "dday": 2080,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
-    "coldCount": 4,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 5,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-23T01:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 10:00",
           "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-09-23T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 21:00",
           "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-09-23T02:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 11:00",
           "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -133,7 +133,7 @@
           "publishedAt": "2026-09-22T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 22. 21:00",
           "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-09-24T16:20:39.000Z",
           "publishedAtKst": "2026. 09. 25. 01:20",
           "summary": "",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -164,7 +164,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 79,
+      "score": 77,
       "delta": 7,
       "weight": 0.18,
       "confidence": 82,
@@ -177,7 +177,7 @@
           "publishedAt": "2026-09-23T18:01:49.000Z",
           "publishedAtKst": "2026. 09. 24. 03:01",
           "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in la",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -195,7 +195,7 @@
           "publishedAt": "2026-09-23T06:58:59.000Z",
           "publishedAtKst": "2026. 09. 23. 15:58",
           "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
-          "impact": 33,
+          "impact": 31,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -213,7 +213,7 @@
           "publishedAt": "2026-09-23T12:07:33.000Z",
           "publishedAtKst": "2026. 09. 23. 21:07",
           "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 27,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -231,7 +231,7 @@
           "publishedAt": "2026-09-24T23:45:34.000Z",
           "publishedAtKst": "2026. 09. 25. 08:45",
           "summary": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing ",
-          "impact": 20,
+          "impact": 19,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -266,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -309,24 +309,6 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.30205v1",
-          "publishedAt": "2026-09-24T17:41:16.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:41",
-          "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.30147v1",
@@ -345,13 +327,31 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.30205v1",
+          "publishedAt": "2026-09-24T17:41:16.000Z",
+          "publishedAtKst": "2026. 09. 25. 02:41",
+          "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.30150v1",
           "publishedAt": "2026-09-24T17:12:39.000Z",
           "publishedAtKst": "2026. 09. 25. 02:12",
           "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,88 +368,87 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 58,
-      "delta": 2,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Lifelogging with Large Language Models",
+          "title": "Tell HN: AGI Is Here",
           "source": "Hacker News",
-          "url": "https://jaan.io/lifelogging-with-large-language-models",
-          "publishedAt": "2026-09-24T17:24:07.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:24",
-          "summary": "1 points, 0 comments",
-          "impact": 11,
-          "confidence": 53,
-          "stance": "watch",
+          "url": "https://news.ycombinator.com/item?id=49844960",
+          "publishedAt": "2026-09-25T14:11:59.000Z",
+          "publishedAtKst": "2026. 09. 25. 23:11",
+          "summary": "2 points, 1 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "AGI"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Can an AI agent bypass a post-quantum signed authorization policy?",
+          "title": "Entropy-Based Guided Collaboration in Heterogeneous LLM Multi-Agent Systems",
           "source": "Hacker News",
-          "url": "https://github.com/max-russo-com/MAX_AUTHORIZATION_SANDBOX",
-          "publishedAt": "2026-09-25T07:55:01.000Z",
-          "publishedAtKst": "2026. 09. 25. 16:55",
+          "url": "https://arxiv.org/abs/2602.13639",
+          "publishedAt": "2026-09-25T14:12:31.000Z",
+          "publishedAtKst": "2026. 09. 25. 23:12",
           "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OpenAI appears to be working on a higher-end ChatGPT plan called “Pro Max” this new tier could cost between $500 and $1000 USD",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wpfd43/openai_appears_to_be_working_on_a_higherend/",
+          "publishedAt": "2026-09-24T22:17:25.000Z",
+          "publishedAtKst": "2026. 09. 25. 07:17",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Benchmarking Jev, Laya, and five open models under three stresses",
+          "source": "Hacker News",
+          "url": "https://github.com/gazelle93/decision-models-under-pressure",
+          "publishedAt": "2026-09-25T13:49:30.000Z",
+          "publishedAtKst": "2026. 09. 25. 22:49",
+          "summary": "2 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "모델",
+            "벤치마크"
+          ],
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Agentic CUDA Kernel Optimizer",
+          "source": "Hacker News",
+          "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+          "publishedAt": "2026-09-25T10:32:58.000Z",
+          "publishedAtKst": "2026. 09. 25. 19:32",
+          "summary": "25 points, 4 comments",
+          "impact": 11,
+          "confidence": 54,
           "stance": "watch",
           "tags": [
             "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Quiet-guardrails: Claude Code manual mode, minus the nagging",
-          "source": "Hacker News",
-          "url": "https://github.com/SeanMcMillan/quiet-guardrails",
-          "publishedAt": "2026-09-25T07:35:12.000Z",
-          "publishedAtKst": "2026. 09. 25. 16:35",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49802729",
-          "publishedAt": "2026-09-22T15:16:18.000Z",
-          "publishedAtKst": "2026. 09. 23. 00:16",
-          "summary": "9 points, 1 comments",
-          "impact": 10,
-          "confidence": 51,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "EncryptedLLM: Privacy-Preserving Large Language Model Inference",
-          "source": "Hacker News",
-          "url": "https://ICML.cc/virtual/2025/poster/45395",
-          "publishedAt": "2026-09-22T07:53:37.000Z",
-          "publishedAtKst": "2026. 09. 22. 16:53",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 50,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델",
-            "추론 인프라"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -457,13 +456,6 @@
     }
   ],
   "topDrivers": [
-    {
-      "title": "Latent reasoning architectures would undermine CoT, our strongest oversight tool",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "Coding Agents for Generalized Task and Motion Planning Problems",
       "source": "arXiv",
@@ -477,9 +469,23 @@
       "url": "http://arxiv.org/abs/2609.30217v1",
       "impact": 36,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.30147v1",
+      "impact": 36,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "The US stood alone in dismissing AI safety concerns at the UN",
+      "source": "Hacker News",
+      "url": "https://www.semafor.com/article/09/25/2026/white-house-is-isolated-in-brushing-off-ai-safety",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
       "source": "arXiv",
@@ -493,13 +499,6 @@
       "url": "https://www.reddit.com/r/singularity/comments/1wp7lhu/google_openai_and_anthropic_are_reportedly/",
       "impact": 1,
       "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
