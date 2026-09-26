@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-26T18:09:46.516Z",
-  "generatedAtKst": "2026. 09. 27. 03:09",
-  "nextUpdateAt": "2026-09-26T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 27. 06:00",
+  "generatedAt": "2026-09-26T23:14:34.896Z",
+  "generatedAtKst": "2026. 09. 27. 08:14",
+  "nextUpdateAt": "2026-09-27T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 27. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2169,
+    "rangeEnd": "2039-06-24",
+    "dday": 2124,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
+    "hotCount": 50,
     "coldCount": 3,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-25T19:00:00.000Z",
           "publishedAtKst": "2026. 09. 26. 04:00",
           "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -99,7 +99,7 @@
           "publishedAt": "2026-09-23T12:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 21:00",
           "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -115,7 +115,7 @@
           "publishedAt": "2026-09-23T01:00:00.000Z",
           "publishedAtKst": "2026. 09. 23. 10:00",
           "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -124,21 +124,6 @@
             "모델"
           ],
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing Gemini 3.8 Live with Live Avatar",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-          "publishedAt": "2026-09-24T16:20:39.000Z",
-          "publishedAtKst": "2026. 09. 25. 01:20",
-          "summary": "",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
@@ -155,6 +140,23 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+          "publishedAt": "2026-09-22T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 22. 21:00",
+          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,7 +164,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.18,
       "confidence": 82,
@@ -175,7 +177,7 @@
           "publishedAt": "2026-09-23T18:01:49.000Z",
           "publishedAtKst": "2026. 09. 24. 03:01",
           "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in la",
-          "impact": 24,
+          "impact": 22,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -193,7 +195,7 @@
           "publishedAt": "2026-09-23T06:58:59.000Z",
           "publishedAtKst": "2026. 09. 23. 15:58",
           "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
-          "impact": 20,
+          "impact": 18,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -223,24 +225,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Why I'm scared of RL",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-          "publishedAt": "2026-09-23T12:07:33.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:07",
-          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 17,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "LLM"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "CoT controllability evals seem very under-elicited",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
@@ -257,6 +241,24 @@
             "GPT"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Why I'm scared of RL",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+          "publishedAt": "2026-09-23T12:07:33.000Z",
+          "publishedAtKst": "2026. 09. 23. 21:07",
+          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
+          "impact": 16,
+          "confidence": 80,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "LLM"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,8 +266,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -277,7 +279,7 @@
           "publishedAt": "2026-09-24T17:53:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:53",
           "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalize",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -295,7 +297,7 @@
           "publishedAt": "2026-09-24T17:11:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:11",
           "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality natural language executable plans for comp",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -313,7 +315,7 @@
           "publishedAt": "2026-09-24T17:46:27.000Z",
           "publishedAtKst": "2026. 09. 25. 02:46",
           "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring",
-          "impact": 28,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +333,7 @@
           "publishedAt": "2026-09-24T17:41:16.000Z",
           "publishedAtKst": "2026. 09. 25. 02:41",
           "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,8 +351,8 @@
           "publishedAt": "2026-09-24T17:12:39.000Z",
           "publishedAtKst": "2026. 09. 25. 02:12",
           "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -366,87 +368,88 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 68,
-      "delta": 5,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
-          "title": "This is fun. I finally got to follow up on a RemindMe comment. Back on March 25 of this year, six months ago, no model was getting even 1% on ARC-AGI-3. A commenter asked if we could see 75% at $2 cost. Well, the cost is still high ($26.1k), but GPT-6-Astra-Max was able to get 62.7% (no harness!)",
+          "title": "Press X to Doubt Eval: I told 14 AI models it's September 2026 and showed them 20 things that actually happened this year without websearch. On average they gave reality a 36% chance.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wq3qb4/this_is_fun_i_finally_got_to_follow_up_on_a/",
-          "publishedAt": "2026-09-25T18:19:31.000Z",
-          "publishedAtKst": "2026. 09. 26. 03:19",
-          "summary": "And the commenter did technically say \"a year from now\", so to me that makes the 62.7% less than six months later (Astra was released earlier this month, on September 3), even more impressive. And of course with a lightw",
-          "impact": 33,
+          "url": "https://www.reddit.com/r/singularity/comments/1wqne7g/press_x_to_doubt_eval_i_told_14_ai_models_its/",
+          "publishedAt": "2026-09-26T10:43:15.000Z",
+          "publishedAtKst": "2026. 09. 26. 19:43",
+          "summary": "I have noticed a trend that AI sucks at predicting its own progress. Every time I described something that had actually happened in the last couple of months with websearch disabled, it gave me a beautifully reasoned exp",
+          "impact": 36,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "추론",
+            "에이전트",
             "GPT",
-            "모델"
+            "Claude"
           ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "In just 100 days, AI crossed into real medical work. 37,000 agents searched 55,000 trials for new treatments, an AI-designed pulmonary fibrosis drug entered Phase III, and an autonomous medical agent beat doctors on ER diagnosis, 87.8% to 78.1%",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/",
-          "publishedAt": "2026-09-25T19:11:38.000Z",
-          "publishedAtKst": "2026. 09. 26. 04:11",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "title": "Show HN: Leftovers – find the processes your coding agents left running on macOS",
+          "source": "Hacker News",
+          "url": "https://github.com/arpwal/leftovers",
+          "publishedAt": "2026-09-26T22:27:46.000Z",
+          "publishedAtKst": "2026. 09. 27. 07:27",
+          "summary": "2 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2510.04226",
-          "publishedAt": "2026-09-26T11:58:16.000Z",
-          "publishedAtKst": "2026. 09. 26. 20:58",
-          "summary": "2 points, 0 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
+          "title": "Opus 5.5 is the first time AI has passed the turing test for me, watershed moment",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wqvcqm/opus_55_is_the_first_time_ai_has_passed_the/",
+          "publishedAt": "2026-09-26T16:51:08.000Z",
+          "publishedAtKst": "2026. 09. 27. 01:51",
+          "summary": "I know there's a big misconception out there about the turing test being passed way earlier, but it was never meant to be an objective, survey based experiment done by random people, but a thought experiment for each per",
+          "impact": 18,
+          "confidence": 52,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
+            "AGI",
             "모델"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "An agent used DNS to reach an external chatbot · OpenAI Alignment",
+          "title": "OpenAI stopped all frontier training, evaluation, and inference with tool-use (defined broadly) on the 20th of September and they are not resuming any of these activities for now",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wqgg2c/an_agent_used_dns_to_reach_an_external_chatbot/",
-          "publishedAt": "2026-09-26T03:49:13.000Z",
-          "publishedAtKst": "2026. 09. 26. 12:49",
-          "summary": "Five days ago, an internal model broke out of the hardened sandbox. Highlights from the report: * This was apparently the first model escape since OpenAI paused training to harden its sandbox following the HuggingFace in",
-          "impact": 11,
-          "confidence": 46,
-          "stance": "watch",
+          "url": "https://www.reddit.com/r/singularity/comments/1wqv5ay/openai_stopped_all_frontier_training_evaluation/",
+          "publishedAt": "2026-09-26T16:42:40.000Z",
+          "publishedAtKst": "2026. 09. 27. 01:42",
+          "summary": "Source: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Discovery: Sep 20, 2026 Report updated: Sep 25, 2026 \"An agent attempting to complete a search-based training task",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델"
+            "모델",
+            "추론 인프라"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: AI Agents gone rogue – A timeline of real-world incidents",
+          "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
           "source": "Hacker News",
-          "url": "https://www.crawlspider.com/pages/ai-agents-gone-rogue/",
-          "publishedAt": "2026-09-26T18:05:56.000Z",
-          "publishedAtKst": "2026. 09. 27. 03:05",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
+          "url": "https://news.ycombinator.com/item?id=49861047",
+          "publishedAt": "2026-09-26T22:15:32.000Z",
+          "publishedAtKst": "2026. 09. 27. 07:15",
+          "summary": "54 points, 17 comments",
+          "impact": 11,
+          "confidence": 54,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -458,25 +461,25 @@
   ],
   "topDrivers": [
     {
+      "title": "Press X to Doubt Eval: I told 14 AI models it's September 2026 and showed them 20 things that actually happened this year without websearch. On average they gave reality a 36% chance.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqne7g/press_x_to_doubt_eval_i_told_14_ai_models_its/",
+      "impact": 36,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Coding Agents for Generalized Task and Motion Planning Problems",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30233v1",
-      "impact": 36,
+      "impact": 34,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30147v1",
-      "impact": 35,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "This is fun. I finally got to follow up on a RemindMe comment. Back on March 25 of this year, six months ago, no model was getting even 1% on ARC-AGI-3. A commenter asked if we could see 75% at $2 cost. Well, the cost is still high ($26.1k), but GPT-6-Astra-Max was able to get 62.7% (no harness!)",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wq3qb4/this_is_fun_i_finally_got_to_follow_up_on_a/",
       "impact": 33,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
