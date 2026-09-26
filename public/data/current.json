@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-26T13:28:49.175Z",
-  "generatedAtKst": "2026. 09. 26. 22:28",
-  "nextUpdateAt": "2026-09-26T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 27. 00:00",
+  "generatedAt": "2026-09-26T18:09:46.516Z",
+  "generatedAtKst": "2026. 09. 27. 03:09",
+  "nextUpdateAt": "2026-09-26T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 27. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 77,
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
-    "coldCount": 4,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 3,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -126,22 +126,6 @@
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-          "publishedAt": "2026-09-23T02:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 11:00",
-          "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Introducing Gemini 3.8 Live with Live Avatar",
           "source": "Google DeepMind",
           "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
@@ -155,6 +139,22 @@
             "Gemini"
           ],
           "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+          "publishedAt": "2026-09-23T02:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 11:00",
+          "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,8 +162,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 72,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -175,7 +175,7 @@
           "publishedAt": "2026-09-23T18:01:49.000Z",
           "publishedAtKst": "2026. 09. 24. 03:01",
           "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in la",
-          "impact": 25,
+          "impact": 24,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -193,7 +193,7 @@
           "publishedAt": "2026-09-23T06:58:59.000Z",
           "publishedAtKst": "2026. 09. 23. 15:58",
           "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
-          "impact": 22,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -201,24 +201,6 @@
             "에이전트",
             "추론",
             "Gemini"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why I'm scared of RL",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-          "publishedAt": "2026-09-23T12:07:33.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:07",
-          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 19,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "LLM"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -241,22 +223,40 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Continual learning might make your blocking monitors nearly useless",
+          "title": "Why I'm scared of RL",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
-          "publishedAt": "2026-09-24T23:45:34.000Z",
-          "publishedAtKst": "2026. 09. 25. 08:45",
-          "summary": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing ",
-          "impact": 16,
-          "confidence": 82,
-          "stance": "decelerate",
+          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+          "publishedAt": "2026-09-23T12:07:33.000Z",
+          "publishedAtKst": "2026. 09. 23. 21:07",
+          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
+          "impact": 17,
+          "confidence": 80,
+          "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "Claude",
-            "모델"
+            "자율성",
+            "LLM"
           ],
-          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "CoT controllability evals seem very under-elicited",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
+          "publishedAt": "2026-09-11T17:12:04.000Z",
+          "publishedAtKst": "2026. 09. 12. 02:12",
+          "summary": "The CoTControl eval asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at th",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "프런티어 모델",
+            "GPT"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,7 +264,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -295,7 +295,7 @@
           "publishedAt": "2026-09-24T17:11:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:11",
           "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality natural language executable plans for comp",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -313,7 +313,7 @@
           "publishedAt": "2026-09-24T17:46:27.000Z",
           "publishedAtKst": "2026. 09. 25. 02:46",
           "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,7 +331,7 @@
           "publishedAt": "2026-09-24T17:41:16.000Z",
           "publishedAtKst": "2026. 09. 25. 02:41",
           "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 28,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,7 +349,7 @@
           "publishedAt": "2026-09-24T17:12:39.000Z",
           "publishedAtKst": "2026. 09. 25. 02:12",
           "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,43 +366,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
-      "delta": 6,
+      "score": 68,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "The Discovery Tax: Why Coding Agents Waste 2,500 Tokens Before Writing Code",
-          "source": "Hacker News",
-          "url": "https://blog.jarv.dev/the-discovery-tax",
-          "publishedAt": "2026-09-26T12:48:14.000Z",
-          "publishedAtKst": "2026. 09. 26. 21:48",
-          "summary": "5 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "This is fun. I finally got to follow up on a RemindMe comment. Back on March 25 of this year, six months ago, no model was getting even 1% on ARC-AGI-3. A commenter asked if we could see 75% at $2 cost. Well, the cost is still high ($26.1k), but GPT-6-Astra-Max was able to get 62.7% (no harness!)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wq3qb4/this_is_fun_i_finally_got_to_follow_up_on_a/",
+          "publishedAt": "2026-09-25T18:19:31.000Z",
+          "publishedAtKst": "2026. 09. 26. 03:19",
+          "summary": "And the commenter did technically say \"a year from now\", so to me that makes the 62.7% less than six months later (Astra was released earlier this month, on September 3), even more impressive. And of course with a lightw",
+          "impact": 33,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI",
+            "추론",
+            "GPT",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
-          "source": "Hacker News",
-          "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
-          "publishedAt": "2026-09-26T13:05:36.000Z",
-          "publishedAtKst": "2026. 09. 26. 22:05",
-          "summary": "7 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "In just 100 days, AI crossed into real medical work. 37,000 agents searched 55,000 trials for new treatments, an AI-designed pulmonary fibrosis drug entered Phase III, and an autonomous medical agent beat doctors on ER diagnosis, 87.8% to 78.1%",
@@ -427,14 +413,14 @@
           "publishedAt": "2026-09-26T11:58:16.000Z",
           "publishedAtKst": "2026. 09. 26. 20:58",
           "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
+          "impact": 11,
+          "confidence": 54,
+          "stance": "watch",
           "tags": [
             "LLM",
             "모델"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
           "title": "An agent used DNS to reach an external chatbot · OpenAI Alignment",
@@ -443,14 +429,29 @@
           "publishedAt": "2026-09-26T03:49:13.000Z",
           "publishedAtKst": "2026. 09. 26. 12:49",
           "summary": "Five days ago, an internal model broke out of the hardened sandbox. Highlights from the report: * This was apparently the first model escape since OpenAI paused training to harden its sandbox following the HuggingFace in",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
+          "impact": 11,
+          "confidence": 46,
+          "stance": "watch",
           "tags": [
             "에이전트",
             "모델"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: AI Agents gone rogue – A timeline of real-world incidents",
+          "source": "Hacker News",
+          "url": "https://www.crawlspider.com/pages/ai-agents-gone-rogue/",
+          "publishedAt": "2026-09-26T18:05:56.000Z",
+          "publishedAtKst": "2026. 09. 27. 03:05",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -467,25 +468,18 @@
       "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30147v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.30217v1",
-      "impact": 29,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "This is fun. I finally got to follow up on a RemindMe comment. Back on March 25 of this year, six months ago, no model was getting even 1% on ARC-AGI-3. A commenter asked if we could see 75% at $2 cost. Well, the cost is still high ($26.1k), but GPT-6-Astra-Max was able to get 62.7% (no harness!)",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wq3qb4/this_is_fun_i_finally_got_to_follow_up_on_a/",
+      "impact": 33,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "OpenAI Accuses Plaintiffs' Lawyers of Funding and Laundering Copyright Evidence",
-      "source": "Hacker News",
-      "url": "https://www.techdirt.com/2026/09/25/openai-accuses-plaintiffs-lawyers-of-paying-for-hiding-and-then-laundering-sketchy-key-evidence-in-ai-copyright-case/",
-      "impact": -2,
-      "reason": "저작권 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
       "source": "arXiv",
@@ -499,6 +493,13 @@
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Continual learning might make your blocking monitors nearly useless",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+      "impact": 15,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
