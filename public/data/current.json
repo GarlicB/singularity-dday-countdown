@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-26T23:14:34.896Z",
-  "generatedAtKst": "2026. 09. 27. 08:14",
-  "nextUpdateAt": "2026-09-27T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 27. 12:00",
+  "generatedAt": "2026-09-27T08:42:46.150Z",
+  "generatedAtKst": "2026. 09. 27. 17:42",
+  "nextUpdateAt": "2026-09-27T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 27. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2124,
+    "rangeEnd": "2039-09-22",
+    "dday": 2213,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 50,
-    "coldCount": 3,
-    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 48,
+    "coldCount": 4,
+    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -93,22 +93,6 @@
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ringg",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:00",
-          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
           "source": "OpenAI News",
           "url": "https://openai.com/index/airbnb-gpt-6-astra",
@@ -124,6 +108,22 @@
             "모델"
           ],
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/ringg",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "publishedAtKst": "2026. 09. 23. 21:00",
+          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
@@ -164,8 +164,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
-      "delta": 7,
+      "score": 68,
+      "delta": 5,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -177,24 +177,6 @@
           "publishedAt": "2026-09-23T18:01:49.000Z",
           "publishedAtKst": "2026. 09. 24. 03:01",
           "summary": "Summary: Currently, “chain of thought” (CoT) is our most valuable tool for understanding the reasoning and cognition of AI systems. However, some architectures would enable AI models to reason much more extensively in la",
-          "impact": 22,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "프런티어 모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
-          "publishedAt": "2026-09-23T06:58:59.000Z",
-          "publishedAtKst": "2026. 09. 23. 15:58",
-          "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
           "impact": 18,
           "confidence": 82,
           "stance": "accelerate",
@@ -202,7 +184,7 @@
             "AGI",
             "에이전트",
             "추론",
-            "Gemini"
+            "프런티어 모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -243,22 +225,40 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Why I'm scared of RL",
+          "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-          "publishedAt": "2026-09-23T12:07:33.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:07",
-          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 16,
-          "confidence": 80,
+          "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
+          "publishedAt": "2026-09-23T06:58:59.000Z",
+          "publishedAtKst": "2026. 09. 23. 15:58",
+          "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
+          "impact": 15,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "자율성",
-            "LLM"
+            "추론",
+            "Gemini"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Continual learning might make your blocking monitors nearly useless",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+          "publishedAt": "2026-09-24T23:45:34.000Z",
+          "publishedAtKst": "2026. 09. 25. 08:45",
+          "summary": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing ",
+          "impact": 14,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "Claude",
+            "모델"
+          ],
+          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     },
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -279,7 +279,7 @@
           "publishedAt": "2026-09-24T17:53:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:53",
           "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalize",
-          "impact": 34,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -297,7 +297,7 @@
           "publishedAt": "2026-09-24T17:11:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:11",
           "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality natural language executable plans for comp",
-          "impact": 33,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +315,7 @@
           "publishedAt": "2026-09-24T17:46:27.000Z",
           "publishedAtKst": "2026. 09. 25. 02:46",
           "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring",
-          "impact": 26,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,8 +333,8 @@
           "publishedAt": "2026-09-24T17:41:16.000Z",
           "publishedAtKst": "2026. 09. 25. 02:41",
           "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 22,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -351,8 +351,8 @@
           "publishedAt": "2026-09-24T17:12:39.000Z",
           "publishedAtKst": "2026. 09. 25. 02:12",
           "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -368,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
+      "score": 78,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 51,
       "trend": "hot",
       "items": [
         {
@@ -393,30 +393,14 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Leftovers – find the processes your coding agents left running on macOS",
-          "source": "Hacker News",
-          "url": "https://github.com/arpwal/leftovers",
-          "publishedAt": "2026-09-26T22:27:46.000Z",
-          "publishedAtKst": "2026. 09. 27. 07:27",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Opus 5.5 is the first time AI has passed the turing test for me, watershed moment",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1wqvcqm/opus_55_is_the_first_time_ai_has_passed_the/",
           "publishedAt": "2026-09-26T16:51:08.000Z",
           "publishedAtKst": "2026. 09. 27. 01:51",
           "summary": "I know there's a big misconception out there about the turing test being passed way earlier, but it was never meant to be an objective, survey based experiment done by random people, but a thought experiment for each per",
-          "impact": 18,
-          "confidence": 52,
+          "impact": 16,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -425,14 +409,47 @@
           "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Jev already has an open-weight competitor - Deem 9b",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wqtjd4/jev_already_has_an_openweight_competitor_deem_9b/",
+          "publishedAt": "2026-09-26T15:36:00.000Z",
+          "publishedAtKst": "2026. 09. 27. 00:36",
+          "summary": "Just saw that LibertAI released Deem which basically an open-weight alternative to Jev, built on Qwen3.5-9B. It’s still behind Jev on the hard benchmark — 68.9% with extended reasoning vs 74.1% for Jev but considering ho",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ChatGPT added reactions to messages just now",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrb0q6/chatgpt_added_reactions_to_messages_just_now/",
+          "publishedAt": "2026-09-27T04:45:03.000Z",
+          "publishedAtKst": "2026. 09. 27. 13:45",
+          "summary": "&#32; submitted by &#32; /u/BethanyHipsEnjoyer [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "OpenAI stopped all frontier training, evaluation, and inference with tool-use (defined broadly) on the 20th of September and they are not resuming any of these activities for now",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1wqv5ay/openai_stopped_all_frontier_training_evaluation/",
           "publishedAt": "2026-09-26T16:42:40.000Z",
           "publishedAtKst": "2026. 09. 27. 01:42",
           "summary": "Source: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Discovery: Sep 20, 2026 Report updated: Sep 25, 2026 \"An agent attempting to complete a search-based training task",
-          "impact": 16,
-          "confidence": 50,
+          "impact": 15,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -440,21 +457,6 @@
             "추론 인프라"
           ],
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49861047",
-          "publishedAt": "2026-09-26T22:15:32.000Z",
-          "publishedAtKst": "2026. 09. 27. 07:15",
-          "summary": "54 points, 17 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -471,23 +473,30 @@
       "title": "Coding Agents for Generalized Task and Motion Planning Problems",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30233v1",
-      "impact": 34,
+      "impact": 30,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30147v1",
-      "impact": 33,
+      "impact": 29,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "'Things Will Never Be Chill Again':The Doomers Who Shaped the AI Safety Freakout",
+      "source": "Hacker News",
+      "url": "https://www.wsj.com/tech/ai/ai-safety-effective-altruism-anthropic-164b9d05",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30258v1",
-      "impact": 2,
+      "impact": 3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -496,13 +505,6 @@
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Continual learning might make your blocking monitors nearly useless",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
-      "impact": 15,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
