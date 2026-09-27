@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-27T18:46:02.481Z",
-  "generatedAtKst": "2026. 09. 28. 03:46",
-  "nextUpdateAt": "2026-09-27T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 28. 06:00",
+  "generatedAt": "2026-09-27T23:29:16.698Z",
+  "generatedAtKst": "2026. 09. 28. 08:29",
+  "nextUpdateAt": "2026-09-28T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 28. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-05-31",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-04",
-    "dday": 2348,
+    "rangeEnd": "2040-05-04",
+    "dday": 2438,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 6,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 42,
+    "coldCount": 4,
+    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -250,7 +250,7 @@
           "publishedAtKst": "2026. 09. 25. 08:45",
           "summary": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing ",
           "impact": 12,
-          "confidence": 82,
+          "confidence": 81,
           "stance": "decelerate",
           "tags": [
             "AGI",
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 89,
+      "confidence": 87,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +279,8 @@
           "publishedAt": "2026-09-24T17:53:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:53",
           "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalize",
-          "impact": 26,
-          "confidence": 90,
+          "impact": 24,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -297,8 +297,8 @@
           "publishedAt": "2026-09-24T17:11:35.000Z",
           "publishedAtKst": "2026. 09. 25. 02:11",
           "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality natural language executable plans for comp",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 23,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -315,8 +315,8 @@
           "publishedAt": "2026-09-24T17:46:27.000Z",
           "publishedAtKst": "2026. 09. 25. 02:46",
           "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring",
-          "impact": 20,
-          "confidence": 92,
+          "impact": 19,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -333,8 +333,8 @@
           "publishedAt": "2026-09-24T17:41:16.000Z",
           "publishedAtKst": "2026. 09. 25. 02:41",
           "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 20,
-          "confidence": 88,
+          "impact": 18,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -351,8 +351,8 @@
           "publishedAt": "2026-09-24T17:12:39.000Z",
           "publishedAtKst": "2026. 09. 25. 02:12",
           "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -368,75 +368,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
-      "delta": 6,
+      "score": 67,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Introducing Vitruvian, a genetic optimization model for optimizing human embryo DNA and reportedly being able to increase the IQ of a person by 14 points, nearly a standard deviation which is incredibly significant",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wrq633/introducing_vitruvian_a_genetic_optimization/",
-          "publishedAt": "2026-09-27T17:30:31.000Z",
-          "publishedAtKst": "2026. 09. 28. 02:30",
-          "summary": "Full message: \"AI is rapidly getting smarter. Now, humanity can too. Today, Nucleus Genomicsis announcing Vitruvian, our newest set of genetic optimization models. Vitruvian’s intelligence model can optimize embryo DNA f",
-          "impact": 17,
-          "confidence": 52,
+          "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
+          "publishedAt": "2026-09-27T03:38:07.000Z",
+          "publishedAtKst": "2026. 09. 27. 12:38",
+          "summary": "Hey r/MachineLearning ! I’ve been working on a new optimizer called Tauon (turns out there is already \"teon\" but well if you have better idea, - i will gladly accept it! Anyway the core idea of optimizer is about polynom",
+          "impact": 25,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "초지능",
-            "모델"
-          ],
-          "why": "초지능, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wrera2/claude_opus_55_designed_a_processor_faster_and/",
-          "publishedAt": "2026-09-27T08:23:09.000Z",
-          "publishedAtKst": "2026. 09. 27. 17:23",
-          "summary": "Every model starts with the same basic processor design and tries to improve it over several rounds. The results are scored on two things: speed (how fast the chip runs a standard test program called CoreMark, where high",
-          "impact": 17,
-          "confidence": 51,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
+            "GPT",
             "모델",
-            "벤치마크"
+            "벤치마크",
+            "컴퓨트"
           ],
-          "why": "Claude, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "ChatGPT added reactions to messages just now",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wrb0q6/chatgpt_added_reactions_to_messages_just_now/",
-          "publishedAt": "2026-09-27T04:45:03.000Z",
-          "publishedAtKst": "2026. 09. 27. 13:45",
-          "summary": "&#32; submitted by &#32; /u/BethanyHipsEnjoyer [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "'member when o3 was AGI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wr9f7a/member_when_o3_was_agi/",
-          "publishedAt": "2026-09-27T03:19:12.000Z",
-          "publishedAtKst": "2026. 09. 27. 12:19",
-          "summary": "&#32; submitted by &#32; /u/arknightstranslate [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: TinyAIArena watch AI agents battle it out",
@@ -444,7 +398,7 @@
           "url": "https://tinyaiarena.com/",
           "publishedAt": "2026-09-27T15:51:28.000Z",
           "publishedAtKst": "2026. 09. 28. 00:51",
-          "summary": "52 points, 29 comments",
+          "summary": "93 points, 40 comments",
           "impact": 12,
           "confidence": 55,
           "stance": "accelerate",
@@ -452,47 +406,87 @@
             "에이전트"
           ],
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "TuxBot: Semantic-Aware Online OS Tuning with Large Language Models",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2605.15026",
+          "publishedAt": "2026-09-27T19:39:45.000Z",
+          "publishedAtKst": "2026. 09. 28. 04:39",
+          "summary": "1 points, 0 comments",
+          "impact": 12,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2510.04226",
+          "publishedAt": "2026-09-26T11:58:16.000Z",
+          "publishedAtKst": "2026. 09. 26. 20:58",
+          "summary": "2 points, 0 comments",
+          "impact": 9,
+          "confidence": 51,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "ClashRoyaleAi: an open-source, deterministic Clash Royale simulator for RL, with recurrent PPO, lookahead search and expert iteration [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wrj0t3/clashroyaleai_an_opensource_deterministic_clash/",
+          "publishedAt": "2026-09-27T12:30:00.000Z",
+          "publishedAtKst": "2026. 09. 27. 21:30",
+          "summary": "The opponent plans by simulation: every second it scores each candidate play by running the match 10 seconds ahead in the engine. Our PPO agent learned to park its Cannon behind its own King. Losing a building in a fight",
+          "impact": 9,
+          "confidence": 48,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
+      "impact": 25,
+      "reason": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Coding Agents for Generalized Task and Motion Planning Problems",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30233v1",
-      "impact": 26,
+      "impact": 24,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.30147v1",
-      "impact": 25,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.30217v1",
-      "impact": 20,
+      "impact": 23,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Trump to reportedly host Anthropic CEO Dario Amodei for a private White House dinner tonight. What do you think changes, if anything, after this meeting?",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wrpl1u/trump_to_reportedly_host_anthropic_ceo_dario/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Anthropic/OpenAI sound alarm on AI safety and seek to shape how to control it",
-      "source": "Hacker News",
-      "url": "https://apnews.com/article/ai-slowdown-midterms-anthropic-openai-ipo-9a057de94eb8f30a2fdb5b938918627e",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Are there machine learning subfields that are becoming irrelevant (or is irrelevant)? [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/",
+      "impact": -4,
+      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
@@ -500,6 +494,13 @@
       "url": "http://arxiv.org/abs/2609.30258v1",
       "impact": 4,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Defense of Gradual Disempowerment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "impact": 6,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
