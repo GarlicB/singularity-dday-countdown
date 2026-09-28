@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-27T23:29:16.698Z",
-  "generatedAtKst": "2026. 09. 28. 08:29",
-  "nextUpdateAt": "2026-09-28T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 28. 12:00",
+  "generatedAt": "2026-09-28T09:07:13.192Z",
+  "generatedAtKst": "2026. 09. 28. 18:07",
+  "nextUpdateAt": "2026-09-28T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 29. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-05-31",
+    "medianDate": "2032-12-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-05-04",
-    "dday": 2438,
+    "rangeEnd": "2039-11-06",
+    "dday": 2257,
     "confidence": 76,
-    "deltaDays": -31,
+    "deltaDays": -37,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 71,
-    "temperature": 49,
+    "score": 75,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 42,
+    "hotCount": 36,
     "coldCount": 4,
-    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 94,
-      "delta": 9,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -78,21 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/proaction",
-          "publishedAt": "2026-09-25T19:00:00.000Z",
-          "publishedAtKst": "2026. 09. 26. 04:00",
-          "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
           "source": "OpenAI News",
           "url": "https://openai.com/index/airbnb-gpt-6-astra",
@@ -108,6 +93,21 @@
             "모델"
           ],
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/proaction",
+          "publishedAt": "2026-09-25T19:00:00.000Z",
+          "publishedAtKst": "2026. 09. 26. 04:00",
+          "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -164,8 +164,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 67,
-      "delta": 4,
+      "score": 73,
+      "delta": 6,
       "weight": 0.18,
       "confidence": 82,
       "trend": "hot",
@@ -243,22 +243,22 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Continual learning might make your blocking monitors nearly useless",
+          "title": "Why I'm scared of RL",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
-          "publishedAt": "2026-09-24T23:45:34.000Z",
-          "publishedAtKst": "2026. 09. 25. 08:45",
-          "summary": "Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing ",
+          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
+          "publishedAt": "2026-09-23T12:07:33.000Z",
+          "publishedAtKst": "2026. 09. 23. 21:07",
+          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
           "impact": 12,
-          "confidence": 81,
-          "stance": "decelerate",
+          "confidence": 80,
+          "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "Claude",
-            "모델"
+            "자율성",
+            "LLM"
           ],
-          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,101 +266,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
-          "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+          "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.30233v1",
-          "publishedAt": "2026-09-24T17:53:35.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:53",
-          "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalize",
-          "impact": 24,
-          "confidence": 89,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Claude",
-            "LLM"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.30147v1",
-          "publishedAt": "2026-09-24T17:11:35.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:11",
-          "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality natural language executable plans for comp",
-          "impact": 23,
-          "confidence": 88,
+          "url": "http://arxiv.org/abs/2609.31568v1",
+          "publishedAt": "2026-09-25T17:33:41.000Z",
+          "publishedAtKst": "2026. 09. 26. 02:33",
+          "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign",
+          "impact": 31,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "추론",
-            "GPT",
-            "LLM"
+            "ChatGPT",
+            "GPT"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+          "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.30217v1",
-          "publishedAt": "2026-09-24T17:46:27.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:46",
-          "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring",
-          "impact": 19,
+          "url": "http://arxiv.org/abs/2609.31619v1",
+          "publishedAt": "2026-09-25T17:59:52.000Z",
+          "publishedAtKst": "2026. 09. 26. 02:59",
+          "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by expli",
+          "impact": 25,
           "confidence": 90,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
+            "AGI",
             "추론",
             "GPT",
-            "Claude"
+            "모델"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+          "title": "Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.30205v1",
-          "publishedAt": "2026-09-24T17:41:16.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:41",
-          "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Th",
-          "impact": 18,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.30150v1",
-          "publishedAt": "2026-09-24T17:12:39.000Z",
-          "publishedAtKst": "2026. 09. 25. 02:12",
-          "summary": "Modern infrastructure asset management constitutes a complex sequential decision-making problem, characterized by long planning horizons and system-level interactions, such as spatial deterioration correlations and econo",
-          "impact": 18,
-          "confidence": 84,
+          "url": "http://arxiv.org/abs/2609.31563v1",
+          "publishedAt": "2026-09-25T17:29:15.000Z",
+          "publishedAtKst": "2026. 09. 26. 02:29",
+          "summary": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framewo",
+          "impact": 21,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "모델",
-            "추론 인프라"
+            "LLM",
+            "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "New LoRA Skills Should Read but Never Write",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.31600v1",
+          "publishedAt": "2026-09-25T17:54:01.000Z",
+          "publishedAtKst": "2026. 09. 26. 02:54",
+          "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapters into one model remains difficult: merging the updates in weight space causes ",
+          "impact": 18,
+          "confidence": 85,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "벤치마크",
+            "컴퓨트"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.31587v1",
+          "publishedAt": "2026-09-25T17:42:22.000Z",
+          "publishedAtKst": "2026. 09. 26. 02:42",
+          "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by ",
+          "impact": 18,
+          "confidence": 85,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,116 +368,117 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 67,
-      "delta": 4,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 59,
       "trend": "hot",
       "items": [
         {
-          "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+          "title": "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
           "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
-          "publishedAt": "2026-09-27T03:38:07.000Z",
-          "publishedAtKst": "2026. 09. 27. 12:38",
-          "summary": "Hey r/MachineLearning ! I’ve been working on a new optimizer called Tauon (turns out there is already \"teon\" but well if you have better idea, - i will gladly accept it! Anyway the core idea of optimizer is about polynom",
-          "impact": 25,
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+          "publishedAt": "2026-09-28T05:49:38.000Z",
+          "publishedAtKst": "2026. 09. 28. 14:49",
+          "summary": "AI Engineering from Scratch is an MIT-licensed curriculum: 523 lessons across 20 phases, from linear algebra and backprop to transformers, LLMs, agents, and production serving. The code is stdlib-first, so you see every ",
+          "impact": 26,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "코딩 에이전트",
+            "모델"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Detecting Compromised AI Coding Agents with Jev and Gryph",
+          "source": "Hacker News",
+          "url": "https://safedep.io/ai-agent-security-jev-gryph/",
+          "publishedAt": "2026-09-28T08:23:40.000Z",
+          "publishedAtKst": "2026. 09. 28. 17:23",
+          "summary": "2 points, 0 comments",
+          "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "모델",
-            "벤치마크",
-            "컴퓨트"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: TinyAIArena watch AI agents battle it out",
+          "title": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
           "source": "Hacker News",
-          "url": "https://tinyaiarena.com/",
-          "publishedAt": "2026-09-27T15:51:28.000Z",
-          "publishedAtKst": "2026. 09. 28. 00:51",
-          "summary": "93 points, 40 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "TuxBot: Semantic-Aware Online OS Tuning with Large Language Models",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2605.15026",
-          "publishedAt": "2026-09-27T19:39:45.000Z",
-          "publishedAtKst": "2026. 09. 28. 04:39",
+          "url": "https://github.com/SecondState-ai/finance-agents-benchmark",
+          "publishedAt": "2026-09-28T06:34:40.000Z",
+          "publishedAtKst": "2026. 09. 28. 15:34",
           "summary": "1 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "에이전트",
+            "벤치마크"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models",
+          "title": "What if AGI was invented in Ancient Greece?",
           "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2510.04226",
-          "publishedAt": "2026-09-26T11:58:16.000Z",
-          "publishedAtKst": "2026. 09. 26. 20:58",
-          "summary": "2 points, 0 comments",
-          "impact": 9,
-          "confidence": 51,
-          "stance": "watch",
+          "url": "https://www.echohive.ai/experiments/the-eighth-wonder",
+          "publishedAt": "2026-09-28T08:37:12.000Z",
+          "publishedAtKst": "2026. 09. 28. 17:37",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "AGI"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ClashRoyaleAi: an open-source, deterministic Clash Royale simulator for RL, with recurrent PPO, lookahead search and expert iteration [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wrj0t3/clashroyaleai_an_opensource_deterministic_clash/",
-          "publishedAt": "2026-09-27T12:30:00.000Z",
-          "publishedAtKst": "2026. 09. 27. 21:30",
-          "summary": "The opponent plans by simulation: every second it scores each candidate play by running the match 10 seconds ahead in the engine. Our PPO agent learned to park its Cannon behind its own King. Losing a building in a fight",
-          "impact": 9,
-          "confidence": 48,
-          "stance": "watch",
+          "title": "Show HN: Redthread – autonomous LLM pentesting with proof-of-concept exploits",
+          "source": "Hacker News",
+          "url": "https://millenniums.ai/docs",
+          "publishedAt": "2026-09-28T08:54:00.000Z",
+          "publishedAtKst": "2026. 09. 28. 17:54",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "자율성",
+            "LLM"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "자율성, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
-      "impact": 25,
-      "reason": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.30233v1",
-      "impact": 24,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.30147v1",
-      "impact": 23,
+      "url": "http://arxiv.org/abs/2609.31568v1",
+      "impact": 31,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+      "impact": 26,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.31619v1",
+      "impact": 25,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -489,11 +490,11 @@
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.30258v1",
-      "impact": 4,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "The Risks of Ignoring API Security During Mobile App Security Testing",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49875297",
+      "impact": -2,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Defense of Gradual Disempowerment",
