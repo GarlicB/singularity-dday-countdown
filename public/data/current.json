@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-28T09:07:13.192Z",
-  "generatedAtKst": "2026. 09. 28. 18:07",
-  "nextUpdateAt": "2026-09-28T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 29. 00:00",
+  "generatedAt": "2026-09-28T20:55:41.132Z",
+  "generatedAtKst": "2026. 09. 29. 05:55",
+  "nextUpdateAt": "2026-09-28T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 29. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-12-02",
+    "medianDate": "2033-03-02",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-06",
-    "dday": 2257,
+    "rangeEnd": "2039-12-31",
+    "dday": 2347,
     "confidence": 76,
-    "deltaDays": -37,
+    "deltaDays": -34,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 75,
-    "temperature": 53,
+    "score": 73,
+    "temperature": 51,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 36,
-    "coldCount": 4,
-    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 30,
+    "coldCount": 2,
+    "summary": "가속 신호 30건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 81,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +279,8 @@
           "publishedAt": "2026-09-25T17:33:41.000Z",
           "publishedAtKst": "2026. 09. 26. 02:33",
           "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign",
-          "impact": 31,
-          "confidence": 92,
+          "impact": 26,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -297,8 +297,8 @@
           "publishedAt": "2026-09-25T17:59:52.000Z",
           "publishedAtKst": "2026. 09. 26. 02:59",
           "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by expli",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -315,8 +315,8 @@
           "publishedAt": "2026-09-25T17:29:15.000Z",
           "publishedAtKst": "2026. 09. 26. 02:29",
           "summary": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framewo",
-          "impact": 21,
-          "confidence": 89,
+          "impact": 18,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -327,32 +327,14 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "New LoRA Skills Should Read but Never Write",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31600v1",
-          "publishedAt": "2026-09-25T17:54:01.000Z",
-          "publishedAtKst": "2026. 09. 26. 02:54",
-          "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapters into one model remains difficult: merging the updates in weight space causes ",
-          "impact": 18,
-          "confidence": 85,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "컴퓨트"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.31587v1",
           "publishedAt": "2026-09-25T17:42:22.000Z",
           "publishedAtKst": "2026. 09. 26. 02:42",
           "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by ",
-          "impact": 18,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -361,6 +343,24 @@
             "벤치마크"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Prompt Minimization: Reducing Input Redundancy Without Sacrificing Output Fidelity",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.31505v1",
+          "publishedAt": "2026-09-25T16:45:28.000Z",
+          "publishedAtKst": "2026. 09. 26. 01:45",
+          "summary": "Despite the growing capabilities of large language models (LLMs), prompt design remains largely heuristic and ad hoc. This project will explore $\\textit{prompt minimization}$, the process of reducing prompts to their sma",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,45 +368,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 67,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
-          "publishedAt": "2026-09-28T05:49:38.000Z",
-          "publishedAtKst": "2026. 09. 28. 14:49",
-          "summary": "AI Engineering from Scratch is an MIT-licensed curriculum: 523 lessons across 20 phases, from linear algebra and backprop to transformers, LLMs, agents, and production serving. The code is stdlib-first, so you see every ",
-          "impact": 26,
-          "confidence": 62,
+          "title": "Opus 5.5 is insane, even in the hands of someone who barely understands github. I was able to use it to make a video game in 4 days.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1ws2p7s/opus_55_is_insane_even_in_the_hands_of_someone/",
+          "publishedAt": "2026-09-28T02:30:41.000Z",
+          "publishedAtKst": "2026. 09. 28. 11:30",
+          "summary": "So a few days ago, someone posted a video they made with Opus 5.5. It was parody, and involved a lot of references to AI in an anime fight scene. I was absolutely blown away. (Edit: Here is the link. https://www.reddit.c",
+          "impact": 17,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "LLM",
-            "코딩 에이전트",
+            "Gemini",
+            "Claude",
             "모델"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Detecting Compromised AI Coding Agents with Jev and Gryph",
-          "source": "Hacker News",
-          "url": "https://safedep.io/ai-agent-security-jev-gryph/",
-          "publishedAt": "2026-09-28T08:23:40.000Z",
-          "publishedAtKst": "2026. 09. 28. 17:23",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
@@ -414,9 +397,9 @@
           "url": "https://github.com/SecondState-ai/finance-agents-benchmark",
           "publishedAt": "2026-09-28T06:34:40.000Z",
           "publishedAtKst": "2026. 09. 28. 15:34",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "summary": "2 points, 0 comments",
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -425,35 +408,52 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What if AGI was invented in Ancient Greece?",
-          "source": "Hacker News",
-          "url": "https://www.echohive.ai/experiments/the-eighth-wonder",
-          "publishedAt": "2026-09-28T08:37:12.000Z",
-          "publishedAtKst": "2026. 09. 28. 17:37",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "title": "AI agents (mostly Opus 5.5) have been speeding up a 27B model from 66tok/s to 580tok/s on a Mac in 3 days by rewriting its inference engine",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wrwn8h/ai_agents_mostly_opus_55_have_been_speeding_up_a/",
+          "publishedAt": "2026-09-27T21:45:52.000Z",
+          "publishedAtKst": "2026. 09. 28. 06:45",
+          "summary": "https://www.yukon.org/mlxfast &#32; submitted by &#32; /u/a300a300 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "모델",
+            "추론 인프라"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Redthread – autonomous LLM pentesting with proof-of-concept exploits",
+          "title": "Foundations of Large Language Models",
           "source": "Hacker News",
-          "url": "https://millenniums.ai/docs",
-          "publishedAt": "2026-09-28T08:54:00.000Z",
-          "publishedAtKst": "2026. 09. 28. 17:54",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
+          "url": "https://arxiv.org/abs/2501.09223",
+          "publishedAt": "2026-09-28T04:43:46.000Z",
+          "publishedAtKst": "2026. 09. 28. 13:43",
+          "summary": "3 points, 1 comments",
+          "impact": 11,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
-            "자율성",
-            "LLM"
+            "LLM",
+            "모델"
           ],
-          "why": "자율성, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
+          "source": "Hacker News",
+          "url": "https://tinyaiarena.com/",
+          "publishedAt": "2026-09-27T15:51:28.000Z",
+          "publishedAtKst": "2026. 09. 28. 00:51",
+          "summary": "117 points, 45 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -463,45 +463,38 @@
       "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.31568v1",
-      "impact": 31,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
       "impact": 26,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.31619v1",
-      "impact": 25,
+      "impact": 22,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "An operationalization of opaque serial depth",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
+      "impact": 18,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Are there machine learning subfields that are becoming irrelevant (or is irrelevant)? [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/",
-      "impact": -4,
-      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "The Risks of Ignoring API Security During Mobile App Security Testing",
-      "source": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=49875297",
-      "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "A Defense of Gradual Disempowerment",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Continual learning might make your blocking monitors nearly useless",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+      "impact": 9,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
