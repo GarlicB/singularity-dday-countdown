@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T00:45:04.721Z",
-  "generatedAtKst": "2026. 09. 29. 09:45",
-  "nextUpdateAt": "2026-09-29T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 29. 12:00",
+  "generatedAt": "2026-09-29T09:16:50.238Z",
+  "generatedAtKst": "2026. 09. 29. 18:16",
+  "nextUpdateAt": "2026-09-29T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 30. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-05-31",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-11",
-    "dday": 2436,
+    "rangeEnd": "2039-09-22",
+    "dday": 2211,
     "confidence": 76,
-    "deltaDays": -31,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 71,
-    "temperature": 49,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 28,
+    "hotCount": 45,
     "coldCount": 5,
-    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -264,101 +264,100 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 76,
-      "delta": 7,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
-      "confidence": 84,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+          "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31568v1",
-          "publishedAt": "2026-09-25T17:33:41.000Z",
-          "publishedAtKst": "2026. 09. 26. 02:33",
-          "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign",
-          "impact": 24,
-          "confidence": 89,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31619v1",
-          "publishedAt": "2026-09-25T17:59:52.000Z",
-          "publishedAtKst": "2026. 09. 26. 02:59",
-          "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by expli",
-          "impact": 20,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "GPT",
-            "모델"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31563v1",
-          "publishedAt": "2026-09-25T17:29:15.000Z",
-          "publishedAtKst": "2026. 09. 26. 02:29",
-          "summary": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framewo",
-          "impact": 17,
-          "confidence": 84,
+          "url": "http://arxiv.org/abs/2609.35741v1",
+          "publishedAt": "2026-09-28T17:54:24.000Z",
+          "publishedAtKst": "2026. 09. 29. 02:54",
+          "summary": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions",
+          "impact": 34,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "LLM",
-            "모델"
+            "모델",
+            "코딩 성능"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+          "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31587v1",
-          "publishedAt": "2026-09-25T17:42:22.000Z",
-          "publishedAtKst": "2026. 09. 26. 02:42",
-          "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by ",
-          "impact": 15,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2609.35760v1",
+          "publishedAt": "2026-09-28T17:59:09.000Z",
+          "publishedAtKst": "2026. 09. 29. 02:59",
+          "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, whil",
+          "impact": 33,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트",
+            "LLM",
             "모델",
-            "벤치마크"
+            "코딩 성능"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "New LoRA Skills Should Read but Never Write",
+          "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31600v1",
-          "publishedAt": "2026-09-25T17:54:01.000Z",
-          "publishedAtKst": "2026. 09. 26. 02:54",
-          "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapters into one model remains difficult: merging the updates in weight space causes ",
-          "impact": 15,
-          "confidence": 81,
+          "url": "http://arxiv.org/abs/2609.35706v1",
+          "publishedAt": "2026-09-28T17:43:52.000Z",
+          "publishedAtKst": "2026. 09. 29. 02:43",
+          "summary": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation. Effective discove",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.35707v1",
+          "publishedAt": "2026-09-28T17:44:11.000Z",
+          "publishedAtKst": "2026. 09. 29. 02:44",
+          "summary": "Recent progress in machine learning is driven by large-scale foundation models, where scaling laws and finding optimal scaling prescriptions for architecture, data, and hyperparameters are key in advancing the state-of-t",
+          "impact": 25,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "LLM",
             "모델",
             "벤치마크",
-            "컴퓨트"
+            "SOTA"
           ],
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.35695v1",
+          "publishedAt": "2026-09-28T17:38:53.000Z",
+          "publishedAtKst": "2026. 09. 29. 02:38",
+          "summary": "Aligning large language models (LLMs) to diverse user preferences is fundamentally hindered by standard alignment paradigms that optimize for monolithic users. In this work, empirical studies are first used to reveal the",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "성능 향상"
+          ],
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,12 +365,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 63,
-      "delta": 3,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "Hot take: Anthropic’s real moat is alignment that doesn’t lobotomize the model",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wsu1c4/hot_take_anthropics_real_moat_is_alignment_that/",
+          "publishedAt": "2026-09-28T23:14:27.000Z",
+          "publishedAtKst": "2026. 09. 29. 08:14",
+          "summary": "I actually think Anthropic's biggest advantage might end up having very little to do with benchmarks. Their alignment work over the last year is way more interesting than people give it credit for. They seem to have real",
+          "impact": 33,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "프런티어 모델",
+            "Claude"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
           "source": "r/singularity",
@@ -379,7 +396,7 @@
           "publishedAt": "2026-09-28T22:06:57.000Z",
           "publishedAtKst": "2026. 09. 29. 07:06",
           "summary": "Sept. 28, 2026 6:00 pm ET OpenAI is scrapping the release of its next-generation AI model over safety concerns that researchers raised during internal testing, in one of the clearest signs so far that agent misbehavior c",
-          "impact": 20,
+          "impact": 19,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -391,37 +408,19 @@
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Opus 5.5 is insane, even in the hands of someone who barely understands github. I was able to use it to make a video game in 4 days.",
+          "title": "Maybe the real AGI was the friends we made along the way",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1ws2p7s/opus_55_is_insane_even_in_the_hands_of_someone/",
-          "publishedAt": "2026-09-28T02:30:41.000Z",
-          "publishedAtKst": "2026. 09. 28. 11:30",
-          "summary": "So a few days ago, someone posted a video they made with Opus 5.5. It was parody, and involved a lot of references to AI in an anime fight scene. I was absolutely blown away. (Edit: Here is the link. https://www.reddit.c",
-          "impact": 16,
+          "url": "https://www.reddit.com/r/singularity/comments/1wt3ux0/maybe_the_real_agi_was_the_friends_we_made_along/",
+          "publishedAt": "2026-09-29T07:41:17.000Z",
+          "publishedAtKst": "2026. 09. 29. 16:41",
+          "summary": "&#32; submitted by &#32; /u/1337_420_69 [link] &#32; [comments]",
+          "impact": 15,
           "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "Gemini",
-            "Claude",
-            "모델"
+            "AGI"
           ],
-          "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Holo4: Powering generalist computer-use agents",
-          "source": "Hacker News",
-          "url": "https://hcompany.ai/newsroom/holo4",
-          "publishedAt": "2026-09-29T00:36:21.000Z",
-          "publishedAtKst": "2026. 09. 29. 09:36",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "컴퓨트"
-          ],
-          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
@@ -430,8 +429,8 @@
           "publishedAt": "2026-09-28T06:34:40.000Z",
           "publishedAtKst": "2026. 09. 28. 15:34",
           "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
+          "impact": 13,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -440,60 +439,53 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI Companies Are Not (Necessarily) Liable for Unintended AI Cyberattacks",
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
           "source": "Hacker News",
-          "url": "https://sarahconstantin.substack.com/p/ai-companies-are-not-necessarily",
-          "publishedAt": "2026-09-29T00:29:20.000Z",
-          "publishedAtKst": "2026. 09. 29. 09:29",
-          "summary": "1 points, 0 comments",
-          "impact": -11,
-          "confidence": 56,
-          "stance": "decelerate",
+          "url": "https://tinyaiarena.com/",
+          "publishedAt": "2026-09-27T15:51:28.000Z",
+          "publishedAtKst": "2026. 09. 28. 00:51",
+          "summary": "117 points, 45 comments",
+          "impact": 11,
+          "confidence": 51,
+          "stance": "watch",
           "tags": [
-            "공격/악용"
+            "에이전트"
           ],
-          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+      "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.31568v1",
-      "impact": 24,
+      "url": "http://arxiv.org/abs/2609.35741v1",
+      "impact": 34,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Hot take: Anthropic’s real moat is alignment that doesn’t lobotomize the model",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wsu1c4/hot_take_anthropics_real_moat_is_alignment_that/",
+      "impact": 33,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wssgy2/openai_scraps_release_of_new_ai_model_over_safety/",
-      "impact": 20,
-      "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.31619v1",
-      "impact": 20,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2609.35760v1",
+      "impact": 33,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "AI Companies Are Not (Necessarily) Liable for Unintended AI Cyberattacks",
-      "source": "Hacker News",
-      "url": "https://sarahconstantin.substack.com/p/ai-companies-are-not-necessarily",
-      "impact": -11,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI Halts Model Release Amid Safety Escalation",
-      "source": "Hacker News",
-      "url": "https://www.techbuzz.ai/articles/openai-halts-model-release-amid-safety-escalation",
-      "impact": 1,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.35768v1",
+      "impact": 0,
+      "reason": "편향, 포화 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Defense of Gradual Disempowerment",
@@ -501,6 +493,13 @@
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
+      "impact": 7,
+      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
