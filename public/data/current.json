@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-28T20:55:41.132Z",
-  "generatedAtKst": "2026. 09. 29. 05:55",
-  "nextUpdateAt": "2026-09-28T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 29. 06:00",
+  "generatedAt": "2026-09-29T00:45:04.721Z",
+  "generatedAtKst": "2026. 09. 29. 09:45",
+  "nextUpdateAt": "2026-09-29T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 29. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-05-31",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-12-31",
-    "dday": 2347,
+    "rangeEnd": "2039-11-11",
+    "dday": 2436,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 30,
-    "coldCount": 2,
-    "summary": "가속 신호 30건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 28,
+    "coldCount": 5,
+    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -78,6 +78,21 @@
       "trend": "hot",
       "items": [
         {
+          "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+          "publishedAt": "2026-09-28T00:00:00.000Z",
+          "publishedAtKst": "2026. 09. 28. 09:00",
+          "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
           "source": "OpenAI News",
           "url": "https://openai.com/index/airbnb-gpt-6-astra",
@@ -93,21 +108,6 @@
             "모델"
           ],
           "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/proaction",
-          "publishedAt": "2026-09-25T19:00:00.000Z",
-          "publishedAtKst": "2026. 09. 26. 04:00",
-          "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -142,21 +142,19 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-          "publishedAt": "2026-09-22T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 22. 21:00",
-          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "impact": 13,
+          "url": "https://openai.com/index/proaction",
+          "publishedAt": "2026-09-25T19:00:00.000Z",
+          "publishedAtKst": "2026. 09. 26. 04:00",
+          "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "impact": 12,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "GPT",
-            "모델"
+            "GPT"
           ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,30 +162,12 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
-        {
-          "title": "An operationalization of opaque serial depth",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
-          "publishedAt": "2026-09-10T17:26:39.000Z",
-          "publishedAtKst": "2026. 09. 11. 02:26",
-          "summary": "Currently, chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability . We have recently proposed that AI companies should transpa",
-          "impact": 18,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "프런티어 모델"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "CoT controllability evals seem very under-elicited",
           "source": "Alignment Forum",
@@ -259,6 +239,24 @@
             "LLM"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
+          "publishedAt": "2026-09-14T14:53:57.000Z",
+          "publishedAtKst": "2026. 09. 14. 23:53",
+          "summary": "Published in The Guardian . Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should demand",
+          "impact": 12,
+          "confidence": 79,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자기개선",
+            "추론",
+            "ChatGPT"
+          ],
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,10 +264,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
+      "score": 76,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 85,
+      "confidence": 84,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +277,8 @@
           "publishedAt": "2026-09-25T17:33:41.000Z",
           "publishedAtKst": "2026. 09. 26. 02:33",
           "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign",
-          "impact": 26,
-          "confidence": 90,
+          "impact": 24,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -297,7 +295,7 @@
           "publishedAt": "2026-09-25T17:59:52.000Z",
           "publishedAtKst": "2026. 09. 26. 02:59",
           "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by expli",
-          "impact": 22,
+          "impact": 20,
           "confidence": 86,
           "stance": "accelerate",
           "tags": [
@@ -315,8 +313,8 @@
           "publishedAt": "2026-09-25T17:29:15.000Z",
           "publishedAtKst": "2026. 09. 26. 02:29",
           "summary": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framewo",
-          "impact": 18,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -333,7 +331,7 @@
           "publishedAt": "2026-09-25T17:42:22.000Z",
           "publishedAtKst": "2026. 09. 26. 02:42",
           "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by ",
-          "impact": 16,
+          "impact": 15,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -345,22 +343,22 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Prompt Minimization: Reducing Input Redundancy Without Sacrificing Output Fidelity",
+          "title": "New LoRA Skills Should Read but Never Write",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31505v1",
-          "publishedAt": "2026-09-25T16:45:28.000Z",
-          "publishedAtKst": "2026. 09. 26. 01:45",
-          "summary": "Despite the growing capabilities of large language models (LLMs), prompt design remains largely heuristic and ad hoc. This project will explore $\\textit{prompt minimization}$, the process of reducing prompts to their sma",
-          "impact": 16,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2609.31600v1",
+          "publishedAt": "2026-09-25T17:54:01.000Z",
+          "publishedAtKst": "2026. 09. 26. 02:54",
+          "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapters into one model remains difficult: merging the updates in weight space causes ",
+          "impact": 15,
+          "confidence": 81,
           "stance": "accelerate",
           "tags": [
-            "추론",
             "LLM",
             "모델",
-            "추론 인프라"
+            "벤치마크",
+            "컴퓨트"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,12 +366,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 67,
-      "delta": 4,
+      "score": 63,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 55,
       "trend": "hot",
       "items": [
+        {
+          "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wssgy2/openai_scraps_release_of_new_ai_model_over_safety/",
+          "publishedAt": "2026-09-28T22:06:57.000Z",
+          "publishedAtKst": "2026. 09. 29. 07:06",
+          "summary": "Sept. 28, 2026 6:00 pm ET OpenAI is scrapping the release of its next-generation AI model over safety concerns that researchers raised during internal testing, in one of the clearest signs so far that agent misbehavior c",
+          "impact": 20,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Opus 5.5 is insane, even in the hands of someone who barely understands github. I was able to use it to make a video game in 4 days.",
           "source": "r/singularity",
@@ -381,7 +397,7 @@
           "publishedAt": "2026-09-28T02:30:41.000Z",
           "publishedAtKst": "2026. 09. 28. 11:30",
           "summary": "So a few days ago, someone posted a video they made with Opus 5.5. It was parody, and involved a lot of references to AI in an anime fight scene. I was absolutely blown away. (Edit: Here is the link. https://www.reddit.c",
-          "impact": 17,
+          "impact": 16,
           "confidence": 50,
           "stance": "accelerate",
           "tags": [
@@ -390,6 +406,22 @@
             "모델"
           ],
           "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Holo4: Powering generalist computer-use agents",
+          "source": "Hacker News",
+          "url": "https://hcompany.ai/newsroom/holo4",
+          "publishedAt": "2026-09-29T00:36:21.000Z",
+          "publishedAtKst": "2026. 09. 29. 09:36",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "컴퓨트"
+          ],
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
@@ -408,52 +440,19 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI agents (mostly Opus 5.5) have been speeding up a 27B model from 66tok/s to 580tok/s on a Mac in 3 days by rewriting its inference engine",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wrwn8h/ai_agents_mostly_opus_55_have_been_speeding_up_a/",
-          "publishedAt": "2026-09-27T21:45:52.000Z",
-          "publishedAtKst": "2026. 09. 28. 06:45",
-          "summary": "https://www.yukon.org/mlxfast &#32; submitted by &#32; /u/a300a300 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Foundations of Large Language Models",
+          "title": "AI Companies Are Not (Necessarily) Liable for Unintended AI Cyberattacks",
           "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2501.09223",
-          "publishedAt": "2026-09-28T04:43:46.000Z",
-          "publishedAtKst": "2026. 09. 28. 13:43",
-          "summary": "3 points, 1 comments",
-          "impact": 11,
-          "confidence": 53,
-          "stance": "watch",
+          "url": "https://sarahconstantin.substack.com/p/ai-companies-are-not-necessarily",
+          "publishedAt": "2026-09-29T00:29:20.000Z",
+          "publishedAtKst": "2026. 09. 29. 09:29",
+          "summary": "1 points, 0 comments",
+          "impact": -11,
+          "confidence": 56,
+          "stance": "decelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "공격/악용"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: TinyAIArena watch AI agents battle it out",
-          "source": "Hacker News",
-          "url": "https://tinyaiarena.com/",
-          "publishedAt": "2026-09-27T15:51:28.000Z",
-          "publishedAtKst": "2026. 09. 28. 00:51",
-          "summary": "117 points, 45 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
@@ -463,38 +462,45 @@
       "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.31568v1",
-      "impact": 26,
+      "impact": 24,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wssgy2/openai_scraps_release_of_new_ai_model_over_safety/",
+      "impact": 20,
+      "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.31619v1",
-      "impact": 22,
+      "impact": 20,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "An operationalization of opaque serial depth",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
-      "impact": 18,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "AI Companies Are Not (Necessarily) Liable for Unintended AI Cyberattacks",
+      "source": "Hacker News",
+      "url": "https://sarahconstantin.substack.com/p/ai-companies-are-not-necessarily",
+      "impact": -11,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "OpenAI Halts Model Release Amid Safety Escalation",
+      "source": "Hacker News",
+      "url": "https://www.techbuzz.ai/articles/openai-halts-model-release-amid-safety-escalation",
+      "impact": 1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "A Defense of Gradual Disempowerment",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Continual learning might make your blocking monitors nearly useless",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
-      "impact": 9,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
