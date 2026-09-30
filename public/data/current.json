@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T19:42:43.075Z",
-  "generatedAtKst": "2026. 09. 30. 04:42",
-  "nextUpdateAt": "2026-09-29T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 30. 06:00",
+  "generatedAt": "2026-09-29T23:59:53.349Z",
+  "generatedAtKst": "2026. 09. 30. 08:59",
+  "nextUpdateAt": "2026-09-30T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 09. 30. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 45,
-    "coldCount": 7,
+    "coldCount": 6,
     "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -78,22 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "DevDay 2026 Recap",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/devday-2026-recap",
-          "publishedAt": "2026-09-29T10:00:00.000Z",
-          "publishedAtKst": "2026. 09. 29. 19:00",
-          "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-          "impact": 22,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Introducing GPT-6.1 Sol",
           "source": "OpenAI News",
           "url": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -108,6 +92,22 @@
             "컴퓨트"
           ],
           "why": "GPT, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "DevDay 2026 Recap",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/devday-2026-recap",
+          "publishedAt": "2026-09-29T10:00:00.000Z",
+          "publishedAtKst": "2026. 09. 29. 19:00",
+          "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
@@ -264,8 +264,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.28,
       "confidence": 91,
       "trend": "hot",
@@ -277,7 +277,7 @@
           "publishedAt": "2026-09-28T17:54:24.000Z",
           "publishedAtKst": "2026. 09. 29. 02:54",
           "summary": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -295,7 +295,7 @@
           "publishedAt": "2026-09-28T17:59:09.000Z",
           "publishedAtKst": "2026. 09. 29. 02:59",
           "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, whil",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -313,7 +313,7 @@
           "publishedAt": "2026-09-28T17:43:52.000Z",
           "publishedAtKst": "2026. 09. 29. 02:43",
           "summary": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation. Effective discove",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -331,8 +331,8 @@
           "publishedAt": "2026-09-28T17:44:11.000Z",
           "publishedAtKst": "2026. 09. 29. 02:44",
           "summary": "Recent progress in machine learning is driven by large-scale foundation models, where scaling laws and finding optimal scaling prescriptions for architecture, data, and hyperparameters are key in advancing the state-of-t",
-          "impact": 23,
-          "confidence": 91,
+          "impact": 22,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -349,7 +349,7 @@
           "publishedAt": "2026-09-28T17:38:53.000Z",
           "publishedAtKst": "2026. 09. 29. 02:38",
           "summary": "Aligning large language models (LLMs) to diverse user preferences is fundamentally hindered by standard alignment paradigms that optimize for monolithic users. In this work, empirical studies are first used to reveal the",
-          "impact": 22,
+          "impact": 21,
           "confidence": 90,
           "stance": "accelerate",
           "tags": [
@@ -365,29 +365,45 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Hot take: Anthropic’s real moat is alignment that doesn’t lobotomize the model",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wsu1c4/hot_take_anthropics_real_moat_is_alignment_that/",
-          "publishedAt": "2026-09-28T23:14:27.000Z",
-          "publishedAtKst": "2026. 09. 29. 08:14",
-          "summary": "I actually think Anthropic's biggest advantage might end up having very little to do with benchmarks. Their alignment work over the last year is way more interesting than people give it credit for. They seem to have real",
-          "impact": 30,
-          "confidence": 58,
+          "title": "I wrote a free, open-source book on making ML models actually fast, from silicon to agents [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
+          "publishedAt": "2026-09-29T10:35:53.000Z",
+          "publishedAtKst": "2026. 09. 29. 19:35",
+          "summary": "I’ve spent the last few months writing something I wish I had when I started working on ML performance engineering. It’s called How to Make Your Model Fast: A Systems View of Efficient Machine Learning, from Silicon to A",
+          "impact": 28,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "추론",
-            "프런티어 모델",
-            "Claude"
+            "LLM",
+            "모델",
+            "로보틱스"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Some thoughts about the compute obsession no one talks about [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wtmcdo/some_thoughts_about_the_compute_obsession_no_one/",
+          "publishedAt": "2026-09-29T21:13:33.000Z",
+          "publishedAtKst": "2026. 09. 30. 06:13",
+          "summary": "Using a throwaway account for obvious reasons. I'm going to say something uncomfortable. A massive portion of our field has stopped caring about algorithmic efficiency and instead decided that if it doesn't run on a mass",
+          "impact": 20,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "컴퓨트"
+          ],
+          "why": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Relay – a harness for AI coding agents that recover and verify",
@@ -396,7 +412,7 @@
           "publishedAt": "2026-09-29T18:46:07.000Z",
           "publishedAtKst": "2026. 09. 30. 03:46",
           "summary": "3 points, 0 comments",
-          "impact": 19,
+          "impact": 18,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -406,53 +422,37 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wssgy2/openai_scraps_release_of_new_ai_model_over_safety/",
-          "publishedAt": "2026-09-28T22:06:57.000Z",
-          "publishedAtKst": "2026. 09. 29. 07:06",
-          "summary": "Sept. 28, 2026 6:00 pm ET OpenAI is scrapping the release of its next-generation AI model over safety concerns that researchers raised during internal testing, in one of the clearest signs so far that agent misbehavior c",
-          "impact": 18,
-          "confidence": 56,
+          "title": "CoWindow and MassAlloc Attention: collective causal coverage and distribution-adaptive compute [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/",
+          "publishedAt": "2026-09-29T05:16:54.000Z",
+          "publishedAtKst": "2026. 09. 29. 14:16",
+          "summary": "I'm one of the authors of two recent papers exploring different sources of redundant computation in attention. I'd like to share the ideas and hear feedback from people working on long-context models and attention kernel",
+          "impact": 13,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT",
+            "모델",
+            "컴퓨트",
+            "추론 인프라"
+          ],
+          "why": "모델, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Inspect: An open-source framework for large language model evaluations",
+          "source": "Hacker News",
+          "url": "https://inspect.aisi.org.uk/",
+          "publishedAt": "2026-09-29T23:40:04.000Z",
+          "publishedAtKst": "2026. 09. 30. 08:40",
+          "summary": "1 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
             "모델"
           ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Maybe the real AGI was the friends we made along the way",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wt3ux0/maybe_the_real_agi_was_the_friends_we_made_along/",
-          "publishedAt": "2026-09-29T07:41:17.000Z",
-          "publishedAtKst": "2026. 09. 29. 16:41",
-          "summary": "&#32; submitted by &#32; /u/1337_420_69 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
-          "source": "Hacker News",
-          "url": "https://github.com/SecondState-ai/finance-agents-benchmark",
-          "publishedAt": "2026-09-28T06:34:40.000Z",
-          "publishedAtKst": "2026. 09. 28. 15:34",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 53,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -462,38 +462,31 @@
       "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.35741v1",
-      "impact": 32,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Hot take: Anthropic’s real moat is alignment that doesn’t lobotomize the model",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wsu1c4/hot_take_anthropics_real_moat_is_alignment_that/",
       "impact": 30,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.35760v1",
-      "impact": 30,
+      "impact": 29,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "I wrote a free, open-source book on making ML models actually fast, from silicon to agents [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
+      "impact": 28,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+      "title": "'AI should assist teachers, not replace them': Union warns of AI marking risks",
       "source": "Hacker News",
-      "url": "https://www.reuters.com/business/finance/anthropic-warns-ai-may-pose-existential-risks-humanity-ipo-filing-2026-09-29/",
+      "url": "https://www.rnz.co.nz/news/education/1656575/ai-should-assist-teachers-not-replace-them-union-warns-of-risks-of-ai-marking",
       "impact": -2,
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Commercialization of fusion energy will ‘change everything,’ lawmaker says",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wsyrja/commercialization_of_fusion_energy_will_change/",
-      "impact": -1,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
@@ -501,6 +494,13 @@
       "url": "http://arxiv.org/abs/2609.35768v1",
       "impact": 1,
       "reason": "편향, 포화 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Defense of Gradual Disempowerment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "impact": 6,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
