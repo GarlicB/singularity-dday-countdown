@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T23:59:53.349Z",
-  "generatedAtKst": "2026. 09. 30. 08:59",
-  "nextUpdateAt": "2026-09-30T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 09. 30. 12:00",
+  "generatedAt": "2026-09-30T09:08:40.226Z",
+  "generatedAtKst": "2026. 09. 30. 18:08",
+  "nextUpdateAt": "2026-09-30T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 01. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2166,
+    "rangeEnd": "2039-06-24",
+    "dday": 2120,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 45,
-    "coldCount": 6,
-    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 42,
+    "coldCount": 5,
+    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 70,
-      "delta": 4,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-09-29T10:00:00.000Z",
           "publishedAtKst": "2026. 09. 29. 19:00",
           "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-09-29T10:00:00.000Z",
           "publishedAtKst": "2026. 09. 29. 19:00",
           "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -264,100 +264,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 83,
-      "delta": 8,
+      "score": 94,
+      "delta": 11,
       "weight": 0.28,
-      "confidence": 91,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+          "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.35741v1",
-          "publishedAt": "2026-09-28T17:54:24.000Z",
-          "publishedAtKst": "2026. 09. 29. 02:54",
-          "summary": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions",
-          "impact": 30,
+          "url": "http://arxiv.org/abs/2609.38177v1",
+          "publishedAt": "2026-09-29T17:59:52.000Z",
+          "publishedAtKst": "2026. 09. 30. 02:59",
+          "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evid",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
-            "에이전트",
-            "모델",
-            "코딩 성능"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.35760v1",
-          "publishedAt": "2026-09-28T17:59:09.000Z",
-          "publishedAtKst": "2026. 09. 29. 02:59",
-          "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, whil",
-          "impact": 29,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
+            "추론",
             "LLM",
-            "모델",
-            "코딩 성능"
+            "모델"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
+          "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.35706v1",
-          "publishedAt": "2026-09-28T17:43:52.000Z",
-          "publishedAtKst": "2026. 09. 29. 02:43",
-          "summary": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation. Effective discove",
-          "impact": 25,
+          "url": "http://arxiv.org/abs/2609.38147v1",
+          "publishedAt": "2026-09-29T17:57:25.000Z",
+          "publishedAtKst": "2026. 09. 30. 02:57",
+          "summary": "As agents take on longer and more complex problems, controlling the execution becomes a task in its own right. Each step in the run brings new control choices, like which partial work to build on, whether to start fresh,",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "추론",
-            "LLM",
-            "모델"
+            "프런티어 모델",
+            "GPT"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+          "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.35707v1",
-          "publishedAt": "2026-09-28T17:44:11.000Z",
-          "publishedAtKst": "2026. 09. 29. 02:44",
-          "summary": "Recent progress in machine learning is driven by large-scale foundation models, where scaling laws and finding optimal scaling prescriptions for architecture, data, and hyperparameters are key in advancing the state-of-t",
-          "impact": 22,
-          "confidence": 90,
+          "url": "http://arxiv.org/abs/2609.38140v1",
+          "publishedAt": "2026-09-29T17:55:19.000Z",
+          "publishedAtKst": "2026. 09. 30. 02:55",
+          "summary": "Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative models. However, conventional token-wise MoE routes tokens independently within a homogeneous expert p",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "LLM",
             "모델",
-            "벤치마크",
-            "SOTA"
+            "벤치마크"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models",
+          "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.35695v1",
-          "publishedAt": "2026-09-28T17:38:53.000Z",
-          "publishedAtKst": "2026. 09. 29. 02:38",
-          "summary": "Aligning large language models (LLMs) to diverse user preferences is fundamentally hindered by standard alignment paradigms that optimize for monolithic users. In this work, empirical studies are first used to reveal the",
-          "impact": 21,
-          "confidence": 90,
+          "url": "http://arxiv.org/abs/2609.38108v1",
+          "publishedAt": "2026-09-29T17:47:18.000Z",
+          "publishedAtKst": "2026. 09. 30. 02:47",
+          "summary": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropria",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
             "LLM",
             "모델",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.38104v1",
+          "publishedAt": "2026-09-29T17:45:43.000Z",
+          "publishedAtKst": "2026. 09. 30. 02:45",
+          "summary": "Power-sharpened sampling is an inference-time alternative to reinforcement-learning (RL) post-training for enhancing reasoning in large language models (LLMs). High-probability sequences are amplified under the base mode",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "프런티어 모델",
+            "LLM",
+            "모델"
+          ],
+          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -365,10 +366,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 69,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
@@ -378,8 +379,8 @@
           "publishedAt": "2026-09-29T10:35:53.000Z",
           "publishedAtKst": "2026. 09. 29. 19:35",
           "summary": "I’ve spent the last few months writing something I wish I had when I started working on ML performance engineering. It’s called How to Make Your Model Fast: A Systems View of Efficient Machine Learning, from Silicon to A",
-          "impact": 28,
-          "confidence": 62,
+          "impact": 26,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,30 +391,14 @@
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Some thoughts about the compute obsession no one talks about [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wtmcdo/some_thoughts_about_the_compute_obsession_no_one/",
-          "publishedAt": "2026-09-29T21:13:33.000Z",
-          "publishedAtKst": "2026. 09. 30. 06:13",
-          "summary": "Using a throwaway account for obvious reasons. I'm going to say something uncomfortable. A massive portion of our field has stopped caring about algorithmic efficiency and instead decided that if it doesn't run on a mass",
-          "impact": 20,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "컴퓨트"
-          ],
-          "why": "AGI, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: Relay – a harness for AI coding agents that recover and verify",
           "source": "Hacker News",
           "url": "https://relayevals.com",
           "publishedAt": "2026-09-29T18:46:07.000Z",
           "publishedAtKst": "2026. 09. 30. 03:46",
           "summary": "3 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -422,21 +407,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "CoWindow and MassAlloc Attention: collective causal coverage and distribution-adaptive compute [R]",
+          "title": "LessThink-Qwen3-4B: the same model, with far less thinking [P]",
           "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/",
-          "publishedAt": "2026-09-29T05:16:54.000Z",
-          "publishedAtKst": "2026. 09. 29. 14:16",
-          "summary": "I'm one of the authors of two recent papers exploring different sources of redundant computation in attention. I'd like to share the ideas and hear feedback from people working on long-context models and attention kernel",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wtygav/lessthinkqwen34b_the_same_model_with_far_less/",
+          "publishedAt": "2026-09-30T07:19:45.000Z",
+          "publishedAtKst": "2026. 09. 30. 16:19",
+          "summary": "I post-trained Qwen3-4B to spend 44% fewer tokens on reasoning, keeping its knowledge and answer style. The whole pipeline ran on one GPU. folks, you can check it out on : https://5ivatej.com/lessthink/ &#32; submitted b",
           "impact": 13,
-          "confidence": 51,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "모델",
-            "컴퓨트",
-            "추론 인프라"
+            "추론",
+            "모델"
           ],
-          "why": "모델, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Inspect: An open-source framework for large language model evaluations",
@@ -444,56 +428,64 @@
           "url": "https://inspect.aisi.org.uk/",
           "publishedAt": "2026-09-29T23:40:04.000Z",
           "publishedAtKst": "2026. 09. 30. 08:40",
-          "summary": "1 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
+          "summary": "4 points, 0 comments",
+          "impact": 11,
+          "confidence": 54,
+          "stance": "watch",
           "tags": [
             "LLM",
             "모델"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "How to Manage a Team of AI Agents at Month-End",
+          "source": "Hacker News",
+          "url": "https://adaptiveinc.com/blog/01a0d880/how-to-manage-a-team-of-ai-agents-at-month-end",
+          "publishedAt": "2026-09-30T08:05:30.000Z",
+          "publishedAtKst": "2026. 09. 30. 17:05",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.35741v1",
-      "impact": 30,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2609.38177v1",
+      "impact": 36,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+      "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.35760v1",
-      "impact": 29,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2609.38147v1",
+      "impact": 36,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "I wrote a free, open-source book on making ML models actually fast, from silicon to agents [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
-      "impact": 28,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2609.38140v1",
+      "impact": 36,
+      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "'AI should assist teachers, not replace them': Union warns of AI marking risks",
-      "source": "Hacker News",
-      "url": "https://www.rnz.co.nz/news/education/1656575/ai-should-assist-teachers-not-replace-them-union-warns-of-risks-of-ai-marking",
+      "title": "Neurips Workshop Author Notification Delay [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtqtwk/neurips_workshop_author_notification_delay_d/",
       "impact": -2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.35768v1",
-      "impact": 1,
-      "reason": "편향, 포화 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "A Defense of Gradual Disempowerment",
@@ -501,6 +493,13 @@
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
+      "impact": 7,
+      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
