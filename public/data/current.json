@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T19:43:48.142Z",
-  "generatedAtKst": "2026. 10. 01. 04:43",
-  "nextUpdateAt": "2026-09-30T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 01. 06:00",
+  "generatedAt": "2026-10-01T00:15:41.660Z",
+  "generatedAtKst": "2026. 10. 01. 09:15",
+  "nextUpdateAt": "2026-10-01T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 01. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2030,
+    "rangeEnd": "2039-02-09",
+    "dday": 1984,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
-    "coldCount": 5,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 7,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -94,22 +94,6 @@
           "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing GPT-6.1 Sol",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "publishedAt": "2026-09-29T10:00:00.000Z",
-          "publishedAtKst": "2026. 09. 29. 19:00",
-          "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "컴퓨트"
-          ],
-          "why": "GPT, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "DevDay 2026 Recap",
           "source": "OpenAI News",
           "url": "https://openai.com/index/devday-2026-recap",
@@ -126,6 +110,37 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Introducing GPT-6.1 Sol",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+          "publishedAt": "2026-09-29T10:00:00.000Z",
+          "publishedAtKst": "2026. 09. 29. 19:00",
+          "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "컴퓨트"
+          ],
+          "why": "GPT, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "publishedAt": "2026-09-30T20:01:45.000Z",
+          "publishedAtKst": "2026. 10. 01. 05:01",
+          "summary": "",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini"
+          ],
+          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
           "source": "OpenAI News",
           "url": "https://openai.com/index/basis-tax-workbook-with-astra",
@@ -139,22 +154,6 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ringg",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:00",
-          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,7 +161,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.18,
       "confidence": 84,
@@ -185,21 +184,6 @@
             "GPT"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Chris Painter's testimony to the U.S. Senate on AI agent incidents",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
-          "publishedAt": "2026-09-30T07:00:00.000Z",
-          "publishedAtKst": "2026. 09. 30. 16:00",
-          "summary": "",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
@@ -236,6 +220,21 @@
             "Gemini"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Chris Painter's testimony to the U.S. Senate on AI agent incidents",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
+          "publishedAt": "2026-09-30T07:00:00.000Z",
+          "publishedAtKst": "2026. 09. 30. 16:00",
+          "summary": "",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Why I'm scared of RL",
@@ -328,7 +327,7 @@
           "publishedAt": "2026-09-29T17:47:18.000Z",
           "publishedAtKst": "2026. 09. 30. 02:47",
           "summary": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropria",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,7 +345,7 @@
           "publishedAt": "2026-09-29T17:55:19.000Z",
           "publishedAtKst": "2026. 09. 30. 02:55",
           "summary": "Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative models. However, conventional token-wise MoE routes tokens independently within a homogeneous expert p",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -363,37 +362,55 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 60,
       "trend": "hot",
       "items": [
         {
-          "title": "Work I used to give juniors now takes Opus 5.5 minutes. I don't think we've clocked how far past GDPval we are",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wu2bxh/work_i_used_to_give_juniors_now_takes_opus_55/",
-          "publishedAt": "2026-09-30T11:22:54.000Z",
-          "publishedAtKst": "2026. 09. 30. 20:22",
-          "summary": "Back in December, GPT-5.2 won or tied against industry professionals on 71% of tasks. By April, GPT-5.5 had hit 85% and Opus 4.7 80%. Then OpenAI quietly stopped publishing its own human-graded number and we just moved o",
-          "impact": 20,
-          "confidence": 58,
+          "title": "Which API for general real-time LLM agents [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wu7kz0/which_api_for_general_realtime_llm_agents_d/",
+          "publishedAt": "2026-09-30T15:14:07.000Z",
+          "publishedAtKst": "2026. 10. 01. 00:14",
+          "summary": "TL;DR what is the right interface for writing custom real-time LLM agents? I've noticed many projects (academic, startups, pet, etc) are trying to make LLMs work in real-time world where things happen while the model is ",
+          "impact": 36,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
-            "AGI",
+            "에이전트",
             "GPT",
-            "모델",
-            "편향"
+            "LLM",
+            "코딩 에이전트"
           ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Ciao – Control coding agents from your phone",
+          "title": "OpenAI’s Lean 4 Navier-Stokes proof compiles with zero errors, but the fluid vaporizes at 0.7 nm. What does this mean for Neuro-Symbolic AI? [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wuac1n/openais_lean_4_navierstokes_proof_compiles_with/",
+          "publishedAt": "2026-09-30T16:59:35.000Z",
+          "publishedAtKst": "2026. 10. 01. 01:59",
+          "summary": "Hey everyone, I do research in neuro-symbolic AI, and like many of you, I was amazed by OpenAI’s recent formal proof of the 3D Navier-Stokes blow-up in Lean 4. Having an AI build a full mathematical proof that compiles w",
+          "impact": 23,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Coding Agents Are Broken",
           "source": "Hacker News",
-          "url": "https://apps.apple.com/us/app/ciaooo-claude-code-codex/id6793695487",
-          "publishedAt": "2026-09-30T18:34:32.000Z",
-          "publishedAtKst": "2026. 10. 01. 03:34",
-          "summary": "1 points, 0 comments",
+          "url": "https://ramblingenzy.me/blog/coding-agents-are-broken",
+          "publishedAt": "2026-09-30T23:40:19.000Z",
+          "publishedAtKst": "2026. 10. 01. 08:40",
+          "summary": "2 points, 0 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -404,58 +421,49 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Relay – a harness for AI coding agents that recover and verify",
-          "source": "Hacker News",
-          "url": "https://relayevals.com",
-          "publishedAt": "2026-09-29T18:46:07.000Z",
-          "publishedAtKst": "2026. 09. 30. 03:46",
-          "summary": "3 points, 0 comments",
-          "impact": 16,
+          "title": "Multi scan radar object classification on RadarScenes [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wubuz7/multi_scan_radar_object_classification_on/",
+          "publishedAt": "2026-09-30T17:55:38.000Z",
+          "publishedAtKst": "2026. 10. 01. 02:55",
+          "summary": "Hello all, I built a radar object classifier on RadarScenes, extending a prior single-scan classifier to accumulate observations over a tracked object's history instead of classifying each scan in isolation. A single Rad",
+          "impact": 19,
           "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "자율성",
+            "추론",
+            "모델"
+          ],
+          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Ciao – Control coding agents from your phone",
+          "source": "Hacker News",
+          "url": "https://apps.apple.com/us/app/ciaooo-claude-code-codex/id6793695487",
+          "publishedAt": "2026-09-30T18:34:32.000Z",
+          "publishedAtKst": "2026. 10. 01. 03:34",
+          "summary": "2 points, 0 comments",
+          "impact": 18,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I don't understand the constant bashing of GPT 6/6.1 Sol's performance relative to 5.6 and Astra. Why are we ignoring the elephant in the room, the absurd price + efficiency gains? It costs half as much as Sonnet 5.5, 1/3rd of 5.6 Sol, 1/5th of Opus 5.5, and 1.7th of Astra.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wtluzq/i_dont_understand_the_constant_bashing_of_gpt_661/",
-          "publishedAt": "2026-09-29T20:54:41.000Z",
-          "publishedAtKst": "2026. 09. 30. 05:54",
-          "summary": "https://preview.redd.it/huqgxlvbuish1.png?width=1422&format=png&auto=webp&s=5ec18c8812535e0160863d4b27a818ae4fc47aee Call me crazy, but even if its benchmaxed and worse than Sol 5.6, Opus 5.5 or Astra, I don't get why th",
-          "impact": 16,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "Claude",
-            "모델"
-          ],
-          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
-          "source": "Hacker News",
-          "url": "https://artificialanalysis.ai/articles/aa-agentperf-local",
-          "publishedAt": "2026-09-30T09:57:49.000Z",
-          "publishedAtKst": "2026. 09. 30. 18:57",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "Which API for general real-time LLM agents [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wu7kz0/which_api_for_general_realtime_llm_agents_d/",
+      "impact": 36,
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
       "source": "arXiv",
@@ -469,36 +477,29 @@
       "url": "http://arxiv.org/abs/2609.38147v1",
       "impact": 36,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.38104v1",
-      "impact": 36,
-      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "OpenAI delays IPO over AI safety concerns",
+      "title": "Isolation Forest performs best with 1.0 as max_samples [R]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wu8m1a/isolation_forest_performs_best_with_10_as_max/",
+      "impact": -8,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Appeal of Surveillance Tech CEO's Meritless Lawsuit Against Journalist Fails",
       "source": "Hacker News",
-      "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
-      "impact": -7,
-      "reason": "안전 이슈, 지연 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://www.eff.org/deeplinks/2026/09/victory-california-appeals-court-refuses-revive-surveillance-tech-ceos-meritless",
+      "impact": -3,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
-      "impact": 7,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Neurips Workshop Author Notification Delay [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtqtwk/neurips_workshop_author_notification_delay_d/",
+      "impact": -2,
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
