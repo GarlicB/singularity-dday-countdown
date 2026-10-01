@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-01T09:36:04.081Z",
-  "generatedAtKst": "2026. 10. 01. 18:36",
-  "nextUpdateAt": "2026-10-01T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 02. 00:00",
+  "generatedAt": "2026-10-01T19:58:24.590Z",
+  "generatedAtKst": "2026. 10. 02. 04:58",
+  "nextUpdateAt": "2026-10-01T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 02. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2029,
+    "rangeEnd": "2039-02-09",
+    "dday": 1984,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
-    "coldCount": 4,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 5,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,44 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
-      "delta": 6,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How Albertsons Companies is reimagining retail from the inside out",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "publishedAt": "2026-10-01T16:00:00.000Z",
+          "publishedAtKst": "2026. 10. 02. 01:00",
+          "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The eternal complement",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-eternal-complement",
+          "publishedAt": "2026-10-01T17:00:00.000Z",
+          "publishedAtKst": "2026. 10. 02. 02:00",
+          "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+          "impact": 18,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "돌파"
+          ],
+          "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Disrupting a coordinated model-distillation campaign",
           "source": "OpenAI News",
@@ -84,7 +116,7 @@
           "publishedAt": "2026-09-30T10:30:00.000Z",
           "publishedAtKst": "2026. 09. 30. 19:30",
           "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +132,7 @@
           "publishedAt": "2026-09-29T10:00:00.000Z",
           "publishedAtKst": "2026. 09. 29. 19:00",
           "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +148,7 @@
           "publishedAt": "2026-09-29T10:00:00.000Z",
           "publishedAtKst": "2026. 09. 29. 19:00",
           "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -124,37 +156,6 @@
             "컴퓨트"
           ],
           "why": "GPT, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini 4 Argon: our next era of frontier intelligence",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "publishedAt": "2026-09-30T20:01:45.000Z",
-          "publishedAtKst": "2026. 10. 01. 05:01",
-          "summary": "",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ringg",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:00",
-          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -229,7 +230,7 @@
           "publishedAt": "2026-09-30T07:00:00.000Z",
           "publishedAtKst": "2026. 09. 30. 16:00",
           "summary": "",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -261,30 +262,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.40325v1",
-          "publishedAt": "2026-09-30T17:55:29.000Z",
-          "publishedAtKst": "2026. 10. 01. 02:55",
-          "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, trave",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
           "source": "arXiv",
@@ -304,13 +287,31 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.40325v1",
+          "publishedAt": "2026-09-30T17:55:29.000Z",
+          "publishedAtKst": "2026. 10. 01. 02:55",
+          "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, trave",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "프런티어 모델",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "STARS: From Spatiotemporal Dynamics to Social Representations in Human-Robot Interaction",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2609.40245v1",
           "publishedAt": "2026-09-30T17:35:08.000Z",
           "publishedAtKst": "2026. 10. 01. 02:35",
           "summary": "Robot navigation in dynamic, human-centered environments requires socially-compliant decisions grounded in robust scene understanding. Recent Vision-Language Models (VLMs) exhibit promising capabilities such as object re",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,7 +329,7 @@
           "publishedAt": "2026-09-30T17:52:08.000Z",
           "publishedAtKst": "2026. 10. 01. 02:52",
           "summary": "Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scale computation by repeatedly running shared Transformer",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -346,7 +347,7 @@
           "publishedAt": "2026-09-30T17:44:19.000Z",
           "publishedAtKst": "2026. 10. 01. 02:44",
           "summary": "Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change",
-          "impact": 33,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -363,10 +364,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
@@ -394,8 +395,8 @@
           "publishedAt": "2026-09-30T20:08:19.000Z",
           "publishedAtKst": "2026. 10. 01. 05:08",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 26,
-          "confidence": 58,
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "자율성",
@@ -412,8 +413,8 @@
           "publishedAt": "2026-09-30T20:43:42.000Z",
           "publishedAtKst": "2026. 10. 01. 05:43",
           "summary": "&#32; submitted by &#32; /u/Conscious_Warrior [link] &#32; [comments]",
-          "impact": 20,
-          "confidence": 53,
+          "impact": 19,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -423,22 +424,20 @@
           "why": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Work I used to give juniors now takes Opus 5.5 minutes. I don't think we've clocked how far past GDPval we are",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wu2bxh/work_i_used_to_give_juniors_now_takes_opus_55/",
-          "publishedAt": "2026-09-30T11:22:54.000Z",
-          "publishedAtKst": "2026. 09. 30. 20:22",
-          "summary": "Back in December, GPT-5.2 won or tied against industry professionals on 71% of tasks. By April, GPT-5.5 had hit 85% and Opus 4.7 80%. Then OpenAI quietly stopped publishing its own human-graded number and we just moved o",
-          "impact": 18,
-          "confidence": 56,
+          "title": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
+          "source": "Hacker News",
+          "url": "https://github.com/landoncrabtree/etymon",
+          "publishedAt": "2026-10-01T19:35:49.000Z",
+          "publishedAtKst": "2026. 10. 02. 04:35",
+          "summary": "1 points, 1 comments",
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "GPT",
-            "모델",
-            "편향"
+            "에이전트",
+            "Claude"
           ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Ciao – Control coding agents from your phone",
@@ -447,8 +446,8 @@
           "publishedAt": "2026-09-30T18:34:32.000Z",
           "publishedAtKst": "2026. 10. 01. 03:34",
           "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -468,18 +467,18 @@
       "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2609.40325v1",
-      "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.40303v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "impact": 35,
+      "reason": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -487,7 +486,7 @@
       "title": "Compression Footprints as Security Signals for Model-Poisoning Defense in Federated Learning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2609.40312v1",
-      "impact": -3,
+      "impact": -2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
