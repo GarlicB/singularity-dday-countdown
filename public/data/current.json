@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-03T18:26:19.718Z",
-  "generatedAtKst": "2026. 10. 04. 03:26",
-  "nextUpdateAt": "2026-10-03T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 04. 06:00",
+  "generatedAt": "2026-10-03T23:26:03.566Z",
+  "generatedAtKst": "2026. 10. 04. 08:26",
+  "nextUpdateAt": "2026-10-04T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 04. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2072,
+    "rangeEnd": "2039-12-21",
+    "dday": 2297,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 41,
-    "coldCount": 4,
-    "summary": "가속 신호 41건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 36,
+    "coldCount": 5,
+    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-01T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 02. 01:00",
           "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-02T16:15:00.000Z",
           "publishedAtKst": "2026. 10. 03. 01:15",
           "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-10-01T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 01. 09:00",
           "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -126,21 +126,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The eternal complement",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/the-eternal-complement",
-          "publishedAt": "2026-10-01T17:00:00.000Z",
-          "publishedAtKst": "2026. 10. 02. 02:00",
-          "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "돌파"
-          ],
-          "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Chatham scales its capital markets expertise with OpenAI",
@@ -156,6 +141,21 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The eternal complement",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-eternal-complement",
+          "publishedAt": "2026-10-01T17:00:00.000Z",
+          "publishedAtKst": "2026. 10. 02. 02:00",
+          "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "돌파"
+          ],
+          "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,30 +263,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.02204v1",
-          "publishedAt": "2026-10-01T17:59:50.000Z",
-          "publishedAtKst": "2026. 10. 02. 02:59",
-          "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "자기개선",
-            "GPT"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
           "source": "arXiv",
@@ -306,13 +288,31 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.02204v1",
+          "publishedAt": "2026-10-01T17:59:50.000Z",
+          "publishedAtKst": "2026. 10. 02. 02:59",
+          "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "자기개선",
+            "GPT"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.02191v1",
           "publishedAt": "2026-10-01T17:59:32.000Z",
           "publishedAtKst": "2026. 10. 02. 02:59",
           "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. ",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -330,7 +330,7 @@
           "publishedAt": "2026-10-01T17:54:34.000Z",
           "publishedAtKst": "2026. 10. 02. 02:54",
           "summary": "Coding agents solve repository-level software engineering tasks through long trajectories of code inspection, search, editing, and testing. As a task progresses, earlier exploration becomes stale, so managing context is ",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,8 +348,8 @@
           "publishedAt": "2026-10-01T17:34:10.000Z",
           "publishedAtKst": "2026. 10. 02. 02:34",
           "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. It",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -365,62 +365,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 53,
+      "delta": 1,
       "weight": 0.2,
       "confidence": 52,
-      "trend": "hot",
+      "trend": "watch",
       "items": [
-        {
-          "title": "software has become a liquid",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wwcxo9/software_has_become_a_liquid/",
-          "publishedAt": "2026-10-03T03:23:16.000Z",
-          "publishedAtKst": "2026. 10. 03. 12:23",
-          "summary": "im sure people have been seeing the examples of people putting minecraft inside elden ring or opus 5.5 porting windows only applications to mac and linux. SOTA models have reached a stable enough capability to end \"fixed",
-          "impact": 28,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "Claude",
-            "모델"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Could the simulated fruit-fly brain be considered the first “immortal” living being?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wwr56b/could_the_simulated_fruitfly_brain_be_considered/",
-          "publishedAt": "2026-10-03T16:16:17.000Z",
-          "publishedAtKst": "2026. 10. 04. 01:16",
-          "summary": "Could the simulated fruit-fly brain be considered the first “immortal” living being? Imagine we’re 70+ years old and decide to scan our entire brain and transfer it into a humanoid robot body that can be repaired or repl",
-          "impact": 15,
-          "confidence": 50,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT-6 Astra Dots used Blender on its own computer to build an entire 3D palace, 0 hours of human modeling",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wwcne4/gpt6_astra_dots_used_blender_on_its_own_computer/",
-          "publishedAt": "2026-10-03T03:08:13.000Z",
-          "publishedAtKst": "2026. 10. 03. 12:08",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
           "source": "Hacker News",
@@ -428,8 +378,8 @@
           "publishedAt": "2026-10-02T13:37:18.000Z",
           "publishedAtKst": "2026. 10. 02. 22:37",
           "summary": "26 points, 3 comments",
-          "impact": 14,
-          "confidence": 55,
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -438,32 +388,39 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Wasn’t expecting games to be one of the first lineups but here we are, gaming industry has just been marked revolutionized and this is just the start",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wwip6n/wasnt_expecting_games_to_be_one_of_the_first/",
-          "publishedAt": "2026-10-03T09:09:51.000Z",
-          "publishedAtKst": "2026. 10. 03. 18:09",
-          "summary": "Just watch this for yourself, only took about 4 years of agentic AI to get to this, I don’t even know what to say….it just works, wild potential here on the basis of everything we’ve already achieved so far in gaming ind",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
+          "title": "Show HN: Cliproxy-rs, a Rust port of the CLIProxyAPI LLM subscription proxy",
+          "source": "Hacker News",
+          "url": "https://github.com/vayungodara/cliproxy-rs",
+          "publishedAt": "2026-10-03T22:36:03.000Z",
+          "publishedAtKst": "2026. 10. 04. 07:36",
+          "summary": "1 points, 0 comments",
+          "impact": 8,
+          "confidence": 52,
+          "stance": "watch",
           "tags": [
-            "에이전트",
-            "모델"
+            "LLM"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+          "source": "Hacker News",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "publishedAt": "2026-10-03T22:18:13.000Z",
+          "publishedAtKst": "2026. 10. 04. 07:18",
+          "summary": "36 points, 7 comments",
+          "impact": -1,
+          "confidence": 51,
+          "stance": "decelerate",
+          "tags": [
+            "안전 이슈"
+          ],
+          "why": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.02204v1",
-      "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
       "source": "arXiv",
@@ -472,19 +429,33 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.02204v1",
+      "impact": 35,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.02191v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "source": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "impact": -1,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.02189v1",
-      "impact": 2,
+      "impact": 3,
       "reason": "규제, 편향 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -493,13 +464,6 @@
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
