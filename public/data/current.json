@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-04T14:39:10.495Z",
-  "generatedAtKst": "2026. 10. 04. 23:39",
-  "nextUpdateAt": "2026-10-04T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 05. 00:00",
+  "generatedAt": "2026-10-04T18:28:18.161Z",
+  "generatedAtKst": "2026. 10. 05. 03:28",
+  "nextUpdateAt": "2026-10-04T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 05. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2161,
+    "rangeEnd": "2039-08-18",
+    "dday": 2206,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 36,
-    "coldCount": 4,
-    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 32,
+    "coldCount": 5,
+    "summary": "가속 신호 32건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -78,23 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "How Albertsons Companies is reimagining retail from the inside out",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/albertsons-reimagining-retail",
-          "publishedAt": "2026-10-01T16:00:00.000Z",
-          "publishedAtKst": "2026. 10. 02. 01:00",
-          "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-          "impact": 21,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "A model guide for the GPT-6 family",
           "source": "OpenAI News",
           "url": "https://openai.com/index/practical-guide-building-gpt-6",
@@ -112,20 +95,21 @@
           "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+          "title": "How Albertsons Companies is reimagining retail from the inside out",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/the-den-family-social",
-          "publishedAt": "2026-10-01T00:00:00.000Z",
-          "publishedAtKst": "2026. 10. 01. 09:00",
-          "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-          "impact": 14,
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "publishedAt": "2026-10-01T16:00:00.000Z",
+          "publishedAtKst": "2026. 10. 02. 01:00",
+          "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "ChatGPT",
             "GPT"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Chatham scales its capital markets expertise with OpenAI",
@@ -156,6 +140,22 @@
             "돌파"
           ],
           "why": "돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-den-family-social",
+          "publishedAt": "2026-10-01T00:00:00.000Z",
+          "publishedAtKst": "2026. 10. 01. 09:00",
+          "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,10 +263,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 83,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 90,
+      "confidence": 89,
       "trend": "hot",
       "items": [
         {
@@ -276,7 +276,7 @@
           "publishedAt": "2026-10-01T17:59:45.000Z",
           "publishedAtKst": "2026. 10. 02. 02:59",
           "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness th",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -294,8 +294,8 @@
           "publishedAt": "2026-10-01T17:59:50.000Z",
           "publishedAtKst": "2026. 10. 02. 02:59",
           "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real",
-          "impact": 29,
-          "confidence": 92,
+          "impact": 27,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -312,8 +312,8 @@
           "publishedAt": "2026-10-01T17:59:32.000Z",
           "publishedAtKst": "2026. 10. 02. 02:59",
           "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. ",
-          "impact": 27,
-          "confidence": 91,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -330,8 +330,8 @@
           "publishedAt": "2026-10-01T17:54:34.000Z",
           "publishedAtKst": "2026. 10. 02. 02:54",
           "summary": "Coding agents solve repository-level software engineering tasks through long trajectories of code inspection, search, editing, and testing. As a task progresses, earlier exploration becomes stale, so managing context is ",
-          "impact": 26,
-          "confidence": 90,
+          "impact": 24,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -348,8 +348,8 @@
           "publishedAt": "2026-10-01T17:34:10.000Z",
           "publishedAtKst": "2026. 10. 02. 02:34",
           "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. It",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -365,125 +365,130 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Nonobench: an open benchmark of 49 LLMs on nonogram puzzles, public and open source [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wxa2bs/nonobench_an_open_benchmark_of_49_llms_on/",
-          "publishedAt": "2026-10-04T07:57:28.000Z",
-          "publishedAtKst": "2026. 10. 04. 16:57",
-          "summary": "Nonobench measures how well LLMs solve nonograms (picross). Each model gets the row and column clues once and returns the full grid. No tools, one attempt per puzzle. Method: - Standard mode: 30 puzzles from 5x5 to 15x15",
+          "title": "People are making the same mistake with Covid and AGI",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wxb83y/people_are_making_the_same_mistake_with_covid_and/",
+          "publishedAt": "2026-10-04T09:11:40.000Z",
+          "publishedAtKst": "2026. 10. 04. 18:11",
+          "summary": "There is a cognitive bias from the Covid period that I think is increasingly relevant to AI. Humans are bad at exponential growth. This isn't just an observation from watching people argue about case counts. Researchers ",
           "impact": 36,
-          "confidence": 62,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "GPT",
-            "Claude",
-            "LLM"
+            "AGI",
+            "에이전트",
+            "자율성",
+            "프런티어 모델"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Jev: Not Frontier, But Still Worth Your Attention [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wx1knr/jev_not_frontier_but_still_worth_your_attention_r/",
-          "publishedAt": "2026-10-03T23:57:28.000Z",
-          "publishedAtKst": "2026. 10. 04. 08:57",
-          "summary": "\"TypeSafe AI sells Jev as a frontier-class reasoner that cannot hallucinate, built by the co-inventor of ChatGPT - fast, and almost free. We ran it live on 16,379 benchmark requests, measured its latency and billing, and",
-          "impact": 22,
-          "confidence": 58,
+          "title": "Gemini 4 Argon Fails to Compete with ChatGPT and Claude",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49956449",
+          "publishedAt": "2026-10-04T18:22:39.000Z",
+          "publishedAtKst": "2026. 10. 05. 03:22",
+          "summary": "1 points, 0 comments",
+          "impact": 30,
+          "confidence": 66,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
             "GPT",
-            "모델",
-            "벤치마크"
+            "Gemini",
+            "Claude"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Run Osier to track how your AI coding agent does",
-          "source": "Hacker News",
-          "url": "https://www.npmjs.com/package/osier-dev",
-          "publishedAt": "2026-10-04T14:22:05.000Z",
-          "publishedAtKst": "2026. 10. 04. 23:22",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "The importance of keeping a diary for AI to analyze",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wxfxzg/the_importance_of_keeping_a_diary_for_ai_to/",
+          "publishedAt": "2026-10-04T13:39:32.000Z",
+          "publishedAtKst": "2026. 10. 04. 22:39",
+          "summary": "I have been keeping a detailed diary for the past 5 years. What I did that day, ate, exercise, medical symptoms ect. I can't overstate how useful it has been to ask Chatgpt questions about my past. Things I forgot and ma",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
+          "source": "Hacker News",
+          "url": "https://www.kapa.ai/blog/company-knowledge-bench",
+          "publishedAt": "2026-10-02T13:37:18.000Z",
+          "publishedAtKst": "2026. 10. 02. 22:37",
+          "summary": "26 points, 3 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Here are some pictures of a robot costume wearing high-specularity edge-case mirror suit, a dataset (425 RAW/JPEGs) for benchmarking CV & depth-estimation algorithms against extreme mirror reflections [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wx7jg6/here_are_some_pictures_of_a_robot_costume_wearing/",
-          "publishedAt": "2026-10-04T05:21:35.000Z",
-          "publishedAtKst": "2026. 10. 04. 14:21",
-          "summary": "Purpose-built to stress-test computer vision models, depth cameras, and spatial AI against severe specular glare and geometric reflections. This 425-asset production archive features a custom faceted mirror suit captured",
-          "impact": 16,
-          "confidence": 53,
-          "stance": "accelerate",
+          "title": "It's over, guys. This repo turns ONE photo into a full explorable 3D world in 5 minutes. Physics, splats, audio!",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wx6cri/its_over_guys_this_repo_turns_one_photo_into_a/",
+          "publishedAt": "2026-10-04T04:12:42.000Z",
+          "publishedAtKst": "2026. 10. 04. 13:12",
+          "summary": "image-blaster is an open-source (MIT) skillset for Claude Code that turns a single image into a 3D environment in under 5 minutes. What you get: 3D models (.glb, .obj) of the dynamic objects A Gaussian splat (.spz) of th",
+          "impact": 11,
+          "confidence": 46,
+          "stance": "watch",
           "tags": [
-            "모델",
-            "벤치마크",
-            "컴퓨트"
+            "Claude",
+            "모델"
           ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1wxex8n/a_minimal_interpretable_architecture_for_zeroshot/",
-          "publishedAt": "2026-10-04T12:49:40.000Z",
-          "publishedAtKst": "2026. 10. 04. 21:49",
-          "summary": "In our #NeurIPS2026 paper “A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems (DS)” (preprint: https://arxiv.org/abs/2607.14937 ) we reduce a DS foundation model to the ingredients min",
-          "impact": 15,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "추론 인프라",
-            "성능 향상"
-          ],
-          "why": "모델, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Nonobench: an open benchmark of 49 LLMs on nonogram puzzles, public and open source [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxa2bs/nonobench_an_open_benchmark_of_49_llms_on/",
+      "title": "People are making the same mistake with Covid and AGI",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wxb83y/people_are_making_the_same_mistake_with_covid_and/",
       "impact": 36,
-      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.02200v1",
-      "impact": 34,
+      "impact": 32,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.02204v1",
-      "impact": 29,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Gemini 4 Argon Fails to Compete with ChatGPT and Claude",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49956449",
+      "impact": 30,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "I just can't anymore with AI filtering.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wx80a7/i_just_cant_anymore_with_ai_filtering/",
+      "impact": 2,
+      "reason": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
       "source": "arXiv",
@@ -497,13 +502,6 @@
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
