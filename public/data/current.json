@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T09:48:25.777Z",
-  "generatedAtKst": "2026. 10. 05. 18:48",
-  "nextUpdateAt": "2026-10-05T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 06. 00:00",
+  "generatedAt": "2026-10-05T21:43:41.477Z",
+  "generatedAtKst": "2026. 10. 06. 06:43",
+  "nextUpdateAt": "2026-10-06T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 06. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-04-16",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-14",
-    "dday": 2385,
+    "rangeEnd": "2039-12-21",
+    "dday": 2295,
     "confidence": 76,
-    "deltaDays": -33,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 72,
-    "temperature": 50,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 33,
-    "coldCount": 5,
-    "summary": "가속 신호 33건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 35,
+    "coldCount": 4,
+    "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Building advertising for the way people use AI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "publishedAt": "2026-10-05T10:00:00.000Z",
+          "publishedAtKst": "2026. 10. 05. 19:00",
+          "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "A model guide for the GPT-6 family",
           "source": "OpenAI News",
@@ -84,7 +100,7 @@
           "publishedAt": "2026-10-02T16:15:00.000Z",
           "publishedAtKst": "2026. 10. 03. 01:15",
           "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-          "impact": 18,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +117,7 @@
           "publishedAt": "2026-10-01T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 02. 01:00",
           "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -142,21 +158,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Chatham scales its capital markets expertise with OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatham-financial",
-          "publishedAt": "2026-10-02T00:00:00.000Z",
-          "publishedAtKst": "2026. 10. 02. 09:00",
-          "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-          "impact": 12,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,10 +265,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 78,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 84,
       "trend": "hot",
       "items": [
         {
@@ -277,8 +278,8 @@
           "publishedAt": "2026-10-02T17:54:22.000Z",
           "publishedAtKst": "2026. 10. 03. 02:54",
           "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their wea",
-          "impact": 25,
-          "confidence": 90,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -295,8 +296,8 @@
           "publishedAt": "2026-10-02T16:55:50.000Z",
           "publishedAtKst": "2026. 10. 03. 01:55",
           "summary": "Security benchmarks for LLM-based agents often report the attack success rate (ASR) as a measure of model robustness and use these scores to compare different models and defense mechanisms, assuming that they describe th",
-          "impact": 19,
-          "confidence": 90,
+          "impact": 16,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -307,32 +308,14 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.03639v1",
-          "publishedAt": "2026-10-02T17:27:41.000Z",
-          "publishedAtKst": "2026. 10. 03. 02:27",
-          "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States remains largely undocumented. We introduce ",
-          "impact": 19,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.03675v1",
           "publishedAt": "2026-10-02T17:44:05.000Z",
           "publishedAtKst": "2026. 10. 03. 02:44",
           "summary": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance g",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -343,22 +326,40 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+          "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.03715v1",
-          "publishedAt": "2026-10-02T17:58:49.000Z",
-          "publishedAtKst": "2026. 10. 03. 02:58",
-          "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visu",
-          "impact": 18,
+          "url": "http://arxiv.org/abs/2610.03639v1",
+          "publishedAt": "2026-10-02T17:27:41.000Z",
+          "publishedAtKst": "2026. 10. 03. 02:27",
+          "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States remains largely undocumented. We introduce ",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.03591v1",
+          "publishedAt": "2026-10-02T16:59:19.000Z",
+          "publishedAtKst": "2026. 10. 03. 01:59",
+          "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred growing interest in AI agents for hazard analysis, particularly",
+          "impact": 15,
           "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "프런티어 모델",
+            "LLM",
             "모델",
             "벤치마크"
           ],
-          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,29 +367,76 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 68,
-      "delta": 5,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 52,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Sam Altman Believes Anthropic's Approach To AI Consciousness Is Becoming Dangerous",
+          "title": "Show HN: Self-bench – benchmark coding agents on real-world software",
+          "source": "Hacker News",
+          "url": "https://github.com/mupt-ai/self-bench",
+          "publishedAt": "2026-10-05T16:58:47.000Z",
+          "publishedAtKst": "2026. 10. 06. 01:58",
+          "summary": "4 points, 0 comments",
+          "impact": 24,
+          "confidence": 64,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Chat GPT fixed my PC after different technicians over the years couldn't or wouldn't",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wxqif6/sam_altman_believes_anthropics_approach_to_ai/",
-          "publishedAt": "2026-10-04T21:01:53.000Z",
-          "publishedAtKst": "2026. 10. 05. 06:01",
-          "summary": "OpenAI CEO Sam Altman on Saturday took a veiled shot at Anthropic and its work on the soul of AI, saying he was \"very uncomfortable\" with the idea of attributing some kind of religious power to models. https://www.axios.",
-          "impact": 21,
+          "url": "https://www.reddit.com/r/singularity/comments/1wy8c0l/chat_gpt_fixed_my_pc_after_different_technicians/",
+          "publishedAt": "2026-10-05T13:17:44.000Z",
+          "publishedAtKst": "2026. 10. 05. 22:17",
+          "summary": "I built this PC myself, but I do not have a technical background. From the beginning, it suffered from crashes, freezes, strange errors, the C drive auto-repairing on launch, and other problems that became increasingly f",
+          "impact": 19,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "컴퓨트"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "François Chollet: \"OpenAI basically set back progress to AGI by 5 to 10 years\"",
+          "source": "Hacker News",
+          "url": "https://www.techradar.com/pro/quote-of-the-day-by-arc-prize-co-founder-francois-chollet-openai-basically-set-back-progress-to-agi-by-five-to-10-years-critiquing-the-industrys-overindulgence-in-large-language-models",
+          "publishedAt": "2026-10-05T19:58:40.000Z",
+          "publishedAtKst": "2026. 10. 06. 04:58",
+          "summary": "3 points, 3 comments",
+          "impact": 16,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "GPT",
-            "Claude",
-            "모델"
+            "AGI"
           ],
-          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "some Humans Lose The Ability To Initiate Thoughts Or Actions, But Can Still Respond When Prompted. What Does This Mean For AI Consciousness?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wyfy1h/some_humans_lose_the_ability_to_initiate_thoughts/",
+          "publishedAt": "2026-10-05T18:17:51.000Z",
+          "publishedAtKst": "2026. 10. 06. 03:17",
+          "summary": "Remarkably, there's a neurological condition called auto-activation deficit (also called psychic akinesia or athymhormia). It is caused by bilateral damage to the basal ganglia. Patients lose the ability to self-initiate",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Should we worry about the loss of shared culture in a post-AGI world where everyone can instantly generate deeply personalized masterpiece-level movies/games/books etc. at the press of a button?",
@@ -397,85 +445,38 @@
           "publishedAt": "2026-10-05T01:27:01.000Z",
           "publishedAtKst": "2026. 10. 05. 10:27",
           "summary": "Or is the AI going to solve that as well? (Assuming we agree it's a problem to be solved) &#32; submitted by &#32; /u/1337_420_69 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 49,
+          "impact": 13,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
           ],
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The importance of keeping a diary for AI to analyze",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wxfxzg/the_importance_of_keeping_a_diary_for_ai_to/",
-          "publishedAt": "2026-10-04T13:39:32.000Z",
-          "publishedAtKst": "2026. 10. 04. 22:39",
-          "summary": "I have been keeping a detailed diary for the past 5 years. What I did that day, ate, exercise, medical symptoms ect. I can't overstate how useful it has been to ask Chatgpt questions about my past. Things I forgot and ma",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Could a Large Language Model Be Conscious? – David J. Chalmers (2024)",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2303.07103",
-          "publishedAt": "2026-10-05T03:06:56.000Z",
-          "publishedAtKst": "2026. 10. 05. 12:06",
-          "summary": "3 points, 2 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "AI Agents Are Disrupting Open Source Security Disclosure",
-          "source": "Hacker News",
-          "url": "https://www.infoq.com/news/2026/10/open-source-ai-security/",
-          "publishedAt": "2026-10-05T09:31:43.000Z",
-          "publishedAtKst": "2026. 10. 05. 18:31",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "Show HN: Self-bench – benchmark coding agents on real-world software",
+      "source": "Hacker News",
+      "url": "https://github.com/mupt-ai/self-bench",
+      "impact": 24,
+      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Building advertising for the way people use AI",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "impact": 22,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Language Models that Play Chess and Explain Their Moves",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.03695v1",
-      "impact": 25,
-      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Sam Altman Believes Anthropic's Approach To AI Consciousness Is Becoming Dangerous",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wxqif6/sam_altman_believes_anthropics_approach_to_ai/",
       "impact": 21,
-      "reason": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.03675v1",
-      "impact": 19,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -483,14 +484,7 @@
       "title": "A Path Integral Surrogate for Multi-Step Gradient Inversion in Federated Learning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.03597v1",
-      "impact": 1,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
-      "source": "Hacker News",
-      "url": "https://arxiv.org/abs/2610.03089",
-      "impact": 1,
+      "impact": 2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -499,6 +493,13 @@
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "A Defense of Gradual Disempowerment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "impact": 6,
+      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
