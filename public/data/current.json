@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-07T09:31:51.670Z",
-  "generatedAtKst": "2026. 10. 07. 18:31",
-  "nextUpdateAt": "2026-10-07T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 08. 00:00",
+  "generatedAt": "2026-10-07T20:19:19.512Z",
+  "generatedAtKst": "2026. 10. 08. 05:19",
+  "nextUpdateAt": "2026-10-07T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 08. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2023,
+    "rangeEnd": "2039-05-10",
+    "dday": 2068,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 48,
-    "coldCount": 8,
-    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 6,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -71,19 +71,35 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "How Jump Trading is scaling quant research with ChatGPT",
+          "title": "Helping teens learn, plan, and shape the future of AI",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/jump-trading",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "publishedAtKst": "2026. 10. 06. 21:00",
-          "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "publishedAt": "2026-10-07T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 07. 21:00",
+          "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/radisson",
+          "publishedAt": "2026-10-07T07:00:00.000Z",
+          "publishedAtKst": "2026. 10. 07. 16:00",
+          "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
           "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
@@ -94,20 +110,36 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Advancing computer use with Ironclad",
+          "title": "GPT-6 and Intelligent UI for everyone",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-          "publishedAt": "2026-10-06T10:00:00.000Z",
-          "publishedAtKst": "2026. 10. 06. 19:00",
-          "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-          "impact": 20,
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "publishedAt": "2026-10-07T00:00:00.000Z",
+          "publishedAtKst": "2026. 10. 07. 09:00",
+          "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "컴퓨트"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How Jump Trading is scaling quant research with ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/jump-trading",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 06. 21:00",
+          "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Sharing AI progress in mathematics",
@@ -116,46 +148,14 @@
           "publishedAt": "2026-10-06T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 06. 21:00",
           "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/atlassian-partnership",
-          "publishedAt": "2026-10-06T16:00:00.000Z",
-          "publishedAtKst": "2026. 10. 07. 01:00",
-          "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Building advertising for the way people use AI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-          "publishedAt": "2026-10-05T10:00:00.000Z",
-          "publishedAtKst": "2026. 10. 05. 19:00",
-          "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
           "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "프런티어 모델",
+            "모델"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,30 +263,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 86,
+      "delta": 9,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
-        {
-          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.08775v1",
-          "publishedAt": "2026-10-06T17:57:19.000Z",
-          "publishedAtKst": "2026. 10. 07. 02:57",
-          "summary": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workl",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
           "source": "arXiv",
@@ -306,14 +288,32 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.08775v1",
+          "publishedAt": "2026-10-06T17:57:19.000Z",
+          "publishedAtKst": "2026. 10. 07. 02:57",
+          "summary": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workl",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "WorldSonus: Bringing Sound to Worlds",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.08760v1",
           "publishedAt": "2026-10-06T17:50:18.000Z",
           "publishedAtKst": "2026. 10. 07. 02:50",
           "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time gen",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -324,31 +324,14 @@
           "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.08703v1",
-          "publishedAt": "2026-10-06T17:16:03.000Z",
-          "publishedAtKst": "2026. 10. 07. 02:16",
-          "summary": "In K-12 mathematics tutoring, student-tutor dialogue provides rich evidence of learners' problem-solving processes and sources of difficulty. Learning analytics research increasingly relies on large language models (LLMs",
-          "impact": 25,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.08691v1",
           "publishedAt": "2026-10-06T17:08:03.000Z",
           "publishedAtKst": "2026. 10. 07. 02:08",
           "summary": "Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential task",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -357,6 +340,24 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.08670v1",
+          "publishedAt": "2026-10-06T16:52:23.000Z",
+          "publishedAtKst": "2026. 10. 07. 01:52",
+          "summary": "Language models increasingly act as agents. An agent that says an action is wrong and then takes it anyway is a different failure from one that does not know better, and evaluations of stated values cannot see it. We bui",
+          "impact": 23,
+          "confidence": 91,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,30 +365,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 82,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.2,
       "confidence": 59,
       "trend": "hot",
       "items": [
-        {
-          "title": "LE CHATON FAT IS REAL",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1wz2r59/le_chaton_fat_is_real/",
-          "publishedAt": "2026-10-06T13:34:35.000Z",
-          "publishedAtKst": "2026. 10. 06. 22:34",
-          "summary": "Meet Mistral Large 4, aka Le Chonk 1T parameters, natively multimodal. 49B active. It is the best open weights model from US or Europe on aggregated benchmarks. State-of-the-art on critical workloads, including cyber def",
-          "impact": 32,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델",
-            "벤치마크",
-            "멀티모달"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "OpenAI publishes 722 mathematical proofs & manuscripts",
           "source": "r/singularity",
@@ -395,7 +378,7 @@
           "publishedAt": "2026-10-07T00:22:25.000Z",
           "publishedAtKst": "2026. 10. 07. 09:22",
           "summary": "OpenAl released 722 mathematical manuscripts across 372 families of related results, produced by an unreleased frontier model. Many have Lean proofs; others remain unverified. Average compute per result: roughly three ho",
-          "impact": 29,
+          "impact": 27,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -413,8 +396,8 @@
           "publishedAt": "2026-10-06T14:25:25.000Z",
           "publishedAtKst": "2026. 10. 06. 23:25",
           "summary": "1 points, 1 comments",
-          "impact": 21,
-          "confidence": 61,
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -430,8 +413,8 @@
           "publishedAt": "2026-10-07T00:40:13.000Z",
           "publishedAtKst": "2026. 10. 07. 09:40",
           "summary": "3 points, 1 comments",
-          "impact": 21,
-          "confidence": 61,
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -441,14 +424,30 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Claude Agents SDK will no longer use subscription; API credits included in plans",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49997654",
+          "publishedAt": "2026-10-07T19:28:50.000Z",
+          "publishedAtKst": "2026. 10. 08. 04:28",
+          "summary": "3 points, 3 comments",
+          "impact": 17,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Show HN: Self-bench – benchmark coding agents on real-world software",
           "source": "Hacker News",
           "url": "https://github.com/mupt-ai/self-bench",
           "publishedAt": "2026-10-05T16:58:47.000Z",
           "publishedAtKst": "2026. 10. 06. 01:58",
           "summary": "4 points, 0 comments",
-          "impact": 18,
-          "confidence": 57,
+          "impact": 16,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -462,13 +461,6 @@
   ],
   "topDrivers": [
     {
-      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.08775v1",
-      "impact": 36,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.08720v1",
@@ -476,11 +468,18 @@
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "LE CHATON FAT IS REAL",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.08775v1",
+      "impact": 35,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "OpenAI publishes 722 mathematical proofs & manuscripts",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wz2r59/le_chaton_fat_is_real/",
-      "impact": 32,
-      "reason": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1wzio50/openai_publishes_722_mathematical_proofs/",
+      "impact": 27,
+      "reason": "프런티어 모델, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -488,22 +487,22 @@
       "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.08773v1",
-      "impact": -4,
+      "impact": -3,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The Cyber Risk Discourse is Broken",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "impact": 2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Holdout Best-of-N: Unbiased Evaluation and Its Cost",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.08719v1",
+      "impact": 4,
+      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "[EU pilled] Mistral Large 4 is leading on is a benchmark about regulation",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wz4qrn/eu_pilled_mistral_large_4_is_leading_on_is_a/",
-      "impact": 2,
-      "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
+      "impact": 6,
+      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
