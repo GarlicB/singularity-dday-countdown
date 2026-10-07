@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-06T19:54:13.480Z",
-  "generatedAtKst": "2026. 10. 07. 04:54",
-  "nextUpdateAt": "2026-10-06T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 07. 06:00",
+  "generatedAt": "2026-10-07T00:13:46.815Z",
+  "generatedAtKst": "2026. 10. 07. 09:13",
+  "nextUpdateAt": "2026-10-07T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 07. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-05-10",
-    "dday": 2069,
+    "dday": 2068,
     "confidence": 76,
     "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 79,
     "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 8,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 47,
+    "coldCount": 7,
+    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     }
   ],
@@ -71,12 +71,44 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How Jump Trading is scaling quant research with ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/jump-trading",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 06. 21:00",
+          "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Sharing AI progress in mathematics",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 06. 21:00",
+          "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+          "impact": 20,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "모델"
+          ],
+          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Advancing computer use with Ironclad",
           "source": "OpenAI News",
@@ -84,7 +116,7 @@
           "publishedAt": "2026-10-06T10:00:00.000Z",
           "publishedAtKst": "2026. 10. 06. 19:00",
           "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +132,7 @@
           "publishedAt": "2026-10-06T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 01:00",
           "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -124,40 +156,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How Albertsons Companies is reimagining retail from the inside out",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/albertsons-reimagining-retail",
-          "publishedAt": "2026-10-01T16:00:00.000Z",
-          "publishedAtKst": "2026. 10. 02. 01:00",
-          "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A model guide for the GPT-6 family",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "publishedAt": "2026-10-02T16:15:00.000Z",
-          "publishedAtKst": "2026. 10. 03. 01:15",
-          "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "GPT",
-            "모델"
-          ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -265,8 +263,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -278,7 +276,7 @@
           "publishedAt": "2026-10-05T17:48:14.000Z",
           "publishedAtKst": "2026. 10. 06. 02:48",
           "summary": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Lan",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -296,7 +294,7 @@
           "publishedAt": "2026-10-05T17:57:19.000Z",
           "publishedAtKst": "2026. 10. 06. 02:57",
           "summary": "Scientific figures often encode quantitative results that are not readily available in machine-readable form, making accurate plot digitization important for verifying and reusing published findings. Yet it remains uncle",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +312,7 @@
           "publishedAt": "2026-10-05T17:57:51.000Z",
           "publishedAtKst": "2026. 10. 06. 02:57",
           "summary": "Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for credit assignment, w",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +330,7 @@
           "publishedAt": "2026-10-05T17:57:15.000Z",
           "publishedAtKst": "2026. 10. 06. 02:57",
           "summary": "We introduce TasteVal, a benchmark to evaluate the experimental research taste of frontier models. We define research taste as the ability to pick interesting problems to solve, design experiments, and interpret experime",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +348,7 @@
           "publishedAt": "2026-10-05T17:58:06.000Z",
           "publishedAtKst": "2026. 10. 06. 02:58",
           "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can in",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,10 +365,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 82,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 61,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
@@ -380,7 +378,7 @@
           "publishedAt": "2026-10-06T13:34:35.000Z",
           "publishedAtKst": "2026. 10. 06. 22:34",
           "summary": "Meet Mistral Large 4, aka Le Chonk 1T parameters, natively multimodal. 49B active. It is the best open weights model from US or Europe on aggregated benchmarks. State-of-the-art on critical workloads, including cyber def",
-          "impact": 36,
+          "impact": 34,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -398,7 +396,7 @@
           "publishedAt": "2026-10-06T14:25:25.000Z",
           "publishedAtKst": "2026. 10. 06. 23:25",
           "summary": "1 points, 1 comments",
-          "impact": 24,
+          "impact": 23,
           "confidence": 64,
           "stance": "accelerate",
           "tags": [
@@ -409,31 +407,14 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Reika – A coding agent CLI designed around small local models first",
-          "source": "Hacker News",
-          "url": "https://github.com/alexwkleung/reika",
-          "publishedAt": "2026-10-06T19:29:25.000Z",
-          "publishedAtKst": "2026. 10. 07. 04:29",
-          "summary": "2 points, 1 comments",
-          "impact": 22,
-          "confidence": 63,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: Self-bench – benchmark coding agents on real-world software",
           "source": "Hacker News",
           "url": "https://github.com/mupt-ai/self-bench",
           "publishedAt": "2026-10-05T16:58:47.000Z",
           "publishedAtKst": "2026. 10. 06. 01:58",
           "summary": "4 points, 0 comments",
-          "impact": 20,
-          "confidence": 60,
+          "impact": 19,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -443,20 +424,35 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "We rebuilt our engineering interviews for candidates who use coding agents",
+          "title": "Show HN: Bees – Run agentic teams on your own computer (open source)",
           "source": "Hacker News",
-          "url": "https://www.techempower.com/blog/2026/09/11/hiring-in-the-age-of-agentic-ai/",
-          "publishedAt": "2026-10-06T19:52:31.000Z",
-          "publishedAtKst": "2026. 10. 07. 04:52",
+          "url": "https://bees.bot/",
+          "publishedAt": "2026-10-06T23:36:57.000Z",
+          "publishedAtKst": "2026. 10. 07. 08:36",
           "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "컴퓨트"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "François Chollet: \"OpenAI basically set back progress to AGI by 5 to 10 years\"",
+          "source": "Hacker News",
+          "url": "https://www.techradar.com/pro/quote-of-the-day-by-arc-prize-co-founder-francois-chollet-openai-basically-set-back-progress-to-agi-by-five-to-10-years-critiquing-the-industrys-overindulgence-in-large-language-models",
+          "publishedAt": "2026-10-05T19:58:40.000Z",
+          "publishedAtKst": "2026. 10. 06. 04:58",
+          "summary": "4 points, 3 comments",
+          "impact": 13,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -466,32 +462,25 @@
       "title": "LE CHATON FAT IS REAL",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1wz2r59/le_chaton_fat_is_real/",
-      "impact": 36,
+      "impact": 34,
       "reason": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.06790v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "PlotGround: Grounding Plot Digitization in Real Scientific Figures and Their Source Data",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.06825v1",
-      "impact": 31,
+      "impact": 30,
       "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Kurzgesagt video on Hugging face attack",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1wymoqs/kurzgesagt_video_on_hugging_face_attack/",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "The Cyber Risk Discourse is Broken",
       "source": "Interconnects",
@@ -505,6 +494,13 @@
       "url": "https://www.reddit.com/r/singularity/comments/1wz4qrn/eu_pilled_mistral_large_4_is_leading_on_is_a/",
       "impact": 2,
       "reason": "규제 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.06814v1",
+      "impact": 2,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
