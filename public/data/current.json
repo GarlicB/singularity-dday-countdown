@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T09:42:54.484Z",
-  "generatedAtKst": "2026. 10. 08. 18:42",
-  "nextUpdateAt": "2026-10-08T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 09. 00:00",
+  "generatedAt": "2026-10-08T20:21:23.802Z",
+  "generatedAtKst": "2026. 10. 09. 05:21",
+  "nextUpdateAt": "2026-10-08T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 09. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2112,
+    "rangeEnd": "2039-05-10",
+    "dday": 2067,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
-    "coldCount": 5,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 3,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,43 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/oracle",
+          "publishedAt": "2026-10-08T16:00:00.000Z",
+          "publishedAtKst": "2026. 10. 09. 01:00",
+          "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Disrupting AI-enabled “false front” operations",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "publishedAtKst": "2026. 10. 08. 09:00",
+          "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+          "impact": 21,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Helping teens learn, plan, and shape the future of AI",
           "source": "OpenAI News",
@@ -84,7 +115,7 @@
           "publishedAt": "2026-10-07T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 21:00",
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "impact": 21,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +131,7 @@
           "publishedAt": "2026-10-07T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 16:00",
           "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,22 +147,6 @@
           "publishedAt": "2026-10-07T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 09:00",
           "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How Jump Trading is scaling quant research with ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/jump-trading",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "publishedAtKst": "2026. 10. 06. 21:00",
-          "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
           "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
@@ -140,22 +155,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Sharing AI progress in mathematics",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "publishedAtKst": "2026. 10. 06. 21:00",
-          "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "모델"
-          ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -263,8 +262,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -294,7 +293,7 @@
           "publishedAt": "2026-10-07T17:54:42.000Z",
           "publishedAtKst": "2026. 10. 08. 02:54",
           "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, a",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -312,7 +311,7 @@
           "publishedAt": "2026-10-07T16:56:29.000Z",
           "publishedAtKst": "2026. 10. 08. 01:56",
           "summary": "Speculative decoding accelerates large language model inference by using a low-cost draft model to propose tokens that the full-size target model verifies in parallel. Parallel and semi-autoregressive (semi- AR) drafters",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -320,6 +319,24 @@
             "LLM",
             "모델",
             "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.10533v1",
+          "publishedAt": "2026-10-07T17:58:52.000Z",
+          "publishedAtKst": "2026. 10. 08. 02:58",
+          "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, ",
+          "impact": 27,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "컴퓨트"
           ],
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
@@ -330,7 +347,7 @@
           "publishedAt": "2026-10-07T17:16:56.000Z",
           "publishedAtKst": "2026. 10. 08. 02:16",
           "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files ",
-          "impact": 30,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -340,24 +357,6 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.10533v1",
-          "publishedAt": "2026-10-07T17:58:52.000Z",
-          "publishedAtKst": "2026. 10. 08. 02:58",
-          "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, ",
-          "impact": 29,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -365,38 +364,55 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 78,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 59,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: RigMark benchmarks local AI the way coding agents use it",
-          "source": "Hacker News",
-          "url": "https://github.com/alexellis/rigmark",
-          "publishedAt": "2026-10-06T14:25:25.000Z",
-          "publishedAtKst": "2026. 10. 06. 23:25",
-          "summary": "1 points, 1 comments",
-          "impact": 17,
+          "title": "Introducing Humanity’s Sixth Sense, a new benchmark testing intuitive visual reasoning from spatial and causal reasoning to social understanding. The gap is significant. Humans score 93.1%, while the strongest model, GPT-6-astra, reaches 53.6%. The median model scores just 30.9%.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x0twes/introducing_humanitys_sixth_sense_a_new_benchmark/",
+          "publishedAt": "2026-10-08T15:27:25.000Z",
+          "publishedAtKst": "2026. 10. 09. 00:27",
+          "summary": "&#32; submitted by &#32; /u/Charuru [link] &#32; [comments]",
+          "impact": 24,
           "confidence": 57,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트",
+            "추론",
+            "GPT",
+            "모델",
             "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Researchers Backdoor Open AI Model to Steal Credentials in Coding Agents",
+          "title": "Arc AGI 1 400/400 No LLM running on my MacBook",
           "source": "Hacker News",
-          "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-          "publishedAt": "2026-10-07T00:40:13.000Z",
-          "publishedAtKst": "2026. 10. 07. 09:40",
-          "summary": "3 points, 1 comments",
-          "impact": 17,
-          "confidence": 57,
+          "url": "https://news.ycombinator.com/item?id=50011265",
+          "publishedAt": "2026-10-08T20:00:52.000Z",
+          "publishedAtKst": "2026. 10. 09. 05:00",
+          "summary": "2 points, 0 comments",
+          "impact": 21,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "LLM"
+          ],
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
+          "source": "Hacker News",
+          "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+          "publishedAt": "2026-10-08T12:34:33.000Z",
+          "publishedAtKst": "2026. 10. 08. 21:34",
+          "summary": "4 points, 0 comments",
+          "impact": 21,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -406,52 +422,36 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: LLMSchema – Dump your database schema as compact Markdown for AI agents",
+          "title": "Show HN: AI SRE Arena, an Open Benchmark for AI SRE Agents on Kubernetes",
           "source": "Hacker News",
-          "url": "https://github.com/tordrt/LLMSchema",
-          "publishedAt": "2026-10-08T09:13:35.000Z",
-          "publishedAtKst": "2026. 10. 08. 18:13",
-          "summary": "1 points, 0 comments",
+          "url": "https://github.com/edgedelta/project-arena",
+          "publishedAt": "2026-10-08T17:13:08.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:13",
+          "summary": "19 points, 7 comments",
+          "impact": 17,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AI Coding Tools – Architecture diagrams, local models, and SWE-bench",
+          "source": "Hacker News",
+          "url": "https://github.com/mahmoudsajjadi/awesome-ai-coding-tools",
+          "publishedAt": "2026-10-08T18:47:13.000Z",
+          "publishedAtKst": "2026. 10. 09. 03:47",
+          "summary": "2 points, 0 comments",
           "impact": 15,
           "confidence": 57,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "LLM"
+            "모델",
+            "코딩 성능"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Self-bench – benchmark coding agents on real-world software",
-          "source": "Hacker News",
-          "url": "https://github.com/mupt-ai/self-bench",
-          "publishedAt": "2026-10-05T16:58:47.000Z",
-          "publishedAtKst": "2026. 10. 06. 01:58",
-          "summary": "4 points, 0 comments",
-          "impact": 13,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Bidding on competitor names when buyers ask agents",
-          "source": "Hacker News",
-          "url": "https://www.nibzard.com/brand-bids",
-          "publishedAt": "2026-10-08T09:36:12.000Z",
-          "publishedAtKst": "2026. 10. 08. 18:36",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "모델, 코딩 성능 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -468,25 +468,18 @@
       "title": "RoboJEPA: Scaling Robotic Latent World Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.10515v1",
-      "impact": 31,
+      "impact": 28,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.10411v1",
-      "impact": 31,
+      "impact": 28,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Allegedly a student using AI behind South Korean banks cyberattack",
-      "source": "Hacker News",
-      "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
       "source": "Alignment Forum",
@@ -500,6 +493,13 @@
       "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
       "impact": 6,
       "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Continual learning might make your blocking monitors nearly useless",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+      "impact": 9,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
