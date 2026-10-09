@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T00:50:04.167Z",
-  "generatedAtKst": "2026. 10. 09. 09:50",
-  "nextUpdateAt": "2026-10-09T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 09. 12:00",
+  "generatedAt": "2026-10-09T09:48:28.086Z",
+  "generatedAtKst": "2026. 10. 09. 18:48",
+  "nextUpdateAt": "2026-10-09T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 10. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2066,
+    "rangeEnd": "2039-06-24",
+    "dday": 2111,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
-    "coldCount": 4,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 51,
+    "coldCount": 6,
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-08T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 01:00",
           "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-10-08T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 08. 09:00",
           "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -115,7 +115,7 @@
           "publishedAt": "2026-10-07T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 21:00",
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -131,7 +131,7 @@
           "publishedAt": "2026-10-07T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 16:00",
           "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -147,7 +147,7 @@
           "publishedAt": "2026-10-07T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 09:00",
           "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -262,56 +262,38 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 86,
-      "delta": 9,
+      "score": 90,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+          "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.10507v1",
-          "publishedAt": "2026-10-07T17:51:08.000Z",
-          "publishedAtKst": "2026. 10. 08. 02:51",
-          "summary": "Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic var",
+          "url": "http://arxiv.org/abs/2610.12417v1",
+          "publishedAt": "2026-10-08T17:52:03.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:52",
+          "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether thi",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "Gemini",
+            "추론",
+            "GPT",
             "LLM",
             "모델"
           ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "RoboJEPA: Scaling Robotic Latent World Models",
+          "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.10515v1",
-          "publishedAt": "2026-10-07T17:54:42.000Z",
-          "publishedAtKst": "2026. 10. 08. 02:54",
-          "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, a",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.10411v1",
-          "publishedAt": "2026-10-07T16:56:29.000Z",
-          "publishedAtKst": "2026. 10. 08. 01:56",
-          "summary": "Speculative decoding accelerates large language model inference by using a low-cost draft model to propose tokens that the full-size target model verifies in parallel. Parallel and semi-autoregressive (semi- AR) drafters",
-          "impact": 27,
+          "url": "http://arxiv.org/abs/2610.12391v1",
+          "publishedAt": "2026-10-08T17:39:12.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:39",
+          "summary": "Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explici",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -323,40 +305,57 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+          "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.10533v1",
-          "publishedAt": "2026-10-07T17:58:52.000Z",
-          "publishedAtKst": "2026. 10. 08. 02:58",
-          "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, ",
-          "impact": 26,
+          "url": "http://arxiv.org/abs/2610.12427v1",
+          "publishedAt": "2026-10-08T17:55:20.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:55",
+          "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial res",
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "추론",
+            "Gemini",
             "LLM",
             "모델",
-            "컴퓨트"
+            "벤치마크"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+          "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.10444v1",
-          "publishedAt": "2026-10-07T17:16:56.000Z",
-          "publishedAtKst": "2026. 10. 08. 02:16",
-          "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files ",
+          "url": "http://arxiv.org/abs/2610.12375v1",
+          "publishedAt": "2026-10-08T17:32:08.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:32",
+          "summary": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irr",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "LLM",
+            "코딩 성능"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "BrickBench: Evaluating Agentic Brick Design",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.12452v1",
+          "publishedAt": "2026-10-08T17:58:56.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:58",
+          "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be ph",
           "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM",
-            "모델",
+            "코딩 에이전트",
             "벤치마크"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,47 +363,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 83,
-      "delta": 8,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "Whatever happened to BABA is AI from 2024? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x113il/whatever_happened_to_baba_is_ai_from_2024_d/",
-          "publishedAt": "2026-10-08T20:00:11.000Z",
-          "publishedAtKst": "2026. 10. 09. 05:00",
-          "summary": "We test three state-of-the-art multi-modal large language models (GPT-4o, Gemini-1.5-Pro, Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated",
-          "impact": 36,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Have URMs and UTs been integrated into frontier models? Or did they disappear into the dustbin of forgotten papers? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x11ufl/have_urms_and_uts_been_integrated_into_frontier/",
-          "publishedAt": "2026-10-08T20:28:20.000Z",
-          "publishedAtKst": "2026. 10. 09. 05:28",
-          "summary": "UT-based small models, despite being trained from scratch on these tasks without internet-scale pre-training, consistently outperform most standard Transformer-based Large Language models (LLMs) by a significant margin. ",
-          "impact": 36,
-          "confidence": 62,
+          "title": "Introducing Humanity’s Sixth Sense, a new benchmark testing intuitive visual reasoning from spatial and causal reasoning to social understanding. The gap is significant. Humans score 93.1%, while the strongest model, GPT-6-astra, reaches 53.6%. The median model scores just 30.9%.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x0twes/introducing_humanitys_sixth_sense_a_new_benchmark/",
+          "publishedAt": "2026-10-08T15:27:25.000Z",
+          "publishedAtKst": "2026. 10. 09. 00:27",
+          "summary": "&#32; submitted by &#32; /u/Charuru [link] &#32; [comments]",
+          "impact": 22,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "추론",
-            "프런티어 모델",
-            "LLM",
-            "모델"
+            "GPT",
+            "모델",
+            "벤치마크"
           ],
-          "why": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
@@ -413,8 +394,8 @@
           "publishedAt": "2026-10-08T12:34:33.000Z",
           "publishedAtKst": "2026. 10. 08. 21:34",
           "summary": "4 points, 0 comments",
-          "impact": 20,
-          "confidence": 60,
+          "impact": 19,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -424,71 +405,94 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Instead of another GPU terminal renderer, I trained a 1.26M-param model to turn TUIs (htop, vim, emacs…) into real UI components [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0gvnt/instead_of_another_gpu_terminal_renderer_i/",
-          "publishedAt": "2026-10-08T03:46:09.000Z",
-          "publishedAtKst": "2026. 10. 08. 12:46",
-          "summary": "Write-up + demo: https://drksci.com/labs-phosphene So this started as a bit of a gripe. Modern terminal renderers are seriously impressive and seriously complicated. GPU glyph atlases, texture caches, custom shaders, Har",
-          "impact": 17,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude",
-            "모델"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Show HN: AI SRE Arena, an Open Benchmark for AI SRE Agents on Kubernetes",
           "source": "Hacker News",
           "url": "https://github.com/edgedelta/project-arena",
           "publishedAt": "2026-10-08T17:13:08.000Z",
           "publishedAtKst": "2026. 10. 09. 02:13",
-          "summary": "22 points, 8 comments",
-          "impact": 16,
-          "confidence": 58,
+          "summary": "22 points, 9 comments",
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AI Coding Tools – Architecture diagrams, local models, and SWE-bench",
+          "source": "Hacker News",
+          "url": "https://github.com/mahmoudsajjadi/awesome-ai-coding-tools",
+          "publishedAt": "2026-10-08T18:47:13.000Z",
+          "publishedAtKst": "2026. 10. 09. 03:47",
+          "summary": "8 points, 0 comments",
+          "impact": 13,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "모델",
+            "코딩 성능"
+          ],
+          "why": "모델, 코딩 성능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Researchers Backdoor Open AI Model to Steal Credentials in Coding Agents",
+          "source": "Hacker News",
+          "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+          "publishedAt": "2026-10-07T00:40:13.000Z",
+          "publishedAtKst": "2026. 10. 07. 09:40",
+          "summary": "3 points, 1 comments",
+          "impact": 13,
+          "confidence": 53,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Whatever happened to BABA is AI from 2024? [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x113il/whatever_happened_to_baba_is_ai_from_2024_d/",
-      "impact": 36,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Have URMs and UTs been integrated into frontier models? Or did they disappear into the dustbin of forgotten papers? [D]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x11ufl/have_urms_and_uts_been_integrated_into_frontier/",
-      "impact": 36,
-      "reason": "추론, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.10507v1",
+      "url": "http://arxiv.org/abs/2610.12417v1",
       "impact": 36,
-      "reason": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.12391v1",
+      "impact": 35,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.12427v1",
+      "impact": 31,
+      "reason": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Production Grade Retrieval Pipeline That Admits \"I Don't Know\" [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0xt5x/production_grade_retrieval_pipeline_that_admits_i/",
-      "impact": -2,
-      "reason": "겨울 신호 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.12436v1",
+      "impact": -8,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.12409v1",
+      "impact": 5,
+      "reason": "안전 이슈, 포화 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
@@ -496,13 +500,6 @@
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "A Defense of Gradual Disempowerment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
-      "impact": 6,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
