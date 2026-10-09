@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T09:48:28.086Z",
-  "generatedAtKst": "2026. 10. 09. 18:48",
-  "nextUpdateAt": "2026-10-09T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 10. 00:00",
+  "generatedAt": "2026-10-09T19:54:24.431Z",
+  "generatedAtKst": "2026. 10. 10. 04:54",
+  "nextUpdateAt": "2026-10-09T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 10. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2111,
+    "rangeEnd": "2039-08-08",
+    "dday": 2156,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 6,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 47,
+    "coldCount": 7,
+    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,29 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/asana-browser-agent",
+          "publishedAt": "2026-10-09T07:00:00.000Z",
+          "publishedAtKst": "2026. 10. 09. 16:00",
+          "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "source": "OpenAI News",
@@ -84,7 +101,7 @@
           "publishedAt": "2026-10-08T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 01:00",
           "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +117,7 @@
           "publishedAt": "2026-10-08T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 08. 09:00",
           "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -115,7 +132,7 @@
           "publishedAt": "2026-10-07T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 21:00",
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -131,23 +148,7 @@
           "publishedAt": "2026-10-07T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 16:00",
           "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT-6 and Intelligent UI for everyone",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/gpt-6-for-everyone",
-          "publishedAt": "2026-10-07T00:00:00.000Z",
-          "publishedAtKst": "2026. 10. 07. 09:00",
-          "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -262,7 +263,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -293,7 +294,7 @@
           "publishedAt": "2026-10-08T17:39:12.000Z",
           "publishedAtKst": "2026. 10. 09. 02:39",
           "summary": "Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explici",
-          "impact": 35,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -305,31 +306,13 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.12427v1",
-          "publishedAt": "2026-10-08T17:55:20.000Z",
-          "publishedAtKst": "2026. 10. 09. 02:55",
-          "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial res",
-          "impact": 31,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.12375v1",
           "publishedAt": "2026-10-08T17:32:08.000Z",
           "publishedAtKst": "2026. 10. 09. 02:32",
           "summary": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irr",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -341,14 +324,32 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.12427v1",
+          "publishedAt": "2026-10-08T17:55:20.000Z",
+          "publishedAtKst": "2026. 10. 09. 02:55",
+          "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial res",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "BrickBench: Evaluating Agentic Brick Design",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.12452v1",
           "publishedAt": "2026-10-08T17:58:56.000Z",
           "publishedAtKst": "2026. 10. 09. 02:58",
           "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be ph",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -363,29 +364,28 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 71,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Introducing Humanity’s Sixth Sense, a new benchmark testing intuitive visual reasoning from spatial and causal reasoning to social understanding. The gap is significant. Humans score 93.1%, while the strongest model, GPT-6-astra, reaches 53.6%. The median model scores just 30.9%.",
+          "title": "A hobbyist used Claude + ChatGPT to discover two new potential exoplanets; NASA will confirm in November.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x0twes/introducing_humanitys_sixth_sense_a_new_benchmark/",
-          "publishedAt": "2026-10-08T15:27:25.000Z",
-          "publishedAtKst": "2026. 10. 09. 00:27",
-          "summary": "&#32; submitted by &#32; /u/Charuru [link] &#32; [comments]",
-          "impact": 22,
-          "confidence": 54,
+          "url": "https://www.reddit.com/r/singularity/comments/1x151a0/a_hobbyist_used_claude_chatgpt_to_discover_two/",
+          "publishedAt": "2026-10-08T22:40:31.000Z",
+          "publishedAtKst": "2026. 10. 09. 07:40",
+          "summary": "https://x.com/p_rabtsevich/status/2107803696058822742 NASA's TESS telescope watches thousands of stars and records how bright they are. Last month I was going through its data from late 2025, and one star kept getting a ",
+          "impact": 19,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
-            "추론",
+            "ChatGPT",
             "GPT",
-            "모델",
-            "벤치마크"
+            "Claude"
           ],
-          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
@@ -394,8 +394,8 @@
           "publishedAt": "2026-10-08T12:34:33.000Z",
           "publishedAtKst": "2026. 10. 08. 21:34",
           "summary": "4 points, 0 comments",
-          "impact": 19,
-          "confidence": 59,
+          "impact": 17,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -410,9 +410,9 @@
           "url": "https://github.com/edgedelta/project-arena",
           "publishedAt": "2026-10-08T17:13:08.000Z",
           "publishedAtKst": "2026. 10. 09. 02:13",
-          "summary": "22 points, 9 comments",
-          "impact": 15,
-          "confidence": 56,
+          "summary": "24 points, 9 comments",
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -427,8 +427,8 @@
           "publishedAt": "2026-10-08T18:47:13.000Z",
           "publishedAtKst": "2026. 10. 09. 03:47",
           "summary": "8 points, 0 comments",
-          "impact": 13,
-          "confidence": 56,
+          "impact": 12,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -443,15 +443,15 @@
           "publishedAt": "2026-10-07T00:40:13.000Z",
           "publishedAtKst": "2026. 10. 07. 09:40",
           "summary": "3 points, 1 comments",
-          "impact": 13,
-          "confidence": 53,
-          "stance": "accelerate",
+          "impact": 11,
+          "confidence": 51,
+          "stance": "watch",
           "tags": [
             "에이전트",
             "코딩 에이전트",
             "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -468,15 +468,15 @@
       "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.12391v1",
-      "impact": 35,
+      "impact": 32,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+      "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.12427v1",
-      "impact": 31,
-      "reason": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2610.12375v1",
+      "impact": 29,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -484,8 +484,15 @@
       "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.12436v1",
-      "impact": -8,
+      "impact": -6,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "It feels impossible to freely discuss AI without being torn apart by one group or another.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1qc7p/it_feels_impossible_to_freely_discuss_ai_without/",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
@@ -493,13 +500,6 @@
       "url": "http://arxiv.org/abs/2610.12409v1",
       "impact": 5,
       "reason": "안전 이슈, 포화 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
-      "impact": 6,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
