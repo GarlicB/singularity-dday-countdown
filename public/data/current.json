@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T19:03:19.381Z",
-  "generatedAtKst": "2026. 10. 11. 04:03",
-  "nextUpdateAt": "2026-10-10T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 11. 06:00",
+  "generatedAt": "2026-10-10T23:58:44.432Z",
+  "generatedAtKst": "2026. 10. 11. 08:58",
+  "nextUpdateAt": "2026-10-11T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 11. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2110,
+    "rangeEnd": "2039-09-22",
+    "dday": 2200,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 48,
+    "hotCount": 44,
     "coldCount": 7,
-    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-09T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 16:00",
           "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,28 +117,13 @@
           "publishedAt": "2026-10-08T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 08. 09:00",
           "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI"
           ],
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/pollo-ai",
-          "publishedAt": "2026-10-08T12:00:00.000Z",
-          "publishedAtKst": "2026. 10. 08. 21:00",
-          "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Helping teens learn, plan, and shape the future of AI",
@@ -155,6 +140,21 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/pollo-ai",
+          "publishedAt": "2026-10-08T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 08. 21:00",
+          "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -261,7 +261,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.28,
       "confidence": 90,
@@ -274,7 +274,7 @@
           "publishedAt": "2026-10-08T17:52:03.000Z",
           "publishedAtKst": "2026. 10. 09. 02:52",
           "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether thi",
-          "impact": 30,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -292,8 +292,8 @@
           "publishedAt": "2026-10-08T17:39:12.000Z",
           "publishedAtKst": "2026. 10. 09. 02:39",
           "summary": "Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explici",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -310,7 +310,7 @@
           "publishedAt": "2026-10-08T17:32:08.000Z",
           "publishedAtKst": "2026. 10. 09. 02:32",
           "summary": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irr",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,8 +328,8 @@
           "publishedAt": "2026-10-08T17:55:20.000Z",
           "publishedAtKst": "2026. 10. 09. 02:55",
           "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial res",
-          "impact": 23,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -362,10 +362,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 82,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 55,
       "trend": "hot",
       "items": [
         {
@@ -375,7 +375,7 @@
           "publishedAt": "2026-10-10T12:20:40.000Z",
           "publishedAtKst": "2026. 10. 10. 21:20",
           "summary": "If you have not been living in a bubble, you probably saw the recent OpenAI Math release, which significantly moved the frontier of mathematical research. However, what is suspiciously missing is any research on advances",
-          "impact": 31,
+          "impact": 29,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -393,7 +393,7 @@
           "publishedAt": "2026-10-10T15:07:52.000Z",
           "publishedAtKst": "2026. 10. 11. 00:07",
           "summary": "Computer scientist David Silver: ‘Where are we going without AI?’t Summary FT Lunch with David Silver (AlphaGo/AlphaZero lead) on his new lab, Ineffable Intelligence Silver led DeepMind's game-playing breakthroughs and h",
-          "impact": 29,
+          "impact": 28,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
@@ -405,32 +405,14 @@
           "why": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "We are in a critical phase if we look at the AI 2027 paper futures model",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x1wadm/we_are_in_a_critical_phase_if_we_look_at_the_ai/",
-          "publishedAt": "2026-10-09T20:35:58.000Z",
-          "publishedAtKst": "2026. 10. 10. 05:35",
-          "summary": "https://www.aifuturesmodel.com/p?v=2&base=daniel-08-16-26&acam=time-horizon To me it seems that Claude Opus 5 we got in July with an ECI score of 163 was a proto AGI system. By the paper its effective compute was 10^29 F",
-          "impact": 25,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "Claude",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "AI Development is Going Exactly as Many Expected It Would A Few Short Years Ago",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1x237gy/ai_development_is_going_exactly_as_many_expected/",
           "publishedAt": "2026-10-10T01:55:15.000Z",
           "publishedAtKst": "2026. 10. 10. 10:55",
           "summary": "I don't have much of a point in this but as a layperson who has followed AI development over the last two or three years, AI development has pretty much followed the predictions of people who were bullish/optimistic on A",
-          "impact": 19,
-          "confidence": 52,
+          "impact": 18,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -446,8 +428,8 @@
           "publishedAt": "2026-10-09T20:44:22.000Z",
           "publishedAtKst": "2026. 10. 10. 05:44",
           "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 55,
+          "impact": 13,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -455,6 +437,23 @@
             "추론 인프라"
           ],
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
+          "source": "Hacker News",
+          "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+          "publishedAt": "2026-10-08T12:34:33.000Z",
+          "publishedAtKst": "2026. 10. 08. 21:34",
+          "summary": "4 points, 0 comments",
+          "impact": 13,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -464,22 +463,22 @@
       "title": "Can AI agents completely break MD5? Let’s find out together.",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1x2dyoe/can_ai_agents_completely_break_md5_lets_find_out/",
-      "impact": 31,
+      "impact": 29,
       "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.12417v1",
-      "impact": 30,
-      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1x2hl29/computer_scientist_david_silver_where_are_we/",
-      "impact": 29,
+      "impact": 28,
       "reason": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.12417v1",
+      "impact": 28,
+      "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
