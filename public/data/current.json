@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T19:54:24.431Z",
-  "generatedAtKst": "2026. 10. 10. 04:54",
-  "nextUpdateAt": "2026-10-09T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 10. 06:00",
+  "generatedAt": "2026-10-10T00:23:15.456Z",
+  "generatedAtKst": "2026. 10. 10. 09:23",
+  "nextUpdateAt": "2026-10-10T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 10. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2156,
+    "rangeEnd": "2039-05-10",
+    "dday": 2065,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
+    "hotCount": 50,
     "coldCount": 7,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-09T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 16:00",
           "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-08T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 01:00",
           "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,7 +132,7 @@
           "publishedAt": "2026-10-07T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 21:00",
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,12 +163,27 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 69,
-      "delta": 5,
+      "score": 72,
+      "delta": 6,
       "weight": 0.18,
-      "confidence": 83,
+      "confidence": 80,
       "trend": "hot",
       "items": [
+        {
+          "title": "I expect rapid progress but not towards general superintelligence",
+          "source": "Interconnects",
+          "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+          "publishedAt": "2026-10-09T21:33:47.000Z",
+          "publishedAtKst": "2026. 10. 10. 06:33",
+          "summary": "I&#8217;ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn&#8217;t really know why I doubted it.",
+          "impact": 18,
+          "confidence": 79,
+          "stance": "accelerate",
+          "tags": [
+            "초지능"
+          ],
+          "why": "초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
           "source": "Alignment Forum",
@@ -240,22 +255,6 @@
             "ChatGPT"
           ],
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-          "publishedAt": "2026-08-26T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 16:00",
-          "summary": "",
-          "impact": 11,
-          "confidence": 91,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "추론"
-          ],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -263,8 +262,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -294,7 +293,7 @@
           "publishedAt": "2026-10-08T17:39:12.000Z",
           "publishedAtKst": "2026. 10. 09. 02:39",
           "summary": "Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explici",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -312,7 +311,7 @@
           "publishedAt": "2026-10-08T17:32:08.000Z",
           "publishedAtKst": "2026. 10. 09. 02:32",
           "summary": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irr",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -330,7 +329,7 @@
           "publishedAt": "2026-10-08T17:55:20.000Z",
           "publishedAtKst": "2026. 10. 09. 02:55",
           "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial res",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,8 +347,8 @@
           "publishedAt": "2026-10-08T17:58:56.000Z",
           "publishedAtKst": "2026. 10. 09. 02:58",
           "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be ph",
-          "impact": 24,
-          "confidence": 91,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -364,28 +363,62 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 71,
-      "delta": 5,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "A hobbyist used Claude + ChatGPT to discover two new potential exoplanets; NASA will confirm in November.",
+          "title": "We are in a critical phase if we look at the AI 2027 paper futures model",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x151a0/a_hobbyist_used_claude_chatgpt_to_discover_two/",
-          "publishedAt": "2026-10-08T22:40:31.000Z",
-          "publishedAtKst": "2026. 10. 09. 07:40",
-          "summary": "https://x.com/p_rabtsevich/status/2107803696058822742 NASA's TESS telescope watches thousands of stars and records how bright they are. Last month I was going through its data from late 2025, and one star kept getting a ",
-          "impact": 19,
-          "confidence": 52,
+          "url": "https://www.reddit.com/r/singularity/comments/1x1wadm/we_are_in_a_critical_phase_if_we_look_at_the_ai/",
+          "publishedAt": "2026-10-09T20:35:58.000Z",
+          "publishedAtKst": "2026. 10. 10. 05:35",
+          "summary": "https://www.aifuturesmodel.com/p?v=2&base=daniel-08-16-26&acam=time-horizon To me it seems that Claude Opus 5 we got in July with an ECI score of 163 was a proto AGI system. By the paper its effective compute was 10^29 F",
+          "impact": 29,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT",
-            "Claude"
+            "AGI",
+            "Claude",
+            "모델",
+            "컴퓨트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Clanking – Turn your coding agents' activity into a subtle soundscape",
+          "source": "Hacker News",
+          "url": "https://github.com/chrchr/clanking",
+          "publishedAt": "2026-10-09T23:40:47.000Z",
+          "publishedAtKst": "2026. 10. 10. 08:40",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Reusing obsolete Windows 10 PCs for on-premises large language model inference",
+          "source": "Hacker News",
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1911927/full",
+          "publishedAt": "2026-10-09T20:44:22.000Z",
+          "publishedAtKst": "2026. 10. 10. 05:44",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
@@ -394,8 +427,8 @@
           "publishedAt": "2026-10-08T12:34:33.000Z",
           "publishedAtKst": "2026. 10. 08. 21:34",
           "summary": "4 points, 0 comments",
-          "impact": 17,
-          "confidence": 57,
+          "impact": 16,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -419,39 +452,6 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "AI Coding Tools – Architecture diagrams, local models, and SWE-bench",
-          "source": "Hacker News",
-          "url": "https://github.com/mahmoudsajjadi/awesome-ai-coding-tools",
-          "publishedAt": "2026-10-08T18:47:13.000Z",
-          "publishedAtKst": "2026. 10. 09. 03:47",
-          "summary": "8 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "코딩 성능"
-          ],
-          "why": "모델, 코딩 성능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Researchers Backdoor Open AI Model to Steal Credentials in Coding Agents",
-          "source": "Hacker News",
-          "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-          "publishedAt": "2026-10-07T00:40:13.000Z",
-          "publishedAtKst": "2026. 10. 07. 09:40",
-          "summary": "3 points, 1 comments",
-          "impact": 11,
-          "confidence": 51,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -468,15 +468,15 @@
       "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.12391v1",
-      "impact": 32,
+      "impact": 31,
       "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.12375v1",
+      "title": "We are in a critical phase if we look at the AI 2027 paper futures model",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x1wadm/we_are_in_a_critical_phase_if_we_look_at_the_ai/",
       "impact": 29,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -488,11 +488,11 @@
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "It feels impossible to freely discuss AI without being torn apart by one group or another.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1x1qc7p/it_feels_impossible_to_freely_discuss_ai_without/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "GhostAction attack using GitHub and GitLab lookalike domains",
+      "source": "Hacker News",
+      "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
