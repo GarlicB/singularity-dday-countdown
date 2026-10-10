@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T09:13:08.840Z",
-  "generatedAtKst": "2026. 10. 10. 18:13",
-  "nextUpdateAt": "2026-10-10T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 11. 00:00",
+  "generatedAt": "2026-10-10T19:03:19.381Z",
+  "generatedAtKst": "2026. 10. 11. 04:03",
+  "nextUpdateAt": "2026-10-10T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 11. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 78,
     "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 49,
+    "hotCount": 48,
     "coldCount": 7,
-    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-09T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 16:00",
           "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-08T16:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 01:00",
           "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-10-08T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 08. 09:00",
           "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -126,29 +126,28 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/pollo-ai",
+          "publishedAt": "2026-10-08T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 08. 21:00",
+          "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Helping teens learn, plan, and shape the future of AI",
           "source": "OpenAI News",
           "url": "https://openai.com/index/teens-learn-and-plan",
           "publishedAt": "2026-10-07T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 07. 21:00",
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/radisson",
-          "publishedAt": "2026-10-07T07:00:00.000Z",
-          "publishedAtKst": "2026. 10. 07. 16:00",
-          "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -176,8 +175,8 @@
           "publishedAt": "2026-10-09T21:33:47.000Z",
           "publishedAtKst": "2026. 10. 10. 06:33",
           "summary": "I&#8217;ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn&#8217;t really know why I doubted it.",
-          "impact": 17,
-          "confidence": 78,
+          "impact": 16,
+          "confidence": 76,
           "stance": "accelerate",
           "tags": [
             "초지능"
@@ -262,10 +261,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 82,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 91,
+      "confidence": 90,
       "trend": "hot",
       "items": [
         {
@@ -275,7 +274,7 @@
           "publishedAt": "2026-10-08T17:52:03.000Z",
           "publishedAtKst": "2026. 10. 09. 02:52",
           "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether thi",
-          "impact": 33,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,7 +292,7 @@
           "publishedAt": "2026-10-08T17:39:12.000Z",
           "publishedAtKst": "2026. 10. 09. 02:39",
           "summary": "Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explici",
-          "impact": 29,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +310,7 @@
           "publishedAt": "2026-10-08T17:32:08.000Z",
           "publishedAtKst": "2026. 10. 09. 02:32",
           "summary": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irr",
-          "impact": 26,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,8 +328,8 @@
           "publishedAt": "2026-10-08T17:55:20.000Z",
           "publishedAtKst": "2026. 10. 09. 02:55",
           "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial res",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "Gemini",
@@ -347,8 +346,8 @@
           "publishedAt": "2026-10-08T17:58:56.000Z",
           "publishedAtKst": "2026. 10. 09. 02:58",
           "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be ph",
-          "impact": 21,
-          "confidence": 89,
+          "impact": 19,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -363,12 +362,48 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
-      "delta": 7,
+      "score": 82,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "Can AI agents completely break MD5? Let’s find out together.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x2dyoe/can_ai_agents_completely_break_md5_lets_find_out/",
+          "publishedAt": "2026-10-10T12:20:40.000Z",
+          "publishedAtKst": "2026. 10. 10. 21:20",
+          "summary": "If you have not been living in a bubble, you probably saw the recent OpenAI Math release, which significantly moved the frontier of mathematical research. However, what is suspiciously missing is any research on advances",
+          "impact": 31,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "Claude",
+            "모델"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x2hl29/computer_scientist_david_silver_where_are_we/",
+          "publishedAt": "2026-10-10T15:07:52.000Z",
+          "publishedAtKst": "2026. 10. 11. 00:07",
+          "summary": "Computer scientist David Silver: ‘Where are we going without AI?’t Summary FT Lunch with David Silver (AlphaGo/AlphaZero lead) on his new lab, Ineffable Intelligence Silver led DeepMind's game-playing breakthroughs and h",
+          "impact": 29,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "초지능",
+            "에이전트",
+            "컴퓨트",
+            "돌파"
+          ],
+          "why": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "We are in a critical phase if we look at the AI 2027 paper futures model",
           "source": "r/singularity",
@@ -376,8 +411,8 @@
           "publishedAt": "2026-10-09T20:35:58.000Z",
           "publishedAtKst": "2026. 10. 10. 05:35",
           "summary": "https://www.aifuturesmodel.com/p?v=2&base=daniel-08-16-26&acam=time-horizon To me it seems that Claude Opus 5 we got in July with an ECI score of 163 was a proto AGI system. By the paper its effective compute was 10^29 F",
-          "impact": 27,
-          "confidence": 58,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -388,52 +423,21 @@
           "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Chrome Relay – background tabs in your real Chrome for coding agents",
-          "source": "Hacker News",
-          "url": "https://github.com/aindeev/agent-chrome-relay",
-          "publishedAt": "2026-10-10T08:15:19.000Z",
-          "publishedAtKst": "2026. 10. 10. 17:15",
-          "summary": "2 points, 0 comments",
+          "title": "AI Development is Going Exactly as Many Expected It Would A Few Short Years Ago",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x237gy/ai_development_is_going_exactly_as_many_expected/",
+          "publishedAt": "2026-10-10T01:55:15.000Z",
+          "publishedAtKst": "2026. 10. 10. 10:55",
+          "summary": "I don't have much of a point in this but as a layperson who has followed AI development over the last two or three years, AI development has pretty much followed the predictions of people who were bullish/optimistic on A",
           "impact": 19,
-          "confidence": 60,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "자율성",
+            "LLM"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Helium Terminal – A tiny macOS terminal for coding agents, built on libghostty",
-          "source": "Hacker News",
-          "url": "https://helium-terminal.bensarmiento.com/",
-          "publishedAt": "2026-10-10T08:14:01.000Z",
-          "publishedAtKst": "2026. 10. 10. 17:14",
-          "summary": "6 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Study on AI coding agents finds gains \"absorbed\" by human review \"bottleneck.\"",
-          "source": "Hacker News",
-          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-          "publishedAt": "2026-10-10T07:55:10.000Z",
-          "publishedAtKst": "2026. 10. 10. 16:55",
-          "summary": "4 points, 1 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Reusing obsolete Windows 10 PCs for on-premises large language model inference",
@@ -442,8 +446,8 @@
           "publishedAt": "2026-10-09T20:44:22.000Z",
           "publishedAtKst": "2026. 10. 10. 05:44",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -457,25 +461,25 @@
   ],
   "topDrivers": [
     {
+      "title": "Can AI agents completely break MD5? Let’s find out together.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2dyoe/can_ai_agents_completely_break_md5_lets_find_out/",
+      "impact": 31,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.12417v1",
-      "impact": 33,
+      "impact": 30,
       "reason": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.12391v1",
-      "impact": 29,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "We are in a critical phase if we look at the AI 2027 paper futures model",
+      "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1x1wadm/we_are_in_a_critical_phase_if_we_look_at_the_ai/",
-      "impact": 27,
-      "reason": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1x2hl29/computer_scientist_david_silver_where_are_we/",
+      "impact": 29,
+      "reason": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -483,15 +487,15 @@
       "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.12436v1",
-      "impact": -5,
+      "impact": -3,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "It feels impossible to freely discuss AI without being torn apart by one group or another.",
+      "title": "Slide from recent \"Math 2.0\" Lecture by Terrence Tao. This man has never met a terminal cancer patient in his life if he thinks no one would want to take this risk.",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1x1qc7p/it_feels_impossible_to_freely_discuss_ai_without/",
+      "url": "https://www.reddit.com/r/singularity/comments/1x2kb5k/slide_from_recent_math_20_lecture_by_terrence_tao/",
       "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
