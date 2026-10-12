@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T09:59:23.462Z",
-  "generatedAtKst": "2026. 10. 12. 18:59",
-  "nextUpdateAt": "2026-10-12T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 13. 00:00",
+  "generatedAt": "2026-10-12T22:18:52.483Z",
+  "generatedAtKst": "2026. 10. 13. 07:18",
+  "nextUpdateAt": "2026-10-13T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 13. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-04-16",
+    "medianDate": "2033-05-31",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-14",
-    "dday": 2378,
+    "rangeEnd": "2040-05-04",
+    "dday": 2423,
     "confidence": 76,
-    "deltaDays": -33,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 72,
-    "temperature": 50,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 35,
-    "coldCount": 7,
+    "coldCount": 6,
     "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 82,
-      "delta": 6,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
-      "delta": 6,
+      "score": 71,
+      "delta": 5,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-09T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 09. 16:00",
           "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,10 +163,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 69,
-      "delta": 5,
+      "score": 63,
+      "delta": 3,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 83,
       "trend": "hot",
       "items": [
         {
@@ -206,6 +206,24 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "OpenAI Can't Self-Police Because It Fires the People Raising the Alarm",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/sSHbioPoHWtm4zuti/openai-can-t-self-police-because-it-fires-the-people-raising",
+          "publishedAt": "2026-10-12T16:51:50.000Z",
+          "publishedAtKst": "2026. 10. 13. 01:51",
+          "summary": "By Alex Turner, Amber Scorah, and Karl Koch. Op-ed written for Fortune. Giving independent evaluators “employee-like access” is “a great idea”, OpenAI CEO Sam Altman said on September 12th. Two weeks later, OpenAI presid",
+          "impact": 14,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "GPT"
+          ],
+          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+        },
+        {
           "title": "Why I'm scared of RL",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
@@ -222,21 +240,6 @@
             "LLM"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I expect rapid progress but not towards general superintelligence",
-          "source": "Interconnects",
-          "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
-          "publishedAt": "2026-10-09T21:33:47.000Z",
-          "publishedAtKst": "2026. 10. 10. 06:33",
-          "summary": "I&#8217;ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn&#8217;t really know why I doubted it.",
-          "impact": 12,
-          "confidence": 71,
-          "stance": "accelerate",
-          "tags": [
-            "초지능"
-          ],
-          "why": "초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
@@ -260,10 +263,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 77,
-      "delta": 7,
+      "score": 74,
+      "delta": 6,
       "weight": 0.28,
-      "confidence": 86,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -273,8 +276,8 @@
           "publishedAt": "2026-10-09T16:39:50.000Z",
           "publishedAtKst": "2026. 10. 10. 01:39",
           "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language M",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -291,8 +294,8 @@
           "publishedAt": "2026-10-09T17:59:56.000Z",
           "publishedAtKst": "2026. 10. 10. 02:59",
           "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wiki",
-          "impact": 19,
-          "confidence": 86,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -303,32 +306,14 @@
           "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.13823v1",
-          "publishedAt": "2026-10-09T16:34:13.000Z",
-          "publishedAtKst": "2026. 10. 10. 01:34",
-          "summary": "Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measure how much another execution changes. W",
-          "impact": 19,
-          "confidence": 85,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "LLM",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.13889v1",
           "publishedAt": "2026-10-09T17:38:11.000Z",
           "publishedAtKst": "2026. 10. 10. 02:38",
           "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this",
-          "impact": 18,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -339,14 +324,32 @@
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.13823v1",
+          "publishedAt": "2026-10-09T16:34:13.000Z",
+          "publishedAtKst": "2026. 10. 10. 01:34",
+          "summary": "Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measure how much another execution changes. W",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.13886v1",
           "publishedAt": "2026-10-09T17:34:44.000Z",
           "publishedAtKst": "2026. 10. 10. 02:34",
           "summary": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agen",
-          "impact": 17,
-          "confidence": 86,
+          "impact": 15,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -362,57 +365,55 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
-          "title": "Compressed a RoBERTa AI-text detector from ~500 MB to ~97 MB so it runs client-side in the browser, plus a 26 MB image detector [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vqip/compressed_a_roberta_aitext_detector_from_500_mb/",
-          "publishedAt": "2026-10-12T07:44:49.000Z",
-          "publishedAtKst": "2026. 10. 12. 16:44",
-          "summary": "I wanted an AI text and image detector that doesn't need you to upload anything, so I took two existing open detectors and got them running fully client-side with ONNX Runtime Web. Demo: https://tinydetect.ritabratamaiti",
-          "impact": 22,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "모델",
-            "벤치마크",
-            "추론 인프라"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "World Action Models vs VLAs: Robotics Just Had Its GPT-2 Moment [N]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/",
-          "publishedAt": "2026-10-11T13:51:34.000Z",
-          "publishedAtKst": "2026. 10. 11. 22:51",
-          "summary": "&#32; submitted by &#32; /u/moschles [link] &#32; [comments]",
-          "impact": 21,
+          "title": "On DeepSWE Meta Muse outperforms all other models, even Opus 5.5. On SWE-Marathon, its reported score is 57.5%, versus 46.3% for Claude Opus 5.5 and 42.5% for GPT-6 Astra.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x47mzw/on_deepswe_meta_muse_outperforms_all_other_models/",
+          "publishedAt": "2026-10-12T17:10:06.000Z",
+          "publishedAtKst": "2026. 10. 13. 02:10",
+          "summary": "&#32; submitted by &#32; /u/saln1 [link] &#32; [comments]",
+          "impact": 24,
           "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "GPT",
+            "Claude",
             "모델",
-            "고난도 평가",
-            "로보틱스"
+            "성능 향상"
           ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: I built a banking demo with LavinMQ to test messaging failures",
+          "title": "OpenStocks, a public earnings forecasting benchmark for AI agents",
           "source": "Hacker News",
-          "url": "https://github.com/cloudamqp/lavinmq-demos/tree/main/nodejs-clients-demo",
-          "publishedAt": "2026-10-12T09:23:35.000Z",
-          "publishedAtKst": "2026. 10. 12. 18:23",
+          "url": "https://openstocks.com/",
+          "publishedAt": "2026-10-12T12:28:05.000Z",
+          "publishedAtKst": "2026. 10. 12. 21:28",
           "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "impact": 15,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "I don’t think we’re going to see an era of abundance.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x3y1z4/i_dont_think_were_going_to_see_an_era_of_abundance/",
+          "publishedAt": "2026-10-12T10:12:24.000Z",
+          "publishedAtKst": "2026. 10. 12. 19:12",
+          "summary": "Please read the entire post before upvoting, downvoting, or commenting. I’m pro-AI, and I’m not a decelerationist. The thing is, I don’t think we’re going to see an era of abundance. I think at least 90% of humanity will",
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -420,85 +421,84 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Is a second MSc worth it? [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/",
-          "publishedAt": "2026-10-11T14:48:55.000Z",
-          "publishedAtKst": "2026. 10. 11. 23:48",
-          "summary": "I’m an AI research engineer based in Africa with about 3 YoEs in RL, LLMs, post-training, and systems efficiency (CUDA/vLLM). However, on a smaller scale because of compute limits. My undergrad and Master’s are both in c",
-          "impact": 11,
-          "confidence": 49,
-          "stance": "watch",
+          "title": "Agentic BSS Explained: AI-Native Model, Architecture and Use Cases [pdf]",
+          "source": "Hacker News",
+          "url": "https://framerusercontent.com/assets/PKpdXtv0xAf0e4W4M53D2pUDpzg.pdf",
+          "publishedAt": "2026-10-12T22:06:00.000Z",
+          "publishedAtKst": "2026. 10. 13. 07:06",
+          "summary": "2 points, 0 comments",
+          "impact": 13,
+          "confidence": 56,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
-            "컴퓨트"
+            "에이전트",
+            "모델"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Reusing obsolete Windows 10 PCs for on-premises large language model inference",
-          "source": "Hacker News",
-          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1911927/full",
-          "publishedAt": "2026-10-09T20:44:22.000Z",
-          "publishedAtKst": "2026. 10. 10. 05:44",
-          "summary": "1 points, 0 comments",
-          "impact": 9,
-          "confidence": 50,
-          "stance": "watch",
+          "title": "In Denmark, Hive Robotics is training Unitree G1 to restock shelves in a supermarket - expected to do it autonomously by early 2027",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x3pwum/in_denmark_hive_robotics_is_training_unitree_g1/",
+          "publishedAt": "2026-10-12T02:11:41.000Z",
+          "publishedAtKst": "2026. 10. 12. 11:11",
+          "summary": "&#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
+          "impact": 12,
+          "confidence": 47,
+          "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델",
-            "추론 인프라"
+            "자율성",
+            "로보틱스"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "자율성, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Compressed a RoBERTa AI-text detector from ~500 MB to ~97 MB so it runs client-side in the browser, plus a 26 MB image detector [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vqip/compressed_a_roberta_aitext_detector_from_500_mb/",
-      "impact": 22,
-      "reason": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "World Action Models vs VLAs: Robotics Just Had Its GPT-2 Moment [N]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/",
-      "impact": 21,
-      "reason": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "On DeepSWE Meta Muse outperforms all other models, even Opus 5.5. On SWE-Marathon, its reported score is 57.5%, versus 46.3% for Claude Opus 5.5 and 42.5% for GPT-6 Astra.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x47mzw/on_deepswe_meta_muse_outperforms_all_other_models/",
+      "impact": 24,
+      "reason": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.13832v1",
-      "impact": 20,
+      "impact": 17,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.13948v1",
+      "impact": 16,
+      "reason": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "AI boom keeps global growth near 3 percent despite energy shock, IMF says",
-      "source": "Hacker News",
-      "url": "https://middle-east-online.com/en/ai-boom-keeps-global-growth-near-3-percent-despite-energy-shock-imf-says",
-      "impact": -2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "AI Models Can Provably Hide Arbitrary Capabilities",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.13928v1",
-      "impact": 1,
+      "impact": 2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.13918v1",
-      "impact": 2,
+      "impact": 3,
       "reason": "규제, 지연 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
+      "impact": 6,
+      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
