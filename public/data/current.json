@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T08:11:16.304Z",
-  "generatedAtKst": "2026. 10. 14. 17:11",
-  "nextUpdateAt": "2026-10-14T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 14. 18:00",
+  "generatedAt": "2026-10-14T14:11:23.400Z",
+  "generatedAtKst": "2026. 10. 14. 23:11",
+  "nextUpdateAt": "2026-10-14T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 15. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-04-21",
+    "medianDate": "2032-03-07",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-03-26",
-    "dday": 2016,
+    "rangeEnd": "2039-02-09",
+    "dday": 1971,
     "confidence": 76,
-    "deltaDays": -45,
+    "deltaDays": -46,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 80,
-    "temperature": 57,
+    "score": 81,
+    "temperature": 58,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 59,
+    "hotCount": 58,
     "coldCount": 5,
-    "summary": "가속 신호 59건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-13T16:01:58.000Z",
           "publishedAtKst": "2026. 10. 14. 01:01",
           "summary": "",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -94,13 +94,28 @@
           "why": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "The EU’s next chapter in AI is agentic",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+          "publishedAt": "2026-10-14T00:00:00.000Z",
+          "publishedAtKst": "2026. 10. 14. 09:00",
+          "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Higgsfield takes AI video from 1 minute to over 10",
           "source": "OpenAI News",
           "url": "https://openai.com/index/higgsfield-longer-videos-voice",
           "publishedAt": "2026-10-13T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 13. 21:00",
           "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -115,7 +130,7 @@
           "publishedAt": "2026-10-13T19:43:07.000Z",
           "publishedAtKst": "2026. 10. 14. 04:43",
           "summary": "",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -130,30 +145,13 @@
           "publishedAt": "2026-10-13T16:01:52.000Z",
           "publishedAtKst": "2026. 10. 14. 01:01",
           "summary": "",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "Gemini"
           ],
           "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/asana-browser-agent",
-          "publishedAt": "2026-10-09T07:00:00.000Z",
-          "publishedAtKst": "2026. 10. 09. 16:00",
-          "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -363,12 +361,30 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 57,
       "trend": "hot",
       "items": [
+        {
+          "title": "By the Time Everyone Catches Up, It Will Already Be Too Late",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x58bdd/by_the_time_everyone_catches_up_it_will_already/",
+          "publishedAt": "2026-10-13T20:48:35.000Z",
+          "publishedAtKst": "2026. 10. 14. 05:48",
+          "summary": "According to Andrej Karpathy’s recent approximations: 80% have no access to AI, no interest in it, or actively spurn it. 20% casually only see free-tier derpy chatbots as a better Google search or writing aid. Just 0.2% ",
+          "impact": 33,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자기개선",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Anthropic co-founder Jack Clark moves his recursive AI self-improvement prediction up to 2027. Claude Opus 5.5 is already outperforming human AI researchers on experimental tasks at 1/30 the cost, while AI research judgment doubles every three months. The race to build smarter AI could soon be drive",
           "source": "r/singularity",
@@ -376,8 +392,8 @@
           "publishedAt": "2026-10-13T19:26:31.000Z",
           "publishedAtKst": "2026. 10. 14. 04:26",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 24,
-          "confidence": 56,
+          "impact": 23,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "자기개선",
@@ -393,8 +409,8 @@
           "publishedAt": "2026-10-14T00:07:44.000Z",
           "publishedAtKst": "2026. 10. 14. 09:07",
           "summary": "3 points, 2 comments",
-          "impact": 23,
-          "confidence": 64,
+          "impact": 22,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -410,8 +426,8 @@
           "publishedAt": "2026-10-13T17:46:11.000Z",
           "publishedAtKst": "2026. 10. 14. 02:46",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 21,
-          "confidence": 54,
+          "impact": 20,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -427,8 +443,8 @@
           "publishedAt": "2026-10-13T16:37:11.000Z",
           "publishedAtKst": "2026. 10. 14. 01:37",
           "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 58,
+          "impact": 16,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -436,22 +452,6 @@
             "모델"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
-          "source": "Hacker News",
-          "url": "https://github.com/theonly1me/shadowclone",
-          "publishedAt": "2026-10-13T10:26:52.000Z",
-          "publishedAtKst": "2026. 10. 13. 19:26",
-          "summary": "3 points, 1 comments",
-          "impact": 16,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -484,7 +484,7 @@
       "title": "Statistical Vignettes on the Grokking Phenomenon",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.18811v1",
-      "impact": -5,
+      "impact": -4,
       "reason": "지연, 정체 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
