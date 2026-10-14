@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T19:03:35.451Z",
-  "generatedAtKst": "2026. 10. 15. 04:03",
-  "nextUpdateAt": "2026-10-14T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 15. 06:00",
+  "generatedAt": "2026-10-14T23:32:31.844Z",
+  "generatedAtKst": "2026. 10. 15. 08:32",
+  "nextUpdateAt": "2026-10-15T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 15. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 82,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 55,
+    "hotCount": 57,
     "coldCount": 6,
-    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 58,
-      "delta": 2,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-14T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 21:00",
           "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-10-13T16:01:58.000Z",
           "publishedAtKst": "2026. 10. 14. 01:01",
           "summary": "",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -263,7 +263,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -330,7 +330,7 @@
           "publishedAt": "2026-10-13T17:59:31.000Z",
           "publishedAtKst": "2026. 10. 14. 02:59",
           "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient int",
-          "impact": 36,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,7 +348,7 @@
           "publishedAt": "2026-10-13T17:57:51.000Z",
           "publishedAtKst": "2026. 10. 14. 02:57",
           "summary": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cas",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -365,29 +365,46 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
+      "score": 79,
       "delta": 7,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "Mapping the Post-Transformer Architecture Landscape in 2026 [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
-          "publishedAt": "2026-10-14T15:22:01.000Z",
-          "publishedAtKst": "2026. 10. 15. 00:22",
-          "summary": "Went down the rabbit hole to map the different Post-Transformer architectures. Various directions include Dragon Hatchling (BDH), Mamba, RWKV, xLSTM, Titans, and a bunch of hybrid models coming from different AI Labs. My",
-          "impact": 21,
-          "confidence": 62,
+          "title": "I suggested that my autonomous Claude agents try astronomy on my PC for fun. They found 104 new eclipsing binary stars and came up with a new method for finding them, on their own",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x5njv6/i_suggested_that_my_autonomous_claude_agents_try/",
+          "publishedAt": "2026-10-14T10:20:01.000Z",
+          "publishedAtKst": "2026. 10. 14. 19:20",
+          "summary": "https://preview.redd.it/nbmqizrasevh1.png?width=2400&format=png&auto=webp&s=056954359a72f744f6af074fbe49cd25dd563766 (For most of these systems, they were recorded as 2 stars, but no one knew that we could see them overl",
+          "impact": 27,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "추론",
-            "모델",
-            "컴퓨트",
+            "에이전트",
+            "자율성",
+            "GPT",
+            "Claude"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Scientists recently overturned a 59-year-old belief about the magnetic fields used to contain plasma in fusion reactors. Google gave their breakthrough to Gemini 4 agents. Within hours, the AI found new solutions that went beyond what the original researchers had discovered. The result: two new ways",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x62jzz/scientists_recently_overturned_a_59yearold_belief/",
+          "publishedAt": "2026-10-14T20:43:46.000Z",
+          "publishedAtKst": "2026. 10. 15. 05:43",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 24,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini",
             "돌파"
           ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Benchmark coding agents on deploying apps",
@@ -397,7 +414,7 @@
           "publishedAtKst": "2026. 10. 14. 09:07",
           "summary": "3 points, 2 comments",
           "impact": 21,
-          "confidence": 61,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -407,20 +424,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Weird pattern in the ICLR papers I was assigned to review [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5dc8f/weird_pattern_in_the_iclr_papers_i_was_assigned/",
-          "publishedAt": "2026-10-14T00:28:26.000Z",
-          "publishedAtKst": "2026. 10. 14. 09:28",
-          "summary": "I was assigned 3 ICLR papers to review. I generally consider myself a pretty nice reviewer but...all 3 of them are slop. Unfiltered Claude slop. The language is so awful it is almost impossible to read. Unfortunately, I ",
-          "impact": 20,
-          "confidence": 56,
+          "title": "GPT-6 Astra autonomously solves 49 out of 50 unpublished theoretical physics research problems, scoring 98% at under $3 per problem. Researchers initially marked several answers wrong, only to discover the AI had caught errors in the calculations of world-class physicists.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x5y9ue/gpt6_astra_autonomously_solves_49_out_of_50/",
+          "publishedAt": "2026-10-14T17:59:49.000Z",
+          "publishedAtKst": "2026. 10. 15. 02:59",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "Claude"
+            "자율성",
+            "GPT"
           ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "자율성, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Agentic Large Language Models",
@@ -438,22 +455,6 @@
             "모델"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
-          "source": "Hacker News",
-          "url": "https://github.com/theonly1me/shadowclone",
-          "publishedAt": "2026-10-13T10:26:52.000Z",
-          "publishedAtKst": "2026. 10. 13. 19:26",
-          "summary": "3 points, 1 comments",
-          "impact": 15,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -490,18 +491,18 @@
       "reason": "지연, 정체 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Event2Vec: additive event embeddings where a linear score on a history decomposes exactly into per-event terms [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5nhu6/event2vec_additive_event_embeddings_where_a/",
-      "impact": 1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "OpenAI is reportedly scrambling to make its next flagship safe to release after canceling a weaker model over safety concerns. It has diverted 10% of its compute to safety as its new looping architecture makes AI reasoning harder to monitor. U.S. government testing could delay the launch by up to 30",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x5ljvv/openai_is_reportedly_scrambling_to_make_its_next/",
+      "impact": 7,
+      "reason": "안전 이슈, 지연 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
