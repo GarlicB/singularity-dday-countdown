@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T20:25:46.603Z",
-  "generatedAtKst": "2026. 10. 14. 05:25",
-  "nextUpdateAt": "2026-10-13T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 14. 06:00",
+  "generatedAt": "2026-10-14T00:01:38.895Z",
+  "generatedAtKst": "2026. 10. 14. 09:01",
+  "nextUpdateAt": "2026-10-14T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 14. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-07-15",
-    "rangeStart": "2027-04-13",
-    "rangeEnd": "2039-10-17",
-    "dday": 2467,
+    "medianDate": "2033-05-31",
+    "rangeStart": "2027-01-23",
+    "rangeEnd": "2039-10-07",
+    "dday": 2421,
     "confidence": 76,
-    "deltaDays": -30,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 70,
-    "temperature": 48,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 27,
-    "coldCount": 6,
-    "summary": "가속 신호 27건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 30,
+    "coldCount": 7,
+    "summary": "가속 신호 30건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -161,12 +161,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 63,
-      "delta": 3,
+      "score": 70,
+      "delta": 5,
       "weight": 0.18,
-      "confidence": 83,
+      "confidence": 82,
       "trend": "hot",
       "items": [
+        {
+          "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
+          "publishedAt": "2026-10-13T22:19:04.000Z",
+          "publishedAtKst": "2026. 10. 14. 07:19",
+          "summary": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a proces",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "추론"
+          ],
+          "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
           "source": "Alignment Forum",
@@ -238,22 +256,6 @@
             "LLM"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-          "publishedAt": "2026-08-26T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 16:00",
-          "summary": "",
-          "impact": 11,
-          "confidence": 91,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "추론"
-          ],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -376,7 +378,7 @@
           "publishedAt": "2026-10-13T17:46:11.000Z",
           "publishedAtKst": "2026. 10. 14. 02:46",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 23,
+          "impact": 22,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -410,14 +412,30 @@
           "publishedAt": "2026-10-13T10:26:52.000Z",
           "publishedAtKst": "2026. 10. 13. 19:26",
           "summary": "3 points, 1 comments",
-          "impact": 18,
-          "confidence": 59,
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop",
+          "source": "Hacker News",
+          "url": "https://github.com/RayenMlayeh/jevcrawl",
+          "publishedAt": "2026-10-13T23:35:20.000Z",
+          "publishedAtKst": "2026. 10. 14. 08:35",
+          "summary": "2 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini 4 Argon Benchmarks",
@@ -427,39 +445,30 @@
           "publishedAtKst": "2026. 10. 14. 02:57",
           "summary": "&#32; submitted by &#32; /u/Overflame [link] &#32; [comments]",
           "impact": 15,
-          "confidence": 50,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "Gemini",
             "벤치마크"
           ],
           "why": "Gemini, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
-          "source": "Hacker News",
-          "url": "https://parsimony.lasu.dev/",
-          "publishedAt": "2026-10-13T19:50:31.000Z",
-          "publishedAtKst": "2026. 10. 14. 04:50",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "모델",
-            "벤치마크"
-          ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
+      "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
+      "impact": 36,
+      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "Google's Gemini 4 Argon autonomously built an entire photorealistic pagoda temple complex in Blender from a single prompt, with zero human intervention, using multiple AI agents to critique and refine its own work",
       "source": "r/singularity",
       "url": "https://www.reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/",
-      "impact": 23,
+      "impact": 22,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
@@ -468,16 +477,16 @@
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
       "impact": 21,
       "reason": "Gemini, 로보틱스 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Agentic Large Language Models",
-      "source": "Hacker News",
-      "url": "https://arxiv.org/abs/2610.13455",
-      "impact": 18,
-      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "AI's quiet safety gatekeepers are stepping into the spotlight",
+      "source": "Hacker News",
+      "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "AI Models Can Provably Hide Arbitrary Capabilities",
       "source": "arXiv",
@@ -491,13 +500,6 @@
       "url": "http://arxiv.org/abs/2610.13918v1",
       "impact": 5,
       "reason": "규제, 지연 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
-      "impact": 6,
-      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
