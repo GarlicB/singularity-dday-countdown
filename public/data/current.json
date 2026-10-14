@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T14:11:23.400Z",
-  "generatedAtKst": "2026. 10. 14. 23:11",
-  "nextUpdateAt": "2026-10-14T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 15. 00:00",
+  "generatedAt": "2026-10-14T19:03:35.451Z",
+  "generatedAtKst": "2026. 10. 15. 04:03",
+  "nextUpdateAt": "2026-10-14T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 15. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-03-07",
+    "medianDate": "2032-01-22",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-02-09",
-    "dday": 1971,
+    "rangeEnd": "2038-12-26",
+    "dday": 1926,
     "confidence": 76,
-    "deltaDays": -46,
+    "deltaDays": -48,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 81,
-    "temperature": 58,
+    "score": 82,
+    "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 58,
-    "coldCount": 5,
-    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 6,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     }
   ],
@@ -71,12 +71,46 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
-      "delta": 6,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "publishedAtKst": "2026. 10. 14. 21:00",
+          "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "impact": 32,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/third-moment-research",
+          "publishedAt": "2026-10-14T07:00:00.000Z",
+          "publishedAtKst": "2026. 10. 14. 16:00",
+          "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Gemini 4 Argon for Robotics",
           "source": "Google DeepMind",
@@ -122,36 +156,6 @@
             "GPT"
           ],
           "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Developing Gemini 4 Argon responsibly and safely",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "publishedAt": "2026-10-13T19:43:07.000Z",
-          "publishedAtKst": "2026. 10. 14. 04:43",
-          "summary": "",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini 4 Argon: Built to solve your hardest problems",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-          "publishedAt": "2026-10-13T16:01:52.000Z",
-          "publishedAtKst": "2026. 10. 14. 01:01",
-          "summary": "",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini"
-          ],
-          "why": "Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -344,7 +348,7 @@
           "publishedAt": "2026-10-13T17:57:51.000Z",
           "publishedAtKst": "2026. 10. 14. 02:57",
           "summary": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cas",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -361,46 +365,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 81,
-      "delta": 8,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "By the Time Everyone Catches Up, It Will Already Be Too Late",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x58bdd/by_the_time_everyone_catches_up_it_will_already/",
-          "publishedAt": "2026-10-13T20:48:35.000Z",
-          "publishedAtKst": "2026. 10. 14. 05:48",
-          "summary": "According to Andrej Karpathy’s recent approximations: 80% have no access to AI, no interest in it, or actively spurn it. 20% casually only see free-tier derpy chatbots as a better Google search or writing aid. Just 0.2% ",
-          "impact": 33,
-          "confidence": 58,
+          "title": "Mapping the Post-Transformer Architecture Landscape in 2026 [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
+          "publishedAt": "2026-10-14T15:22:01.000Z",
+          "publishedAtKst": "2026. 10. 15. 00:22",
+          "summary": "Went down the rabbit hole to map the different Post-Transformer architectures. Various directions include Dragon Hatchling (BDH), Mamba, RWKV, xLSTM, Titans, and a bunch of hybrid models coming from different AI Labs. My",
+          "impact": 21,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "자기개선",
-            "ChatGPT",
-            "GPT"
+            "추론",
+            "모델",
+            "컴퓨트",
+            "돌파"
           ],
-          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic co-founder Jack Clark moves his recursive AI self-improvement prediction up to 2027. Claude Opus 5.5 is already outperforming human AI researchers on experimental tasks at 1/30 the cost, while AI research judgment doubles every three months. The race to build smarter AI could soon be drive",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x566l8/anthropic_cofounder_jack_clark_moves_his/",
-          "publishedAt": "2026-10-13T19:26:31.000Z",
-          "publishedAtKst": "2026. 10. 14. 04:26",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 23,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "자기개선",
-            "Claude",
-            "성능 향상"
-          ],
-          "why": "자기개선, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Benchmark coding agents on deploying apps",
@@ -409,8 +396,8 @@
           "publishedAt": "2026-10-14T00:07:44.000Z",
           "publishedAtKst": "2026. 10. 14. 09:07",
           "summary": "3 points, 2 comments",
-          "impact": 22,
-          "confidence": 63,
+          "impact": 21,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -420,21 +407,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Google's Gemini 4 Argon autonomously built an entire photorealistic pagoda temple complex in Blender from a single prompt, with zero human intervention, using multiple AI agents to critique and refine its own work",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/",
-          "publishedAt": "2026-10-13T17:46:11.000Z",
-          "publishedAtKst": "2026. 10. 14. 02:46",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "title": "Weird pattern in the ICLR papers I was assigned to review [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5dc8f/weird_pattern_in_the_iclr_papers_i_was_assigned/",
+          "publishedAt": "2026-10-14T00:28:26.000Z",
+          "publishedAtKst": "2026. 10. 14. 09:28",
+          "summary": "I was assigned 3 ICLR papers to review. I generally consider myself a pretty nice reviewer but...all 3 of them are slop. Unfiltered Claude slop. The language is so awful it is almost impossible to read. Unfortunately, I ",
           "impact": 20,
-          "confidence": 52,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "자율성",
-            "Gemini"
+            "AGI",
+            "Claude"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Agentic Large Language Models",
@@ -443,8 +429,8 @@
           "publishedAt": "2026-10-13T16:37:11.000Z",
           "publishedAtKst": "2026. 10. 14. 01:37",
           "summary": "1 points, 0 comments",
-          "impact": 16,
-          "confidence": 57,
+          "impact": 15,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -452,6 +438,22 @@
             "모델"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "source": "Hacker News",
+          "url": "https://github.com/theonly1me/shadowclone",
+          "publishedAt": "2026-10-13T10:26:52.000Z",
+          "publishedAtKst": "2026. 10. 13. 19:26",
+          "summary": "3 points, 1 comments",
+          "impact": 15,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -484,8 +486,15 @@
       "title": "Statistical Vignettes on the Grokking Phenomenon",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.18811v1",
-      "impact": -4,
+      "impact": -3,
       "reason": "지연, 정체 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Event2Vec: additive event embeddings where a linear score on a history decomposes exactly into per-event terms [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5nhu6/event2vec_additive_event_embeddings_where_a/",
+      "impact": 1,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
@@ -493,13 +502,6 @@
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Rocks to Rules: Climbing a Rickety-But-Interoperable Semantic Ladder",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/hEDMDFmb322yfufYL/rocks-to-rules-climbing-a-rickety-but-interoperable-semantic",
-      "impact": 9,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
