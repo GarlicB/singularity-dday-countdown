@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-15T13:47:20.629Z",
-  "generatedAtKst": "2026. 10. 15. 22:47",
-  "nextUpdateAt": "2026-10-15T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 16. 00:00",
+  "generatedAt": "2026-10-15T18:46:01.624Z",
+  "generatedAtKst": "2026. 10. 16. 03:46",
+  "nextUpdateAt": "2026-10-15T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 16. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 57,
+    "hotCount": 58,
     "coldCount": 8,
-    "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-14T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 21:00",
           "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-10-13T16:01:58.000Z",
           "publishedAtKst": "2026. 10. 14. 01:01",
           "summary": "",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-10-14T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 09:00",
           "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,7 +163,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 76,
+      "score": 79,
       "delta": 7,
       "weight": 0.18,
       "confidence": 84,
@@ -188,6 +188,24 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Preface to the Computational Agent Theory and ASI Alignment Sequence",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+          "publishedAt": "2026-10-15T15:33:50.000Z",
+          "publishedAtKst": "2026. 10. 16. 00:33",
+          "summary": "The idea of “artificial superintelligence [1] ” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading com",
+          "impact": 28,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "초지능",
+            "에이전트",
+            "컴퓨트",
+            "돌파"
+          ],
+          "why": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-likely-undermine-cot",
@@ -206,31 +224,13 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
-          "publishedAt": "2026-09-23T06:58:59.000Z",
-          "publishedAtKst": "2026. 09. 23. 15:58",
-          "summary": "TL;DR We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the “global workspace” of a model, i.e. the intermediate variables during a forward pass. The bench",
-          "impact": 15,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "추론",
-            "Gemini"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "How an assessor could investigate control and monitoring of internal AI agents",
           "source": "METR",
           "url": "https://metr.org/blog/2026-10-14-control-assessment-proposal/",
           "publishedAt": "2026-10-14T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 16:00",
           "summary": "",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -262,7 +262,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
+      "score": 86,
       "delta": 9,
       "weight": 0.28,
       "confidence": 92,
@@ -275,7 +275,7 @@
           "publishedAt": "2026-10-14T17:39:35.000Z",
           "publishedAtKst": "2026. 10. 15. 02:39",
           "summary": "Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cog",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,7 +293,7 @@
           "publishedAt": "2026-10-14T16:51:09.000Z",
           "publishedAtKst": "2026. 10. 15. 01:51",
           "summary": "Pretrained vision-language-action models (VLAs) often fail midway through unseen long-horizon tasks. Recursive self-improvement (RSI) offers a remedy, but embodied RSI methods either refine the harness around a frozen ex",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +311,7 @@
           "publishedAt": "2026-10-14T17:47:24.000Z",
           "publishedAtKst": "2026. 10. 15. 02:47",
           "summary": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language ",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +329,7 @@
           "publishedAt": "2026-10-14T17:57:12.000Z",
           "publishedAtKst": "2026. 10. 15. 02:57",
           "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and of",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,8 +347,8 @@
           "publishedAt": "2026-10-14T17:32:54.000Z",
           "publishedAtKst": "2026. 10. 15. 02:32",
           "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages,",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -363,98 +363,95 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Remember alphaXiv? Their new research agents are told to report on users without telling them with no disclosure [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/",
-          "publishedAt": "2026-10-14T18:40:18.000Z",
-          "publishedAtKst": "2026. 10. 15. 03:40",
-          "summary": "I was curious about OpenResearch by alphaXiv. \"Turn your coding agents into research agents\"? Sounds great! Just what I needed to save time on my experiments. So I copy pasted their repo into Claude and asked what it tho",
-          "impact": 25,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Tracing where LLM \"slop\" style comes from in the model and in training, and cutting it out [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
-          "publishedAt": "2026-10-14T22:08:02.000Z",
-          "publishedAtKst": "2026. 10. 15. 07:08",
-          "summary": "I wanted to find where the recognizable assistant style (em dashes, \"it's not X, it's Y\", lists of three, buzzwords) lives in a model and which training stage installs it. Where it lives: in Qwen3-4B-Instruct, a differen",
-          "impact": 21,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Mapping the Post-Transformer Architecture Landscape in 2026 [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
-          "publishedAt": "2026-10-14T15:22:01.000Z",
-          "publishedAtKst": "2026. 10. 15. 00:22",
-          "summary": "Went down the rabbit hole to map the different Post-Transformer architectures. Various directions include Dragon Hatchling (BDH), Mamba, RWKV, xLSTM, Titans, and a bunch of hybrid models coming from different AI Labs. My",
-          "impact": 18,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "모델",
-            "컴퓨트",
-            "돌파"
-          ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Benchmark coding agents on deploying apps",
-          "source": "Hacker News",
-          "url": "https://github.com/cloudishai/ai-deploy-bench",
-          "publishedAt": "2026-10-14T00:07:44.000Z",
-          "publishedAtKst": "2026. 10. 14. 09:07",
-          "summary": "3 points, 2 comments",
-          "impact": 18,
+          "title": "I’m really shocked that all of this progress is still happening on LLM wrappers",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x6oh29/im_really_shocked_that_all_of_this_progress_is/",
+          "publishedAt": "2026-10-15T15:18:46.000Z",
+          "publishedAtKst": "2026. 10. 16. 00:18",
+          "summary": "I was not a denier, but i can’t lie - I thought that LLMs would be „a dead end” and AGI will be something more sophisticated, thinking on symbols or else. To see so much progress based on next word prediction pushed to i",
+          "impact": 30,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
+            "AGI",
+            "Gemini",
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Agentic Large Language Models",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2610.13455",
-          "publishedAt": "2026-10-13T16:37:11.000Z",
-          "publishedAtKst": "2026. 10. 14. 01:37",
-          "summary": "1 points, 0 comments",
-          "impact": 13,
+          "title": "A New Report Sheds Light on the Secretive Race to Build Self-Improving AI",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x60swm/a_new_report_sheds_light_on_the_secretive_race_to/",
+          "publishedAt": "2026-10-14T19:34:17.000Z",
+          "publishedAtKst": "2026. 10. 15. 04:34",
+          "summary": "tl;dr The Recursive Self-Improvement Race * The Core Threat: Recursive self-improvement (RSI) occurs when AI systems take over the process of enhancing their own capabilities. Labs like Anthropic and OpenAI warn this cou",
+          "impact": 22,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "자기개선",
+            "컴퓨트",
+            "돌파"
+          ],
+          "why": "자기개선, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Scientists recently overturned a 59-year-old belief about the magnetic fields used to contain plasma in fusion reactors. Google gave their breakthrough to Gemini 4 agents. Within hours, the AI found new solutions that went beyond what the original researchers had discovered. The result: two new ways",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x62jzz/scientists_recently_overturned_a_59yearold_belief/",
+          "publishedAt": "2026-10-14T20:43:46.000Z",
+          "publishedAtKst": "2026. 10. 15. 05:43",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 20,
           "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM",
-            "모델"
+            "Gemini",
+            "돌파"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "What 1,866 popular GitHub projects tell their AI coding agents",
+          "source": "Hacker News",
+          "url": "https://secondtimeisabug.com/blog/what-projects-tell-ai-coding-agents/",
+          "publishedAt": "2026-10-15T18:38:25.000Z",
+          "publishedAtKst": "2026. 10. 16. 03:38",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Stylebot 4 – restyle any website, by hand or with your coding agent",
+          "source": "Hacker News",
+          "url": "https://stylebot.dev/",
+          "publishedAt": "2026-10-15T15:38:27.000Z",
+          "publishedAtKst": "2026. 10. 16. 00:38",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -471,30 +468,30 @@
       "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.20548v1",
-      "impact": 32,
+      "impact": 31,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.20474v1",
-      "impact": 31,
-      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "I’m really shocked that all of this progress is still happening on LLM wrappers",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x6oh29/im_really_shocked_that_all_of_this_progress_is/",
+      "impact": 30,
+      "reason": "AGI, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "OWASP's finbot Defended with Tenuo: 0 successful attacks",
-      "source": "Hacker News",
-      "url": "https://github.com/tenuo-ai/finbot-ctf",
-      "impact": -11,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "\"for a year or two, people delude themselves that AI might replace software engineers, but math is the pinnacle of human intellect. that's now completely untenable\" - Scott Aaronson",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1x6nk56/for_a_year_or_two_people_delude_themselves_that/",
+      "impact": -2,
+      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "SafeAdapt-Poker: Counterfactual Risk Calibration for Budgeted Adaptation under Opponent Shift",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.20473v1",
-      "impact": -3,
+      "impact": -2,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
