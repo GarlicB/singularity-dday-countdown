@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-16T07:40:27.945Z",
-  "generatedAtKst": "2026. 10. 16. 16:40",
-  "nextUpdateAt": "2026-10-16T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 16. 18:00",
+  "generatedAt": "2026-10-16T13:37:32.870Z",
+  "generatedAtKst": "2026. 10. 16. 22:37",
+  "nextUpdateAt": "2026-10-16T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 17. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 57,
-    "coldCount": 7,
+    "coldCount": 6,
     "summary": "가속 신호 57건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-14T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 21:00",
           "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-          "impact": 25,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -149,7 +149,7 @@
           "publishedAt": "2026-10-14T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 09:00",
           "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -163,8 +163,8 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 78,
-      "delta": 7,
+      "score": 82,
+      "delta": 8,
       "weight": 0.18,
       "confidence": 84,
       "trend": "hot",
@@ -188,13 +188,31 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "A Simpler and Better Debate Protocol for Scalable Oversight",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+          "publishedAt": "2026-10-16T02:48:27.000Z",
+          "publishedAtKst": "2026. 10. 16. 11:48",
+          "summary": "Linkpost to arXiv: https://arxiv.org/abs/2610.02557 Summary: One promising approach to scalable oversight is AI debate , which seeks to leverage a debate between two powerful AIs to break complex questions down into simp",
+          "impact": 30,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Preface to the Computational Agent Theory and ASI Alignment Sequence",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
           "publishedAt": "2026-10-15T15:33:50.000Z",
           "publishedAtKst": "2026. 10. 16. 00:33",
           "summary": "The idea of “artificial superintelligence [1] ” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading com",
-          "impact": 26,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -230,31 +248,13 @@
           "publishedAt": "2026-10-14T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 16:00",
           "summary": "",
-          "impact": 13,
-          "confidence": 92,
+          "impact": 12,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트"
           ],
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why I'm scared of RL",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-          "publishedAt": "2026-09-23T12:07:33.000Z",
-          "publishedAtKst": "2026. 09. 23. 21:07",
-          "summary": "Summary: First, I give several different angles on how I feel about reinforcement learning: Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to ",
-          "impact": 12,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "LLM"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -285,24 +285,6 @@
             "프런티어 모델"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.22341v1",
-          "publishedAt": "2026-10-15T17:56:07.000Z",
-          "publishedAtKst": "2026. 10. 16. 02:56",
-          "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding ha",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "Claude",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
@@ -357,6 +339,24 @@
             "벤치마크"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Improving Environment-Agnostic Coding Agents: The Role of Scaffolding",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.22289v1",
+          "publishedAt": "2026-10-15T17:43:16.000Z",
+          "publishedAtKst": "2026. 10. 16. 02:43",
+          "summary": "Stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnost",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "GPT",
+            "코딩 에이전트"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,12 +364,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 83,
+      "score": 81,
       "delta": 8,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "Gemini 4 argon scoring close to gpt 6 astra with less cost in arc agi",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x6rcox/gemini_4_argon_scoring_close_to_gpt_6_astra_with/",
+          "publishedAt": "2026-10-15T17:06:42.000Z",
+          "publishedAtKst": "2026. 10. 16. 02:06",
+          "summary": "&#32; submitted by &#32; /u/Independent-Wind4462 [link] &#32; [comments]",
+          "impact": 25,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "GPT",
+            "Gemini"
+          ],
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "I’m really shocked that all of this progress is still happening on LLM wrappers",
           "source": "r/singularity",
@@ -377,8 +394,8 @@
           "publishedAt": "2026-10-15T15:18:46.000Z",
           "publishedAtKst": "2026. 10. 16. 00:18",
           "summary": "I was not a denier, but i can’t lie - I thought that LLMs would be „a dead end” and AGI will be something more sophisticated, thinking on symbols or else. To see so much progress based on next word prediction pushed to i",
-          "impact": 27,
-          "confidence": 58,
+          "impact": 25,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -389,30 +406,13 @@
           "why": "AGI, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini 4 argon scoring close to gpt 6 astra with less cost in arc agi",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x6rcox/gemini_4_argon_scoring_close_to_gpt_6_astra_with/",
-          "publishedAt": "2026-10-15T17:06:42.000Z",
-          "publishedAtKst": "2026. 10. 16. 02:06",
-          "summary": "&#32; submitted by &#32; /u/Independent-Wind4462 [link] &#32; [comments]",
-          "impact": 26,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "GPT",
-            "Gemini"
-          ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Welcome to the era of embodied AI: Introducing AA-Robotics v0.1",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1x6nlgt/welcome_to_the_era_of_embodied_ai_introducing/",
           "publishedAt": "2026-10-15T14:46:17.000Z",
           "publishedAtKst": "2026. 10. 15. 23:46",
           "summary": "Artificial Analysis releases a new benchmark which ranks the ability of LLMs to perform robotics tasks. Only a few models are currently released on the benchmark. Several models are able to complete most tasks on the ben",
-          "impact": 25,
+          "impact": 23,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -424,31 +424,14 @@
           "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x6tbsf/google_breaks_open_a_bottleneck_in_quantum/",
-          "publishedAt": "2026-10-15T18:21:21.000Z",
-          "publishedAtKst": "2026. 10. 16. 03:21",
-          "summary": "Google Quantum AI has demonstratively opened up a key bottleneck in quantum computing: we’ve shown that “magic state cultivation” works in practice on our Willow processor, reducing errors about 40x compared to without i",
-          "impact": 24,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "돌파"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "META has released Muse Spark Open, the most capable US open-weight model to date",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1x6se5a/meta_has_released_muse_spark_open_the_most/",
           "publishedAt": "2026-10-15T17:45:53.000Z",
           "publishedAtKst": "2026. 10. 16. 02:45",
           "summary": "According to their social media post, it is \"built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning\". Key Model Specs: 816B total / 42B active parameter",
-          "impact": 23,
-          "confidence": 56,
+          "impact": 22,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -457,6 +440,22 @@
             "멀티모달"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Heldkeys, see which credentials your AI coding agent can reach",
+          "source": "Hacker News",
+          "url": "https://github.com/hugomn/heldkeys",
+          "publishedAt": "2026-10-16T13:17:28.000Z",
+          "publishedAtKst": "2026. 10. 16. 22:17",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -477,21 +476,14 @@
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.22341v1",
+      "url": "http://arxiv.org/abs/2610.22324v1",
       "impact": 36,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "\"for a year or two, people delude themselves that AI might replace software engineers, but math is the pinnacle of human intellect. that's now completely untenable\" - Scott Aaronson",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1x6nk56/for_a_year_or_two_people_delude_themselves_that/",
-      "impact": -1,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Private Retrieval Augmented Generation via Random Projection",
       "source": "arXiv",
@@ -505,6 +497,13 @@
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.22327v1",
+      "impact": 7,
+      "reason": "지연, 편향 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
