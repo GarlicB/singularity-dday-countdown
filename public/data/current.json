@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T07:19:04.374Z",
-  "generatedAtKst": "2026. 10. 17. 16:19",
-  "nextUpdateAt": "2026-10-17T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 17. 18:00",
+  "generatedAt": "2026-10-17T12:34:23.347Z",
+  "generatedAtKst": "2026. 10. 17. 21:34",
+  "nextUpdateAt": "2026-10-17T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 18. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 82,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
+    "hotCount": 49,
     "coldCount": 6,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-16T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 16. 09:00",
           "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-14T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 14. 21:00",
           "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -111,21 +111,6 @@
             "모델"
           ],
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Bringing GPT-Rosalind to academic research labs",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "publishedAt": "2026-10-15T19:00:00.000Z",
-          "publishedAtKst": "2026. 10. 16. 04:00",
-          "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
@@ -142,6 +127,21 @@
             "GPT"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Bringing GPT-Rosalind to academic research labs",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "publishedAt": "2026-10-15T19:00:00.000Z",
+          "publishedAtKst": "2026. 10. 16. 04:00",
+          "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "impact": 14,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -166,7 +166,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.18,
       "confidence": 83,
@@ -179,7 +179,7 @@
           "publishedAt": "2026-10-13T22:19:04.000Z",
           "publishedAtKst": "2026. 10. 14. 07:19",
           "summary": "Executive Summary Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements. One way of understanding moral progress is the resolution of these disagreements through a proces",
-          "impact": 33,
+          "impact": 30,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -197,7 +197,7 @@
           "publishedAt": "2026-10-16T02:48:27.000Z",
           "publishedAtKst": "2026. 10. 16. 11:48",
           "summary": "Linkpost to arXiv: https://arxiv.org/abs/2610.02557 Summary: One promising approach to scalable oversight is AI debate , which seeks to leverage a debate between two powerful AIs to break complex questions down into simp",
-          "impact": 26,
+          "impact": 25,
           "confidence": 80,
           "stance": "accelerate",
           "tags": [
@@ -215,7 +215,7 @@
           "publishedAt": "2026-10-15T15:33:50.000Z",
           "publishedAtKst": "2026. 10. 16. 00:33",
           "summary": "The idea of “artificial superintelligence [1] ” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading com",
-          "impact": 21,
+          "impact": 20,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -266,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 94,
+      "score": 93,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -351,7 +351,7 @@
           "publishedAt": "2026-10-15T17:43:47.000Z",
           "publishedAtKst": "2026. 10. 16. 02:43",
           "summary": "Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict s",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,10 +368,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 82,
+      "score": 83,
       "delta": 8,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
@@ -393,21 +393,22 @@
           "why": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini 4 Argon scores 97.5 on Arc Argi 3, waiting for Opus 5.5",
+          "title": "I used my own swarm of agents to look for rogue-agent traces across the public web.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x7crmm/gemini_4_argon_scores_975_on_arc_argi_3_waiting/",
-          "publishedAt": "2026-10-16T10:36:27.000Z",
-          "publishedAtKst": "2026. 10. 16. 19:36",
-          "summary": "https://preview.redd.it/uqnsss0f4tvh1.png?width=1297&format=png&auto=webp&s=c4dff2063ca0e8e317623828a7b63f8c96af360b Just thought this is interesting, so sharing here. When i played the demo game here i thought we were a",
-          "impact": 24,
-          "confidence": 56,
+          "url": "https://www.reddit.com/r/singularity/comments/1x831to/i_used_my_own_swarm_of_agents_to_look_for/",
+          "publishedAt": "2026-10-17T06:28:42.000Z",
+          "publishedAtKst": "2026. 10. 17. 15:28",
+          "summary": "TL;DR: - AI agents working under tight sandbox limits keep finding the same creative workarounds. They use web archives and URL scanners as remote browsers, wikis as message boards, and public issue threads as shared mem",
+          "impact": 29,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "Gemini",
+            "에이전트",
+            "자율성",
+            "모델",
             "벤치마크"
           ],
-          "why": "AGI, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Researchers Stranded an AI Agent on a Virtual Island. Things Got Very Weird.",
@@ -417,13 +418,29 @@
           "publishedAtKst": "2026. 10. 17. 04:33",
           "summary": "&#32; submitted by &#32; /u/UFOsAreAGIs [link] &#32; [comments]",
           "impact": 20,
-          "confidence": 53,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: RAE FAANG – catalog and CLI for building products with coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/EnzoVezzaro/rea-faang",
+          "publishedAt": "2026-10-17T12:13:35.000Z",
+          "publishedAtKst": "2026. 10. 17. 21:13",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "We built a place where people can pool their AI agents to work on open research problems",
@@ -441,23 +458,6 @@
             "LLM"
           ],
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "100 images to represent humanity, as if aliens were going to find them",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x7b3cx/100_images_to_represent_humanity_as_if_aliens/",
-          "publishedAt": "2026-10-16T08:54:03.000Z",
-          "publishedAtKst": "2026. 10. 16. 17:54",
-          "summary": "I asked Argon to represent humanity in 100 images. Cave paintings, iconic art, moon landings, human feelings and historic moments, all made with JavaScript and p5.brush. ChatGPT helped orchestrate it. Claude handled edit",
-          "impact": 19,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT",
-            "Claude"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
