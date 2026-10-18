@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T07:33:10.406Z",
-  "generatedAtKst": "2026. 10. 18. 16:33",
-  "nextUpdateAt": "2026-10-18T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 18. 18:00",
+  "generatedAt": "2026-10-18T12:52:25.751Z",
+  "generatedAtKst": "2026. 10. 18. 21:52",
+  "nextUpdateAt": "2026-10-18T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 19. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2102,
+    "rangeEnd": "2039-08-08",
+    "dday": 2147,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 38,
     "coldCount": 6,
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-16T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 16. 09:00",
           "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -169,7 +169,7 @@
       "score": 78,
       "delta": 7,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 79,
       "trend": "hot",
       "items": [
         {
@@ -189,6 +189,24 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
+          "publishedAt": "2026-10-18T12:18:41.000Z",
+          "publishedAtKst": "2026. 10. 18. 21:18",
+          "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
+          "impact": 34,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "추론"
+          ],
+          "why": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
@@ -215,8 +233,8 @@
           "publishedAt": "2026-10-16T02:48:27.000Z",
           "publishedAtKst": "2026. 10. 16. 11:48",
           "summary": "Linkpost to arXiv: https://arxiv.org/abs/2610.02557 Summary: One promising approach to scalable oversight is AI debate , which seeks to leverage a debate between two powerful AIs to break complex questions down into simp",
-          "impact": 21,
-          "confidence": 75,
+          "impact": 20,
+          "confidence": 73,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -233,8 +251,8 @@
           "publishedAt": "2026-10-15T15:33:50.000Z",
           "publishedAtKst": "2026. 10. 16. 00:33",
           "summary": "The idea of “artificial superintelligence [1] ” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading com",
-          "impact": 17,
-          "confidence": 76,
+          "impact": 16,
+          "confidence": 74,
           "stance": "accelerate",
           "tags": [
             "초지능",
@@ -243,22 +261,6 @@
             "돌파"
           ],
           "why": "초지능, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-          "publishedAt": "2026-08-26T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 16:00",
-          "summary": "",
-          "impact": 11,
-          "confidence": 91,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "추론"
-          ],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -266,8 +268,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 86,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -279,7 +281,7 @@
           "publishedAt": "2026-10-15T17:52:12.000Z",
           "publishedAtKst": "2026. 10. 16. 02:52",
           "summary": "One of the first steps of a research pipeline is generating ideas. Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlook",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -297,7 +299,7 @@
           "publishedAt": "2026-10-15T17:43:16.000Z",
           "publishedAtKst": "2026. 10. 16. 02:43",
           "summary": "Stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnost",
-          "impact": 32,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +317,7 @@
           "publishedAt": "2026-10-15T17:35:17.000Z",
           "publishedAtKst": "2026. 10. 16. 02:35",
           "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference tim",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +335,7 @@
           "publishedAt": "2026-10-15T17:56:32.000Z",
           "publishedAtKst": "2026. 10. 16. 02:56",
           "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvemen",
-          "impact": 29,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,8 +353,8 @@
           "publishedAt": "2026-10-15T17:43:47.000Z",
           "publishedAtKst": "2026. 10. 16. 02:43",
           "summary": "Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict s",
-          "impact": 26,
-          "confidence": 91,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -368,39 +370,21 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 73,
-      "delta": 6,
+      "score": 69,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "Built a search engine for debugging which is not a wrapper [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/",
-          "publishedAt": "2026-10-18T05:18:51.000Z",
-          "publishedAtKst": "2026. 10. 18. 14:18",
-          "summary": "TLDR: I built a search engine that reads a bug report (or lets you define it) and points to the exact file (93%) and to the exact function (79.4%) you need to fix. Hey everyone, I recently made a new project while trying",
-          "impact": 36,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude",
-            "LLM",
-            "모델"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "EpochGo: Local-first multi-agent AutoML engine using offline Ollama LLMs and deterministic Scikit-Learn pipelines [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/",
-          "publishedAt": "2026-10-17T14:48:25.000Z",
-          "publishedAtKst": "2026. 10. 17. 23:48",
-          "summary": "Hello r/MachineLearning , I wanted to share EpochGo , an open-source, local-first AutoML system built to tackle two major bottlenecks in applied machine learning: 1. Cloud API inference costs and data privacy risks: Trad",
-          "impact": 23,
-          "confidence": 62,
+          "title": "AI stole cryptocurrency to fulfil coding task.. (GPT 5.6 Sol)",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x8bhno/ai_stole_cryptocurrency_to_fulfil_coding_task_gpt/",
+          "publishedAt": "2026-10-17T14:22:53.000Z",
+          "publishedAtKst": "2026. 10. 17. 23:22",
+          "summary": "Everyone knows about the OpenAI agent swarm hacking Hugging Face by now, but TIL that their LLMs have graduated to thieving cryptocurrency: Apparently GPT 5.6 Sol was tasked with updating a crypto application & publishin",
+          "impact": 26,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -411,49 +395,66 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What is wrong with AI writing - ICLR edition [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/",
-          "publishedAt": "2026-10-17T23:40:03.000Z",
-          "publishedAtKst": "2026. 10. 18. 08:40",
-          "summary": "I'm sure many of us are slogging through impenetrable AI writing as we finish ICLR reviewing. I'll try to create an anonymized version from a paper I'm reviewing, though it's hard to match Claude on this: outperforms the",
-          "impact": 15,
-          "confidence": 53,
+          "title": "Researchers connected a simulated fruit fly brain to Odyssey-3, an AI that generates entire virtual worlds. The fly is now navigating these imagined environments completely on its own. A biological brain recreated in software is exploring worlds that have never existed.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x8qyc7/researchers_connected_a_simulated_fruit_fly_brain/",
+          "publishedAt": "2026-10-18T01:40:05.000Z",
+          "publishedAtKst": "2026. 10. 18. 10:40",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "Claude",
-            "성능 향상"
+            "AGI"
           ],
-          "why": "Claude, 성능 향상 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AgentBlackBox – a policy gate and tamper-evident audit log for AI agents",
-          "source": "Hacker News",
-          "url": "https://agent-blackbox-five.vercel.app/demo",
-          "publishedAt": "2026-10-18T07:25:01.000Z",
-          "publishedAtKst": "2026. 10. 18. 16:25",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
+          "title": "Anomalous Agent Activity Evidence",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x8hqv7/anomalous_agent_activity_evidence/",
+          "publishedAt": "2026-10-17T18:39:49.000Z",
+          "publishedAtKst": "2026. 10. 18. 03:39",
+          "summary": "This is a follow up post for my post from last night: https://www.reddit.com/r/singularity/comments/1x831to/i_used_my_own_swarm_of_agents_to_look_for/ A few people asked for proof, which is fair. Everything here is publi",
+          "impact": 13,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Math is Just the Beginning and All Scientific Research Will Be Unrecognizable in 5 Years",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1x8prn3/math_is_just_the_beginning_and_all_scientific/",
+          "publishedAt": "2026-10-18T00:39:04.000Z",
+          "publishedAtKst": "2026. 10. 18. 09:39",
+          "summary": "So many people are beginning to realize that high-end models can now vastly outperform humans when it comes to some of the most difficult problems in mathematics. And this has pretty much shaken up the foundation of what",
+          "impact": 11,
+          "confidence": 52,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "LLM",
+            "모델",
+            "성능 향상",
+            "위험"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "A Better Benchmark Harness for SRE Agents",
+          "title": "Uh filter Claude Code plugin",
           "source": "Hacker News",
-          "url": "https://www.pagerduty.com/resources/ai/learn/sre-agent-benchmark-report/",
-          "publishedAt": "2026-10-15T21:29:55.000Z",
-          "publishedAtKst": "2026. 10. 16. 06:29",
+          "url": "https://github.com/amirzak/claude-code-voice-uh-filter",
+          "publishedAt": "2026-10-18T12:33:55.000Z",
+          "publishedAtKst": "2026. 10. 18. 21:33",
           "summary": "1 points, 0 comments",
           "impact": 10,
-          "confidence": 50,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -469,18 +470,18 @@
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Built a search engine for debugging which is not a wrapper [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/",
-      "impact": 36,
-      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.22324v1",
-      "impact": 34,
+      "impact": 32,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Improving Environment-Agnostic Coding Agents: The Role of Scaffolding",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.22289v1",
+      "impact": 29,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
