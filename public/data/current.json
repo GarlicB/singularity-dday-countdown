@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T18:49:33.534Z",
-  "generatedAtKst": "2026. 10. 21. 03:49",
-  "nextUpdateAt": "2026-10-20T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 21. 06:00",
+  "generatedAt": "2026-10-20T23:32:15.067Z",
+  "generatedAtKst": "2026. 10. 21. 08:32",
+  "nextUpdateAt": "2026-10-21T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 21. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2145,
+    "rangeEnd": "2039-09-22",
+    "dday": 2190,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 43,
-    "coldCount": 6,
-    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 44,
+    "coldCount": 8,
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 76,
-      "delta": 5,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-20T10:00:00.000Z",
           "publishedAtKst": "2026. 10. 20. 19:00",
           "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-10-19T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 19. 21:00",
           "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -166,30 +166,12 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 66,
+      "score": 65,
       "delta": 4,
       "weight": 0.18,
       "confidence": 83,
       "trend": "hot",
       "items": [
-        {
-          "title": "Deconfusing Corrigibility",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
-          "publishedAt": "2026-10-17T23:08:02.000Z",
-          "publishedAtKst": "2026. 10. 18. 08:08",
-          "summary": "Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place o",
-          "impact": 23,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "자율성",
-            "추론"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
           "source": "Alignment Forum",
@@ -209,13 +191,31 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Deconfusing Corrigibility",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
+          "publishedAt": "2026-10-17T23:08:02.000Z",
+          "publishedAtKst": "2026. 10. 18. 08:08",
+          "summary": "Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place o",
+          "impact": 22,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "자율성",
+            "추론"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
           "publishedAt": "2026-10-18T12:18:41.000Z",
           "publishedAtKst": "2026. 10. 18. 21:18",
           "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
-          "impact": 21,
+          "impact": 20,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -265,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -296,7 +296,7 @@
           "publishedAt": "2026-10-19T17:57:41.000Z",
           "publishedAtKst": "2026. 10. 20. 02:57",
           "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask wh",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +314,7 @@
           "publishedAt": "2026-10-19T17:59:56.000Z",
           "publishedAtKst": "2026. 10. 20. 02:59",
           "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complem",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +332,7 @@
           "publishedAt": "2026-10-19T17:55:35.000Z",
           "publishedAtKst": "2026. 10. 20. 02:55",
           "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substan",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +350,7 @@
           "publishedAt": "2026-10-19T17:52:35.000Z",
           "publishedAtKst": "2026. 10. 20. 02:52",
           "summary": "Real-world decision problems combine two qualitatively different kinds of constraints: requirements that must be satisfied, called hard constraints, and preferences that can be violated, called soft constraints. Because ",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,21 +367,37 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 72,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 53,
       "trend": "hot",
       "items": [
+        {
+          "title": "A five-person investment team with almost no biology experience used Claude to design 318,484 proteins in just 64 hours, coordinating over 300 AI agents. Independent laboratories tested 211 candidates and confirmed 17 could bind dangerous scorpion neurotoxins.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xb2pme/a_fiveperson_investment_team_with_almost_no/",
+          "publishedAt": "2026-10-20T20:07:24.000Z",
+          "publishedAtKst": "2026. 10. 21. 05:07",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
           "source": "Hacker News",
           "url": "https://research.poh.org/bot-benchmarking-2026/",
           "publishedAt": "2026-10-20T17:10:31.000Z",
           "publishedAtKst": "2026. 10. 21. 02:10",
-          "summary": "4 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
+          "summary": "21 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,20 +406,20 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: What the Harness? LLM agent inconsistencies in MCP implementation",
-          "source": "Hacker News",
-          "url": "https://what-the-harness.polytomic.com",
-          "publishedAt": "2026-10-20T18:40:52.000Z",
-          "publishedAtKst": "2026. 10. 21. 03:40",
-          "summary": "1 points, 0 comments",
+          "title": "An AI agent says it has authored a breakthrough new result in external graph theory. \"It constructed explicit regular graphs with girth (8/5) log n, the first improvement in 38 years, and a leap towards the theoretical maximum.\"",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xallxv/an_ai_agent_says_it_has_authored_a_breakthrough/",
+          "publishedAt": "2026-10-20T07:23:32.000Z",
+          "publishedAtKst": "2026. 10. 20. 16:23",
+          "summary": "&#32; submitted by &#32; /u/Regular_Post9884 [link] &#32; [comments]",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM"
+            "돌파"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Should agent-memory benchmarks test stale information?",
@@ -427,30 +443,15 @@
           "url": "https://news.ycombinator.com/item?id=50154029",
           "publishedAt": "2026-10-19T16:00:18.000Z",
           "publishedAtKst": "2026. 10. 20. 01:00",
-          "summary": "58 points, 26 comments",
-          "impact": 13,
-          "confidence": 54,
+          "summary": "58 points, 27 comments",
+          "impact": 12,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "모델"
           ],
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Im Killing Claude Code Desktop with this Open Source Alt: \"Harness Studio\"",
-          "source": "Hacker News",
-          "url": "https://github.com/vigneshv1cky/harness-studio",
-          "publishedAt": "2026-10-20T18:47:05.000Z",
-          "publishedAtKst": "2026. 10. 21. 03:47",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -467,38 +468,38 @@
       "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.26836v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.26856v1",
-      "impact": 32,
+      "impact": 31,
       "reason": "추론, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Sam Altman told OpenAI staff that one approach to AI safety could involve merging the biggest AI labs into a single organization.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xb3hgg/sam_altman_told_openai_staff_that_one_approach_to/",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "This mod received insane amount of AI hate and got taken down",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xana1l/this_mod_received_insane_amount_of_ai_hate_and/",
+      "impact": 0,
+      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/9LWK9Hh3Qsg36e3FS/fixed-weight-models-are-adversarially-vulnerable-hence",
       "impact": 6,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Teacher Supervision, Fixed Representations and Calibration: Exact Risk Calculations for Candidate-Scoring Decision Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.26797v1",
-      "impact": 6,
-      "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI Can't Self-Police Because It Fires the People Raising the Alarm",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/sSHbioPoHWtm4zuti/openai-can-t-self-police-because-it-fires-the-people-raising",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
