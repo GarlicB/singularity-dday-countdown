@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T13:58:08.871Z",
-  "generatedAtKst": "2026. 10. 20. 22:58",
-  "nextUpdateAt": "2026-10-20T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 21. 00:00",
+  "generatedAt": "2026-10-20T18:49:33.534Z",
+  "generatedAtKst": "2026. 10. 21. 03:49",
+  "nextUpdateAt": "2026-10-20T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 21. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2190,
+    "rangeEnd": "2039-08-08",
+    "dday": 2145,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
-    "temperature": 53,
+    "score": 77,
+    "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 43,
     "coldCount": 6,
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 58,
+      "delta": 2,
+      "tone": "hot"
     }
   ],
   "categories": [
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 75,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "publishedAt": "2026-10-20T10:00:00.000Z",
+          "publishedAtKst": "2026. 10. 20. 19:00",
+          "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Advancing coding in low‑resource programming languages",
           "source": "OpenAI News",
@@ -143,23 +159,6 @@
             "GPT"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/asana-browser-agent",
-          "publishedAt": "2026-10-09T07:00:00.000Z",
-          "publishedAtKst": "2026. 10. 09. 16:00",
-          "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -180,7 +179,7 @@
           "publishedAt": "2026-10-17T23:08:02.000Z",
           "publishedAtKst": "2026. 10. 18. 08:08",
           "summary": "Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place o",
-          "impact": 25,
+          "impact": 23,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -216,7 +215,7 @@
           "publishedAt": "2026-10-18T12:18:41.000Z",
           "publishedAtKst": "2026. 10. 18. 21:18",
           "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
-          "impact": 22,
+          "impact": 21,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -266,8 +265,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 92,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -297,7 +296,7 @@
           "publishedAt": "2026-10-19T17:57:41.000Z",
           "publishedAtKst": "2026. 10. 20. 02:57",
           "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask wh",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +314,7 @@
           "publishedAt": "2026-10-19T17:59:56.000Z",
           "publishedAtKst": "2026. 10. 20. 02:59",
           "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complem",
-          "impact": 33,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +332,7 @@
           "publishedAt": "2026-10-19T17:55:35.000Z",
           "publishedAtKst": "2026. 10. 20. 02:55",
           "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substan",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +350,7 @@
           "publishedAt": "2026-10-19T17:52:35.000Z",
           "publishedAtKst": "2026. 10. 20. 02:52",
           "summary": "Real-world decision problems combine two qualitatively different kinds of constraints: requirements that must be satisfied, called hard constraints, and preferences that can be violated, called soft constraints. Because ",
-          "impact": 32,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -375,20 +374,36 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Build a coding agent in 306 lines of Python",
+          "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
           "source": "Hacker News",
-          "url": "https://kialog.nlogn.ir/posts/coding-agent-in-300-lines/",
-          "publishedAt": "2026-10-20T13:54:17.000Z",
-          "publishedAtKst": "2026. 10. 20. 22:54",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "url": "https://research.poh.org/bot-benchmarking-2026/",
+          "publishedAt": "2026-10-20T17:10:31.000Z",
+          "publishedAtKst": "2026. 10. 21. 02:10",
+          "summary": "4 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트"
+            "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: What the Harness? LLM agent inconsistencies in MCP implementation",
+          "source": "Hacker News",
+          "url": "https://what-the-harness.polytomic.com",
+          "publishedAt": "2026-10-20T18:40:52.000Z",
+          "publishedAtKst": "2026. 10. 21. 03:40",
+          "summary": "1 points, 0 comments",
+          "impact": 15,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Should agent-memory benchmarks test stale information?",
@@ -397,7 +412,7 @@
           "publishedAt": "2026-10-20T03:46:35.000Z",
           "publishedAtKst": "2026. 10. 20. 12:46",
           "summary": "2 points, 0 comments",
-          "impact": 15,
+          "impact": 14,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -412,9 +427,9 @@
           "url": "https://news.ycombinator.com/item?id=50154029",
           "publishedAt": "2026-10-19T16:00:18.000Z",
           "publishedAtKst": "2026. 10. 20. 01:00",
-          "summary": "58 points, 24 comments",
+          "summary": "58 points, 26 comments",
           "impact": 13,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -423,34 +438,17 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI generates research ideas faster than I can test them. Anyone else? [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/",
-          "publishedAt": "2026-10-19T17:50:49.000Z",
-          "publishedAtKst": "2026. 10. 20. 02:50",
-          "summary": "I've been using AI extensively for ML research, and I've noticed a bottleneck: brainstorming research directions and generating smoke run implementations has become incredibly fast, but actually testing those ideas hasn'",
-          "impact": 12,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "위험"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agent Swarms Are Great for Local AI",
+          "title": "Im Killing Claude Code Desktop with this Open Source Alt: \"Harness Studio\"",
           "source": "Hacker News",
-          "url": "https://jonready.com/blog/posts/agent-swarms-are-great-for-local-ai.html",
-          "publishedAt": "2026-10-20T13:56:57.000Z",
-          "publishedAtKst": "2026. 10. 20. 22:56",
-          "summary": "2 points, 0 comments",
+          "url": "https://github.com/vigneshv1cky/harness-studio",
+          "publishedAt": "2026-10-20T18:47:05.000Z",
+          "publishedAtKst": "2026. 10. 21. 03:47",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -469,14 +467,14 @@
       "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.26836v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.26856v1",
-      "impact": 33,
+      "impact": 32,
       "reason": "추론, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
