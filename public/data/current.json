@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T08:01:26.897Z",
-  "generatedAtKst": "2026. 10. 20. 17:01",
-  "nextUpdateAt": "2026-10-20T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 20. 18:00",
+  "generatedAt": "2026-10-20T13:58:08.871Z",
+  "generatedAtKst": "2026. 10. 20. 22:58",
+  "nextUpdateAt": "2026-10-20T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 21. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2100,
+    "rangeEnd": "2039-09-22",
+    "dday": 2190,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
-    "coldCount": 7,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 43,
+    "coldCount": 6,
+    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 70,
-      "delta": 4,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-19T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 19. 21:00",
           "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -167,7 +167,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 67,
+      "score": 66,
       "delta": 4,
       "weight": 0.18,
       "confidence": 83,
@@ -180,7 +180,7 @@
           "publishedAt": "2026-10-17T23:08:02.000Z",
           "publishedAtKst": "2026. 10. 18. 08:08",
           "summary": "Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place o",
-          "impact": 27,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -190,24 +190,6 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
-          "publishedAt": "2026-10-18T12:18:41.000Z",
-          "publishedAtKst": "2026. 10. 18. 21:18",
-          "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
-          "impact": 24,
-          "confidence": 82,
-          "stance": "decelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "추론"
-          ],
-          "why": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
@@ -226,6 +208,24 @@
             "추론"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
+          "publishedAt": "2026-10-18T12:18:41.000Z",
+          "publishedAtKst": "2026. 10. 18. 21:18",
+          "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
+          "impact": 22,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "추론"
+          ],
+          "why": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
@@ -266,7 +266,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -297,7 +297,7 @@
           "publishedAt": "2026-10-19T17:57:41.000Z",
           "publishedAtKst": "2026. 10. 20. 02:57",
           "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask wh",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -315,7 +315,7 @@
           "publishedAt": "2026-10-19T17:59:56.000Z",
           "publishedAtKst": "2026. 10. 20. 02:59",
           "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complem",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -333,7 +333,7 @@
           "publishedAt": "2026-10-19T17:55:35.000Z",
           "publishedAtKst": "2026. 10. 20. 02:55",
           "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substan",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -351,7 +351,7 @@
           "publishedAt": "2026-10-19T17:52:35.000Z",
           "publishedAtKst": "2026. 10. 20. 02:52",
           "summary": "Real-world decision problems combine two qualitatively different kinds of constraints: requirements that must be satisfied, called hard constraints, and preferences that can be violated, called soft constraints. Because ",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -368,37 +368,19 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "I used an AI coding agent to solve one of gaming's \"millennium problems\": what the Mario 64 plaque really says",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1x9x7gw/i_used_an_ai_coding_agent_to_solve_one_of_gamings/",
-          "publishedAt": "2026-10-19T13:41:33.000Z",
-          "publishedAtKst": "2026. 10. 19. 22:41",
-          "summary": "Each hobby has some problems that can never be solved, and one of these for Nintendo fans is the plaque on the castle fountain in Super Mario 64, which has been the subject of debate since 1996 and has never reached a co",
-          "impact": 24,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Pdd-kit – Product-Driven Development for coding agents",
+          "title": "Build a coding agent in 306 lines of Python",
           "source": "Hacker News",
-          "url": "https://github.com/itai-gendler/pdd-kit",
-          "publishedAt": "2026-10-20T07:34:25.000Z",
-          "publishedAtKst": "2026. 10. 20. 16:34",
-          "summary": "1 points, 0 comments",
+          "url": "https://kialog.nlogn.ir/posts/coding-agent-in-300-lines/",
+          "publishedAt": "2026-10-20T13:54:17.000Z",
+          "publishedAtKst": "2026. 10. 20. 22:54",
+          "summary": "2 points, 0 comments",
           "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
@@ -409,23 +391,6 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Mercury 3 [Inception Labs] - Matching Luna/Haiku at 1000 tokens/sec",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xa30cc/mercury_3_inception_labs_matching_lunahaiku_at/",
-          "publishedAt": "2026-10-19T17:22:01.000Z",
-          "publishedAtKst": "2026. 10. 20. 02:22",
-          "summary": "Diffusion models finally taking off? I actually tested some general output against gpt 6 luna and either luna is really bad or this thing is very close or sometimes beating it. My testing is not extensive enough to confi",
-          "impact": 17,
-          "confidence": 51,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Should agent-memory benchmarks test stale information?",
           "source": "Hacker News",
           "url": "https://agentmemories.ai/home",
@@ -433,7 +398,7 @@
           "publishedAtKst": "2026. 10. 20. 12:46",
           "summary": "2 points, 0 comments",
           "impact": 15,
-          "confidence": 57,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -442,19 +407,52 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "I think we have achieved AGI",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xaicw3/i_think_we_have_achieved_agi/",
-          "publishedAt": "2026-10-20T04:11:33.000Z",
-          "publishedAtKst": "2026. 10. 20. 13:11",
-          "summary": "&#32; submitted by &#32; /u/Cerulian_16 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "title": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50154029",
+          "publishedAt": "2026-10-19T16:00:18.000Z",
+          "publishedAtKst": "2026. 10. 20. 01:00",
+          "summary": "58 points, 24 comments",
+          "impact": 13,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "모델"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "AI generates research ideas faster than I can test them. Anyone else? [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/",
+          "publishedAt": "2026-10-19T17:50:49.000Z",
+          "publishedAtKst": "2026. 10. 20. 02:50",
+          "summary": "I've been using AI extensively for ML research, and I've noticed a bottleneck: brainstorming research directions and generating smoke run implementations has become incredibly fast, but actually testing those ideas hasn'",
+          "impact": 12,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "위험"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Agent Swarms Are Great for Local AI",
+          "source": "Hacker News",
+          "url": "https://jonready.com/blog/posts/agent-swarms-are-great-for-local-ai.html",
+          "publishedAt": "2026-10-20T13:56:57.000Z",
+          "publishedAtKst": "2026. 10. 20. 22:56",
+          "summary": "2 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -471,25 +469,18 @@
       "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.26836v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.26856v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "추론, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "There was no major mathematical breakthrough by AI announced in the last 24 hours.",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1xa7zm4/there_was_no_major_mathematical_breakthrough_by/",
-      "impact": 3,
-      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Fixed-weight models are adversarially vulnerable: hence misaligned",
       "source": "Alignment Forum",
@@ -503,6 +494,13 @@
       "url": "http://arxiv.org/abs/2610.26797v1",
       "impact": 6,
       "reason": "위험, 편향 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "OpenAI Can't Self-Police Because It Fires the People Raising the Alarm",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/sSHbioPoHWtm4zuti/openai-can-t-self-police-because-it-fires-the-people-raising",
+      "impact": 7,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
