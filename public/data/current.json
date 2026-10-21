@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T19:01:45.572Z",
-  "generatedAtKst": "2026. 10. 22. 04:01",
-  "nextUpdateAt": "2026-10-21T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 22. 06:00",
+  "generatedAt": "2026-10-21T23:48:06.414Z",
+  "generatedAtKst": "2026. 10. 22. 08:48",
+  "nextUpdateAt": "2026-10-22T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 22. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2099,
+    "rangeEnd": "2039-05-10",
+    "dday": 2054,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 43,
-    "coldCount": 4,
-    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 5,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 81,
+      "score": 80,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-21T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 21:00",
           "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-21T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 16:00",
           "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -128,22 +128,6 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/terminal-x",
-          "publishedAt": "2026-10-20T07:00:00.000Z",
-          "publishedAtKst": "2026. 10. 20. 16:00",
-          "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-          "impact": 20,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
           "source": "OpenAI News",
           "url": "https://openai.com/index/ted-taylor-restaurant",
@@ -158,6 +142,22 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/terminal-x",
+          "publishedAt": "2026-10-20T07:00:00.000Z",
+          "publishedAtKst": "2026. 10. 20. 16:00",
+          "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -196,7 +196,7 @@
           "publishedAt": "2026-10-18T12:18:41.000Z",
           "publishedAtKst": "2026. 10. 18. 21:18",
           "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
-          "impact": 16,
+          "impact": 14,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -214,7 +214,7 @@
           "publishedAt": "2026-10-17T23:08:02.000Z",
           "publishedAtKst": "2026. 10. 18. 08:08",
           "summary": "Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations. Introduction Despite the central place o",
-          "impact": 15,
+          "impact": 14,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -264,7 +264,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -295,7 +295,7 @@
           "publishedAt": "2026-10-20T17:53:32.000Z",
           "publishedAtKst": "2026. 10. 21. 02:53",
           "summary": "Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading fa",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -313,7 +313,7 @@
           "publishedAt": "2026-10-20T17:47:37.000Z",
           "publishedAtKst": "2026. 10. 21. 02:47",
           "summary": "Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one ",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -325,31 +325,13 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.28584v1",
-          "publishedAt": "2026-10-20T17:39:41.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:39",
-          "summary": "Autoregressive models (ARMs) face a \"Sequentiality Bottleneck\" in reasoning, while diffusion language models (DLMs) offer parallelism but lack semantic coherence. To addresses both limitations, we propose Collaborative R",
-          "impact": 29,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "모델",
-            "벤치마크",
-            "멀티모달"
-          ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Agentic Ensemble with Vision-Language Models for Visual Anomaly Detection",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2610.28560v1",
           "publishedAt": "2026-10-20T17:22:25.000Z",
           "publishedAtKst": "2026. 10. 21. 02:22",
           "summary": "Visual anomaly detection aims to detect abnormal objects, while anomaly samples are often scarce during model training. Assembling multiple pretrained detectors can help by leveraging their transferable image scores and ",
-          "impact": 29,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -359,6 +341,24 @@
             "벤치마크"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.28584v1",
+          "publishedAt": "2026-10-20T17:39:41.000Z",
+          "publishedAtKst": "2026. 10. 21. 02:39",
+          "summary": "Autoregressive models (ARMs) face a \"Sequentiality Bottleneck\" in reasoning, while diffusion language models (DLMs) offer parallelism but lack semantic coherence. To addresses both limitations, we propose Collaborative R",
+          "impact": 27,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "모델",
+            "벤치마크",
+            "멀티모달"
+          ],
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,12 +366,77 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 69,
-      "delta": 5,
+      "score": 76,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "Anthropic unveils Claude Duet, a proactive AI agent powered by Opus 5.5. It works while you're away, monitors your apps, handles complex tasks using its own cloud computer, and alerts you when needed. It supports 6,000+ integrations and remembers your context.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xbz98o/anthropic_unveils_claude_duet_a_proactive_ai/",
+          "publishedAt": "2026-10-21T20:59:15.000Z",
+          "publishedAtKst": "2026. 10. 22. 05:59",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 21,
+          "confidence": 54,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude",
+            "컴퓨트"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "We have 10 weeks left - OpenAi will have AGI by the end of the year per Sam Altman's TIME interview",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xbosp8/we_have_10_weeks_left_openai_will_have_agi_by_the/",
+          "publishedAt": "2026-10-21T14:32:34.000Z",
+          "publishedAtKst": "2026. 10. 21. 23:32",
+          "summary": "So what are we thinking? Will he just say nothing and hope we forget he said that? Will he actually do it? A Christmas surprise? Will he say he has AGI internally (trust me bro) and just not show anything to the public? ",
+          "impact": 20,
+          "confidence": 53,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "벤치마크"
+          ],
+          "why": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Anthropic opens research preview of Claude Duet, a agent for professionals",
+          "source": "Hacker News",
+          "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21/",
+          "publishedAt": "2026-10-21T23:12:27.000Z",
+          "publishedAtKst": "2026. 10. 22. 08:12",
+          "summary": "1 points, 1 comments",
+          "impact": 17,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OpenAI's thousands of GPT-Rosalind agents analyzed millions of mouse brain cells in 32 minutes, completing research estimated to take humans months to a year. They uncovered new leads for neurodegenerative diseases, with human experts preferring their findings 75% of the time.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xbx2x9/openais_thousands_of_gptrosalind_agents_analyzed/",
+          "publishedAt": "2026-10-21T19:36:06.000Z",
+          "publishedAtKst": "2026. 10. 22. 04:36",
+          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "SpacebarBench: Benchmarking Agents on Whiteboards",
           "source": "Hacker News",
@@ -387,68 +452,6 @@
             "벤치마크"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "What I saw inside Anthropic: AI lab pushes towards recursive self-improvement",
-          "source": "Hacker News",
-          "url": "https://www.theargumentmag.com/p/what-i-saw-inside-anthropic",
-          "publishedAt": "2026-10-21T18:29:29.000Z",
-          "publishedAtKst": "2026. 10. 22. 03:29",
-          "summary": "3 points, 1 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "자기개선"
-          ],
-          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-          "source": "Hacker News",
-          "url": "https://research.poh.org/bot-benchmarking-2026/",
-          "publishedAt": "2026-10-20T17:10:31.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:10",
-          "summary": "47 points, 8 comments",
-          "impact": 14,
-          "confidence": 55,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Should agent-memory benchmarks test stale information?",
-          "source": "Hacker News",
-          "url": "https://agentmemories.ai/home",
-          "publishedAt": "2026-10-20T03:46:35.000Z",
-          "publishedAtKst": "2026. 10. 20. 12:46",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 52,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Open-source, cross-harness memory for AI agents",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50182883",
-          "publishedAt": "2026-10-21T15:42:38.000Z",
-          "publishedAtKst": "2026. 10. 22. 00:42",
-          "summary": "12 points, 10 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -465,14 +468,14 @@
       "title": "Semantic Observability for Autonomous Systems Diagnostics",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.28611v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Evolving Agent Interfaces",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.28601v1",
-      "impact": 35,
+      "impact": 33,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
