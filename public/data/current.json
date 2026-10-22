@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T23:48:06.414Z",
-  "generatedAtKst": "2026. 10. 22. 08:48",
-  "nextUpdateAt": "2026-10-22T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 22. 12:00",
+  "generatedAt": "2026-10-22T08:06:37.325Z",
+  "generatedAtKst": "2026. 10. 22. 17:06",
+  "nextUpdateAt": "2026-10-22T09:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 22. 18:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2054,
+    "rangeEnd": "2039-03-26",
+    "dday": 2008,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 46,
-    "coldCount": 5,
-    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 51,
+    "coldCount": 9,
+    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-21T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 21:00",
           "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-          "impact": 26,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-21T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 16:00",
           "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-          "impact": 25,
+          "impact": 24,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-10-21T13:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 22:00",
           "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-10-20T10:00:00.000Z",
           "publishedAtKst": "2026. 10. 20. 19:00",
           "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-10-20T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 20. 16:00",
           "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,7 +165,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 63,
+      "score": 62,
       "delta": 3,
       "weight": 0.18,
       "confidence": 83,
@@ -190,24 +190,6 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
-          "publishedAt": "2026-10-18T12:18:41.000Z",
-          "publishedAtKst": "2026. 10. 18. 21:18",
-          "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
-          "impact": 14,
-          "confidence": 82,
-          "stance": "decelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "추론"
-          ],
-          "why": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-        },
-        {
           "title": "Deconfusing Corrigibility",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
@@ -224,6 +206,24 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
+          "publishedAt": "2026-10-18T12:18:41.000Z",
+          "publishedAtKst": "2026. 10. 18. 21:18",
+          "summary": "TLDR: I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine",
+          "impact": 12,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "추론"
+          ],
+          "why": "규제, 안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
@@ -264,101 +264,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
-      "delta": 10,
+      "score": 94,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Cache Engineering for Agents",
+          "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.28577v1",
-          "publishedAt": "2026-10-20T17:32:24.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:32",
-          "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost",
+          "url": "http://arxiv.org/abs/2610.30132v1",
+          "publishedAt": "2026-10-21T17:59:14.000Z",
+          "publishedAtKst": "2026. 10. 22. 02:59",
+          "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation o",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.30116v1",
+          "publishedAt": "2026-10-21T17:55:31.000Z",
+          "publishedAtKst": "2026. 10. 22. 02:55",
+          "summary": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role i",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "자기개선",
+            "추론",
             "LLM"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Semantic Observability for Autonomous Systems Diagnostics",
+          "title": "The End of Consensus Research?",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.28611v1",
-          "publishedAt": "2026-10-20T17:53:32.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:53",
-          "summary": "Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading fa",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2610.30114v1",
+          "publishedAt": "2026-10-21T17:55:19.000Z",
+          "publishedAtKst": "2026. 10. 22. 02:55",
+          "summary": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is stil",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "자율성",
             "추론",
-            "LLM"
+            "코딩 에이전트"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Evolving Agent Interfaces",
+          "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.28601v1",
-          "publishedAt": "2026-10-20T17:47:37.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:47",
-          "summary": "Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one ",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2610.30113v1",
+          "publishedAt": "2026-10-21T17:54:01.000Z",
+          "publishedAtKst": "2026. 10. 22. 02:54",
+          "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, cod",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성",
+            "프런티어 모델",
             "GPT",
+            "LLM"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.30051v1",
+          "publishedAt": "2026-10-21T17:11:52.000Z",
+          "publishedAtKst": "2026. 10. 22. 02:11",
+          "summary": "Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulatio",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "GPT",
+            "Gemini",
             "Claude"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Agentic Ensemble with Vision-Language Models for Visual Anomaly Detection",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.28560v1",
-          "publishedAt": "2026-10-20T17:22:25.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:22",
-          "summary": "Visual anomaly detection aims to detect abnormal objects, while anomaly samples are often scarce during model training. Assembling multiple pretrained detectors can help by leveraging their transferable image scores and ",
-          "impact": 28,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "에이전트",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.28584v1",
-          "publishedAt": "2026-10-20T17:39:41.000Z",
-          "publishedAtKst": "2026. 10. 21. 02:39",
-          "summary": "Autoregressive models (ARMs) face a \"Sequentiality Bottleneck\" in reasoning, while diffusion language models (DLMs) offer parallelism but lack semantic coherence. To addresses both limitations, we propose Collaborative R",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "추론",
-            "모델",
-            "벤치마크",
-            "멀티모달"
-          ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "추론, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,12 +366,46 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 54,
+      "confidence": 56,
       "trend": "hot",
       "items": [
+        {
+          "title": "Dario Amodei: Anthropic Must Remain At The Frontier Of The AI \"Race To The Top\"",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xbhxb7/dario_amodei_anthropic_must_remain_at_the/",
+          "publishedAt": "2026-10-21T08:52:15.000Z",
+          "publishedAtKst": "2026. 10. 21. 17:52",
+          "summary": "The executive wrote a nearly 2,000-word response to a critical X post which said Anthropic was trying to win a race to superintelligence and deprioritizing AI safety. Calvin listed nine actions by Anthropic over the past",
+          "impact": 31,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "Claude",
+            "모델"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xc4u3s/rejuvenation_breakthrough_scientists_reverse_60/",
+          "publishedAt": "2026-10-22T01:02:22.000Z",
+          "publishedAtKst": "2026. 10. 22. 10:02",
+          "summary": "Not 10, 60 &#32; submitted by &#32; /u/Distinct-Question-16 [link] &#32; [comments]",
+          "impact": 22,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "돌파"
+          ],
+          "why": "AGI, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Anthropic unveils Claude Duet, a proactive AI agent powered by Opus 5.5. It works while you're away, monitors your apps, handles complex tasks using its own cloud computer, and alerts you when needed. It supports 6,000+ integrations and remembers your context.",
           "source": "r/singularity",
@@ -379,8 +413,8 @@
           "publishedAt": "2026-10-21T20:59:15.000Z",
           "publishedAtKst": "2026. 10. 22. 05:59",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 21,
-          "confidence": 54,
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,115 +424,83 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Compaction Laundering:Provenance Destruction in Context-Compacting Coding Agents",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2610.29869",
+          "publishedAt": "2026-10-22T07:28:22.000Z",
+          "publishedAtKst": "2026. 10. 22. 16:28",
+          "summary": "2 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "We have 10 weeks left - OpenAi will have AGI by the end of the year per Sam Altman's TIME interview",
           "source": "r/singularity",
           "url": "https://www.reddit.com/r/singularity/comments/1xbosp8/we_have_10_weeks_left_openai_will_have_agi_by_the/",
           "publishedAt": "2026-10-21T14:32:34.000Z",
           "publishedAtKst": "2026. 10. 21. 23:32",
           "summary": "So what are we thinking? Will he just say nothing and hope we forget he said that? Will he actually do it? A Christmas surprise? Will he say he has AGI internally (trust me bro) and just not show anything to the public? ",
-          "impact": 20,
-          "confidence": 53,
+          "impact": 19,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "벤치마크"
           ],
           "why": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic opens research preview of Claude Duet, a agent for professionals",
-          "source": "Hacker News",
-          "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21/",
-          "publishedAt": "2026-10-21T23:12:27.000Z",
-          "publishedAtKst": "2026. 10. 22. 08:12",
-          "summary": "1 points, 1 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "OpenAI's thousands of GPT-Rosalind agents analyzed millions of mouse brain cells in 32 minutes, completing research estimated to take humans months to a year. They uncovered new leads for neurodegenerative diseases, with human experts preferring their findings 75% of the time.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xbx2x9/openais_thousands_of_gptrosalind_agents_analyzed/",
-          "publishedAt": "2026-10-21T19:36:06.000Z",
-          "publishedAtKst": "2026. 10. 22. 04:36",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 16,
-          "confidence": 50,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "SpacebarBench: Benchmarking Agents on Whiteboards",
-          "source": "Hacker News",
-          "url": "https://www.spacebar.ai/benchmark",
-          "publishedAt": "2026-10-21T03:34:14.000Z",
-          "publishedAtKst": "2026. 10. 21. 12:34",
-          "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Cache Engineering for Agents",
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.28577v1",
+      "url": "http://arxiv.org/abs/2610.30132v1",
+      "impact": 36,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.30116v1",
       "impact": 36,
       "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Semantic Observability for Autonomous Systems Diagnostics",
+      "title": "The End of Consensus Research?",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.28611v1",
-      "impact": 33,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Evolving Agent Interfaces",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.28601v1",
-      "impact": 33,
+      "url": "http://arxiv.org/abs/2610.30114v1",
+      "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "ExGrad: Beyond Suppression - Explicit Clean-Gradient Subtraction in Adversarial Training",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.30018v1",
+      "impact": 0,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.30097v1",
+      "impact": 1,
+      "reason": "지연, 편향 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Neural nets are exceptionally vulnerable to goal self-hack",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
       "impact": 2,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI Can't Self-Police Because It Fires the People Raising the Alarm",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/sSHbioPoHWtm4zuti/openai-can-t-self-police-because-it-fires-the-people-raising",
-      "impact": 7,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Rocks to Rules: Climbing a Rickety-But-Interoperable Semantic Ladder",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/hEDMDFmb322yfufYL/rocks-to-rules-climbing-a-rickety-but-interoperable-semantic",
-      "impact": 9,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
