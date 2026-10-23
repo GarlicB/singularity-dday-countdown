@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23T13:55:59.080Z",
-  "generatedAtKst": "2026. 10. 23. 22:55",
-  "nextUpdateAt": "2026-10-23T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 24. 00:00",
+  "generatedAt": "2026-10-23T18:47:37.021Z",
+  "generatedAtKst": "2026. 10. 24. 03:47",
+  "nextUpdateAt": "2026-10-23T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 24. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2142,
+    "rangeEnd": "2039-09-22",
+    "dday": 2187,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 42,
     "coldCount": 11,
@@ -71,12 +71,28 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
+      "score": 77,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "publishedAt": "2026-10-23T17:00:00.000Z",
+          "publishedAtKst": "2026. 10. 24. 02:00",
+          "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "impact": 23,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "OpenAI models are coming to Google Cloud",
           "source": "OpenAI News",
@@ -101,7 +117,7 @@
           "publishedAt": "2026-10-21T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 16:00",
           "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +134,7 @@
           "publishedAt": "2026-10-22T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 22. 09:00",
           "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,23 +150,7 @@
           "publishedAt": "2026-10-21T13:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 22:00",
           "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-          "impact": 18,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/ted-taylor-restaurant",
-          "publishedAt": "2026-10-20T10:00:00.000Z",
-          "publishedAtKst": "2026. 10. 20. 19:00",
-          "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-          "impact": 15,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -190,21 +190,6 @@
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-          "publishedAt": "2026-10-22T07:00:00.000Z",
-          "publishedAtKst": "2026. 10. 22. 16:00",
-          "summary": "",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Deconfusing Corrigibility",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
@@ -221,6 +206,21 @@
             "추론"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+          "publishedAt": "2026-10-22T07:00:00.000Z",
+          "publishedAtKst": "2026. 10. 22. 16:00",
+          "summary": "",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
@@ -262,10 +262,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -275,7 +275,7 @@
           "publishedAt": "2026-10-22T16:46:09.000Z",
           "publishedAtKst": "2026. 10. 23. 01:46",
           "summary": "Local anomaly detection is the task of identifying spatially confined anomalous or out-of-distribution (OOD) regions within an otherwise in-distribution (ID) image. Most existing methods are designed for a specific conte",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -292,8 +292,8 @@
           "publishedAt": "2026-10-22T17:15:59.000Z",
           "publishedAtKst": "2026. 10. 23. 02:15",
           "summary": "Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a wi",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -309,7 +309,7 @@
           "publishedAt": "2026-10-22T17:14:38.000Z",
           "publishedAtKst": "2026. 10. 23. 02:14",
           "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperform",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -327,8 +327,8 @@
           "publishedAt": "2026-10-22T17:59:48.000Z",
           "publishedAtKst": "2026. 10. 23. 02:59",
           "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate so",
-          "impact": 23,
-          "confidence": 91,
+          "impact": 22,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -345,8 +345,8 @@
           "publishedAt": "2026-10-22T17:52:56.000Z",
           "publishedAtKst": "2026. 10. 23. 02:52",
           "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, den",
-          "impact": 23,
-          "confidence": 91,
+          "impact": 22,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -362,61 +362,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 76,
-      "delta": 7,
+      "score": 73,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "I turned my spare computers into a network for AI coding agents",
-          "source": "Hacker News",
-          "url": "https://www.sidefleet.xyz/",
-          "publishedAt": "2026-10-23T13:50:52.000Z",
-          "publishedAtKst": "2026. 10. 23. 22:50",
-          "summary": "1 points, 0 comments",
-          "impact": 24,
-          "confidence": 64,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "컴퓨트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "I built Open-XTTS-Trainer: Now you can add new language scripts and train all 3 XTTS v2 components in 1 click [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/",
-          "publishedAt": "2026-10-22T21:03:28.000Z",
-          "publishedAtKst": "2026. 10. 23. 06:03",
-          "summary": "TL;DR: When Coqui AI shut down, they left XTTS v2 without official training code for the DVAE audio tokenizer and Latent HiFi-GAN vocoder, and fine-tuning new scripts (Arabic, Indic, etc.) broke on fixed vocabularies. I ",
-          "impact": 20,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "GPT",
-            "모델",
-            "벤치마크",
-            "추론 인프라"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Police in Japan likely to gain authority to hack phones to check messaging apps",
-          "source": "Hacker News",
-          "url": "https://soranews24.com/2026/10/21/police-in-japan-likely-to-gain-authority-to-hack-phones-to-check-messaging-apps/",
-          "publishedAt": "2026-10-23T13:54:48.000Z",
-          "publishedAtKst": "2026. 10. 23. 22:54",
-          "summary": "1 points, 0 comments",
-          "impact": 16,
+          "title": "Cybersecurity people are losing their minds today. Some are calling it Black October and expect internet lockdowns soon. --- AGI must be here for hackers.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xcxezj/cybersecurity_people_are_losing_their_minds_today/",
+          "publishedAt": "2026-10-22T22:55:18.000Z",
+          "publishedAtKst": "2026. 10. 23. 07:55",
+          "summary": "PHP2Shell: a hole in the software behind ~70% of websites. Governments took sites offline. eMudhra: the master keys that prove websites are real were cracked. One was the number 4. California: data on every public school",
+          "impact": 17,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "AGI",
+            "에이전트",
+            "LLM",
+            "공격/악용"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Caudra – An open-source terminal coding agent in one native binary",
@@ -425,7 +393,7 @@
           "publishedAt": "2026-10-22T13:43:58.000Z",
           "publishedAtKst": "2026. 10. 22. 22:43",
           "summary": "1 points, 0 comments",
-          "impact": 16,
+          "impact": 15,
           "confidence": 56,
           "stance": "accelerate",
           "tags": [
@@ -435,20 +403,51 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Embracing the dark side – An Aristotelian analysis of large language models",
-          "source": "Hacker News",
-          "url": "https://adamschaefers.com/blog/2026-10-21-embracing-the-dark-side/",
-          "publishedAt": "2026-10-23T09:50:59.000Z",
-          "publishedAtKst": "2026. 10. 23. 18:50",
-          "summary": "2 points, 0 comments",
-          "impact": 12,
-          "confidence": 54,
+          "title": "Cybersecurity is currently experiencing a revolution that was completely unimaginable in its entire history. If this pace continues, at the end of 2026 we will see more than 26% of all bugs in human history discovered by the end of the year, hard to even imagine 2027 at this point",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xdh8vq/cybersecurity_is_currently_experiencing_a/",
+          "publishedAt": "2026-10-23T15:30:46.000Z",
+          "publishedAtKst": "2026. 10. 24. 00:30",
+          "summary": "&#32; submitted by &#32; /u/adivinemessenger [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델"
+            "AGI"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Claude made a documentary about life after the singularity",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xd5von/claude_made_a_documentary_about_life_after_the/",
+          "publishedAt": "2026-10-23T05:57:42.000Z",
+          "publishedAtKst": "2026. 10. 23. 14:57",
+          "summary": "prompt: \"Work overnight. Make a 7-minute 'I investigated...' style YouTube documentary about life after the singularity. Plan the story with multiple agents, make it look and sound like a real doc with grade, music and S",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "I asked Opus 5.5 for a hidden connection between unrelated fields that nobody has published yet. It linked groundwater cleanup to how the sleeping brain clears Alzheimer's proteins",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xd3gnx/i_asked_opus_55_for_a_hidden_connection_between/",
+          "publishedAt": "2026-10-23T03:43:55.000Z",
+          "publishedAtKst": "2026. 10. 23. 12:43",
+          "summary": "Groundwater engineers learned that contaminants trapped in stagnant pockets leaks out slowly, so they pump in pulses, pausing to let it seep back into the flowing channels. Claude suggested the sleeping brain works the s",
+          "impact": 13,
+          "confidence": 48,
+          "stance": "accelerate",
+          "tags": [
+            "Claude",
+            "LLM"
+          ],
+          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -458,22 +457,22 @@
       "title": "LACToS: Local Anomaly Detection via Conditional Typicality of Superpixels",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.31538v1",
-      "impact": 27,
+      "impact": 26,
       "reason": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.31579v1",
-      "impact": 24,
-      "reason": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "impact": 23,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "I turned my spare computers into a network for AI coding agents",
-      "source": "Hacker News",
-      "url": "https://www.sidefleet.xyz/",
-      "impact": 24,
-      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
+      "impact": 23,
+      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -481,7 +480,7 @@
       "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.31659v1",
-      "impact": -7,
+      "impact": -6,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -495,7 +494,7 @@
       "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.31558v1",
-      "impact": -3,
+      "impact": -2,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
