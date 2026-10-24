@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-24T07:44:37.919Z",
-  "generatedAtKst": "2026. 10. 24. 16:44",
-  "nextUpdateAt": "2026-10-24T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 24. 18:00",
+  "generatedAt": "2026-10-24T13:00:00.474Z",
+  "generatedAtKst": "2026. 10. 24. 22:00",
+  "nextUpdateAt": "2026-10-24T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 25. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-10-18",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-09-22",
-    "dday": 2186,
+    "rangeEnd": "2039-11-16",
+    "dday": 2276,
     "confidence": 76,
-    "deltaDays": -39,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 76,
-    "temperature": 53,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 41,
+    "hotCount": 40,
     "coldCount": 12,
-    "summary": "가속 신호 41건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 40건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-23T10:00:00.000Z",
           "publishedAtKst": "2026. 10. 23. 19:00",
           "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-          "impact": 23,
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-10-21T12:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 21:00",
           "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-10-22T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 22. 09:00",
           "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-10-21T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 21. 16:00",
           "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -209,21 +209,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-          "publishedAt": "2026-10-22T07:00:00.000Z",
-          "publishedAtKst": "2026. 10. 22. 16:00",
-          "summary": "",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
@@ -240,6 +225,21 @@
             "추론"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+          "publishedAt": "2026-10-22T07:00:00.000Z",
+          "publishedAtKst": "2026. 10. 22. 16:00",
+          "summary": "",
+          "impact": 12,
+          "confidence": 91,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
@@ -263,10 +263,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 89,
+      "confidence": 88,
       "trend": "hot",
       "items": [
         {
@@ -276,8 +276,8 @@
           "publishedAt": "2026-10-22T16:46:09.000Z",
           "publishedAtKst": "2026. 10. 23. 01:46",
           "summary": "Local anomaly detection is the task of identifying spatially confined anomalous or out-of-distribution (OOD) regions within an otherwise in-distribution (ID) image. Most existing methods are designed for a specific conte",
-          "impact": 23,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -293,8 +293,8 @@
           "publishedAt": "2026-10-22T17:15:59.000Z",
           "publishedAtKst": "2026. 10. 23. 02:15",
           "summary": "Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a wi",
-          "impact": 21,
-          "confidence": 88,
+          "impact": 20,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -310,7 +310,7 @@
           "publishedAt": "2026-10-22T17:14:38.000Z",
           "publishedAtKst": "2026. 10. 23. 02:14",
           "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperform",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -328,8 +328,8 @@
           "publishedAt": "2026-10-22T17:59:48.000Z",
           "publishedAtKst": "2026. 10. 23. 02:59",
           "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate so",
-          "impact": 20,
-          "confidence": 88,
+          "impact": 19,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -346,8 +346,8 @@
           "publishedAt": "2026-10-22T17:52:56.000Z",
           "publishedAtKst": "2026. 10. 23. 02:52",
           "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, den",
-          "impact": 20,
-          "confidence": 88,
+          "impact": 19,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -363,10 +363,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 70,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
@@ -376,8 +376,8 @@
           "publishedAt": "2026-10-23T20:08:49.000Z",
           "publishedAtKst": "2026. 10. 24. 05:08",
           "summary": "1 points, 1 comments",
-          "impact": 23,
-          "confidence": 63,
+          "impact": 22,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -387,36 +387,20 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Whyline – Git native decision history for coding agents",
+          "title": "Show HN: Caudra – An open-source terminal coding agent in one native binary",
           "source": "Hacker News",
-          "url": "https://github.com/anishmoncivarghese/whyline",
-          "publishedAt": "2026-10-24T06:26:18.000Z",
-          "publishedAtKst": "2026. 10. 24. 15:26",
+          "url": "https://github.com/caudra/caudra",
+          "publishedAt": "2026-10-22T13:43:58.000Z",
+          "publishedAtKst": "2026. 10. 22. 22:43",
           "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 13,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "When did people's AGI indicators shift to actually be ASI?",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xda8re/when_did_peoples_agi_indicators_shift_to_actually/",
-          "publishedAt": "2026-10-23T10:23:09.000Z",
-          "publishedAtKst": "2026. 10. 23. 19:23",
-          "summary": "more and more im seeing people ask questions like \"what is the first problem agi would solve\" and go on to describe millennium problems that have stood unsolved for decades. to me, agi is an average person. generally int",
-          "impact": 16,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Cybersecurity is currently experiencing a revolution that was completely unimaginable in its entire history. If this pace continues, at the end of 2026 we will see more than 26% of all bugs in human history discovered by the end of the year, hard to even imagine 2027 at this point",
@@ -425,8 +409,8 @@
           "publishedAt": "2026-10-23T15:30:46.000Z",
           "publishedAtKst": "2026. 10. 24. 00:30",
           "summary": "&#32; submitted by &#32; /u/adivinemessenger [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "impact": 13,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -434,32 +418,41 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Caudra – An open-source terminal coding agent in one native binary",
+          "title": "Show HN: Benchmarks of continual learning model trained for a month on a laptop",
           "source": "Hacker News",
-          "url": "https://github.com/caudra/caudra",
-          "publishedAt": "2026-10-22T13:43:58.000Z",
-          "publishedAtKst": "2026. 10. 22. 22:43",
-          "summary": "1 points, 0 comments",
-          "impact": 13,
-          "confidence": 54,
+          "url": "https://news.ycombinator.com/item?id=50219762",
+          "publishedAt": "2026-10-24T10:09:27.000Z",
+          "publishedAtKst": "2026. 10. 24. 19:09",
+          "summary": "2 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "모델",
+            "벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Dynamic force sensing by bone delays aging and extends lifespan – ScienceDirect",
+          "source": "Hacker News",
+          "url": "https://www.sciencedirect.com/science/article/pii/S155041312600433X",
+          "publishedAt": "2026-10-24T12:53:58.000Z",
+          "publishedAtKst": "2026. 10. 24. 21:53",
+          "summary": "1 points, 0 comments",
+          "impact": 11,
+          "confidence": 61,
+          "stance": "watch",
+          "tags": [
+            "AGI",
+            "지연"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
-    {
-      "title": "Securing our frontier model training environment",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "impact": 23,
-      "reason": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
       "source": "Alignment Forum",
@@ -468,10 +461,17 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "Securing our frontier model training environment",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "impact": 22,
+      "reason": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "LACToS: Local Anomaly Detection via Conditional Typicality of Superpixels",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.31538v1",
-      "impact": 23,
+      "impact": 22,
       "reason": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -487,14 +487,14 @@
       "title": "OP-Print: Tracing Membership Imprints in On-Policy Self-Distillation",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.31616v1",
-      "impact": -2,
+      "impact": -1,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.31558v1",
-      "impact": -1,
+      "impact": 0,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
