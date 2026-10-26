@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-26T08:16:39.277Z",
-  "generatedAtKst": "2026. 10. 26. 17:16",
-  "nextUpdateAt": "2026-10-26T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 26. 18:00",
+  "generatedAt": "2026-10-26T15:37:32.090Z",
+  "generatedAtKst": "2026. 10. 27. 00:37",
+  "nextUpdateAt": "2026-10-26T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 27. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-01-16",
-    "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-03",
-    "dday": 2274,
+    "medianDate": "2033-04-16",
+    "rangeStart": "2027-02-17",
+    "rangeEnd": "2039-06-14",
+    "dday": 2364,
     "confidence": 76,
-    "deltaDays": -36,
+    "deltaDays": -33,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 74,
-    "temperature": 52,
+    "score": 72,
+    "temperature": 50,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 31,
-    "coldCount": 6,
-    "summary": "가속 신호 31건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 28,
+    "coldCount": 7,
+    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,8 +47,8 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-23T10:00:00.000Z",
           "publishedAtKst": "2026. 10. 23. 19:00",
           "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-10-23T17:00:00.000Z",
           "publishedAtKst": "2026. 10. 24. 02:00",
           "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 86,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +279,8 @@
           "publishedAt": "2026-10-23T16:58:01.000Z",
           "publishedAtKst": "2026. 10. 24. 01:58",
           "summary": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challeng",
-          "impact": 22,
-          "confidence": 91,
+          "impact": 20,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -297,8 +297,8 @@
           "publishedAt": "2026-10-23T16:44:20.000Z",
           "publishedAtKst": "2026. 10. 24. 01:44",
           "summary": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in th",
-          "impact": 22,
-          "confidence": 88,
+          "impact": 20,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -315,8 +315,8 @@
           "publishedAt": "2026-10-23T16:42:38.000Z",
           "publishedAtKst": "2026. 10. 24. 01:42",
           "summary": "Latent communication requires both an effective continuous reasoning process and an interface through which an external model can leverage its intermediate computation. We present J-Comm, a framework comprising two core ",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -333,8 +333,8 @@
           "publishedAt": "2026-10-23T17:01:04.000Z",
           "publishedAtKst": "2026. 10. 24. 02:01",
           "summary": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz loc",
-          "impact": 17,
-          "confidence": 84,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "모델",
@@ -351,8 +351,8 @@
           "publishedAt": "2026-10-23T17:24:31.000Z",
           "publishedAtKst": "2026. 10. 24. 02:24",
           "summary": "State inference and parameter learning for nonlinear filters is a core computation for scientific machine learning with varied applications in engineering and neuroscience. The unnormalized filtering distribution is gove",
-          "impact": 16,
-          "confidence": 83,
+          "impact": 15,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -367,45 +367,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 71,
-      "delta": 5,
+      "score": 65,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 50,
       "trend": "hot",
       "items": [
         {
-          "title": "Prepare for a cyberpunk world",
+          "title": "is there anything like a community driven/contributed open dataset for pre/mid/post training? something like what the big labs have but is open and people can contribute agent tokens (folding@home style) to improving so we get better open models?",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xf4j9z/prepare_for_a_cyberpunk_world/",
-          "publishedAt": "2026-10-25T14:58:53.000Z",
-          "publishedAtKst": "2026. 10. 25. 23:58",
-          "summary": "William Gibson published Neuromancer in 1984, long before the web existed. In his cyberspace, corporations protected valuable networks with ICE (Intrusion Countermeasures Electronics), while hackers used specialized prog",
-          "impact": 23,
-          "confidence": 58,
+          "url": "https://www.reddit.com/r/singularity/comments/1xfkov3/is_there_anything_like_a_community/",
+          "publishedAt": "2026-10-26T02:14:55.000Z",
+          "publishedAtKst": "2026. 10. 26. 11:14",
+          "summary": "was thinking about this recently. a large barrier to entry besides compute of course is a massive high quality clean dataset for pre/mid/post training. seems like an open version of something like this would be super use",
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성",
-            "추론",
-            "프런티어 모델"
+            "Claude",
+            "모델",
+            "컴퓨트"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Continue Your Google AI Mode Chats in Gemini/Claude",
-          "source": "Hacker News",
-          "url": "https://chromewebstore.google.com/detail/relay-continue-google-sea/fjjfadgooapnegipjocinojjhaajghag",
-          "publishedAt": "2026-10-26T07:35:56.000Z",
-          "publishedAtKst": "2026. 10. 26. 16:35",
-          "summary": "2 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "Claude"
-          ],
-          "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "AI Coding Agent Security Benchmark",
@@ -414,8 +398,8 @@
           "publishedAt": "2026-10-23T20:08:49.000Z",
           "publishedAtKst": "2026. 10. 24. 05:08",
           "summary": "1 points, 1 comments",
-          "impact": 14,
-          "confidence": 53,
+          "impact": 13,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -431,28 +415,42 @@
           "publishedAt": "2026-10-25T23:27:44.000Z",
           "publishedAtKst": "2026. 10. 26. 08:27",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 12,
-          "confidence": 47,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "모델"
-          ],
-          "why": "Claude, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "We just got new local model called Nanbeige4.3-33B clearly beating Qwen3.8 27B, which is GPT Luna 6 at home, reaching close to GLM 5.3 Flash.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xf5cg5/we_just_got_new_local_model_called_nanbeige4333b/",
-          "publishedAt": "2026-10-25T15:31:13.000Z",
-          "publishedAtKst": "2026. 10. 26. 00:31",
-          "summary": "&#32; submitted by &#32; /u/cnhuyaa [link] &#32; [comments]",
           "impact": 11,
           "confidence": 46,
           "stance": "watch",
           "tags": [
-            "GPT",
+            "Claude",
             "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Ask HN: What are your creative context bombs to make AI agents pay?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50245483",
+          "publishedAt": "2026-10-26T15:32:39.000Z",
+          "publishedAtKst": "2026. 10. 27. 00:32",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Claude made a documentary about the first town on the moon",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xfyw5x/claude_made_a_documentary_about_the_first_town_on/",
+          "publishedAt": "2026-10-26T14:48:16.000Z",
+          "publishedAtKst": "2026. 10. 26. 23:48",
+          "summary": "Part 2 of life after the singularity documentary: 2053, the first town on the Moon, built by self-replicating machines before anyone arrived Everything is generated locally for free. (picture, voices, music). Curious whi",
+          "impact": 9,
+          "confidence": 45,
+          "stance": "watch",
+          "tags": [
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -475,14 +473,21 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Prepare for a cyberpunk world",
+      "title": "is there anything like a community driven/contributed open dataset for pre/mid/post training? something like what the big labs have but is open and people can contribute agent tokens (folding@home style) to improving so we get better open models?",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1xf4j9z/prepare_for_a_cyberpunk_world/",
-      "impact": 23,
-      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1xfkov3/is_there_anything_like_a_community/",
+      "impact": 22,
+      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Ex-Googler and CPO of Valon.ai Jake Mintz on hardware bugs",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xf8w8u/exgoogler_and_cpo_of_valonai_jake_mintz_on/",
+      "impact": -3,
+      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Are we living in the golden age of AI intellectual freedom before corporations ruin it, like they did the internet?",
       "source": "r/singularity",
@@ -496,13 +501,6 @@
       "url": "https://www.reddit.com/r/singularity/comments/1xf9fft/if_anthropic_doesnt_rule_out_their_models_having/",
       "impact": -1,
       "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Neural nets are exceptionally vulnerable to goal self-hack",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
-      "impact": 5,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
