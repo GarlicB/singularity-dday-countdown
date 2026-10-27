@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T08:29:51.047Z",
-  "generatedAtKst": "2026. 10. 27. 17:29",
-  "nextUpdateAt": "2026-10-27T09:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 27. 18:00",
+  "generatedAt": "2026-10-27T15:01:08.751Z",
+  "generatedAtKst": "2026. 10. 28. 00:01",
+  "nextUpdateAt": "2026-10-27T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 28. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-06-05",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2093,
+    "rangeEnd": "2039-05-10",
+    "dday": 2048,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -43,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 79,
+    "temperature": 56,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 43,
-    "coldCount": 5,
-    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 44,
+    "coldCount": 6,
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
+      "value": 64,
+      "delta": 3,
       "tone": "hot"
     }
   ],
@@ -100,7 +100,7 @@
           "publishedAt": "2026-10-26T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 26. 09:00",
           "summary": "Bringing fast and capable computer use to everyone",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +116,7 @@
           "publishedAt": "2026-10-26T13:45:00.000Z",
           "publishedAtKst": "2026. 10. 26. 22:45",
           "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -263,7 +263,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
+      "score": 92,
       "delta": 11,
       "weight": 0.28,
       "confidence": 92,
@@ -312,7 +312,7 @@
           "publishedAt": "2026-10-26T17:51:02.000Z",
           "publishedAtKst": "2026. 10. 27. 02:51",
           "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model ",
-          "impact": 35,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -330,7 +330,7 @@
           "publishedAt": "2026-10-26T17:12:02.000Z",
           "publishedAtKst": "2026. 10. 27. 02:12",
           "summary": "Root cause analysis (RCA) of microservice failures has attracted many LLM agents whose investigation is hand-crafted, through standard operating procedures, fixed stages and role agents. Each is evaluated on its own data",
-          "impact": 34,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,7 +348,7 @@
           "publishedAt": "2026-10-26T17:44:34.000Z",
           "publishedAtKst": "2026. 10. 27. 02:44",
           "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a ",
-          "impact": 33,
+          "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -365,51 +365,70 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 64,
-      "delta": 4,
+      "score": 71,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
-          "title": "Cost-Efficient Pareto Recommendation for LLM Agentic Workflows",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2610.26676",
-          "publishedAt": "2026-10-27T07:58:06.000Z",
-          "publishedAtKst": "2026. 10. 27. 16:58",
-          "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "title": "I built a PyTorch optimizer for large GPU workloads — looking for feedback[P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xgqtxp/i_built_a_pytorch_optimizer_for_large_gpu/",
+          "publishedAt": "2026-10-27T12:11:26.000Z",
+          "publishedAtKst": "2026. 10. 27. 21:11",
+          "summary": "Hey, I've been working on a PyTorch optimizer called ApexW and figured I'd share it here to get some feedback from people who know more about this stuff than I do. The main goal is to reduce optimizer-state memory usage ",
+          "impact": 29,
+          "confidence": 62,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "LLM"
+            "AGI",
+            "LLM",
+            "모델",
+            "벤치마크"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "GPT-6.1 Terra Benchmarks",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xg4ng6/gpt61_terra_benchmarks/",
-          "publishedAt": "2026-10-26T18:15:17.000Z",
-          "publishedAtKst": "2026. 10. 27. 03:15",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "title": "Papers with Code is now open-source [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xgoadu/papers_with_code_is_now_opensource_p/",
+          "publishedAt": "2026-10-27T09:54:44.000Z",
+          "publishedAtKst": "2026. 10. 27. 18:54",
+          "summary": "Papers with Code is now open-source with an Apache 2.0-license. The goal is to collaboratively create the best paper interface with the community! Over the past couple of months, I've been working with my buddies Claude ",
+          "impact": 22,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "Claude",
+            "벤치마크",
+            "SOTA"
+          ],
+          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Fitting a 4D Mandelbulb with KS3 vs MLP [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xg36lw/fitting_a_4d_mandelbulb_with_ks3_vs_mlp_r/",
+          "publishedAt": "2026-10-26T17:22:39.000Z",
+          "publishedAtKst": "2026. 10. 27. 02:22",
+          "summary": "For the past year I have been studying using a fast K-dim hermite spline manifold algorithm, called K-Splanifolds or KS, for general purpose fast regression. In this video I show the third version, KS3, compared to MLP a",
+          "impact": 12,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "GPT",
-            "벤치마크"
+            "LLM"
           ],
-          "why": "GPT, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "We sent 23 AI agents to our website. Most looked human",
+          "title": "The open garbage: a reflection on FOSS chain of trust in agents era",
           "source": "Hacker News",
-          "url": "https://privatrak.com/blog/ai-agents-in-analytics",
-          "publishedAt": "2026-10-27T08:21:11.000Z",
-          "publishedAtKst": "2026. 10. 27. 17:21",
-          "summary": "2 points, 0 comments",
+          "url": "https://carette.xyz/posts/the_open_garbage/",
+          "publishedAt": "2026-10-27T14:50:23.000Z",
+          "publishedAtKst": "2026. 10. 27. 23:50",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
@@ -419,29 +438,14 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "OpenAI says its AI invented a new mathematical technique to solve a 35-year-old mystery about how waves focus, then used the breakthrough to crack several other decades-old problems involving how waves overlap, how signals can be reconstructed, and the geometry of space.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xgaw9b/openai_says_its_ai_invented_a_new_mathematical/",
-          "publishedAt": "2026-10-26T22:12:44.000Z",
-          "publishedAtKst": "2026. 10. 27. 07:12",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 10,
-          "confidence": 45,
-          "stance": "watch",
-          "tags": [
-            "돌파"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Mainplane – Agent in Go that lives on your old PC, drives your laptop",
+          "title": "Show HN: Agent Referee – signed, checkable reviews and tie-breaks for AI agents",
           "source": "Hacker News",
-          "url": "https://github.com/mainplane-ai/mainplane",
-          "publishedAt": "2026-10-26T16:37:03.000Z",
-          "publishedAtKst": "2026. 10. 27. 01:37",
-          "summary": "3 points, 0 comments",
-          "impact": 9,
-          "confidence": 52,
+          "url": "https://github.com/ccheez34/agent-referee-client",
+          "publishedAt": "2026-10-27T14:48:07.000Z",
+          "publishedAtKst": "2026. 10. 27. 23:48",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -483,18 +487,18 @@
       "reason": "안전 이슈, 취약점 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "The focus on AI safety disasters ignores everyday harms",
-      "source": "Hacker News",
-      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "How to do method research when I feel I have no guidance on doing it? [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgdl42/how_to_do_method_research_when_i_feel_i_have_no/",
+      "impact": -1,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Neural nets are exceptionally vulnerable to goal self-hack",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
-      "impact": 5,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Practical notes on setting up a GPU kernel-dev environment: CUDA 13's GPU cutoff, async timing pitfalls, profiler counter permissions [P]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgisgo/practical_notes_on_setting_up_a_gpu_kerneldev/",
+      "impact": 2,
+      "reason": "겨울 신호 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
