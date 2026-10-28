@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-28T00:08:48.438Z",
-  "generatedAtKst": "2026. 10. 28. 09:08",
-  "nextUpdateAt": "2026-10-28T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 28. 12:00",
+  "generatedAt": "2026-10-28T09:08:00.521Z",
+  "generatedAtKst": "2026. 10. 28. 18:08",
+  "nextUpdateAt": "2026-10-28T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 29. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,16 +25,16 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 48,
-    "coldCount": 5,
-    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 49,
+    "coldCount": 7,
+    "summary": "가속 신호 49건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 94,
+      "delta": 9,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-27T15:00:00.000Z",
           "publishedAtKst": "2026. 10. 28. 00:00",
           "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-          "impact": 31,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -102,7 +102,7 @@
           "publishedAt": "2026-10-27T07:00:00.000Z",
           "publishedAtKst": "2026. 10. 27. 16:00",
           "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -119,7 +119,7 @@
           "publishedAt": "2026-10-26T10:00:00.000Z",
           "publishedAtKst": "2026. 10. 26. 19:00",
           "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -135,7 +135,7 @@
           "publishedAt": "2026-10-26T13:45:00.000Z",
           "publishedAtKst": "2026. 10. 26. 22:45",
           "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -152,7 +152,7 @@
           "publishedAt": "2026-10-26T00:00:00.000Z",
           "publishedAtKst": "2026. 10. 26. 09:00",
           "summary": "Bringing fast and capable computer use to everyone",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -167,7 +167,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.18,
       "confidence": 82,
@@ -180,7 +180,7 @@
           "publishedAt": "2026-10-25T07:52:23.000Z",
           "publishedAtKst": "2026. 10. 25. 16:52",
           "summary": "Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safe",
-          "impact": 36,
+          "impact": 33,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -216,7 +216,7 @@
           "publishedAt": "2026-10-27T19:11:32.000Z",
           "publishedAtKst": "2026. 10. 28. 04:11",
           "summary": "This reading was previously included Day 2 of the BlueDot Governance course. In the newest version of the BlueDot Governance course, this reading is now optional. I was sad to see this reading removed because I think it’",
-          "impact": 17,
+          "impact": 16,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -269,55 +269,73 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 91,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+          "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.35829v1",
-          "publishedAt": "2026-10-26T17:50:09.000Z",
-          "publishedAtKst": "2026. 10. 27. 02:50",
-          "summary": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agen",
+          "url": "http://arxiv.org/abs/2610.37651v1",
+          "publishedAt": "2026-10-27T17:58:11.000Z",
+          "publishedAtKst": "2026. 10. 28. 02:58",
+          "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollou",
           "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "추론",
-            "LLM",
-            "코딩 에이전트"
+            "Gemini",
+            "Claude",
+            "LLM"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+          "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.35847v1",
-          "publishedAt": "2026-10-26T17:56:26.000Z",
-          "publishedAtKst": "2026. 10. 27. 02:56",
-          "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care",
-          "impact": 33,
+          "url": "http://arxiv.org/abs/2610.37648v1",
+          "publishedAt": "2026-10-27T17:56:46.000Z",
+          "publishedAtKst": "2026. 10. 28. 02:56",
+          "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects ",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "추론",
+            "에이전트",
             "LLM",
-            "모델"
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+          "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.35832v1",
-          "publishedAt": "2026-10-26T17:51:02.000Z",
-          "publishedAtKst": "2026. 10. 27. 02:51",
-          "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model ",
+          "url": "http://arxiv.org/abs/2610.37613v1",
+          "publishedAt": "2026-10-27T17:41:56.000Z",
+          "publishedAtKst": "2026. 10. 28. 02:41",
+          "summary": "Chain-of-thought reasoning has substantially advanced video understanding in multimodal large language models (MLLMs). However, language-based reasoning traces do not provide a reliable mechanism for models to revisit re",
+          "impact": 35,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.37649v1",
+          "publishedAt": "2026-10-27T17:57:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 02:57",
+          "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier o",
           "impact": 31,
           "confidence": 92,
           "stance": "accelerate",
@@ -330,40 +348,21 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+          "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.35817v1",
-          "publishedAt": "2026-10-26T17:44:34.000Z",
-          "publishedAtKst": "2026. 10. 27. 02:44",
-          "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a ",
-          "impact": 29,
+          "url": "http://arxiv.org/abs/2610.37666v1",
+          "publishedAt": "2026-10-27T17:59:52.000Z",
+          "publishedAtKst": "2026. 10. 28. 02:59",
+          "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos ",
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
+            "AGI",
             "추론",
-            "GPT",
             "모델"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.35767v1",
-          "publishedAt": "2026-10-26T17:12:02.000Z",
-          "publishedAtKst": "2026. 10. 27. 02:12",
-          "summary": "Root cause analysis (RCA) of microservice failures has attracted many LLM agents whose investigation is hand-crafted, through standard operating procedures, fixed stages and role agents. Each is evaluated on its own data",
-          "impact": 29,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "LLM",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -371,10 +370,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 72,
-      "delta": 6,
+      "score": 71,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -384,8 +383,8 @@
           "publishedAt": "2026-10-27T19:42:57.000Z",
           "publishedAtKst": "2026. 10. 28. 04:42",
           "summary": "1 points, 0 comments",
-          "impact": 22,
-          "confidence": 63,
+          "impact": 21,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "자기개선",
@@ -401,8 +400,8 @@
           "publishedAt": "2026-10-27T18:33:55.000Z",
           "publishedAtKst": "2026. 10. 28. 03:33",
           "summary": "Two mathematician/physicist friends of mine have worked on Yang Mills for the last few months and made substantial progress. Due to OpenAI's claim, they have decided to publicize their results. They have a vision of comm",
-          "impact": 21,
-          "confidence": 55,
+          "impact": 20,
+          "confidence": 53,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -418,8 +417,8 @@
           "publishedAt": "2026-10-27T17:25:18.000Z",
           "publishedAtKst": "2026. 10. 28. 02:25",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -428,34 +427,33 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": ".aamt – one GPU file format for model weights, agent memory and worlds",
-          "source": "Hacker News",
-          "url": "https://asamanthinks.com/aamt",
-          "publishedAt": "2026-10-27T23:30:17.000Z",
-          "publishedAtKst": "2026. 10. 28. 08:30",
-          "summary": "1 points, 1 comments",
-          "impact": 13,
-          "confidence": 56,
+          "title": "The best AI passes 37% of real engineering tasks. Most people would pass none",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xh93pq/the_best_ai_passes_37_of_real_engineering_tasks/",
+          "publishedAt": "2026-10-28T00:01:42.000Z",
+          "publishedAtKst": "2026. 10. 28. 09:01",
+          "summary": "Xplore released RWE-bench today, 20 mechanical, electrical and aerospace tasks written by engineers who do this for a living. One is a diesel crankshaft that has to survive 2,400 rpm, one is routing a DDR3 memory bus on ",
+          "impact": 12,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
+            "GPT",
             "모델"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Internal Claude research model also independently refuted the Exponential Time Hypothesis on October 16, with 14M output tokens and no human input.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xgmlas/internal_claude_research_model_also_independently/",
-          "publishedAt": "2026-10-27T08:05:24.000Z",
-          "publishedAtKst": "2026. 10. 27. 17:05",
-          "summary": "https://github.com/anthropics/formal-math/tree/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth &#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
-          "impact": 11,
-          "confidence": 46,
+          "title": "Moonfold: Coding tasks that survive agent usage limits",
+          "source": "Hacker News",
+          "url": "https://github.com/Mr-Dark-debug/Moonfold",
+          "publishedAt": "2026-10-28T08:25:07.000Z",
+          "publishedAtKst": "2026. 10. 28. 17:25",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "Claude",
-            "모델"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -464,34 +462,41 @@
   ],
   "topDrivers": [
     {
-      "title": "Setting the Scene (Public v1; October 25)",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25",
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2610.37651v1",
       "impact": 36,
-      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.35829v1",
-      "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2610.37648v1",
+      "impact": 35,
+      "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+      "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.35847v1",
-      "impact": 33,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2610.37613v1",
+      "impact": 35,
+      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "The Watchtower Imperative: Lifespan-Calibrated Evaluation for Frontier AI",
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xhb416/codeexecution_flaw_in_uefi_firmware_affects_most/",
+      "impact": -4,
+      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.35725v1",
-      "impact": -3,
-      "reason": "안전 이슈, 취약점 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "http://arxiv.org/abs/2610.37561v1",
+      "impact": -4,
+      "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Neural nets are exceptionally vulnerable to goal self-hack",
@@ -499,13 +504,6 @@
       "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
       "impact": 5,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Monitorability evaluations and policy proposals",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/zAczYuHQS6jdG5DTg/monitorability-evaluations-and-policy-proposals",
-      "impact": 7,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
