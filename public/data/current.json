@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-29T19:57:32.027Z",
-  "generatedAtKst": "2026. 10. 30. 04:57",
-  "nextUpdateAt": "2026-10-29T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 10. 30. 06:00",
+  "generatedAt": "2026-10-30T00:29:57.724Z",
+  "generatedAtKst": "2026. 10. 30. 09:29",
+  "nextUpdateAt": "2026-10-30T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 10. 30. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2046,
+    "rangeEnd": "2039-06-24",
+    "dday": 2090,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
-    "coldCount": 6,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 46,
+    "coldCount": 7,
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 94,
-      "delta": 9,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,30 +71,12 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 83,
+      "score": 82,
       "delta": 8,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "publishedAt": "2026-10-28T13:15:00.000Z",
-          "publishedAtKst": "2026. 10. 28. 22:15",
-          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "How we detect frontier model misalignment",
           "source": "OpenAI News",
@@ -113,12 +95,12 @@
           "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Legora is building the agentic operating system for legal work",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/legora",
-          "publishedAt": "2026-10-28T09:30:00.000Z",
-          "publishedAtKst": "2026. 10. 28. 18:30",
-          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "publishedAt": "2026-10-28T13:15:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 22:15",
+          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
           "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
@@ -131,22 +113,22 @@
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "title": "Legora is building the agentic operating system for legal work",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/retell-ai",
-          "publishedAt": "2026-10-27T15:00:00.000Z",
-          "publishedAtKst": "2026. 10. 28. 00:00",
-          "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-          "impact": 23,
+          "url": "https://openai.com/index/legora",
+          "publishedAt": "2026-10-28T09:30:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 18:30",
+          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "ChatGPT",
             "GPT",
-            "모델",
-            "벤치마크"
+            "모델"
           ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini 4 Carbon: Our next frontier model",
@@ -164,6 +146,24 @@
             "모델"
           ],
           "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/retell-ai",
+          "publishedAt": "2026-10-27T15:00:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 00:00",
+          "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -171,7 +171,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 69,
+      "score": 68,
       "delta": 5,
       "weight": 0.18,
       "confidence": 82,
@@ -232,24 +232,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Notes on “We’re in Triage Mode for AI Safety” by Miles Brundage",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/BFyNkWgxucqy6Wcee/notes-on-we-re-in-triage-mode-for-ai-safety-by-miles",
-          "publishedAt": "2026-10-27T19:11:32.000Z",
-          "publishedAtKst": "2026. 10. 28. 04:11",
-          "summary": "This reading was previously included Day 2 of the BlueDot Governance course. In the newest version of the BlueDot Governance course, this reading is now optional. I was sad to see this reading removed because I think it’",
-          "impact": 13,
-          "confidence": 82,
-          "stance": "decelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "Claude",
-            "모델"
-          ],
-          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-        },
-        {
           "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
@@ -266,6 +248,24 @@
             "추론"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Notes on “We’re in Triage Mode for AI Safety” by Miles Brundage",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/BFyNkWgxucqy6Wcee/notes-on-we-re-in-triage-mode-for-ai-safety-by-miles",
+          "publishedAt": "2026-10-27T19:11:32.000Z",
+          "publishedAtKst": "2026. 10. 28. 04:11",
+          "summary": "This reading was previously included Day 2 of the BlueDot Governance course. In the newest version of the BlueDot Governance course, this reading is now optional. I was sad to see this reading removed because I think it’",
+          "impact": 12,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "Claude",
+            "모델"
+          ],
+          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         }
       ]
     },
@@ -273,10 +273,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 90,
+      "confidence": 89,
       "trend": "hot",
       "items": [
         {
@@ -286,8 +286,8 @@
           "publishedAt": "2026-10-27T17:58:11.000Z",
           "publishedAtKst": "2026. 10. 28. 02:58",
           "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollou",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 26,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -304,8 +304,8 @@
           "publishedAt": "2026-10-27T17:56:46.000Z",
           "publishedAtKst": "2026. 10. 28. 02:56",
           "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects ",
-          "impact": 26,
-          "confidence": 91,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -322,8 +322,8 @@
           "publishedAt": "2026-10-27T17:41:56.000Z",
           "publishedAtKst": "2026. 10. 28. 02:41",
           "summary": "Chain-of-thought reasoning has substantially advanced video understanding in multimodal large language models (MLLMs). However, language-based reasoning traces do not provide a reliable mechanism for models to revisit re",
-          "impact": 26,
-          "confidence": 91,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -340,8 +340,8 @@
           "publishedAt": "2026-10-27T17:57:00.000Z",
           "publishedAtKst": "2026. 10. 28. 02:57",
           "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier o",
-          "impact": 23,
-          "confidence": 90,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -358,8 +358,8 @@
           "publishedAt": "2026-10-27T17:59:52.000Z",
           "publishedAtKst": "2026. 10. 28. 02:59",
           "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos ",
-          "impact": 20,
-          "confidence": 87,
+          "impact": 19,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -374,29 +374,45 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.2,
       "confidence": 57,
       "trend": "hot",
       "items": [
         {
-          "title": "Anthropic President Daniela Amodei Calls AI Girlfriends A \"Terrible Use Of AI\"",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xi1xgl/anthropic_president_daniela_amodei_calls_ai/",
-          "publishedAt": "2026-10-28T22:00:19.000Z",
-          "publishedAtKst": "2026. 10. 29. 07:00",
-          "summary": "\"There are some applications of AI that we think are quite bad, like making AI girlfriends or boyfriends. I think that’s a terrible use of AI and people should not do it \" \" The reason that I think that is because it is ",
-          "impact": 32,
+          "title": "TKintegers K5: 3.21× prefill and 3.10× decode throughput vs TorchAO FP8 on NVIDIA L4 [R] [P]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xir3oa/tkintegers_k5_321_prefill_and_310_decode/",
+          "publishedAt": "2026-10-29T17:53:52.000Z",
+          "publishedAtKst": "2026. 10. 30. 02:53",
+          "summary": "I built TKintegers, a balanced-ternary weight representation, converter, and GPU inference implementation. The result that stood out to me: the NVIDIA L4 has native FP8 tensor-core support, but my K5 implementation achie",
+          "impact": 21,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "ChatGPT",
-            "GPT",
-            "Claude"
+            "모델",
+            "벤치마크",
+            "추론 인프라",
+            "성능 향상"
           ],
-          "why": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Coding agents need a tap from your watch, not API keys",
+          "source": "Hacker News",
+          "url": "https://permaura.com",
+          "publishedAt": "2026-10-29T23:58:18.000Z",
+          "publishedAtKst": "2026. 10. 30. 08:58",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: Wavefunction – a minimal, open-source desktop coding agent for Mac",
@@ -406,7 +422,7 @@
           "publishedAtKst": "2026. 10. 30. 00:43",
           "summary": "2 points, 0 comments",
           "impact": 18,
-          "confidence": 60,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -437,8 +453,8 @@
           "publishedAt": "2026-10-27T19:42:57.000Z",
           "publishedAtKst": "2026. 10. 28. 04:42",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 55,
+          "impact": 14,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "자기개선",
@@ -446,56 +462,46 @@
             "모델"
           ],
           "why": "자기개선, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Local Inference with Large Language Models",
-          "source": "Hacker News",
-          "url": "https://jacquesmattheij.com/local-inference-with-large-language-models/",
-          "publishedAt": "2026-10-29T01:06:02.000Z",
-          "publishedAtKst": "2026. 10. 29. 10:06",
-          "summary": "1 points, 0 comments",
-          "impact": 14,
-          "confidence": 56,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Anthropic President Daniela Amodei Calls AI Girlfriends A \"Terrible Use Of AI\"",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1xi1xgl/anthropic_president_daniela_amodei_calls_ai/",
-      "impact": 32,
-      "reason": "AGI, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "How we detect frontier model misalignment",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "impact": 26,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "source": "OpenAI News",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "impact": 27,
+      "impact": 26,
       "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.37651v1",
-      "impact": 27,
+      "impact": 26,
       "reason": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "A (lukewarm) defense of Minsky and Papert [D]",
+      "source": "r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xig3sd/a_lukewarm_defense_of_minsky_and_papert_d/",
+      "impact": -2,
+      "reason": "겨울 신호 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2610.37561v1",
-      "impact": -1,
+      "impact": 0,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -504,13 +510,6 @@
       "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
       "impact": 5,
       "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Monitorability evaluations and policy proposals",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/zAczYuHQS6jdG5DTg/monitorability-evaluations-and-policy-proposals",
-      "impact": 7,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
