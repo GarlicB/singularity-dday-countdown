@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-31T23:51:34.680Z",
-  "generatedAtKst": "2026. 11. 01. 08:51",
-  "nextUpdateAt": "2026-11-01T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 01. 12:00",
+  "generatedAt": "2026-11-01T09:53:53.581Z",
+  "generatedAtKst": "2026. 11. 01. 18:53",
+  "nextUpdateAt": "2026-11-01T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 02. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-08-08",
-    "dday": 2134,
+    "dday": 2133,
     "confidence": 76,
     "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 77,
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 42,
+    "hotCount": 40,
     "coldCount": 9,
-    "summary": "가속 신호 42건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 40건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-10-29T09:00:00.000Z",
           "publishedAtKst": "2026. 10. 29. 18:00",
           "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -95,31 +95,13 @@
           "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "publishedAt": "2026-10-28T13:15:00.000Z",
-          "publishedAtKst": "2026. 10. 28. 22:15",
-          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-          "impact": 17,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Community safety report and new protections for teens",
           "source": "OpenAI News",
           "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
           "publishedAt": "2026-10-30T09:00:00.000Z",
           "publishedAtKst": "2026. 10. 30. 18:00",
           "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -130,13 +112,13 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Legora is building the agentic operating system for legal work",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/legora",
-          "publishedAt": "2026-10-28T09:30:00.000Z",
-          "publishedAtKst": "2026. 10. 28. 18:30",
-          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-          "impact": 16,
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "publishedAt": "2026-10-28T13:15:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 22:15",
+          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -148,21 +130,40 @@
           "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "publishedAt": "2026-10-28T17:00:58.000Z",
-          "publishedAtKst": "2026. 10. 29. 02:00",
-          "summary": "",
-          "impact": 16,
+          "title": "Legora is building the agentic operating system for legal work",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/legora",
+          "publishedAt": "2026-10-28T09:30:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 18:30",
+          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "Gemini",
+            "에이전트",
+            "ChatGPT",
+            "GPT",
             "모델"
           ],
-          "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/retell-ai",
+          "publishedAt": "2026-10-27T15:00:00.000Z",
+          "publishedAtKst": "2026. 10. 28. 00:00",
+          "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -272,10 +273,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 86,
       "trend": "hot",
       "items": [
         {
@@ -285,8 +286,8 @@
           "publishedAt": "2026-10-29T17:42:32.000Z",
           "publishedAtKst": "2026. 10. 30. 02:42",
           "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -303,8 +304,8 @@
           "publishedAt": "2026-10-29T17:59:53.000Z",
           "publishedAtKst": "2026. 10. 30. 02:59",
           "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible t",
-          "impact": 24,
-          "confidence": 90,
+          "impact": 21,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -321,8 +322,8 @@
           "publishedAt": "2026-10-29T17:26:39.000Z",
           "publishedAtKst": "2026. 10. 30. 02:26",
           "summary": "Legal Question Answering (QA) over statutory texts is a challenging task in Natural Language Processing (NLP), especially in low-resource settings with complex legal systems. It requires answers that are precise and grou",
-          "impact": 20,
-          "confidence": 87,
+          "impact": 18,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -339,8 +340,8 @@
           "publishedAt": "2026-10-29T17:47:40.000Z",
           "publishedAtKst": "2026. 10. 30. 02:47",
           "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell b",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -357,8 +358,8 @@
           "publishedAt": "2026-10-29T17:36:01.000Z",
           "publishedAtKst": "2026. 10. 30. 02:36",
           "summary": "Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with ta",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -374,69 +375,74 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 59,
       "trend": "hot",
       "items": [
         {
-          "title": "A coding agent that fits in 636 KB – no Node, no Python, no NPM",
-          "source": "Hacker News",
-          "url": "https://github.com/descz/delta",
-          "publishedAt": "2026-10-31T23:30:56.000Z",
-          "publishedAtKst": "2026. 11. 01. 08:30",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "DeepSeek put the architecture for their always-on autonomous agent on GitHub",
-          "source": "Hacker News",
-          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-          "publishedAt": "2026-10-31T23:31:26.000Z",
-          "publishedAtKst": "2026. 11. 01. 08:31",
-          "summary": "3 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Archwhere – work alongside AI coding agents on an architecture map",
-          "source": "Hacker News",
-          "url": "https://github.com/tapaskar/archwhere",
-          "publishedAt": "2026-10-31T05:46:30.000Z",
-          "publishedAtKst": "2026. 10. 31. 14:46",
-          "summary": "1 points, 0 comments",
-          "impact": 17,
+          "title": "An honest attempt at understanding the universal income question in America.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xkpvc0/an_honest_attempt_at_understanding_the_universal/",
+          "publishedAt": "2026-11-01T00:39:03.000Z",
+          "publishedAtKst": "2026. 11. 01. 09:39",
+          "summary": "I don’t know how many UBI questions I’ve seen in the last week. What I haven’t seen is anybody actually try to figure it out using the money that is currently in the economy. I'm not sure it's even well defined. Everybod",
+          "impact": 34,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI",
+            "GPT",
+            "Gemini",
+            "Claude"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Stop thinking about AGI as a precursor of ASI",
+          "title": "DeepSeek launches advanced coding agent to rival Claude Code",
+          "source": "Hacker News",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+          "publishedAt": "2026-11-01T09:07:49.000Z",
+          "publishedAtKst": "2026. 11. 01. 18:07",
+          "summary": "3 points, 1 comments",
+          "impact": 26,
+          "confidence": 66,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Are we underestimating AI revenue by looking at software spending instead of labor costs?",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xklhpw/stop_thinking_about_agi_as_a_precursor_of_asi/",
-          "publishedAt": "2026-10-31T21:10:29.000Z",
-          "publishedAtKst": "2026. 11. 01. 06:10",
-          "summary": "The first one is about generalization. you can do math, biology, physics, coding. the more tasks you can do - the more general you are. humans are also not the most general entities. the second one is about raw cognitive",
-          "impact": 15,
-          "confidence": 50,
+          "url": "https://www.reddit.com/r/singularity/comments/1xkq2cu/are_we_underestimating_ai_revenue_by_looking_at/",
+          "publishedAt": "2026-11-01T00:49:21.000Z",
+          "publishedAtKst": "2026. 11. 01. 09:49",
+          "summary": "Lately, there has been a lot of discussion about the AI bubble, particularly whether OpenAI, Anthropic, and other companies can generate enough revenue to justify the enormous investments being made. But let's look at it",
+          "impact": 23,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "GPT",
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "GPT, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Magic vs. Wonder: memories of a distant future",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50324043",
+          "publishedAt": "2026-11-01T09:51:13.000Z",
+          "publishedAtKst": "2026. 11. 01. 18:51",
+          "summary": "1 points, 0 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -444,20 +450,19 @@
           "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: SpecDeck – Bring coding agent decisions back into the spec",
+          "title": "Hush Relay – Self-hosted encrypted messaging with one PHP file",
           "source": "Hacker News",
-          "url": "https://specdeck.ai/",
-          "publishedAt": "2026-10-30T12:47:48.000Z",
-          "publishedAtKst": "2026. 10. 30. 21:47",
-          "summary": "2 points, 0 comments",
-          "impact": 14,
-          "confidence": 55,
+          "url": "https://github.com/altrudev/Hush-Relay",
+          "publishedAt": "2026-11-01T09:14:14.000Z",
+          "publishedAtKst": "2026. 11. 01. 18:14",
+          "summary": "1 points, 1 comments",
+          "impact": 16,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -471,18 +476,18 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.40565v1",
-      "impact": 27,
-      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "An honest attempt at understanding the universal income question in America.",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkpvc0/an_honest_attempt_at_understanding_the_universal/",
+      "impact": 34,
+      "reason": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Elucidating the Design Space of LM Data Attribution",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.40655v1",
-      "impact": 24,
-      "reason": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "DeepSeek launches advanced coding agent to rival Claude Code",
+      "source": "Hacker News",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+      "impact": 26,
+      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -501,11 +506,11 @@
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2610.40616v1",
-      "impact": -1,
-      "reason": "저작권, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Was I wrong about open models & cyber risks?",
+      "source": "Interconnects",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "impact": 1,
+      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
