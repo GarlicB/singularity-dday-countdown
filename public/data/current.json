@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T20:42:10.554Z",
-  "generatedAtKst": "2026. 11. 04. 05:42",
-  "nextUpdateAt": "2026-11-03T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 04. 06:00",
+  "generatedAt": "2026-11-04T00:58:02.051Z",
+  "generatedAtKst": "2026. 11. 04. 09:58",
+  "nextUpdateAt": "2026-11-04T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 04. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-03-26",
-    "dday": 1996,
+    "dday": 1995,
     "confidence": 76,
     "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 51,
-    "coldCount": 6,
-    "summary": "가속 신호 51건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 52,
+    "coldCount": 7,
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-03T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 21:00",
           "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-11-03T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 17:00",
           "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -131,7 +131,7 @@
           "publishedAt": "2026-11-02T15:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 00:00",
           "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -140,19 +140,21 @@
           "why": "컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How Cisco defends at machine speed with OpenAI",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/cisco-cyber",
-          "publishedAt": "2026-11-03T08:00:00.000Z",
-          "publishedAtKst": "2026. 11. 03. 17:00",
-          "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "publishedAt": "2026-10-28T17:00:58.000Z",
+          "publishedAtKst": "2026. 10. 29. 02:00",
+          "summary": "",
           "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "프런티어 모델",
+            "Gemini",
             "모델"
           ],
-          "why": "모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -163,7 +165,7 @@
       "score": 81,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -191,7 +193,7 @@
           "publishedAt": "2026-11-03T18:27:53.000Z",
           "publishedAtKst": "2026. 11. 04. 03:27",
           "summary": "Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger Abstract Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automat",
-          "impact": 22,
+          "impact": 21,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -201,24 +203,6 @@
             "모델"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Explaining “AI might obliterate you” to senior policymakers in India",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
-          "publishedAt": "2026-10-31T21:37:22.000Z",
-          "publishedAtKst": "2026. 11. 01. 06:37",
-          "summary": "I gave a 20-minute talk in Delhi at the NDTV World Summit . The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on sever",
-          "impact": 21,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "에이전트",
-            "자율성"
-          ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Setting the Scene (Public v1; October 2026)",
@@ -239,6 +223,24 @@
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Explaining “AI might obliterate you” to senior policymakers in India",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+          "publishedAt": "2026-10-31T21:37:22.000Z",
+          "publishedAtKst": "2026. 11. 01. 06:37",
+          "summary": "I gave a 20-minute talk in Delhi at the NDTV World Summit . The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on sever",
+          "impact": 20,
+          "confidence": 81,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "자율성"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Some “coherence arguments” are two different things in a trenchcoat",
           "source": "Alignment Forum",
           "url": "https://www.alignmentforum.org/posts/5a4tuSNDNodPsiS26/some-coherence-arguments-are-two-different-things-in-a",
@@ -246,7 +248,7 @@
           "publishedAtKst": "2026. 11. 02. 23:13",
           "summary": "The “two kids in a trenchcoat” trope , in case you haven’t heard of it. Image sources: 1 , 2 tl;dr I go through three “coherence arguments”, related to (1) market competition, (2) AI self-reflection and self-modification",
           "impact": 16,
-          "confidence": 81,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -262,7 +264,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 90,
+      "score": 89,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -293,7 +295,7 @@
           "publishedAt": "2026-11-02T18:13:38.000Z",
           "publishedAtKst": "2026. 11. 03. 03:13",
           "summary": "LLM coding agents can increasingly automate model post-training, but whether they can act as forward-deployed engineer (FDE) agents, discovering customer requirements and turning them into deployment decisions, remains u",
-          "impact": 34,
+          "impact": 33,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -311,7 +313,7 @@
           "publishedAt": "2026-11-02T18:58:21.000Z",
           "publishedAtKst": "2026. 11. 03. 03:58",
           "summary": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despit",
-          "impact": 32,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -329,7 +331,7 @@
           "publishedAt": "2026-11-02T17:56:28.000Z",
           "publishedAtKst": "2026. 11. 03. 02:56",
           "summary": "LLM agents show strong potential in software engineering tasks such as competitive programming and code synthesis. Existing benchmarks, however, largely focus on small-scale settings such as self-contained Python modules",
-          "impact": 31,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -347,7 +349,7 @@
           "publishedAt": "2026-11-02T18:52:26.000Z",
           "publishedAtKst": "2026. 11. 03. 03:52",
           "summary": "Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer interfaces (BCIs) of",
-          "impact": 27,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -366,7 +368,7 @@
       "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 56,
       "trend": "hot",
       "items": [
         {
@@ -376,7 +378,7 @@
           "publishedAt": "2026-11-03T04:25:52.000Z",
           "publishedAtKst": "2026. 11. 03. 13:25",
           "summary": "I’m the author of a new preprint looking at a fairly simple question: if the argument itself stays the same, does changing the claimed source change how an LLM evaluates it? I tested 20 arguments across 10 topics under f",
-          "impact": 25,
+          "impact": 24,
           "confidence": 62,
           "stance": "accelerate",
           "tags": [
@@ -394,8 +396,8 @@
           "publishedAt": "2026-11-03T19:29:54.000Z",
           "publishedAtKst": "2026. 11. 04. 04:29",
           "summary": "Hi everyone, I wanted to share a new open-weights PII detection model, benchmark and research paper. It's a fine-tune of RoBERTa using 1.2B samples of synthetically generated text that contain a variety of PII. The bench",
-          "impact": 17,
-          "confidence": 55,
+          "impact": 16,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -410,7 +412,7 @@
           "url": "https://www.anthropic.com/research/provable-inference",
           "publishedAt": "2026-11-03T16:33:15.000Z",
           "publishedAtKst": "2026. 11. 04. 01:33",
-          "summary": "5 points, 0 comments",
+          "summary": "6 points, 0 comments",
           "impact": 15,
           "confidence": 57,
           "stance": "accelerate",
@@ -428,8 +430,8 @@
           "publishedAt": "2026-11-02T14:35:12.000Z",
           "publishedAtKst": "2026. 11. 02. 23:35",
           "summary": "4 points, 0 comments",
-          "impact": 15,
-          "confidence": 56,
+          "impact": 14,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -474,7 +476,7 @@
       "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.03551v1",
-      "impact": 34,
+      "impact": 33,
       "reason": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -487,18 +489,18 @@
       "reason": "겨울 신호 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "source": "Hacker News",
+      "url": "https://github.com/finic-ai/kairos",
+      "impact": 0,
+      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.03647v1",
       "impact": 2,
       "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "impact": 5,
-      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
