@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-04T10:09:36.568Z",
-  "generatedAtKst": "2026. 11. 04. 19:09",
-  "nextUpdateAt": "2026-11-04T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 05. 00:00",
+  "generatedAt": "2026-11-04T20:59:02.126Z",
+  "generatedAtKst": "2026. 11. 05. 05:59",
+  "nextUpdateAt": "2026-11-04T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 05. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 7,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 52,
+    "coldCount": 8,
+    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,8 +54,8 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 88,
+      "delta": 8,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 75,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-03T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 21:00",
           "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-11-03T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 17:00",
           "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -108,6 +108,36 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "publishedAt": "2026-11-04T07:00:00.000Z",
+          "publishedAtKst": "2026. 11. 04. 16:00",
+          "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "impact": 16,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "GPT"
+          ],
+          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "publishedAt": "2026-11-04T14:30:00.000Z",
+          "publishedAtKst": "2026. 11. 04. 23:30",
+          "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "컴퓨트"
+          ],
+          "why": "컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Agentic cheminformatics with Google Antigravity",
@@ -123,38 +153,6 @@
             "에이전트"
           ],
           "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing the Grid Protectors Program",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/grid-protectors-program",
-          "publishedAt": "2026-11-02T15:00:00.000Z",
-          "publishedAtKst": "2026. 11. 03. 00:00",
-          "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "컴퓨트"
-          ],
-          "why": "컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "publishedAt": "2026-10-28T17:00:58.000Z",
-          "publishedAtKst": "2026. 10. 29. 02:00",
-          "summary": "",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "Gemini",
-            "모델"
-          ],
-          "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -162,12 +160,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
+      "score": 83,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 81,
+      "confidence": 82,
       "trend": "hot",
       "items": [
+        {
+          "title": "Desiderata for the Theory of Agents",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+          "publishedAt": "2026-11-04T11:25:12.000Z",
+          "publishedAtKst": "2026. 11. 04. 20:25",
+          "summary": "TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word \"agent\" is ",
+          "impact": 36,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "에이전트",
+            "자기개선"
+          ],
+          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
           "source": "Alignment Forum",
@@ -193,7 +209,7 @@
           "publishedAt": "2026-11-03T18:27:53.000Z",
           "publishedAtKst": "2026. 11. 04. 03:27",
           "summary": "Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger Abstract Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automat",
-          "impact": 20,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -211,7 +227,7 @@
           "publishedAt": "2026-10-25T07:52:23.000Z",
           "publishedAtKst": "2026. 10. 25. 16:52",
           "summary": "Context: I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safe",
-          "impact": 20,
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -229,7 +245,7 @@
           "publishedAt": "2026-10-31T21:37:22.000Z",
           "publishedAtKst": "2026. 11. 01. 06:37",
           "summary": "I gave a 20-minute talk in Delhi at the NDTV World Summit . The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on sever",
-          "impact": 17,
+          "impact": 14,
           "confidence": 81,
           "stance": "accelerate",
           "tags": [
@@ -239,24 +255,6 @@
             "자율성"
           ],
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Some “coherence arguments” are two different things in a trenchcoat",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/5a4tuSNDNodPsiS26/some-coherence-arguments-are-two-different-things-in-a",
-          "publishedAt": "2026-11-02T14:13:16.000Z",
-          "publishedAtKst": "2026. 11. 02. 23:13",
-          "summary": "The “two kids in a trenchcoat” trope , in case you haven’t heard of it. Image sources: 1 , 2 tl;dr I go through three “coherence arguments”, related to (1) market competition, (2) AI self-reflection and self-modification",
-          "impact": 15,
-          "confidence": 78,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "고난도 평가",
-            "위험"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -264,8 +262,8 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 88,
-      "delta": 10,
+      "score": 85,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
@@ -277,7 +275,7 @@
           "publishedAt": "2026-11-03T18:45:23.000Z",
           "publishedAtKst": "2026. 11. 04. 03:45",
           "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models ha",
-          "impact": 35,
+          "impact": 32,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -295,7 +293,7 @@
           "publishedAt": "2026-11-03T18:40:35.000Z",
           "publishedAtKst": "2026. 11. 04. 03:40",
           "summary": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedP",
-          "impact": 32,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -313,7 +311,7 @@
           "publishedAt": "2026-11-03T18:59:52.000Z",
           "publishedAtKst": "2026. 11. 04. 03:59",
           "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Y",
-          "impact": 29,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -325,30 +323,13 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.05377v1",
-          "publishedAt": "2026-11-03T18:59:56.000Z",
-          "publishedAtKst": "2026. 11. 04. 03:59",
-          "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent a",
-          "impact": 27,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "SOTA"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.05320v1",
           "publishedAt": "2026-11-03T18:25:14.000Z",
           "publishedAtKst": "2026. 11. 04. 03:25",
           "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator",
-          "impact": 27,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -358,6 +339,23 @@
             "모델"
           ],
           "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.05377v1",
+          "publishedAt": "2026-11-03T18:59:56.000Z",
+          "publishedAtKst": "2026. 11. 04. 03:59",
+          "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent a",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "SOTA"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -365,10 +363,10 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 79,
-      "delta": 7,
+      "score": 81,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 58,
+      "confidence": 60,
       "trend": "hot",
       "items": [
         {
@@ -378,7 +376,7 @@
           "publishedAt": "2026-11-04T09:00:29.000Z",
           "publishedAtKst": "2026. 11. 04. 18:00",
           "summary": "Hey everyone— we’re the Deep Principle team behind Mira AI Scientist. We just released Hydrogen-1.0 , an open-weight model post-trained from GLM-5.3 for chemistry, materials science, and life sciences. Here’s how it perf",
-          "impact": 36,
+          "impact": 35,
           "confidence": 62,
           "stance": "accelerate",
           "tags": [
@@ -390,46 +388,31 @@
           "why": "자율성, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Readfirst – a repo map your coding agents read before they edit a file",
-          "source": "Hacker News",
-          "url": "https://github.com/jeonghun917/readfirst",
-          "publishedAt": "2026-11-04T06:49:10.000Z",
-          "publishedAtKst": "2026. 11. 04. 15:49",
-          "summary": "2 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
+          "title": "A message to top tier conferences [D]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+          "publishedAt": "2026-11-04T09:55:50.000Z",
+          "publishedAtKst": "2026. 11. 04. 18:55",
+          "summary": "TL;DR: Please be hard in desk rejecting AI generated papers Recently I went to two AI conferences (A and A*) and I was surprised that \"AI cheaters\" didn't even read their own paper before presentation! For example, a guy",
+          "impact": 25,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI",
+            "GPT",
+            "LLM"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Umbra – a autonomous Android agent with background screen control",
-          "source": "Hacker News",
-          "url": "https://github.com/chengmatt416/umbra",
-          "publishedAt": "2026-11-04T09:30:16.000Z",
-          "publishedAtKst": "2026. 11. 04. 18:30",
-          "summary": "1 points, 0 comments",
-          "impact": 17,
-          "confidence": 59,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Anthropic: Progress on provable inference for large language models",
+          "title": "Progress on provable inference for large language models",
           "source": "Hacker News",
           "url": "https://www.anthropic.com/research/provable-inference",
-          "publishedAt": "2026-11-04T07:57:06.000Z",
-          "publishedAtKst": "2026. 11. 04. 16:57",
-          "summary": "6 points, 3 comments",
-          "impact": 16,
-          "confidence": 58,
+          "publishedAt": "2026-11-04T17:17:46.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:17",
+          "summary": "137 points, 64 comments",
+          "impact": 20,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -439,26 +422,48 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Experiments with Chinchilla scaling laws (following DeepMind) [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnbdx0/experiments_with_chinchilla_scaling_laws/",
-          "publishedAt": "2026-11-04T01:31:50.000Z",
-          "publishedAtKst": "2026. 11. 04. 10:31",
-          "summary": "Question to all the PhDs & research engineers in this group. Have any of you done small-scale experiments with the Chinchilla scaling laws (using PyTorch or JAX)? If so, we'd be keen to hear more (or have a chat). Thanks",
-          "impact": 16,
-          "confidence": 53,
+          "title": "We Tested Coding Agent Harnesses. Thinking Harder Beat All of Them",
+          "source": "Hacker News",
+          "url": "https://surgehq.ai/blog/benchmarking-coding-agent-harnesses",
+          "publishedAt": "2026-11-04T20:52:13.000Z",
+          "publishedAtKst": "2026. 11. 05. 05:52",
+          "summary": "2 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델",
-            "컴퓨트"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "iOS Simulator MCP benchmark: eight tools for AI agents",
+          "source": "Hacker News",
+          "url": "https://simulator-use.dev/benchmarks",
+          "publishedAt": "2026-11-04T11:47:01.000Z",
+          "publishedAtKst": "2026. 11. 04. 20:47",
+          "summary": "2 points, 0 comments",
+          "impact": 15,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
+    {
+      "title": "Desiderata for the Theory of Agents",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+      "impact": 36,
+      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+    },
     {
       "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
       "source": "Alignment Forum",
@@ -470,15 +475,8 @@
       "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
       "source": "r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
-      "impact": 36,
-      "reason": "자율성, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.05345v1",
       "impact": 35,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "자율성, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -486,7 +484,7 @@
       "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
       "source": "Hacker News",
       "url": "https://github.com/finic-ai/kairos",
-      "impact": 1,
+      "impact": 2,
       "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
