@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T10:03:13.195Z",
-  "generatedAtKst": "2026. 11. 05. 19:03",
-  "nextUpdateAt": "2026-11-05T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 06. 00:00",
+  "generatedAt": "2026-11-05T21:16:19.747Z",
+  "generatedAtKst": "2026. 11. 06. 06:16",
+  "nextUpdateAt": "2026-11-06T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 06. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 83,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 56,
-    "coldCount": 8,
-    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 60,
+    "coldCount": 7,
+    "summary": "가속 신호 60건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-04T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 04. 09:00",
           "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "impact": 29,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -96,13 +96,30 @@
           "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "publishedAt": "2026-11-05T09:00:00.000Z",
+          "publishedAtKst": "2026. 11. 05. 18:00",
+          "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "impact": 25,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT",
+            "모델"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Introducing Images 2.6",
           "source": "OpenAI News",
           "url": "https://openai.com/index/introducing-images-2-6",
           "publishedAt": "2026-11-04T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 04. 09:00",
           "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +135,7 @@
           "publishedAt": "2026-11-03T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 21:00",
           "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +151,7 @@
           "publishedAt": "2026-11-03T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 17:00",
           "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "impact": 17,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -142,21 +159,6 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-          "publishedAt": "2026-11-04T07:00:00.000Z",
-          "publishedAtKst": "2026. 11. 04. 16:00",
-          "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -164,10 +166,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 82,
+      "score": 81,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -195,7 +197,7 @@
           "publishedAt": "2026-11-02T15:02:41.000Z",
           "publishedAtKst": "2026. 11. 03. 00:02",
           "summary": "Context: I created this to share before the start of courses I facilitate to provide a bunch of additional context and frames. I emphasise to students that these posts are to be considered as bonus content —not core curr",
-          "impact": 36,
+          "impact": 34,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -231,8 +233,8 @@
           "publishedAt": "2026-11-03T18:27:53.000Z",
           "publishedAtKst": "2026. 11. 04. 03:27",
           "summary": "Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger Abstract Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automat",
-          "impact": 17,
-          "confidence": 82,
+          "impact": 15,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -309,42 +311,6 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.06827v1",
-          "publishedAt": "2026-11-04T17:41:09.000Z",
-          "publishedAtKst": "2026. 11. 05. 02:41",
-          "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on ",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "추론 벤치마크"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.06808v1",
-          "publishedAt": "2026-11-04T17:24:02.000Z",
-          "publishedAtKst": "2026. 11. 05. 02:24",
-          "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cuto",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "프런티어 모델",
-            "GPT",
-            "LLM",
-            "모델"
-          ],
-          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Task-Efficient Agent Evaluation Using Cached Traces",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.06803v1",
@@ -361,6 +327,42 @@
             "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.06793v1",
+          "publishedAt": "2026-11-04T17:11:04.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:11",
+          "summary": "Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. ARC-AGI-3 tests this across uninstructed visual games scored by Relative Human Action Efficienc",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "추론",
+            "프런티어 모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.06827v1",
+          "publishedAt": "2026-11-04T17:41:09.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:41",
+          "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on ",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "모델",
+            "추론 벤치마크"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -368,12 +370,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 77,
+      "score": 76,
       "delta": 7,
       "weight": 0.2,
       "confidence": 58,
       "trend": "hot",
       "items": [
+        {
+          "title": "Progress on provable inference for large language models",
+          "source": "Hacker News",
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "publishedAt": "2026-11-04T17:17:46.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:17",
+          "summary": "235 points, 121 comments",
+          "impact": 21,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Anyone else tired of how expensive agent evaluations are? [D]",
           "source": "r/MachineLearning",
@@ -381,8 +400,8 @@
           "publishedAt": "2026-11-05T03:33:01.000Z",
           "publishedAtKst": "2026. 11. 05. 12:33",
           "summary": "So I have been working on some general use agents that work with different domains but these require online simulations to test for some of the domains. And running agents in actual environments takes so much time and co",
-          "impact": 23,
-          "confidence": 59,
+          "impact": 21,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -393,37 +412,22 @@
           "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Progress on provable inference for large language models",
-          "source": "Hacker News",
-          "url": "https://www.anthropic.com/research/provable-inference",
-          "publishedAt": "2026-11-04T17:17:46.000Z",
-          "publishedAtKst": "2026. 11. 05. 02:17",
-          "summary": "219 points, 104 comments",
-          "impact": 21,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: IdeaAI – Local-first autonomous agent that refactors code overnight",
-          "source": "Hacker News",
-          "url": "https://apps.microsoft.com/detail/9p9sfwqgbsk7?hl=en-US&gl=US",
-          "publishedAt": "2026-11-05T09:40:28.000Z",
-          "publishedAtKst": "2026. 11. 05. 18:40",
-          "summary": "1 points, 0 comments",
+          "title": "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+          "source": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+          "publishedAt": "2026-11-05T10:44:15.000Z",
+          "publishedAtKst": "2026. 11. 05. 19:44",
+          "summary": "Hi all, author here (Idiap Research Institute, joint work with Logitech). We recently released DialFork and thought it might interest people here. It's a benchmark for a failure mode of LLM agents that is easy to miss: e",
           "impact": 17,
-          "confidence": 59,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "자율성"
+            "LLM",
+            "모델",
+            "벤치마크"
           ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "We Tested Coding Agent Harnesses. Thinking Harder Beat All of Them",
@@ -431,9 +435,9 @@
           "url": "https://surgehq.ai/blog/benchmarking-coding-agent-harnesses",
           "publishedAt": "2026-11-04T20:52:13.000Z",
           "publishedAtKst": "2026. 11. 05. 05:52",
-          "summary": "6 points, 6 comments",
-          "impact": 17,
-          "confidence": 58,
+          "summary": "7 points, 7 comments",
+          "impact": 16,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -447,9 +451,9 @@
           "url": "https://news.ycombinator.com/item?id=50366117",
           "publishedAt": "2026-11-04T14:37:22.000Z",
           "publishedAtKst": "2026. 11. 04. 23:37",
-          "summary": "329 points, 345 comments",
-          "impact": 17,
-          "confidence": 56,
+          "summary": "495 points, 606 comments",
+          "impact": 16,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
             "에이전트"
@@ -468,28 +472,21 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/6qDn6H5XG5Hc6BJFe/additional-course-context-for-ai-safety-fundamentals",
-      "impact": 36,
-      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "CompressionBench: How can your coding agents compress LLMs?",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.06858v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.06841v1",
+      "impact": 36,
+      "reason": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-      "source": "Hacker News",
-      "url": "https://hachyderm.io/@damienmiller/117563026759098135",
-      "impact": -3,
-      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "OpenAI: Astra covertly underperforms on safety research",
       "source": "Alignment Forum",
@@ -503,6 +500,13 @@
       "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
       "impact": 5,
       "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.06879v1",
+      "impact": 6,
+      "reason": "정체 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
