@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T01:19:23.693Z",
-  "generatedAtKst": "2026. 11. 05. 10:19",
-  "nextUpdateAt": "2026-11-05T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 05. 12:00",
+  "generatedAt": "2026-11-05T10:03:13.195Z",
+  "generatedAtKst": "2026. 11. 05. 19:03",
+  "nextUpdateAt": "2026-11-05T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 06. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-01-22",
+    "medianDate": "2031-12-08",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2038-12-26",
-    "dday": 1904,
+    "rangeEnd": "2038-11-11",
+    "dday": 1859,
     "confidence": 76,
-    "deltaDays": -48,
+    "deltaDays": -49,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 82,
+    "score": 83,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 54,
+    "hotCount": 56,
     "coldCount": 8,
-    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 56건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-04T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 04. 09:00",
           "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "impact": 30,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -102,7 +102,7 @@
           "publishedAt": "2026-11-04T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 04. 09:00",
           "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-11-03T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 21:00",
           "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-11-03T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 03. 17:00",
           "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "impact": 18,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-11-04T07:00:00.000Z",
           "publishedAtKst": "2026. 11. 04. 16:00",
           "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -231,7 +231,7 @@
           "publishedAt": "2026-11-03T18:27:53.000Z",
           "publishedAtKst": "2026. 11. 04. 03:27",
           "summary": "Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger Abstract Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automat",
-          "impact": 18,
+          "impact": 17,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -266,100 +266,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 94,
+      "delta": 11,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+          "title": "CompressionBench: How can your coding agents compress LLMs?",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.05345v1",
-          "publishedAt": "2026-11-03T18:45:23.000Z",
-          "publishedAtKst": "2026. 11. 04. 03:45",
-          "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models ha",
-          "impact": 31,
+          "url": "http://arxiv.org/abs/2611.06858v1",
+          "publishedAt": "2026-11-04T18:14:50.000Z",
+          "publishedAtKst": "2026. 11. 05. 03:14",
+          "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a sm",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
+            "자율성",
+            "자기개선",
+            "LLM"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.06841v1",
+          "publishedAt": "2026-11-04T17:59:07.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:59",
+          "summary": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementat",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude",
+            "LLM",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.06827v1",
+          "publishedAt": "2026-11-04T17:41:09.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:41",
+          "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on ",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
             "추론",
+            "모델",
+            "추론 벤치마크"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.06808v1",
+          "publishedAt": "2026-11-04T17:24:02.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:24",
+          "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cuto",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "GPT",
             "LLM",
             "모델"
           ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "프런티어 모델, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+          "title": "Task-Efficient Agent Evaluation Using Cached Traces",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.05340v1",
-          "publishedAt": "2026-11-03T18:40:35.000Z",
-          "publishedAtKst": "2026. 11. 04. 03:40",
-          "summary": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedP",
-          "impact": 28,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "Claude",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "AGI, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.05376v1",
-          "publishedAt": "2026-11-03T18:59:52.000Z",
-          "publishedAtKst": "2026. 11. 04. 03:59",
-          "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Y",
-          "impact": 26,
+          "url": "http://arxiv.org/abs/2611.06803v1",
+          "publishedAt": "2026-11-04T17:20:09.000Z",
+          "publishedAtKst": "2026. 11. 05. 02:20",
+          "summary": "Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluate",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "에이전트",
-            "자율성",
+            "LLM",
             "모델"
           ],
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.05320v1",
-          "publishedAt": "2026-11-03T18:25:14.000Z",
-          "publishedAtKst": "2026. 11. 04. 03:25",
-          "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator",
-          "impact": 24,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.05377v1",
-          "publishedAt": "2026-11-03T18:59:56.000Z",
-          "publishedAtKst": "2026. 11. 04. 03:59",
-          "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent a",
-          "impact": 24,
-          "confidence": 91,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "SOTA"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -367,64 +368,29 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 82,
-      "delta": 8,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 61,
+      "confidence": 58,
       "trend": "hot",
       "items": [
         {
-          "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+          "title": "Anyone else tired of how expensive agent evaluations are? [D]",
           "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
-          "publishedAt": "2026-11-04T09:00:29.000Z",
-          "publishedAtKst": "2026. 11. 04. 18:00",
-          "summary": "Hey everyone— we’re the Deep Principle team behind Mira AI Scientist. We just released Hydrogen-1.0 , an open-weight model post-trained from GLM-5.3 for chemistry, materials science, and life sciences. Here’s how it perf",
-          "impact": 33,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "자율성",
-            "AI 연구 자동화",
-            "추론",
-            "GPT"
-          ],
-          "why": "자율성, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "[P] NKI layer megakernels for GLM-5.3-Flash on AWS Trainium2: where a decode step's time went, and what we changed [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws/",
-          "publishedAt": "2026-11-04T21:47:55.000Z",
-          "publishedAtKst": "2026. 11. 05. 06:47",
-          "summary": "We wrote an inference engine for AWS Trainium2 that serves GLM-5.3-Flash (320B MoE, 1M-token context) on one trn2.48xlarge, and open-sourced it. Most of the work went into decode, and the part I found most interesting is",
-          "impact": 27,
-          "confidence": 62,
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xo8hlk/anyone_else_tired_of_how_expensive_agent/",
+          "publishedAt": "2026-11-05T03:33:01.000Z",
+          "publishedAtKst": "2026. 11. 05. 12:33",
+          "summary": "So I have been working on some general use agents that work with different domains but these require online simulations to test for some of the domains. And running agents in actual environments takes so much time and co",
+          "impact": 23,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM",
             "모델",
-            "벤치마크"
+            "벤치마크",
+            "컴퓨트"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A message to top tier conferences [D]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
-          "publishedAt": "2026-11-04T09:55:50.000Z",
-          "publishedAtKst": "2026. 11. 04. 18:55",
-          "summary": "TL;DR: Please be hard in desk rejecting AI generated papers Recently I went to two AI conferences (A and A*) and I was surprised that \"AI cheaters\" didn't even read their own paper before presentation! For example, a guy",
-          "impact": 24,
-          "confidence": 60,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "GPT",
-            "LLM"
-          ],
-          "why": "AGI, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Progress on provable inference for large language models",
@@ -432,8 +398,8 @@
           "url": "https://www.anthropic.com/research/provable-inference",
           "publishedAt": "2026-11-04T17:17:46.000Z",
           "publishedAtKst": "2026. 11. 05. 02:17",
-          "summary": "174 points, 83 comments",
-          "impact": 20,
+          "summary": "219 points, 104 comments",
+          "impact": 21,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
@@ -444,20 +410,51 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Show HN: IdeaAI – Local-first autonomous agent that refactors code overnight",
+          "source": "Hacker News",
+          "url": "https://apps.microsoft.com/detail/9p9sfwqgbsk7?hl=en-US&gl=US",
+          "publishedAt": "2026-11-05T09:40:28.000Z",
+          "publishedAtKst": "2026. 11. 05. 18:40",
+          "summary": "1 points, 0 comments",
+          "impact": 17,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "We Tested Coding Agent Harnesses. Thinking Harder Beat All of Them",
           "source": "Hacker News",
           "url": "https://surgehq.ai/blog/benchmarking-coding-agent-harnesses",
           "publishedAt": "2026-11-04T20:52:13.000Z",
           "publishedAtKst": "2026. 11. 05. 05:52",
-          "summary": "5 points, 6 comments",
-          "impact": 18,
-          "confidence": 60,
+          "summary": "6 points, 6 comments",
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Ask HN: What's your current AI agentic setup?",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50366117",
+          "publishedAt": "2026-11-04T14:37:22.000Z",
+          "publishedAtKst": "2026. 11. 04. 23:37",
+          "summary": "329 points, 345 comments",
+          "impact": 17,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -478,20 +475,20 @@
       "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
-      "impact": 33,
-      "reason": "자율성, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "CompressionBench: How can your coding agents compress LLMs?",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.06858v1",
+      "impact": 36,
+      "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
-      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
       "source": "Hacker News",
-      "url": "https://github.com/finic-ai/kairos",
-      "impact": 2,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+      "impact": -3,
+      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "OpenAI: Astra covertly underperforms on safety research",
