@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-06T20:39:03.830Z",
-  "generatedAtKst": "2026. 11. 07. 05:39",
-  "nextUpdateAt": "2026-11-06T21:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 07. 06:00",
+  "generatedAt": "2026-11-07T00:30:03.536Z",
+  "generatedAtKst": "2026. 11. 07. 09:30",
+  "nextUpdateAt": "2026-11-07T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 07. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-03-26",
-    "dday": 1993,
+    "dday": 1992,
     "confidence": 76,
     "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,9 +25,9 @@
     "score": 80,
     "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 53,
-    "coldCount": 7,
-    "summary": "가속 신호 53건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 54,
+    "coldCount": 8,
+    "summary": "가속 신호 54건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 79,
+      "score": 78,
       "delta": 7,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-05T09:00:00.000Z",
           "publishedAtKst": "2026. 11. 05. 18:00",
           "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-06T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 06. 09:00",
           "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-11-04T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 04. 09:00",
           "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -135,7 +135,7 @@
           "publishedAt": "2026-11-05T17:00:00.000Z",
           "publishedAtKst": "2026. 11. 06. 02:00",
           "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -179,7 +179,7 @@
           "publishedAt": "2026-11-04T11:25:12.000Z",
           "publishedAtKst": "2026. 11. 04. 20:25",
           "summary": "TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word \"agent\" is ",
-          "impact": 35,
+          "impact": 33,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -197,7 +197,7 @@
           "publishedAt": "2026-11-05T19:06:38.000Z",
           "publishedAtKst": "2026. 11. 06. 04:06",
           "summary": "Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&D. If AI systems started to significantly accelerate ",
-          "impact": 28,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -268,7 +268,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
+      "score": 84,
       "delta": 9,
       "weight": 0.28,
       "confidence": 91,
@@ -281,7 +281,7 @@
           "publishedAt": "2026-11-05T18:18:39.000Z",
           "publishedAtKst": "2026. 11. 06. 03:18",
           "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As",
-          "impact": 35,
+          "impact": 34,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -299,7 +299,7 @@
           "publishedAt": "2026-11-05T18:55:54.000Z",
           "publishedAtKst": "2026. 11. 06. 03:55",
           "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -317,7 +317,7 @@
           "publishedAt": "2026-11-05T18:00:58.000Z",
           "publishedAtKst": "2026. 11. 06. 03:00",
           "summary": "Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the clien",
-          "impact": 28,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -335,8 +335,8 @@
           "publishedAt": "2026-11-05T17:48:55.000Z",
           "publishedAtKst": "2026. 11. 06. 02:48",
           "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a mod",
-          "impact": 24,
-          "confidence": 91,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -354,7 +354,7 @@
           "publishedAtKst": "2026. 11. 06. 03:59",
           "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau",
           "impact": 21,
-          "confidence": 90,
+          "confidence": 89,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -372,24 +372,26 @@
       "score": 75,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 52,
       "trend": "hot",
       "items": [
         {
-          "title": "Pleasedonotescape.com: A dataset of sandboxes for AI coding agents",
-          "source": "Hacker News",
-          "url": "https://pleasedonotescape.com/",
-          "publishedAt": "2026-11-06T20:01:01.000Z",
-          "publishedAtKst": "2026. 11. 07. 05:01",
-          "summary": "2 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "title": "I spent a week testing whether LLMs can really \"program weights.\" Reading weights: yes. Self-improvement: no. 20 steps of fine-tuning erase the edit",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xpip7q/i_spent_a_week_testing_whether_llms_can_really/",
+          "publishedAt": "2026-11-06T17:28:27.000Z",
+          "publishedAtKst": "2026. 11. 07. 02:28",
+          "summary": "The Sparks post split this sub into \"recursive self-improvement is here\" and \"nothing burger.\" I tested both claims on 4 real bugs in open models. Models can read weights. Blind Claude Opus sessions, given only raw weigh",
+          "impact": 22,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "자기개선",
+            "Claude",
+            "LLM",
+            "모델"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "자기개선, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Progress on provable inference for large language models",
@@ -399,7 +401,7 @@
           "publishedAtKst": "2026. 11. 05. 02:17",
           "summary": "238 points, 121 comments",
           "impact": 18,
-          "confidence": 55,
+          "confidence": 54,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -415,8 +417,8 @@
           "publishedAt": "2026-11-06T16:07:17.000Z",
           "publishedAtKst": "2026. 11. 07. 01:07",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 17,
-          "confidence": 51,
+          "impact": 16,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
             "초지능",
@@ -430,9 +432,9 @@
           "url": "https://news.ycombinator.com/item?id=50366117",
           "publishedAt": "2026-11-04T14:37:22.000Z",
           "publishedAtKst": "2026. 11. 04. 23:37",
-          "summary": "539 points, 671 comments",
+          "summary": "541 points, 675 comments",
           "impact": 15,
-          "confidence": 52,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "에이전트"
@@ -446,8 +448,8 @@
           "publishedAt": "2026-11-06T14:56:53.000Z",
           "publishedAtKst": "2026. 11. 06. 23:56",
           "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "ChatGPT",
@@ -460,28 +462,35 @@
   ],
   "topDrivers": [
     {
-      "title": "Desiderata for the Theory of Agents",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
-      "impact": 35,
-      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.08417v1",
-      "impact": 35,
+      "impact": 34,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Desiderata for the Theory of Agents",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+      "impact": 33,
+      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "METR: Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at",
-      "impact": 28,
+      "impact": 27,
       "reason": "초지능, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Test your defenses against a nation-state level attack",
+      "source": "Hacker News",
+      "url": "https://factory.com/wargames",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Conformal Prediction for Time-Dependent PDEs",
       "source": "arXiv",
@@ -495,13 +504,6 @@
       "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
       "impact": 5,
       "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI: Astra covertly underperforms on safety research",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
-      "impact": 5,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
