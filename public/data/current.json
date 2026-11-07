@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T09:25:04.080Z",
-  "generatedAtKst": "2026. 11. 07. 18:25",
-  "nextUpdateAt": "2026-11-07T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 08. 00:00",
+  "generatedAt": "2026-11-07T19:12:04.016Z",
+  "generatedAtKst": "2026. 11. 08. 04:12",
+  "nextUpdateAt": "2026-11-07T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 08. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2082,
+    "rangeEnd": "2039-09-22",
+    "dday": 2172,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 45,
-    "coldCount": 7,
-    "summary": "가속 신호 45건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 39,
+    "coldCount": 8,
+    "summary": "가속 신호 39건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 77,
-      "delta": 7,
+      "score": 75,
+      "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-05T09:00:00.000Z",
           "publishedAtKst": "2026. 11. 05. 18:00",
           "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-06T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 06. 09:00",
           "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-11-05T17:00:00.000Z",
           "publishedAtKst": "2026. 11. 06. 02:00",
           "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-          "impact": 19,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -133,7 +133,7 @@
           "publishedAt": "2026-11-05T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 05. 17:00",
           "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-          "impact": 18,
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,22 +143,20 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "title": "Flipsnack grows product signups with conversion optimization",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/devrev-enterprise-self-service",
-          "publishedAt": "2026-11-04T00:00:00.000Z",
-          "publishedAtKst": "2026. 11. 04. 09:00",
-          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "impact": 18,
+          "url": "https://openai.com/ads/customers/flipsnack",
+          "publishedAt": "2026-11-05T00:45:15.000Z",
+          "publishedAtKst": "2026. 11. 05. 09:45",
+          "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+          "impact": 16,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "자율성",
-            "추론",
-            "GPT",
-            "컴퓨트"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -166,10 +164,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -179,7 +177,7 @@
           "publishedAt": "2026-11-04T11:25:12.000Z",
           "publishedAtKst": "2026. 11. 04. 20:25",
           "summary": "TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word \"agent\" is ",
-          "impact": 29,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -197,8 +195,8 @@
           "publishedAt": "2026-11-05T19:06:38.000Z",
           "publishedAtKst": "2026. 11. 06. 04:06",
           "summary": "Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&D. If AI systems started to significantly accelerate ",
-          "impact": 25,
-          "confidence": 82,
+          "impact": 23,
+          "confidence": 80,
           "stance": "accelerate",
           "tags": [
             "초지능",
@@ -268,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 82,
+      "score": 80,
       "delta": 8,
       "weight": 0.28,
-      "confidence": 90,
+      "confidence": 89,
       "trend": "hot",
       "items": [
         {
@@ -281,7 +279,7 @@
           "publishedAt": "2026-11-05T18:18:39.000Z",
           "publishedAtKst": "2026. 11. 06. 03:18",
           "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -293,32 +291,14 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.08383v1",
-          "publishedAt": "2026-11-05T18:00:58.000Z",
-          "publishedAtKst": "2026. 11. 06. 03:00",
-          "summary": "Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the clien",
-          "impact": 25,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
-            "LLM",
-            "모델",
-            "고난도 평가"
-          ],
-          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "XStack: A Benchmark for ML Repo Migration",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.08472v1",
           "publishedAt": "2026-11-05T18:55:54.000Z",
           "publishedAtKst": "2026. 11. 06. 03:55",
           "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them",
-          "impact": 25,
-          "confidence": 91,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -329,14 +309,32 @@
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.08383v1",
+          "publishedAt": "2026-11-05T18:00:58.000Z",
+          "publishedAtKst": "2026. 11. 06. 03:00",
+          "summary": "Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the clien",
+          "impact": 23,
+          "confidence": 90,
+          "stance": "accelerate",
+          "tags": [
+            "Claude",
+            "LLM",
+            "모델",
+            "고난도 평가"
+          ],
+          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.08369v1",
           "publishedAt": "2026-11-05T17:48:55.000Z",
           "publishedAtKst": "2026. 11. 06. 02:48",
           "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a mod",
-          "impact": 21,
-          "confidence": 89,
+          "impact": 19,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -353,8 +351,8 @@
           "publishedAt": "2026-11-05T18:59:29.000Z",
           "publishedAtKst": "2026. 11. 06. 03:59",
           "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau",
-          "impact": 19,
-          "confidence": 87,
+          "impact": 18,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -369,29 +367,43 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
+      "score": 72,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "I spent a week testing whether LLMs can really \"program weights.\" Reading weights: yes. Self-improvement: no. 20 steps of fine-tuning erase the edit",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xpip7q/i_spent_a_week_testing_whether_llms_can_really/",
-          "publishedAt": "2026-11-06T17:28:27.000Z",
-          "publishedAtKst": "2026. 11. 07. 02:28",
-          "summary": "The Sparks post split this sub into \"recursive self-improvement is here\" and \"nothing burger.\" I tested both claims on 4 real bugs in open models. Models can read weights. Blind Claude Opus sessions, given only raw weigh",
-          "impact": 20,
-          "confidence": 58,
+          "title": "Show HN: Agent Manager – keyboard-first workflow for running many coding agents",
+          "source": "Hacker News",
+          "url": "https://github.com/wainmann/agent-manager",
+          "publishedAt": "2026-11-07T18:56:07.000Z",
+          "publishedAtKst": "2026. 11. 08. 03:56",
+          "summary": "3 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "자기개선",
-            "Claude",
-            "LLM",
-            "모델"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "자기개선, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Chatty – Open-source autonomous AI chat agent with tool calling",
+          "source": "Hacker News",
+          "url": "https://github.com/PersonaliAI/chatty",
+          "publishedAt": "2026-11-07T18:31:32.000Z",
+          "publishedAtKst": "2026. 11. 08. 03:31",
+          "summary": "3 points, 0 comments",
+          "impact": 17,
+          "confidence": 59,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Progress on provable inference for large language models",
@@ -399,9 +411,9 @@
           "url": "https://www.anthropic.com/research/provable-inference",
           "publishedAt": "2026-11-04T17:17:46.000Z",
           "publishedAtKst": "2026. 11. 05. 02:17",
-          "summary": "239 points, 122 comments",
-          "impact": 17,
-          "confidence": 52,
+          "summary": "240 points, 122 comments",
+          "impact": 16,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -411,51 +423,34 @@
           "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "An unreleased Anthropic AI model reportedly solves an 18-year-old quantum computing conjecture in just 3 days. Researchers at Physical Superintelligence say the proof establishes a fundamental limit on quantum speedups and has been formally verified using Lean.",
+          "title": "Banning rsi is stupid",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xpgl2k/an_unreleased_anthropic_ai_model_reportedly/",
-          "publishedAt": "2026-11-06T16:07:17.000Z",
-          "publishedAtKst": "2026. 11. 07. 01:07",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
+          "url": "https://www.reddit.com/r/singularity/comments/1xqbjy4/banning_rsi_is_stupid/",
+          "publishedAt": "2026-11-07T17:15:46.000Z",
+          "publishedAtKst": "2026. 11. 08. 02:15",
+          "summary": "rsi is our only chance (including yours) to avoid aging! I worked in that field, human only progress is very slow. But I don’t care, if you Americans really ban rsi - we the people, will get the medications from China. i",
           "impact": 15,
-          "confidence": 49,
-          "stance": "accelerate",
-          "tags": [
-            "초지능",
-            "모델"
-          ],
-          "why": "초지능, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Ask HN: What's your current AI agentic setup?",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50366117",
-          "publishedAt": "2026-11-04T14:37:22.000Z",
-          "publishedAtKst": "2026. 11. 04. 23:37",
-          "summary": "545 points, 678 comments",
-          "impact": 14,
           "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "AGI"
           ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ChatGPT Astra 6.2 could release today per The Information",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xpetje/chatgpt_astra_62_could_release_today_per_the/",
-          "publishedAt": "2026-11-06T14:56:53.000Z",
-          "publishedAtKst": "2026. 11. 06. 23:56",
-          "summary": "&#32; submitted by &#32; /u/141_1337 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
+          "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+          "source": "Hacker News",
+          "url": "https://github.com/rivet-dev/rivet",
+          "publishedAt": "2026-11-05T17:17:42.000Z",
+          "publishedAtKst": "2026. 11. 06. 02:17",
+          "summary": "119 points, 59 comments",
+          "impact": 11,
+          "confidence": 51,
+          "stance": "watch",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "에이전트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
@@ -465,21 +460,21 @@
       "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.08417v1",
-      "impact": 31,
+      "impact": 28,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Desiderata for the Theory of Agents",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
-      "impact": 29,
+      "impact": 25,
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "METR: Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at",
-      "impact": 25,
+      "impact": 23,
       "reason": "초지능, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
@@ -488,7 +483,7 @@
       "title": "Conformal Prediction for Time-Dependent PDEs",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.08409v1",
-      "impact": 2,
+      "impact": 3,
       "reason": "안전 이슈, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
