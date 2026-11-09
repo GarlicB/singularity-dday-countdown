@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-09T10:37:27.808Z",
-  "generatedAtKst": "2026. 11. 09. 19:37",
-  "nextUpdateAt": "2026-11-09T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 10. 00:00",
+  "generatedAt": "2026-11-09T23:38:24.868Z",
+  "generatedAtKst": "2026. 11. 10. 08:38",
+  "nextUpdateAt": "2026-11-10T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 10. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-04",
-    "dday": 2305,
+    "rangeEnd": "2039-12-21",
+    "dday": 2260,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 39,
-    "coldCount": 6,
-    "summary": "가속 신호 39건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 38,
+    "coldCount": 7,
+    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     }
   ],
@@ -71,29 +71,43 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 72,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/devrev-enterprise-self-service",
-          "publishedAt": "2026-11-04T00:00:00.000Z",
-          "publishedAtKst": "2026. 11. 04. 09:00",
-          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "impact": 15,
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "publishedAtKst": "2026. 11. 10. 04:00",
+          "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "자율성",
-            "추론",
-            "GPT",
-            "컴퓨트"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "자율성, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "publishedAtKst": "2026. 11. 09. 17:00",
+          "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "impact": 19,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Measuring how AI agents handle everyday wet-lab science",
@@ -102,7 +116,7 @@
           "publishedAt": "2026-11-06T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 06. 09:00",
           "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -143,22 +157,6 @@
             "모델"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Merge builds product and business tools with OpenAI technology",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/merge-builds-with-openai",
-          "publishedAt": "2026-11-05T08:00:00.000Z",
-          "publishedAtKst": "2026. 11. 05. 17:00",
-          "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -166,12 +164,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 70,
+      "score": 71,
       "delta": 5,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 84,
       "trend": "hot",
       "items": [
+        {
+          "title": "Where is all the AI safety research uplift?",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
+          "publishedAt": "2026-11-09T18:02:01.000Z",
+          "publishedAtKst": "2026. 11. 10. 03:02",
+          "summary": "(Thanks to @Goutham Nalagatla for discussion and for sitting with me and talking about it while I wrote it.) METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capabil",
+          "impact": 29,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "자율성",
+            "Claude",
+            "모델"
+          ],
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Notes on Take-Off Speeds and RSI",
           "source": "Alignment Forum",
@@ -179,7 +195,7 @@
           "publishedAt": "2026-11-08T13:39:02.000Z",
           "publishedAtKst": "2026. 11. 08. 22:39",
           "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
-          "impact": 26,
+          "impact": 24,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -227,40 +243,20 @@
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "METR: Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at",
-          "publishedAt": "2026-11-05T19:06:38.000Z",
-          "publishedAtKst": "2026. 11. 06. 04:06",
-          "summary": "Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&D. If AI systems started to significantly accelerate ",
-          "impact": 14,
-          "confidence": 72,
-          "stance": "accelerate",
+          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+          "source": "METR",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "publishedAt": "2026-08-26T07:00:00.000Z",
+          "publishedAtKst": "2026. 08. 26. 16:00",
+          "summary": "",
+          "impact": 11,
+          "confidence": 91,
+          "stance": "watch",
           "tags": [
-            "초지능",
-            "자율성",
-            "모델",
-            "벤치마크"
-          ],
-          "why": "초지능, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Explaining “AI might obliterate you” to senior policymakers in India",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
-          "publishedAt": "2026-10-31T21:37:22.000Z",
-          "publishedAtKst": "2026. 11. 01. 06:37",
-          "summary": "I gave a 20-minute talk in Delhi at the NDTV World Summit . The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on sever",
-          "impact": 13,
-          "confidence": 81,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "초지능",
             "에이전트",
-            "자율성"
+            "추론"
           ],
-          "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -268,30 +264,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 80,
-      "delta": 8,
+      "score": 76,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 84,
       "trend": "hot",
       "items": [
-        {
-          "title": "Diffusion-free Score Matching for Exact Conditional Sampling",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.09758v1",
-          "publishedAt": "2026-11-06T17:24:30.000Z",
-          "publishedAtKst": "2026. 11. 07. 02:24",
-          "summary": "The success of modern score-based generative models is largely driven by diffusion-based training, which learns a collection of time-indexed score fields corresponding to progressively noisier versions of the data distri",
-          "impact": 25,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "모델",
-            "추론 인프라"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models",
           "source": "arXiv",
@@ -299,8 +277,8 @@
           "publishedAt": "2026-11-06T17:32:49.000Z",
           "publishedAtKst": "2026. 11. 07. 02:32",
           "summary": "Multimodal Large Language Models (MLLMs) require continuous factual updates to stay current, yet lifelong knowledge editing remains a daunting challenge. The primary obstacle is the severe Locality Erosion and Catastroph",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 20,
+          "confidence": 87,
           "stance": "accelerate",
           "tags": [
             "LLM",
@@ -311,14 +289,32 @@
           "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Diffusion-free Score Matching for Exact Conditional Sampling",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.09758v1",
+          "publishedAt": "2026-11-06T17:24:30.000Z",
+          "publishedAtKst": "2026. 11. 07. 02:24",
+          "summary": "The success of modern score-based generative models is largely driven by diffusion-based training, which learns a collection of time-indexed score fields corresponding to progressively noisier versions of the data distri",
+          "impact": 20,
+          "confidence": 86,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "모델",
+            "추론 인프라"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Flow-Guided Target-Space Alignment via Path Consistency",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.09863v1",
           "publishedAt": "2026-11-06T18:44:08.000Z",
           "publishedAtKst": "2026. 11. 07. 03:44",
           "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream ana",
-          "impact": 21,
-          "confidence": 87,
+          "impact": 18,
+          "confidence": 84,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -335,8 +331,8 @@
           "publishedAt": "2026-11-06T17:54:01.000Z",
           "publishedAtKst": "2026. 11. 07. 02:54",
           "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any ",
-          "impact": 21,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -353,8 +349,8 @@
           "publishedAt": "2026-11-06T18:58:50.000Z",
           "publishedAtKst": "2026. 11. 07. 03:58",
           "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned thr",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -370,38 +366,21 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 70,
-      "delta": 5,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 56,
+      "confidence": 53,
       "trend": "hot",
       "items": [
         {
-          "title": "Aegis OS: a transactional multi-tenant OS runtime for autonomous coding agents",
+          "title": "Show HN: We Gave AI Coding Agents Production Memory",
           "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2611.08516",
-          "publishedAt": "2026-11-09T10:29:26.000Z",
-          "publishedAtKst": "2026. 11. 09. 19:29",
+          "url": "https://usecodela.com/",
+          "publishedAt": "2026-11-09T17:31:05.000Z",
+          "publishedAtKst": "2026. 11. 10. 02:31",
           "summary": "1 points, 0 comments",
-          "impact": 26,
-          "confidence": 66,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Airlock – Policy-as-code for fleets of AI coding agents",
-          "source": "Hacker News",
-          "url": "https://airlock.lunareng.com/docs",
-          "publishedAt": "2026-11-09T00:59:27.000Z",
-          "publishedAtKst": "2026. 11. 09. 09:59",
-          "summary": "3 points, 0 comments",
           "impact": 18,
-          "confidence": 59,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -410,12 +389,28 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "7 day moving average at Live nerf for Opus 5.5",
+          "title": "Show HN: Airlock – Policy-as-code for fleets of AI coding agents",
+          "source": "Hacker News",
+          "url": "https://airlock.lunareng.com/docs",
+          "publishedAt": "2026-11-09T00:59:27.000Z",
+          "publishedAtKst": "2026. 11. 09. 09:59",
+          "summary": "3 points, 0 comments",
+          "impact": 16,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Fable 5.2 Intelligence Benchmark",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xrju04/7_day_moving_average_at_live_nerf_for_opus_55/",
-          "publishedAt": "2026-11-09T05:52:29.000Z",
-          "publishedAtKst": "2026. 11. 09. 14:52",
-          "summary": "Analysis: We can rule out a sustained performance decline greater than ~1.94 percentage points at 95% confidence. This suggests three possibilities: people are perceiving normal fluctuations as a nerf, the benchmark isn'",
+          "url": "https://www.reddit.com/r/singularity/comments/1xs1mam/fable_52_intelligence_benchmark/",
+          "publishedAt": "2026-11-09T19:45:09.000Z",
+          "publishedAtKst": "2026. 11. 10. 04:45",
+          "summary": "Input Tokens: $8.00 / 1M Output Tokens: $40.00 / 1M Cache Read Tokens: $0.20 / 1M (2.5% of input) Context Window: 1 million tokens Max Output: 128,000 tokens Seeing how crazy cost per task is, (Infograph comparison poste",
           "impact": 15,
           "confidence": 49,
           "stance": "accelerate",
@@ -426,67 +421,75 @@
           "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Agentic Development and Engineering Strategy",
-          "source": "Hacker News",
-          "url": "https://learnings.aleixmorgadas.dev/p/agentic-development-and-engineering",
-          "publishedAt": "2026-11-09T10:35:53.000Z",
-          "publishedAtKst": "2026. 11. 09. 19:35",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "Fable 5.2 and Jagged AGI",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xs1s3s/fable_52_and_jagged_agi/",
+          "publishedAt": "2026-11-09T19:51:08.000Z",
+          "publishedAtKst": "2026. 11. 10. 04:51",
+          "summary": "&#32; submitted by &#32; /u/japie06 [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "AGI"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents",
-          "source": "Hacker News",
-          "url": "https://arxiv.org/abs/2610.22192",
-          "publishedAt": "2026-11-09T10:21:00.000Z",
-          "publishedAtKst": "2026. 11. 09. 19:21",
-          "summary": "1 points, 1 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
+          "title": "A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step. With the same setup, Opus 5.5 completed only 26% in 18 hours, and barely made any more progress after 30 hours.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xs0tk3/a_team_of_1000_fable_52_agents_fully_formalized/",
+          "publishedAt": "2026-11-09T19:16:14.000Z",
+          "publishedAtKst": "2026. 11. 10. 04:16",
+          "summary": "&#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
+          "impact": 14,
+          "confidence": 48,
+          "stance": "accelerate",
           "tags": [
-            "에이전트"
+            "에이전트",
+            "컴퓨트"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Aegis OS: a transactional multi-tenant OS runtime for autonomous coding agents",
-      "source": "Hacker News",
-      "url": "https://arxiv.org/abs/2611.08516",
-      "impact": 26,
+      "title": "Where is all the AI safety research uplift?",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
+      "impact": 29,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Diffusion-free Score Matching for Exact Conditional Sampling",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.09758v1",
-      "impact": 25,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "impact": 22,
+      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.09770v1",
-      "impact": 24,
-      "reason": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/6qDn6H5XG5Hc6BJFe/additional-course-context-for-ai-safety-fundamentals",
+      "impact": 22,
+      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "Memory Safety Bugs in Rust Standard Library",
+      "source": "Hacker News",
+      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
-      "impact": 0,
+      "impact": 1,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
@@ -495,13 +498,6 @@
       "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
       "impact": 5,
       "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI: Astra covertly underperforms on safety research",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
-      "impact": 5,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
