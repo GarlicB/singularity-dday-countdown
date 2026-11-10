@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-09T23:38:24.868Z",
-  "generatedAtKst": "2026. 11. 10. 08:38",
-  "nextUpdateAt": "2026-11-10T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 10. 12:00",
+  "generatedAt": "2026-11-10T10:36:51.014Z",
+  "generatedAtKst": "2026. 11. 10. 19:36",
+  "nextUpdateAt": "2026-11-10T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 11. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-01-16",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-12-21",
-    "dday": 2260,
+    "rangeEnd": "2039-06-24",
+    "dday": 2079,
     "confidence": 76,
-    "deltaDays": -36,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 74,
-    "temperature": 52,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 38,
+    "hotCount": 47,
     "coldCount": 7,
-    "summary": "가속 신호 38건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -54,16 +54,16 @@
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 70,
-      "delta": 4,
-      "tone": "hot"
+      "value": 52,
+      "delta": 0,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-09T19:00:00.000Z",
           "publishedAtKst": "2026. 11. 10. 04:00",
           "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +100,7 @@
           "publishedAt": "2026-11-09T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 09. 17:00",
           "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -164,7 +164,7 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 71,
+      "score": 70,
       "delta": 5,
       "weight": 0.18,
       "confidence": 84,
@@ -177,7 +177,7 @@
           "publishedAt": "2026-11-09T18:02:01.000Z",
           "publishedAtKst": "2026. 11. 10. 03:02",
           "summary": "(Thanks to @Goutham Nalagatla for discussion and for sitting with me and talking about it while I wrote it.) METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capabil",
-          "impact": 29,
+          "impact": 27,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -187,24 +187,6 @@
             "모델"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Notes on Take-Off Speeds and RSI",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
-          "publishedAt": "2026-11-08T13:39:02.000Z",
-          "publishedAtKst": "2026. 11. 08. 22:39",
-          "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
-          "impact": 24,
-          "confidence": 82,
-          "stance": "decelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "자기개선",
-            "프런티어 모델"
-          ],
-          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
@@ -223,6 +205,24 @@
             "자기개선"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Notes on Take-Off Speeds and RSI",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+          "publishedAt": "2026-11-08T13:39:02.000Z",
+          "publishedAtKst": "2026. 11. 08. 22:39",
+          "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
+          "impact": 21,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "자기개선",
+            "프런티어 모델"
+          ],
+          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Desiderata for the Theory of Agents",
@@ -264,93 +264,75 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 76,
-      "delta": 7,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
-      "confidence": 84,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models",
+          "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.09770v1",
-          "publishedAt": "2026-11-06T17:32:49.000Z",
-          "publishedAtKst": "2026. 11. 07. 02:32",
-          "summary": "Multimodal Large Language Models (MLLMs) require continuous factual updates to stay current, yet lifelong knowledge editing remains a daunting challenge. The primary obstacle is the severe Locality Erosion and Catastroph",
-          "impact": 20,
-          "confidence": 87,
+          "url": "http://arxiv.org/abs/2611.12856v1",
+          "publishedAt": "2026-11-09T18:45:28.000Z",
+          "publishedAtKst": "2026. 11. 10. 03:45",
+          "summary": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "멀티모달"
+            "에이전트",
+            "자율성",
+            "GPT",
+            "Claude"
           ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Diffusion-free Score Matching for Exact Conditional Sampling",
+          "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.09758v1",
-          "publishedAt": "2026-11-06T17:24:30.000Z",
-          "publishedAtKst": "2026. 11. 07. 02:24",
-          "summary": "The success of modern score-based generative models is largely driven by diffusion-based training, which learns a collection of time-indexed score fields corresponding to progressively noisier versions of the data distri",
-          "impact": 20,
-          "confidence": 86,
+          "url": "http://arxiv.org/abs/2611.12799v1",
+          "publishedAt": "2026-11-09T18:07:42.000Z",
+          "publishedAtKst": "2026. 11. 10. 03:07",
+          "summary": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO trainin",
+          "impact": 36,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "GPT",
+            "LLM"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.12791v1",
+          "publishedAt": "2026-11-09T17:58:38.000Z",
+          "publishedAtKst": "2026. 11. 10. 02:58",
+          "summary": "Developing effective machine learning models requires complex manual tuning, while current Automated Machine Learning (AutoML) frameworks remain domain-specific and isolate model architecture, training hyperparameter, an",
+          "impact": 36,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "AGI",
             "추론",
-            "모델",
-            "추론 인프라"
+            "LLM",
+            "모델"
           ],
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+          "title": "Mitigating Agentic Deception via Evaluation-Side Partially Observable Games",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.09863v1",
-          "publishedAt": "2026-11-06T18:44:08.000Z",
-          "publishedAtKst": "2026. 11. 07. 03:44",
-          "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream ana",
-          "impact": 18,
-          "confidence": 84,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "벤치마크",
-            "멀티모달"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.09802v1",
-          "publishedAt": "2026-11-06T17:54:01.000Z",
-          "publishedAtKst": "2026. 11. 07. 02:54",
-          "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any ",
-          "impact": 17,
-          "confidence": 83,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude",
-            "LLM",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.09891v1",
-          "publishedAt": "2026-11-06T18:58:50.000Z",
-          "publishedAtKst": "2026. 11. 07. 03:58",
-          "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned thr",
-          "impact": 17,
-          "confidence": 82,
+          "url": "http://arxiv.org/abs/2611.12835v1",
+          "publishedAt": "2026-11-09T18:33:13.000Z",
+          "publishedAtKst": "2026. 11. 10. 03:33",
+          "summary": "As large language models become more capable agents, they can exhibit deceptive behaviors, cheating human for higher rewards while appearing helpful. We attribute this failure to evaluation-side partial observability, wh",
+          "impact": 32,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -359,6 +341,24 @@
             "모델"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.12872v1",
+          "publishedAt": "2026-11-09T18:57:00.000Z",
+          "publishedAtKst": "2026. 11. 10. 03:57",
+          "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semanti",
+          "impact": 26,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델",
+            "벤치마크",
+            "멀티모달"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,40 +369,39 @@
       "score": 74,
       "delta": 6,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 51,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: We Gave AI Coding Agents Production Memory",
-          "source": "Hacker News",
-          "url": "https://usecodela.com/",
-          "publishedAt": "2026-11-09T17:31:05.000Z",
-          "publishedAtKst": "2026. 11. 10. 02:31",
-          "summary": "1 points, 0 comments",
-          "impact": 18,
-          "confidence": 60,
+          "title": "Fable 5.2 sets a new high score on ARC-AGI-3 in the standard harness.",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xs2d9c/fable_52_sets_a_new_high_score_on_arcagi3_in_the/",
+          "publishedAt": "2026-11-09T20:12:50.000Z",
+          "publishedAtKst": "2026. 11. 10. 05:12",
+          "summary": "&#32; submitted by &#32; /u/Southern-Break5505 [link] &#32; [comments]",
+          "impact": 22,
+          "confidence": 55,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI",
+            "추론 벤치마크"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Airlock – Policy-as-code for fleets of AI coding agents",
+          "title": "AI usage generates a fragile codebase",
           "source": "Hacker News",
-          "url": "https://airlock.lunareng.com/docs",
-          "publishedAt": "2026-11-09T00:59:27.000Z",
-          "publishedAtKst": "2026. 11. 09. 09:59",
-          "summary": "3 points, 0 comments",
+          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+          "publishedAt": "2026-11-10T10:25:58.000Z",
+          "publishedAtKst": "2026. 11. 10. 19:25",
+          "summary": "2 points, 0 comments",
           "impact": 16,
-          "confidence": 57,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "AGI"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Fable 5.2 Intelligence Benchmark",
@@ -411,8 +410,8 @@
           "publishedAt": "2026-11-09T19:45:09.000Z",
           "publishedAtKst": "2026. 11. 10. 04:45",
           "summary": "Input Tokens: $8.00 / 1M Output Tokens: $40.00 / 1M Cache Read Tokens: $0.20 / 1M (2.5% of input) Context Window: 1 million tokens Max Output: 128,000 tokens Seeing how crazy cost per task is, (Infograph comparison poste",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "Claude",
@@ -427,8 +426,8 @@
           "publishedAt": "2026-11-09T19:51:08.000Z",
           "publishedAtKst": "2026. 11. 10. 04:51",
           "summary": "&#32; submitted by &#32; /u/japie06 [link] &#32; [comments]",
-          "impact": 15,
-          "confidence": 49,
+          "impact": 14,
+          "confidence": 48,
           "stance": "accelerate",
           "tags": [
             "AGI"
@@ -442,7 +441,7 @@
           "publishedAt": "2026-11-09T19:16:14.000Z",
           "publishedAtKst": "2026. 11. 10. 04:16",
           "summary": "&#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
-          "impact": 14,
+          "impact": 13,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
@@ -456,35 +455,28 @@
   ],
   "topDrivers": [
     {
-      "title": "Where is all the AI safety research uplift?",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
-      "impact": 29,
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.12856v1",
+      "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "impact": 22,
-      "reason": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.12799v1",
+      "impact": 36,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/6qDn6H5XG5Hc6BJFe/additional-course-context-for-ai-safety-fundamentals",
-      "impact": 22,
-      "reason": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.12791v1",
+      "impact": 36,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Memory Safety Bugs in Rust Standard Library",
-      "source": "Hacker News",
-      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
-      "impact": -2,
-      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
       "source": "Alignment Forum",
@@ -493,11 +485,18 @@
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "impact": 5,
-      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "OptiCover: A Scalable and Multi-Surface Framework for Cold-Start Visual Optimization under Semantic Constraints",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.12727v1",
+      "impact": 2,
+      "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.12760v1",
+      "impact": 4,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
