@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-10T10:36:51.014Z",
-  "generatedAtKst": "2026. 11. 10. 19:36",
-  "nextUpdateAt": "2026-11-10T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 11. 00:00",
+  "generatedAt": "2026-11-10T21:05:57.190Z",
+  "generatedAtKst": "2026. 11. 11. 06:05",
+  "nextUpdateAt": "2026-11-11T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 11. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-07-20",
+    "medianDate": "2032-04-21",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-06-24",
-    "dday": 2079,
+    "rangeEnd": "2039-03-26",
+    "dday": 1989,
     "confidence": 76,
-    "deltaDays": -42,
+    "deltaDays": -45,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 78,
-    "temperature": 55,
+    "score": 80,
+    "temperature": 57,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
-    "coldCount": 7,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 55,
+    "coldCount": 9,
+    "summary": "가속 신호 55건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,15 +47,15 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 64,
-      "delta": 3,
+      "value": 70,
+      "delta": 4,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 82,
-      "delta": 6,
+      "value": 76,
+      "delta": 5,
       "tone": "hot"
     },
     {
@@ -71,12 +71,60 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
-      "delta": 6,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "publishedAt": "2026-11-10T12:02:28.000Z",
+          "publishedAtKst": "2026. 11. 10. 21:02",
+          "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+          "impact": 23,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "돌파"
+          ],
+          "why": "에이전트, 돌파 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Helping caregivers use AI in everyday life",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "publishedAt": "2026-11-10T12:00:00.000Z",
+          "publishedAtKst": "2026. 11. 10. 21:00",
+          "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing Businesses in ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "publishedAt": "2026-11-10T10:00:00.000Z",
+          "publishedAtKst": "2026. 11. 10. 19:00",
+          "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "impact": 22,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "ChatGPT Enterprise now available in AWS Marketplace",
           "source": "OpenAI News",
@@ -84,7 +132,7 @@
           "publishedAt": "2026-11-09T19:00:00.000Z",
           "publishedAtKst": "2026. 11. 10. 04:00",
           "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -94,69 +142,22 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "CodeRabbit scales agentic software development and ships 20x more",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/coderabbit-codex-daybreak",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
-          "publishedAtKst": "2026. 11. 09. 17:00",
-          "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "publishedAt": "2026-11-09T19:51:47.000Z",
+          "publishedAtKst": "2026. 11. 10. 04:51",
+          "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
           "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "모델"
+            "Gemini",
+            "모델",
+            "로보틱스",
+            "안전 이슈"
           ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Measuring how AI agents handle everyday wet-lab science",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-          "publishedAt": "2026-11-06T00:00:00.000Z",
-          "publishedAtKst": "2026. 11. 06. 09:00",
-          "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Australian universities are creating AI-native graduates",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-          "publishedAt": "2026-11-05T17:00:00.000Z",
-          "publishedAtKst": "2026. 11. 06. 02:00",
-          "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber",
-          "publishedAt": "2026-11-05T09:00:00.000Z",
-          "publishedAtKst": "2026. 11. 05. 18:00",
-          "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT",
-            "모델"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -177,7 +178,7 @@
           "publishedAt": "2026-11-09T18:02:01.000Z",
           "publishedAtKst": "2026. 11. 10. 03:02",
           "summary": "(Thanks to @Goutham Nalagatla for discussion and for sitting with me and talking about it while I wrote it.) METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capabil",
-          "impact": 27,
+          "impact": 25,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -187,6 +188,24 @@
             "모델"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Notes on Take-Off Speeds and RSI",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+          "publishedAt": "2026-11-08T13:39:02.000Z",
+          "publishedAtKst": "2026. 11. 08. 22:39",
+          "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
+          "impact": 23,
+          "confidence": 82,
+          "stance": "decelerate",
+          "tags": [
+            "AGI",
+            "초지능",
+            "자율성",
+            "자기개선"
+          ],
+          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Additional Course Context (for AI Safety Fundamentals; unofficial)",
@@ -205,24 +224,6 @@
             "자기개선"
           ],
           "why": "AGI, AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Notes on Take-Off Speeds and RSI",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
-          "publishedAt": "2026-11-08T13:39:02.000Z",
-          "publishedAtKst": "2026. 11. 08. 22:39",
-          "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
-          "impact": 21,
-          "confidence": 82,
-          "stance": "decelerate",
-          "tags": [
-            "AGI",
-            "초지능",
-            "자기개선",
-            "프런티어 모델"
-          ],
-          "why": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
           "title": "Desiderata for the Theory of Agents",
@@ -264,7 +265,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 90,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -289,24 +290,6 @@
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.12799v1",
-          "publishedAt": "2026-11-09T18:07:42.000Z",
-          "publishedAtKst": "2026. 11. 10. 03:07",
-          "summary": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO trainin",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "프런티어 모델",
-            "GPT",
-            "LLM"
-          ],
-          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.12791v1",
@@ -325,13 +308,31 @@
           "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.12799v1",
+          "publishedAt": "2026-11-09T18:07:42.000Z",
+          "publishedAtKst": "2026. 11. 10. 03:07",
+          "summary": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO trainin",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "GPT",
+            "LLM"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Mitigating Agentic Deception via Evaluation-Side Partially Observable Games",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.12835v1",
           "publishedAt": "2026-11-09T18:33:13.000Z",
           "publishedAtKst": "2026. 11. 10. 03:33",
           "summary": "As large language models become more capable agents, they can exhibit deceptive behaviors, cheating human for higher rewards while appearing helpful. We attribute this failure to evaluation-side partial observability, wh",
-          "impact": 32,
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -349,8 +350,8 @@
           "publishedAt": "2026-11-09T18:57:00.000Z",
           "publishedAtKst": "2026. 11. 10. 03:57",
           "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semanti",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -366,89 +367,92 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 74,
-      "delta": 6,
+      "score": 77,
+      "delta": 7,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 59,
       "trend": "hot",
       "items": [
         {
-          "title": "Fable 5.2 sets a new high score on ARC-AGI-3 in the standard harness.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xs2d9c/fable_52_sets_a_new_high_score_on_arcagi3_in_the/",
-          "publishedAt": "2026-11-09T20:12:50.000Z",
-          "publishedAtKst": "2026. 11. 10. 05:12",
-          "summary": "&#32; submitted by &#32; /u/Southern-Break5505 [link] &#32; [comments]",
-          "impact": 22,
-          "confidence": 55,
+          "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+          "source": "Hacker News",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "publishedAt": "2026-11-10T18:01:15.000Z",
+          "publishedAtKst": "2026. 11. 11. 03:01",
+          "summary": "147 points, 43 comments",
+          "impact": 23,
+          "confidence": 63,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "추론 벤치마크"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "AGI, 추론 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "AI usage generates a fragile codebase",
+          "title": "The Multimodal Knowledge Agent Benchmark",
           "source": "Hacker News",
-          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-          "publishedAt": "2026-11-10T10:25:58.000Z",
-          "publishedAtKst": "2026. 11. 10. 19:25",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+          "publishedAt": "2026-11-10T16:12:21.000Z",
+          "publishedAtKst": "2026. 11. 11. 01:12",
+          "summary": "1 points, 1 comments",
+          "impact": 21,
+          "confidence": 62,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크",
+            "멀티모달"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+          "source": "Hacker News",
+          "url": "https://www.infoq.com/news/2026/11/google-agent-distraction/",
+          "publishedAt": "2026-11-10T20:43:04.000Z",
+          "publishedAtKst": "2026. 11. 11. 05:43",
+          "summary": "1 points, 0 comments",
+          "impact": 19,
+          "confidence": 60,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Doc2Harness: Benchmarking how well AI builds agent harnesses",
+          "source": "Hacker News",
+          "url": "https://arxiv.org/abs/2610.20344",
+          "publishedAt": "2026-11-10T19:31:36.000Z",
+          "publishedAtKst": "2026. 11. 11. 04:31",
           "summary": "2 points, 0 comments",
           "impact": 16,
           "confidence": 58,
           "stance": "accelerate",
           "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Fable 5.2 Intelligence Benchmark",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xs1mam/fable_52_intelligence_benchmark/",
-          "publishedAt": "2026-11-09T19:45:09.000Z",
-          "publishedAtKst": "2026. 11. 10. 04:45",
-          "summary": "Input Tokens: $8.00 / 1M Output Tokens: $40.00 / 1M Cache Read Tokens: $0.20 / 1M (2.5% of input) Context Window: 1 million tokens Max Output: 128,000 tokens Seeing how crazy cost per task is, (Infograph comparison poste",
-          "impact": 14,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "Claude",
+            "에이전트",
             "벤치마크"
           ],
-          "why": "Claude, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Fable 5.2 and Jagged AGI",
+          "title": "Gemini 4 Argon and Carbon score 91.7% and 92.6% on SimpleBench respectively. But Claude Fable 5.2 scores 94.9%, putting it in the lead instead.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xs1s3s/fable_52_and_jagged_agi/",
-          "publishedAt": "2026-11-09T19:51:08.000Z",
-          "publishedAtKst": "2026. 11. 10. 04:51",
-          "summary": "&#32; submitted by &#32; /u/japie06 [link] &#32; [comments]",
-          "impact": 14,
-          "confidence": 48,
+          "url": "https://www.reddit.com/r/singularity/comments/1xstr95/gemini_4_argon_and_carbon_score_917_and_926_on/",
+          "publishedAt": "2026-11-10T17:57:58.000Z",
+          "publishedAtKst": "2026. 11. 11. 02:57",
+          "summary": "&#32; submitted by &#32; /u/Profanion [link] &#32; [comments]",
+          "impact": 16,
+          "confidence": 50,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "Gemini",
+            "Claude"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step. With the same setup, Opus 5.5 completed only 26% in 18 hours, and barely made any more progress after 30 hours.",
-          "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xs0tk3/a_team_of_1000_fable_52_agents_fully_formalized/",
-          "publishedAt": "2026-11-09T19:16:14.000Z",
-          "publishedAtKst": "2026. 11. 10. 04:16",
-          "summary": "&#32; submitted by &#32; /u/likeastar20 [link] &#32; [comments]",
-          "impact": 13,
-          "confidence": 48,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "컴퓨트"
-          ],
-          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -462,41 +466,41 @@
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.12799v1",
-      "impact": 36,
-      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.12791v1",
       "impact": 36,
       "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.12799v1",
+      "impact": 34,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "Dario Amodei Says Cancer, Alzheimer’s, Heart Disease, and Mental Illness Will Be Relics of the Past in Less Than a Decade, and That “We Can Create an Age of Miracles”",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xst0g2/dario_amodei_says_cancer_alzheimers_heart_disease/",
+      "impact": -1,
+      "reason": "규제, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
-      "impact": 1,
+      "impact": 2,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "OptiCover: A Scalable and Multi-Surface Framework for Cold-Start Visual Optimization under Semantic Constraints",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.12727v1",
-      "impact": 2,
+      "impact": 3,
       "reason": "정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.12760v1",
-      "impact": 4,
-      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
