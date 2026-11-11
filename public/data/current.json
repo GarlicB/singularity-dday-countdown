@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-11T10:01:22.942Z",
-  "generatedAtKst": "2026. 11. 11. 19:01",
-  "nextUpdateAt": "2026-11-11T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 12. 00:00",
+  "generatedAt": "2026-11-11T21:39:08.938Z",
+  "generatedAtKst": "2026. 11. 12. 06:39",
+  "nextUpdateAt": "2026-11-12T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 12. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -25,9 +25,9 @@
     "score": 83,
     "temperature": 59,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 58,
+    "hotCount": 62,
     "coldCount": 6,
-    "summary": "가속 신호 58건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 62건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,30 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 79,
-      "delta": 7,
+      "score": 80,
+      "delta": 8,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "publishedAt": "2026-11-11T18:00:00.000Z",
+          "publishedAtKst": "2026. 11. 12. 03:00",
+          "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "모델",
+            "멀티모달",
+            "SOTA"
+          ],
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "ChatGPT Plus for veterans and servicemembers",
           "source": "OpenAI News",
@@ -84,7 +102,7 @@
           "publishedAt": "2026-11-11T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 11. 17:00",
           "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-          "impact": 23,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -100,7 +118,7 @@
           "publishedAt": "2026-11-10T12:02:28.000Z",
           "publishedAtKst": "2026. 11. 10. 21:02",
           "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-          "impact": 22,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -116,7 +134,7 @@
           "publishedAt": "2026-11-10T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 10. 21:00",
           "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-          "impact": 21,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -132,22 +150,6 @@
           "publishedAt": "2026-11-10T10:00:00.000Z",
           "publishedAtKst": "2026. 11. 10. 19:00",
           "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-          "impact": 20,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "ChatGPT Enterprise now available in AWS Marketplace",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-          "publishedAt": "2026-11-09T19:00:00.000Z",
-          "publishedAtKst": "2026. 11. 10. 04:00",
-          "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
           "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
@@ -163,10 +165,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 82,
+      "score": 80,
       "delta": 8,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -212,7 +214,7 @@
           "publishedAt": "2026-11-08T13:39:02.000Z",
           "publishedAtKst": "2026. 11. 08. 22:39",
           "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
-          "impact": 32,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -230,7 +232,7 @@
           "publishedAt": "2026-11-11T00:18:16.000Z",
           "publishedAtKst": "2026. 11. 11. 09:18",
           "summary": "This post reflects my own takes, and not that of my employer's. This is a simple idea: before a new model can be deployed internally, you must first test it for a minimum, fixed period. You can adjust various axes of thi",
-          "impact": 24,
+          "impact": 22,
           "confidence": 82,
           "stance": "decelerate",
           "tags": [
@@ -248,8 +250,8 @@
           "publishedAt": "2026-11-09T18:02:01.000Z",
           "publishedAtKst": "2026. 11. 10. 03:02",
           "summary": "(Thanks to @Goutham Nalagatla for discussion and for sitting with me and talking about it while I wrote it.) METR recently released a report estimating that Anthropic is getting an overall 1.7x acceleration in AI capabil",
-          "impact": 22,
-          "confidence": 80,
+          "impact": 20,
+          "confidence": 77,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -265,7 +267,7 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 91,
+      "score": 88,
       "delta": 10,
       "weight": 0.28,
       "confidence": 92,
@@ -296,7 +298,7 @@
           "publishedAt": "2026-11-10T18:55:01.000Z",
           "publishedAtKst": "2026. 11. 11. 03:55",
           "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied do",
-          "impact": 33,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -314,7 +316,7 @@
           "publishedAt": "2026-11-10T18:06:16.000Z",
           "publishedAtKst": "2026. 11. 11. 03:06",
           "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the sol",
-          "impact": 33,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -332,7 +334,7 @@
           "publishedAt": "2026-11-10T18:59:17.000Z",
           "publishedAtKst": "2026. 11. 11. 03:59",
           "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical l",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -350,7 +352,7 @@
           "publishedAt": "2026-11-10T18:49:47.000Z",
           "publishedAtKst": "2026. 11. 11. 03:49",
           "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose ",
-          "impact": 31,
+          "impact": 28,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -367,21 +369,39 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 78,
-      "delta": 7,
+      "score": 82,
+      "delta": 8,
       "weight": 0.2,
-      "confidence": 60,
+      "confidence": 59,
       "trend": "hot",
       "items": [
+        {
+          "title": "The hall of fame as of november 2026",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xtli1c/the_hall_of_fame_as_of_november_2026/",
+          "publishedAt": "2026-11-11T16:01:06.000Z",
+          "publishedAtKst": "2026. 11. 12. 01:01",
+          "summary": "no need to talk about the first 3, Opus 5.5 may look like recency bias but it came out september 22 and: 1)crushed every single competitor 2)after this model we had 9 releases from openAI , GOOGLE and Meta and more than ",
+          "impact": 36,
+          "confidence": 58,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "GPT",
+            "Gemini"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
           "source": "Hacker News",
           "url": "https://github.com/GoogleChrome/modern-web-guidance",
           "publishedAt": "2026-11-10T18:01:15.000Z",
           "publishedAtKst": "2026. 11. 11. 03:01",
-          "summary": "367 points, 109 comments",
-          "impact": 25,
-          "confidence": 64,
+          "summary": "423 points, 140 comments",
+          "impact": 23,
+          "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -390,22 +410,38 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Would you pick your strongest model to coordinate other agents? Results from WorkflowArena [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
-          "publishedAt": "2026-11-11T05:25:43.000Z",
-          "publishedAtKst": "2026. 11. 11. 14:25",
-          "summary": "Suppose you’re putting together a team of agents. Picking the strongest model as the coordinator seems reasonable. We wanted to test whether its workflows would actually help other models do the work. In one experiment, ",
-          "impact": 25,
+          "title": "Google DeepMind unveils AlphaGenome 2, an AI model that predicts how DNA changes affect different types of cells",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xtkckl/google_deepmind_unveils_alphagenome_2_an_ai_model/",
+          "publishedAt": "2026-11-11T15:16:43.000Z",
+          "publishedAtKst": "2026. 11. 12. 00:16",
+          "summary": "Another day, another ship by GDM. Yesterday they unveiled AlphaProof Code and Gemini Robotics 2.5 and Google rolled out Gemini 4 Carbon to developers. Today they announced AlphaGenome 2. The blog post is an interesting r",
+          "impact": 22,
+          "confidence": 56,
+          "stance": "accelerate",
+          "tags": [
+            "Gemini",
+            "모델",
+            "벤치마크",
+            "로보틱스"
+          ],
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+          "source": "Hacker News",
+          "url": "https://github.com/klad-app/klad",
+          "publishedAt": "2026-11-11T16:00:50.000Z",
+          "publishedAtKst": "2026. 11. 12. 01:00",
+          "summary": "65 points, 28 comments",
+          "impact": 20,
           "confidence": 61,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "GPT",
-            "모델",
-            "벤치마크"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "The Multimodal Knowledge Agent Benchmark",
@@ -414,8 +450,8 @@
           "publishedAt": "2026-11-10T16:12:21.000Z",
           "publishedAtKst": "2026. 11. 11. 01:12",
           "summary": "2 points, 1 comments",
-          "impact": 19,
-          "confidence": 60,
+          "impact": 17,
+          "confidence": 58,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -423,40 +459,6 @@
             "멀티모달"
           ],
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing Usul - an easier way to express your NN using maths? [P]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xsmmfm/introducing_usul_an_easier_way_to_express_your_nn/",
-          "publishedAt": "2026-11-10T13:15:51.000Z",
-          "publishedAtKst": "2026. 11. 10. 22:15",
-          "summary": "SO, Usul-cpp is a library I've written in C++, it is based around allowing data scientists to create their models without heavy libraries such as tensorflow, and just express their models using maths, and Usul will handl",
-          "impact": 16,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "LLM",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "Gemini, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: Zeus – Claude Code for AI voice agents",
-          "source": "Hacker News",
-          "url": "https://thunderphone.com/blog/introducing-zeus",
-          "publishedAt": "2026-11-10T20:20:03.000Z",
-          "publishedAtKst": "2026. 11. 11. 05:20",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude"
-          ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
@@ -477,11 +479,11 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.14511v1",
+      "title": "The hall of fame as of november 2026",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xtli1c/the_hall_of_fame_as_of_november_2026/",
       "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
