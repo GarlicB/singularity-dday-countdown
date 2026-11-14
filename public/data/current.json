@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T21:05:10.202Z",
-  "generatedAtKst": "2026. 11. 14. 06:05",
-  "nextUpdateAt": "2026-11-14T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 14. 12:00",
+  "generatedAt": "2026-11-14T09:38:15.863Z",
+  "generatedAtKst": "2026. 11. 14. 18:38",
+  "nextUpdateAt": "2026-11-14T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 15. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2031,
+    "rangeEnd": "2039-09-22",
+    "dday": 2165,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 52,
-    "coldCount": 11,
-    "summary": "가속 신호 52건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 48,
+    "coldCount": 10,
+    "summary": "가속 신호 48건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 80,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-13T15:00:00.000Z",
           "publishedAtKst": "2026. 11. 14. 00:00",
           "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-          "impact": 29,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-12T20:00:00.000Z",
           "publishedAtKst": "2026. 11. 13. 05:00",
           "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-          "impact": 25,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-11-11T18:00:00.000Z",
           "publishedAtKst": "2026. 11. 12. 03:00",
           "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-          "impact": 22,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -136,7 +136,7 @@
           "publishedAt": "2026-11-12T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 12. 21:00",
           "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-          "impact": 19,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -146,20 +146,19 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "ChatGPT Plus for veterans and servicemembers",
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-          "publishedAt": "2026-11-11T08:00:00.000Z",
-          "publishedAtKst": "2026. 11. 11. 17:00",
-          "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-          "impact": 16,
+          "url": "https://openai.com/business/customer-stories/shield",
+          "publishedAt": "2026-11-13T08:00:00.000Z",
+          "publishedAtKst": "2026. 11. 13. 17:00",
+          "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT"
+            "에이전트"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -167,10 +166,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 73,
-      "delta": 6,
+      "score": 70,
+      "delta": 5,
       "weight": 0.18,
-      "confidence": 82,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -180,7 +179,7 @@
           "publishedAt": "2026-11-11T09:49:37.000Z",
           "publishedAtKst": "2026. 11. 11. 18:49",
           "summary": "I used to think of \"automating alignment\" as a natural category. But when I tried to think through the strategic implications, I realised that it depends a lot on the type of work. I'm now thinking of it in three buckets",
-          "impact": 31,
+          "impact": 26,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -192,13 +191,13 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+          "title": "Notes on Take-Off Speeds and RSI",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/f9PajMLmBYzmWzyDv/q3-5-timelines-update-looks-like-the-intelligence-explosion",
-          "publishedAt": "2026-11-10T16:30:09.000Z",
-          "publishedAtKst": "2026. 11. 11. 01:30",
-          "summary": "We want to get this post out quickly given the urgency of the topic. It’s possible that there are some errors in the modeling, but we think it’s very unlikely that they undermine the high level conclusions. We would love",
-          "impact": 23,
+          "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+          "publishedAt": "2026-11-08T13:39:02.000Z",
+          "publishedAtKst": "2026. 11. 08. 22:39",
+          "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
+          "impact": 19,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -210,13 +209,13 @@
           "why": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Notes on Take-Off Speeds and RSI",
+          "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
           "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
-          "publishedAt": "2026-11-08T13:39:02.000Z",
-          "publishedAtKst": "2026. 11. 08. 22:39",
-          "summary": "I created these notes for use when I facilitate AI safety courses. I'm sharing these notes early because this issue is topical and I suspect it is better to make an imperfect version available early rather than a much mo",
-          "impact": 19,
+          "url": "https://www.alignmentforum.org/posts/f9PajMLmBYzmWzyDv/q3-5-timelines-update-looks-like-the-intelligence-explosion",
+          "publishedAt": "2026-11-10T16:30:09.000Z",
+          "publishedAtKst": "2026. 11. 11. 01:30",
+          "summary": "We want to get this post out quickly given the urgency of the topic. It’s possible that there are some errors in the modeling, but we think it’s very unlikely that they undermine the high level conclusions. We would love",
+          "impact": 18,
           "confidence": 82,
           "stance": "accelerate",
           "tags": [
@@ -252,8 +251,8 @@
           "publishedAt": "2026-11-11T00:18:16.000Z",
           "publishedAtKst": "2026. 11. 11. 09:18",
           "summary": "This post reflects my own takes, and not that of my employer's. This is a simple idea: before a new model can be deployed internally, you must first test it for a minimum, fixed period. You can adjust various axes of thi",
-          "impact": 14,
-          "confidence": 81,
+          "impact": 12,
+          "confidence": 79,
           "stance": "decelerate",
           "tags": [
             "에이전트",
@@ -269,10 +268,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 84,
-      "delta": 9,
+      "score": 82,
+      "delta": 8,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 91,
       "trend": "hot",
       "items": [
         {
@@ -282,7 +281,7 @@
           "publishedAt": "2026-11-12T18:55:56.000Z",
           "publishedAtKst": "2026. 11. 13. 03:55",
           "summary": "Local Binary Patterns (LBP) remain among the most widely used texture descriptors, from industrial inspection to medical imaging. Yet their radius, sampling angles, color transform and thresholds are fixed by hand for ea",
-          "impact": 28,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -300,8 +299,8 @@
           "publishedAt": "2026-11-12T18:28:08.000Z",
           "publishedAtKst": "2026. 11. 13. 03:28",
           "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more power",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 25,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -317,8 +316,8 @@
           "publishedAt": "2026-11-12T18:02:53.000Z",
           "publishedAtKst": "2026. 11. 13. 03:02",
           "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks ",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -334,8 +333,8 @@
           "publishedAt": "2026-11-12T18:59:52.000Z",
           "publishedAtKst": "2026. 11. 13. 03:59",
           "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi r",
-          "impact": 25,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -352,8 +351,8 @@
           "publishedAt": "2026-11-12T18:54:42.000Z",
           "publishedAtKst": "2026. 11. 13. 03:54",
           "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessi",
-          "impact": 24,
-          "confidence": 92,
+          "impact": 22,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -369,29 +368,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 75,
-      "delta": 6,
+      "score": 66,
+      "delta": 4,
       "weight": 0.2,
-      "confidence": 57,
+      "confidence": 49,
       "trend": "hot",
       "items": [
-        {
-          "title": "Cooperation Between Autonomous LLM Agents in the Prisoner's Dilemma",
-          "source": "Hacker News",
-          "url": "https://www.researchgate.net/publication/417439900_Cooperation_Between_Autonomous_LLM_Agents_in_the_Repeated_Prisoner%27s_Dilemma_Exploitation_Cheap_Talk_and_Reputation",
-          "publishedAt": "2026-11-13T20:46:58.000Z",
-          "publishedAtKst": "2026. 11. 14. 05:46",
-          "summary": "1 points, 1 comments",
-          "impact": 22,
-          "confidence": 63,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "자율성",
-            "LLM"
-          ],
-          "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Some Benchmarks Where Humans Still Beat Frontier LLMs",
           "source": "r/singularity",
@@ -399,8 +381,8 @@
           "publishedAt": "2026-11-13T16:30:55.000Z",
           "publishedAtKst": "2026. 11. 14. 01:30",
           "summary": "ClockBench : reading analog clocks. Humanity's Sixth Sense : intuitive physical reasoning and common-sense understanding of real-world events ActiveVision : interactive visual reasoning through active observation and spa",
-          "impact": 20,
-          "confidence": 53,
+          "impact": 18,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -410,14 +392,14 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Harness Relay – the coding agents you have, working together",
+          "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
           "source": "Hacker News",
-          "url": "https://agentic-system-lab.github.io/harness-relay/",
-          "publishedAt": "2026-11-13T21:01:02.000Z",
-          "publishedAtKst": "2026. 11. 14. 06:01",
-          "summary": "1 points, 0 comments",
-          "impact": 19,
-          "confidence": 60,
+          "url": "https://github.com/klad-app/klad",
+          "publishedAt": "2026-11-11T16:00:50.000Z",
+          "publishedAtKst": "2026. 11. 12. 01:00",
+          "summary": "83 points, 34 comments",
+          "impact": 12,
+          "confidence": 51,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -426,20 +408,19 @@
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
-          "source": "Hacker News",
-          "url": "https://github.com/klad-app/klad",
-          "publishedAt": "2026-11-11T16:00:50.000Z",
-          "publishedAtKst": "2026. 11. 12. 01:00",
-          "summary": "83 points, 34 comments",
-          "impact": 14,
-          "confidence": 53,
+          "title": "Recursive self-improvement has started",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xvje07/recursive_selfimprovement_has_started/",
+          "publishedAt": "2026-11-13T20:52:36.000Z",
+          "publishedAtKst": "2026. 11. 14. 05:52",
+          "summary": "&#32; submitted by &#32; /u/Mindrust [link] &#32; [comments]",
+          "impact": 12,
+          "confidence": 47,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "코딩 에이전트"
+            "자기개선"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Run a large language model on your iPhone. No internet is needed",
@@ -448,62 +429,78 @@
           "publishedAt": "2026-11-13T20:11:24.000Z",
           "publishedAtKst": "2026. 11. 14. 05:11",
           "summary": "2 points, 1 comments",
-          "impact": 12,
-          "confidence": 55,
-          "stance": "accelerate",
+          "impact": 11,
+          "confidence": 53,
+          "stance": "watch",
           "tags": [
             "LLM",
             "모델"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "OpenAI disbands its stand-alone robotics team as its general-purpose AI models start running robots",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xvgyfd/openai_disbands_its_standalone_robotics_team_as/",
+          "publishedAt": "2026-11-13T19:17:47.000Z",
+          "publishedAtKst": "2026. 11. 14. 04:17",
+          "summary": "That was quick. &#32; submitted by &#32; /u/NowThatsMalarkey [link] &#32; [comments]",
+          "impact": 9,
+          "confidence": 44,
+          "stance": "watch",
+          "tags": [
+            "모델",
+            "로보틱스"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "How I'm thinking about different types of automated alignment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
-      "impact": 31,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Introducing ChatGPT Wallet",
       "source": "OpenAI News",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "impact": 29,
+      "impact": 27,
       "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "How I'm thinking about different types of automated alignment",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
+      "impact": 26,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.17302v1",
-      "impact": 28,
+      "impact": 25,
       "reason": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
     {
+      "title": "The FAA rolled out its $875 million AI Air Traffic tool today with reassurances it would not affect safety",
+      "source": "r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1xvl00y/the_faa_rolled_out_its_875_million_ai_air_traffic/",
+      "impact": -2,
+      "reason": "안전 이슈 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
       "title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.17191v1",
-      "impact": 0,
+      "impact": 1,
       "reason": "전력 병목, 기대 이하 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "US intel isn’t sure if businesswoman spied on Nvidia for China, doesn’t mean she wasn’t a risk, sources say",
-      "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1xuydzd/us_intel_isnt_sure_if_businesswoman_spied_on/",
-      "impact": 1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.17214v1",
-      "impact": 2,
-      "reason": "지연 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Ajeya: AI is dramatically accelerating AI research right now",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
+      "impact": 4,
+      "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
