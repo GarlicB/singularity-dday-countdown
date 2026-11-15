@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-15T10:09:24.742Z",
-  "generatedAtKst": "2026. 11. 15. 19:09",
-  "nextUpdateAt": "2026-11-15T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 16. 00:00",
+  "generatedAt": "2026-11-15T20:01:42.877Z",
+  "generatedAtKst": "2026. 11. 16. 05:01",
+  "nextUpdateAt": "2026-11-15T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 16. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,18 +12,18 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-03-02",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-02-04",
-    "dday": 2299,
+    "rangeEnd": "2039-12-21",
+    "dday": 2254,
     "confidence": 76,
-    "deltaDays": -34,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 73,
-    "temperature": 51,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 42,
     "coldCount": 10,
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 75,
+      "score": 74,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-13T15:00:00.000Z",
           "publishedAtKst": "2026. 11. 14. 00:00",
           "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-          "impact": 23,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-12T20:00:00.000Z",
           "publishedAtKst": "2026. 11. 13. 05:00",
           "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-          "impact": 19,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -118,7 +118,7 @@
           "publishedAt": "2026-11-12T12:00:00.000Z",
           "publishedAtKst": "2026. 11. 12. 21:00",
           "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -134,7 +134,7 @@
           "publishedAt": "2026-11-11T18:00:00.000Z",
           "publishedAtKst": "2026. 11. 12. 03:00",
           "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-          "impact": 15,
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -152,7 +152,7 @@
           "publishedAt": "2026-11-13T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 13. 17:00",
           "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-          "impact": 14,
+          "impact": 13,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 77,
-      "delta": 7,
+      "score": 74,
+      "delta": 6,
       "weight": 0.28,
-      "confidence": 85,
+      "confidence": 82,
       "trend": "hot",
       "items": [
         {
@@ -279,8 +279,8 @@
           "publishedAt": "2026-11-12T18:55:56.000Z",
           "publishedAtKst": "2026. 11. 13. 03:55",
           "summary": "Local Binary Patterns (LBP) remain among the most widely used texture descriptors, from industrial inspection to medical imaging. Yet their radius, sampling angles, color transform and thresholds are fixed by hand for ea",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -297,8 +297,8 @@
           "publishedAt": "2026-11-12T18:28:08.000Z",
           "publishedAtKst": "2026. 11. 13. 03:28",
           "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more power",
-          "impact": 19,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -308,31 +308,14 @@
           "why": "AGI, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.17199v1",
-          "publishedAt": "2026-11-12T18:02:53.000Z",
-          "publishedAtKst": "2026. 11. 13. 03:02",
-          "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks ",
-          "impact": 19,
-          "confidence": 85,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "벤치마크",
-            "SOTA"
-          ],
-          "why": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.17332v1",
           "publishedAt": "2026-11-12T18:59:52.000Z",
           "publishedAtKst": "2026. 11. 13. 03:59",
           "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi r",
-          "impact": 18,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -343,14 +326,31 @@
           "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.17199v1",
+          "publishedAt": "2026-11-12T18:02:53.000Z",
+          "publishedAtKst": "2026. 11. 13. 03:02",
+          "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks ",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "벤치마크",
+            "SOTA"
+          ],
+          "why": "AGI, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.17294v1",
           "publishedAt": "2026-11-12T18:54:42.000Z",
           "publishedAtKst": "2026. 11. 13. 03:54",
           "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessi",
-          "impact": 17,
-          "confidence": 84,
+          "impact": 15,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -366,108 +366,110 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 67,
-      "delta": 4,
+      "score": 74,
+      "delta": 6,
       "weight": 0.2,
-      "confidence": 51,
+      "confidence": 50,
       "trend": "hot",
       "items": [
         {
-          "title": "OpenAI Hasn't Released A Frontier Model In 72 days. Is OpenAI Saving A New Model To Sabotage Anthropic's IPO?",
+          "title": "Gemini 4 Hydrogen just DESTROYED Claude Fable 5.2 & all other models in the latest benchmark.",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xw8ym5/openai_hasnt_released_a_frontier_model_in_72_days/",
-          "publishedAt": "2026-11-14T18:05:12.000Z",
-          "publishedAtKst": "2026. 11. 15. 03:05",
-          "summary": "It's been 72 days since the release of GPT-6 Astra, a model that a few of OpenAI execs like President Brockman Heralded as the start of the \"AGI Era.\" Just 19 days later, Anthropic released Opus 5.5, which has arguably r",
-          "impact": 35,
-          "confidence": 58,
+          "url": "https://www.reddit.com/r/singularity/comments/1xwvg9b/gemini_4_hydrogen_just_destroyed_claude_fable_52/",
+          "publishedAt": "2026-11-15T13:25:45.000Z",
+          "publishedAtKst": "2026. 11. 15. 22:25",
+          "summary": "&#32; submitted by &#32; /u/Pixelied [link] &#32; [comments]",
+          "impact": 24,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
-            "AGI",
-            "프런티어 모델",
-            "GPT",
-            "Gemini"
+            "Gemini",
+            "Claude",
+            "모델",
+            "벤치마크"
           ],
-          "why": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "What ECI score do you expect for the impending Astra & Sol releases?",
+          "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xwidfr/what_eci_score_do_you_expect_for_the_impending/",
-          "publishedAt": "2026-11-15T01:00:13.000Z",
-          "publishedAtKst": "2026. 11. 15. 10:00",
-          "summary": "Astra and/or Sol are expected to be released soon due to the long wait since the last OpenAI frontier model & the incoming Anthropic IPO. (This is speculation, though). What ECI would you predict? Obviously needs to be 1",
-          "impact": 13,
+          "url": "https://www.reddit.com/r/singularity/comments/1xwczk8/chatgpts_new_wallet_lets_ai_agents_shop_and_check/",
+          "publishedAt": "2026-11-14T20:52:09.000Z",
+          "publishedAtKst": "2026. 11. 15. 05:52",
+          "summary": "&#32; submitted by &#32; /u/SnoozeDoggyDog [link] &#32; [comments]",
+          "impact": 19,
+          "confidence": 52,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "In the early stages of Cadence, an open-source neural network architecture developed by Pragma Research, which sees to bring AGI to reality, here is a demo of a talking parrot who answers questions and shows memory",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xwzc1r/in_the_early_stages_of_cadence_an_opensource/",
+          "publishedAt": "2026-11-15T16:12:08.000Z",
+          "publishedAtKst": "2026. 11. 16. 01:12",
+          "summary": "https://github.com/muellerberndt/cadence https://cadence.floatingpragma.ai/ &#32; submitted by &#32; /u/harrydong [link] &#32; [comments]",
+          "impact": 15,
+          "confidence": 49,
+          "stance": "accelerate",
+          "tags": [
+            "AGI"
+          ],
+          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "For years now, the internal monologues of Gemini models have always been so dramatic. Is it performative (because it knows we can read it), or is there something more going on here?",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xx21py/for_years_now_the_internal_monologues_of_gemini/",
+          "publishedAt": "2026-11-15T17:57:27.000Z",
+          "publishedAtKst": "2026. 11. 16. 02:57",
+          "summary": "&#32; submitted by &#32; /u/PressPlayPlease7 [link] &#32; [comments]",
+          "impact": 12,
           "confidence": 48,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
+            "Gemini",
             "모델"
           ],
-          "why": "프런티어 모델, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Testing with Agents in Apple platform development [video]",
-          "source": "Hacker News",
-          "url": "https://vimeo.com/1246961072",
-          "publishedAt": "2026-11-15T08:14:40.000Z",
-          "publishedAtKst": "2026. 11. 15. 17:14",
-          "summary": "2 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Is the Hugging Face acquisition still on? Who is the new face of the Open Model / Open weights ecosystem now that Jensen is gone from NVIDIA?",
+          "title": "Claude wrote and trained a language model for DOS that fits on a floppy disk",
           "source": "r/singularity",
-          "url": "https://www.reddit.com/r/singularity/comments/1xwm3ai/is_the_hugging_face_acquisition_still_on_who_is/",
-          "publishedAt": "2026-11-15T04:15:42.000Z",
-          "publishedAtKst": "2026. 11. 15. 13:15",
-          "summary": "&#32; submitted by &#32; /u/Traditional-Chip8339 [link] &#32; [comments]",
-          "impact": 10,
-          "confidence": 45,
-          "stance": "watch",
+          "url": "https://www.reddit.com/r/singularity/comments/1xwvaq9/claude_wrote_and_trained_a_language_model_for_dos/",
+          "publishedAt": "2026-11-15T13:18:24.000Z",
+          "publishedAtKst": "2026. 11. 15. 22:18",
+          "summary": "&#32; submitted by &#32; /u/Background-Wafer-548 [link] &#32; [comments]",
+          "impact": 12,
+          "confidence": 47,
+          "stance": "accelerate",
           "tags": [
-            "모델",
-            "오픈 모델"
+            "Claude",
+            "모델"
           ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: A browser RTS where you play alongside your local agents",
-          "source": "Hacker News",
-          "url": "https://agentcommand.gg/",
-          "publishedAt": "2026-11-14T16:51:53.000Z",
-          "publishedAtKst": "2026. 11. 15. 01:51",
-          "summary": "2 points, 0 comments",
-          "impact": 9,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+          "why": "Claude, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "OpenAI Hasn't Released A Frontier Model In 72 days. Is OpenAI Saving A New Model To Sabotage Anthropic's IPO?",
+      "title": "Gemini 4 Hydrogen just DESTROYED Claude Fable 5.2 & all other models in the latest benchmark.",
       "source": "r/singularity",
-      "url": "https://www.reddit.com/r/singularity/comments/1xw8ym5/openai_hasnt_released_a_frontier_model_in_72_days/",
-      "impact": 35,
-      "reason": "AGI, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "https://www.reddit.com/r/singularity/comments/1xwvg9b/gemini_4_hydrogen_just_destroyed_claude_fable_52/",
+      "impact": 24,
+      "reason": "Gemini, Claude 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Introducing ChatGPT Wallet",
       "source": "OpenAI News",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "impact": 23,
+      "impact": 21,
       "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
@@ -480,11 +482,11 @@
   ],
   "topDampeners": [
     {
-      "title": "Skyfall Attack: Microarchitectural Data Sampling on AMD",
+      "title": "Prompt Injection Attacks in Large Language Model Systems",
       "source": "Hacker News",
-      "url": "https://skyfall-attack.github.io/",
-      "impact": -4,
-      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+      "url": "https://zenodo.org/records/21357273",
+      "impact": -9,
+      "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
