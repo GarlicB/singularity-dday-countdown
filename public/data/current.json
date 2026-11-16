@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-16T10:21:55.559Z",
-  "generatedAtKst": "2026. 11. 16. 19:21",
-  "nextUpdateAt": "2026-11-16T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 17. 00:00",
+  "generatedAt": "2026-11-16T23:34:53.544Z",
+  "generatedAtKst": "2026. 11. 17. 08:34",
+  "nextUpdateAt": "2026-11-17T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 17. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-09-03",
+    "medianDate": "2032-10-18",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-08-08",
-    "dday": 2118,
+    "rangeEnd": "2039-09-22",
+    "dday": 2163,
     "confidence": 76,
-    "deltaDays": -40,
+    "deltaDays": -39,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 77,
-    "temperature": 54,
+    "score": 76,
+    "temperature": 53,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 43,
-    "coldCount": 9,
-    "summary": "가속 신호 43건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 40,
+    "coldCount": 8,
+    "summary": "가속 신호 40건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     }
   ],
@@ -71,20 +71,56 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 76,
-      "delta": 7,
+      "score": 83,
+      "delta": 8,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "title": "Broadening access to AI for scientists",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "publishedAtKst": "2026. 11. 16. 18:00",
-          "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-          "impact": 23,
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "publishedAtKst": "2026. 11. 17. 02:00",
+          "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "ChatGPT",
+            "GPT",
+            "모델"
+          ],
+          "why": "프런티어 모델, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "More ways to move care forward with ChatGPT for Healthcare",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "publishedAt": "2026-11-16T06:00:00.000Z",
+          "publishedAtKst": "2026. 11. 16. 15:00",
+          "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "ChatGPT",
+            "GPT",
+            "컴퓨트"
+          ],
+          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "publishedAtKst": "2026. 11. 16. 21:00",
+          "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "impact": 22,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -94,72 +130,36 @@
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "A step toward defining the Standard Model on a lattice",
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-          "publishedAt": "2026-11-15T22:00:01.000Z",
-          "publishedAtKst": "2026. 11. 16. 07:00",
-          "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-          "impact": 19,
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "publishedAt": "2026-11-16T09:00:00.000Z",
+          "publishedAtKst": "2026. 11. 16. 18:00",
+          "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "모델"
-          ],
-          "why": "GPT, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Introducing ChatGPT Wallet",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet",
-          "publishedAt": "2026-11-13T15:00:00.000Z",
-          "publishedAtKst": "2026. 11. 14. 00:00",
-          "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-          "impact": 19,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
             "ChatGPT",
             "GPT"
           ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "title": "Advancing computer-use agents for healthcare teams",
           "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/amplitude",
-          "publishedAt": "2026-11-12T20:00:00.000Z",
-          "publishedAtKst": "2026. 11. 13. 05:00",
-          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-          "impact": 15,
+          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "publishedAt": "2026-11-16T06:00:00.000Z",
+          "publishedAtKst": "2026. 11. 16. 15:00",
+          "summary": "",
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "코딩 에이전트",
-            "모델"
+            "컴퓨트"
           ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "publishedAt": "2026-11-11T18:00:00.000Z",
-          "publishedAtKst": "2026. 11. 12. 03:00",
-          "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "Gemini",
-            "모델",
-            "멀티모달",
-            "SOTA"
-          ],
-          "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -170,7 +170,7 @@
       "score": 72,
       "delta": 6,
       "weight": 0.18,
-      "confidence": 84,
+      "confidence": 81,
       "trend": "hot",
       "items": [
         {
@@ -246,18 +246,19 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-          "source": "METR",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-          "publishedAt": "2026-08-26T07:00:00.000Z",
-          "publishedAtKst": "2026. 08. 26. 16:00",
-          "summary": "",
+          "title": "Meta Superintelligence &#8211; Leadership Compute, Talent, and Data",
+          "source": "SemiAnalysis",
+          "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+          "publishedAt": "2025-07-11T20:12:19.000Z",
+          "publishedAtKst": "2025. 07. 12. 05:12",
+          "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation ",
           "impact": 11,
-          "confidence": 91,
+          "confidence": 77,
           "stance": "watch",
           "tags": [
-            "에이전트",
-            "추론"
+            "초지능",
+            "모델",
+            "컴퓨트"
           ],
           "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
@@ -267,10 +268,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 81,
-      "delta": 8,
+      "score": 77,
+      "delta": 7,
       "weight": 0.28,
-      "confidence": 88,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -280,8 +281,8 @@
           "publishedAt": "2026-11-13T18:59:02.000Z",
           "publishedAtKst": "2026. 11. 14. 03:59",
           "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable",
-          "impact": 32,
-          "confidence": 92,
+          "impact": 26,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -298,8 +299,8 @@
           "publishedAt": "2026-11-13T18:58:08.000Z",
           "publishedAtKst": "2026. 11. 14. 03:58",
           "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks fr",
-          "impact": 26,
-          "confidence": 91,
+          "impact": 21,
+          "confidence": 86,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -316,8 +317,8 @@
           "publishedAt": "2026-11-13T18:20:23.000Z",
           "publishedAtKst": "2026. 11. 14. 03:20",
           "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing e",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -328,32 +329,14 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Towards Explainable Sleep Stage Classification using Single-Channel Electroencephalogram",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.18434v1",
-          "publishedAt": "2026-11-13T17:13:23.000Z",
-          "publishedAtKst": "2026. 11. 14. 02:13",
-          "summary": "Automated sleep staging has achieved strong bench- mark accuracy; however, clinical adoption remains limited due to a lack of interpretability. In this work, we fill the research gap by extending the SleepXAI sleep stagi",
-          "impact": 19,
-          "confidence": 86,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "모델",
-            "벤치마크",
-            "성능 향상"
-          ],
-          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.18493v1",
           "publishedAt": "2026-11-13T18:05:23.000Z",
           "publishedAtKst": "2026. 11. 14. 03:05",
           "summary": "Autonomous trading agents need controls that prevent problematic orders without making legitimate tasks impractical. We study this aspect of agentic compliance with TradeGauntlet, a replayable limit-order-book simulator ",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -362,6 +345,24 @@
             "LLM"
           ],
           "why": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Towards Explainable Sleep Stage Classification using Single-Channel Electroencephalogram",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.18434v1",
+          "publishedAt": "2026-11-13T17:13:23.000Z",
+          "publishedAtKst": "2026. 11. 14. 02:13",
+          "summary": "Automated sleep staging has achieved strong bench- mark accuracy; however, clinical adoption remains limited due to a lack of interpretability. In this work, we fill the research gap by extending the SleepXAI sleep stagi",
+          "impact": 16,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -369,65 +370,43 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 80,
-      "delta": 8,
+      "score": 68,
+      "delta": 5,
       "weight": 0.2,
-      "confidence": 59,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Training-free early exit for reasoning models: a linear probe folded into the row of the output layer [p]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1xdm/trainingfree_early_exit_for_reasoning_models_a/",
-          "publishedAt": "2026-11-15T17:52:41.000Z",
-          "publishedAtKst": "2026. 11. 16. 02:52",
-          "summary": "Reasoning models often reach the right answer early and then keep double-checking it for thousands of tokens. I got the model to stop at that point by changing a single row of weights. There's no training and no extra co",
-          "impact": 36,
-          "confidence": 62,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "추론",
-            "LLM",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "[Meta FAIR + NYU] Unbundling Multimodal Vision Encoding: training 200+ MLLMs to find encoder pretraining is optional but vision-only parameters are not [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/",
-          "publishedAt": "2026-11-15T17:38:16.000Z",
-          "publishedAtKst": "2026. 11. 16. 02:38",
-          "summary": "X threads (with videos!): https://x.com/choang333/status/2121335484236386574 https://x.com/_ellisbrown/status/2121335477244428419 Paper: https://www.alphaxiv.org/abs/2611.17334 Blog and FAQ: https://unbundling.github.io ",
-          "impact": 24,
+          "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+          "source": "Hacker News",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "publishedAt": "2026-11-16T22:58:20.000Z",
+          "publishedAtKst": "2026. 11. 17. 07:58",
+          "summary": "13 points, 3 comments",
+          "impact": 19,
           "confidence": 60,
           "stance": "accelerate",
           "tags": [
-            "LLM",
-            "모델",
-            "벤치마크",
-            "멀티모달"
+            "에이전트",
+            "코딩 에이전트"
           ],
-          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Social Simulation with LLMs - From Proxies to Population (CFP @ AAAI'27) Due Nov. 20 [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xxc63w/social_simulation_with_llms_from_proxies_to/",
-          "publishedAt": "2026-11-16T01:07:01.000Z",
-          "publishedAtKst": "2026. 11. 16. 10:07",
-          "summary": "Say you simulate a population of LLM agents and get polarization, norm formation or an information cascade. How do you know the population produced it, and not the prompt, the base model or something memorized from pretr",
-          "impact": 22,
-          "confidence": 62,
+          "title": "Show HN: One cloud computer for all your agents",
+          "source": "Hacker News",
+          "url": "https://box.simular.ai/",
+          "publishedAt": "2026-11-16T18:32:36.000Z",
+          "publishedAtKst": "2026. 11. 17. 03:32",
+          "summary": "4 points, 5 comments",
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM",
-            "모델",
-            "벤치마크"
+            "컴퓨트"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 컴퓨트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Show HN: A benchmark that diffs the whole database after an AI agent's task",
@@ -436,8 +415,8 @@
           "publishedAt": "2026-11-16T04:49:45.000Z",
           "publishedAtKst": "2026. 11. 16. 13:49",
           "summary": "1 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
+          "impact": 14,
+          "confidence": 56,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -446,46 +425,60 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Marimba: a System One model for speech [R]",
-          "source": "r/MachineLearning",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwzsm4/marimba_a_system_one_model_for_speech_r/",
-          "publishedAt": "2026-11-15T16:30:09.000Z",
-          "publishedAtKst": "2026. 11. 16. 01:30",
-          "summary": "Marimba is like Jev, but for audio. I built it to be fast and lightweight, and to return typed decisions about speech: yes/no, a choice, or a score. It runs on a frozen Qwen3-ASR-0.6B. Word and language questions use zer",
-          "impact": 15,
-          "confidence": 52,
-          "stance": "accelerate",
+          "title": "Gemini models at the end of the year:",
+          "source": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xxhlxf/gemini_models_at_the_end_of_the_year/",
+          "publishedAt": "2026-11-16T05:50:38.000Z",
+          "publishedAtKst": "2026. 11. 16. 14:50",
+          "summary": "&#32; submitted by &#32; /u/Awique [link] &#32; [comments]",
+          "impact": 11,
+          "confidence": 45,
+          "stance": "watch",
           "tags": [
-            "모델",
-            "벤치마크",
-            "오픈 모델"
+            "Gemini",
+            "모델"
           ],
-          "why": "모델, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "We got AI to Wombo Combo – collaborative agents in Melee",
+          "source": "Hacker News",
+          "url": "https://www.frisson-labs.com/reyn",
+          "publishedAt": "2026-11-16T23:03:19.000Z",
+          "publishedAtKst": "2026. 11. 17. 08:03",
+          "summary": "3 points, 2 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
       ]
     }
   ],
   "topDrivers": [
     {
-      "title": "Training-free early exit for reasoning models: a linear probe folded into the row of the output layer [p]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1xdm/trainingfree_early_exit_for_reasoning_models_a/",
-      "impact": 36,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Broadening access to AI for scientists",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "impact": 33,
+      "reason": "프런티어 모델, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "impact": 31,
+      "reason": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.18562v1",
-      "impact": 32,
-      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.18553v1",
       "impact": 26,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -493,15 +486,15 @@
       "title": "Prompt Injection Attacks in Large Language Model Systems",
       "source": "Hacker News",
       "url": "https://zenodo.org/records/21357273",
-      "impact": -8,
+      "impact": -6,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "Anyone working in AML / transaction monitoring / sanctions screening using ML? Looking for advice on where to start [R]",
-      "source": "r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx9za4/anyone_working_in_aml_transaction_monitoring/",
-      "impact": 1,
-      "reason": "위험 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Kava Lend guarded its interest math against zero. The attacker brought two",
+      "source": "Hacker News",
+      "url": "https://nefariousplan.com/posts/kava-lend-guarded-against-zero",
+      "impact": -4,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
