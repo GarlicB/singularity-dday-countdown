@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-18T10:53:13.527Z",
-  "generatedAtKst": "2026. 11. 18. 19:53",
-  "nextUpdateAt": "2026-11-18T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 19. 00:00",
+  "generatedAt": "2026-11-18T22:25:08.749Z",
+  "generatedAtKst": "2026. 11. 19. 07:25",
+  "nextUpdateAt": "2026-11-19T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 19. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-06-05",
+    "medianDate": "2032-07-20",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-05-10",
-    "dday": 2026,
+    "rangeEnd": "2039-06-24",
+    "dday": 2071,
     "confidence": 76,
-    "deltaDays": -43,
+    "deltaDays": -42,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 79,
-    "temperature": 56,
+    "score": 78,
+    "temperature": 55,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 47,
+    "hotCount": 46,
     "coldCount": 10,
-    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 46건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -71,12 +71,29 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 81,
-      "delta": 8,
+      "score": 79,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
       "items": [
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "publishedAt": "2026-11-17T17:45:00.000Z",
+          "publishedAtKst": "2026. 11. 18. 02:45",
+          "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "impact": 24,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT",
+            "컴퓨트"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Broadening access to AI for scientists",
           "source": "OpenAI News",
@@ -84,7 +101,7 @@
           "publishedAt": "2026-11-16T17:00:00.000Z",
           "publishedAtKst": "2026. 11. 17. 02:00",
           "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-          "impact": 26,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -96,39 +113,21 @@
           "why": "프런티어 모델, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing GPT-6.2 Astra and Sol",
+          "title": "Managing frontier AI risk: From training to deployment",
           "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-          "publishedAt": "2026-11-17T17:45:00.000Z",
-          "publishedAtKst": "2026. 11. 18. 02:45",
-          "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-          "impact": 25,
+          "url": "https://openai.com/index/managing-frontier-ai-risk",
+          "publishedAt": "2026-11-18T06:00:00.000Z",
+          "publishedAtKst": "2026. 11. 18. 15:00",
+          "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "ChatGPT",
-            "GPT",
-            "컴퓨트"
+            "AGI",
+            "모델",
+            "위험"
           ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "More ways to move care forward with ChatGPT for Healthcare",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-          "publishedAt": "2026-11-16T06:00:00.000Z",
-          "publishedAtKst": "2026. 11. 16. 15:00",
-          "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-          "impact": 24,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "ChatGPT",
-            "GPT",
-            "컴퓨트"
-          ],
-          "why": "에이전트, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
@@ -137,7 +136,7 @@
           "publishedAt": "2026-11-18T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 18. 09:00",
           "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-          "impact": 22,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -153,7 +152,7 @@
           "publishedAt": "2026-11-17T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 17. 17:00",
           "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-          "impact": 20,
+          "impact": 19,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -269,30 +268,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 93,
-      "delta": 11,
+      "score": 91,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.23229v1",
-          "publishedAt": "2026-11-17T18:59:37.000Z",
-          "publishedAtKst": "2026. 11. 18. 03:59",
-          "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smalle",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "AGI",
-            "추론",
-            "LLM",
-            "모델"
-          ],
-          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
           "source": "arXiv",
@@ -336,7 +317,7 @@
           "publishedAt": "2026-11-17T17:55:30.000Z",
           "publishedAtKst": "2026. 11. 18. 02:55",
           "summary": "Enabling large language models (LLMs) to autonomously conduct training and improve target models is an important foundation for recursive self-improvement (RSI). As LLMs expand their role from being trained to conducting",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -348,13 +329,31 @@
           "why": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.23229v1",
+          "publishedAt": "2026-11-17T18:59:37.000Z",
+          "publishedAtKst": "2026. 11. 18. 03:59",
+          "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smalle",
+          "impact": 33,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "추론",
+            "LLM",
+            "모델"
+          ],
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "Dynamic Task Allocation with Dialogue",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.23119v1",
           "publishedAt": "2026-11-17T17:37:17.000Z",
           "publishedAtKst": "2026. 11. 18. 02:37",
           "summary": "Effective multi-agent collaboration requires agents to adapt task allocation as goals and responsibilities evolve. Prior task-allocation frameworks often assume static goals, full observability, or rely on large language",
-          "impact": 30,
+          "impact": 27,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -371,26 +370,58 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 63,
+      "score": 62,
       "delta": 3,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 54,
       "trend": "hot",
       "items": [
+        {
+          "title": "Multi Agent Coordination Benchmark",
+          "source": "Hacker News",
+          "url": "https://benchmarks.bespokelabs.ai/multi-agent-coordination-bench/",
+          "publishedAt": "2026-11-18T18:28:05.000Z",
+          "publishedAtKst": "2026. 11. 19. 03:28",
+          "summary": "15 points, 1 comments",
+          "impact": 16,
+          "confidence": 57,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Not-So-Large Language Model Fits on a Floppy Disk",
+          "source": "Hacker News",
+          "url": "https://hackaday.com/2026/11/18/not-so-large-language-model-fits-on-a-floppy-disk/",
+          "publishedAt": "2026-11-18T13:02:12.000Z",
+          "publishedAtKst": "2026. 11. 18. 22:02",
+          "summary": "2 points, 0 comments",
+          "impact": 11,
+          "confidence": 54,
+          "stance": "watch",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
         {
           "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
           "source": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50536468",
           "publishedAt": "2026-11-17T19:01:43.000Z",
           "publishedAtKst": "2026. 11. 18. 04:01",
-          "summary": "81 points, 39 comments",
-          "impact": 12,
-          "confidence": 54,
-          "stance": "accelerate",
+          "summary": "87 points, 45 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
           "tags": [
             "에이전트"
           ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
           "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
@@ -398,62 +429,28 @@
           "url": "https://github.com/RunanywhereAI/trnrt",
           "publishedAt": "2026-11-17T16:01:04.000Z",
           "publishedAtKst": "2026. 11. 18. 01:01",
-          "summary": "50 points, 7 comments",
-          "impact": 12,
-          "confidence": 53,
-          "stance": "accelerate",
+          "summary": "54 points, 7 comments",
+          "impact": 11,
+          "confidence": 52,
+          "stance": "watch",
           "tags": [
             "LLM",
             "추론 인프라"
           ],
-          "why": "LLM, 추론 인프라 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Show HN: One cloud computer for all your agents",
-          "source": "Hacker News",
-          "url": "https://box.simular.ai/",
-          "publishedAt": "2026-11-16T18:32:36.000Z",
-          "publishedAtKst": "2026. 11. 17. 03:32",
-          "summary": "5 points, 6 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "컴퓨트"
-          ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Autopilot: Use whichever AI model you want, with one coding-agent interface",
+          "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
           "source": "Hacker News",
-          "url": "https://github.com/directionally-local/autopilot",
-          "publishedAt": "2026-11-17T08:08:43.000Z",
-          "publishedAtKst": "2026. 11. 17. 17:08",
-          "summary": "1 points, 0 comments",
-          "impact": 11,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-          "source": "Hacker News",
-          "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-          "publishedAt": "2026-11-18T09:46:34.000Z",
-          "publishedAtKst": "2026. 11. 18. 18:46",
-          "summary": "4 points, 0 comments",
+          "url": "https://www.kradle.ai?1",
+          "publishedAt": "2026-11-18T19:14:28.000Z",
+          "publishedAtKst": "2026. 11. 19. 04:14",
+          "summary": "8 points, 7 comments",
           "impact": 10,
-          "confidence": 63,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트",
-            "Gemini",
-            "공격/악용"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -461,13 +458,6 @@
     }
   ],
   "topDrivers": [
-    {
-      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.23229v1",
-      "impact": 36,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-    },
     {
       "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
       "source": "arXiv",
@@ -481,6 +471,13 @@
       "url": "http://arxiv.org/abs/2611.23219v1",
       "impact": 36,
       "reason": "에이전트, 자율성 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "RSI-Prime: Training Models to Train Models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.23138v1",
+      "impact": 35,
+      "reason": "자율성, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -488,7 +485,7 @@
       "title": "Prompt Injection Attacks in Large Language Model Systems",
       "source": "Hacker News",
       "url": "https://zenodo.org/records/21357273",
-      "impact": -2,
+      "impact": -1,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
