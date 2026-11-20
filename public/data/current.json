@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-19T22:30:09.507Z",
-  "generatedAtKst": "2026. 11. 20. 07:30",
-  "nextUpdateAt": "2026-11-20T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 20. 12:00",
+  "generatedAt": "2026-11-20T10:43:56.228Z",
+  "generatedAtKst": "2026. 11. 20. 19:43",
+  "nextUpdateAt": "2026-11-20T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 21. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -15,7 +15,7 @@
     "medianDate": "2032-09-03",
     "rangeStart": "2027-01-01",
     "rangeEnd": "2039-08-08",
-    "dday": 2115,
+    "dday": 2114,
     "confidence": 76,
     "deltaDays": -40,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
@@ -25,16 +25,16 @@
     "score": 77,
     "temperature": 54,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 50,
-    "coldCount": 7,
-    "summary": "가속 신호 50건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 47,
+    "coldCount": 10,
+    "summary": "가속 신호 47건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -47,9 +47,9 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 52,
-      "delta": 0,
-      "tone": "watch"
+      "value": 58,
+      "delta": 2,
+      "tone": "hot"
     },
     {
       "key": "adoption",
@@ -61,9 +61,9 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 46,
-      "delta": -1,
-      "tone": "watch"
+      "value": 64,
+      "delta": 3,
+      "tone": "hot"
     }
   ],
   "categories": [
@@ -71,8 +71,8 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 80,
-      "delta": 8,
+      "score": 78,
+      "delta": 7,
       "weight": 0.34,
       "confidence": 92,
       "trend": "hot",
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-18T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 18. 17:00",
           "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-          "impact": 28,
+          "impact": 25,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-19T18:00:00.000Z",
           "publishedAtKst": "2026. 11. 20. 03:00",
           "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -117,7 +117,7 @@
           "publishedAt": "2026-11-19T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 19. 17:00",
           "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-          "impact": 21,
+          "impact": 20,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -133,7 +133,7 @@
           "publishedAt": "2026-11-17T17:45:00.000Z",
           "publishedAtKst": "2026. 11. 18. 02:45",
           "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-          "impact": 20,
+          "impact": 18,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -150,7 +150,7 @@
           "publishedAt": "2026-11-18T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 18. 17:00",
           "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-          "impact": 19,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -165,10 +165,10 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 71,
+      "score": 69,
       "delta": 5,
       "weight": 0.18,
-      "confidence": 78,
+      "confidence": 79,
       "trend": "hot",
       "items": [
         {
@@ -226,21 +226,6 @@
           "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Solomonoff induction with reflective oracles",
-          "source": "Alignment Forum",
-          "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
-          "publishedAt": "2026-11-19T04:36:27.000Z",
-          "publishedAtKst": "2026. 11. 19. 13:36",
-          "summary": "Linkpost for https://arxiv.org/html/2611.14454v1 Our PIBBSS fellow Damini Kusum wrote an excellent paper on prediction with reflective oracle Solomonoff Induction (rOSI). Reflective oracles are best known for their game-",
-          "impact": 12,
-          "confidence": 69,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Meta Superintelligence &#8211; Leadership Compute, Talent, and Data",
           "source": "SemiAnalysis",
           "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
@@ -256,6 +241,24 @@
             "컴퓨트"
           ],
           "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+        },
+        {
+          "title": "METR: Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at",
+          "publishedAt": "2026-11-05T19:06:38.000Z",
+          "publishedAtKst": "2026. 11. 06. 04:06",
+          "summary": "Executive summary From August 12 to October 29, 2026, METR staff performed a high-access evaluation at Anthropic to assess the degree to which AI is accelerating AI R&D. If AI systems started to significantly accelerate ",
+          "impact": 11,
+          "confidence": 72,
+          "stance": "watch",
+          "tags": [
+            "초지능",
+            "자율성",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -263,100 +266,100 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 85,
-      "delta": 9,
+      "score": 90,
+      "delta": 10,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
+          "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.24887v1",
-          "publishedAt": "2026-11-18T18:31:37.000Z",
-          "publishedAtKst": "2026. 11. 19. 03:31",
-          "summary": "Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We intr",
-          "impact": 32,
+          "url": "http://arxiv.org/abs/2611.26553v1",
+          "publishedAt": "2026-11-19T18:23:35.000Z",
+          "publishedAtKst": "2026. 11. 20. 03:23",
+          "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a product",
+          "impact": 36,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "AI 연구 자동화",
-            "LLM",
-            "모델"
+            "GPT",
+            "Gemini",
+            "Claude"
           ],
-          "why": "에이전트, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs",
+          "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.24846v1",
-          "publishedAt": "2026-11-18T18:08:08.000Z",
-          "publishedAtKst": "2026. 11. 19. 03:08",
-          "summary": "Most existing approaches enhance mathematical reasoning in large language models (LLMs) as a monolithic capability, despite the fact that different mathematical problems require different reasoning skills. Recent work ha",
-          "impact": 30,
+          "url": "http://arxiv.org/abs/2611.26509v1",
+          "publishedAt": "2026-11-19T17:56:44.000Z",
+          "publishedAtKst": "2026. 11. 20. 02:56",
+          "summary": "Decision models enable fast, confidence-aware decisions by scoring candidate answers in a single forward pass, without generating text or intermediate reasoning. Yet reasoning can substantially improve decision quality, ",
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "AGI",
             "추론",
-            "LLM",
             "모델",
-            "벤치마크"
+            "추론 인프라"
           ],
-          "why": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
+          "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.24849v1",
-          "publishedAt": "2026-11-18T18:09:16.000Z",
-          "publishedAtKst": "2026. 11. 19. 03:09",
-          "summary": "Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the jud",
+          "url": "http://arxiv.org/abs/2611.26619v1",
+          "publishedAt": "2026-11-19T18:58:31.000Z",
+          "publishedAtKst": "2026. 11. 20. 03:58",
+          "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We pres",
+          "impact": 31,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "AGI",
+            "에이전트",
+            "LLM",
+            "모델"
+          ],
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.26624v1",
+          "publishedAt": "2026-11-19T18:59:34.000Z",
+          "publishedAtKst": "2026. 11. 20. 03:59",
+          "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an a",
           "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "프런티어 모델",
-            "Claude",
-            "LLM",
-            "모델"
+            "AGI",
+            "에이전트",
+            "성능 향상"
           ],
-          "why": "프런티어 모델, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+          "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.24877v1",
-          "publishedAt": "2026-11-18T18:24:54.000Z",
-          "publishedAtKst": "2026. 11. 19. 03:24",
-          "summary": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where",
-          "impact": 23,
+          "url": "http://arxiv.org/abs/2611.26613v1",
+          "publishedAt": "2026-11-19T18:57:25.000Z",
+          "publishedAtKst": "2026. 11. 20. 03:57",
+          "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks rep",
+          "impact": 29,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "GPT",
-            "LLM",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "GPT, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Who are you? The Personal Imitation Game",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.24888v1",
-          "publishedAt": "2026-11-18T18:32:14.000Z",
-          "publishedAtKst": "2026. 11. 19. 03:32",
-          "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in c",
-          "impact": 23,
-          "confidence": 90,
-          "stance": "accelerate",
-          "tags": [
             "에이전트",
-            "LLM",
-            "모델"
+            "GPT",
+            "벤치마크",
+            "멀티모달"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -364,27 +367,43 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 64,
+      "score": 66,
       "delta": 4,
       "weight": 0.2,
       "confidence": 54,
       "trend": "hot",
       "items": [
         {
-          "title": "Show HN: A deterministic agent memory engine in Rust with no LLM",
+          "title": "Show HN: Zeus – Claude Code for AI voice agents",
           "source": "Hacker News",
-          "url": "https://github.com/samvallad33/vestige",
-          "publishedAt": "2026-11-19T22:11:48.000Z",
-          "publishedAtKst": "2026. 11. 20. 07:11",
-          "summary": "2 points, 1 comments",
-          "impact": 15,
+          "url": "https://thunderphone.com/blog/introducing-zeus",
+          "publishedAt": "2026-11-20T00:51:52.000Z",
+          "publishedAtKst": "2026. 11. 20. 09:51",
+          "summary": "2 points, 0 comments",
+          "impact": 16,
           "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "LLM"
+            "Claude"
           ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Characterizing the Ecosystem of Open-Source Uncensored Large Language Models",
+          "source": "Hacker News",
+          "url": "https://dl.acm.org/doi/epdf/10.1145/3777912.3839799",
+          "publishedAt": "2026-11-20T09:37:44.000Z",
+          "publishedAtKst": "2026. 11. 20. 18:37",
+          "summary": "1 points, 0 comments",
+          "impact": 12,
+          "confidence": 55,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델"
+          ],
+          "why": "LLM, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Multi Agent Coordination Benchmark",
@@ -393,8 +412,8 @@
           "publishedAt": "2026-11-18T18:28:05.000Z",
           "publishedAtKst": "2026. 11. 19. 03:28",
           "summary": "16 points, 1 comments",
-          "impact": 13,
-          "confidence": 54,
+          "impact": 12,
+          "confidence": 52,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -403,28 +422,12 @@
           "why": "에이전트, 벤치마크 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Svetoviz – Visual debugger for large language models",
+          "title": "Show HN: NostrPulse – Bitcoin HTTP 402 (L402 and Cashu) MCP Server for AI Agents",
           "source": "Hacker News",
-          "url": "https://github.com/PiotrGryko/svetoviz",
-          "publishedAt": "2026-11-19T14:00:16.000Z",
-          "publishedAtKst": "2026. 11. 19. 23:00",
-          "summary": "1 points, 0 comments",
-          "impact": 11,
-          "confidence": 54,
-          "stance": "watch",
-          "tags": [
-            "LLM",
-            "모델"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Company docs didn't help our AI agent. Four shortnotes doubled accuracy",
-          "source": "Hacker News",
-          "url": "https://contextflo.com/benchmarks/dabstep-haiku",
-          "publishedAt": "2026-11-19T19:14:24.000Z",
-          "publishedAtKst": "2026. 11. 20. 04:14",
-          "summary": "1 points, 0 comments",
+          "url": "https://github.com/PHONGUIT22/nostrpulse-full",
+          "publishedAt": "2026-11-20T10:01:27.000Z",
+          "publishedAtKst": "2026. 11. 20. 19:01",
+          "summary": "2 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
@@ -434,17 +437,17 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "A Novel AI-Native GPU Kernel Programming Language for Autonomous Kernel Tuning",
+          "title": "I Stopped Using Conversation History as My Agents' State",
           "source": "Hacker News",
-          "url": "https://al.radbox.org/doi/10.1145/3828523.3857041",
-          "publishedAt": "2026-11-19T22:21:35.000Z",
-          "publishedAtKst": "2026. 11. 20. 07:21",
+          "url": "https://medium.com/@ulrich.tan/building-stateful-investigations-with-stateless-ai-agents-2fc9bab3d455",
+          "publishedAt": "2026-11-20T09:48:32.000Z",
+          "publishedAtKst": "2026. 11. 20. 18:48",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "자율성"
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -453,48 +456,48 @@
   ],
   "topDrivers": [
     {
-      "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
+      "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.24887v1",
-      "impact": 32,
-      "reason": "에이전트, AI 연구 자동화 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2611.26553v1",
+      "impact": 36,
+      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs",
+      "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.24846v1",
-      "impact": 30,
-      "reason": "추론, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2611.26509v1",
+      "impact": 35,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
       "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.24849v1",
-      "impact": 29,
-      "reason": "프런티어 모델, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+      "url": "http://arxiv.org/abs/2611.26619v1",
+      "impact": 31,
+      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Simple Private Noisy SGD is Minimax-Optimal under Population Strong Convexity",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.26515v1",
+      "impact": 3,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Monte Carlo Pass Search for Setpieces",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.26464v1",
+      "impact": 3,
+      "reason": "공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
       "impact": 4,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "impact": 5,
-      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "OpenAI: Astra covertly underperforms on safety research",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
-      "impact": 5,
-      "reason": "안전 이슈, 정렬 실패 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
