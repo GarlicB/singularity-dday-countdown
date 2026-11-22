@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-22T10:30:13.803Z",
-  "generatedAtKst": "2026. 11. 22. 19:30",
-  "nextUpdateAt": "2026-11-22T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 23. 00:00",
+  "generatedAt": "2026-11-22T20:52:35.097Z",
+  "generatedAtKst": "2026. 11. 23. 05:52",
+  "nextUpdateAt": "2026-11-22T21:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 23. 06:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-07-15",
-    "rangeStart": "2027-01-01",
-    "rangeEnd": "2040-05-14",
-    "dday": 2427,
+    "medianDate": "2033-10-13",
+    "rangeStart": "2027-06-07",
+    "rangeEnd": "2040-02-19",
+    "dday": 2517,
     "confidence": 76,
-    "deltaDays": -30,
+    "deltaDays": -27,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 70,
-    "temperature": 48,
+    "score": 68,
+    "temperature": 46,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 36,
+    "hotCount": 30,
     "coldCount": 10,
-    "summary": "가속 신호 36건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "summary": "가속 신호 30건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -78,22 +78,6 @@
       "trend": "hot",
       "items": [
         {
-          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-          "publishedAt": "2026-11-19T08:00:00.000Z",
-          "publishedAtKst": "2026. 11. 19. 17:00",
-          "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "ChatGPT",
-            "GPT"
-          ],
-          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "Research acceleration: The jagged frontier",
           "source": "OpenAI News",
           "url": "https://openai.com/index/research-acceleration-jagged-frontier",
@@ -111,20 +95,20 @@
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing Tool Retrieval in the Gemini API",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-          "publishedAt": "2026-11-19T18:00:00.000Z",
-          "publishedAtKst": "2026. 11. 20. 03:00",
-          "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-          "impact": 15,
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "publishedAt": "2026-11-19T08:00:00.000Z",
+          "publishedAtKst": "2026. 11. 19. 17:00",
+          "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "impact": 14,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
-            "에이전트",
-            "Gemini"
+            "ChatGPT",
+            "GPT"
           ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
@@ -143,6 +127,22 @@
             "SOTA"
           ],
           "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "publishedAt": "2026-11-19T18:00:00.000Z",
+          "publishedAtKst": "2026. 11. 20. 03:00",
+          "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+          "impact": 14,
+          "confidence": 91,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Gemini"
+          ],
+          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
@@ -266,10 +266,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 79,
+      "score": 76,
       "delta": 7,
       "weight": 0.28,
-      "confidence": 87,
+      "confidence": 85,
       "trend": "hot",
       "items": [
         {
@@ -279,7 +279,7 @@
           "publishedAt": "2026-11-19T18:23:35.000Z",
           "publishedAtKst": "2026. 11. 20. 03:23",
           "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a product",
-          "impact": 26,
+          "impact": 23,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -297,8 +297,8 @@
           "publishedAt": "2026-11-19T17:56:44.000Z",
           "publishedAtKst": "2026. 11. 20. 02:56",
           "summary": "Decision models enable fast, confidence-aware decisions by scoring candidate answers in a single forward pass, without generating text or intermediate reasoning. Yet reasoning can substantially improve decision quality, ",
-          "impact": 22,
-          "confidence": 87,
+          "impact": 19,
+          "confidence": 85,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -315,8 +315,8 @@
           "publishedAt": "2026-11-19T18:58:31.000Z",
           "publishedAtKst": "2026. 11. 20. 03:58",
           "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We pres",
-          "impact": 20,
-          "confidence": 86,
+          "impact": 17,
+          "confidence": 83,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -333,8 +333,8 @@
           "publishedAt": "2026-11-19T18:59:34.000Z",
           "publishedAtKst": "2026. 11. 20. 03:59",
           "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an a",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "AGI",
@@ -350,8 +350,8 @@
           "publishedAt": "2026-11-19T18:57:25.000Z",
           "publishedAtKst": "2026. 11. 20. 03:57",
           "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks rep",
-          "impact": 19,
-          "confidence": 85,
+          "impact": 16,
+          "confidence": 82,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -367,27 +367,12 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 53,
-      "delta": 1,
+      "score": 49,
+      "delta": 0,
       "weight": 0.2,
-      "confidence": 55,
+      "confidence": 52,
       "trend": "watch",
       "items": [
-        {
-          "title": "Is AI plagiarizing human research?",
-          "source": "Hacker News",
-          "url": "https://twitter.com/Robert_E_Grant_/status/2124338413662847228",
-          "publishedAt": "2026-11-22T08:57:25.000Z",
-          "publishedAtKst": "2026. 11. 22. 17:57",
-          "summary": "2 points, 0 comments",
-          "impact": 16,
-          "confidence": 58,
-          "stance": "accelerate",
-          "tags": [
-            "AGI"
-          ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
           "source": "Hacker News",
@@ -395,8 +380,8 @@
           "publishedAt": "2026-11-21T15:02:59.000Z",
           "publishedAtKst": "2026. 11. 22. 00:02",
           "summary": "3 points, 0 comments",
-          "impact": -12,
-          "confidence": 59,
+          "impact": -10,
+          "confidence": 57,
           "stance": "decelerate",
           "tags": [
             "모델",
@@ -406,11 +391,11 @@
           "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
         },
         {
-          "title": "Show HN: Agent Doctor – let domain experts tune your agent without code changes",
+          "title": "Show HN: Taskless, turn AGENTS.md and PR comments into runnable checks",
           "source": "Hacker News",
-          "url": "https://theagentdoctor.com/",
-          "publishedAt": "2026-11-22T10:17:08.000Z",
-          "publishedAtKst": "2026. 11. 22. 19:17",
+          "url": "https://www.taskless.io/",
+          "publishedAt": "2026-11-22T20:11:12.000Z",
+          "publishedAtKst": "2026. 11. 23. 05:11",
           "summary": "3 points, 0 comments",
           "impact": 10,
           "confidence": 53,
@@ -421,14 +406,14 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Double Agent finds chess position where all 63 moves check, beating 1968 record",
+          "title": "Bypassing ADB: 0.32ms Android UI trees and A* routing for AI agents (Rust/Kotlin",
           "source": "Hacker News",
-          "url": "https://www.doubleai.com/research/maxwell-chess-record-63-checks",
-          "publishedAt": "2026-11-22T09:39:49.000Z",
-          "publishedAtKst": "2026. 11. 22. 18:39",
+          "url": "https://github.com/V0val0x/DroidPath/blob/main/docs/benchmarks.md",
+          "publishedAt": "2026-11-22T15:19:19.000Z",
+          "publishedAtKst": "2026. 11. 23. 00:19",
           "summary": "1 points, 0 comments",
           "impact": 10,
-          "confidence": 53,
+          "confidence": 52,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -442,12 +427,27 @@
           "publishedAt": "2026-11-20T00:51:52.000Z",
           "publishedAtKst": "2026. 11. 20. 09:51",
           "summary": "3 points, 1 comments",
-          "impact": 10,
-          "confidence": 51,
+          "impact": 9,
+          "confidence": 49,
           "stance": "watch",
           "tags": [
             "에이전트",
             "Claude"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+          "source": "Hacker News",
+          "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+          "publishedAt": "2026-11-20T22:18:20.000Z",
+          "publishedAtKst": "2026. 11. 21. 07:18",
+          "summary": "55 points, 20 comments",
+          "impact": 8,
+          "confidence": 49,
+          "stance": "watch",
+          "tags": [
+            "LLM"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -459,15 +459,8 @@
       "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.26553v1",
-      "impact": 26,
+      "impact": 23,
       "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.26509v1",
-      "impact": 22,
-      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "Notes on Take-Off Speeds and RSI",
@@ -475,6 +468,13 @@
       "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
       "impact": 20,
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.26509v1",
+      "impact": 19,
+      "reason": "AGI, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -482,7 +482,7 @@
       "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
       "source": "Hacker News",
       "url": "https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models",
-      "impact": -12,
+      "impact": -10,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
