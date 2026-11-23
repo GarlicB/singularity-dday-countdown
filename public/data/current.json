@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T01:15:04.907Z",
-  "generatedAtKst": "2026. 11. 23. 10:15",
-  "nextUpdateAt": "2026-11-23T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 23. 12:00",
+  "generatedAt": "2026-11-23T11:30:04.652Z",
+  "generatedAtKst": "2026. 11. 23. 20:30",
+  "nextUpdateAt": "2026-11-23T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 24. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2034-05-26",
-    "rangeStart": "2028-11-08",
-    "rangeEnd": "2039-12-11",
-    "dday": 2741,
-    "confidence": 75,
-    "deltaDays": -19,
+    "medianDate": "2033-05-31",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2040-03-30",
+    "dday": 2381,
+    "confidence": 76,
+    "deltaDays": -31,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 63,
-    "temperature": 42,
+    "score": 71,
+    "temperature": 49,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 17,
-    "coldCount": 5,
-    "summary": "가속 신호 17건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 35,
+    "coldCount": 8,
+    "summary": "가속 신호 35건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,23 +47,23 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 70,
-      "delta": 4,
+      "value": 58,
+      "delta": 2,
       "tone": "hot"
     },
     {
       "key": "adoption",
       "label": "실사용/산업 도입",
-      "value": 88,
-      "delta": 8,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 58,
-      "delta": 2,
-      "tone": "hot"
+      "value": 46,
+      "delta": -1,
+      "tone": "watch"
     }
   ],
   "categories": [
@@ -113,37 +113,6 @@
           "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Introducing Tool Retrieval in the Gemini API",
-          "source": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-          "publishedAt": "2026-11-19T18:00:00.000Z",
-          "publishedAtKst": "2026. 11. 20. 03:00",
-          "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-          "impact": 14,
-          "confidence": 91,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Gemini"
-          ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/hebbia",
-          "publishedAt": "2026-11-20T00:00:00.000Z",
-          "publishedAtKst": "2026. 11. 20. 09:00",
-          "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-          "impact": 13,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "GPT"
-          ],
-          "why": "GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
           "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
           "source": "OpenAI News",
           "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -158,6 +127,39 @@
             "GPT"
           ],
           "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "publishedAt": "2026-11-18T08:00:00.000Z",
+          "publishedAtKst": "2026. 11. 18. 17:00",
+          "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "ChatGPT",
+            "GPT"
+          ],
+          "why": "ChatGPT, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "publishedAt": "2026-10-28T17:00:58.000Z",
+          "publishedAtKst": "2026. 10. 29. 02:00",
+          "summary": "",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "프런티어 모델",
+            "Gemini",
+            "모델"
+          ],
+          "why": "프런티어 모델, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -266,24 +268,100 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 53,
-      "delta": 1,
+      "score": 75,
+      "delta": 6,
       "weight": 0.28,
-      "confidence": 65,
-      "trend": "watch",
+      "confidence": 84,
+      "trend": "hot",
       "items": [
         {
-          "title": "최신 논문 수집이 비어 있으면 이전 스냅샷과 보수 점수를 우선합니다",
-          "source": "arXiv 점검",
-          "url": "https://arxiv.org/list/cs.AI/recent",
-          "publishedAt": "2026-11-23T01:15:04.907Z",
-          "publishedAtKst": "2026. 11. 23. 10:15",
-          "summary": "논문 수 자체보다 에이전트, 추론, 자동 연구, 벤치마크 변화 키워드를 가중합니다.",
-          "impact": 5,
-          "confidence": 65,
-          "stance": "watch",
-          "tags": [],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
+          "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.27973v1",
+          "publishedAt": "2026-11-20T18:51:29.000Z",
+          "publishedAtKst": "2026. 11. 21. 03:51",
+          "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accu",
+          "impact": 20,
+          "confidence": 86,
+          "stance": "accelerate",
+          "tags": [
+            "LLM",
+            "모델",
+            "컴퓨트",
+            "추론 인프라"
+          ],
+          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.27910v1",
+          "publishedAt": "2026-11-20T17:48:55.000Z",
+          "publishedAtKst": "2026. 11. 21. 02:48",
+          "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable ",
+          "impact": 16,
+          "confidence": 83,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.27895v1",
+          "publishedAt": "2026-11-20T17:35:59.000Z",
+          "publishedAtKst": "2026. 11. 21. 02:35",
+          "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for ea",
+          "impact": 16,
+          "confidence": 83,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트",
+            "벤치마크"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.27876v1",
+          "publishedAt": "2026-11-20T17:21:36.000Z",
+          "publishedAtKst": "2026. 11. 21. 02:21",
+          "summary": "Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiol",
+          "impact": 16,
+          "confidence": 83,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "Claude",
+            "LLM",
+            "모델"
+          ],
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.27810v1",
+          "publishedAt": "2026-11-20T16:36:57.000Z",
+          "publishedAtKst": "2026. 11. 21. 01:36",
+          "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker'",
+          "impact": 16,
+          "confidence": 83,
+          "stance": "accelerate",
+          "tags": [
+            "추론",
+            "모델",
+            "벤치마크",
+            "성능 향상"
+          ],
+          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -291,67 +369,34 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 55,
-      "delta": 1,
+      "score": 62,
+      "delta": 3,
       "weight": 0.2,
-      "confidence": 56,
-      "trend": "watch",
+      "confidence": 54,
+      "trend": "hot",
       "items": [
         {
-          "title": "Show HN: Run Mult AI Agents (Claude, Gemini, etc.) as a team of bees, maids",
+          "title": "Rex: Hashimoto's New Terminal Emulator and Multiplexer for AI Coding Agents",
           "source": "Hacker News",
-          "url": "https://github.com/ericwang915/agent-hive",
-          "publishedAt": "2026-11-23T00:22:01.000Z",
-          "publishedAtKst": "2026. 11. 23. 09:22",
+          "url": "https://www.superlogical.com/updates/public-testing-beginning",
+          "publishedAt": "2026-11-23T11:07:46.000Z",
+          "publishedAtKst": "2026. 11. 23. 20:07",
           "summary": "1 points, 0 comments",
-          "impact": 24,
-          "confidence": 64,
+          "impact": 19,
+          "confidence": 60,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "Gemini",
-            "Claude"
+            "코딩 에이전트"
           ],
-          "why": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
+          "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
           "source": "Hacker News",
-          "url": "https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models",
-          "publishedAt": "2026-11-21T15:02:59.000Z",
-          "publishedAtKst": "2026. 11. 22. 00:02",
-          "summary": "3 points, 0 comments",
-          "impact": -10,
-          "confidence": 56,
-          "stance": "decelerate",
-          "tags": [
-            "모델",
-            "공격/악용",
-            "취약점"
-          ],
-          "why": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
-        },
-        {
-          "title": "Show HN: Taskcue – see which of your Claude Code and Codex sessions need you",
-          "source": "Hacker News",
-          "url": "https://github.com/taskcue/taskcue",
-          "publishedAt": "2026-11-23T00:52:02.000Z",
-          "publishedAtKst": "2026. 11. 23. 09:52",
-          "summary": "1 points, 0 comments",
-          "impact": 10,
-          "confidence": 53,
-          "stance": "watch",
-          "tags": [
-            "Claude"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: AgentDE – A small, native macOS home for your terminal agents",
-          "source": "Hacker News",
-          "url": "https://github.com/AgentDE/agentde",
-          "publishedAt": "2026-11-23T00:38:37.000Z",
-          "publishedAtKst": "2026. 11. 23. 09:38",
+          "url": "https://www.kradle.ai?1",
+          "publishedAt": "2026-11-23T07:39:04.000Z",
+          "publishedAtKst": "2026. 11. 23. 16:39",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
@@ -362,17 +407,47 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Glimpse – Generative UI for Codebases in Claude Code",
+          "title": "Playing a Gameboy with Cloudflare Agents",
           "source": "Hacker News",
-          "url": "https://github.com/svailla4/glimpse",
-          "publishedAt": "2026-11-23T00:27:06.000Z",
-          "publishedAtKst": "2026. 11. 23. 09:27",
+          "url": "https://rorz.io/writing/playing-a-gameboy-with-cloudflare-agents",
+          "publishedAt": "2026-11-23T11:10:09.000Z",
+          "publishedAtKst": "2026. 11. 23. 20:10",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "Claude"
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Crazy simple AI agent orchestration with Markdown and Containers",
+          "source": "Hacker News",
+          "url": "https://github.com/ameesme/shoebox",
+          "publishedAt": "2026-11-23T11:07:29.000Z",
+          "publishedAtKst": "2026. 11. 23. 20:07",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Iyi: A friendly, fast programming language for people and their agents",
+          "source": "Hacker News",
+          "url": "https://iyi.dev/",
+          "publishedAt": "2026-11-23T10:54:52.000Z",
+          "publishedAtKst": "2026. 11. 23. 19:54",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -381,13 +456,6 @@
   ],
   "topDrivers": [
     {
-      "title": "Show HN: Run Mult AI Agents (Claude, Gemini, etc.) as a team of bees, maids",
-      "source": "Hacker News",
-      "url": "https://github.com/ericwang915/agent-hive",
-      "impact": 24,
-      "reason": "에이전트, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Notes on Take-Off Speeds and RSI",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
@@ -395,11 +463,18 @@
       "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "How I'm thinking about different types of automated alignment",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
-      "impact": 16,
-      "reason": "AGI, 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.27973v1",
+      "impact": 20,
+      "reason": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "Rex: Hashimoto's New Terminal Emulator and Multiplexer for AI Coding Agents",
+      "source": "Hacker News",
+      "url": "https://www.superlogical.com/updates/public-testing-beginning",
+      "impact": 19,
+      "reason": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -407,8 +482,15 @@
       "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
       "source": "Hacker News",
       "url": "https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models",
-      "impact": -10,
+      "impact": -8,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Kalshi Claims New York's Lawsuit Could Shut It Down Everywhere",
+      "source": "Hacker News",
+      "url": "https://gizmodo.com/kalshi-claims-new-yorks-lawsuit-could-shut-it-down-everywhere-2000843395",
+      "impact": -3,
+      "reason": "소송 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
@@ -416,13 +498,6 @@
       "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
       "impact": 4,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "impact": 5,
-      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
