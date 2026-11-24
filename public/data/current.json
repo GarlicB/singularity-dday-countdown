@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-24T01:57:11.293Z",
-  "generatedAtKst": "2026. 11. 24. 10:57",
-  "nextUpdateAt": "2026-11-24T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 24. 12:00",
+  "generatedAt": "2026-11-24T13:04:24.229Z",
+  "generatedAtKst": "2026. 11. 24. 22:04",
+  "nextUpdateAt": "2026-11-24T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 25. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,29 +12,29 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2033-07-15",
-    "rangeStart": "2027-05-18",
-    "rangeEnd": "2039-09-12",
-    "dday": 2425,
+    "medianDate": "2033-01-16",
+    "rangeStart": "2027-01-01",
+    "rangeEnd": "2039-12-21",
+    "dday": 2245,
     "confidence": 76,
-    "deltaDays": -30,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 70,
-    "temperature": 48,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 28,
-    "coldCount": 8,
-    "summary": "가속 신호 28건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 44,
+    "coldCount": 6,
+    "summary": "가속 신호 44건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
       "key": "model",
       "label": "신규 모델/벤치마크",
-      "value": 76,
-      "delta": 5,
+      "value": 82,
+      "delta": 6,
       "tone": "hot"
     },
     {
@@ -61,8 +61,8 @@
     {
       "key": "hype",
       "label": "커뮤니티 열기",
-      "value": 46,
-      "delta": -1,
+      "value": 52,
+      "delta": 0,
       "tone": "watch"
     }
   ],
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-23T08:00:00.000Z",
           "publishedAtKst": "2026. 11. 23. 17:00",
           "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-          "impact": 22,
+          "impact": 21,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -92,21 +92,6 @@
             "GPT"
           ],
           "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Finding faster quantum algorithms with agents and formal verification",
-          "source": "Google DeepMind",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-          "publishedAt": "2026-11-23T16:59:40.000Z",
-          "publishedAtKst": "2026. 11. 24. 01:59",
-          "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-          "impact": 16,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Research acceleration: The jagged frontier",
@@ -124,6 +109,21 @@
             "코딩 에이전트"
           ],
           "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "publishedAt": "2026-11-23T16:59:40.000Z",
+          "publishedAtKst": "2026. 11. 24. 01:59",
+          "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+          "impact": 15,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "A more tailored Google Search that’s uniquely yours",
@@ -265,100 +265,101 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 72,
-      "delta": 6,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
-      "confidence": 80,
+      "confidence": 92,
       "trend": "hot",
       "items": [
         {
-          "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+          "title": "Self-Upgrading Embodied Agents",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.27973v1",
-          "publishedAt": "2026-11-20T18:51:29.000Z",
-          "publishedAtKst": "2026. 11. 21. 03:51",
-          "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accu",
-          "impact": 16,
-          "confidence": 82,
-          "stance": "accelerate",
-          "tags": [
-            "LLM",
-            "모델",
-            "컴퓨트",
-            "추론 인프라"
-          ],
-          "why": "LLM, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.27910v1",
-          "publishedAt": "2026-11-20T17:48:55.000Z",
-          "publishedAtKst": "2026. 11. 21. 02:48",
-          "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable ",
-          "impact": 14,
-          "confidence": 80,
+          "url": "http://arxiv.org/abs/2611.31117v1",
+          "publishedAt": "2026-11-23T17:53:12.000Z",
+          "publishedAtKst": "2026. 11. 24. 02:53",
+          "summary": "An embodied agent built on a language model goes to work with the weights it was given and keeps them for life. To get better, it needs more training, or reflection, memory, search or prompts that cost every step and are",
+          "impact": 33,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
             "에이전트",
-            "모델",
-            "벤치마크",
-            "성능 향상"
-          ],
-          "why": "에이전트, 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.27895v1",
-          "publishedAt": "2026-11-20T17:35:59.000Z",
-          "publishedAtKst": "2026. 11. 21. 02:35",
-          "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for ea",
-          "impact": 14,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트",
-            "벤치마크"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.27876v1",
-          "publishedAt": "2026-11-20T17:21:36.000Z",
-          "publishedAtKst": "2026. 11. 21. 02:21",
-          "summary": "Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiol",
-          "impact": 14,
-          "confidence": 80,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "Claude",
-            "LLM",
+            "자기개선",
+            "추론",
             "모델"
           ],
-          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech",
+          "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
           "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.27810v1",
-          "publishedAt": "2026-11-20T16:36:57.000Z",
-          "publishedAtKst": "2026. 11. 21. 01:36",
-          "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker'",
-          "impact": 14,
-          "confidence": 80,
+          "url": "http://arxiv.org/abs/2611.31228v1",
+          "publishedAt": "2026-11-23T18:58:52.000Z",
+          "publishedAtKst": "2026. 11. 24. 03:58",
+          "summary": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes ",
+          "impact": 29,
+          "confidence": 92,
           "stance": "accelerate",
           "tags": [
+            "에이전트",
             "추론",
             "모델",
-            "벤치마크",
-            "성능 향상"
+            "벤치마크"
           ],
-          "why": "추론, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.31198v1",
+          "publishedAt": "2026-11-23T18:48:02.000Z",
+          "publishedAtKst": "2026. 11. 24. 03:48",
+          "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. Howev",
+          "impact": 29,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "추론",
+            "벤치마크",
+            "멀티모달"
+          ],
+          "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.31105v1",
+          "publishedAt": "2026-11-23T17:43:16.000Z",
+          "publishedAtKst": "2026. 11. 24. 02:43",
+          "summary": "Updating an LLM adapter should not require replaying the full interaction history of every active session. Yet reusing key-value (KV) cache entries computed under an earlier version mixes model versions, while full-histo",
+          "impact": 28,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "벤치마크"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.31233v1",
+          "publishedAt": "2026-11-23T18:59:13.000Z",
+          "publishedAtKst": "2026. 11. 24. 03:59",
+          "summary": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or",
+          "impact": 27,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "LLM",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -366,50 +367,34 @@
       "key": "community",
       "label": "커뮤니티반응",
       "description": "Hacker News, Reddit 등 공개 커뮤니티 열기",
-      "score": 60,
-      "delta": 3,
+      "score": 57,
+      "delta": 2,
       "weight": 0.2,
-      "confidence": 53,
-      "trend": "hot",
+      "confidence": 51,
+      "trend": "watch",
       "items": [
         {
-          "title": "Sentry: An external self-improving failure management layer for LLM agents",
+          "title": "What survives Claude Code compaction: 77% of decisions, 0.2% of commands",
           "source": "Hacker News",
-          "url": "https://github.com/nuglifeleoji/Sentry",
-          "publishedAt": "2026-11-24T00:56:07.000Z",
-          "publishedAtKst": "2026. 11. 24. 09:56",
-          "summary": "2 points, 0 comments",
-          "impact": 15,
-          "confidence": 57,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "LLM"
-          ],
-          "why": "에이전트, LLM 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Why British English kept landing in agent commits, and what cleanup took",
-          "source": "Hacker News",
-          "url": "https://namegarage.com/blog/coding-agents-and-british-english",
-          "publishedAt": "2026-11-24T01:09:58.000Z",
-          "publishedAtKst": "2026. 11. 24. 10:09",
-          "summary": "1 points, 1 comments",
+          "url": "https://vshulcz.github.io/deja-vu/guide/after-compaction.html",
+          "publishedAt": "2026-11-24T13:03:07.000Z",
+          "publishedAtKst": "2026. 11. 24. 22:03",
+          "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트"
+            "Claude"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "Show HN: Lightweight Agentic CMS on Cloudflare – API, MCP, CLI, Web",
+          "title": "ShowHN: Playnice – give your agent eyes on your TUIs",
           "source": "Hacker News",
-          "url": "https://docs.microfeed.org/",
-          "publishedAt": "2026-11-24T01:03:42.000Z",
-          "publishedAtKst": "2026. 11. 24. 10:03",
-          "summary": "4 points, 1 comments",
+          "url": "https://github.com/paradise-runner/playnice",
+          "publishedAt": "2026-11-24T12:54:50.000Z",
+          "publishedAtKst": "2026. 11. 24. 21:54",
+          "summary": "1 points, 1 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
@@ -425,8 +410,8 @@
           "publishedAt": "2026-11-23T07:39:04.000Z",
           "publishedAtKst": "2026. 11. 23. 16:39",
           "summary": "1 points, 0 comments",
-          "impact": 9,
-          "confidence": 52,
+          "impact": 8,
+          "confidence": 51,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -441,7 +426,22 @@
           "publishedAtKst": "2026. 11. 23. 05:11",
           "summary": "7 points, 3 comments",
           "impact": 8,
-          "confidence": 51,
+          "confidence": 49,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Bypassing ADB: 0.32ms Android UI trees and A* routing for AI agents(Rust/Kotlin)",
+          "source": "Hacker News",
+          "url": "https://github.com/V0val0x/DroidPath/blob/main/docs/benchmarks.md",
+          "publishedAt": "2026-11-22T15:19:19.000Z",
+          "publishedAtKst": "2026. 11. 23. 00:19",
+          "summary": "1 points, 1 comments",
+          "impact": 7,
+          "confidence": 49,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -453,25 +453,25 @@
   ],
   "topDrivers": [
     {
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "impact": 22,
-      "reason": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Self-Upgrading Embodied Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.31117v1",
+      "impact": 33,
+      "reason": "에이전트, 자기개선 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Notes on Take-Off Speeds and RSI",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
-      "impact": 20,
-      "reason": "AGI, 초지능 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.31228v1",
+      "impact": 29,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "impact": 16,
-      "reason": "에이전트 신호가 감지되어 온도를 끌어올렸습니다."
+      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.31198v1",
+      "impact": 29,
+      "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
@@ -479,15 +479,15 @@
       "title": "Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks",
       "source": "Hacker News",
       "url": "https://www.far.ai/research/prefill-level-jailbreak-a-black-box-risk-analysis-of-large-language-models",
-      "impact": -6,
+      "impact": -4,
       "reason": "공격/악용, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
-      "title": "I've never hunted for a software vulnerability. AI helped me find one in 6 hrs",
-      "source": "Hacker News",
-      "url": "https://cyberscoop.com/finding-software-vulnerability-with-ai-wordpress-patchstack/",
-      "impact": -3,
-      "reason": "취약점 이슈가 있어 감속 신호로 분류했습니다."
+      "title": "Comparing AI R&D compute caps and deployment lags",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags",
+      "impact": 4,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
