@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T11:35:06.462Z",
-  "generatedAtKst": "2026. 11. 27. 20:35",
-  "nextUpdateAt": "2026-11-27T15:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 28. 00:00",
+  "generatedAt": "2026-11-27T23:04:16.526Z",
+  "generatedAtKst": "2026. 11. 28. 08:04",
+  "nextUpdateAt": "2026-11-28T03:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 28. 12:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -26,7 +26,7 @@
     "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
     "hotCount": 37,
-    "coldCount": 8,
+    "coldCount": 6,
     "summary": "가속 신호 37건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
@@ -47,9 +47,9 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 46,
-      "delta": -1,
-      "tone": "watch"
+      "value": 58,
+      "delta": 2,
+      "tone": "hot"
     },
     {
       "key": "adoption",
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 73,
+      "score": 72,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-24T13:00:00.000Z",
           "publishedAtKst": "2026. 11. 24. 22:00",
           "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-          "impact": 17,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-24T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 24. 09:00",
           "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-          "impact": 17,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -111,22 +111,6 @@
             "모델"
           ],
           "why": "추론, ChatGPT 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "How iFood scales coding agents across 15,000 repositories",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/ifood",
-          "publishedAt": "2026-11-24T00:00:00.000Z",
-          "publishedAtKst": "2026. 11. 24. 09:00",
-          "summary": "",
-          "impact": 15,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "코딩 에이전트"
-          ],
-          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
@@ -145,6 +129,22 @@
             "SOTA"
           ],
           "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "publishedAtKst": "2026. 11. 24. 09:00",
+          "summary": "",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "코딩 에이전트"
+          ],
+          "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Richpanel helps companies automate 50% of support in 30 days",
@@ -168,12 +168,30 @@
       "key": "academic",
       "label": "학계소식",
       "description": "AI 연구기관, 평가기관, 장기 지표",
-      "score": 71,
-      "delta": 5,
+      "score": 77,
+      "delta": 7,
       "weight": 0.18,
-      "confidence": 80,
+      "confidence": 81,
       "trend": "hot",
       "items": [
+        {
+          "title": "I don’t expect superposition in transformer MLP neurons",
+          "source": "Alignment Forum",
+          "url": "https://www.alignmentforum.org/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons",
+          "publishedAt": "2026-11-27T12:44:01.000Z",
+          "publishedAtKst": "2026. 11. 27. 21:44",
+          "summary": "I currently believe that in a typical (well trained and under-parametrized) transformer model, there is something like superposition-type compression in the residual stream, but not in the MLP neurons. By \"superposition-",
+          "impact": 30,
+          "confidence": 82,
+          "stance": "accelerate",
+          "tags": [
+            "Claude",
+            "LLM",
+            "모델",
+            "컴퓨트"
+          ],
+          "why": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
+        },
         {
           "title": "Notes on Take-Off Speeds and RSI",
           "source": "Alignment Forum",
@@ -245,23 +263,6 @@
             "GPT"
           ],
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Meta Superintelligence &#8211; Leadership Compute, Talent, and Data",
-          "source": "SemiAnalysis",
-          "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-          "publishedAt": "2025-07-11T20:12:19.000Z",
-          "publishedAtKst": "2025. 07. 12. 05:12",
-          "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation ",
-          "impact": 11,
-          "confidence": 77,
-          "stance": "watch",
-          "tags": [
-            "초지능",
-            "모델",
-            "컴퓨트"
-          ],
-          "why": "큰 날짜 변동보다는 관측 로그에 반영할 신호입니다."
         }
       ]
     },
@@ -269,10 +270,10 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 87,
+      "score": 84,
       "delta": 9,
       "weight": 0.28,
-      "confidence": 92,
+      "confidence": 90,
       "trend": "hot",
       "items": [
         {
@@ -282,7 +283,7 @@
           "publishedAt": "2026-11-25T18:01:22.000Z",
           "publishedAtKst": "2026. 11. 26. 03:01",
           "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is consi",
-          "impact": 36,
+          "impact": 35,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -300,7 +301,7 @@
           "publishedAt": "2026-11-25T18:37:06.000Z",
           "publishedAtKst": "2026. 11. 26. 03:37",
           "summary": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribut",
-          "impact": 34,
+          "impact": 30,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -318,8 +319,8 @@
           "publishedAt": "2026-11-25T18:29:36.000Z",
           "publishedAtKst": "2026. 11. 26. 03:29",
           "summary": "We introduce BOP-Refer, the first benchmark for monocular 3D and 2D grounding of everyday and industrial objects sourced from 9 diverse BOP datasets. We pair images from these datasets with VLM-generated and human-verifi",
-          "impact": 26,
-          "confidence": 92,
+          "impact": 23,
+          "confidence": 90,
           "stance": "accelerate",
           "tags": [
             "GPT",
@@ -336,8 +337,8 @@
           "publishedAt": "2026-11-25T18:59:11.000Z",
           "publishedAtKst": "2026. 11. 26. 03:59",
           "summary": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte ",
-          "impact": 24,
-          "confidence": 91,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -354,8 +355,8 @@
           "publishedAt": "2026-11-25T18:23:07.000Z",
           "publishedAtKst": "2026. 11. 26. 03:23",
           "summary": "Large language models (LLMs) are increasingly applied to time series reasoning. However, current evaluations often give models events in chronological order and already matched to the time series. This makes it unclear w",
-          "impact": 24,
-          "confidence": 91,
+          "impact": 22,
+          "confidence": 88,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -374,7 +375,7 @@
       "score": 61,
       "delta": 3,
       "weight": 0.2,
-      "confidence": 53,
+      "confidence": 54,
       "trend": "hot",
       "items": [
         {
@@ -383,9 +384,9 @@
           "url": "https://news.ycombinator.com/item?id=50665232",
           "publishedAt": "2026-11-27T10:27:39.000Z",
           "publishedAtKst": "2026. 11. 27. 19:27",
-          "summary": "3 points, 1 comments",
-          "impact": 17,
-          "confidence": 59,
+          "summary": "5 points, 4 comments",
+          "impact": 15,
+          "confidence": 57,
           "stance": "accelerate",
           "tags": [
             "에이전트",
@@ -394,11 +395,11 @@
           "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "60,778 open math problems. Point your agent at one",
+          "title": "CTronik Synapse Gateway– Open-source agentic gateway and secure MFT protocol.)",
           "source": "Hacker News",
-          "url": "https://lefttosolve.com/",
-          "publishedAt": "2026-11-27T11:33:32.000Z",
-          "publishedAtKst": "2026. 11. 27. 20:33",
+          "url": "https://github.com/ctronikstudio-74/SynapseGateway",
+          "publishedAt": "2026-11-27T22:16:46.000Z",
+          "publishedAtKst": "2026. 11. 28. 07:16",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
@@ -409,29 +410,14 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "AI used to make Intel Gaudi2 chips outperform Nvidia H100",
+          "title": "The agent tax has arrived: Google Workspace's MCP pricing",
           "source": "Hacker News",
-          "url": "https://standardkernel.com/blog/intel-gaudi2-outperforms-h100/",
-          "publishedAt": "2026-11-27T10:58:56.000Z",
-          "publishedAtKst": "2026. 11. 27. 19:58",
-          "summary": "1 points, 0 comments",
-          "impact": 9,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "성능 향상"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Evalkit for Improving Your Agents",
-          "source": "Hacker News",
-          "url": "https://inferedge-ai.github.io/evalkit/",
-          "publishedAt": "2026-11-26T13:49:24.000Z",
-          "publishedAtKst": "2026. 11. 26. 22:49",
-          "summary": "4 points, 0 comments",
-          "impact": 9,
-          "confidence": 51,
+          "url": "https://martinalderson.com/posts/the-agent-tax-has-arrived/",
+          "publishedAt": "2026-11-27T21:45:07.000Z",
+          "publishedAtKst": "2026. 11. 28. 06:45",
+          "summary": "3 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
             "에이전트"
@@ -439,18 +425,32 @@
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
         {
-          "title": "RealPCB: A benchmark for AI agents laying out real production circuit boards",
+          "title": "Show HN: I gave my AI Agents Production backed Memory",
           "source": "Hacker News",
-          "url": "https://www.esunalabs.com/realpcb/",
-          "publishedAt": "2026-11-24T20:22:58.000Z",
-          "publishedAtKst": "2026. 11. 25. 05:22",
-          "summary": "2 points, 1 comments",
-          "impact": 9,
-          "confidence": 49,
+          "url": "https://usecodela.com/",
+          "publishedAt": "2026-11-27T19:58:45.000Z",
+          "publishedAtKst": "2026. 11. 28. 04:58",
+          "summary": "1 points, 0 comments",
+          "impact": 10,
+          "confidence": 53,
           "stance": "watch",
           "tags": [
-            "에이전트",
-            "벤치마크"
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Open-Sourced Code Mode to Cut ~60% of My Rust Agent's Token Burn",
+          "source": "Hacker News",
+          "url": "https://github.com/legend-of-alan/ghostmode",
+          "publishedAt": "2026-11-27T11:51:03.000Z",
+          "publishedAtKst": "2026. 11. 27. 20:51",
+          "summary": "2 points, 4 comments",
+          "impact": 9,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -462,45 +462,45 @@
       "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.34813v1",
-      "impact": 36,
+      "impact": 35,
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
+      "title": "I don’t expect superposition in transformer MLP neurons",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons",
+      "impact": 30,
+      "reason": "Claude, LLM 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
       "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.34875v1",
-      "impact": 34,
+      "impact": 30,
       "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
-      "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.34862v1",
-      "impact": 26,
-      "reason": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
-    {
-      "title": "Electronics makers set up memory 'war rooms' amid worst DRAM shortage in history",
-      "source": "Hacker News",
-      "url": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
-      "impact": -2,
-      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Inflation Hits Highest Since May as Energy Prices Surge",
-      "source": "Hacker News",
-      "url": "https://finance.yahoo.com/economy/articles/inflation-hits-highest-since-may-123148009.html",
-      "impact": -2,
-      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
-    },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
       "impact": 4,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Was I wrong about open models & cyber risks?",
+      "source": "Interconnects",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "impact": 5,
+      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Comparing AI R&D compute caps and deployment lags",
+      "source": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags",
+      "impact": 5,
+      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
