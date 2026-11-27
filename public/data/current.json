@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T23:24:31.288Z",
-  "generatedAtKst": "2026. 11. 27. 08:24",
-  "nextUpdateAt": "2026-11-27T03:00:00.000Z",
-  "nextUpdateAtKst": "2026. 11. 27. 12:00",
+  "generatedAt": "2026-11-27T11:35:06.462Z",
+  "generatedAtKst": "2026. 11. 27. 20:35",
+  "nextUpdateAt": "2026-11-27T15:00:00.000Z",
+  "nextUpdateAtKst": "2026. 11. 28. 00:00",
   "timezone": "Asia/Seoul",
   "updateSlotsKst": [
     "06:00",
@@ -12,22 +12,22 @@
   ],
   "singularity": {
     "definition": "AI가 AI 연구와 소프트웨어 생산의 상당 부분을 자율적으로 가속하는 변곡점",
-    "medianDate": "2032-12-02",
+    "medianDate": "2033-01-16",
     "rangeStart": "2027-01-01",
-    "rangeEnd": "2039-11-06",
-    "dday": 2198,
+    "rangeEnd": "2039-12-21",
+    "dday": 2242,
     "confidence": 76,
-    "deltaDays": -37,
+    "deltaDays": -36,
     "disclaimer": "실험적 모멘텀 지표입니다. 실제 예언이나 투자 판단 근거가 아닙니다."
   },
   "season": {
     "label": "여름",
-    "score": 75,
-    "temperature": 53,
+    "score": 74,
+    "temperature": 52,
     "tone": "가속 신호가 더 뜨겁습니다",
-    "hotCount": 41,
-    "coldCount": 6,
-    "summary": "가속 신호 41건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
+    "hotCount": 37,
+    "coldCount": 8,
+    "summary": "가속 신호 37건이 우세합니다. 새 모델, 에이전트, 연구 자동화 키워드가 온도를 올렸습니다."
   },
   "axes": [
     {
@@ -47,9 +47,9 @@
     {
       "key": "infra",
       "label": "컴퓨트/인프라",
-      "value": 58,
-      "delta": 2,
-      "tone": "hot"
+      "value": 46,
+      "delta": -1,
+      "tone": "watch"
     },
     {
       "key": "adoption",
@@ -71,7 +71,7 @@
       "key": "major",
       "label": "중요소식",
       "description": "공식 발표, 주요 AI 기업, 글로벌 뉴스 흐름",
-      "score": 74,
+      "score": 73,
       "delta": 6,
       "weight": 0.34,
       "confidence": 92,
@@ -84,7 +84,7 @@
           "publishedAt": "2026-11-24T13:00:00.000Z",
           "publishedAtKst": "2026. 11. 24. 22:00",
           "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-          "impact": 19,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -101,7 +101,7 @@
           "publishedAt": "2026-11-24T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 24. 09:00",
           "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-          "impact": 19,
+          "impact": 17,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -119,7 +119,7 @@
           "publishedAt": "2026-11-24T00:00:00.000Z",
           "publishedAtKst": "2026. 11. 24. 09:00",
           "summary": "",
-          "impact": 16,
+          "impact": 15,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -127,22 +127,6 @@
             "코딩 에이전트"
           ],
           "why": "에이전트, 코딩 에이전트 신호가 감지되어 온도를 끌어올렸습니다."
-        },
-        {
-          "title": "Richpanel helps companies automate 50% of support in 30 days",
-          "source": "OpenAI News",
-          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-          "publishedAt": "2026-11-23T08:00:00.000Z",
-          "publishedAtKst": "2026. 11. 23. 17:00",
-          "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-          "impact": 14,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "GPT"
-          ],
-          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
           "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
@@ -161,6 +145,22 @@
             "SOTA"
           ],
           "why": "Gemini, 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "source": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "publishedAt": "2026-11-23T08:00:00.000Z",
+          "publishedAtKst": "2026. 11. 23. 17:00",
+          "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+          "impact": 13,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "GPT"
+          ],
+          "why": "에이전트, GPT 신호가 감지되어 온도를 끌어올렸습니다."
         }
       ]
     },
@@ -269,30 +269,12 @@
       "key": "papers",
       "label": "논문",
       "description": "arXiv 최신 논문과 연구 주제 변화",
-      "score": 89,
-      "delta": 10,
+      "score": 87,
+      "delta": 9,
       "weight": 0.28,
       "confidence": 92,
       "trend": "hot",
       "items": [
-        {
-          "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2611.34875v1",
-          "publishedAt": "2026-11-25T18:37:06.000Z",
-          "publishedAtKst": "2026. 11. 26. 03:37",
-          "summary": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribut",
-          "impact": 36,
-          "confidence": 92,
-          "stance": "accelerate",
-          "tags": [
-            "에이전트",
-            "프런티어 모델",
-            "코딩 에이전트",
-            "모델"
-          ],
-          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-        },
         {
           "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
           "source": "arXiv",
@@ -312,13 +294,31 @@
           "why": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
+          "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2611.34875v1",
+          "publishedAt": "2026-11-25T18:37:06.000Z",
+          "publishedAtKst": "2026. 11. 26. 03:37",
+          "summary": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribut",
+          "impact": 34,
+          "confidence": 92,
+          "stance": "accelerate",
+          "tags": [
+            "에이전트",
+            "프런티어 모델",
+            "코딩 에이전트",
+            "모델"
+          ],
+          "why": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+        },
+        {
           "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
           "source": "arXiv",
           "url": "http://arxiv.org/abs/2611.34862v1",
           "publishedAt": "2026-11-25T18:29:36.000Z",
           "publishedAtKst": "2026. 11. 26. 03:29",
           "summary": "We introduce BOP-Refer, the first benchmark for monocular 3D and 2D grounding of everyday and industrial objects sourced from 9 diverse BOP datasets. We pair images from these datasets with VLM-generated and human-verifi",
-          "impact": 29,
+          "impact": 26,
           "confidence": 92,
           "stance": "accelerate",
           "tags": [
@@ -336,8 +336,8 @@
           "publishedAt": "2026-11-25T18:59:11.000Z",
           "publishedAtKst": "2026. 11. 26. 03:59",
           "summary": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte ",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -354,8 +354,8 @@
           "publishedAt": "2026-11-25T18:23:07.000Z",
           "publishedAtKst": "2026. 11. 26. 03:23",
           "summary": "Large language models (LLMs) are increasingly applied to time series reasoning. However, current evaluations often give models events in chronological order and already matched to the time series. This makes it unclear w",
-          "impact": 27,
-          "confidence": 92,
+          "impact": 24,
+          "confidence": 91,
           "stance": "accelerate",
           "tags": [
             "추론",
@@ -378,32 +378,63 @@
       "trend": "hot",
       "items": [
         {
-          "title": "Radiation-free CT-like bone imaging using UTE (ultrashort echo-time) MRI",
+          "title": "Ask HN: Is Claude Code nerfing AI and agent-harness projects?",
           "source": "Hacker News",
-          "url": "https://hdocmsu.github.io/projects/canon_2_ute/",
-          "publishedAt": "2026-11-26T23:08:45.000Z",
-          "publishedAtKst": "2026. 11. 27. 08:08",
-          "summary": "2 points, 1 comments",
-          "impact": 16,
-          "confidence": 58,
+          "url": "https://news.ycombinator.com/item?id=50665232",
+          "publishedAt": "2026-11-27T10:27:39.000Z",
+          "publishedAtKst": "2026. 11. 27. 19:27",
+          "summary": "3 points, 1 comments",
+          "impact": 17,
+          "confidence": 59,
           "stance": "accelerate",
           "tags": [
-            "AGI"
+            "에이전트",
+            "Claude"
           ],
-          "why": "AGI 신호가 감지되어 온도를 끌어올렸습니다."
+          "why": "에이전트, Claude 신호가 감지되어 온도를 끌어올렸습니다."
         },
         {
-          "title": "Show HN: Kaju – Annotate, comment and collaborate with Claude Code",
+          "title": "60,778 open math problems. Point your agent at one",
           "source": "Hacker News",
-          "url": "https://github.com/aigeano/kaju",
-          "publishedAt": "2026-11-26T23:03:42.000Z",
-          "publishedAtKst": "2026. 11. 27. 08:03",
+          "url": "https://lefttosolve.com/",
+          "publishedAt": "2026-11-27T11:33:32.000Z",
+          "publishedAtKst": "2026. 11. 27. 20:33",
           "summary": "1 points, 0 comments",
           "impact": 10,
           "confidence": 53,
           "stance": "watch",
           "tags": [
-            "Claude"
+            "에이전트"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "AI used to make Intel Gaudi2 chips outperform Nvidia H100",
+          "source": "Hacker News",
+          "url": "https://standardkernel.com/blog/intel-gaudi2-outperforms-h100/",
+          "publishedAt": "2026-11-27T10:58:56.000Z",
+          "publishedAtKst": "2026. 11. 27. 19:58",
+          "summary": "1 points, 0 comments",
+          "impact": 9,
+          "confidence": 52,
+          "stance": "watch",
+          "tags": [
+            "성능 향상"
+          ],
+          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
+        },
+        {
+          "title": "Show HN: Evalkit for Improving Your Agents",
+          "source": "Hacker News",
+          "url": "https://inferedge-ai.github.io/evalkit/",
+          "publishedAt": "2026-11-26T13:49:24.000Z",
+          "publishedAtKst": "2026. 11. 26. 22:49",
+          "summary": "4 points, 0 comments",
+          "impact": 9,
+          "confidence": 51,
+          "stance": "watch",
+          "tags": [
+            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         },
@@ -414,42 +445,12 @@
           "publishedAt": "2026-11-24T20:22:58.000Z",
           "publishedAtKst": "2026. 11. 25. 05:22",
           "summary": "2 points, 1 comments",
-          "impact": 10,
-          "confidence": 51,
+          "impact": 9,
+          "confidence": 49,
           "stance": "watch",
           "tags": [
             "에이전트",
             "벤치마크"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Evalkit for Improving Your Agents",
-          "source": "Hacker News",
-          "url": "https://inferedge-ai.github.io/evalkit/",
-          "publishedAt": "2026-11-26T13:49:24.000Z",
-          "publishedAtKst": "2026. 11. 26. 22:49",
-          "summary": "3 points, 0 comments",
-          "impact": 9,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
-          ],
-          "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
-        },
-        {
-          "title": "Show HN: Talira – Search engine for software, built for AI agents",
-          "source": "Hacker News",
-          "url": "https://talira.ai/",
-          "publishedAt": "2026-11-26T04:37:30.000Z",
-          "publishedAtKst": "2026. 11. 26. 13:37",
-          "summary": "1 points, 0 comments",
-          "impact": 9,
-          "confidence": 52,
-          "stance": "watch",
-          "tags": [
-            "에이전트"
           ],
           "why": "커뮤니티 관심도는 보조 지표로만 반영했습니다."
         }
@@ -458,13 +459,6 @@
   ],
   "topDrivers": [
     {
-      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-      "source": "arXiv",
-      "url": "http://arxiv.org/abs/2611.34875v1",
-      "impact": 36,
-      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
-    },
-    {
       "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.34813v1",
@@ -472,34 +466,41 @@
       "reason": "에이전트, 추론 신호가 감지되어 온도를 끌어올렸습니다."
     },
     {
+      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2611.34875v1",
+      "impact": 34,
+      "reason": "에이전트, 프런티어 모델 신호가 감지되어 온도를 끌어올렸습니다."
+    },
+    {
       "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
       "source": "arXiv",
       "url": "http://arxiv.org/abs/2611.34862v1",
-      "impact": 29,
+      "impact": 26,
       "reason": "GPT, Gemini 신호가 감지되어 온도를 끌어올렸습니다."
     }
   ],
   "topDampeners": [
+    {
+      "title": "Electronics makers set up memory 'war rooms' amid worst DRAM shortage in history",
+      "source": "Hacker News",
+      "url": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
+      "impact": -2,
+      "reason": "공급 병목 이슈가 있어 감속 신호로 분류했습니다."
+    },
+    {
+      "title": "Inflation Hits Highest Since May as Energy Prices Surge",
+      "source": "Hacker News",
+      "url": "https://finance.yahoo.com/economy/articles/inflation-hits-highest-since-may-123148009.html",
+      "impact": -2,
+      "reason": "전력 병목 이슈가 있어 감속 신호로 분류했습니다."
+    },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
       "source": "Alignment Forum",
       "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
       "impact": 4,
       "reason": "공격/악용, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "impact": 5,
-      "reason": "취약점, 위험 이슈가 있어 감속 신호로 분류했습니다."
-    },
-    {
-      "title": "Comparing AI R&D compute caps and deployment lags",
-      "source": "Alignment Forum",
-      "url": "https://www.alignmentforum.org/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags",
-      "impact": 5,
-      "reason": "안전 이슈, 공격/악용 이슈가 있어 감속 신호로 분류했습니다."
     }
   ],
   "methodology": {
